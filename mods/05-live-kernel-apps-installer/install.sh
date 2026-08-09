@@ -9,6 +9,9 @@ wait_network
 print_ok "Installing Casper (live boot)..."
 apt install -y \
     casper \
+    linux-image-generic \
+    linux-headers-generic \
+    zstd \
     discover \
     laptop-detect \
     os-prober \
@@ -51,7 +54,7 @@ judge "Install anduinos-installer-beta"
 # Carry the Btrfs recovery UI inside the ISO without making it a desktop
 # metapackage dependency. The native installer retains this package for Btrfs
 # targets and purges it from ext4 targets through its explicit cleanup policy.
-print_ok "Installing conditional Disk Snapshots Manager payload..."
-apt install -y anduinos-btrfs-snapshots-manager \
-    --no-install-recommends
-judge "Install anduinos-btrfs-snapshots-manager payload"
+#print_ok "Installing conditional Disk Snapshots Manager payload..."
+# apt install -y anduinos-btrfs-snapshots-manager \
+#    --no-install-recommends
+# judge "Install anduinos-btrfs-snapshots-manager payload"
