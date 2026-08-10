@@ -19,6 +19,9 @@ apt install -y \
     --no-install-recommends
 judge "Install live-boot"
 
+print_ok "Updating apt package list..."
+apt update || true
+
 print_ok "Installing anduinos-desktop (full AnduinOS desktop metapackage)..."
 # DKMS legitimately needs gcc/make/dpkg-dev, but dpkg-dev only recommends the
 # unrelated build-essential C++ stack. Keep that soft dependency out of the ISO.
