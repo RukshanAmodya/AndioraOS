@@ -53,9 +53,10 @@ print_ok "Attempting to install optional plymouth-anduinos branding..."
 apt install -y plymouth-anduinos --no-install-recommends || print_warn "plymouth-anduinos package not found, using stock plymouth."
 
 print_ok "Installing AnduinOS native installer..."
-apt install -y anduinos-installer-beta \
-    --no-install-recommends
-judge "Install anduinos-installer-beta"
+apt install -y anduinos-installer-beta --no-install-recommends || \
+apt install -y anduinos-installer-config --no-install-recommends || \
+print_warn "Neither anduinos-installer-beta nor anduinos-installer-config found."
+judge "Install AnduinOS installer"
 
 # Carry the Btrfs recovery UI inside the ISO without making it a desktop
 # metapackage dependency. The native installer retains this package for Btrfs
