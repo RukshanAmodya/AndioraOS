@@ -112,11 +112,11 @@ export APT_SOURCE="http://archive.ubuntu.com/ubuntu/"
 
 # This is the name of the target OS.
 # Must be lowercase without special characters and spaces
-export TARGET_NAME="anduinos"
+export TARGET_NAME="andiora"
 
 # This is the full display name of the target OS.
 # Business name. No special characters or spaces
-export TARGET_BUSINESS_NAME="AnduinOS"
+export TARGET_BUSINESS_NAME="Andiora"
 
 # Version number. Must be in the format of x.y.z
 export TARGET_BUILD_VERSION="2.0.1"
