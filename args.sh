@@ -101,7 +101,7 @@ el_GR|Greek
 # If you are building against Ubuntu 25.10, this should be "questing".
 # If you are building against Ubuntu 26.04, this should be "resolute".
 # Can be: jammy noble oracular plucky questing resolute
-export TARGET_UBUNTU_VERSION="resolute"
+export TARGET_UBUNTU_VERSION="noble"
 
 # This is the apt source for both the build process and the live system.
 # It can be any Ubuntu mirror that you prefer.
