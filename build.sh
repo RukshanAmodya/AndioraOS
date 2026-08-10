@@ -119,12 +119,13 @@ EOF
         sudo tee "$keyring_path" > /dev/null
     judge "Download and dearmor keyring"
 
-    print_ok "Generating anduinos.sources for $APKG_SERVER (suite: $TARGET_UBUNTU_VERSION-addon)..."
+    local apkg_suite="${APKG_SUITE:-${TARGET_UBUNTU_VERSION}-addon}"
+    print_ok "Generating anduinos.sources for $APKG_SERVER (suite: $apkg_suite)..."
     sudo mkdir -p new_building_os/etc/apt/sources.list.d
     sudo tee new_building_os/etc/apt/sources.list.d/anduinos.sources > /dev/null <<EOF
 Types: deb
 URIs: $APKG_SERVER/artifacts/anduinos/
-Suites: $TARGET_UBUNTU_VERSION-addon
+Suites: $apkg_suite
 Components: main
 Architectures: $TARGET_ARCH
 Signed-By: /usr/share/keyrings/anduinos-archive-keyring.gpg

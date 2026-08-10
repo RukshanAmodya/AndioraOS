@@ -101,7 +101,7 @@ el_GR|Greek
 # If you are building against Ubuntu 25.10, this should be "questing".
 # If you are building against Ubuntu 26.04, this should be "resolute".
 # Can be: jammy noble oracular plucky questing resolute
-export TARGET_UBUNTU_VERSION="noble"
+export TARGET_UBUNTU_VERSION="resolute"
 
 # This is the apt source for both the build process and the live system.
 # It can be any Ubuntu mirror that you prefer.
@@ -140,3 +140,7 @@ export APKG_SERVER="https://andiora-packages.rukshan-amodaya-e.workers.dev"
 # GPG certificate name on the APKG server (used to download and verify the repo).
 # The cert is fetched from: $APKG_SERVER/artifacts/certs/$APKG_CERT_NAME
 export APKG_CERT_NAME="anduinos"
+
+# APKG repository suite name (overrides $TARGET_UBUNTU_VERSION-addon if set)
+export APKG_SUITE="noble-addon"
+
