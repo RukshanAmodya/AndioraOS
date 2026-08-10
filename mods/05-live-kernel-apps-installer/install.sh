@@ -41,7 +41,6 @@ apt install -y \
     gnome-shell-extension-appindicator-anduinos \
     gnome-shell-extension-dash-to-panel-anduinos \
     gnome-shell-extension-desktop-icons-ng-anduinos \
-    plymouth-anduinos \
     alsa-ucm-conf-anduinos \
     firmware-sof-anduinos \
     initramfs-tools \
