@@ -142,5 +142,5 @@ export APKG_SERVER="https://andiora-packages.rukshan-amodaya-e.workers.dev"
 export APKG_CERT_NAME="anduinos"
 
 # APKG repository suite name (overrides $TARGET_UBUNTU_VERSION-addon if set)
-export APKG_SUITE="noble-addon"
+export APKG_SUITE="resolute-addon"
 
