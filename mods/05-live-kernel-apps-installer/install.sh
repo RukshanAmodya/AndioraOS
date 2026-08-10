@@ -41,12 +41,16 @@ apt install -y \
     gnome-shell-extension-appindicator-anduinos \
     gnome-shell-extension-dash-to-panel-anduinos \
     gnome-shell-extension-desktop-icons-ng-anduinos \
+    plymouth \
     alsa-ucm-conf-anduinos \
     firmware-sof-anduinos \
     initramfs-tools \
     build-essential- \
     --install-recommends
 judge "Install anduinos-desktop"
+
+print_ok "Attempting to install optional plymouth-anduinos branding..."
+apt install -y plymouth-anduinos --no-install-recommends || print_warn "plymouth-anduinos package not found, using stock plymouth."
 
 print_ok "Installing AnduinOS native installer..."
 apt install -y anduinos-installer-beta \
