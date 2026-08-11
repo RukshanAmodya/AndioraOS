@@ -52,10 +52,13 @@ judge "Install anduinos-desktop"
 print_ok "Attempting to install optional plymouth-andiora branding..."
 apt install -y plymouth-andiora --no-install-recommends || \
 apt install -y plymouth-anduinos --no-install-recommends || \
+dpkg -i /andiora_local_repo/plymouth-andiora*.deb 2>/dev/null || \
 print_warn "plymouth-andiora package not found, using stock plymouth."
 
 print_ok "Installing local Andiora branding overrides (dconf-defaults & oobe)..."
 apt install -y andiora-dconf-defaults andiora-oobe --no-install-recommends || \
+apt install -y anduinos-dconf-defaults anduinos-oobe --no-install-recommends || \
+(dpkg -i /andiora_local_repo/andiora-dconf-defaults*.deb /andiora_local_repo/andiora-oobe*.deb 2>/dev/null) || \
 print_warn "Local Andiora branding packages not found."
 
 print_ok "Installing AnduinOS native installer..."
