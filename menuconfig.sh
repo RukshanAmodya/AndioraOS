@@ -116,8 +116,8 @@ edit_repos() {
             aptcfg)
                 local choice
                 choice=$($DIALOG --title "APT Config Package" --menu "Choose:" 0 0 2 \
-                    "anduinos-apt-config"     "Production" \
-                    "anduinos-apt-config-dev" "Development" 3>&1 1>&2 2>&3) && set_val APT_CONFIG_PACKAGE "$choice"
+                    "andiora-apt-config"     "Production" \
+                    "andiora-apt-config-dev" "Development" 3>&1 1>&2 2>&3) && set_val APT_CONFIG_PACKAGE "$choice"
                 ;;
             back|"") return ;;
         esac
