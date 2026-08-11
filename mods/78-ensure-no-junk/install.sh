@@ -61,7 +61,7 @@ packages=(
     ubiquity-frontend-gtk
     ubiquity-ubuntu-artwork
     ubiquity-slideshow-ubuntu
-    anduinos-installer-config
+    andiora-installer-config
     anduinos-bwrap-hack
 
     # ── Packages replaced by AnduinOS forks ───────────────────
