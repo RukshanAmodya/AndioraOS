@@ -122,10 +122,11 @@ EOF
         sudo mkdir -p "$local_debs_chroot"
         sudo cp "$local_debs_host"/*.deb "$local_debs_chroot/" 2>/dev/null || true
 
-        # Generate Packages index inside chroot
+        # Generate Packages and Packages.gz index inside chroot
         sudo chroot new_building_os bash -c \
-            'apt-get install -y --no-install-recommends dpkg-dev 2>/dev/null || true ; \
-             cd /andiora_local_repo && dpkg-scanpackages . > Packages 2>/dev/null'
+            'apt-get update >/dev/null 2>&1 || true ; \
+             apt-get install -y --no-install-recommends dpkg-dev >/dev/null 2>&1 || true ; \
+             cd /andiora_local_repo && dpkg-scanpackages . /dev/null > Packages 2>/dev/null && gzip -9c Packages > Packages.gz'
 
         # Add local repo as highest-priority apt source
         sudo mkdir -p new_building_os/etc/apt/sources.list.d
@@ -140,6 +141,10 @@ Pin-Priority: 1001
 PINEOF
 
         print_ok "Local Andiora apt repo configured ($(ls "$local_debs_host"/*.deb 2>/dev/null | wc -l) packages)."
+        
+        # Immediate update so chroot APT indexes local packages
+        sudo chroot new_building_os apt-get update || true
+
     else
         print_warn "No local .deb packages found in $local_debs_host — falling back to web APKG server."
 
