@@ -237,10 +237,10 @@ function prepare_live_grub_font() {
         image/boot/grub/fonts
     grub-mkfont \
         --size="28" \
-        --output="image/isolinux/anduinos-unicode-28.pf2" \
+        --output="image/isolinux/andiora-unicode-28.pf2" \
         "/usr/share/fonts/opentype/unifont/unifont.otf"
-    cp "image/isolinux/anduinos-unicode-28.pf2" \
-        "image/boot/grub/fonts/anduinos-unicode-28.pf2"
+    cp "image/isolinux/andiora-unicode-28.pf2" \
+        "image/boot/grub/fonts/andiora-unicode-28.pf2"
     judge "Prepare readable Live GRUB font"
 }
 
@@ -338,9 +338,9 @@ set gfxmode=1440x900,1280x800,1280x720,1024x768,auto
 insmod all_video
 insmod gfxterm
 insmod font
-if loadfont /boot/grub/fonts/anduinos-unicode-28.pf2 ; then
+if loadfont /boot/grub/fonts/andiora-unicode-28.pf2 ; then
     terminal_output gfxterm
-elif loadfont /isolinux/anduinos-unicode-28.pf2 ; then
+elif loadfont /isolinux/andiora-unicode-28.pf2 ; then
     terminal_output gfxterm
 fi
 

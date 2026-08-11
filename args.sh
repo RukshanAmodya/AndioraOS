@@ -128,18 +128,18 @@ export TARGET_BUILD_VERSION="2.0.1"
 export TARGET_ARCH="${TARGET_ARCH:-$(dpkg --print-architecture)}"
 
 #============================
-# AnduinOS APKG server configuration
+# Andiora APKG server configuration
 #============================
 
-# AnduinOS APT config package name (can also be anduinos-apt-config-dev).
-export APT_CONFIG_PACKAGE="anduinos-apt-config"
+# Andiora APT config package name (can also be andiora-apt-config-dev).
+export APT_CONFIG_PACKAGE="andiora-apt-config"
 
-# APKG server URL for AnduinOS-branded overlay packages (dev: apkg-dev.aiursoft.com).
+# APKG server URL for Andiora-branded overlay packages (dev: apkg-dev.aiursoft.com).
 export APKG_SERVER="https://andiora-packages.rukshan-amodaya-e.workers.dev"
 
 # GPG certificate name on the APKG server (used to download and verify the repo).
 # The cert is fetched from: $APKG_SERVER/artifacts/certs/$APKG_CERT_NAME
-export APKG_CERT_NAME="anduinos"
+export APKG_CERT_NAME="andiora"
 
 # APKG repository suite name (overrides $TARGET_UBUNTU_VERSION-addon if set)
 export APKG_SUITE="resolute-addon"

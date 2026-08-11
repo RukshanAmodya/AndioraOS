@@ -3,13 +3,13 @@ set -e                  # exit on error
 set -o pipefail         # exit on pipeline error
 set -u                  # treat unset variable as error
 #==========================
-# Install AnduinOS swap packages
+# Install Andiora swap packages
 #==========================
 
-print_ok "Installing AnduinOS APT configuration and keyring packages..."
+print_ok "Installing Andiora APT configuration and keyring packages..."
 apt install -y \
     "$APT_CONFIG_PACKAGE" \
-    anduinos-archive-keyring \
+    andiora-archive-keyring \
     base-files
-judge "Install AnduinOS basic packages"
+judge "Install Andiora basic packages"
 

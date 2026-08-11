@@ -47,7 +47,7 @@ packages=(
     ubuntu-report
     whoopsie
 
-    # ── Ubuntu GNOME extensions (AnduinOS ships own versions) ─
+    # ── Ubuntu GNOME extensions (Andiora ships own versions) ─
     gnome-shell-ubuntu-extensions
     gnome-shell-extension-ubuntu-dock
     gnome-shell-extension-appindicator
@@ -62,9 +62,9 @@ packages=(
     ubiquity-ubuntu-artwork
     ubiquity-slideshow-ubuntu
     andiora-installer-config
-    anduinos-bwrap-hack
+    andiora-bwrap-hack
 
-    # ── Packages replaced by AnduinOS forks ───────────────────
+    # ── Packages replaced by Andiora forks ───────────────────
     firefox
     software-properties-common
     software-properties-gtk
@@ -75,7 +75,7 @@ packages=(
     # ── LibreOffice (monster package) ──────────────────────────
     libreoffice-*
 
-    # ── Alternative terminals (AnduinOS uses Ptyxis) ──────────
+    # ── Alternative terminals (Andiora uses Ptyxis) ──────────
     alacritty
     gnome-terminal
     tilix
