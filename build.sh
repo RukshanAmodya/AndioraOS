@@ -144,34 +144,31 @@ PINEOF
         
         # Immediate update so chroot APT indexes local packages
         sudo chroot new_building_os apt-get update || true
+    fi
 
-    else
-        print_warn "No local .deb packages found in $local_debs_host — falling back to web APKG server."
+    # Always configure remote APKG server (Worker) so packages not present locally can be fetched
+    local keyring_path="new_building_os/usr/share/keyrings/anduinos-archive-keyring.gpg"
+    local cert_url="$APKG_SERVER/artifacts/certs/$APKG_CERT_NAME"
 
-        local keyring_path="new_building_os/usr/share/keyrings/andiora-archive-keyring.gpg"
-        local cert_url="$APKG_SERVER/artifacts/certs/$APKG_CERT_NAME"
+    print_ok "Downloading GPG keyring from $cert_url ..."
+    sudo mkdir -p new_building_os/usr/share/keyrings
+    curl --fail --show-error --location "$cert_url" | \
+        sed '1s/^\xEF\xBB\xBF//' | \
+        gpg --dearmor | \
+        sudo tee "$keyring_path" > /dev/null || print_warn "Failed to download GPG keyring from $cert_url"
 
-        print_ok "Downloading GPG keyring from $cert_url ..."
-        sudo mkdir -p new_building_os/usr/share/keyrings
-        curl --fail --show-error --location "$cert_url" | \
-            sed '1s/^\xEF\xBB\xBF//' | \
-            gpg --dearmor | \
-            sudo tee "$keyring_path" > /dev/null
-        judge "Download and dearmor keyring"
-
-        local apkg_suite="${APKG_SUITE:-${TARGET_UBUNTU_VERSION}-addon}"
-        print_ok "Generating andiora.sources for $APKG_SERVER (suite: $apkg_suite)..."
-        sudo mkdir -p new_building_os/etc/apt/sources.list.d
-        sudo tee new_building_os/etc/apt/sources.list.d/andiora.sources > /dev/null <<EOF
+    local apkg_suite="${APKG_SUITE:-${TARGET_UBUNTU_VERSION}-addon}"
+    print_ok "Generating anduinos.sources for $APKG_SERVER (suite: $apkg_suite)..."
+    sudo mkdir -p new_building_os/etc/apt/sources.list.d
+    sudo tee new_building_os/etc/apt/sources.list.d/anduinos.sources > /dev/null <<EOF
 Types: deb
-URIs: $APKG_SERVER/artifacts/andiora/
+URIs: $APKG_SERVER/artifacts/anduinos/
 Suites: $apkg_suite
 Components: main
 Architectures: $TARGET_ARCH
-Signed-By: /usr/share/keyrings/andiora-archive-keyring.gpg
+Signed-By: /usr/share/keyrings/anduinos-archive-keyring.gpg
 EOF
-        judge "Generate sources"
-    fi
+    judge "Generate sources"
 
 
     print_ok "Enabling apt recommends in chroot..."

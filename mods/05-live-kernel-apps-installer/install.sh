@@ -22,40 +22,42 @@ judge "Install live-boot"
 print_ok "Updating apt package list..."
 apt update || true
 
-print_ok "Installing andiora-desktop (full Andiora desktop metapackage)..."
+print_ok "Installing anduinos-desktop (full AnduinOS desktop metapackage)..."
 # DKMS legitimately needs gcc/make/dpkg-dev, but dpkg-dev only recommends the
 # unrelated build-essential C++ stack. Keep that soft dependency out of the ISO.
 apt install -y \
-    andiora-desktop \
-    andiora-desktop-apps \
-    andiora-gnome-extensions \
-    andiora-appstore \
-    andiora-theme \
-    andiora-wallpapers \
-    andiora-fonts \
-    andiora-no-snapd \
-    andiora-session \
-    andiora-software-properties-common \
-    andiora-system-tweaks \
-    firefox-andiora \
-    gnome-shell-extension-appindicator-andiora \
-    gnome-shell-extension-dash-to-panel-andiora \
-    gnome-shell-extension-desktop-icons-ng-andiora \
+    anduinos-desktop \
+    anduinos-desktop-apps \
+    anduinos-gnome-extensions \
+    anduinos-appstore \
+    anduinos-theme \
+    anduinos-wallpapers \
+    anduinos-fonts \
+    anduinos-no-snapd \
+    anduinos-session \
+    anduinos-software-properties-common \
+    anduinos-system-tweaks \
+    firefox-anduinos \
+    gnome-shell-extension-appindicator-anduinos \
+    gnome-shell-extension-dash-to-panel-anduinos \
+    gnome-shell-extension-desktop-icons-ng-anduinos \
     plymouth \
-    alsa-ucm-conf-andiora \
-    firmware-sof-andiora \
+    alsa-ucm-conf-anduinos \
+    firmware-sof-anduinos \
     initramfs-tools \
     build-essential- \
     --install-recommends
-judge "Install andiora-desktop"
+judge "Install anduinos-desktop"
 
 print_ok "Attempting to install optional plymouth-andiora branding..."
-apt install -y plymouth-andiora --no-install-recommends || print_warn "plymouth-andiora package not found, using stock plymouth."
+apt install -y plymouth-andiora --no-install-recommends || \
+apt install -y plymouth-anduinos --no-install-recommends || \
+print_warn "plymouth-andiora package not found, using stock plymouth."
 
-print_ok "Installing Andiora native installer..."
-apt install -y andiora-installer-beta --no-install-recommends || \
-apt install -y andiora-installer-config --no-install-recommends || \
-print_warn "Neither andiora-installer-beta nor andiora-installer-config found."
+print_ok "Installing AnduinOS native installer..."
+apt install -y anduinos-installer-beta --no-install-recommends || \
+apt install -y anduinos-installer-config --no-install-recommends || \
+print_warn "Neither anduinos-installer-beta nor anduinos-installer-config found."
 judge "Install Andiora installer"
 
 # Carry the Btrfs recovery UI inside the ISO without making it a desktop

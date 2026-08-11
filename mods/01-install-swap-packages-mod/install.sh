@@ -6,10 +6,10 @@ set -u                  # treat unset variable as error
 # Install Andiora swap packages
 #==========================
 
-print_ok "Installing Andiora APT configuration and keyring packages..."
+print_ok "Installing AnduinOS APT configuration and keyring packages..."
 apt install -y \
     "$APT_CONFIG_PACKAGE" \
-    andiora-archive-keyring \
+    anduinos-archive-keyring \
     base-files
 judge "Install Andiora basic packages"
 
