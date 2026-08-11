@@ -61,10 +61,11 @@ apt install -y anduinos-dconf-defaults anduinos-oobe --no-install-recommends || 
 (dpkg -i /andiora_local_repo/andiora-dconf-defaults*.deb /andiora_local_repo/andiora-oobe*.deb 2>/dev/null) || \
 print_warn "Local Andiora branding packages not found."
 
-print_ok "Installing AnduinOS native installer..."
+print_ok "Installing Andiora native installer..."
+apt install -y andiora-installer-beta --no-install-recommends || \
 apt install -y anduinos-installer-beta --no-install-recommends || \
 apt install -y anduinos-installer-config --no-install-recommends || \
-print_warn "Neither anduinos-installer-beta nor anduinos-installer-config found."
+print_warn "Neither andiora-installer-beta nor anduinos-installer-beta found."
 judge "Install Andiora installer"
 
 # Carry the Btrfs recovery UI inside the ISO without making it a desktop
