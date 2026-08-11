@@ -1,0 +1,11 @@
+[Plymouth Theme]
+Name=Andiora Text
+Description=Text mode theme for Andiora fallback
+ModuleName=ubuntu-text
+
+[ubuntu-text]
+title=Andiora
+black=0x000000
+white=0xffffff
+brown=0x0078D7
+blue=0x0078D7

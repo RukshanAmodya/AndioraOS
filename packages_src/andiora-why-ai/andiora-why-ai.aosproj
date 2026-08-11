@@ -1,0 +1,47 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>andiora-why-ai</PackageName>
+    <PackageVersion>2.0.1-4+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>why — a fully offline, zero-daemon LLM CLI backed by a bundled Gemma 4 E2B model. Ask questions in plain text, pipe in context from stdin, or run --serve for an OpenAI-compatible HTTP API.</PackageDescription>
+    <Section>utils</Section>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>resolute-addon</TargetSuites>
+    <TargetArchitectures>amd64 arm64</TargetArchitectures>
+    <Component>main</Component>
+    <SuiteShortNameMap>resolute-addon=resolute</SuiteShortNameMap>
+    <Conflicts>andiora-why-placeholder</Conflicts>
+    <Replaces>andiora-why-placeholder</Replaces>
+    <Provides>andiora-why-placeholder</Provides>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <DependencyCheckSource Url="https://mirror.aiursoft.com/ubuntu" SuiteMap="resolute-addon=resolute" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Dependency Include="libvulkan1" />
+    <Dependency Include="libgomp1" />
+    <Dependency Include="libstdc++6" />
+    <Dependency Include="libgcc-s1" />
+    <Dependency Include="libc6" />
+    <Dependency Include="llama.cpp-tools" />
+    <Dependency Include="libggml0-backend-vulkan" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PrebuildCommand Run="bash download.sh" />
+    <PrebuildCommand Run="bash build.sh amd64" Condition="'$(Arch)' == 'amd64'" />
+    <PrebuildCommand Run="bash build.sh arm64" Condition="'$(Arch)' == 'arm64'" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <IncludeScript Include="obj/why" Target="/usr/bin/why" />
+    <IncludeFolder Include="obj/usr/share/andiora-why-ai" Target="/usr/share/andiora-why-ai" />
+    <IncludeFile Include="MODEL-NOTICE" Target="/usr/share/doc/andiora-why-ai/MODEL-NOTICE" />
+    <IncludeFile Include="MODEL-LICENSE" Target="/usr/share/doc/andiora-why-ai/MODEL-LICENSE" />
+  </ItemGroup>
+</Project>

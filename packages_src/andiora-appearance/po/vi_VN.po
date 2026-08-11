@@ -1,0 +1,227 @@
+# Andiora Appearance — Vietnamese translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Giới thiệu về Giao diện Andiora"
+
+msgid "Advanced"
+msgstr "Nâng cao"
+
+msgid "Andiora Appearance"
+msgstr "Giao diện Andiora"
+
+msgid "Andiora Team"
+msgstr "Đội ngũ Andiora"
+
+msgid "Appearance"
+msgstr "Giao diện"
+
+msgid "Apply to Login Screen"
+msgstr "Áp dụng cho màn hình đăng nhập"
+
+msgid "Bottom"
+msgstr "Dưới"
+
+msgid "Cancel"
+msgstr "Hủy"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Chọn ảnh cho nền màn hình đăng nhập GDM."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Chọn kiểu hiển thị cho thanh tác vụ của bạn."
+
+msgid "Choose…"
+msgstr "Chọn…"
+
+msgid "Classic"
+msgstr "Cổ điển"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Gộp nhiều cửa sổ của một ứng dụng vào một biểu tượng"
+
+msgid "Danger Zone"
+msgstr "Vùng nguy hiểm"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Hiển thị nút Hoạt động trên thanh tác vụ"
+
+msgid "Enable grouping"
+msgstr "Bật nhóm"
+
+msgid "Extension Settings"
+msgstr "Cài tiện ích mở rộng"
+
+msgid "GDM Wallpaper"
+msgstr "Hình nền GDM"
+
+msgid "Group apps"
+msgstr "Nhóm ứng dụng"
+
+msgid "Images"
+msgstr "Ảnh"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Tách trình khởi chạy khỏi ứng dụng đang chạy"
+
+msgid "Layout"
+msgstr "Bố cục"
+
+msgid "Left"
+msgstr "Trái"
+
+msgid "Login Screen Wallpaper"
+msgstr "Hình nền màn hình đăng nhập"
+
+msgid "Open"
+msgstr "Mở"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Mở cửa sổ tùy chọn của các tiện ích thanh công cụ."
+
+msgid "Panel Indicators"
+msgstr "Biểu tượng trên thanh"
+
+msgid "Panel Widgets"
+msgstr "Tiện ích trên thanh"
+
+msgid "Preview"
+msgstr "Xem trước"
+
+msgid "Reset"
+msgstr "Đặt lại"
+
+msgid "Reset desktop settings"
+msgstr "Đặt lại cài đặt màn hình desktop"
+
+msgid "Reset desktop settings?"
+msgstr "Đặt lại cài đặt màn hình desktop?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Khôi phục tất cả cài đặt GNOME Shell về mặc định gốc"
+
+msgid "Right"
+msgstr "Phải"
+
+msgid "Select image"
+msgstr "Chọn ảnh"
+
+msgid "Seperated"
+msgstr "Tách biệt"
+
+msgid "Show Activities Button"
+msgstr "Hiển thị nút Hoạt động"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Hiện mạng"
+
+msgid "Show Weather"
+msgstr "Hiện thời tiết"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Hiển thị hoặc ẩn các thành phần bảng điều khiển tích hợp."
+
+msgid "Taskbar Elements"
+msgstr "Thành phần thanh tác vụ"
+
+msgid "Taskbar Style"
+msgstr "Kiểu thanh tác vụ"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Bật hoặc tắt các tiện ích biểu tượng trên thanh."
+
+msgid "Top"
+msgstr "Trên"
+
+msgid "Tweaks"
+msgstr "Tinh chỉnh"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Hành vi thanh tác vụ Vista"
+
+msgid "Wallpaper"
+msgstr "Hình nền"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Nút hoạt động — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Đã áp dụng — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Đã đặt lại cài đặt desktop. Khởi động lại Shell để áp dụng."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ Đã áp dụng hình nền GDM"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — Đã {action}"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Không thể áp dụng vị trí"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Không thể áp dụng kiểu"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Không thể đặt lại"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Không thể đặt hình nền GDM"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Không thể chuyển đổi nút hoạt động"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Không thể {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Vui lòng chọn ảnh trước"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Điều này sẽ đặt lại tất cả cài đặt GNOME Shell về mặc định ban đầu.\n"
+#~ "Các tiện ích mở rộng, bố cục bảng điều khiển và tùy chọn của bạn sẽ bị mất."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Vị trí thanh tác vụ"
+
+#~ msgid "Panel Position"
+#~ msgstr "Vị trí thanh"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Chọn vị trí đặt thanh tác vụ trên màn hình."

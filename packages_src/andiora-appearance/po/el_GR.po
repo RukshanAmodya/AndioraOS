@@ -1,0 +1,227 @@
+# Andiora Appearance — Greek translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Σχετικά με την Εμφάνιση του Andiora"
+
+msgid "Advanced"
+msgstr "Προχωρημένα"
+
+msgid "Andiora Appearance"
+msgstr "Εμφάνιση Andiora"
+
+msgid "Andiora Team"
+msgstr "Ομάδα Andiora"
+
+msgid "Appearance"
+msgstr "Εμφάνιση"
+
+msgid "Apply to Login Screen"
+msgstr "Εφαρμογή στην οθόνη σύνδεσης"
+
+msgid "Bottom"
+msgstr "Κάτω"
+
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Επιλέξτε μια εικόνα για το φόντο της οθόνης σύνδεσης GDM."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Διάλεξε το οπτικό στυλ της γραμμής εργασιών σου."
+
+msgid "Choose…"
+msgstr "Επιλογή…"
+
+msgid "Classic"
+msgstr "Κλασικό"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Συνένωση πολλαπλών παραθύρων μιας εφαρμογής σε ένα εικονίδιο"
+
+msgid "Danger Zone"
+msgstr "Ζώνη Κινδύνου"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Εμφάνιση του κουμπιού Δραστηριότητες στη γραμμή εργασιών"
+
+msgid "Enable grouping"
+msgstr "Ενεργοποίηση ομαδοποίησης"
+
+msgid "Extension Settings"
+msgstr "Ρυθμίσεις Προσαρμογής"
+
+msgid "GDM Wallpaper"
+msgstr "Ταπετσαρία GDM"
+
+msgid "Group apps"
+msgstr "Ομαδοποίηση εφαρμογών"
+
+msgid "Images"
+msgstr "Εικόνες"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Διαχωρισμός εκκινητών από εκτελούμενες εφαρμογές"
+
+msgid "Layout"
+msgstr "Διάταξη"
+
+msgid "Left"
+msgstr "Αριστερά"
+
+msgid "Login Screen Wallpaper"
+msgstr "Ταπετσαρία οθόνης σύνδεσης"
+
+msgid "Open"
+msgstr "Άνοιγμα"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Άνοιξε τα παράθυρα προτιμήσεων των προσθηκών της γραμμής εργασιών."
+
+msgid "Panel Indicators"
+msgstr "Ενδείξεις Γραμμής Εργασιών"
+
+msgid "Panel Widgets"
+msgstr "Widgets Γραμμής Εργασιών"
+
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+msgid "Reset"
+msgstr "Επαναφορά"
+
+msgid "Reset desktop settings"
+msgstr "Επαναφορά ρυθμίσεων επιφάνειας εργασίας"
+
+msgid "Reset desktop settings?"
+msgstr "Επαναφορά ρυθμίσεων επιφάνειας εργασίας;"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Επαναφορά όλων των ρυθμίσεων GNOME Shell στις εργοστασιακές προεπιλογέςΕπαναφορά όλων των ρυθμίσεων του GNOME Shell στις εργοστασιακές προεπιλογές"
+
+msgid "Right"
+msgstr "Δεξιά"
+
+msgid "Select image"
+msgstr "Επιλογή εικόνας"
+
+msgid "Seperated"
+msgstr "Διαχωρισμένο"
+
+msgid "Show Activities Button"
+msgstr "Εμφάνιση κουμπιού Δραστηριότητες"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Εμφάνιση δικτύου"
+
+msgid "Show Weather"
+msgstr "Εμφάνιση καιρού"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Εμφάνιση ή απόκρυψη ενσωματωμένων στοιχείων πίνακα."
+
+msgid "Taskbar Elements"
+msgstr "Στοιχεία γραμμής εργασιών"
+
+msgid "Taskbar Style"
+msgstr "Στυλ Γραμμής Εργασιών"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Ενεργοποίηση ή απενεργοποίηση των γραφικών στοιχείων ένδειξης πίνακα.Ενεργοποίησε ή απενεργοποίησε τα widgets των δεικτών της γραμμής εργασιών."
+
+msgid "Top"
+msgstr "Πάνω"
+
+msgid "Tweaks"
+msgstr "Ρυθμίσεις"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Συμπεριφορά γραμμής εργασιών Vista"
+
+msgid "Wallpaper"
+msgstr "Τοίχος Παραθύρου"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Κουμπί δραστηριοτήτων — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Εφαρμόστηκε — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Οι ρυθμίσεις επιφάνειας εργασίας επαναφέρθηκαν. Επανεκκινήστε το Shell για εφαρμογή.✓ Οι ρυθμίσεις της επιφάνειας εργασίας επαναφέρθηκαν. Επανεκκίνησε το Shell για να εφαρμοστούν."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ Η ταπετσαρία GDM εφαρμόστηκε"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}ε"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Απέτυχε η εφαρμογή θέσης"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Απέτυχε η εφαρμογή στυλ"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Απέτυχε η επαναφορά"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Αποτυχία ορισμού ταπετσαρίας GDM"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Αποτυχία εναλλαγής κουμπιού δραστηριοτήτων"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Απέτυχε να {action} το {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Παρακαλώ επιλέξτε πρώτα μια εικόνα"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Αυτό θα επαναφέρει όλες τις ρυθμίσεις του GNOME Shell στις εργοστασιακές προεπιλογές.\n"
+#~ "Οι επεκτάσεις, η διάταξη πίνακα και οι προτιμήσεις σας θα χαθούν."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Θέση Γραμμής Εργασιών"
+
+#~ msgid "Panel Position"
+#~ msgstr "Θέση Γραμμής Εργασιών"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Διάλεξε πού θα βρίσκεται η γραμμή εργασιών στην οθόνη."

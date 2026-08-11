@@ -1,0 +1,782 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the andiora-driver-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-driver-center 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-08 10:54+0000\n"
+"PO-Revision-Date: 2026-08-06 07:08+0000\n"
+"Last-Translator: Andiora Team <anduin@aiursoft.com>\n"
+"Language-Team: da\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:74
+#: andiora-driver-center/src/andiora_driver_center/app.py:1006
+msgid "Andiora Driver Center"
+msgstr "Andiora Driver Center"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:137
+#: andiora-driver-center/src/andiora_driver_center/app.py:435
+#: andiora-driver-center/src/andiora_driver_center/app.py:597
+msgid "Scan again"
+msgstr "Scan igen"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:141
+msgid "About Driver Center"
+msgstr "Om Driver Center"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:143
+msgid "Main Menu"
+msgstr "Hovedmenu"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:160
+msgid "Hardware"
+msgstr "Hardware"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:184
+msgid "Scanning for drivers"
+msgstr "Scanner efter drivere"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:184
+msgid "Checking hardware and Secure Boot status…"
+msgstr "Kontrollerer hardware og Secure Boot-status..."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:217
+msgid "Audio"
+msgstr "Lyd"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:218
+msgid "Audio support ready"
+msgstr "Lydunderstøttelse klar"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:218
+#: andiora-driver-center/src/andiora_driver_center/app.py:232
+#: andiora-driver-center/src/andiora_driver_center/app.py:258
+msgid "Support needs attention"
+msgstr "Support kræver opmærksomhed"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:227
+msgid "Printing service stopped"
+msgstr "Udskrivningstjeneste stoppet"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:229
+#: andiora-driver-center/src/andiora_driver_center/app.py:893
+msgid "Printing support disabled."
+msgstr "Udskrivningssupport deaktiveret."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:234
+msgid "Some queues are paused"
+msgstr "Nogle køer er sat på pause"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:236
+msgid "No printers configured"
+msgstr "Ingen printere konfigureret"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:239
+#, python-format
+msgid "%d printer configured"
+msgid_plural "%d printers configured"
+msgstr[0] "%d printer konfigureret"
+msgstr[1] "%d printere konfigureret"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:244
+msgid "Printers"
+msgstr "Printere"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:251
+msgid "Xbox Controller"
+msgstr "Xbox controller"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:253
+msgid "xpadneo installed"
+msgstr "xpadneo installeret"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:256
+msgid "Optional Bluetooth driver"
+msgstr "Valgfri Bluetooth-driver"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:271
+#: andiora-driver-center/src/andiora_driver_center/app.py:364
+#: andiora-driver-center/src/andiora_driver_center/app.py:555
+#: andiora-driver-center/src/andiora_driver_center/app.py:560
+#: andiora-driver-center/src/andiora_driver_center/app.py:565
+#: andiora-driver-center/src/andiora_driver_center/app.py:576
+msgid "Secure Boot"
+msgstr "Secure Boot"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:272
+msgid "Trust established"
+msgstr "Tillid etableret"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:272
+msgid "Action required"
+msgstr "Handling påkrævet"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:351
+msgid ""
+"Choose the driver used by this device. Andiora marks the hardware-tested "
+"recommendation."
+msgstr ""
+"Vælg den driver, der bruges af denne enhed. Andiora markerer den "
+"hardwaretestede anbefaling."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:357
+msgid "Available drivers"
+msgstr "Tilgængelige drivere"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:362
+msgid ""
+"Secure Boot status or trust must be resolved before installing a third-party "
+"driver."
+msgstr ""
+"Secure Boot status eller tillid skal løses, før du installerer en "
+"tredjepartsdriver."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:372
+#: andiora-driver-center/src/andiora_driver_center/app.py:448
+#: andiora-driver-center/src/andiora_driver_center/app.py:461
+#: andiora-driver-center/src/andiora_driver_center/app.py:782
+msgid "Apply Changes"
+msgstr "Anvend ændringer"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:381
+msgid "open source"
+msgstr "open source"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:381
+msgid "proprietary"
+msgstr "proprietær"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:383
+msgid "built in"
+msgstr "indbygget"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:407
+msgid "In use"
+msgstr "I brug"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:410
+#: andiora-driver-center/src/andiora_driver_center/app.py:535
+msgid "Installed"
+msgstr "Installeret"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:412
+msgid "Recommended"
+msgstr "Anbefalet"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:434
+#: andiora-driver-center/src/andiora_driver_center/app.py:445
+#: andiora-driver-center/src/andiora_driver_center/app.py:460
+#: andiora-driver-center/src/andiora_driver_center/app.py:625
+msgid "Kernel module"
+msgstr "Kernelmodul"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:434
+#: andiora-driver-center/src/andiora_driver_center/app.py:460
+#: andiora-driver-center/src/andiora_driver_center/app.py:551
+#: andiora-driver-center/src/andiora_driver_center/app.py:595
+#: andiora-driver-center/src/andiora_driver_center/app.py:703
+msgid "Not detected"
+msgstr "Ikke fundet"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:446
+#: andiora-driver-center/src/andiora_driver_center/app.py:984
+msgid "Driver operation failed: "
+msgstr "Driverhandling mislykkedes: "
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:448
+#: andiora-driver-center/src/andiora_driver_center/app.py:571
+#: andiora-driver-center/src/andiora_driver_center/app.py:590
+#: andiora-driver-center/src/andiora_driver_center/app.py:653
+#: andiora-driver-center/src/andiora_driver_center/app.py:683
+#: andiora-driver-center/src/andiora_driver_center/app.py:691
+msgid "Repair & Reinstall"
+msgstr "Reparer og geninstaller"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:469
+msgid "Advanced driver versions"
+msgstr "Avancerede driverversioner"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:470
+msgid "Older, newer, and server-oriented packages"
+msgstr "Ældre, nyere og serverorienterede pakker"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:491
+msgid "Select another driver to apply changes."
+msgstr "Vælg en anden driver for at anvende ændringerne."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:526
+msgid "Xbox Controller Support"
+msgstr "Xbox-kontrollerunderstøttelse"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:527
+msgid ""
+"xpadneo improves Bluetooth mapping, rumble, battery reporting and "
+"compatibility for modern Xbox controllers."
+msgstr ""
+"xpadneo forbedrer Bluetooth-kortlægning, rumble, batterirapportering og "
+"kompatibilitet for moderne Xbox-controllere."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:530
+msgid "Driver status"
+msgstr "Driverstatus"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:534
+msgid "Driver package"
+msgstr "Driverpakke"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:535
+#: andiora-driver-center/src/andiora_driver_center/app.py:619
+#: andiora-driver-center/src/andiora_driver_center/app.py:662
+#: andiora-driver-center/src/andiora_driver_center/app.py:670
+#: andiora-driver-center/src/andiora_driver_center/app.py:834
+msgid "Not installed"
+msgstr "Ikke installeret"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:537
+msgid "Install Driver"
+msgstr "Installer driver"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:543
+msgid "Trusted"
+msgstr "Pålidelig"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:554
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:191
+msgid "Secure Boot state could not be determined"
+msgstr "Secure Boot tilstand kunne ikke bestemmes"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:559
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:234
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr "Afventer indskrivning i blå skærm (MOKManager)"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:564
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:239
+msgid "Certificate is not trusted by motherboard"
+msgstr "Certifikatet er ikke betroet af bundkortet"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:569
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:267
+msgid "Some DKMS modules need to be re-signed"
+msgstr "Nogle DKMS-moduler skal gensigneres"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:580
+msgid "Module signature"
+msgstr "Modul signatur"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:588
+#: andiora-driver-center/src/andiora_driver_center/app.py:681
+#: andiora-driver-center/src/andiora_driver_center/app.py:689
+msgid "Missing"
+msgstr "Mangler"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:600
+msgid "Loaded"
+msgstr "Indlæst"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:605
+msgid "Standing by"
+msgstr "Stående"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:632
+msgid "Bluetooth Settings"
+msgstr "Bluetooth-indstillinger"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:640
+msgid "Audio Support"
+msgstr "Audio Support"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:641
+msgid ""
+"Andiora provides Intel SOF firmware and ALSA UCM profiles for reliable "
+"audio initialization and routing."
+msgstr ""
+"Andiora leverer Intel SOF-firmware og ALSA UCM-profiler til pålidelig "
+"lydinitialisering og routing."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:643
+msgid "Support packages"
+msgstr "Supportpakker"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:651
+msgid "Install Audio Support"
+msgstr "Installer lydunderstøttelse"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:661
+msgid "Intel SOF firmware"
+msgstr "Intel SOF-firmware"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:669
+msgid "ALSA UCM profiles"
+msgstr "ALSA UCM-profiler"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:676
+msgid "Runtime status"
+msgstr "Kørselsstatus"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:680
+msgid "SOF firmware files"
+msgstr "SOF-firmwarefiler"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:681
+#: andiora-driver-center/src/andiora_driver_center/app.py:689
+msgid "Available"
+msgstr "Tilgængelig"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:688
+msgid "UCM configuration files"
+msgstr "UCM-konfigurationsfiler"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:696
+msgid "SOF kernel modules"
+msgstr "SOF-kernemoduler"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:697
+msgid "Not currently loaded"
+msgstr "Ikke indlæst i øjeblikket"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:702
+msgid "Active audio drivers"
+msgstr "Aktive lyddrivere"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:711
+msgid "Printing Support"
+msgstr "Udskrivningssupport"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:712
+msgid ""
+"Inspect the local print service, configured queues, and the packages that "
+"provide modern and legacy printer support."
+msgstr ""
+"Undersøg den lokale udskriftstjeneste, konfigurerede køer og de pakker, der "
+"giver moderne og ældre printersupport."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:716
+#: andiora-driver-center/src/andiora_driver_center/app.py:733
+msgid "Enable Printing Support"
+msgstr "Aktiver udskrivningssupport"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:717
+msgid "Allow local, network, and USB printing services to run."
+msgstr "Tillad lokale, netværks- og USB-udskrivningstjenester at køre."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:726
+msgid "System status"
+msgstr "Systemstatus"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:730
+msgid "CUPS service"
+msgstr "CUPS service"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:731
+msgid "Running"
+msgstr "Kører"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:731
+msgid "Stopped"
+msgstr "Stoppet"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:743
+msgid "Start at boot"
+msgstr "Start ved opstart"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:744
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:744
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:749
+#, python-format
+msgid "%d configured printer"
+msgid_plural "%d configured printers"
+msgstr[0] "%d konfigureret printer"
+msgstr[1] "%d konfigurerede printere"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:755
+msgid "Configured printers"
+msgstr "Konfigurerede printere"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:761
+msgid "Default printer"
+msgstr "Standardprinter"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:762
+msgid "Not set"
+msgstr "Ikke indstillet"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:766
+msgid "No configured queues"
+msgstr "Ingen konfigurerede køer"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:771
+#, python-format
+msgid "%d queue paused"
+msgid_plural "%d queues paused"
+msgstr[0] "%d-kø sat på pause"
+msgstr[1] "%d-køer sat på pause"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:775
+msgid "All queues enabled"
+msgstr "Alle køer aktiveret"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:779
+msgid "Print queues"
+msgstr "Udskriftskøer"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:790
+msgid "Core printing"
+msgstr "Kerneudskrivning"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:791
+msgid "Required for the local print service and command-line clients."
+msgstr "Påkrævet for den lokale printtjeneste og kommandolinjeklienter."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:798
+msgid "Driverless printing"
+msgstr "Driverløs udskrivning"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:799
+msgid "Modern IPP drivers, document filters, and capability tools."
+msgstr "Moderne IPP-drivere, dokumentfiltre og kapacitetsværktøjer."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:806
+msgid "Network discovery"
+msgstr "Netværksopdagelse"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:807
+msgid "Automatic discovery of printers advertised on the local network."
+msgstr ""
+"Automatisk opdagelse af printere, der annonceres på det lokale netværk."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:814
+msgid "Optional compatibility"
+msgstr "Valgfri kompatibilitet"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:815
+msgid ""
+"USB IPP, administrative authorization, legacy drivers, and network scanning."
+msgstr ""
+"USB IPP, administrativ autorisation, ældre drivere og netværksscanning."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:838
+msgid "Install Missing Packages"
+msgstr "Installer manglende pakker"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:891
+msgid "Printing support enabled."
+msgstr "Udskrivningssupport aktiveret."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:897
+msgid "Printing operation failed: "
+msgstr "Udskrivning mislykkedes: "
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:898
+#: andiora-driver-center/src/andiora_driver_center/app.py:984
+msgid "unknown error"
+msgstr "ukendt fejl"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:971
+msgid "Apply"
+msgstr "Ansøg"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:972
+msgid "Working…"
+msgstr "Arbejder..."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:984
+msgid "Driver changes completed. Restart may be required."
+msgstr "Driverændringer gennemført. Genstart kan være påkrævet."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:991
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:423
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:441
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:449
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:457
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:473
+msgid "OK"
+msgstr "OK"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:1008
+msgid "Andiora Team"
+msgstr "Andiora Team"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:1011
+msgid "Install, inspect, and repair hardware drivers on Andiora."
+msgstr "Installer, inspicér og reparer hardwaredrivere på Andiora."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:75
+msgid "Secure Boot Configuration"
+msgstr "Secure Boot-konfiguration"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:83
+msgid ""
+"Secure Boot is a motherboard security standard that ensures only trusted "
+"software loads at startup."
+msgstr ""
+"\tSecure Boot er en moderboardsikkerhedsstandard, der sikrer, at kun betroet "
+"software indlæses ved opstart."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:86
+msgid "It protects your system from low-level malware and rootkits."
+msgstr "Det beskytter dit system mod low-level malware og rootkits."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:95
+msgid "System Trust Status"
+msgstr "Systemtro-status"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:132
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:274
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:406
+msgid "Create & Enroll Certificate"
+msgstr "Opret & Indskriv Certifikat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:138
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:284
+msgid "Repair Module Signatures"
+msgstr "Reparationsmodulsignaturer"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:146
+msgid "Note: Use password <b>123456</b> after rebooting."
+msgstr "Bemærk: Brug adgangskoden <b>123456</b> efter genstart."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:151
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:392
+msgid "Reboot & Configure Secure Boot"
+msgstr "Genstart & Konfigurer Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:159
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:358
+msgid "  Check Again  "
+msgstr "  Kontrollér igen  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:185
+msgid "Motherboard hardware protection is active"
+msgstr "Bundkortets hardwarebeskyttelse er aktiv"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:188
+msgid "Firmware does not support Secure Boot"
+msgstr "Firmware understøtter ikke Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:194
+msgid "Secure Boot is disabled"
+msgstr "Secure Boot er deaktiveret"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:200
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:202
+msgid "Not required without firmware enforcement"
+msgstr "Ikke påkrævet uden firmwarehåndhævelse"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:206
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:210
+msgid "Not checked because Secure Boot state is unknown"
+msgstr "Ikke markeret, fordi Secure Boot tilstand er ukendt"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:215
+msgid "Certificate generated locally"
+msgstr "Certifikat genereret lokalt"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:217
+msgid "Missing local certificate"
+msgstr "Mangler lokalt certifikat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:230
+msgid "Certificate is trusted by motherboard"
+msgstr "Certifikatet er betroet af bundkortet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:245
+msgid "Kernel signature enforcement is inactive"
+msgstr "Håndhævelse af kernesignatur er inaktiv"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:248
+msgid "Driver trust cannot be verified"
+msgstr "Drivertillid kan ikke bekræftes"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:252
+msgid ""
+"Secure Boot trust is ready. No third-party kernel modules are currently "
+"installed."
+msgstr ""
+"Secure Boot tillid er klar. Ingen tredjeparts kernemoduler er i øjeblikket "
+"installeret."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:256
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:447
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:455
+msgid "Drivers are signed and ready to load"
+msgstr "Drivere er signeret og klar til at blive indlæst"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:260
+msgid "Drivers are trusted, but automatic DKMS signing needs repair"
+msgstr "Drivere er tillid til, men automatisk DKMS-signering skal repareres"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:264
+msgid "No signed third-party drivers detected"
+msgstr "Ingen signerede tredjepartsdrivere registreret"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:272
+msgid "Enroll Existing Certificate"
+msgstr "Tilmeld eksisterende certifikat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:282
+msgid "Repair Automatic DKMS Signing"
+msgstr "Reparation af automatisk DKMS signering"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:299
+msgid "This firmware does not provide Secure Boot. No certificate is required."
+msgstr "Denne firmware giver ikke Secure Boot. Der kræves intet certifikat."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:306
+msgid ""
+"Secure Boot status could not be read. Driver trust operations are blocked "
+"until detection succeeds."
+msgstr ""
+"Secure Boot status kunne ikke læses. Drivertillidsoperationer er blokeret, "
+"indtil detektionen lykkes."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:311
+msgid "No certificate is required while Secure Boot is disabled."
+msgstr "Der kræves intet certifikat, mens Secure Boot er deaktiveret."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:314
+msgid "System Trust Established. Third-party drivers will load securely."
+msgstr "Systemtro etableret. Tredjepartsdrivere vil blive indlæst sikkert."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:318
+msgid "The certificate is enrolled and current drivers are trusted."
+msgstr "Certifikatet er tilmeldt, og nuværende drivere er tillid til."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:320
+msgid "Repair automatic DKMS signing before future driver updates."
+msgstr "Reparer automatisk DKMS-signering før fremtidige driveropdateringer."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:325
+msgid "The certificate is enrolled, but some modules are not signed with it."
+msgstr "Certifikatet er tilmeldt, men nogle moduler er ikke signeret med det."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:330
+msgid "A certificate is waiting for enrollment."
+msgstr "Et certifikat venter på tilmelding."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:332
+msgid "Restart and enter password 123456 in MOKManager."
+msgstr "Genstart og indtast adgangskoden 123456 i MOKManager."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:337
+msgid "The local trust certificate is not yet enrolled."
+msgstr "Det lokale tillidscertifikat er endnu ikke tilmeldt."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:339
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:346
+msgid "You must configure this to use third-party drivers like NVIDIA."
+msgstr "Du skal konfigurere dette for at bruge tredjepartsdrivere som NVIDIA."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:344
+msgid "The local trust certificate is missing."
+msgstr "Det lokale tillidscertifikat mangler."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:362
+msgid "  Checking...  "
+msgstr "  Kontrollerer...  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:368
+msgid "Reboot Required"
+msgstr "Genstart påkrævet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:369
+msgid "Please trust the certificate upon reboot using password 123456."
+msgstr ""
+"Betyd venligst certifikatet ved genstart ved hjælp af adgangskoden 123456."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:371
+msgid "Cancel"
+msgstr "Annuller"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:372
+msgid "Reboot"
+msgstr "Genstart"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:380
+msgid "Success! When you reboot, a blue screen will appear."
+msgstr "Succes! Når du genstarter, vil en blå skærm dukke op."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:384
+msgid "Select 'Enroll MOK' → 'Continue' → 'Yes', and enter password: 123456"
+msgstr "Vælg 'Enroll MOK' → 'Continue' → 'Yes', og indtast adgangskode: 123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:388
+msgid "Certificate Created"
+msgstr "Certifikat oprettet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:391
+msgid "Later"
+msgstr "Senere"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:420
+msgid "Secure Boot Trust Not Required"
+msgstr "Secure Boot Tillid ikke påkrævet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:421
+msgid "Firmware signature enforcement is not active."
+msgstr "Håndhævelse af firmwaresignatur er ikke aktiv."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:431
+msgid ""
+"The certificate is ready, but one or more DKMS modules could not be rebuilt. "
+"You can repair them after enrollment."
+msgstr ""
+"Certifikatet er klar, men et eller flere DKMS-moduler kunne ikke "
+"genopbygges. Du kan reparere dem efter tilmelding."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:439
+msgid "Configuration needs attention"
+msgstr "Konfiguration kræver opmærksomhed"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:446
+msgid "System Trust Established"
+msgstr "Systemtillid er etableret"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:454
+msgid "Driver Signature Trusted"
+msgstr "Driverunderskrift betroet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:470
+msgid "Configuration failed. Please try again."
+msgstr "Konfigurationen mislykkedes. Prøv venligst igen."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:471
+msgid "Please check the advanced output."
+msgstr "Tjek venligst den avancerede output."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:482
+msgid "Generating & Signing..."
+msgstr "Genererer & Signerer..."
+
+#~ msgid "Needs attention"
+#~ msgstr "Kræver opmærksomhed"
+
+#~ msgid "Blocked by Secure Boot"
+#~ msgstr "Blokeret af Secure Boot"
+
+#~ msgid "Complete printing support"
+#~ msgstr "Komplet udskrivningssupport"
+
+#~ msgid "Install missing printing packages"
+#~ msgstr "Installer manglende udskrivningspakker"
+
+#, python-format
+#~ msgid "%d package is missing"
+#~ msgid_plural "%d packages are missing"
+#~ msgstr[0] "%d-pakke mangler"
+#~ msgstr[1] "%d-pakker mangler"

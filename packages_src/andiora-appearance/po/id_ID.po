@@ -1,0 +1,227 @@
+# Andiora Appearance — Indonesian translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Tentang Tampilan Andiora"
+
+msgid "Advanced"
+msgstr "Lanjutan"
+
+msgid "Andiora Appearance"
+msgstr "Tampilan Andiora"
+
+msgid "Andiora Team"
+msgstr "Tim Andiora"
+
+msgid "Appearance"
+msgstr "Tampilan"
+
+msgid "Apply to Login Screen"
+msgstr "Terapkan ke Layar Login"
+
+msgid "Bottom"
+msgstr "Bawah"
+
+msgid "Cancel"
+msgstr "Batal"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Pilih gambar untuk latar layar login GDM."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Pilih gaya visual untuk taskbar Anda."
+
+msgid "Choose…"
+msgstr "Pilih…"
+
+msgid "Classic"
+msgstr "Klasik"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Gabungkan beberapa jendela dari satu aplikasi menjadi satu ikon"
+
+msgid "Danger Zone"
+msgstr "Zona Bahaya"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Tampilkan tombol Aktivitas di bilah tugas"
+
+msgid "Enable grouping"
+msgstr "Aktifkan pengelompokan"
+
+msgid "Extension Settings"
+msgstr "Pengaturan Ekstensi"
+
+msgid "GDM Wallpaper"
+msgstr "Wallpaper GDM"
+
+msgid "Group apps"
+msgstr "Kelompokkan aplikasi"
+
+msgid "Images"
+msgstr "Gambar"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Pisahkan peluncur dari aplikasi yang berjalan"
+
+msgid "Layout"
+msgstr "Tata Letak"
+
+msgid "Left"
+msgstr "Kiri"
+
+msgid "Login Screen Wallpaper"
+msgstr "Wallpaper Layar Login"
+
+msgid "Open"
+msgstr "Buka"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Buka jendela preferensi ekstensi panel."
+
+msgid "Panel Indicators"
+msgstr "Indikator Panel"
+
+msgid "Panel Widgets"
+msgstr "Widget Panel"
+
+msgid "Preview"
+msgstr "Pratinjau"
+
+msgid "Reset"
+msgstr "Atur Ulang"
+
+msgid "Reset desktop settings"
+msgstr "Atur ulang pengaturan desktop"
+
+msgid "Reset desktop settings?"
+msgstr "Atur ulang pengaturan desktop?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Kembalikan semua pengaturan GNOME Shell ke default pabrik"
+
+msgid "Right"
+msgstr "Kanan"
+
+msgid "Select image"
+msgstr "Pilih gambar"
+
+msgid "Seperated"
+msgstr "Terpisah"
+
+msgid "Show Activities Button"
+msgstr "Tampilkan Tombol Aktivitas"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Tampilkan Jaringan"
+
+msgid "Show Weather"
+msgstr "Tampilkan Cuaca"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Tampilkan atau sembunyikan elemen panel bawaan."
+
+msgid "Taskbar Elements"
+msgstr "Elemen Bilah Tugas"
+
+msgid "Taskbar Style"
+msgstr "Gaya Taskbar"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Aktifkan atau nonaktifkan widget indikator panel."
+
+msgid "Top"
+msgstr "Atas"
+
+msgid "Tweaks"
+msgstr "Penyesuaian"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Perilaku taskbar Vista"
+
+msgid "Wallpaper"
+msgstr "Latar Belakang"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Tombol aktivitas — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Diterapkan — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Pengaturan desktop direset. Mulai ulang Shell untuk menerapkan.✓ Pengaturan desktop telah direset. Mulai ulang Shell untuk menerapkan."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ Wallpaper GDM diterapkan"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Gagal menerapkan posisi"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Gagal menerapkan gaya"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Gagal mereset"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Gagal mengatur wallpaper GDM"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Gagal mengalihkan tombol aktivitas"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Gagal melakukan {action} pada {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Silakan pilih gambar terlebih dahulu"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Ini akan mengatur ulang semua pengaturan GNOME Shell ke default pabrik.\n"
+#~ "Ekstensi, tata letak panel, dan preferensi Anda akan hilang."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Posisi Taskbar"
+
+#~ msgid "Panel Position"
+#~ msgstr "Posisi Panel"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Pilih posisi taskbar pada layar."

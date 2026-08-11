@@ -1,0 +1,795 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the andiora-driver-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-driver-center 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-08 10:54+0000\n"
+"PO-Revision-Date: 2026-08-06 07:08+0000\n"
+"Last-Translator: Andiora Team <anduin@aiursoft.com>\n"
+"Language-Team: id\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:74
+#: andiora-driver-center/src/andiora_driver_center/app.py:1006
+msgid "Andiora Driver Center"
+msgstr "Pusat Pengemudi Andiora"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:137
+#: andiora-driver-center/src/andiora_driver_center/app.py:435
+#: andiora-driver-center/src/andiora_driver_center/app.py:597
+msgid "Scan again"
+msgstr "Pindai lagi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:141
+msgid "About Driver Center"
+msgstr "Tentang Pusat Pengemudi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:143
+msgid "Main Menu"
+msgstr "Menu Utama"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:160
+msgid "Hardware"
+msgstr "Perangkat Keras"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:184
+msgid "Scanning for drivers"
+msgstr "Memindai driver"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:184
+msgid "Checking hardware and Secure Boot status…"
+msgstr "Memeriksa perangkat keras dan status Secure Boot…"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:217
+msgid "Audio"
+msgstr "Audio"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:218
+msgid "Audio support ready"
+msgstr "Dukungan audio siap"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:218
+#: andiora-driver-center/src/andiora_driver_center/app.py:232
+#: andiora-driver-center/src/andiora_driver_center/app.py:258
+msgid "Support needs attention"
+msgstr "Dukungan perlu mendapat perhatian"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:227
+msgid "Printing service stopped"
+msgstr "Layanan pencetakan terhenti"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:229
+#: andiora-driver-center/src/andiora_driver_center/app.py:893
+msgid "Printing support disabled."
+msgstr "Dukungan pencetakan dinonaktifkan."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:234
+msgid "Some queues are paused"
+msgstr "Beberapa antrian dijeda"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:236
+msgid "No printers configured"
+msgstr "Tidak ada printer yang dikonfigurasi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:239
+#, python-format
+msgid "%d printer configured"
+msgid_plural "%d printers configured"
+msgstr[0] "pencetak %d dikonfigurasi"
+msgstr[1] "%d printer dikonfigurasi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:244
+msgid "Printers"
+msgstr "Pencetak"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:251
+msgid "Xbox Controller"
+msgstr "Pengontrol Xbox"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:253
+msgid "xpadneo installed"
+msgstr "xpadneo terpasang"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:256
+msgid "Optional Bluetooth driver"
+msgstr "Driver Bluetooth opsional"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:271
+#: andiora-driver-center/src/andiora_driver_center/app.py:364
+#: andiora-driver-center/src/andiora_driver_center/app.py:555
+#: andiora-driver-center/src/andiora_driver_center/app.py:560
+#: andiora-driver-center/src/andiora_driver_center/app.py:565
+#: andiora-driver-center/src/andiora_driver_center/app.py:576
+msgid "Secure Boot"
+msgstr "Secure Boot"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:272
+msgid "Trust established"
+msgstr "Kepercayaan terjalin"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:272
+msgid "Action required"
+msgstr "Diperlukan tindakan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:351
+msgid ""
+"Choose the driver used by this device. Andiora marks the hardware-tested "
+"recommendation."
+msgstr ""
+"Pilih driver yang digunakan oleh perangkat ini. Andiora menandai "
+"rekomendasi yang telah diuji perangkat keras."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:357
+msgid "Available drivers"
+msgstr "Driver yang tersedia"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:362
+msgid ""
+"Secure Boot status or trust must be resolved before installing a third-party "
+"driver."
+msgstr ""
+"Secure Boot status atau kepercayaan harus diselesaikan sebelum menginstal "
+"driver pihak ketiga."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:372
+#: andiora-driver-center/src/andiora_driver_center/app.py:448
+#: andiora-driver-center/src/andiora_driver_center/app.py:461
+#: andiora-driver-center/src/andiora_driver_center/app.py:782
+msgid "Apply Changes"
+msgstr "Terapkan Perubahan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:381
+msgid "open source"
+msgstr "sumber terbuka"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:381
+msgid "proprietary"
+msgstr "hak milik"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:383
+msgid "built in"
+msgstr "terpasang"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:407
+msgid "In use"
+msgstr "Sedang digunakan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:410
+#: andiora-driver-center/src/andiora_driver_center/app.py:535
+msgid "Installed"
+msgstr "Terinstal"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:412
+msgid "Recommended"
+msgstr "Direkomendasikan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:434
+#: andiora-driver-center/src/andiora_driver_center/app.py:445
+#: andiora-driver-center/src/andiora_driver_center/app.py:460
+#: andiora-driver-center/src/andiora_driver_center/app.py:625
+msgid "Kernel module"
+msgstr "Modul kernel"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:434
+#: andiora-driver-center/src/andiora_driver_center/app.py:460
+#: andiora-driver-center/src/andiora_driver_center/app.py:551
+#: andiora-driver-center/src/andiora_driver_center/app.py:595
+#: andiora-driver-center/src/andiora_driver_center/app.py:703
+msgid "Not detected"
+msgstr "Tidak terdeteksi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:446
+#: andiora-driver-center/src/andiora_driver_center/app.py:984
+msgid "Driver operation failed: "
+msgstr "Operasi driver gagal: "
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:448
+#: andiora-driver-center/src/andiora_driver_center/app.py:571
+#: andiora-driver-center/src/andiora_driver_center/app.py:590
+#: andiora-driver-center/src/andiora_driver_center/app.py:653
+#: andiora-driver-center/src/andiora_driver_center/app.py:683
+#: andiora-driver-center/src/andiora_driver_center/app.py:691
+msgid "Repair & Reinstall"
+msgstr "Perbaiki & Instal Ulang"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:469
+msgid "Advanced driver versions"
+msgstr "Versi driver tingkat lanjut"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:470
+msgid "Older, newer, and server-oriented packages"
+msgstr "Paket lama, baru, dan berorientasi server"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:491
+msgid "Select another driver to apply changes."
+msgstr "Pilih driver lain untuk menerapkan perubahan."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:526
+msgid "Xbox Controller Support"
+msgstr "Dukungan Kontroler Xbox"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:527
+msgid ""
+"xpadneo improves Bluetooth mapping, rumble, battery reporting and "
+"compatibility for modern Xbox controllers."
+msgstr ""
+"xpadneo meningkatkan pemetaan Bluetooth, gemuruh, pelaporan baterai, dan "
+"kompatibilitas untuk pengontrol Xbox modern."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:530
+msgid "Driver status"
+msgstr "Status pengemudi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:534
+msgid "Driver package"
+msgstr "Paket driver"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:535
+#: andiora-driver-center/src/andiora_driver_center/app.py:619
+#: andiora-driver-center/src/andiora_driver_center/app.py:662
+#: andiora-driver-center/src/andiora_driver_center/app.py:670
+#: andiora-driver-center/src/andiora_driver_center/app.py:834
+msgid "Not installed"
+msgstr "Tidak diinstal"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:537
+msgid "Install Driver"
+msgstr "Instal Pengandar"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:543
+msgid "Trusted"
+msgstr "Terpercaya"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:554
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:191
+msgid "Secure Boot state could not be determined"
+msgstr "Secure Boot tidak dapat ditentukan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:559
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:234
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr "Menunggu pendaftaran di layar biru (MOKManager)"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:564
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:239
+msgid "Certificate is not trusted by motherboard"
+msgstr "Sertifikat tidak dipercaya oleh motherboard"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:569
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:267
+msgid "Some DKMS modules need to be re-signed"
+msgstr "Beberapa modul DKMS perlu ditandatangani ulang"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:580
+msgid "Module signature"
+msgstr "Tanda tangan modul"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:588
+#: andiora-driver-center/src/andiora_driver_center/app.py:681
+#: andiora-driver-center/src/andiora_driver_center/app.py:689
+msgid "Missing"
+msgstr "Hilang"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:600
+msgid "Loaded"
+msgstr "Dimuat"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:605
+msgid "Standing by"
+msgstr "Siap"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:632
+msgid "Bluetooth Settings"
+msgstr "Pengaturan Bluetooth"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:640
+msgid "Audio Support"
+msgstr "Dukungan Audio"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:641
+msgid ""
+"Andiora provides Intel SOF firmware and ALSA UCM profiles for reliable "
+"audio initialization and routing."
+msgstr ""
+"Andiora menyediakan firmware Intel SOF dan profil ALSA UCM untuk "
+"inisialisasi dan perutean audio yang andal."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:643
+msgid "Support packages"
+msgstr "Paket dukungan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:651
+msgid "Install Audio Support"
+msgstr "Instal Dukungan Audio"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:661
+msgid "Intel SOF firmware"
+msgstr "Firmware Intel SOF"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:669
+msgid "ALSA UCM profiles"
+msgstr "Profil ALSA UCM"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:676
+msgid "Runtime status"
+msgstr "Status waktu proses"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:680
+msgid "SOF firmware files"
+msgstr "File firmware SOF"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:681
+#: andiora-driver-center/src/andiora_driver_center/app.py:689
+msgid "Available"
+msgstr "Tersedia"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:688
+msgid "UCM configuration files"
+msgstr "File konfigurasi UCM"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:696
+msgid "SOF kernel modules"
+msgstr "Modul kernel SOF"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:697
+msgid "Not currently loaded"
+msgstr "Saat ini tidak dimuat"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:702
+msgid "Active audio drivers"
+msgstr "Driver audio aktif"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:711
+msgid "Printing Support"
+msgstr "Dukungan Pencetakan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:712
+msgid ""
+"Inspect the local print service, configured queues, and the packages that "
+"provide modern and legacy printer support."
+msgstr ""
+"Periksa layanan pencetakan lokal, antrian yang dikonfigurasi, dan paket yang "
+"menyediakan dukungan printer modern dan lama."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:716
+#: andiora-driver-center/src/andiora_driver_center/app.py:733
+msgid "Enable Printing Support"
+msgstr "Aktifkan Dukungan Pencetakan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:717
+msgid "Allow local, network, and USB printing services to run."
+msgstr "Izinkan layanan pencetakan lokal, jaringan, dan USB dijalankan."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:726
+msgid "System status"
+msgstr "Status sistem"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:730
+msgid "CUPS service"
+msgstr "layanan CUPS"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:731
+msgid "Running"
+msgstr "Berjalan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:731
+msgid "Stopped"
+msgstr "Berhenti"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:743
+msgid "Start at boot"
+msgstr "Mulai saat boot"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:744
+msgid "Enabled"
+msgstr "Diaktifkan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:744
+msgid "Disabled"
+msgstr "Nonaktif"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:749
+#, python-format
+msgid "%d configured printer"
+msgid_plural "%d configured printers"
+msgstr[0] "%d printer yang dikonfigurasi"
+msgstr[1] "%d printer yang dikonfigurasi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:755
+msgid "Configured printers"
+msgstr "Printer yang dikonfigurasi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:761
+msgid "Default printer"
+msgstr "Pencetak bawaan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:762
+msgid "Not set"
+msgstr "Tidak disetel"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:766
+msgid "No configured queues"
+msgstr "Tidak ada antrian yang dikonfigurasi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:771
+#, python-format
+msgid "%d queue paused"
+msgid_plural "%d queues paused"
+msgstr[0] "Antrian %d dijeda"
+msgstr[1] "Antrian %d dijeda"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:775
+msgid "All queues enabled"
+msgstr "Semua antrian diaktifkan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:779
+msgid "Print queues"
+msgstr "Antrean cetak"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:790
+msgid "Core printing"
+msgstr "Pencetakan inti"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:791
+msgid "Required for the local print service and command-line clients."
+msgstr "Diperlukan untuk layanan pencetakan lokal dan klien baris perintah."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:798
+msgid "Driverless printing"
+msgstr "Pencetakan tanpa driver"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:799
+msgid "Modern IPP drivers, document filters, and capability tools."
+msgstr "Driver IPP modern, filter dokumen, dan alat kemampuan."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:806
+msgid "Network discovery"
+msgstr "Penemuan jaringan"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:807
+msgid "Automatic discovery of printers advertised on the local network."
+msgstr "Penemuan otomatis printer yang diiklankan di jaringan lokal."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:814
+msgid "Optional compatibility"
+msgstr "Kompatibilitas opsional"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:815
+msgid ""
+"USB IPP, administrative authorization, legacy drivers, and network scanning."
+msgstr ""
+"USB IPP, otorisasi administratif, driver lama, dan pemindaian jaringan."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:838
+msgid "Install Missing Packages"
+msgstr "Instal Paket yang Hilang"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:891
+msgid "Printing support enabled."
+msgstr "Dukungan pencetakan diaktifkan."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:897
+msgid "Printing operation failed: "
+msgstr "Operasi pencetakan gagal: "
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:898
+#: andiora-driver-center/src/andiora_driver_center/app.py:984
+msgid "unknown error"
+msgstr "kesalahan tidak diketahui"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:971
+msgid "Apply"
+msgstr "Berlaku"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:972
+msgid "Working…"
+msgstr "Bekerja…"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:984
+msgid "Driver changes completed. Restart may be required."
+msgstr "Perubahan driver selesai. Mulai ulang mungkin diperlukan."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:991
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:423
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:441
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:449
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:457
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:473
+msgid "OK"
+msgstr "OK"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:1008
+msgid "Andiora Team"
+msgstr "Tim Andiora"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:1011
+msgid "Install, inspect, and repair hardware drivers on Andiora."
+msgstr "Instal, periksa, dan perbaiki driver perangkat keras di Andiora."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:75
+msgid "Secure Boot Configuration"
+msgstr "Konfigurasi Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:83
+msgid ""
+"Secure Boot is a motherboard security standard that ensures only trusted "
+"software loads at startup."
+msgstr ""
+"Secure Boot adalah standar keamanan motherboard yang memastikan hanya "
+"perangkat lunak tepercaya yang dimuat saat startup."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:86
+msgid "It protects your system from low-level malware and rootkits."
+msgstr "Ia melindungi sistem Anda dari malware tingkat rendah dan rootkit."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:95
+msgid "System Trust Status"
+msgstr "Status Kepercayaan Sistem"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:132
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:274
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:406
+msgid "Create & Enroll Certificate"
+msgstr "Buat & Daftarkan Sertifikat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:138
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:284
+msgid "Repair Module Signatures"
+msgstr "Tanda Tangan Modul Perbaikan"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:146
+msgid "Note: Use password <b>123456</b> after rebooting."
+msgstr ""
+"Catatan: Gunakan kata sandi <b>123456</b> setelah melakukan pemutakhiran "
+"ulang."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:151
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:392
+msgid "Reboot & Configure Secure Boot"
+msgstr "Pemutakhiran ulang & Konfigurasikan Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:159
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:358
+msgid "  Check Again  "
+msgstr "  Periksa Lagi  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:185
+msgid "Motherboard hardware protection is active"
+msgstr "Perlindungan perangkat keras motherboard aktif"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:188
+msgid "Firmware does not support Secure Boot"
+msgstr ""
+"Firmware tidak mendukung Secure Boot\n"
+"Status "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:194
+msgid "Secure Boot is disabled"
+msgstr "Secure Boot dinonaktifkan"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:200
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:202
+msgid "Not required without firmware enforcement"
+msgstr "Tidak diperlukan tanpa penegakan firmware"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:206
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:210
+msgid "Not checked because Secure Boot state is unknown"
+msgstr "Tidak dicentang karena status Secure Boot tidak diketahui"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:215
+msgid "Certificate generated locally"
+msgstr "Sertifikat dihasilkan secara lokal"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:217
+msgid "Missing local certificate"
+msgstr "Tidak ada sertifikat lokal"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:230
+msgid "Certificate is trusted by motherboard"
+msgstr "Sertifikat dipercaya oleh motherboard"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:245
+msgid "Kernel signature enforcement is inactive"
+msgstr "Penegakan tanda tangan kernel tidak aktif"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:248
+msgid "Driver trust cannot be verified"
+msgstr "Kepercayaan pengemudi tidak dapat diverifikasi"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:252
+msgid ""
+"Secure Boot trust is ready. No third-party kernel modules are currently "
+"installed."
+msgstr ""
+"Secure Boot kepercayaan sudah siap. Tidak ada modul kernel pihak ketiga yang "
+"diinstal saat ini."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:256
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:447
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:455
+msgid "Drivers are signed and ready to load"
+msgstr "Driver ditandatangani dan siap dimuat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:260
+msgid "Drivers are trusted, but automatic DKMS signing needs repair"
+msgstr ""
+"Driver dapat dipercaya, tetapi penandatanganan otomatis DKMS perlu diperbaiki"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:264
+msgid "No signed third-party drivers detected"
+msgstr "Driver pihak ketiga yang ditandatangani tidak terdeteksi"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:272
+msgid "Enroll Existing Certificate"
+msgstr "Daftarkan Sertifikat yang Ada"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:282
+msgid "Repair Automatic DKMS Signing"
+msgstr "Perbaiki Penandatanganan DKMS Otomatis"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:299
+msgid "This firmware does not provide Secure Boot. No certificate is required."
+msgstr ""
+"Firmware ini tidak menyediakan Secure Boot. Tidak diperlukan sertifikat."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:306
+msgid ""
+"Secure Boot status could not be read. Driver trust operations are blocked "
+"until detection succeeds."
+msgstr ""
+"Status Secure Boot tidak dapat dibaca. Operasi kepercayaan pengemudi "
+"diblokir hingga deteksi berhasil."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:311
+msgid "No certificate is required while Secure Boot is disabled."
+msgstr "Tidak diperlukan sertifikat saat Secure Boot dinonaktifkan."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:314
+msgid "System Trust Established. Third-party drivers will load securely."
+msgstr ""
+"Kepercayaan Sistem Terbentuk. Driver pihak ketiga akan dimuat secara aman."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:318
+msgid "The certificate is enrolled and current drivers are trusted."
+msgstr "Sertifikat terdaftar dan driver saat ini dipercaya."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:320
+msgid "Repair automatic DKMS signing before future driver updates."
+msgstr ""
+"Perbaiki penandatanganan DKMS otomatis sebelum pembaruan driver di masa "
+"mendatang."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:325
+msgid "The certificate is enrolled, but some modules are not signed with it."
+msgstr ""
+"Sertifikat telah didaftarkan, namun beberapa modul tidak ditandatangani "
+"dengannya."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:330
+msgid "A certificate is waiting for enrollment."
+msgstr "Sertifikat sedang menunggu pendaftaran."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:332
+msgid "Restart and enter password 123456 in MOKManager."
+msgstr "Mulai ulang dan masukkan kata sandi 123456 di MOKManager."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:337
+msgid "The local trust certificate is not yet enrolled."
+msgstr "Sertifikat perwalian lokal belum terdaftar."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:339
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:346
+msgid "You must configure this to use third-party drivers like NVIDIA."
+msgstr ""
+"Anda harus mengonfigurasi ini untuk menggunakan driver pihak ketiga seperti "
+"NVIDIA."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:344
+msgid "The local trust certificate is missing."
+msgstr "Sertifikat kepercayaan lokal tidak ada."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:362
+msgid "  Checking...  "
+msgstr "  Memeriksa...  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:368
+msgid "Reboot Required"
+msgstr "Pemutakhiran Ulang Diperlukan"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:369
+msgid "Please trust the certificate upon reboot using password 123456."
+msgstr ""
+"Silakan percayai sertifikat saat booting ulang menggunakan kata sandi 123456."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:371
+msgid "Cancel"
+msgstr "Batalkan"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:372
+msgid "Reboot"
+msgstr "Pemutakhiran ulang"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:380
+msgid "Success! When you reboot, a blue screen will appear."
+msgstr "Berhasil! Saat Anda booting ulang, layar biru akan muncul."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:384
+msgid "Select 'Enroll MOK' → 'Continue' → 'Yes', and enter password: 123456"
+msgstr ""
+"Pilih 'Enroll MOK' → 'Lanjutkan' → 'Ya', dan masukkan kata sandi: 123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:388
+msgid "Certificate Created"
+msgstr "Sertifikat Dibuat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:391
+msgid "Later"
+msgstr "Nanti"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:420
+msgid "Secure Boot Trust Not Required"
+msgstr "Secure Boot Kepercayaan Tidak Diperlukan"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:421
+msgid "Firmware signature enforcement is not active."
+msgstr "Penegakan tanda tangan firmware tidak aktif."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:431
+msgid ""
+"The certificate is ready, but one or more DKMS modules could not be rebuilt. "
+"You can repair them after enrollment."
+msgstr ""
+"Sertifikat sudah siap, tetapi satu atau lebih modul DKMS tidak dapat dibuat "
+"ulang. Anda dapat memperbaikinya setelah pendaftaran."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:439
+msgid "Configuration needs attention"
+msgstr "Konfigurasi perlu diperhatikan"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:446
+msgid "System Trust Established"
+msgstr "Kepercayaan Sistem Terbentuk"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:454
+msgid "Driver Signature Trusted"
+msgstr "Tanda Tangan Driver Terpercaya"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:470
+msgid "Configuration failed. Please try again."
+msgstr "Konfigurasi gagal. Silakan coba lagi."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:471
+msgid "Please check the advanced output."
+msgstr "Silakan periksa output lanjutan."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:482
+msgid "Generating & Signing..."
+msgstr "Menghasilkan & Menandatangani..."
+
+#~ msgid "Needs attention"
+#~ msgstr "Membutuhkan perhatian"
+
+#~ msgid "Blocked by Secure Boot"
+#~ msgstr "Diblokir oleh Secure Boot"
+
+#~ msgid "Complete printing support"
+#~ msgstr "Dukungan pencetakan lengkap"
+
+#~ msgid "Install missing printing packages"
+#~ msgstr "Instal paket pencetakan yang hilang"
+
+#, python-format
+#~ msgid "%d package is missing"
+#~ msgid_plural "%d packages are missing"
+#~ msgstr[0] "Paket %d hilang"
+#~ msgstr[1] "Paket %d hilang"

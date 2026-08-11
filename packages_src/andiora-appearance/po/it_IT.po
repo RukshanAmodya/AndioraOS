@@ -1,0 +1,227 @@
+# Andiora Appearance — Italian translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Informazioni su Andiora Aspetto"
+
+msgid "Advanced"
+msgstr "Avanzate"
+
+msgid "Andiora Appearance"
+msgstr "Aspetto di Andiora"
+
+msgid "Andiora Team"
+msgstr "Team di Andiora"
+
+msgid "Appearance"
+msgstr "Aspetto"
+
+msgid "Apply to Login Screen"
+msgstr "Applica alla schermata di accesso"
+
+msgid "Bottom"
+msgstr "In basso"
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Scegli un immagine per lo sfondo della schermata di accesso GDM."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Scegli lo stile visivo della tua barra delle applicazioni."
+
+msgid "Choose…"
+msgstr "Scegli…"
+
+msgid "Classic"
+msgstr "Classico"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Unisci più finestre di un'app in una singola icona"
+
+msgid "Danger Zone"
+msgstr "Zona di Pericolo"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Visualizza il pulsante Attività sulla barra delle applicazioni"
+
+msgid "Enable grouping"
+msgstr "Attiva raggruppamento"
+
+msgid "Extension Settings"
+msgstr "Impostazioni estensioni"
+
+msgid "GDM Wallpaper"
+msgstr "Sfondo GDM"
+
+msgid "Group apps"
+msgstr "Raggruppa app"
+
+msgid "Images"
+msgstr "Immagini"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Separa i launcher dalle app in esecuzione"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Left"
+msgstr "Sinistra"
+
+msgid "Login Screen Wallpaper"
+msgstr "Schermata di accesso"
+
+msgid "Open"
+msgstr "Apri"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Apri le finestre di preferenza delle estensioni della barra."
+
+msgid "Panel Indicators"
+msgstr "Indicatori della barra"
+
+msgid "Panel Widgets"
+msgstr "Widget della barra"
+
+msgid "Preview"
+msgstr "Anteprima"
+
+msgid "Reset"
+msgstr "Reimposta"
+
+msgid "Reset desktop settings"
+msgstr "Reimposta le impostazioni del desktop"
+
+msgid "Reset desktop settings?"
+msgstr "Reimpostare le impostazioni del desktop?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Ripristina tutte le impostazioni di GNOME Shell ai valori predefinitiRipristina tutte le impostazioni di GNOME Shell ai valori predefiniti di fabbrica"
+
+msgid "Right"
+msgstr "Destra"
+
+msgid "Select image"
+msgstr "Seleziona immagine"
+
+msgid "Seperated"
+msgstr "Separato"
+
+msgid "Show Activities Button"
+msgstr "Mostra pulsante Attività"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Mostra rete"
+
+msgid "Show Weather"
+msgstr "Mostra meteo"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Mostra o nascondi gli elementi integrati del pannello."
+
+msgid "Taskbar Elements"
+msgstr "Elementi della barra delle applicazioni"
+
+msgid "Taskbar Style"
+msgstr "Stile della barra delle applicazioni"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Attiva o disattiva i widget degli indicatori della barra."
+
+msgid "Top"
+msgstr "In alto"
+
+msgid "Tweaks"
+msgstr "Ottimizzazioni"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Comportamento barra Vista"
+
+msgid "Wallpaper"
+msgstr "Sfondo"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Pulsante attività — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Applicato — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Impostazioni del desktop reimpostate. Riavvia Shell per applicare."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ Sfondo GDM applicato"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}ato"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Impossibile applicare la posizione"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Impossibile applicare lo stile"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Impossibile reimpostare"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Impossibile impostare lo sfondo GDM"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Impossibile attivare/disattivare il pulsante attività"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Impossibile {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Seleziona prima un’immagine"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Questo ripristinerà tutte le impostazioni di GNOME Shell ai valori predefiniti.\n"
+#~ "Le estensioni, il layout del pannello e le preferenze andranno persi."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Posizione della barra delle applicazioni"
+
+#~ msgid "Panel Position"
+#~ msgstr "Posizione della barra"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Scegli dove posizionare la barra delle applicazioni sullo schermo."

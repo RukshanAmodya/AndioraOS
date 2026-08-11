@@ -1,0 +1,783 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the andiora-driver-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-driver-center 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-08 10:54+0000\n"
+"PO-Revision-Date: 2026-08-06 07:08+0000\n"
+"Last-Translator: Andiora Team <anduin@aiursoft.com>\n"
+"Language-Team: tr\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:74
+#: andiora-driver-center/src/andiora_driver_center/app.py:1006
+msgid "Andiora Driver Center"
+msgstr "Andiora Sürücü Merkezi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:137
+#: andiora-driver-center/src/andiora_driver_center/app.py:435
+#: andiora-driver-center/src/andiora_driver_center/app.py:597
+msgid "Scan again"
+msgstr "Tekrar tarayın"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:141
+msgid "About Driver Center"
+msgstr "Sürücü Merkezi Hakkında"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:143
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:160
+msgid "Hardware"
+msgstr "Donanım"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:184
+msgid "Scanning for drivers"
+msgstr "Sürücüler taranıyor"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:184
+msgid "Checking hardware and Secure Boot status…"
+msgstr "Donanım ve Secure Boot durumu kontrol ediliyor…"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:217
+msgid "Audio"
+msgstr "Ses"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:218
+msgid "Audio support ready"
+msgstr "Ses desteği hazır"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:218
+#: andiora-driver-center/src/andiora_driver_center/app.py:232
+#: andiora-driver-center/src/andiora_driver_center/app.py:258
+msgid "Support needs attention"
+msgstr "Desteğin ilgilenilmesi gerekiyor"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:227
+msgid "Printing service stopped"
+msgstr "Yazdırma hizmeti durduruldu"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:229
+#: andiora-driver-center/src/andiora_driver_center/app.py:893
+msgid "Printing support disabled."
+msgstr "Yazdırma desteği devre dışı."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:234
+msgid "Some queues are paused"
+msgstr "Bazı kuyruklar duraklatıldı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:236
+msgid "No printers configured"
+msgstr "Yapılandırılmış yazıcı yok"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:239
+#, python-format
+msgid "%d printer configured"
+msgid_plural "%d printers configured"
+msgstr[0] "%d yazıcı yapılandırıldı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:244
+msgid "Printers"
+msgstr "Printers"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:251
+msgid "Xbox Controller"
+msgstr "Xbox Denetleyici"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:253
+msgid "xpadneo installed"
+msgstr "xpadneo yüklü"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:256
+msgid "Optional Bluetooth driver"
+msgstr "İsteğe bağlı Bluetooth sürücüsü"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:271
+#: andiora-driver-center/src/andiora_driver_center/app.py:364
+#: andiora-driver-center/src/andiora_driver_center/app.py:555
+#: andiora-driver-center/src/andiora_driver_center/app.py:560
+#: andiora-driver-center/src/andiora_driver_center/app.py:565
+#: andiora-driver-center/src/andiora_driver_center/app.py:576
+msgid "Secure Boot"
+msgstr "Secure Boot"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:272
+msgid "Trust established"
+msgstr "Güven kuruldu"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:272
+msgid "Action required"
+msgstr "İşlem gerekli"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:351
+msgid ""
+"Choose the driver used by this device. Andiora marks the hardware-tested "
+"recommendation."
+msgstr ""
+"Choose the driver used by this device. Andiora marks the hardware-tested "
+"recommendation."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:357
+msgid "Available drivers"
+msgstr "Mevcut sürücüler"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:362
+msgid ""
+"Secure Boot status or trust must be resolved before installing a third-party "
+"driver."
+msgstr ""
+"Secure Boot durumu veya güveni, üçüncü taraf bir sürücü yüklenmeden önce "
+"çözümlenmelidir."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:372
+#: andiora-driver-center/src/andiora_driver_center/app.py:448
+#: andiora-driver-center/src/andiora_driver_center/app.py:461
+#: andiora-driver-center/src/andiora_driver_center/app.py:782
+msgid "Apply Changes"
+msgstr "Değişiklikleri Uygula"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:381
+msgid "open source"
+msgstr "açık kaynak"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:381
+msgid "proprietary"
+msgstr "tescilli"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:383
+msgid "built in"
+msgstr "yerleşik"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:407
+msgid "In use"
+msgstr "Kullanımda"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:410
+#: andiora-driver-center/src/andiora_driver_center/app.py:535
+msgid "Installed"
+msgstr "Yüklendi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:412
+msgid "Recommended"
+msgstr "Önerilen"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:434
+#: andiora-driver-center/src/andiora_driver_center/app.py:445
+#: andiora-driver-center/src/andiora_driver_center/app.py:460
+#: andiora-driver-center/src/andiora_driver_center/app.py:625
+msgid "Kernel module"
+msgstr "Çekirdek modülü"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:434
+#: andiora-driver-center/src/andiora_driver_center/app.py:460
+#: andiora-driver-center/src/andiora_driver_center/app.py:551
+#: andiora-driver-center/src/andiora_driver_center/app.py:595
+#: andiora-driver-center/src/andiora_driver_center/app.py:703
+msgid "Not detected"
+msgstr "Algılanmadı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:446
+#: andiora-driver-center/src/andiora_driver_center/app.py:984
+msgid "Driver operation failed: "
+msgstr "Sürücü işlemi başarısız oldu: "
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:448
+#: andiora-driver-center/src/andiora_driver_center/app.py:571
+#: andiora-driver-center/src/andiora_driver_center/app.py:590
+#: andiora-driver-center/src/andiora_driver_center/app.py:653
+#: andiora-driver-center/src/andiora_driver_center/app.py:683
+#: andiora-driver-center/src/andiora_driver_center/app.py:691
+msgid "Repair & Reinstall"
+msgstr "Onarım ve Yeniden Yükleme"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:469
+msgid "Advanced driver versions"
+msgstr "Gelişmiş sürücü sürümleri"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:470
+msgid "Older, newer, and server-oriented packages"
+msgstr "Eski, yeni ve sunucu odaklı paketler"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:491
+msgid "Select another driver to apply changes."
+msgstr "Değişiklikleri uygulamak için başka bir sürücü seçin."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:526
+msgid "Xbox Controller Support"
+msgstr "Xbox Denetleyici Desteği"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:527
+msgid ""
+"xpadneo improves Bluetooth mapping, rumble, battery reporting and "
+"compatibility for modern Xbox controllers."
+msgstr ""
+"xpadneo, modern Xbox denetleyicileri için Bluetooth eşlemeyi, gürültüyü, pil "
+"raporlamayı ve uyumluluğu geliştirir."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:530
+msgid "Driver status"
+msgstr "Sürücü durumu"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:534
+msgid "Driver package"
+msgstr "Sürücü paketi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:535
+#: andiora-driver-center/src/andiora_driver_center/app.py:619
+#: andiora-driver-center/src/andiora_driver_center/app.py:662
+#: andiora-driver-center/src/andiora_driver_center/app.py:670
+#: andiora-driver-center/src/andiora_driver_center/app.py:834
+msgid "Not installed"
+msgstr "Yüklü değil"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:537
+msgid "Install Driver"
+msgstr "Sürücüyü Yükle"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:543
+msgid "Trusted"
+msgstr "Güvenilir"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:554
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:191
+msgid "Secure Boot state could not be determined"
+msgstr "Secure Boot durumu belirlenemedi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:559
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:234
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr "Mavi ekranda kaydetme bekleniyor (MOKManager)"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:564
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:239
+msgid "Certificate is not trusted by motherboard"
+msgstr "Sertifikaya anakart tarafından güvenilmiyor"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:569
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:267
+msgid "Some DKMS modules need to be re-signed"
+msgstr "Bazı DKMS modüllerinin yeniden imzalanması gerekiyor"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:580
+msgid "Module signature"
+msgstr "Modül imzası"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:588
+#: andiora-driver-center/src/andiora_driver_center/app.py:681
+#: andiora-driver-center/src/andiora_driver_center/app.py:689
+msgid "Missing"
+msgstr "Eksik"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:600
+msgid "Loaded"
+msgstr "Yüklendi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:605
+msgid "Standing by"
+msgstr "Beklemedeyiz"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:632
+msgid "Bluetooth Settings"
+msgstr "Bluetooth Ayarları"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:640
+msgid "Audio Support"
+msgstr "Ses Desteği"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:641
+msgid ""
+"Andiora provides Intel SOF firmware and ALSA UCM profiles for reliable "
+"audio initialization and routing."
+msgstr ""
+"Andiora, güvenilir ses başlatma ve yönlendirme için Intel SOF ürün yazılımı "
+"ve ALSA UCM profilleri sağlar."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:643
+msgid "Support packages"
+msgstr "Destek paketleri"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:651
+msgid "Install Audio Support"
+msgstr "Ses Desteğini Yükle"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:661
+msgid "Intel SOF firmware"
+msgstr "Intel SOF ürün yazılımı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:669
+msgid "ALSA UCM profiles"
+msgstr "ALSA UCM profilleri"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:676
+msgid "Runtime status"
+msgstr "Çalışma zamanı durumu"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:680
+msgid "SOF firmware files"
+msgstr "SOF ürün yazılımı dosyaları"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:681
+#: andiora-driver-center/src/andiora_driver_center/app.py:689
+msgid "Available"
+msgstr "Kullanımda"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:688
+msgid "UCM configuration files"
+msgstr "UCM yapılandırma dosyaları"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:696
+msgid "SOF kernel modules"
+msgstr "SOF çekirdek modülleri"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:697
+msgid "Not currently loaded"
+msgstr "Şu anda yüklü değil"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:702
+msgid "Active audio drivers"
+msgstr "Etkin ses sürücüleri"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:711
+msgid "Printing Support"
+msgstr "Yazdırma Desteği"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:712
+msgid ""
+"Inspect the local print service, configured queues, and the packages that "
+"provide modern and legacy printer support."
+msgstr ""
+"Yerel yazdırma hizmetini, yapılandırılmış kuyrukları ve modern ve eski "
+"yazıcı desteği sağlayan paketleri inceleyin."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:716
+#: andiora-driver-center/src/andiora_driver_center/app.py:733
+msgid "Enable Printing Support"
+msgstr "Yazdırma Desteğini Etkinleştir"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:717
+msgid "Allow local, network, and USB printing services to run."
+msgstr "Yerel, ağ ve USB yazdırma hizmetlerinin çalışmasına izin verin."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:726
+msgid "System status"
+msgstr "Sistem durumu"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:730
+msgid "CUPS service"
+msgstr "CUPS hizmeti"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:731
+msgid "Running"
+msgstr "Çalışıyor"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:731
+msgid "Stopped"
+msgstr "Durduruldu"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:743
+msgid "Start at boot"
+msgstr "Açılışta başlat"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:744
+msgid "Enabled"
+msgstr "Etkinleştirildi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:744
+msgid "Disabled"
+msgstr "Devre Dışı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:749
+#, python-format
+msgid "%d configured printer"
+msgid_plural "%d configured printers"
+msgstr[0] "%d yapılandırılmış yazıcı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:755
+msgid "Configured printers"
+msgstr "Yapılandırılmış yazıcılar"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:761
+msgid "Default printer"
+msgstr "Varsayılan yazıcı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:762
+msgid "Not set"
+msgstr "Ayarlanmadı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:766
+msgid "No configured queues"
+msgstr "Yapılandırılmış kuyruk yok"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:771
+#, python-format
+msgid "%d queue paused"
+msgid_plural "%d queues paused"
+msgstr[0] "%d kuyruğu duraklatıldı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:775
+msgid "All queues enabled"
+msgstr "Tüm kuyruklar etkinleştirildi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:779
+msgid "Print queues"
+msgstr "Yazdırma kuyrukları"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:790
+msgid "Core printing"
+msgstr "Çekirdek yazdırma"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:791
+msgid "Required for the local print service and command-line clients."
+msgstr "Yerel yazdırma hizmeti ve komut satırı istemcileri için gereklidir."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:798
+msgid "Driverless printing"
+msgstr "Sürücüsüz yazdırma"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:799
+msgid "Modern IPP drivers, document filters, and capability tools."
+msgstr "Modern IPP sürücüleri, belge filtreleri ve yetenek araçları."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:806
+msgid "Network discovery"
+msgstr "Ağ keşfi"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:807
+msgid "Automatic discovery of printers advertised on the local network."
+msgstr "Yerel ağda tanıtılan yazıcıların otomatik olarak bulunması."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:814
+msgid "Optional compatibility"
+msgstr "İsteğe bağlı uyumluluk"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:815
+msgid ""
+"USB IPP, administrative authorization, legacy drivers, and network scanning."
+msgstr "USB IPP, yönetici yetkilendirmesi, eski sürücüler ve ağ taraması."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:838
+msgid "Install Missing Packages"
+msgstr "Eksik Paketleri Yükle"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:891
+msgid "Printing support enabled."
+msgstr "Yazdırma desteği etkinleştirildi."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:897
+msgid "Printing operation failed: "
+msgstr "Yazdırma işlemi başarısız oldu: "
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:898
+#: andiora-driver-center/src/andiora_driver_center/app.py:984
+msgid "unknown error"
+msgstr "bilinmeyen hata"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:971
+msgid "Apply"
+msgstr "Uygula"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:972
+msgid "Working…"
+msgstr "Çalışıyor…"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:984
+msgid "Driver changes completed. Restart may be required."
+msgstr "Sürücü değişiklikleri tamamlandı. Yeniden başlatma gerekli olabilir."
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:991
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:423
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:441
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:449
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:457
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:473
+msgid "OK"
+msgstr "Tamam"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:1008
+msgid "Andiora Team"
+msgstr "4\tAndiora Takımı"
+
+#: andiora-driver-center/src/andiora_driver_center/app.py:1011
+msgid "Install, inspect, and repair hardware drivers on Andiora."
+msgstr "Andiora üzerinde donanım sürücülerini yükleyin, inceleyin ve onarın."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:75
+msgid "Secure Boot Configuration"
+msgstr "Güvenli Önyükleme Yapılandırması"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:83
+msgid ""
+"Secure Boot is a motherboard security standard that ensures only trusted "
+"software loads at startup."
+msgstr ""
+"\tGüvenli Önyükleme, yalnızca güvenilir yazılımların başlangıçta "
+"yüklenmesini sağlayan bir anakart güvenlik standardıdır."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:86
+msgid "It protects your system from low-level malware and rootkits."
+msgstr ""
+"Sistemi düşük düzeyli kötü amaçlı yazılımlardan ve rootkitlerden korur."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:95
+msgid "System Trust Status"
+msgstr "Sistem Güven Durumu"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:132
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:274
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:406
+msgid "Create & Enroll Certificate"
+msgstr "Sertifika Oluştur ve Kaydet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:138
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:284
+msgid "Repair Module Signatures"
+msgstr "Modül İmzalarını Onar"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:146
+msgid "Note: Use password <b>123456</b> after rebooting."
+msgstr "Not: Yeniden başlattıktan sonra <b>123456</b> şifresini kullanın."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:151
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:392
+msgid "Reboot & Configure Secure Boot"
+msgstr "Yeniden Başlat ve Güvenli Önyükleme Yapılandırması"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:159
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:358
+msgid "  Check Again  "
+msgstr "  Tekrar Kontrol Et  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:185
+msgid "Motherboard hardware protection is active"
+msgstr "Anakart donanım koruması aktif"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:188
+msgid "Firmware does not support Secure Boot"
+msgstr "Ürün yazılımı Secure Boot'yi desteklemiyor"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:194
+msgid "Secure Boot is disabled"
+msgstr "Secure Boot devre dışı"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:200
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:202
+msgid "Not required without firmware enforcement"
+msgstr "Ürün yazılımı zorunlu kılınmadan gerekli değildir"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:206
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:210
+msgid "Not checked because Secure Boot state is unknown"
+msgstr "Secure Boot durumu bilinmediğinden işaretlenmedi"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:215
+msgid "Certificate generated locally"
+msgstr "Sertifika yerel olarak oluşturuldu"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:217
+msgid "Missing local certificate"
+msgstr "Yerel sertifika eksik"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:230
+msgid "Certificate is trusted by motherboard"
+msgstr "Sertifika anakart tarafından güveniliyor"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:245
+msgid "Kernel signature enforcement is inactive"
+msgstr "Çekirdek imzası uygulaması etkin değil"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:248
+msgid "Driver trust cannot be verified"
+msgstr "Sürücü güveni doğrulanamıyor"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:252
+msgid ""
+"Secure Boot trust is ready. No third-party kernel modules are currently "
+"installed."
+msgstr ""
+"Secure Boot güveni hazır. Şu anda hiçbir üçüncü taraf çekirdek modülü yüklü "
+"değil."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:256
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:447
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:455
+msgid "Drivers are signed and ready to load"
+msgstr "Sürücüler imzalandı ve yüklenmeye hazır"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:260
+msgid "Drivers are trusted, but automatic DKMS signing needs repair"
+msgstr ""
+"Sürücülere güveniliyor ancak otomatik DKMS imzalamanın onarılması gerekiyor"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:264
+msgid "No signed third-party drivers detected"
+msgstr "İmzalanmış üçüncü taraf sürücü tespit edilmedi"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:272
+msgid "Enroll Existing Certificate"
+msgstr "Mevcut Sertifikayı Kaydet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:282
+msgid "Repair Automatic DKMS Signing"
+msgstr "Otomatik DKMS İmzalamayı Onar"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:299
+msgid "This firmware does not provide Secure Boot. No certificate is required."
+msgstr "Bu ürün yazılımı Secure Boot sağlamaz. Sertifika gerekli değildir."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:306
+msgid ""
+"Secure Boot status could not be read. Driver trust operations are blocked "
+"until detection succeeds."
+msgstr ""
+"Secure Boot durumu okunamadı. Algılama başarılı olana kadar sürücü güven "
+"işlemleri engellenir."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:311
+msgid "No certificate is required while Secure Boot is disabled."
+msgstr "Secure Boot devre dışıyken sertifika gerekmez."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:314
+msgid "System Trust Established. Third-party drivers will load securely."
+msgstr ""
+"Sistem Güvenliği Kuruldu. Üçüncü taraf sürücüler güvenli şekilde yüklenecek."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:318
+msgid "The certificate is enrolled and current drivers are trusted."
+msgstr "Sertifika kaydedildi ve mevcut sürücülere güveniliyor."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:320
+msgid "Repair automatic DKMS signing before future driver updates."
+msgstr ""
+"Gelecekteki sürücü güncellemelerinden önce otomatik DKMS imzalamayı onarın."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:325
+msgid "The certificate is enrolled, but some modules are not signed with it."
+msgstr "Sertifika kaydedildi ancak bazı modüller sertifikayla imzalanmadı."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:330
+msgid "A certificate is waiting for enrollment."
+msgstr "Bir sertifika kayıt için bekliyor."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:332
+msgid "Restart and enter password 123456 in MOKManager."
+msgstr "Yeniden başlatın ve MOKManager'ye 123456 şifresini girin."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:337
+msgid "The local trust certificate is not yet enrolled."
+msgstr "Yerel güven sertifikası henüz kaydedilmedi."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:339
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:346
+msgid "You must configure this to use third-party drivers like NVIDIA."
+msgstr ""
+"NVIDIA gibi üçüncü taraf sürücülerini kullanmak için bunu yapılandırmanız "
+"gerekir."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:344
+msgid "The local trust certificate is missing."
+msgstr "Yerel güven sertifikası eksik."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:362
+msgid "  Checking...  "
+msgstr "  Kontrol ediliyor...  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:368
+msgid "Reboot Required"
+msgstr "Yeniden Başlatma Gerekli"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:369
+msgid "Please trust the certificate upon reboot using password 123456."
+msgstr "Yeniden başlattığınızda sertifikayı 123456 şifresiyle güvenin."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:371
+msgid "Cancel"
+msgstr "İptal"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:372
+msgid "Reboot"
+msgstr "Yeniden Başlat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:380
+msgid "Success! When you reboot, a blue screen will appear."
+msgstr "Başarılı! Yeniden başlattığınızda mavi bir ekran görünecek."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:384
+msgid "Select 'Enroll MOK' → 'Continue' → 'Yes', and enter password: 123456"
+msgstr ""
+"'MOK Kaydet' → 'Devam' → 'Evet' seçeneğini belirleyin ve şifreyi girin: "
+"123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:388
+msgid "Certificate Created"
+msgstr "Sertifika Oluşturuldu"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:391
+msgid "Later"
+msgstr "Daha sonra"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:420
+msgid "Secure Boot Trust Not Required"
+msgstr "Secure Boot Güven Gerekli Değil"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:421
+msgid "Firmware signature enforcement is not active."
+msgstr "Ürün yazılımı imzası uygulaması etkin değil."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:431
+msgid ""
+"The certificate is ready, but one or more DKMS modules could not be rebuilt. "
+"You can repair them after enrollment."
+msgstr ""
+"Sertifika hazır ancak bir veya daha fazla DKMS modülü yeniden "
+"oluşturulamadı. Kayıt olduktan sonra bunları onarabilirsiniz."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:439
+msgid "Configuration needs attention"
+msgstr "Yapılandırmaya dikkat edilmesi gerekiyor"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:446
+msgid "System Trust Established"
+msgstr "Sistem Güveni Kuruldu"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:454
+msgid "Driver Signature Trusted"
+msgstr "Sürücü İmzası Güveniliyor"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:470
+msgid "Configuration failed. Please try again."
+msgstr "Yapılandırma başarısız oldu. Lütfen tekrar deneyin."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:471
+msgid "Please check the advanced output."
+msgstr "Lütfen gelişmiş çıktıyı kontrol edin."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:482
+msgid "Generating & Signing..."
+msgstr "Oluşturuluyor ve İmzalanıyor..."
+
+#~ msgid "Needs attention"
+#~ msgstr "Dikkat gerektiriyor"
+
+#~ msgid "Blocked by Secure Boot"
+#~ msgstr "Secure Boot tarafından engellendi"
+
+#~ msgid "Complete printing support"
+#~ msgstr "Tam yazdırma desteği"
+
+#~ msgid "Install missing printing packages"
+#~ msgstr "Eksik yazdırma paketlerini yükleyin"
+
+#, python-format
+#~ msgid "%d package is missing"
+#~ msgid_plural "%d packages are missing"
+#~ msgstr[0] "%d paketi eksik"

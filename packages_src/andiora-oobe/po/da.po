@@ -1,0 +1,1771 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-09 15:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: da <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: andiora-oobe/assets/andiora-oobe:371
+msgid "Disk Snapshots Manager"
+msgstr "Disk Snapshots Manager"
+
+#: andiora-oobe/assets/andiora-oobe:373
+msgid "Protect your system with automatic Btrfs snapshots and smart cleanup."
+msgstr "Beskyt dit system med automatiske Btrfs-snapshots og smart oprydning."
+
+#: andiora-oobe/assets/andiora-oobe:375
+msgid "Configure Automatic Snapshots"
+msgstr "Konfigurer automatiske snapshots"
+
+#: andiora-oobe/assets/andiora-oobe:380
+msgid "System Backup"
+msgstr "Systembackup"
+
+#: andiora-oobe/assets/andiora-oobe:382
+msgid "Use Deja Dup to protect your"
+msgstr "Brug Deja Dup til at beskytte dine"
+
+#: andiora-oobe/assets/andiora-oobe:383
+msgid "important files with automated,"
+msgstr "vigtige filer med automatiseret,"
+
+#: andiora-oobe/assets/andiora-oobe:384
+msgid "secure local or remote backups."
+msgstr "sikre lokale eller eksterne sikkerhedskopier."
+
+#: andiora-oobe/assets/andiora-oobe:386
+msgid "Get Deja Dup"
+msgstr "Hent Deja Dup"
+
+#: andiora-oobe/assets/andiora-oobe:457
+msgid "NetworkManager could not scan Wi-Fi."
+msgstr "NetworkManager kunne ikke scanne Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:520
+msgid "Could not inspect network adapters."
+msgstr "Kunne ikke inspicere netværksadaptere."
+
+#: andiora-oobe/assets/andiora-oobe:530
+msgid "Could not read the Wi-Fi radio state."
+msgstr "Kunne ikke læse Wi-Fi-radiotilstanden."
+
+#: andiora-oobe/assets/andiora-oobe:536
+msgid "Unknown Wi-Fi radio state: {}"
+msgstr "Ukendt Wi-Fi-radiotilstand: {}"
+
+#: andiora-oobe/assets/andiora-oobe:537
+msgid "empty"
+msgstr "tom"
+
+#: andiora-oobe/assets/andiora-oobe:546
+msgid "Could not change the Wi-Fi radio state."
+msgstr "Kunne ikke ændre Wi-Fi-radiotilstanden."
+
+#: andiora-oobe/assets/andiora-oobe:648
+msgid "Welcome Home."
+msgstr "Velkommen hjem."
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "Andiora is ready. Just a few steps to shape it"
+msgstr "Andiora er klar. Bare et par trin til at forme den"
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "into the perfect system tailored to your habits."
+msgstr "ind i det perfekte system skræddersyet til dine vaner."
+
+#: andiora-oobe/assets/andiora-oobe:668
+msgid "  Start Setup  "
+msgstr "Start opsætning"
+
+#: andiora-oobe/assets/andiora-oobe:715
+msgid "Connect to the Internet"
+msgstr "Opret forbindelse til internettet"
+
+#: andiora-oobe/assets/andiora-oobe:723
+msgid ""
+"Connect now so Andiora can safely check for updates, drivers, and apps."
+msgstr ""
+"Tilslut nu, så Andiora sikkert kan søge efter opdateringer, drivere og apps."
+
+#: andiora-oobe/assets/andiora-oobe:731
+msgid "Internet Connection"
+msgstr "Internetforbindelse"
+
+#: andiora-oobe/assets/andiora-oobe:738
+msgid "Network Hardware"
+msgstr "Netværkshardware"
+
+#: andiora-oobe/assets/andiora-oobe:746
+msgid "Available Wi-Fi Networks"
+msgstr "Tilgængelige Wi-Fi-netværk"
+
+#: andiora-oobe/assets/andiora-oobe:748
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:751
+msgid "Scan Again"
+msgstr "Scan igen"
+
+#: andiora-oobe/assets/andiora-oobe:760
+#: andiora-oobe/assets/andiora-oobe:832
+#: andiora-oobe/assets/andiora-oobe:840
+#: andiora-oobe/assets/andiora-oobe:855
+msgid "Open Network Settings"
+msgstr "Åbn Netværksindstillinger"
+
+#: andiora-oobe/assets/andiora-oobe:769
+msgid "Could not open network settings: {}"
+msgstr "Kunne ikke åbne netværksindstillinger: {}"
+
+#: andiora-oobe/assets/andiora-oobe:779
+msgid "Continue Offline"
+msgstr "Fortsæt offline"
+
+#: andiora-oobe/assets/andiora-oobe:783
+msgid "Skip updates, online drivers, apps, and account setup."
+msgstr "Spring over opdateringer, online drivere, apps og kontoopsætning."
+
+#: andiora-oobe/assets/andiora-oobe:799
+msgid "Internet connection is ready. Choose Next to continue."
+msgstr "Internetforbindelsen er klar. Vælg Næste for at fortsætte."
+
+#: andiora-oobe/assets/andiora-oobe:806
+msgid "Connect to Wi-Fi or a wired network to continue."
+msgstr "Opret forbindelse til Wi-Fi eller et kablet netværk for at fortsætte."
+
+#: andiora-oobe/assets/andiora-oobe:829
+msgid "No network adapters detected."
+msgstr "Ingen netværksadaptere fundet."
+
+#: andiora-oobe/assets/andiora-oobe:831
+msgid "Connect a network adapter or continue offline."
+msgstr "Tilslut en netværksadapter, eller fortsæt offline."
+
+#: andiora-oobe/assets/andiora-oobe:836
+msgid "Wired Network"
+msgstr "Kablet netværk"
+
+#: andiora-oobe/assets/andiora-oobe:838
+msgid "Cable connected."
+msgstr "Kabel tilsluttet."
+
+#: andiora-oobe/assets/andiora-oobe:839
+msgid "Plug in a network cable to connect."
+msgstr "Tilslut et netværkskabel for at tilslutte."
+
+#: andiora-oobe/assets/andiora-oobe:844
+msgid "Wireless Network"
+msgstr "Trådløst netværk"
+
+#: andiora-oobe/assets/andiora-oobe:845
+msgid "Wi-Fi adapter detected."
+msgstr "Wi-Fi-adapter fundet."
+
+#: andiora-oobe/assets/andiora-oobe:846
+msgid "Open Wi-Fi Settings"
+msgstr "Åbn Wi-Fi-indstillinger"
+
+#: andiora-oobe/assets/andiora-oobe:850
+msgid "Wired and Wireless Networks"
+msgstr "Kablede og trådløse netværk"
+
+#: andiora-oobe/assets/andiora-oobe:852
+msgid "Cable connected and Wi-Fi available."
+msgstr "Kabel tilsluttet og Wi-Fi tilgængelig."
+
+#: andiora-oobe/assets/andiora-oobe:854
+msgid "Wi-Fi is available; the network cable is disconnected."
+msgstr "Wi-Fi er tilgængeligt; netværkskablet er frakoblet."
+
+#: andiora-oobe/assets/andiora-oobe:866
+msgid "Wi-Fi is turned off."
+msgstr "Wi-Fi er slået fra."
+
+#: andiora-oobe/assets/andiora-oobe:870
+msgid "No Wi-Fi networks found."
+msgstr "Der blev ikke fundet nogen Wi-Fi-netværk."
+
+#: andiora-oobe/assets/andiora-oobe:899
+msgid "Wi-Fi unavailable: {}"
+msgstr "Wi-Fi er ikke tilgængeligt: ​​{}"
+
+#: andiora-oobe/assets/andiora-oobe:981
+msgid "Define Your Visual Order"
+msgstr "Definér din visuelle orden"
+
+#: andiora-oobe/assets/andiora-oobe:991
+msgid "Light and Shadow"
+msgstr "Lys og skygge"
+
+#: andiora-oobe/assets/andiora-oobe:992
+msgid "Choose a crisp light theme, or an immersive dark experience."
+msgstr "Vælg et klart lyse tema eller en dybdykkende mørk oplevelse."
+
+#: andiora-oobe/assets/andiora-oobe:1011
+msgid "Light"
+msgstr "Lys"
+
+#: andiora-oobe/assets/andiora-oobe:1023
+msgid "Dark"
+msgstr "Mørk"
+
+#: andiora-oobe/assets/andiora-oobe:1054
+msgid "Workflow Layout"
+msgstr "Arbejdsflydselslayout"
+
+#: andiora-oobe/assets/andiora-oobe:1055
+msgid "Prefer modern centered alignment, or classic left-docked?"
+msgstr ""
+"Eller du foretrækker moderne centrering eller klassisk venstre-docking?"
+
+#: andiora-oobe/assets/andiora-oobe:1089
+msgid "Taskbar Layout"
+msgstr "Opgavelinje-layout"
+
+#: andiora-oobe/assets/andiora-oobe:1090
+msgid "Choose your workflow."
+msgstr "Vælg din arbejdsflow."
+
+#: andiora-oobe/assets/andiora-oobe:1099
+msgid " Modern "
+msgstr "Moderne"
+
+#: andiora-oobe/assets/andiora-oobe:1100
+msgid " Classic "
+msgstr "Klassisk"
+
+#: andiora-oobe/assets/andiora-oobe:1129
+msgid "Show Virtual Desktop Switch Button"
+msgstr "Vis knap til skift af virtuelle skriveborde"
+
+#: andiora-oobe/assets/andiora-oobe:1130
+msgid "Display the Activities button on the taskbar"
+msgstr "Vis aktivitetsknap på opgavelinjen"
+
+#: andiora-oobe/assets/andiora-oobe:1182
+msgid "Digital Sovereignty, Under Your Control"
+msgstr "Digital suverænitet, under din kontrol"
+
+#: andiora-oobe/assets/andiora-oobe:1190
+msgid "We deeply value privacy. Here, you hold absolute authority."
+msgstr "Vi værdsætter privatliv dybt. Her har du absolut autoritet."
+
+#: andiora-oobe/assets/andiora-oobe:1200
+msgid "Network Security"
+msgstr "Netværkssikkerhed"
+
+#: andiora-oobe/assets/andiora-oobe:1202
+msgid ""
+"Control inbound protection and whether this computer participates in local "
+"network discovery."
+msgstr ""
+"Kontroller indgående beskyttelse, og om denne computer deltager i lokal "
+"netværksopdagelse."
+
+#: andiora-oobe/assets/andiora-oobe:1207
+msgid "Network Firewall (UFW)"
+msgstr "Nettværksbrandvæg (UFW)"
+
+#: andiora-oobe/assets/andiora-oobe:1260
+msgid "Local Network Discovery (mDNS)"
+msgstr "Lokal netværksopdagelse (mDNS)"
+
+#: andiora-oobe/assets/andiora-oobe:1262
+msgid ""
+"Find printers and nearby devices, and make .local names available on trusted "
+"networks."
+msgstr ""
+"Find printere og enheder i nærheden, og gør .local-navne tilgængelige på "
+"betroede netværk."
+
+#: andiora-oobe/assets/andiora-oobe:1274
+msgid "Local network discovery controls are not installed."
+msgstr "Kontrolelementer til lokal netværksregistrering er ikke installeret."
+
+#: andiora-oobe/assets/andiora-oobe:1309
+msgid "Location Services"
+msgstr "Lokationstjenester"
+
+#: andiora-oobe/assets/andiora-oobe:1311
+msgid ""
+"Allow apps like weather and clock to access your approximate geographic "
+"location."
+msgstr ""
+"Tillad apps som vejr og ur at få adgang til din omtrentlige geografiske "
+"placering."
+
+#: andiora-oobe/assets/andiora-oobe:1315
+msgid "Location Access"
+msgstr "Lokationsadgang"
+
+#: andiora-oobe/assets/andiora-oobe:1333
+msgid "Power Settings"
+msgstr "Strømindstillinger"
+
+#: andiora-oobe/assets/andiora-oobe:1334
+msgid "Manage idle behavior to balance energy saving and convenience."
+msgstr ""
+"Administrer inaktiv adfærd for at balancere energibesparelse og "
+"bekvemmelighed."
+
+#: andiora-oobe/assets/andiora-oobe:1338
+msgid "Auto Sleep"
+msgstr "Sov automatisk"
+
+#: andiora-oobe/assets/andiora-oobe:1367
+msgid "Command-line Assistance"
+msgstr "Hjælp til kommandolinjen"
+
+#: andiora-oobe/assets/andiora-oobe:1368
+msgid "Control local bash predictions."
+msgstr "Styr lokale bash-forslag."
+
+#: andiora-oobe/assets/andiora-oobe:1372
+msgid "Bash Command Predictions"
+msgstr "Bash-kommandoforslag"
+
+#: andiora-oobe/assets/andiora-oobe:1373
+msgid "Show command suggestions in bash"
+msgstr "Vis kommandoforslag i bash"
+
+#: andiora-oobe/assets/andiora-oobe:1390
+msgid ""
+"Could not update your Bash configuration. Your previous setting was kept."
+msgstr ""
+"Din Bash-konfiguration kunne ikke opdateres. Din tidligere indstilling blev "
+"bevaret."
+
+#: andiora-oobe/assets/andiora-oobe:1428
+msgid "Keep Your System Up to Date"
+msgstr "Hold dit system opdateret"
+
+#: andiora-oobe/assets/andiora-oobe:1437
+msgid "Security patches and the latest features are just a click away."
+msgstr "Sikkerhedsopdateringer og de nyeste funktioner er kun et klik væk."
+
+#: andiora-oobe/assets/andiora-oobe:1447
+msgid "Terminal Output"
+msgstr "Terminaloutput"
+
+#: andiora-oobe/assets/andiora-oobe:1483
+msgid "  Do It Later  "
+msgstr "Udsæt til senere"
+
+#: andiora-oobe/assets/andiora-oobe:1486
+msgid "  Find Fastest Mirror  "
+msgstr "Find hurtigste spejl"
+
+#: andiora-oobe/assets/andiora-oobe:1489
+msgid "  Check for Updates  "
+msgstr "Tjek for opdateringer"
+
+#: andiora-oobe/assets/andiora-oobe:1523
+msgid "Checking for updates…"
+msgstr "Tjekker for opdateringer…"
+
+#: andiora-oobe/assets/andiora-oobe:1555
+msgid "Updates are available."
+msgstr "Opdateringer er tilgængelige."
+
+#: andiora-oobe/assets/andiora-oobe:1556
+msgid "  Install Updates  "
+msgstr "Installer opdateringer"
+
+#: andiora-oobe/assets/andiora-oobe:1563
+msgid "✓ System is up to date."
+msgstr "✓ Systemet er opdateret."
+
+#: andiora-oobe/assets/andiora-oobe:1565
+#: andiora-oobe/assets/andiora-oobe:1595
+msgid "  Continue  "
+msgstr "Fortsæt"
+
+#: andiora-oobe/assets/andiora-oobe:1572
+msgid "✗ Check failed: "
+msgstr "✗ Tjek mislykkedes:"
+
+#: andiora-oobe/assets/andiora-oobe:1578
+msgid "Installing updates…"
+msgstr "Installerer opdateringer…"
+
+#: andiora-oobe/assets/andiora-oobe:1593
+msgid "✓ Updates installed successfully!"
+msgstr "✓ Opdateringer installeret med succes!"
+
+#: andiora-oobe/assets/andiora-oobe:1604
+msgid "✗ Installation failed: "
+msgstr "✗ Installation mislykkedes:"
+
+#: andiora-oobe/assets/andiora-oobe:1643
+msgid "Testing mirrors…"
+msgstr "Test af spejle…"
+
+#: andiora-oobe/assets/andiora-oobe:1644
+msgid "=== Testing mirror speeds ==="
+msgstr "=== Tester spejlhastigheder ==="
+
+#: andiora-oobe/assets/andiora-oobe:1769
+#: andiora-oobe/assets/andiora-oobe:1777
+#, python-brace-format
+msgid "Testing mirrors… ({c}/{t})"
+msgstr "<N<Testning af spejle... ({c}/{t})>"
+
+#: andiora-oobe/assets/andiora-oobe:1785
+msgid "No mirrors reachable."
+msgstr "Ingen mirrors nåbar."
+
+#: andiora-oobe/assets/andiora-oobe:1787
+msgid "✗ No mirrors reachable. Check your connection."
+msgstr "✗ Ingen spejle tilgængelige. Tjek din forbindelse."
+
+#: andiora-oobe/assets/andiora-oobe:1795
+msgid "=== Testing bandwidth of top 5 mirrors "
+msgstr "=== Tester båndbredde for de 5 bedste mirrors ==="
+
+#: andiora-oobe/assets/andiora-oobe:1796
+msgid "(3 s each) ==="
+msgstr "(3 s hver) ==="
+
+#: andiora-oobe/assets/andiora-oobe:1850
+msgid "Best mirror by bandwidth"
+msgstr "Bedste spejl efter båndbredde"
+
+#: andiora-oobe/assets/andiora-oobe:1852
+#: andiora-oobe/assets/andiora-oobe:1873
+#: andiora-oobe/assets/andiora-oobe:1880
+msgid "Latency"
+msgstr "Forsinkelse"
+
+#: andiora-oobe/assets/andiora-oobe:1853
+#: andiora-oobe/assets/andiora-oobe:1874
+#: andiora-oobe/assets/andiora-oobe:1881
+msgid "Bandwidth"
+msgstr "Båndbredde"
+
+#: andiora-oobe/assets/andiora-oobe:1875
+msgid "This is already your current mirror."
+msgstr "Denne mirror er allerede din aktuelle."
+
+#: andiora-oobe/assets/andiora-oobe:1885
+msgid "Current mirror"
+msgstr "Aktuel mirror"
+
+#: andiora-oobe/assets/andiora-oobe:1889
+msgid "Switch to this mirror and run apt update?"
+msgstr "Skift til denne mirror og kør apt update?"
+
+#: andiora-oobe/assets/andiora-oobe:1894
+msgid "Fastest Mirror Found"
+msgstr "Hurtigste mirror fundet"
+
+#: andiora-oobe/assets/andiora-oobe:1897
+msgid "Keep Current"
+msgstr "Behold nuværende"
+
+#: andiora-oobe/assets/andiora-oobe:1898
+msgid "Switch"
+msgstr "Skift"
+
+#: andiora-oobe/assets/andiora-oobe:1920
+msgid "✗ Mirror test failed: "
+msgstr "✗ Mirror-test mislykkedes:"
+
+#: andiora-oobe/assets/andiora-oobe:1926
+msgid "Switching mirror…"
+msgstr "Skifter mirror…"
+
+#: andiora-oobe/assets/andiora-oobe:1927
+msgid "=== Applying mirror switch ==="
+msgstr "=== Skifter mirror ==="
+
+#: andiora-oobe/assets/andiora-oobe:2002
+msgid "✓ Mirror switched and system updated."
+msgstr "✓ Mirror skiftet og system opdateret."
+
+#: andiora-oobe/assets/andiora-oobe:2005
+msgid "✓ Switched to "
+msgstr "✓ Skiftet til"
+
+#: andiora-oobe/assets/andiora-oobe:2018
+msgid "✗ Switch failed: "
+msgstr "✗ Skift mislykkedes:"
+
+#: andiora-oobe/assets/andiora-oobe:2058
+msgid "Could not open Andiora Driver Center: {}"
+msgstr "Andiora Driver Center kunne ikke åbnes: {}"
+
+#: andiora-oobe/assets/andiora-oobe:2092
+msgid "Configure Hardware Drivers?"
+msgstr "Konfigurer hardwaredrivere?"
+
+#: andiora-oobe/assets/andiora-oobe:2102
+msgid ""
+"Open Andiora Driver Center now to manage graphics cards, Xbox controllers, "
+"and other hardware."
+msgstr ""
+"Åbn Andiora Driver Center nu for at administrere grafikkort, Xbox-"
+"controllere og anden hardware."
+
+#: andiora-oobe/assets/andiora-oobe:2125
+msgid "Skip"
+msgstr "Spring over"
+
+#: andiora-oobe/assets/andiora-oobe:2130
+msgid "Open Driver Center"
+msgstr "Åbn Driver Center"
+
+#: andiora-oobe/assets/andiora-oobe:2166
+msgid "Run Windows Apps, with ease"
+msgstr "Kør Windows-apps med lethed"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid ""
+"Powered by Wine and Bottles technology, running classic Windows applications"
+msgstr ""
+"\tDrevet af Wine- og Bottles-teknologi, der kører klassiske Windows-"
+"applikationer"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid "is now easier than ever."
+msgstr "er nu nemmere end nogensinde før."
+
+#: andiora-oobe/assets/andiora-oobe:2191
+msgid "✓ Windows compatibility sandbox is already installed."
+msgstr "✓ Windows-compatibility-sandboxen er allerede installeret."
+
+#: andiora-oobe/assets/andiora-oobe:2207
+msgid "  Skip  "
+msgstr "Skip"
+
+#: andiora-oobe/assets/andiora-oobe:2211
+msgid "  Enable Windows Compatibility Sandbox  "
+msgstr "Enable Windows Compatibility Sandbox"
+
+#: andiora-oobe/assets/andiora-oobe:2221
+msgid "Configure Bottles"
+msgstr "Konfigurer Flasker"
+
+#: andiora-oobe/assets/andiora-oobe:2236
+msgid "Advanced Output"
+msgstr "Avanceret output"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "Deploying compatibility sandbox via Flatpak…"
+msgstr "Implementerer kompatibilitetssandbox via Flatpak…"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "This may take a few minutes."
+msgstr "Dette kan tage et par minutter."
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "✓ Sandbox deployed successfully!"
+msgstr "✓ Sandbox implementeret med succes!"
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "You can now double-click .exe files to run them."
+msgstr "Du kan nu dobbeltklikke på .exe-filer for at køre dem."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "✗ Deployment failed."
+msgstr "✗ Implementering mislykkedes."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "You can install Bottles later from the App Store."
+msgstr "Du kan installere Bottles senere fra App Store."
+
+#: andiora-oobe/assets/andiora-oobe:2316
+msgid "✗ Error: "
+msgstr "✗ Fejl:"
+
+#: andiora-oobe/assets/andiora-oobe:2347
+msgid "The Magic at Your Fingertips"
+msgstr "Magien ved din fingertips"
+
+#: andiora-oobe/assets/andiora-oobe:2355
+msgid "Skip tedious clicking. Capture inspiration with elegance."
+msgstr "Skip kedelig klikken. Få inspiration med elegance."
+
+#: andiora-oobe/assets/andiora-oobe:2377
+msgid "Screenshot"
+msgstr "Skærmbillede"
+
+#: andiora-oobe/assets/andiora-oobe:2378
+msgid "Select, annotate, copy — all in one motion"
+msgstr "Vælg, annotér, kopier — alt i én bevægelse"
+
+#: andiora-oobe/assets/andiora-oobe:2396
+msgid "Screen Recording"
+msgstr "Optagelse af skærm"
+
+#: andiora-oobe/assets/andiora-oobe:2397
+msgid "Seamless start, instant capture"
+msgstr "Hurtig start, øjeblikkelig optagelse"
+
+#: andiora-oobe/assets/andiora-oobe:2417
+msgid "More Essential Shortcuts"
+msgstr "Mere essentielle genveje"
+
+#: andiora-oobe/assets/andiora-oobe:2420
+msgid "Open File Manager"
+msgstr "Åbn filhåndtering"
+
+#: andiora-oobe/assets/andiora-oobe:2421
+msgid "Open Terminal"
+msgstr "Åbn terminal"
+
+#: andiora-oobe/assets/andiora-oobe:2422
+msgid "Task Manager"
+msgstr "Opgavehåndtering"
+
+#: andiora-oobe/assets/andiora-oobe:2423
+msgid "View Clipboard History"
+msgstr "Vis udklipsholderhistorik"
+
+#: andiora-oobe/assets/andiora-oobe:2424
+msgid "Lock Screen"
+msgstr "Lås skærm"
+
+#: andiora-oobe/assets/andiora-oobe:2425
+msgid "Action Center"
+msgstr "Aktionscenter"
+
+#: andiora-oobe/assets/andiora-oobe:2426
+msgid "Notification Center"
+msgstr "Notifikationscenter"
+
+#: andiora-oobe/assets/andiora-oobe:2427
+msgid "Toggle Network Stats Display"
+msgstr "Slå netværksstatistikvisning til/fra"
+
+#: andiora-oobe/assets/andiora-oobe:2428
+msgid "Switch Between Windows"
+msgstr "Skift mellem vinduer"
+
+#: andiora-oobe/assets/andiora-oobe:2429
+msgid "Close Current Window"
+msgstr "Luk nuværende vindue"
+
+#: andiora-oobe/assets/andiora-oobe:2430
+msgid "Snap Windows"
+msgstr "Snap-vinduer"
+
+#: andiora-oobe/assets/andiora-oobe:2431
+msgid "Switch Virtual Desktop"
+msgstr "Skift virtuel skrivebord"
+
+#: andiora-oobe/assets/andiora-oobe:2432
+msgid "Show Desktop"
+msgstr "Vis skrivebord"
+
+#: andiora-oobe/assets/andiora-oobe:2433
+msgid "System Settings"
+msgstr "Systemindstillinger"
+
+#: andiora-oobe/assets/andiora-oobe:2434
+msgid "Emoji and Characters"
+msgstr "Emoji og tegn"
+
+#: andiora-oobe/assets/andiora-oobe:2435
+msgid "Minimize Window"
+msgstr "Minimer vindue"
+
+#: andiora-oobe/assets/andiora-oobe:2453
+msgid ""
+"You can view and customize all shortcuts anytime in Settings → Keyboard."
+msgstr ""
+"Du kan se og tilpasse alle genveje når som helst under Indstillinger → "
+"Tastatur."
+
+#: andiora-oobe/assets/andiora-oobe:2490
+msgid "In China? Use USTC mirror for App Store!"
+msgstr "I Kina? Brug USTC-spejlingen til App Store!"
+
+#: andiora-oobe/assets/andiora-oobe:2496
+msgid ""
+"Flathub access can be slow from China. Switch to the USTC mirror for faster "
+"downloads."
+msgstr ""
+"Adgang til Flathub kan være langsom fra Kina. Skift til USTC-spejlingen for "
+"hurtigere downloads."
+
+#: andiora-oobe/assets/andiora-oobe:2603
+msgid "✓ Already using Chinese mirror — downloads are fast."
+msgstr "✓ Bruger allerede kinesisk spejling — downloads er hurtige."
+
+#: andiora-oobe/assets/andiora-oobe:2606
+msgid "Switch Back to International"
+msgstr "Skift tilbage til international"
+
+#: andiora-oobe/assets/andiora-oobe:2609
+msgid "Flathub is using the international server."
+msgstr "Flathub bruger den internationale server."
+
+#: andiora-oobe/assets/andiora-oobe:2612
+msgid "🚀 Switch to USTC Mirror"
+msgstr "🚀 Skift til USTC-spejling"
+
+#: andiora-oobe/assets/andiora-oobe:2625
+msgid "Testing USTC mirror..."
+msgstr "Tester USTC spejl..."
+
+#: andiora-oobe/assets/andiora-oobe:2669
+msgid "Switching back..."
+msgstr "Skifter tilbage..."
+
+#: andiora-oobe/assets/andiora-oobe:2696
+msgid "✗ Failed: "
+msgstr "✗ Mislykkedes:"
+
+#: andiora-oobe/assets/andiora-oobe:2699
+msgid "Retry"
+msgstr "Gentag"
+
+#: andiora-oobe/assets/andiora-oobe:2725
+msgid "Productive From Day One"
+msgstr "Produktiv fra dag et"
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Essential productivity and entertainment tools, hand-picked for you."
+msgstr ""
+"Vigtige produktivitets- og underholdningsværktøjer, håndplukket til dig."
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Click any app to open its details in the App Store."
+msgstr "Klik på en app for at åbne dens detaljer i App Store."
+
+#: andiora-oobe/assets/andiora-oobe:2746
+msgid "WeChat"
+msgstr "WeChat"
+
+#: andiora-oobe/assets/andiora-oobe:2747
+msgid "Most popular messaging app in China"
+msgstr "Mest populære messaging-app i Kina"
+
+#: andiora-oobe/assets/andiora-oobe:2748
+msgid "QQ"
+msgstr "QQ"
+
+#: andiora-oobe/assets/andiora-oobe:2749
+msgid "Tencent QQ instant messenger"
+msgstr "Tencent QQ instant messenger"
+
+#: andiora-oobe/assets/andiora-oobe:2750
+msgid "WPS Office"
+msgstr "WPS Office"
+
+#: andiora-oobe/assets/andiora-oobe:2751
+msgid "Best office suite for Chinese documents"
+msgstr "Bedste kontorpakke til kinesiske dokumenter"
+
+#: andiora-oobe/assets/andiora-oobe:2756
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: andiora-oobe/assets/andiora-oobe:2757
+msgid "The world's most popular web browser"
+msgstr "Verdens mest populære webbrowser"
+
+#: andiora-oobe/assets/andiora-oobe:2758
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+#: andiora-oobe/assets/andiora-oobe:2759
+msgid "Code editing. Redefined."
+msgstr "Kode-redigering. På ny defineret."
+
+#: andiora-oobe/assets/andiora-oobe:2760
+msgid "Steam"
+msgstr "Steam"
+
+#: andiora-oobe/assets/andiora-oobe:2761
+msgid "Your portal to the gaming universe"
+msgstr "Din portal til gaming-universet"
+
+#: andiora-oobe/assets/andiora-oobe:2762
+msgid "Discord"
+msgstr "Discord"
+
+#: andiora-oobe/assets/andiora-oobe:2763
+msgid "Chat, voice, and video for communities"
+msgstr "Chat, stemme og video for fællesskaber"
+
+#: andiora-oobe/assets/andiora-oobe:2764
+msgid "Spotify"
+msgstr "Spotify"
+
+#: andiora-oobe/assets/andiora-oobe:2765
+msgid "Music for everyone"
+msgstr "Musik til alle"
+
+#: andiora-oobe/assets/andiora-oobe:2766
+msgid "OnlyOffice"
+msgstr "OnlyOffice"
+
+#: andiora-oobe/assets/andiora-oobe:2767
+msgid "Best Microsoft Office-compatible suite"
+msgstr "Bedste Microsoft Office-kompatible kontorpakke"
+
+#: andiora-oobe/assets/andiora-oobe:2768
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: andiora-oobe/assets/andiora-oobe:2769
+msgid "Secure, fast, and easy email client"
+msgstr "Sikker, hurtig og let e-mail-klient"
+
+#: andiora-oobe/assets/andiora-oobe:2770
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: andiora-oobe/assets/andiora-oobe:2771
+msgid "Sync and collaborate on your desktop or laptop"
+msgstr "Synkroniser og samarbejd på din stationære eller bærbare computer"
+
+#: andiora-oobe/assets/andiora-oobe:2772
+msgid "Blender"
+msgstr "Blender"
+
+#: andiora-oobe/assets/andiora-oobe:2773
+msgid "Professional 3D creation suite"
+msgstr "Professionel 3D-skabelsespakke"
+
+#: andiora-oobe/assets/andiora-oobe:2774
+msgid "GNOME Boxes"
+msgstr "GNOME Boxes"
+
+#: andiora-oobe/assets/andiora-oobe:2775
+msgid "Virtualization made simple"
+msgstr "Virtualisering gjort simpel"
+
+#: andiora-oobe/assets/andiora-oobe:2776
+msgid "VLC"
+msgstr "VLC"
+
+#: andiora-oobe/assets/andiora-oobe:2777
+msgid "The versatile media player that plays everything"
+msgstr "Den alsidige medieafspiller, der afspiller alt"
+
+#: andiora-oobe/assets/andiora-oobe:2778
+msgid "Krita"
+msgstr "Krita"
+
+#: andiora-oobe/assets/andiora-oobe:2779
+msgid "Professional free and open source painting program"
+msgstr "Professionelt gratis og open source maleriprogram"
+
+#: andiora-oobe/assets/andiora-oobe:2780
+msgid "OBS Studio"
+msgstr "OBS Studio"
+
+#: andiora-oobe/assets/andiora-oobe:2781
+msgid "Free and open source software for video recording and live streaming"
+msgstr "Gratis og open source software til videooptagelse og live-streaming"
+
+#: andiora-oobe/assets/andiora-oobe:2843
+msgid "Installed"
+msgstr "Installeret"
+
+#: andiora-oobe/assets/andiora-oobe:2845
+msgid "Click to open in App Store"
+msgstr "Klik for at åbne i App Store"
+
+#: andiora-oobe/assets/andiora-oobe:2853
+msgid "Opening…"
+msgstr "Abrer…"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "Pro tip: You can explore these apps in the App Store,"
+msgstr "Pro-tip: Du kan udforske disse apps i App Store,"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "and continue with the system setup while they download."
+msgstr "og fortsæt med systemopsætningen, mens de downloader."
+
+#: andiora-oobe/assets/andiora-oobe:2881
+msgid "  Browse Store  "
+msgstr "N<Browse Butik>"
+
+#: andiora-oobe/assets/andiora-oobe:2913
+msgid "Connect & Protect Your Data"
+msgstr "Forbind & Beskyt dine data"
+
+#: andiora-oobe/assets/andiora-oobe:2937
+msgid "Online Accounts"
+msgstr "Onlinakounts"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "Connect your Google, Microsoft,"
+msgstr "Tilslut din Google, Microsoft,"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "or Nextcloud accounts to sync"
+msgstr "eller Nextcloud-konti for at synkronisere"
+
+#: andiora-oobe/assets/andiora-oobe:2944
+msgid "files, contacts, and calendar."
+msgstr "filer, kontakter og kalender."
+
+#: andiora-oobe/assets/andiora-oobe:2954
+msgid "Connect Accounts"
+msgstr "Forbind Konti"
+
+#: andiora-oobe/assets/andiora-oobe:3024
+msgid "Your Data. Your Rules. Period."
+msgstr "Dine data. Dine regler. Point."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "Andiora disables all system-level telemetry by default."
+msgstr "Andiora deaktiverer alle systemnivå-telemetridata som standard."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "We do not collect your usage habits."
+msgstr "Vi samler ikke dine brugsadfærdsdata."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "We do not upload your search history."
+msgstr "Vi uploader ikke din søgehistorik."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "There are no pervasive advertisements."
+msgstr "Der er ingen udbredte reklamer."
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "In an era ruled by algorithms and surveillance,"
+msgstr "I en tid styret af algoritmer og overvågning,"
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "this is our firmest commitment to you."
+msgstr "dette er vores stærkeste engagement over for dig."
+
+#: andiora-oobe/assets/andiora-oobe:3063
+msgid "✓ Zero telemetry — your activity is yours alone"
+msgstr "✓ Nul telemetry — din aktivitet er kun din egen"
+
+#: andiora-oobe/assets/andiora-oobe:3064
+msgid "✓ No data collection — your files stay on your device"
+msgstr "✓ Ingen datansamling — dine filer bliver på din enhed"
+
+#: andiora-oobe/assets/andiora-oobe:3065
+msgid "✓ No ads in your operating system"
+msgstr "✓ Ingen reklamer i dit operativsystem"
+
+#: andiora-oobe/assets/andiora-oobe:3066
+msgid "✓ Full root access — you truly own your machine"
+msgstr "✓ Fuldt root-adgang — du ejer virkelig din maskine"
+
+#: andiora-oobe/assets/andiora-oobe:3067
+msgid "✓ UFW firewall — your digital perimeter, defended"
+msgstr "✓ UFW-firewall — dit digitale perimeter, forsvar"
+
+#: andiora-oobe/assets/andiora-oobe:3068
+msgid "✓ Open source — the code is yours to inspect and modify"
+msgstr "✓ Open source — koden er din til inspektion og modificering"
+
+#: andiora-oobe/assets/andiora-oobe:3109
+msgid "Welcome to the Andiora Community"
+msgstr "Velkommen til Andiora-fællesskabet"
+
+#: andiora-oobe/assets/andiora-oobe:3118
+msgid "Whether you're a Windows refugee seeking shelter,"
+msgstr "Uanset om du er en Windows-flygtning, der søger ly,"
+
+#: andiora-oobe/assets/andiora-oobe:3119
+msgid "or a hardcore geek developer — you'll find your tribe here."
+msgstr "ellem en hardcore geek-udvikler — du finder din stamme her."
+
+#: andiora-oobe/assets/andiora-oobe:3120
+msgid "Found a bug? Want a feature? Tell us anytime."
+msgstr "Fundet en fejl? Vil du have en funktion? Fortæl os når som helst."
+
+#: andiora-oobe/assets/andiora-oobe:3132
+msgid "Official Documentation"
+msgstr "Officielt dokumentation"
+
+#: andiora-oobe/assets/andiora-oobe:3133
+msgid "Comprehensive guides and troubleshooting — covers everything you need"
+msgstr "Komplette vejledninger og fejlsøgning — dækker alt hvad du behøver"
+
+#: andiora-oobe/assets/andiora-oobe:3135
+msgid "Community Forums"
+msgstr "Fællesskabsforummer"
+
+#: andiora-oobe/assets/andiora-oobe:3136
+msgid "Discuss with other Andiora users and developers"
+msgstr "Diskusér med andre Andiora-brugere og udviklere"
+
+#: andiora-oobe/assets/andiora-oobe:3138
+msgid "Discord Server"
+msgstr "Discord-server"
+
+#: andiora-oobe/assets/andiora-oobe:3139
+msgid "Join our official Discord server for real-time chat and support"
+msgstr "Deltag i vores officielle Discord-server for realtidschat og support"
+
+#: andiora-oobe/assets/andiora-oobe:3141
+msgid "Report an Issue"
+msgstr "Rapporter et problem"
+
+#: andiora-oobe/assets/andiora-oobe:3142
+msgid "Found a bug or have a feature request? Let us know!"
+msgstr "Fundet en fejl eller har du et funktionsønske? Lad os vide!"
+
+#: andiora-oobe/assets/andiora-oobe:3144
+msgid "Buy Andiora Enterprise Edition"
+msgstr "Køb Andiora Enterprise Edition"
+
+#: andiora-oobe/assets/andiora-oobe:3145
+msgid ""
+"Get enterprise-grade support and advanced features for your organization"
+msgstr ""
+"Få enterprise-grade-support og avancerede funktioner til din organisation"
+
+#: andiora-oobe/assets/andiora-oobe:3147
+msgid "Ask Ubuntu"
+msgstr "Ask Ubuntu"
+
+#: andiora-oobe/assets/andiora-oobe:3148
+msgid "Almost all Ubuntu solutions apply directly to Andiora"
+msgstr "Næsten alle Ubuntu-løsninger gælder direkte for Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3150
+msgid "Source Code"
+msgstr "Kildekode"
+
+#: andiora-oobe/assets/andiora-oobe:3151
+msgid "Andiora is open-source. Explore the code and contribute!"
+msgstr "Andiora er open source. Udforsk koden og bidrag!"
+
+#: andiora-oobe/assets/andiora-oobe:3163
+msgid "Open"
+msgstr "Åben"
+
+#: andiora-oobe/assets/andiora-oobe:3173
+msgid "💡 Andiora is compatible with Ubuntu's entire ecosystem."
+msgstr "💡 Andiora er kompatibel med hele Ubuntu-økosystemet."
+
+#: andiora-oobe/assets/andiora-oobe:3174
+msgid "You can rely on Ubuntu's vast documentation and expertise."
+msgstr "Du kan stole på Ubuntus omfattende dokumentation og ekspertise."
+
+#: andiora-oobe/assets/andiora-oobe:3207
+msgid "All Set."
+msgstr "Klar."
+
+#: andiora-oobe/assets/andiora-oobe:3216
+msgid "  Start Your Andiora Journey  "
+msgstr "Start din Andiora-rejse"
+
+#: andiora-oobe/assets/andiora-oobe:3250
+msgid "Andiora Setup"
+msgstr "Andiora-setup"
+
+#: andiora-oobe/assets/andiora-oobe:3253
+msgid "Andiora Welcome Center"
+msgstr "Andiora Velkomstcenter"
+
+#: andiora-oobe/assets/andiora-oobe:3305
+msgid "← Back"
+msgstr "← Tilbage"
+
+#: andiora-oobe/assets/andiora-oobe:3314
+#: andiora-oobe/assets/andiora-oobe:3433
+msgid "Next →"
+msgstr "Næste →"
+
+#: andiora-oobe/assets/andiora-oobe:3431
+msgid "Finish"
+msgstr "Færdig"
+
+#: andiora-oobe/assets/andiora-oobe:3498
+msgid "Andiora Welcome"
+msgstr "Andiora Velkomst"
+
+#: andiora-oobe/assets/andiora-oobe:3500
+msgid "Andiora Team"
+msgstr "Andiora Team"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:75
+msgid "Secure Boot Configuration"
+msgstr "Secure Boot-konfiguration"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:83
+msgid ""
+"Secure Boot is a motherboard security standard that ensures only trusted "
+"software loads at startup."
+msgstr ""
+"\tSecure Boot er en moderboardsikkerhedsstandard, der sikrer, at kun betroet "
+"software indlæses ved opstart."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:86
+msgid "It protects your system from low-level malware and rootkits."
+msgstr "Det beskytter dit system mod low-level malware og rootkits."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:95
+msgid "System Trust Status"
+msgstr "Systemtro-status"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:132
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:274
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:406
+msgid "Create & Enroll Certificate"
+msgstr "Opret & Indskriv Certifikat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:138
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:284
+msgid "Repair Module Signatures"
+msgstr "Reparationsmodulsignaturer"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:146
+msgid "Note: Use password <b>123456</b> after rebooting."
+msgstr "Bemærk: Brug adgangskoden <b>123456</b> efter genstart."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:151
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:392
+msgid "Reboot & Configure Secure Boot"
+msgstr "Genstart & Konfigurer Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:159
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:358
+msgid "  Check Again  "
+msgstr "  Kontrollér igen  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:185
+msgid "Motherboard hardware protection is active"
+msgstr "Bundkortets hardwarebeskyttelse er aktiv"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:188
+msgid "Firmware does not support Secure Boot"
+msgstr "Firmware understøtter ikke Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:191
+msgid "Secure Boot state could not be determined"
+msgstr "Secure Boot tilstand kunne ikke bestemmes"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:194
+msgid "Secure Boot is disabled"
+msgstr "Secure Boot er deaktiveret"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:200
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:202
+msgid "Not required without firmware enforcement"
+msgstr "Ikke påkrævet uden firmwarehåndhævelse"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:206
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:210
+msgid "Not checked because Secure Boot state is unknown"
+msgstr "Ikke markeret, fordi Secure Boot tilstand er ukendt"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:215
+msgid "Certificate generated locally"
+msgstr "Certifikat genereret lokalt"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:217
+msgid "Missing local certificate"
+msgstr "Mangler lokalt certifikat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:230
+msgid "Certificate is trusted by motherboard"
+msgstr "Certifikatet er betroet af bundkortet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:234
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr "Afventer indskrivning i blå skærm (MOKManager)"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:239
+msgid "Certificate is not trusted by motherboard"
+msgstr "Certifikatet er ikke betroet af bundkortet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:245
+msgid "Kernel signature enforcement is inactive"
+msgstr "Håndhævelse af kernesignatur er inaktiv"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:248
+msgid "Driver trust cannot be verified"
+msgstr "Drivertillid kan ikke bekræftes"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:252
+msgid ""
+"Secure Boot trust is ready. No third-party kernel modules are currently "
+"installed."
+msgstr ""
+"Secure Boot tillid er klar. Ingen tredjeparts kernemoduler er i øjeblikket "
+"installeret."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:256
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:447
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:455
+msgid "Drivers are signed and ready to load"
+msgstr "Drivere er signeret og klar til at blive indlæst"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:260
+msgid "Drivers are trusted, but automatic DKMS signing needs repair"
+msgstr "Drivere er tillid til, men automatisk DKMS-signering skal repareres"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:264
+msgid "No signed third-party drivers detected"
+msgstr "Ingen signerede tredjepartsdrivere registreret"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:267
+msgid "Some DKMS modules need to be re-signed"
+msgstr "Nogle DKMS-moduler skal gensigneres"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:272
+msgid "Enroll Existing Certificate"
+msgstr "Tilmeld eksisterende certifikat"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:282
+msgid "Repair Automatic DKMS Signing"
+msgstr "Reparation af automatisk DKMS signering"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:299
+msgid "This firmware does not provide Secure Boot. No certificate is required."
+msgstr "Denne firmware giver ikke Secure Boot. Der kræves intet certifikat."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:306
+msgid ""
+"Secure Boot status could not be read. Driver trust operations are blocked "
+"until detection succeeds."
+msgstr ""
+"Secure Boot status kunne ikke læses. Drivertillidsoperationer er blokeret, "
+"indtil detektionen lykkes."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:311
+msgid "No certificate is required while Secure Boot is disabled."
+msgstr "Der kræves intet certifikat, mens Secure Boot er deaktiveret."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:314
+msgid "System Trust Established. Third-party drivers will load securely."
+msgstr "Systemtro etableret. Tredjepartsdrivere vil blive indlæst sikkert."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:318
+msgid "The certificate is enrolled and current drivers are trusted."
+msgstr "Certifikatet er tilmeldt, og nuværende drivere er tillid til."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:320
+msgid "Repair automatic DKMS signing before future driver updates."
+msgstr "Reparer automatisk DKMS-signering før fremtidige driveropdateringer."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:325
+msgid "The certificate is enrolled, but some modules are not signed with it."
+msgstr "Certifikatet er tilmeldt, men nogle moduler er ikke signeret med det."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:330
+msgid "A certificate is waiting for enrollment."
+msgstr "Et certifikat venter på tilmelding."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:332
+msgid "Restart and enter password 123456 in MOKManager."
+msgstr "Genstart og indtast adgangskoden 123456 i MOKManager."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:337
+msgid "The local trust certificate is not yet enrolled."
+msgstr "Det lokale tillidscertifikat er endnu ikke tilmeldt."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:339
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:346
+msgid "You must configure this to use third-party drivers like NVIDIA."
+msgstr "Du skal konfigurere dette for at bruge tredjepartsdrivere som NVIDIA."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:344
+msgid "The local trust certificate is missing."
+msgstr "Det lokale tillidscertifikat mangler."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:362
+msgid "  Checking...  "
+msgstr "  Kontrollerer...  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:368
+msgid "Reboot Required"
+msgstr "Genstart påkrævet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:369
+msgid "Please trust the certificate upon reboot using password 123456."
+msgstr ""
+"Betyd venligst certifikatet ved genstart ved hjælp af adgangskoden 123456."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:371
+msgid "Cancel"
+msgstr "Annuller"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:372
+msgid "Reboot"
+msgstr "Genstart"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:380
+msgid "Success! When you reboot, a blue screen will appear."
+msgstr "Succes! Når du genstarter, vil en blå skærm dukke op."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:384
+msgid "Select 'Enroll MOK' → 'Continue' → 'Yes', and enter password: 123456"
+msgstr "Vælg 'Enroll MOK' → 'Continue' → 'Yes', og indtast adgangskode: 123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:388
+msgid "Certificate Created"
+msgstr "Certifikat oprettet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:391
+msgid "Later"
+msgstr "Senere"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:420
+msgid "Secure Boot Trust Not Required"
+msgstr "Secure Boot Tillid ikke påkrævet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:421
+msgid "Firmware signature enforcement is not active."
+msgstr "Håndhævelse af firmwaresignatur er ikke aktiv."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:423
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:441
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:449
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:457
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:473
+msgid "OK"
+msgstr "OK"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:431
+msgid ""
+"The certificate is ready, but one or more DKMS modules could not be rebuilt. "
+"You can repair them after enrollment."
+msgstr ""
+"Certifikatet er klar, men et eller flere DKMS-moduler kunne ikke "
+"genopbygges. Du kan reparere dem efter tilmelding."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:439
+msgid "Configuration needs attention"
+msgstr "Konfiguration kræver opmærksomhed"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:446
+msgid "System Trust Established"
+msgstr "Systemtillid er etableret"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:454
+msgid "Driver Signature Trusted"
+msgstr "Driverunderskrift betroet"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:470
+msgid "Configuration failed. Please try again."
+msgstr "Konfigurationen mislykkedes. Prøv venligst igen."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:471
+msgid "Please check the advanced output."
+msgstr "Tjek venligst den avancerede output."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:482
+msgid "Generating & Signing..."
+msgstr "Genererer & Signerer..."
+
+#~ msgid "Unleash Your Graphics Hardware"
+#~ msgstr "Udnyt dit grafikkort fuldt ud"
+
+#, python-brace-format
+#~ msgid "NVIDIA proprietary driver is already installed. (Version: {})"
+#~ msgstr "NVIDIAs proprietære driver er allerede installeret. (Version: {})"
+
+#~ msgid "✗ Installation encountered an issue."
+#~ msgstr "✗ Installation stødte på et problem."
+
+#~ msgid "An NVIDIA dedicated graphics card was detected in your system."
+#~ msgstr "Et dedikeret NVIDIA-grafikkort er blevet registreret på dit system."
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop"
+#~ msgstr ""
+#~ "\tFor maksimal glathed i spil, 3D-rendering og skrivebord med høj "
+#~ "billedrate"
+
+#~ msgid "experiences, we recommend installing the proprietary driver."
+#~ msgstr "oplevelser anbefaler vi installation af den proprietære driver."
+
+#~ msgid "  Check for Driver Updates  "
+#~ msgstr "Tjek for driveropdateringer"
+
+#~ msgid "Repair & Reinstall"
+#~ msgstr "Reparer og geninstaller"
+
+#~ msgid "  One-Click NVIDIA Driver Install  "
+#~ msgstr "18  Installer NVIDIA-driver med ét klik"
+
+#~ msgid "Installing NVIDIA driver…"
+#~ msgstr "Installerer NVIDIA-driver…"
+
+#~ msgid "This may take several minutes."
+#~ msgstr "Dette kan tage flere minutter."
+
+#~ msgid "✓ Driver installed successfully!"
+#~ msgstr "✓ Driver installeret med succes!"
+
+#~ msgid "You can install drivers later from Settings."
+#~ msgstr "Du kan installere drivere senere fra Indstillinger."
+
+#~ msgid "Xbox Controller Support"
+#~ msgstr "Xbox-kontrollerunderstøttelse"
+
+#~ msgid "Xbox controller driver (xpadneo) is already installed."
+#~ msgstr "Xbox-kontrollerdriver (xpadneo) er allerede installeret."
+
+#~ msgid ""
+#~ "Enjoy seamless Xbox controller support with rumble and accurate inputs."
+#~ msgstr ""
+#~ "Nyd problemfri understøttelse af Xbox-kontrollere med rumble og præcise "
+#~ "inputs."
+
+#~ msgid "Andiora provides native support for Xbox controllers via Bluetooth."
+#~ msgstr ""
+#~ "Andiora giver indbygget understøttelse af Xbox-kontrollere via Bluetooth."
+
+#~ msgid "The advanced xpadneo driver is already set up and ready for gaming."
+#~ msgstr "Den avancerede xpadneo-driver er allerede opsat og klar til gaming."
+
+#~ msgid ""
+#~ "For advanced features like rumble and accurate mapping, we recommend "
+#~ "installing the xpadneo driver."
+#~ msgstr ""
+#~ "For avancerede funktioner som rumble og nøjagtig kortlægning anbefaler vi "
+#~ "at installere xpadneo-driveren."
+
+#~ msgid "Xbox Controller Driver Installed"
+#~ msgstr "Xbox Controller Driver Installeret"
+
+#~ msgid "The xpadneo driver is currently installed"
+#~ msgstr "xpadneo-driveren er i øjeblikket installeret"
+
+#~ msgid "The driver is not installed"
+#~ msgstr "Driveren er ikke installeret"
+
+#~ msgid "Driver not installed, signature missing"
+#~ msgstr "Driver ikke installeret, underskrift mangler"
+
+#~ msgid "Kernel module"
+#~ msgstr "Kernelmodul"
+
+#~ msgid "Not detected"
+#~ msgstr "Ikke fundet"
+
+#~ msgid "Driver is NOT signed"
+#~ msgstr "Driveren er IKKE signeret"
+
+#~ msgid "Signed with current trusted certificate"
+#~ msgstr "Signeret med aktuelt betroet certifikat"
+
+#~ msgid "Signed with current certificate, but not enrolled"
+#~ msgstr "Signeret med aktuelt certifikat, men ikke registreret"
+
+#~ msgid "Signed with an unknown or outdated certificate"
+#~ msgstr "Signeret med et ukendt eller forældet certifikat"
+
+#~ msgid "Controller Status"
+#~ msgstr "Controllerstatus"
+
+#~ msgid "Driver loaded and active. Ready to play!"
+#~ msgstr "Driver indlæst og aktiv. Klar til at spille!"
+
+#~ msgid "Driver standing by. Waiting for controller connection..."
+#~ msgstr "Driver i ventetilstand. Venter på controllerforbindelse..."
+
+#~ msgid "Driver cannot load due to missing signature trust"
+#~ msgstr ""
+#~ "Kan ikke indlæse driver på grund af manglende betroethed af underskrift"
+
+#~ msgid "Pair your controller"
+#~ msgstr "Par dit controller"
+
+#~ msgid "Test your controller"
+#~ msgstr "Test din controller"
+
+#~ msgid "  Install Xbox Driver  "
+#~ msgstr "Installer Xbox-driver"
+
+#~ msgid ""
+#~ "⚠️ The driver signature does not match your system certificate. Click Fix "
+#~ "& Reinstall to repair the driver."
+#~ msgstr ""
+#~ "⚠️ Driversignaturen matcher ikke dit systemcertifikat. Klik på Fix & "
+#~ "Reinstall for at reparere driveren."
+
+#~ msgid "Installing Xbox controller driver…"
+#~ msgstr "Installerer Xbox-kontrollerdriver…"
+
+#~ msgid "This may take a minute."
+#~ msgstr "Dette kan tage et minut."
+
+#~ msgid "Repairing driver signature…"
+#~ msgstr "Reparerer driversignatur…"
+
+#~ msgid "A reboot is recommended to apply changes."
+#~ msgstr "En genstart anbefales for at anvende ændringerne."
+
+#~ msgid "  Fix & Reinstall Driver  "
+#~ msgstr "Installer Xbox-driver"
+
+#~ msgid "(Reboot recommended)"
+#~ msgstr "(Omstart anbefales)"
+
+#~ msgid "Cannot sign drivers without a certificate"
+#~ msgstr "Kan ikke signere drivere uden et certifikat"
+
+#~ msgid ""
+#~ "Enable low-level network protection — silently blocks all unauthorized "
+#~ "inbound connections."
+#~ msgstr ""
+#~ "Aktivér netværksbeskyttelse på lavt niveau – blokerer stille alle "
+#~ "uautoriserede indgående forbindelser."
+
+#~ msgid "Firewall"
+#~ msgstr "Brandvæg"
+
+#~ msgid "Local MOK Certificate"
+#~ msgstr "Lokalt MOK-certifikat"
+
+#~ msgid ""
+#~ "Please configure Secure Boot in the previous step before installing this "
+#~ "driver."
+#~ msgstr ""
+#~ "Genstart venligst for at registrere certifikatet, før du installerer "
+#~ "denne driver."
+
+#~ msgid ""
+#~ "Please reboot to enroll the certificate before installing this driver."
+#~ msgstr ""
+#~ "Genstart venligst for at registrere certifikatet, før du installerer "
+#~ "denne driver."
+
+#~ msgid "Scanning for installed drivers..."
+#~ msgstr "Scanning efter installerede drivere..."
+
+#~ msgid "Secure Boot Enabled"
+#~ msgstr "Secure Boot aktiveret"
+
+#~ msgid "The local trust certificate is missing or not yet enrolled."
+#~ msgstr "Det lokale betrocertifikat mangler eller er endnu ikke indskrevet."
+
+#~ msgid "Third-party Drivers"
+#~ msgstr "Tredjepartsdrivere"
+
+#~ msgid "UEFI Firmware Trust"
+#~ msgstr "UEFI-firmwaretro"
+
+#~ msgid ""
+#~ "⚠️ Secure Boot is enabled but the custom certificate is not yet enrolled."
+#~ msgstr ""
+#~ "⚠️ Secure Boot er aktiveret, men det tilpassede certifikat er endnu ikke "
+#~ "registreret."
+
+#~ msgid "✓ Xbox controller driver installed successfully!"
+#~ msgstr "✓ Xbox-kontrollerdriver installeret med succes!"
+
+#~ msgid "✗ Repair failed."
+#~ msgstr "✗ Implementering mislykkedes."
+
+#~ msgid "⚡ The following apps are provided by the Spark Store community."
+#~ msgstr "⚡ Følgende apps leveres af Spark Store-communityet."
+
+#~ msgid "Great for connecting to local services."
+#~ msgstr "God til at forbinde til lokale tjenester."
+
+#~ msgid "Spark Store"
+#~ msgstr "Spark Store"
+
+#~ msgid "Community app store for Chinese Linux users"
+#~ msgstr "Fællesskabs-appbutik for kinesiske Linux-brugere"
+
+#~ msgid "Note: These apps link to their official or community download pages."
+#~ msgstr ""
+#~ "Bemærk: Disse apps linker til deres officielle eller community-download-"
+#~ "sider."
+
+#~ msgid " Andiora is not affiliated with these vendors."
+#~ msgstr "Andiora er ikke tilknyttet disse udbydere."
+
+#~ msgid ""
+#~ "Andiora is ready. Just a few steps to shape it\n"
+#~ "into the perfect system tailored to your habits."
+#~ msgstr ""
+#~ "Andiora er klar. Der mangler kun et par trin for at forme det\n"
+#~ "til det perfekte system skræddersyet til dine vaner."
+
+#~ msgid "=== Testing mirror speeds ===\n"
+#~ msgstr "=== Tester spejlhastigheder ==="
+
+#~ msgid ""
+#~ "\n"
+#~ "No mirrors reachable.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Ingen spejle tilgængelige.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Applying mirror switch ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== Anvender mirror-skift ===\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "✓ Mirror switched and system updated.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "✓ Mirror skiftet og system opdateret.\n"
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop\n"
+#~ "experiences, we recommend installing the proprietary driver."
+#~ msgstr ""
+#~ "Til maksimal smidighed i gaming, 3D-rendering og skrivebordoplevelser med "
+#~ "høj billedrate\n"
+#~ "anbefaler vi installation af den proprietære driver."
+
+#~ msgid ""
+#~ "Installing NVIDIA driver…\n"
+#~ "This may take several minutes."
+#~ msgstr ""
+#~ "Installerer NVIDIA-driver…\n"
+#~ "Dette kan tage flere minutter."
+
+#~ msgid ""
+#~ "✗ Installation encountered an issue.\n"
+#~ "You can install drivers later from Settings."
+#~ msgstr ""
+#~ "✗ Installationen stødte på et problem.\n"
+#~ "Du kan installere drivere senere fra Indstillinger."
+
+#~ msgid ""
+#~ "Powered by Wine and Bottles technology, running classic Windows "
+#~ "applications\n"
+#~ "is now easier than ever."
+#~ msgstr ""
+#~ "Drevet af Wine- og Bottles-teknologi er det nu nemmere end nogensinde før "
+#~ "at køre klassiske Windows-applikationer"
+
+#~ msgid ""
+#~ "Deploying compatibility sandbox via Flatpak…\n"
+#~ "This may take a few minutes."
+#~ msgstr ""
+#~ "Implementerer kompatibilitetssandbox via Flatpak…\n"
+#~ "Dette kan tage et par minutter."
+
+#~ msgid ""
+#~ "✓ Sandbox deployed successfully!\n"
+#~ "You can now double-click .exe files to run them."
+#~ msgstr ""
+#~ "✓ Sandbox implementeret med succes!\n"
+#~ "Du kan nu dobbeltklikke på .exe-filer for at køre dem."
+
+#~ msgid ""
+#~ "✗ Deployment failed.\n"
+#~ "You can install Bottles later from the App Store."
+#~ msgstr ""
+#~ "✗ Implementering mislykkedes.\n"
+#~ "Du kan installere Flasker senere fra App Store."
+
+#~ msgid ""
+#~ "Essential productivity and entertainment tools, hand-picked for you.\n"
+#~ "Click any app to open its details in the App Store."
+#~ msgstr ""
+#~ "Væsentlige produktivitets- og underholdningsværktøjer, udvalgt til dig.\n"
+#~ "Klik på en app for at se detaljer i App Store."
+
+#~ msgid ""
+#~ "⚡ The following apps are provided by the Spark Store community.\n"
+#~ "Great for connecting to local services."
+#~ msgstr ""
+#~ "⚡ Følgende apps leveres af Spark Store-fællesskabet.\n"
+#~ "God til at oprette forbindelse til lokale tjenester."
+
+#~ msgid ""
+#~ "Pro tip: You can explore these apps in the App Store,\n"
+#~ "and continue with the system setup while they download."
+#~ msgstr ""
+#~ "Pro-tip: Du kan udforske disse apps i App Store,\n"
+#~ "og fortsætte med systemopsætningen, mens de downloader."
+
+#~ msgid ""
+#~ "Note: These apps link to their official or community download pages. "
+#~ "Andiora is not affiliated with these vendors."
+#~ msgstr ""
+#~ "Bemærk: Disse apps linker til deres officielle eller community-download-"
+#~ "sider. Andiora er ikke tilknyttet disse udbydere."
+
+#~ msgid ""
+#~ "Connect your Google, Microsoft,\n"
+#~ "or Nextcloud accounts to sync\n"
+#~ "files, contacts, and calendar."
+#~ msgstr ""
+#~ "Forbind dine Google, Microsoft,\n"
+#~ "eller Nextcloud-konti for at synkronisere\n"
+#~ "filer, kontakter og kalender."
+
+#~ msgid ""
+#~ "Use Deja Dup to protect your\n"
+#~ "important files with automated,\n"
+#~ "secure local or remote backups."
+#~ msgstr ""
+#~ "Brug Deja Dup til at beskytte dine\n"
+#~ "vigtige filer med automatiserede,\n"
+#~ "sikre lokale eller eksterne backups."
+
+#~ msgid ""
+#~ "Andiora disables all system-level telemetry by default.\n"
+#~ "We do not collect your usage habits.\n"
+#~ "We do not upload your search history.\n"
+#~ "There are no pervasive advertisements."
+#~ msgstr ""
+#~ "Andiora deaktiverer alt system-telemetry som standard.\n"
+#~ "Vi samler ikke dine vaner.\n"
+#~ "Vi uploader ikke din søgehistorik.\n"
+#~ "Der er ingen indgribende reklamer."
+
+#~ msgid ""
+#~ "In an era ruled by algorithms and surveillance,\n"
+#~ "this is our firmest commitment to you."
+#~ msgstr ""
+#~ "I en epoke styret af algoritmer og overvågning,\n"
+#~ "er dette vores fasteste engagement til dig."
+
+#~ msgid ""
+#~ "Whether you're a Windows refugee seeking shelter,\n"
+#~ "or a hardcore geek developer — you'll find your tribe here.\n"
+#~ "Found a bug? Want a feature? Tell us anytime."
+#~ msgstr ""
+#~ "Hu du er en Windows-flygtning på udkig efter ly,\n"
+#~ "eller en hardcore geek-udvikler — du vil finde dit fællesskab her.\n"
+#~ "Fundet en fejl? Vil have en funktion? Fortæl os det når som helst."
+
+#~ msgid ""
+#~ "💡 Andiora is compatible with Ubuntu's entire ecosystem.\n"
+#~ "You can rely on Ubuntu's vast documentation and expertise."
+#~ msgstr ""
+#~ "💡 Andiora er kompatibel med Ubuntus hele økosystem.\n"
+#~ "Du kan stole på Ubuntus enorme dokumentation og ekspertise."
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Testing bandwidth of top 3 mirrors (3 s each) ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== Tester båndbredde for de 3 bedste spejle (3 s hver) ===\n"
+
+#~ msgid ""
+#~ "✓ Driver installed successfully!\n"
+#~ "A reboot is recommended to apply changes."
+#~ msgstr ""
+#~ "✓ Driver installeret korrekt!\n"
+#~ "En genstart anbefales for at anvende ændringerne."

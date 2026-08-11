@@ -1,0 +1,1250 @@
+# Ukrainian translations for andiora-installer-beta package.
+# Copyright (C) 2026 THE andiora-installer-beta'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the andiora-installer-beta package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-installer-beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-01 11:01+0000\n"
+"PO-Revision-Date: 2026-07-30 14:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Installing an input method requires an Internet connection."
+msgstr "Для встановлення методу введення потрібне підключення до Інтернету."
+
+msgid ""
+"No Internet connection. Input methods cannot be installed. You can install "
+"them later when connected."
+msgstr ""
+"Немає підключення до Інтернету. Неможливо встановити методи введення. Їх "
+"можна встановити пізніше після підключення."
+
+msgid ""
+"\n"
+"\n"
+"A real installation will create a machine-local MOK. After reboot, choose "
+"Enroll MOK → Continue → Yes in MOKManager and enter password 123456."
+msgstr ""
+"\n"
+"\n"
+"Реальна установка створить локальний для машини MOK. Після перезавантаження "
+"виберіть Enroll MOK → Continue → Yes у MOKManager і введіть пароль 123456."
+
+msgid ""
+"\n"
+"On the blue MOKManager screen choose Enroll MOK → Continue → Yes, password: "
+"123456"
+msgstr ""
+"\n"
+"На синьому екрані MOKManager виберіть Enroll MOK → Continue → Yes, пароль: "
+"123456"
+
+msgid "4 GiB disk swap (priority 10) + 50% RAM LZ4 zram (priority 100)"
+msgstr ""
+"Обмін дисковим простором 4 ГіБ (пріоритет 10) + LZ4 zram у розмірі 50% ОЗП "
+"(пріоритет 100)"
+
+msgid "; sudo does not require a password"
+msgstr "; sudo не вимагає пароля"
+
+msgid "; sudo requires the account password"
+msgstr "; sudo вимагає пароль облікового запису"
+
+msgid ""
+"A partition on this disk is mounted. Unmount it and rescan storage before "
+"continuing."
+msgstr ""
+"На цьому диску є підключений розділ. Відмонтуйте його та повторно "
+"проскануйте сховище, перш ніж продовжувати."
+
+msgid "ALL DATA on {disk} will be permanently erased."
+msgstr "ВСІ ДАНІ на {disk} буде остаточно видалено."
+
+msgid "Account security"
+msgstr "Безпека облікового запису"
+
+msgid "Administrator access would be locked"
+msgstr "Доступ адміністратора буде заблоковано"
+
+msgid "Advanced Storage"
+msgstr "Розширені налаштування сховища"
+
+msgid ""
+"Advanced coexistence can affect EFI firmware state and may trigger BitLocker "
+"recovery. It never shrinks or repairs Windows volumes."
+msgstr ""
+"Розширене співіснування може вплинути на стан прошивки EFI та запустити "
+"відновлення BitLocker. Воно ніколи не зменшує і не ремонтує томи Windows."
+
+msgid "Advanced — keep existing systems"
+msgstr "Розширені — залишити існуючі системи"
+
+msgid "Advanced: Install Alongside"
+msgstr "Розширені: встановити поряд із"
+
+msgid ""
+"After changing partitions or unmounting a volume, rescan storage and select "
+"the target again."
+msgstr ""
+"Після зміни розділів або відмонтування тому повторно проскануйте сховище та "
+"знову виберіть ціль."
+
+msgid ""
+"After restart, MOKManager will open. Choose Enroll MOK → Continue → Yes, "
+"then enter password 123456."
+msgstr ""
+"Після перезавантаження відкриється MOKManager. Виберіть Enroll MOK → "
+"Continue → Yes, а потім введіть пароль 123456."
+
+msgid ""
+"All partitions and data on {disk} will be destroyed.\n"
+"\n"
+msgstr ""
+"Усі розділи та дані на {disk} будуть знищені.\n"
+"\n"
+
+msgid ""
+"Alternatively, you may explicitly select one entire partition to erase. "
+"Everything in that selected partition will be destroyed; it is never "
+"selected automatically."
+msgstr ""
+"Крім того, ви можете явно вибрати один цілий розділ для стирання. Усе у "
+"цьому вибраному розділі буде знищено; він ніколи не обирається автоматично."
+
+msgid "Battery power is too low for a safe installation."
+msgstr "Рівень заряду акумулятора надто низький для безпечного встановлення."
+
+msgid "Charge to at least 80% before starting the installation."
+msgstr "Перед початком встановлення зарядіть акумулятор щонайменше до 80%."
+
+msgid "Continue Anyway"
+msgstr "Усе одно продовжити"
+
+msgid "Current battery level: {percent}%"
+msgstr "Поточний рівень заряду: {percent}%"
+
+msgid "External power is connected."
+msgstr "Зовнішнє живлення підключено."
+
+msgid "External power is not connected."
+msgstr "Зовнішнє живлення не підключено."
+
+msgid "I understand the risks and insist on installing with low battery."
+msgstr ""
+"Я розумію ризики й наполягаю на встановленні за низького заряду акумулятора."
+
+msgid "Low battery"
+msgstr "Низький заряд акумулятора"
+
+msgid "Recheck"
+msgstr "Перевірити знову"
+
+msgid "Andiora Installer"
+msgstr "Встановлювач Andiora"
+
+msgid "Andiora Installer (Beta)"
+msgstr "Встановлювач Andiora (Бета)"
+
+msgid "Andiora Installer (Development)"
+msgstr "Встановлювач Andiora (Розробка)"
+
+msgid ""
+"Andiora will use only the selected unallocated space on {disk}. Existing "
+"partitions will be preserved.\n"
+"\n"
+msgstr ""
+"Andiora використовуватиме лише вибране вільне місце на диску {disk}. "
+"Існуючі розділи буде збережено.\n"
+"\n"
+
+msgid ""
+"Andiora will use only the selected unallocated space. The installer will "
+"not shrink or move an existing filesystem."
+msgstr ""
+"Andiora використовуватиме лише вибране вільне місце. Інсталятор не буде "
+"зменшувати або переміщувати існуючу файлову систему."
+
+msgid ""
+"Any program running as your user can obtain full administrator privileges "
+"without authentication. Your login password still protects sign-in, but it "
+"will not protect sudo. Are you sure you want to continue?"
+msgstr ""
+"Будь-яка програма, запущена від вашого імені, може отримати повні права "
+"адміністратора без автентифікації. Ваш пароль входу захищає вхід у систему, "
+"але не захистить sudo. Ви впевнені, що хочете продовжити?"
+
+msgid "Arabic"
+msgstr "Арабська"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid ""
+"Before continuing: finish Windows updates, disable Fast Startup and "
+"hibernation, and back up the BitLocker recovery key. EFI, Secure Boot, TPM "
+"measurements and boot order can change."
+msgstr ""
+"Перш ніж продовжити: завершіть оновлення Windows, вимкніть швидкий запуск та "
+"режим сну, а також створіть резервну копію ключа відновлення BitLocker. "
+"Налаштування EFI, Secure Boot, вимірювання TPM та порядок завантаження "
+"можуть змінитися."
+
+msgid "BitLocker detected"
+msgstr "Виявлено BitLocker"
+
+msgid ""
+"BitLocker storage will be preserved. The installer will not unlock, resize, "
+"repair or otherwise modify it."
+msgstr ""
+"Зберігання BitLocker буде збережено. Інсталятор не буде розблоковувати, "
+"змінювати розмір, ремонтувати або інакше модифікувати його."
+
+msgid "Boot policy"
+msgstr "Політика завантаження"
+
+msgid "Btrfs (recommended)"
+msgstr "Btrfs (рекомендовано)"
+
+msgid "Btrfs — recommended"
+msgstr "Btrfs — рекомендовано"
+
+msgid "Cannot create installation plan"
+msgstr "Не вдається створити план встановлення"
+
+msgid "Choose Installation Method"
+msgstr "Оберіть метод встановлення"
+
+msgid "Choose one target disk. Storage settings come next."
+msgstr ""
+"Оберіть один цільовий диск. Наступним кроком будуть налаштування сховища."
+
+msgid "Choose optional software to install"
+msgstr "Оберіть додаткове програмне забезпечення для встановлення"
+
+msgid "Choose your language to begin installation"
+msgstr "Виберіть мову, щоб розпочати встановлення"
+
+msgid "Choose your location to set the system clock"
+msgstr "Оберіть ваше місцезнаходження, щоб налаштувати системний годинник"
+
+msgid "Complete"
+msgstr "Завершено"
+
+msgid "Computer Name"
+msgstr "Ім'я комп'ютера"
+
+msgid "Computer name contains invalid characters."
+msgstr "Ім'я комп'ютера містить недопустимі символи."
+
+msgid "Configure account, region, timezone, and machine identity"
+msgstr ""
+"Налаштування облікового запису, регіону, часового поясу та ідентифікатора "
+"комп’ютера"
+
+msgid "Configure storage and swap"
+msgstr "Налаштування сховища та файлу підкачки"
+
+msgid "Confirm Password"
+msgstr "Підтвердження пароля"
+
+msgid "Confirm your keyboard layout"
+msgstr "Підтвердіть розкладку клавіатури"
+
+msgid "Continue Installation"
+msgstr "Продовжити встановлення"
+
+msgid "Copy Andiora system"
+msgstr "Копіювання системи Andiora"
+
+msgid "Copy Log"
+msgstr "Копіювати журнал"
+
+msgid "Create a new 1 GiB Andiora EFI System Partition"
+msgstr "Створіть новий розділ системи EFI Andiora розміром 1 ГіБ"
+
+msgid ""
+"Create and format a dedicated Andiora EFI System Partition inside the "
+"selected space."
+msgstr ""
+"Створіть та відформатуйте окремий розділ системи EFI Andiora у вибраному "
+"просторі."
+
+msgid "Create your user account"
+msgstr "Створіть обліковий запис користувача"
+
+msgid "Current disk layout"
+msgstr "Поточна структура диска"
+
+msgid ""
+"DEVELOPMENT MODE — the plan will be validated and simulated. No privileged "
+"executor or disk command can run."
+msgstr ""
+"РЕЖИМ РОЗРОБКИ — план буде перевірено та імітовано. Жодна привілейована "
+"програма виконання або команда диска не може бути запущена."
+
+msgid "Danish"
+msgstr "Датська"
+
+msgid "Detect Internet connectivity"
+msgstr "Визначити підключення до Інтернету"
+
+msgid "Detect firmware and Secure Boot"
+msgstr "Виявлення прошивки та Secure Boot"
+
+msgid ""
+"Development mode will simulate installation to {disk}. No disk data will be "
+"changed.\n"
+"\n"
+msgstr ""
+"Режим розробки імітуватиме встановлення на {disk}. Дані на диску не будуть "
+"змінено.\n"
+"\n"
+
+msgid "Development simulation completed"
+msgstr "Імітацію розробки завершено"
+
+msgid "Discover Andiora"
+msgstr "Дізнайтеся більше про Andiora"
+
+msgid "Do not require a password for sudo commands"
+msgstr "Не вимагати пароль для команд sudo"
+
+msgid "Download and install system updates during installation"
+msgstr "Завантажити та встановити оновлення системи під час встановлення"
+
+msgid "Dutch"
+msgstr "Нідерландська"
+
+msgid "EFI System Partition"
+msgstr "EFI System Partition"
+
+msgid "EFI policy"
+msgstr "Pолітика EFI"
+
+msgid "Empty disk — no partitions"
+msgstr "Порожній диск — немає розділів"
+
+msgid "Enables shared-space subvolumes, snapshots and Disk Snapshots Manager."
+msgstr ""
+"Увімкнути підтомови спільного простору, миттєві знімки та Disk Snapshots "
+"Manager."
+
+msgid "English (UK)"
+msgstr "Англійська (Велика Британія)"
+
+msgid "English (US)"
+msgstr "Англійська (США)"
+
+msgid "Ensure Disk Snapshots Manager is available"
+msgstr "Переконайтеся, що Disk Snapshots Manager доступний"
+
+msgid "Erase Disk and Install"
+msgstr "Видалити дані диска та встановити"
+
+msgid "Erase every partition and all data on the selected disk."
+msgstr "Видалити кожну розділ і всі дані на вибраному диску."
+
+msgid "Erase the entire selected disk?"
+msgstr "Видалити всі дані на вибраному диску?"
+
+msgid ""
+"Existing Windows, recovery and data partitions remain outside the write set "
+"and will be preserved."
+msgstr ""
+"Існуючі Windows, відновлення та дані розділи залишаться поза межами запису "
+"набору і будуть збережені."
+
+msgid ""
+"Existing partitions were detected. The first two choices delete them; "
+"Advanced is the preservation path."
+msgstr ""
+"Був виявлено існуючі розділи. Перші два варіанти видаляють їх; Розширений є "
+"шляхом збереження."
+
+msgid ""
+"Existing partitions will be preserved. New Andiora partitions will be "
+"created only in the selected unallocated extent; EFI vendor files and the "
+"Andiora firmware boot entry may be updated."
+msgstr ""
+"Існуючі розділи будуть збережені. Нові розділи Andiora будуть створені "
+"тільки у вибраному невиділеному обсязі; файли постачальника EFI і записовий "
+"пункт прошивки Andiora можуть бути оновлені."
+
+msgid "Filesystem"
+msgstr "Файлова система"
+
+msgid "Finalize target environment"
+msgstr "Завершення налаштування цільового середовища"
+
+msgid "Finnish"
+msgstr "Фінська"
+
+msgid "Formats"
+msgstr "Формати"
+
+msgid "French"
+msgstr "Французька"
+
+msgid "Full Name"
+msgstr "Повне ім'я"
+
+msgid "German"
+msgstr "Німецька"
+
+msgid "Greek"
+msgstr "Грецька"
+
+msgid ""
+"Guided coexistence requires a system booted in UEFI mode and a GPT target "
+"disk. This disk cannot continue in guided mode."
+msgstr ""
+"Кероване співіснування вимагає завантаження системи в режимі UEFI та диска з "
+"ціллю GPT. Цей диск не може продовжувати роботу в керованому режимі."
+
+msgid ""
+"Guided storage selection is missing. Rescan and select the target again."
+msgstr ""
+"Вибір керованого сховища відсутній. Повторно проскануйте та виберіть ціль ще "
+"раз."
+
+msgid "Hindi (India)"
+msgstr "Хінді (Індія)"
+
+msgid "How should Andiora use this disk?"
+msgstr "Як Andiora має використовувати цей диск?"
+
+msgid "I Understand the Risk, Continue"
+msgstr "Я розумію ризики, продовжити"
+
+msgid "Indonesian"
+msgstr "Індонезійська"
+
+msgid "Install"
+msgstr "Встановити"
+
+msgid "Install input method"
+msgstr "Встановити метод введення"
+
+msgid "Install {language} input method: {name}"
+msgstr "Встановити метод введення для мови {language}: {name}"
+
+msgid "Install Alongside"
+msgstr "Встановити поруч"
+
+msgid "Install alongside"
+msgstr "Встановити поруч"
+
+msgid "Install alongside requires a password-protected account."
+msgstr "Для встановлення поруч потрібен обліковий запис із захистом паролем."
+
+msgid "Install bootloader"
+msgstr "Встановити завантажувач"
+
+msgid "Check systems on other disks"
+msgstr "Перевірити системи на інших дисках"
+
+msgid "Install hardware drivers"
+msgstr "Встановити драйвери обладнання"
+
+msgid "Install in the selected free space?"
+msgstr "Встановити у вибраний вільний простір?"
+
+msgid "Ensure required language packs are installed"
+msgstr "Переконатися, що необхідні мовні пакунки встановлено"
+
+msgid "Install system updates"
+msgstr "Встановити оновлення системи"
+
+msgid "Install third-party drivers for this device"
+msgstr "Встановити сторонні драйвери для цього пристрою"
+
+msgid "Installation Complete"
+msgstr "Встановлення завершено"
+
+msgid "Installation Failed"
+msgstr "Помилка встановлення"
+
+msgid "Installation Steps"
+msgstr "Кроки встановлення"
+
+msgid ""
+"Installation cannot continue with this selection. There is no force-continue "
+"option around storage safety checks."
+msgstr ""
+"Інсталяцію не можна продовжити з цим вибором. Немає опції примусового "
+"продовження для перевірок безпеки сховища."
+
+msgid "Installation complete"
+msgstr "Встановлення завершено"
+
+msgid "Installation failed"
+msgstr "Помилка встановлення"
+
+msgid "Installation in progress"
+msgstr "Встановлення виконується"
+
+msgid "Installing Andiora"
+msgstr "Встановлення Andiora"
+
+msgid "Italian"
+msgstr "Італійська"
+
+msgid "Japanese (JIS keyboard)"
+msgstr "Японська (клавіатура JIS)"
+
+msgid "Keyboard"
+msgstr "Клавіатура"
+
+msgid "Keyboard Layout"
+msgstr "Розкладка клавіатури"
+
+msgid "Configure physical keyboard layout"
+msgstr "Налаштувати фізичну розкладку клавіатури"
+
+msgid "Korean"
+msgstr "Корейська"
+
+msgid "Language"
+msgstr "Мова"
+
+msgid "Live USB — excluded"
+msgstr "Живий USB — виключено"
+
+msgid "Mount target filesystems"
+msgstr "Підключення цільових файлових систем"
+
+msgid "Navigation error"
+msgstr "Помилка навігації"
+
+msgid "New partitions"
+msgstr "Нові розділи"
+
+msgid "Next"
+msgstr "Далі"
+
+msgid "Next slide"
+msgstr "Наступний слайд"
+
+msgid "No partition table"
+msgstr "Немає таблиці розділів"
+
+msgid "No suitable disks found."
+msgstr "Не знайдено придатних дисків."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with Windows Disk Management, then boot the installer "
+"again and rescan the disk."
+msgstr ""
+"Не знайдено підходящого вільного місця. Щоб захистити ваші дані, створіть "
+"вільне місце за допомогою засобу керування дисками Windows, потім "
+"перезавантажте інсталятор і знову відскануйте диск."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with a partitioning tool, then boot the installer again "
+"and rescan the disk."
+msgstr ""
+"Не знайдено підходящого вільного місця. Щоб захистити ваші дані, створіть "
+"вільне місце за допомогою засобу розділення диска, потім перезавантажте "
+"інсталятор і знову відскануйте диск."
+
+msgid "Norwegian"
+msgstr "Норвезька"
+
+msgid "OK"
+msgstr "Гаразд"
+
+msgid "Output"
+msgstr "Вивід"
+
+msgid "Output • Error"
+msgstr "Вивід • Помилка"
+
+msgid "Output • {count} warning(s)"
+msgstr "Вивід • {count} попередженнь(ня)"
+
+msgid "Partition details unavailable"
+msgstr "Деталі розділу недоступні"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Password must be at least 6 characters."
+msgstr "Пароль має містити щонайменше 6 символів."
+
+msgid "Passwordless sudo is unsafe"
+msgstr "Судо без пароля є небезпечним"
+
+msgid "Platform"
+msgstr "Платформа"
+
+msgid "Please do not turn off your computer"
+msgstr "Будь ласка, не вимикайте комп’ютер"
+
+msgid "Please review your choices before proceeding"
+msgstr "Будь ласка, перевірте ваші виборі перед продовженням"
+
+msgid "Polish"
+msgstr "Польська"
+
+msgid "Portuguese"
+msgstr "Португальська"
+
+msgid "Portuguese (Brazil)"
+msgstr "Португальська (Бразилія)"
+
+msgid "Prepare Secure Boot"
+msgstr "Підготовка Secure Boot"
+
+msgid "Prepare installation disk"
+msgstr "Підготовка диска встановлення"
+
+msgid "Prepare target environment"
+msgstr "Підготовка цільового середовища"
+
+msgid "Preparing installation…"
+msgstr "Підготовка до встановлення…"
+
+msgid "Preserved partitions"
+msgstr "Збережені розділи"
+
+msgid "Previous slide"
+msgstr "Попередній слайд"
+
+msgid "Ready to Install"
+msgstr "Готовий до встановлення"
+
+msgid "Reboot Now"
+msgstr "Перезавантажити зараз"
+
+msgid "Refresh package indexes"
+msgstr "Оновити індекси пакетів"
+
+msgid "Remove live-session components"
+msgstr "Видалення компонентів сеансу Live"
+
+msgid "Remove the installation media and restart your computer"
+msgstr "Видаліть носій встановлення та перезавантажте комп'ютер"
+
+msgid ""
+"Requires an Internet connection. The base installation remains available "
+"when offline."
+msgstr ""
+"Вимагає підключення до Інтернету. Базове встановлення залишається доступним "
+"автономно."
+
+msgid "Rescan Storage"
+msgstr "Повторне сканування сховища"
+
+msgid "Rescan and Reselect Disk"
+msgstr "Пересканувати та вибрати диск знову"
+
+msgid "Restart and Enroll Secure Boot Key"
+msgstr "Перезавантажити та зареєструвати ключ Secure Boot"
+
+msgid "Restart is disabled in development protection mode"
+msgstr "Перезавантаження відключено в режимі захисту розробки"
+
+msgid "Return and Set a Password"
+msgstr "Повернутися та встановити пароль"
+
+msgid "Return to Make Changes"
+msgstr "Повернутися для внесення змін"
+
+msgid "Reuse {path} ({size})"
+msgstr "Використати повторно {path} ({size})"
+
+msgid ""
+"Reuse {path}; never format it; verify FAT health, identity and 64 MiB free "
+"before writing."
+msgstr ""
+"Використати повторно {path}; ніколи не форматувати; перевірити стан FAT, "
+"ідентифікатор та наявність 64 МБ вільного місця перед записом."
+
+msgid "Romanian"
+msgstr "Румунська"
+
+msgid "Russian"
+msgstr "Українська"
+
+msgid "Save Log"
+msgstr "Зберегти журнал"
+
+msgid "Schedule MOK enrollment"
+msgstr "Запланування реєстрації MOK"
+
+msgid "Search timezones…"
+msgstr "Пошук часових поясів…"
+
+msgid "Secure Boot enrollment"
+msgstr "Реєстрація Secure Boot"
+
+msgid "Select Installation Disk"
+msgstr "Вибір диска встановлення"
+
+msgid "Select Timezone"
+msgstr "Вибір часового поясу"
+
+msgid "Select fastest package mirror"
+msgstr "Вибір найшвидшого дзеркала пакетів"
+
+msgid "Selected timezone"
+msgstr "Обраний часовий пояс"
+
+msgid "Selected unallocated space"
+msgstr "Вибрано невиділений простір"
+
+msgid "Some drivers are proprietary or otherwise non-free software."
+msgstr ""
+"Деякі драйвери є власницькими або інакше не вільним програмним забезпеченням."
+
+msgid "Spanish"
+msgstr "Іспанська"
+
+msgid "Stable disk identity"
+msgstr "Стабільна ідентичність диска"
+
+msgid ""
+"Stable identity: {stable_id}\n"
+"\n"
+msgstr ""
+"Стабільна ідентичність: {stable_id}\n"
+"\n"
+
+msgid "Storage Device"
+msgstr "Накопичувач"
+
+msgid "Storage mode"
+msgstr "Режим зберігання"
+
+msgid "Subvolumes"
+msgstr "Підтомі"
+
+msgid "Swap"
+msgstr "Файл підкачки"
+
+msgid "Swedish"
+msgstr "Шведська"
+
+msgid "System updates"
+msgstr "Оновлення системи"
+
+msgid "Target Disk"
+msgstr "Цільовий диск"
+
+msgid "Target: {disk} ({size} — {model})"
+msgstr "Мета: {disk} ({size} — {model})"
+
+msgid "Test your keyboard here…"
+msgstr "Перевірте клавіатуру тут…"
+
+msgid "Thai"
+msgstr "Тайська"
+
+msgid ""
+"The GPT disk or one of its partitions has no unique stable identifier. "
+"Guided coexistence cannot safely authorize preservation or writes on this "
+"disk."
+msgstr ""
+"Disk GPT або одна з його розділів не має унікального стабільного "
+"ідентифікатора. Керований співіснування не може безпечно авторизувати "
+"збереження або записи на цьому диску."
+
+msgid ""
+"The complete partition map and free-space geometry could not be read "
+"consistently. No space on this disk is authorized for installation."
+msgstr ""
+"Повну карту розділів та геометрію вільного простору не вдалося читати "
+"узгоджено. Жоден простір на цьому диску не авторизований для встановлення."
+
+msgid ""
+"The existing EFI System Partition is only a candidate. Health and free-space "
+"checks must pass before it can be reused, and it will never be formatted."
+msgstr ""
+"\\\tІснуючий розділ EFI System Partition є лише кандидатом. Перевірки стану "
+"та вільного місця мають бути успішними, перш ніж його можна буде повторно "
+"використати, і він ніколи не буде відформатований."
+
+msgid ""
+"The installation plan is valid. No disk, filesystem, bootloader, Secure Boot "
+"state, or installed system was changed."
+msgstr ""
+"План встановлення є валідним. Жоден диск, файлова система, завантажувач, "
+"стан Secure Boot або встановлена система не були змінено."
+
+msgid "The installer cannot be closed while it is modifying the target disk."
+msgstr "Встановлювач не можна закрити під час модифікації цільового диска."
+
+msgid ""
+"The installer will not mount, repair or infer the safety of Windows volumes "
+"from hibernation or Fast Startup state. Any required Windows maintenance "
+"must be completed in Windows."
+msgstr ""
+"\\\tВстановлювач не монтуватиме, не ремонтуватиме та не визначатиме безпеку "
+"томів Windows зі стану гибернації або Швидкого запуску. Будь-яке необхідне "
+"обслуговування Windows має бути завершено в Windows."
+
+msgid "The privileged executor is disabled."
+msgstr "Привілейований виконавець відключений."
+
+msgid ""
+"The selected disk changed or disappeared. Return to the disk page and select "
+"it again. {error}"
+msgstr ""
+"\\\tВибраний диск змінився або зник. Поверніться на сторінку диска та "
+"виберіть його знову. {error}"
+
+msgid "The selected disk size changed. Return and select it again."
+msgstr ""
+"\\\tРозмір вибраного диска змінився. Поверніться та виберіть його знову."
+
+msgid ""
+"The selected disk topology changed. Review the disk and installation method "
+"again."
+msgstr ""
+"\\\tТопологія вибраного диска змінилася. Перевірте диск та метод "
+"встановлення ще раз."
+
+msgid ""
+"The system will sign in to this account automatically and allow it to obtain "
+"full administrator privileges without a password. Anyone with physical "
+"access, and any program running as this user, can completely control the "
+"system. Use this only for a kiosk, temporary virtual machine, or another "
+"controlled environment."
+msgstr ""
+"Система автоматично увійде в цей обліковий запис і дозволить отримувати "
+"повні права адміністратора без пароля. Будь-хто з фізичним доступом, а також "
+"будь-яка програма, запущена від цього користувача, може повністю керувати "
+"системою. Використовуйте це лише для кіоску, тимчасової віртуальної машини "
+"або іншого контрольованого середовища."
+
+msgid "The two passwords do not match."
+msgstr "Два паролі не збігаються."
+
+msgid "Third-party drivers"
+msgstr "Сторонні драйвери"
+
+msgid ""
+"This account has no login password, but sudo would still require one. "
+"Because the root account is locked by default, you would be unable to "
+"perform administrator tasks. Set an account password or enable passwordless "
+"sudo."
+msgstr ""
+"Цей обліковий запис не має пароля для входу, але sudo все одно вимагатиме "
+"пароль. Оскільки обліковий запис root за замовчуванням заблоковано, ви не "
+"зможете виконувати завдання адміністратора. Встановіть пароль облікового "
+"запису або увімкніть sudo без пароля."
+
+msgid ""
+"This advanced path preserves existing partitions but changes the selected "
+"disk's partition table and the machine's EFI boot state."
+msgstr ""
+"\\\tЦей розширений шлях зберігає існуючі розділи, але змінює таблицю "
+"розділів вибраного диска та стан завантаження EFI машини."
+
+msgid "This configuration is very unsafe"
+msgstr "Ця конфігурація є дуже небезпечною"
+
+msgid ""
+"This disk contains an active mapper, array or other nested block-device "
+"topology that guided coexistence does not support."
+msgstr ""
+"\\\tЦей диск містить активний мапер, масив або іншу вкладену топологію "
+"блокового пристрою, яку підтримка спільного використання не підтримує."
+
+msgid ""
+"This disk is too small for whole-disk installation. Advanced may continue "
+"only if suitable unallocated space exists."
+msgstr ""
+"\\\tЦей диск занадто малий для повного встановлення на диск. Розширений "
+"режим може продовжити лише за наявності відповідного невизначеного місця."
+
+msgid "This installer does not shrink or preserve other systems."
+msgstr "Цей встановлювач не стискає та не зберігає інші системи."
+
+msgid "Timezone"
+msgstr "Часовий пояс"
+
+msgid "Too small"
+msgstr "Занадто мало"
+
+msgid "Turkish"
+msgstr "Турецька"
+
+msgid "Ukrainian"
+msgstr "Українська"
+
+msgid "Unallocated space"
+msgstr "Невиділений простір"
+
+msgid "Unallocated · {size}"
+msgstr "Невиділено · {size}"
+
+msgid "Unavailable: {error}"
+msgstr "Недоступно: {error}"
+
+msgid "Unknown filesystem"
+msgstr "Невідома файлова система"
+
+msgid "Unmount installed system"
+msgstr "Відключення встановленої системи"
+
+msgid "Updates and Drivers"
+msgstr "Оновлення та драйвери"
+
+msgid ""
+"Use already-unallocated space and preserve existing partitions. This is the "
+"only Windows coexistence path."
+msgstr ""
+"Використовувати вже невиділений простір і зберігати існуючі розділи. Це "
+"єдиний шлях співіснування з Windows."
+
+msgid "Use only existing unallocated space on the selected disk."
+msgstr "Використовувати лише наявний невиділений простір на вибраному диску."
+
+msgid "User"
+msgstr "Користувач"
+
+msgid "User Account"
+msgstr "Обліковий запис користувача"
+
+msgid "Username"
+msgstr "Ім'я користувача"
+
+msgid ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+msgstr ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+
+msgid "Uses a traditional single root filesystem."
+msgstr "Використовує традиційну файлову систему з одним коренем."
+
+msgid "Validate Plan (No Installation)"
+msgstr "Перевірити план (без встановлення)"
+
+msgid "Validate this installation plan?"
+msgstr "Перевірити цей план встановлення?"
+
+msgid "Verify kernel module signatures"
+msgstr "Перевірка підписів модулів ядра"
+
+msgid "Verify target disk isolation"
+msgstr "Перевірка ізоляції цільового диска"
+
+msgid "Vietnamese"
+msgstr "В'єтнамська"
+
+msgid "Welcome to Andiora"
+msgstr "Ласкаво просимо до Andiora"
+
+msgid "Windows detected"
+msgstr "Windows виявлено"
+
+msgid ""
+"Write only EFI/Andiora, do not overwrite EFI/BOOT, and require a verified "
+"Andiora NVRAM entry."
+msgstr ""
+"Записувати лише EFI/Andiora, не перезаписувати EFI/BOOT та вимагати "
+"перевіреного запису Andiora у NVRAM."
+
+msgid "automatic login"
+msgstr "автоматичний вхід"
+
+msgid "create a machine-local MOK; enroll after reboot with password 123456"
+msgstr ""
+"створити локальний для машини MOK; зареєструвати після перезавантаження з "
+"паролем 123456"
+
+msgid "detect and install (may include non-free software)"
+msgstr "виявити та встановити (може включати не вільне програмне забезпечення)"
+
+msgid "do not install"
+msgstr "не встановлювати"
+
+msgid "download and install"
+msgstr "завантажити та встановити"
+
+msgid "ext4 (classic)"
+msgstr "ext4 (класична)"
+
+msgid "ext4 — classic"
+msgstr "ext4 — класичний"
+
+msgid "not required"
+msgstr "не обов'язково"
+
+msgid "password required for login"
+msgstr "потрібен пароль для входу"
+
+msgid "single ext4 root filesystem"
+msgstr "єдина файлова система ext4 кореневого каталогу"
+
+msgid "{architecture} / {firmware} / Secure Boot: {secure_boot}"
+msgstr "{architecture} / {firmware} / Secure Boot: {secure_boot}"
+
+msgid "{count}: {paths}"
+msgstr "{count}: {paths}"
+
+msgid "{name}: {start}–{end} MiB"
+msgstr "{name}: {start}–{end} MiB"
+
+msgid "{path} as {filesystem}"
+msgstr "{path} як {filesystem}"
+
+msgid "{size} at {offset}"
+msgstr "{size} на {offset}"
+
+msgid "{size} unallocated at {offset}"
+msgstr "{size} невиділено на {offset}"
+
+msgid "{step} failed"
+msgstr "Помилка кроку {step}"
+
+msgid ""
+"⚠ Only the selected unallocated space will be partitioned and formatted. "
+"Existing partitions are preserved, but EFI/Andiora files and the Andiora "
+"firmware boot entry may change. This installer will not shrink Windows for "
+"you."
+msgstr ""
+"⚠ Розділення та форматування буде виконано лише для вибраної невиділеної "
+"області. Існуючі розділи збережуться, але файли EFI/Andiora та запис "
+"автозавантаження прошивки Andiora можуть змінитися. Цей установщик не "
+"стисне Windows за вас."
+
+msgid ""
+"⚠ This will erase ALL data on the selected disk. This action cannot be "
+"undone."
+msgstr "⚠ Це видалить ВСІ дані на вибраному диску. Цю дію не можна скасувати."
+
+#: src/pages.py
+msgid "Connect to the Internet"
+msgstr "Підключитися до Інтернету"
+
+#: src/pages.py
+msgid "Internet connection is ready."
+msgstr "Підключення до Інтернету готове."
+
+#: src/pages.py
+msgid "Available Wi-Fi Networks"
+msgstr "Доступні мережі Wi-Fi"
+
+msgid "Preserve connected Wi-Fi network"
+msgstr "Зберегти підключену мережу Wi-Fi"
+
+msgid "Loading storage devices…"
+msgstr "Завантаження пристроїв зберігання…"
+
+msgid "Rechecking target disk…"
+msgstr "Повторна перевірка цільового диска…"
+
+msgid "Storage devices could not be loaded: {error}"
+msgstr "Не вдалося завантажити пристрої зберігання: {error}"
+
+#: src/pages.py
+msgid "Install extended multimedia format support"
+msgstr "Установити розширену підтримку мультимедійних форматів"
+
+#: src/pages.py
+msgid "Extended multimedia formats"
+msgstr "Розширені мультимедійні формати"
+
+#: src/pages.py
+msgid ""
+"Adds wider GStreamer compatibility and support for additional legacy and "
+"specialist media formats. Some components may be subject to patent or "
+"redistribution terms."
+msgstr ""
+"Розширює сумісність із GStreamer і додає підтримку застарілих та "
+"спеціалізованих медіаформатів. На деякі компоненти можуть поширюватися "
+"патенти або умови повторного розповсюдження."
+
+#: src/pages.py
+msgid "A saved profile exists. Entering a password updates it securely."
+msgstr "A saved profile exists. Entering a password updates it securely."
+
+#: src/pages.py
+msgid "Anonymous identity (optional)"
+msgstr "Anonymous identity (optional)"
+
+#: src/pages.py
+msgid "CA certificate path (optional)"
+msgstr "CA certificate path (optional)"
+
+#: src/pages.py
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/pages.py
+msgid "Cancelling Wi-Fi operation…"
+msgstr "Cancelling Wi-Fi operation…"
+
+#: src/pages.py
+msgid "Client certificate path"
+msgstr "Client certificate path"
+
+#: src/pages.py
+msgid "Connect"
+msgstr "Connect"
+
+#: src/pages.py
+msgid "Continue"
+msgstr "Continue"
+
+#: src/pages.py
+msgid "Connect to a hidden network"
+msgstr "Connect to a hidden network"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connect to {network}"
+msgstr "Connect to {network}"
+
+#: src/pages.py
+msgid "Connected"
+msgstr "Connected"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connecting to {network}…"
+msgstr "Connecting to {network}…"
+
+#: src/pages.py
+msgid "Could not change the Wi-Fi connection"
+msgstr "Could not change the Wi-Fi connection"
+
+#: src/pages.py
+msgid "Disconnect"
+msgstr "Disconnect"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnect from {network}?"
+msgstr "Disconnect from {network}?"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnecting from {network}…"
+msgstr "Disconnecting from {network}…"
+
+#: src/pages.py
+msgid "Domain suffix match (optional)"
+msgstr "Domain suffix match (optional)"
+
+#: src/pages.py
+msgid "EAP method"
+msgstr "EAP method"
+
+#: src/pages.py
+msgid "Enhanced Open (OWE)"
+msgstr "Enhanced Open (OWE)"
+
+#: src/pages.py
+msgid ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+msgstr ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+
+#: src/pages.py
+msgid "Enter the exact network name and choose its security type."
+msgstr "Enter the exact network name and choose its security type."
+
+#: src/pages.py
+msgid "Enterprise Wi-Fi"
+msgstr "Enterprise Wi-Fi"
+
+#: src/pages.py
+msgid "Identity"
+msgstr "Identity"
+
+#: src/pages.py
+msgid "Inner authentication"
+msgstr "Inner authentication"
+
+#: src/pages.py
+msgid "Network name (SSID)"
+msgstr "Network name (SSID)"
+
+#: src/pages.py
+msgid "No Wi-Fi networks found."
+msgstr "No Wi-Fi networks found."
+
+#: src/pages.py
+msgid "Open network"
+msgstr "Open network"
+
+#: src/pages.py
+msgid "Personal Wi-Fi"
+msgstr "Personal Wi-Fi"
+
+#: src/pages.py
+msgid "Private key password (optional)"
+msgstr "Private key password (optional)"
+
+#: src/pages.py
+msgid "Private key path"
+msgstr "Private key path"
+
+#: src/pages.py
+msgid "Refresh Wi-Fi networks"
+msgstr "Refresh Wi-Fi networks"
+
+#: src/pages.py
+msgid "Saved"
+msgstr "Saved"
+
+#: src/pages.py
+msgid "Security"
+msgstr "Security"
+
+#: src/pages.py
+msgid ""
+"The installer will keep the saved network profile so it can be used again."
+msgstr ""
+"The installer will keep the saved network profile so it can be used again."
+
+#: src/pages.py
+msgid "The local network is connected, but Internet access is unavailable."
+msgstr "The local network is connected, but Internet access is unavailable."
+
+#: src/pages.py
+msgid "Turning Wi-Fi off…"
+msgstr "Turning Wi-Fi off…"
+
+#: src/pages.py
+msgid "Turning Wi-Fi on…"
+msgstr "Turning Wi-Fi on…"
+
+#: src/pages.py
+msgid "Use WPS"
+msgstr "Use WPS"
+
+#: src/pages.py
+msgid "WEP (legacy)"
+msgstr "WEP (legacy)"
+
+#: src/pages.py
+msgid ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+msgstr ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+
+#: src/pages.py
+#, python-brace-format
+msgid "Waiting for WPS on {network}. Press the WPS button on the router…"
+msgstr "Waiting for WPS on {network}. Press the WPS button on the router…"

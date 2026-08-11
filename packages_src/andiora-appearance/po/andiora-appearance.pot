@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "About Andiora Appearance"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Andiora Appearance"
+msgstr ""
+
+msgid "Andiora Team"
+msgstr ""
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Apply to Login Screen"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Choose an image for the GDM login screen background."
+msgstr ""
+
+msgid "Choose the visual style of your taskbar."
+msgstr ""
+
+msgid "Choose…"
+msgstr ""
+
+msgid "Classic"
+msgstr ""
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr ""
+
+msgid "Danger Zone"
+msgstr ""
+
+msgid "Display the Activities button on the taskbar"
+msgstr ""
+
+msgid "Enable grouping"
+msgstr ""
+
+msgid "Extension Settings"
+msgstr ""
+
+msgid "GDM Wallpaper"
+msgstr ""
+
+msgid "Group apps"
+msgstr ""
+
+msgid "Images"
+msgstr ""
+
+msgid "Keep launchers separate from running apps"
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Login Screen Wallpaper"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open the preference windows of the panel extensions."
+msgstr ""
+
+msgid "Panel Indicators"
+msgstr ""
+
+msgid "Panel Widgets"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reset desktop settings"
+msgstr ""
+
+msgid "Reset desktop settings?"
+msgstr ""
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Select image"
+msgstr ""
+
+msgid "Seperated"
+msgstr ""
+
+msgid "Show Activities Button"
+msgstr ""
+
+msgid "Show Desktop Icons"
+msgstr ""
+
+msgid "Show Network"
+msgstr ""
+
+msgid "Show Weather"
+msgstr ""
+
+msgid "Show or hide built-in panel elements."
+msgstr ""
+
+msgid "Taskbar Elements"
+msgstr ""
+
+msgid "Taskbar Style"
+msgstr ""
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Tweaks"
+msgstr ""
+
+msgid "Use Vista taskbar behavior"
+msgstr ""
+
+msgid "Wallpaper"
+msgstr ""
+
+msgid "Windows 11"
+msgstr ""
+
+msgid "✓ Activities button — {action}n"
+msgstr ""
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr ""
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr ""
+
+msgid "✓ GDM wallpaper applied"
+msgstr ""
+
+msgid "✓ {label} — {action}d"
+msgstr ""
+
+msgid "✗ Failed to apply position"
+msgstr ""
+
+msgid "✗ Failed to apply style"
+msgstr ""
+
+msgid "✗ Failed to reset"
+msgstr ""
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr ""
+
+msgid "✗ Failed to toggle activities button"
+msgstr ""
+
+msgid "✗ Failed to {action} {label}"
+msgstr ""
+
+msgid "✗ Please select an image first"
+msgstr ""

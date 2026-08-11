@@ -1,0 +1,1241 @@
+# Finnish translations for andiora-installer-beta package.
+# Copyright (C) 2026 THE andiora-installer-beta'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the andiora-installer-beta package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-installer-beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-01 11:01+0000\n"
+"PO-Revision-Date: 2026-07-30 14:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Installing an input method requires an Internet connection."
+msgstr "Syöttötavan asentaminen vaatii internetyhteyden."
+
+msgid ""
+"No Internet connection. Input methods cannot be installed. You can install "
+"them later when connected."
+msgstr ""
+"Ei internetyhteyttä. Syöttötapoja ei voi asentaa. Voit asentaa ne myöhemmin, "
+"kun verkkoyhteys on käytettävissä."
+
+msgid ""
+"\n"
+"\n"
+"A real installation will create a machine-local MOK. After reboot, choose "
+"Enroll MOK → Continue → Yes in MOKManager and enter password 123456."
+msgstr ""
+"\n"
+"\n"
+"Oikea asennus luo konekohtaisen MOK-avaimen. Käynnistämisen jälkeen valitse "
+"Enroll MOK → Continue → Yes ohjelmasta MOKManager ja syötä salasana 123456."
+
+msgid ""
+"\n"
+"On the blue MOKManager screen choose Enroll MOK → Continue → Yes, password: "
+"123456"
+msgstr ""
+"\n"
+"Valitse siniseltä MOKManager-näkymältä Enroll MOK → Continue → Yes, "
+"salasana: 123456"
+
+msgid "4 GiB disk swap (priority 10) + 50% RAM LZ4 zram (priority 100)"
+msgstr ""
+"4 GiB levyvaihtotila (prioriteetti 10) + 50 % RAM LZ4 zram (prioriteetti 100)"
+
+msgid "; sudo does not require a password"
+msgstr "; sudo ei vaadi salasanaa"
+
+msgid "; sudo requires the account password"
+msgstr "; sudo vaatii tilin salasanan"
+
+msgid ""
+"A partition on this disk is mounted. Unmount it and rescan storage before "
+"continuing."
+msgstr ""
+"Tälle levylle on liitetty osio. Irrota se ja skannaa tallennustila uudelleen "
+"ennen jatkamista."
+
+msgid "ALL DATA on {disk} will be permanently erased."
+msgstr "{disk}-levyn KAIKKI TIEDOT poistetaan pysyvästi."
+
+msgid "Account security"
+msgstr "Tilin turvallisuus"
+
+msgid "Administrator access would be locked"
+msgstr "Ylläpitäjän pääsy lukittuisi"
+
+msgid "Advanced Storage"
+msgstr "Edistynyt tallennustila"
+
+msgid ""
+"Advanced coexistence can affect EFI firmware state and may trigger BitLocker "
+"recovery. It never shrinks or repairs Windows volumes."
+msgstr ""
+"Edistynyt rinnakkaiskäyttö voi vaikuttaa EFI-laitteiston tilaan ja aktivoida "
+"BitLocker-palautuksen. Se ei koskaan pienennä tai korjaa Windows-osioita."
+
+msgid "Advanced — keep existing systems"
+msgstr "Edistynyt – säilytä olemassa olevat järjestelmät"
+
+msgid "Advanced: Install Alongside"
+msgstr "Edistynyt: Asenna rinnakkain"
+
+msgid ""
+"After changing partitions or unmounting a volume, rescan storage and select "
+"the target again."
+msgstr ""
+"Osioita muutettuaan tai osion irrotettuaan, skannaa tallennustila uudelleen "
+"ja valitse kohde uudestaan."
+
+msgid ""
+"After restart, MOKManager will open. Choose Enroll MOK → Continue → Yes, "
+"then enter password 123456."
+msgstr ""
+"Käynnistyksen jälkeen MOKManager avautuu. Valitse Enroll MOK → Continue → "
+"Yes ja syötä sitten salasana 123456."
+
+msgid ""
+"All partitions and data on {disk} will be destroyed.\n"
+"\n"
+msgstr ""
+"Kaikki osiot ja tiedot levyllä {disk} tuhoutuvat.\n"
+"\n"
+
+msgid ""
+"Alternatively, you may explicitly select one entire partition to erase. "
+"Everything in that selected partition will be destroyed; it is never "
+"selected automatically."
+msgstr ""
+"Vaihtoehtoisesti voit valita erikseen yhden koko osion tyhjennettäväksi. "
+"Kaikki valitussa osiossa oleva tuhoutuu; sitä ei valita koskaan "
+"automaattisesti."
+
+msgid "Battery power is too low for a safe installation."
+msgstr "Akun varaustaso on liian alhainen turvalliseen asennukseen."
+
+msgid "Charge to at least 80% before starting the installation."
+msgstr "Lataa akku vähintään 80 prosenttiin ennen asennuksen aloittamista."
+
+msgid "Continue Anyway"
+msgstr "Jatka silti"
+
+msgid "Current battery level: {percent}%"
+msgstr "Akun nykyinen varaustaso: {percent}%"
+
+msgid "External power is connected."
+msgstr "Ulkoinen virtalähde on kytketty."
+
+msgid "External power is not connected."
+msgstr "Ulkoista virtalähdettä ei ole kytketty."
+
+msgid "I understand the risks and insist on installing with low battery."
+msgstr ""
+"Ymmärrän riskit ja haluan asentaa akun alhaisesta varaustasosta huolimatta."
+
+msgid "Low battery"
+msgstr "Akku vähissä"
+
+msgid "Recheck"
+msgstr "Tarkista uudelleen"
+
+msgid "Andiora Installer"
+msgstr "Andiora-asentaja"
+
+msgid "Andiora Installer (Beta)"
+msgstr "Andiora-asentaja (Beta)"
+
+msgid "Andiora Installer (Development)"
+msgstr "Andiora-asentaja (Kehitysversio)"
+
+msgid ""
+"Andiora will use only the selected unallocated space on {disk}. Existing "
+"partitions will be preserved.\n"
+"\n"
+msgstr ""
+"Andiora käyttää vain valitun varaamattoman tilan levyltä {disk}. Olemassa "
+"olevat osiot säilytetään.\n"
+"\n"
+
+msgid ""
+"Andiora will use only the selected unallocated space. The installer will "
+"not shrink or move an existing filesystem."
+msgstr ""
+"Andiora käyttää vain valittua varaamatonta tilaa. Asennusohjelma ei "
+"pienennä tai siirrä olemassa olevaa tiedostojärjestelmää."
+
+msgid ""
+"Any program running as your user can obtain full administrator privileges "
+"without authentication. Your login password still protects sign-in, but it "
+"will not protect sudo. Are you sure you want to continue?"
+msgstr ""
+"Mikä tahansa käyttäjänäsi suorittava ohjelma voi saada täydet "
+"järjestelmänvalvojan oikeudet ilman todennusta. Kirjautumissalasana suojaa "
+"edelleen sisäänkirjautumista, mutta se ei suojaa sudoa. Haluatko varmasti "
+"jatkaa?"
+
+msgid "Arabic"
+msgstr "Arabia"
+
+msgid "Back"
+msgstr "Takaisin"
+
+msgid ""
+"Before continuing: finish Windows updates, disable Fast Startup and "
+"hibernation, and back up the BitLocker recovery key. EFI, Secure Boot, TPM "
+"measurements and boot order can change."
+msgstr ""
+"Jatkaaksesi: suorita Windows-päivitykset loppuun, poista nopea käynnistys ja "
+"valmiustila käytöstä sekä varuskopioida BitLockerin palautusavain. EFI, "
+"Secure Boot, TPM-mittaukset ja käynnistysjärjestys voivat muuttua."
+
+msgid "BitLocker detected"
+msgstr "BitLocker havaittu"
+
+msgid ""
+"BitLocker storage will be preserved. The installer will not unlock, resize, "
+"repair or otherwise modify it."
+msgstr ""
+"BitLocker-tallennustila säilytetään. Asennusohjelma ei avaa lukkoa, muuta "
+"kokoa, korjaa tai tee muita muutoksia siihen."
+
+msgid "Boot policy"
+msgstr "Käynnistyspolitiikka"
+
+msgid "Btrfs (recommended)"
+msgstr "Btrfs (suositeltu)"
+
+msgid "Btrfs — recommended"
+msgstr "Btrfs — suositeltu"
+
+msgid "Cannot create installation plan"
+msgstr "Ei voi luoda asennussuunnitelmaa"
+
+msgid "Choose Installation Method"
+msgstr "Valitse asennustapa"
+
+msgid "Choose one target disk. Storage settings come next."
+msgstr "Valitse yksi kohdelevy. Tallennuksen asetukset seuraavaksi."
+
+msgid "Choose optional software to install"
+msgstr "Valitse valinnainen ohjelmisto asennettavaksi"
+
+msgid "Choose your language to begin installation"
+msgstr "Valitse kieli aloittaaksesi asennuksen"
+
+msgid "Choose your location to set the system clock"
+msgstr "Valitse sijaintisi järjestelmäajan määrittämiseksi"
+
+msgid "Complete"
+msgstr "Valmis"
+
+msgid "Computer Name"
+msgstr "Tietokoneen nimi"
+
+msgid "Computer name contains invalid characters."
+msgstr "Tietokoneen nimi sisältää kiellettyjä merkkejä."
+
+msgid "Configure account, region, timezone, and machine identity"
+msgstr "Määritä tili, alue, aikavyöhyke ja koneen identiteetti"
+
+msgid "Configure storage and swap"
+msgstr "Määritä tallennustila ja vaihtotila"
+
+msgid "Confirm Password"
+msgstr "Vahvista salasana"
+
+msgid "Confirm your keyboard layout"
+msgstr "Vahvista näppäimistöasettelusi"
+
+msgid "Continue Installation"
+msgstr "Jatka asennusta"
+
+msgid "Copy Andiora system"
+msgstr "Kopioi Andiora-järjestelmä"
+
+msgid "Copy Log"
+msgstr "Kopioi loki"
+
+msgid "Create a new 1 GiB Andiora EFI System Partition"
+msgstr "Luo uusi 1 GiB:n Andiora EFI-järjestelmän osio"
+
+msgid ""
+"Create and format a dedicated Andiora EFI System Partition inside the "
+"selected space."
+msgstr ""
+"Luo ja muotoile omistettu Andiora EFI-järjestelmän osio valitussa tilassa."
+
+msgid "Create your user account"
+msgstr "Luo käyttäjätilisi"
+
+msgid "Current disk layout"
+msgstr "Nykyinen levyjaottelu"
+
+msgid ""
+"DEVELOPMENT MODE — the plan will be validated and simulated. No privileged "
+"executor or disk command can run."
+msgstr ""
+"KEHITYSTILA — suunnitelma validoidaan ja simuloitaan. Etuoikeutettua "
+"suorittajaa tai levykomentoa ei voi suorittaa."
+
+msgid "Danish"
+msgstr "Tanska"
+
+msgid "Detect Internet connectivity"
+msgstr "Havaitse internet-yhteys"
+
+msgid "Detect firmware and Secure Boot"
+msgstr "Tunnista laiteohjelmisto ja Secure Boot"
+
+msgid ""
+"Development mode will simulate installation to {disk}. No disk data will be "
+"changed.\n"
+"\n"
+msgstr ""
+"Kehitystila simuloi asennusta levylle {disk}. Levydataa ei muuteta.\n"
+"\n"
+
+msgid "Development simulation completed"
+msgstr "Kehityssimulaatio suoritettu"
+
+msgid "Discover Andiora"
+msgstr "Tutustu Andiora:aan"
+
+msgid "Do not require a password for sudo commands"
+msgstr "Älä vaadi salasanaa sudo-komentoihin"
+
+msgid "Download and install system updates during installation"
+msgstr "Lataa ja asenna järjestelmäpäivitykset asennuksen aikana"
+
+msgid "Dutch"
+msgstr "Hollanti"
+
+msgid "EFI System Partition"
+msgstr "EFI-järjestelmäosio"
+
+msgid "EFI policy"
+msgstr "EFI-käytäntö"
+
+msgid "Empty disk — no partitions"
+msgstr "Tyhjä levy — ei osioita"
+
+msgid "Enables shared-space subvolumes, snapshots and Disk Snapshots Manager."
+msgstr ""
+"Ota käyttöön jaetun tilan alinvoluutit, hetkikuvat ja Disk Snapshots Manager."
+
+msgid "English (UK)"
+msgstr "Englanti (UK)"
+
+msgid "English (US)"
+msgstr "Englanti (US)"
+
+msgid "Ensure Disk Snapshots Manager is available"
+msgstr "Varmista, että Disk Snapshots Manager on käytettävissä"
+
+msgid "Erase Disk and Install"
+msgstr "Poista levy ja asenna"
+
+msgid "Erase every partition and all data on the selected disk."
+msgstr "Poista kaikki valitun levyn osiot ja data."
+
+msgid "Erase the entire selected disk?"
+msgstr "Poistetaanko koko valittu levy?"
+
+msgid ""
+"Existing Windows, recovery and data partitions remain outside the write set "
+"and will be preserved."
+msgstr ""
+"Olemassa olevat Windows-, palautus- ja dataosiot jäävät kirjoitusjoukon "
+"ulkopuolelle ja ne säilytetään."
+
+msgid ""
+"Existing partitions were detected. The first two choices delete them; "
+"Advanced is the preservation path."
+msgstr ""
+"Olemassa olevia osioita havaittiin. Kaksi ensimmäistä vaihtoehtoa poistaa "
+"ne; Advanced on säilytyspolku."
+
+msgid ""
+"Existing partitions will be preserved. New Andiora partitions will be "
+"created only in the selected unallocated extent; EFI vendor files and the "
+"Andiora firmware boot entry may be updated."
+msgstr ""
+"Olemassa olevat osiot säilytetään. Uudet Andiora-osiot luodaan vain "
+"valitulla varaamattomalla alueella; EFI-valmistajan tiedostoja ja Andiora:n "
+"firmware-aloitusmerkintää voidaan päivittää."
+
+msgid "Filesystem"
+msgstr "Tiedostojärjestelmä"
+
+msgid "Finalize target environment"
+msgstr "Lopeta kohdeympäristö"
+
+msgid "Finnish"
+msgstr "Suomi"
+
+msgid "Formats"
+msgstr "Muodostaa"
+
+msgid "French"
+msgstr "Ranska"
+
+msgid "Full Name"
+msgstr "Koko nimi"
+
+msgid "German"
+msgstr "Saksa"
+
+msgid "Greek"
+msgstr "Kreikka"
+
+msgid ""
+"Guided coexistence requires a system booted in UEFI mode and a GPT target "
+"disk. This disk cannot continue in guided mode."
+msgstr ""
+"Ohjattu rinnakkaiskäyttö vaatii järjestelmän käynnistymisen UEFI-tilassa ja "
+"GPT-tyyppisen kohdelevyn. Tämä levy ei voi jatkaa ohjatussa tilassa."
+
+msgid ""
+"Guided storage selection is missing. Rescan and select the target again."
+msgstr ""
+"Ohjattu tallennustilan valinta puuttuu. Skannaa uudelleen ja valitse kohde "
+"uudelleen."
+
+msgid "Hindi (India)"
+msgstr "Hindi (Intia)"
+
+msgid "How should Andiora use this disk?"
+msgstr "Miten Andiora:n tulisi käyttää tätä levyä?"
+
+msgid "I Understand the Risk, Continue"
+msgstr "Ymmärrän riskin, jatka"
+
+msgid "Indonesian"
+msgstr "Indonesia"
+
+msgid "Install"
+msgstr "Asenna"
+
+msgid "Install input method"
+msgstr "Asenna syöttömenetelmä"
+
+msgid "Install {language} input method: {name}"
+msgstr "Asenna kielen {language} syöttömenetelmä: {name}"
+
+msgid "Install Alongside"
+msgstr "Asenna rinnakkain"
+
+msgid "Install alongside"
+msgstr "Asenna rinnakkain"
+
+msgid "Install alongside requires a password-protected account."
+msgstr "Rinnakkaisasennus vaatii salasanalla suojatun tilin."
+
+msgid "Install bootloader"
+msgstr "Asenna käynnistyslataaja"
+
+msgid "Check systems on other disks"
+msgstr "Tarkista muiden levyjen järjestelmät"
+
+msgid "Install hardware drivers"
+msgstr "Asenna laiteohjaimet"
+
+msgid "Install in the selected free space?"
+msgstr "Haluatko asentaa valittuun vapaaseen tilaan?"
+
+msgid "Ensure required language packs are installed"
+msgstr "Varmista, että tarvittavat kielipaketit on asennettu"
+
+msgid "Install system updates"
+msgstr "Asenna järjestelmäpäivitykset"
+
+msgid "Install third-party drivers for this device"
+msgstr "Asenna kolmannen osapuolen ohjaimet tälle laitteelle"
+
+msgid "Installation Complete"
+msgstr "Asennus valmis"
+
+msgid "Installation Failed"
+msgstr "Asennus epäonnistui"
+
+msgid "Installation Steps"
+msgstr "Asennuksen vaiheet"
+
+msgid ""
+"Installation cannot continue with this selection. There is no force-continue "
+"option around storage safety checks."
+msgstr ""
+"Asennusta ei voi jatkaa tällä valinnalla. Pakotetun jatkamisen vaihtoehtoa "
+"ei ole saatavilla tallennustilan turvallisuustarkistusten ohittamiseksi."
+
+msgid "Installation complete"
+msgstr "Asennus suoritettu"
+
+msgid "Installation failed"
+msgstr "Asennus epäonnistui"
+
+msgid "Installation in progress"
+msgstr "Asennus käynnissä"
+
+msgid "Installing Andiora"
+msgstr "Asennetaan Andiora:aa"
+
+msgid "Italian"
+msgstr "Itävalta"
+
+msgid "Japanese (JIS keyboard)"
+msgstr "Japani (JIS-näppäimistö)"
+
+msgid "Keyboard"
+msgstr "Näppäimistö"
+
+msgid "Keyboard Layout"
+msgstr "Näppäimistön asettelu"
+
+msgid "Configure physical keyboard layout"
+msgstr "Määritä fyysisen näppäimistön asettelu"
+
+msgid "Korean"
+msgstr "Korea"
+
+msgid "Language"
+msgstr "Kieli"
+
+msgid "Live USB — excluded"
+msgstr "Elävä USB — pois suljettu"
+
+msgid "Mount target filesystems"
+msgstr "Mountaa kohde tiedostojärjestelmät"
+
+msgid "Navigation error"
+msgstr "Navigointivirhe"
+
+msgid "New partitions"
+msgstr "Uudet osiot"
+
+msgid "Next"
+msgstr "Seuraava"
+
+msgid "Next slide"
+msgstr "Seuraava dia"
+
+msgid "No partition table"
+msgstr "Ei osiotaulukkoa"
+
+msgid "No suitable disks found."
+msgstr "Sopivia levyjä ei löydetty."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with Windows Disk Management, then boot the installer "
+"again and rescan the disk."
+msgstr ""
+"Sopivaa varaamatonta tilaa ei löytynyt. Suojatakseen tietonsa, luo "
+"varaamaton tila Windowsin levytilanhallinnalla, käynnistä sitten "
+"asennusohjelma uudelleen ja skannaa levy uudelleen."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with a partitioning tool, then boot the installer again "
+"and rescan the disk."
+msgstr ""
+"Sopivaa varaamatonta tilaa ei löytynyt. Suojatakseen tietonsa, luo "
+"varaamaton tila osiointityökalulla, käynnistä sitten asennusohjelma "
+"uudelleen ja skannaa levy uudelleen."
+
+msgid "Norwegian"
+msgstr "Norja"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output"
+msgstr "Tulos"
+
+msgid "Output • Error"
+msgstr "Tulos • Virhe"
+
+msgid "Output • {count} warning(s)"
+msgstr "Tulos • {count} varoitus(ta)"
+
+msgid "Partition details unavailable"
+msgstr "Osiotiedot eivät ole saatavilla"
+
+msgid "Password"
+msgstr "Salasana"
+
+msgid "Password must be at least 6 characters."
+msgstr "Salasanan on oltava vähintään 6 merkkiä pitkä."
+
+msgid "Passwordless sudo is unsafe"
+msgstr "Salasanasoton sudo on epäturvallinen"
+
+msgid "Platform"
+msgstr "Alusta"
+
+msgid "Please do not turn off your computer"
+msgstr "Älä sammuta tietokonettasi"
+
+msgid "Please review your choices before proceeding"
+msgstr "Tarkista valintasi ennen jatkamista"
+
+msgid "Polish"
+msgstr "Puola"
+
+msgid "Portuguese"
+msgstr "Portugali"
+
+msgid "Portuguese (Brazil)"
+msgstr "Portugali (Brasilia)"
+
+msgid "Prepare Secure Boot"
+msgstr "Valmistele Secure Boot"
+
+msgid "Prepare installation disk"
+msgstr "Valmistele asennuslevy"
+
+msgid "Prepare target environment"
+msgstr "Valmistele kohdeympäristö"
+
+msgid "Preparing installation…"
+msgstr "Valmistellaan asennusta…"
+
+msgid "Preserved partitions"
+msgstr "Säilytetyt osiot"
+
+msgid "Previous slide"
+msgstr "Eellinen dia"
+
+msgid "Ready to Install"
+msgstr "Valmis asennettavaksi"
+
+msgid "Reboot Now"
+msgstr "Käynnistä uudelleen nyt"
+
+msgid "Refresh package indexes"
+msgstr "Päivitä paketti-indeksejä"
+
+msgid "Remove live-session components"
+msgstr "Poista live-istunnon komponentit"
+
+msgid "Remove the installation media and restart your computer"
+msgstr "Poista asennusmedia ja käynnistä tietokoneesi uudelleen"
+
+msgid ""
+"Requires an Internet connection. The base installation remains available "
+"when offline."
+msgstr ""
+"Vaatii internet-yhteyden. Perusasennus pysyy saatavilla ilman verkkoyhteyttä."
+
+msgid "Rescan Storage"
+msgstr "Tarkista tallennustila uudelleen"
+
+msgid "Rescan and Reselect Disk"
+msgstr "Tarkista ja valitse levy uudelleen"
+
+msgid "Restart and Enroll Secure Boot Key"
+msgstr "Käynnistä uudelleen ja rekisteröi Secure Boot -avain"
+
+msgid "Restart is disabled in development protection mode"
+msgstr "Uudelleenkäynnistys on poistettu käytöstä kehityssuojaustilassa"
+
+msgid "Return and Set a Password"
+msgstr "Palaa ja aseta salasana"
+
+msgid "Return to Make Changes"
+msgstr "Palaa tekemään muutoksia"
+
+msgid "Reuse {path} ({size})"
+msgstr "Käytä uudelleen polkua {path} ({size})"
+
+msgid ""
+"Reuse {path}; never format it; verify FAT health, identity and 64 MiB free "
+"before writing."
+msgstr ""
+"Käytä uudelleen polkua {path}; muotoile sitä koskaan; varmista FAT-"
+"järjestelmän kunto, identiteetti ja 64 Mt vapaata tilaa ennen kirjoitusta."
+
+msgid "Romanian"
+msgstr "Romania"
+
+msgid "Russian"
+msgstr "Venäjä"
+
+msgid "Save Log"
+msgstr "Tallenna loki"
+
+msgid "Schedule MOK enrollment"
+msgstr "Aikatauluta MOK-rekisteröinti"
+
+msgid "Search timezones…"
+msgstr "Hae aikavyöhykkeitä…"
+
+msgid "Secure Boot enrollment"
+msgstr "Secure Boot -rekisteröinti"
+
+msgid "Select Installation Disk"
+msgstr "Valitse asennuslevy"
+
+msgid "Select Timezone"
+msgstr "Valitse aikavyöhyke"
+
+msgid "Select fastest package mirror"
+msgstr "Valitse nopein pakettipeili"
+
+msgid "Selected timezone"
+msgstr "Valittu aikavyöhyke"
+
+msgid "Selected unallocated space"
+msgstr "Valittu varaamaton tila"
+
+msgid "Some drivers are proprietary or otherwise non-free software."
+msgstr ""
+"Jotkut ohjaimet ovat omistusoikeudellisia tai muuten ei-vapaata ohjelmistoa."
+
+msgid "Spanish"
+msgstr "Espanja"
+
+msgid "Stable disk identity"
+msgstr "Vakaa levytunnus"
+
+msgid ""
+"Stable identity: {stable_id}\n"
+"\n"
+msgstr ""
+"Vakaa tunnus: {stable_id}\n"
+"\n"
+
+msgid "Storage Device"
+msgstr "Tallennuslaite"
+
+msgid "Storage mode"
+msgstr "Tallennustila"
+
+msgid "Subvolumes"
+msgstr "Alueet (Subvolumes)"
+
+msgid "Swap"
+msgstr "Vaihtotila"
+
+msgid "Swedish"
+msgstr "Ruotsi"
+
+msgid "System updates"
+msgstr "Järjestelmäpäivitykset"
+
+msgid "Target Disk"
+msgstr "Kohdelevy"
+
+msgid "Target: {disk} ({size} — {model})"
+msgstr "Kohde: {disk} ({size} — {model})"
+
+msgid "Test your keyboard here…"
+msgstr "Testaa näppäimistösi täällä…"
+
+msgid "Thai"
+msgstr "Thai"
+
+msgid ""
+"The GPT disk or one of its partitions has no unique stable identifier. "
+"Guided coexistence cannot safely authorize preservation or writes on this "
+"disk."
+msgstr ""
+"GPT-levyllä tai yhdellä sen osioista ei ole yksilöllistä vakaata "
+"tunnisteetta. Automaattinen rinnakkaiskäyttö ei voi turvallisesti hyväksyä "
+"tämän levyn säilyttämistä tai kirjoituksia."
+
+msgid ""
+"The complete partition map and free-space geometry could not be read "
+"consistently. No space on this disk is authorized for installation."
+msgstr ""
+"Koko osiokaarta ja vapaan tilan geometriaa ei voitu lukea johdonmukaisesti. "
+"Mitään tilaa tällä levyllä ei ole myönnetty asennusta varten."
+
+msgid ""
+"The existing EFI System Partition is only a candidate. Health and free-space "
+"checks must pass before it can be reused, and it will never be formatted."
+msgstr ""
+"Olemassa oleva EFI-järjestelmäosio on vain ehdokas. Sen uudelleenkäyttö "
+"edellyttää, että kunto- ja vapaan tilan tarkastukset menevät läpi, eikä sitä "
+"ikinä formatoida."
+
+msgid ""
+"The installation plan is valid. No disk, filesystem, bootloader, Secure Boot "
+"state, or installed system was changed."
+msgstr ""
+"Asennussuunnitelma on kelvollinen. Levyä, tiedostojärjestelmää, "
+"käynnistyslataajaa, Secure Boot -tilaa tai asennettua järjestelmää ei "
+"muutettu."
+
+msgid "The installer cannot be closed while it is modifying the target disk."
+msgstr "Asentajaa ei voi sulkea, kun se muuttaa kohdelevyä."
+
+msgid ""
+"The installer will not mount, repair or infer the safety of Windows volumes "
+"from hibernation or Fast Startup state. Any required Windows maintenance "
+"must be completed in Windows."
+msgstr ""
+"Asennusohjelma ei liitä, korjaa tai arvioi Windows-volyymien turvallisuutta "
+"lepotilan tai Pikakäynnistystilan perusteella. Kaikki tarvittava Windowsin "
+"ylläpito on suoritettava Windowsissa."
+
+msgid "The privileged executor is disabled."
+msgstr "Etuvoikeuksilla varustettu suoritin on poistettu käytöstä."
+
+msgid ""
+"The selected disk changed or disappeared. Return to the disk page and select "
+"it again. {error}"
+msgstr ""
+"Valittu levy muuttui tai katosi. Palaa levyyn liittyvälle sivulle ja valitse "
+"se uudelleen. {error}"
+
+msgid "The selected disk size changed. Return and select it again."
+msgstr "Valitun levyn koko muuttui. Palaa ja valitse se uudelleen."
+
+msgid ""
+"The selected disk topology changed. Review the disk and installation method "
+"again."
+msgstr ""
+"Valitun levyn topologia muuttui. Tarkista levy ja asennustapa uudelleen."
+
+msgid ""
+"The system will sign in to this account automatically and allow it to obtain "
+"full administrator privileges without a password. Anyone with physical "
+"access, and any program running as this user, can completely control the "
+"system. Use this only for a kiosk, temporary virtual machine, or another "
+"controlled environment."
+msgstr ""
+"Järjestelmä kirjautuu tähän tiliin automaattisesti ja sallii sen saavan "
+"täydet järjestelmänvalvojan oikeudet ilman salasanaa. Kuka tahansa, jolla on "
+"fyysinen pääsy, ja mikä tahansa tämän käyttäjänä suorittava ohjelma voi "
+"hallita järjestelmää täysin. Käytä tätä vain kioskissa, tilapäisessä "
+"virtuaalikoneessa tai toisessa kontrolloidussa ympäristössä."
+
+msgid "The two passwords do not match."
+msgstr "Kaksi salasanaa eivät täsmää."
+
+msgid "Third-party drivers"
+msgstr "Kolmannen osapuolen ohjaimet"
+
+msgid ""
+"This account has no login password, but sudo would still require one. "
+"Because the root account is locked by default, you would be unable to "
+"perform administrator tasks. Set an account password or enable passwordless "
+"sudo."
+msgstr ""
+"Tässä tilissä ei ole kirjautumis salasanaa, mutta sudo vaatii silti yhden. "
+"Koska root-tili on oletuksena lukittu, et voi suorittaa ylläpitotehtäviä. "
+"Aseta tiliin salasana tai ota käyttöön salasanaton sudo."
+
+msgid ""
+"This advanced path preserves existing partitions but changes the selected "
+"disk's partition table and the machine's EFI boot state."
+msgstr ""
+"Tämä edistynyt vaihtoehto säilyttää olemassa olevat osiot, mutta muuttaa "
+"valitun levyn osiotaulukon ja tietokoneen EFI-käynnistystilan."
+
+msgid "This configuration is very unsafe"
+msgstr "Tämä konfiguraatio on erittäin epäturvallinen"
+
+msgid ""
+"This disk contains an active mapper, array or other nested block-device "
+"topology that guided coexistence does not support."
+msgstr ""
+"Tämä levy sisältää aktiivisen kartoittimen, taulukon tai muun sisäkkäisen "
+"lohkolaitetopologian, jota ohjattu rinnakkaisyhteensopivuus ei tue."
+
+msgid ""
+"This disk is too small for whole-disk installation. Advanced may continue "
+"only if suitable unallocated space exists."
+msgstr ""
+"Tämä levy on liian pieni koko levyn asennusta varten. Asennus voi jatkua "
+"vain, jos sopivaa varaamatonta tilaa on saatavilla."
+
+msgid "This installer does not shrink or preserve other systems."
+msgstr "Tämä asentaja ei pienennä tai säilytä muita järjestelmiä."
+
+msgid "Timezone"
+msgstr "Aikavyöhyke"
+
+msgid "Too small"
+msgstr "Liian pieni"
+
+msgid "Turkish"
+msgstr "Turkki"
+
+msgid "Ukrainian"
+msgstr "Ukraina"
+
+msgid "Unallocated space"
+msgstr "Varaamaton tila"
+
+msgid "Unallocated · {size}"
+msgstr "Varaamaton · {size}"
+
+msgid "Unavailable: {error}"
+msgstr "Ei saatavilla: {error}"
+
+msgid "Unknown filesystem"
+msgstr "Tuntematon tiedostojärjestelmä"
+
+msgid "Unmount installed system"
+msgstr "Unmountaa asennettu järjestelmä"
+
+msgid "Updates and Drivers"
+msgstr "Päivitykset ja ohjaimet"
+
+msgid ""
+"Use already-unallocated space and preserve existing partitions. This is the "
+"only Windows coexistence path."
+msgstr ""
+"Käytä jo olevaa varaamatonta tilaa ja säilytä nykyiset osiot. Tämä on ainoa "
+"Windowsin rinnakkaiskäytön tuki."
+
+msgid "Use only existing unallocated space on the selected disk."
+msgstr "Käytä vain valitun levyn olemassa olevaa varaamatonta tilaa."
+
+msgid "User"
+msgstr "Käyttäjä"
+
+msgid "User Account"
+msgstr "Käyttäjätili"
+
+msgid "Username"
+msgstr "Käyttäjänimi"
+
+msgid ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+msgstr ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+
+msgid "Uses a traditional single root filesystem."
+msgstr "Käyttää perinteistä yksittäistä juuritasojen tiedostojärjestelmää."
+
+msgid "Validate Plan (No Installation)"
+msgstr "Validoi suunnitelma (ei asennusta)"
+
+msgid "Validate this installation plan?"
+msgstr "Validoidaanko tämä asennussuunnitelma?"
+
+msgid "Verify kernel module signatures"
+msgstr "Tarkista ytimen moduulien allekirjoitukset"
+
+msgid "Verify target disk isolation"
+msgstr "Varmista kohdelevyn eristys"
+
+msgid "Vietnamese"
+msgstr "Vietnam"
+
+msgid "Welcome to Andiora"
+msgstr "Tervetuloa Andiora:aan"
+
+msgid "Windows detected"
+msgstr "Windows havaittu"
+
+msgid ""
+"Write only EFI/Andiora, do not overwrite EFI/BOOT, and require a verified "
+"Andiora NVRAM entry."
+msgstr ""
+"Kirjoita vain EFI/Andiora, älä ylikirjoita EFI/BOOT ja vaadi vahvistettu "
+"Andiora NVRAM-merkintä."
+
+msgid "automatic login"
+msgstr "automaattinen kirjautuminen"
+
+msgid "create a machine-local MOK; enroll after reboot with password 123456"
+msgstr ""
+"luo konekohtainen MOK; rekisteröi uudelleenkäynnistyksen jälkeen salasanalla "
+"123456"
+
+msgid "detect and install (may include non-free software)"
+msgstr "tunnista ja asenna (voi sisältää ei-vapaata ohjelmistoa)"
+
+msgid "do not install"
+msgstr "älä asenna"
+
+msgid "download and install"
+msgstr "lataa ja asenna"
+
+msgid "ext4 (classic)"
+msgstr "ext4 (klassinen)"
+
+msgid "ext4 — classic"
+msgstr "ext4 — klassinen"
+
+msgid "not required"
+msgstr "ei vaadita"
+
+msgid "password required for login"
+msgstr "salasana vaaditaan kirjautumiseen"
+
+msgid "single ext4 root filesystem"
+msgstr "yksi ext4-juuritiedostojärjestelmä"
+
+msgid "{architecture} / {firmware} / Secure Boot: {secure_boot}"
+msgstr "{architecture} / {firmware} / Turvallinen käynnistys: {secure_boot}"
+
+msgid "{count}: {paths}"
+msgstr "{count}: {paths}"
+
+msgid "{name}: {start}–{end} MiB"
+msgstr "{name}: {start}–{end} MiB"
+
+msgid "{path} as {filesystem}"
+msgstr "{path} tiedostojärjestelmänä {filesystem}"
+
+msgid "{size} at {offset}"
+msgstr "{size} kohdassa {offset}"
+
+msgid "{size} unallocated at {offset}"
+msgstr "{size} varaamattomaa tilaa kohdassa {offset}"
+
+msgid "{step} failed"
+msgstr "{step} epäonnistui"
+
+msgid ""
+"⚠ Only the selected unallocated space will be partitioned and formatted. "
+"Existing partitions are preserved, but EFI/Andiora files and the Andiora "
+"firmware boot entry may change. This installer will not shrink Windows for "
+"you."
+msgstr ""
+"⚠ Vain valittu varaamaton tila jaetaan osioiksi ja muotoillaan. Olemassa "
+"olevat osiot säilyvät, mutta EFI/Andiora-tiedostot ja Andiora:n firmware-"
+"käynnistysehto voivat muuttua. Tämä asennusohjelma ei pienennä Windowsia "
+"puolestasi."
+
+msgid ""
+"⚠ This will erase ALL data on the selected disk. This action cannot be "
+"undone."
+msgstr ""
+"⚠ Tämä poistaa KAIKKI valitun levyn tiedot. Tätä toimintoa ei voi peruuttaa."
+
+#: src/pages.py
+msgid "Connect to the Internet"
+msgstr "Yhdistä internetiin"
+
+#: src/pages.py
+msgid "Internet connection is ready."
+msgstr "Internet-yhteys on valmis."
+
+#: src/pages.py
+msgid "Available Wi-Fi Networks"
+msgstr "Käytettävissä olevat Wi-Fi-verkot"
+
+msgid "Preserve connected Wi-Fi network"
+msgstr "Säilytä yhdistetty Wi-Fi-verkko"
+
+msgid "Loading storage devices…"
+msgstr "Tallennuslaitteita ladataan…"
+
+msgid "Rechecking target disk…"
+msgstr "Tarkistetaan kohdelevyä uudelleen…"
+
+msgid "Storage devices could not be loaded: {error}"
+msgstr "Tallennuslaitteita ei voitu ladata: {error}"
+
+#: src/pages.py
+msgid "Install extended multimedia format support"
+msgstr "Asenna laajennettu mediamuotojen tuki"
+
+#: src/pages.py
+msgid "Extended multimedia formats"
+msgstr "Laajennetut mediamuodot"
+
+#: src/pages.py
+msgid ""
+"Adds wider GStreamer compatibility and support for additional legacy and "
+"specialist media formats. Some components may be subject to patent or "
+"redistribution terms."
+msgstr ""
+"Laajentaa GStreamer-yhteensopivuutta sekä lisää tuen vanhoille ja "
+"erikoistuneille mediamuodoille. Joihinkin osiin voi liittyä patentti- tai "
+"uudelleenjakeluehtoja."
+
+#: src/pages.py
+msgid "A saved profile exists. Entering a password updates it securely."
+msgstr "A saved profile exists. Entering a password updates it securely."
+
+#: src/pages.py
+msgid "Anonymous identity (optional)"
+msgstr "Anonymous identity (optional)"
+
+#: src/pages.py
+msgid "CA certificate path (optional)"
+msgstr "CA certificate path (optional)"
+
+#: src/pages.py
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/pages.py
+msgid "Cancelling Wi-Fi operation…"
+msgstr "Cancelling Wi-Fi operation…"
+
+#: src/pages.py
+msgid "Client certificate path"
+msgstr "Client certificate path"
+
+#: src/pages.py
+msgid "Connect"
+msgstr "Connect"
+
+#: src/pages.py
+msgid "Continue"
+msgstr "Continue"
+
+#: src/pages.py
+msgid "Connect to a hidden network"
+msgstr "Connect to a hidden network"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connect to {network}"
+msgstr "Connect to {network}"
+
+#: src/pages.py
+msgid "Connected"
+msgstr "Connected"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connecting to {network}…"
+msgstr "Connecting to {network}…"
+
+#: src/pages.py
+msgid "Could not change the Wi-Fi connection"
+msgstr "Could not change the Wi-Fi connection"
+
+#: src/pages.py
+msgid "Disconnect"
+msgstr "Disconnect"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnect from {network}?"
+msgstr "Disconnect from {network}?"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnecting from {network}…"
+msgstr "Disconnecting from {network}…"
+
+#: src/pages.py
+msgid "Domain suffix match (optional)"
+msgstr "Domain suffix match (optional)"
+
+#: src/pages.py
+msgid "EAP method"
+msgstr "EAP method"
+
+#: src/pages.py
+msgid "Enhanced Open (OWE)"
+msgstr "Enhanced Open (OWE)"
+
+#: src/pages.py
+msgid ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+msgstr ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+
+#: src/pages.py
+msgid "Enter the exact network name and choose its security type."
+msgstr "Enter the exact network name and choose its security type."
+
+#: src/pages.py
+msgid "Enterprise Wi-Fi"
+msgstr "Enterprise Wi-Fi"
+
+#: src/pages.py
+msgid "Identity"
+msgstr "Identity"
+
+#: src/pages.py
+msgid "Inner authentication"
+msgstr "Inner authentication"
+
+#: src/pages.py
+msgid "Network name (SSID)"
+msgstr "Network name (SSID)"
+
+#: src/pages.py
+msgid "No Wi-Fi networks found."
+msgstr "No Wi-Fi networks found."
+
+#: src/pages.py
+msgid "Open network"
+msgstr "Open network"
+
+#: src/pages.py
+msgid "Personal Wi-Fi"
+msgstr "Personal Wi-Fi"
+
+#: src/pages.py
+msgid "Private key password (optional)"
+msgstr "Private key password (optional)"
+
+#: src/pages.py
+msgid "Private key path"
+msgstr "Private key path"
+
+#: src/pages.py
+msgid "Refresh Wi-Fi networks"
+msgstr "Refresh Wi-Fi networks"
+
+#: src/pages.py
+msgid "Saved"
+msgstr "Saved"
+
+#: src/pages.py
+msgid "Security"
+msgstr "Security"
+
+#: src/pages.py
+msgid ""
+"The installer will keep the saved network profile so it can be used again."
+msgstr ""
+"The installer will keep the saved network profile so it can be used again."
+
+#: src/pages.py
+msgid "The local network is connected, but Internet access is unavailable."
+msgstr "The local network is connected, but Internet access is unavailable."
+
+#: src/pages.py
+msgid "Turning Wi-Fi off…"
+msgstr "Turning Wi-Fi off…"
+
+#: src/pages.py
+msgid "Turning Wi-Fi on…"
+msgstr "Turning Wi-Fi on…"
+
+#: src/pages.py
+msgid "Use WPS"
+msgstr "Use WPS"
+
+#: src/pages.py
+msgid "WEP (legacy)"
+msgstr "WEP (legacy)"
+
+#: src/pages.py
+msgid ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+msgstr ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+
+#: src/pages.py
+#, python-brace-format
+msgid "Waiting for WPS on {network}. Press the WPS button on the router…"
+msgstr "Waiting for WPS on {network}. Press the WPS button on the router…"

@@ -1,0 +1,2 @@
+d /var/lib/andiora-btrfs-snapshots-manager 0755 root root -
+d /etc/andiora-btrfs-snapshots-manager 0755 root root -

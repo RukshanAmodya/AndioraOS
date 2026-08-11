@@ -1,0 +1,230 @@
+# Andiora Appearance — Arabic translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "حول مظهر Andiora"
+
+msgid "Advanced"
+msgstr "متقدم"
+
+msgid "Andiora Appearance"
+msgstr "مظهر Andiora"
+
+msgid "Andiora Team"
+msgstr "فريق Andiora"
+
+msgid "Appearance"
+msgstr "المظهر"
+
+msgid "Apply to Login Screen"
+msgstr "تطبيق على شاشة تسجيل الدخول"
+
+msgid "Bottom"
+msgstr "أسفل"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "اختر صورة لخلفية شاشة تسجيل الدخول GDM."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "اختر النمط البصري لشريط المهام الخاص بك."
+
+msgid "Choose…"
+msgstr "اختيار…"
+
+msgid "Classic"
+msgstr "كلاسيكي"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "دمج النوافذ المتعددة لنفس التطبيق في أيقونة واحدة"
+
+msgid "Danger Zone"
+msgstr "منطقة الخطر"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "عرض زر الأنشطة على شريط المهام"
+
+msgid "Enable grouping"
+msgstr "تفعيل التجميع"
+
+msgid "Extension Settings"
+msgstr "إعدادات الإضافات"
+
+msgid "GDM Wallpaper"
+msgstr "خلفية GDM"
+
+msgid "Group apps"
+msgstr "تجميع التطبيقات"
+
+msgid "Images"
+msgstr "الصور"
+
+msgid "Keep launchers separate from running apps"
+msgstr "فصل المشغلات عن التطبيقات قيد التشغيل"
+
+msgid "Layout"
+msgstr "التخطيط"
+
+msgid "Left"
+msgstr "يسار"
+
+msgid "Login Screen Wallpaper"
+msgstr "خلفية شاشة تسجيل الدخول"
+
+msgid "Open"
+msgstr "فتح"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "افتح نوافذ تفضيلات إضافات اللوحة."
+
+msgid "Panel Indicators"
+msgstr "مؤشرات اللوحة"
+
+msgid "Panel Widgets"
+msgstr "أدوات واجهة اللوحة"
+
+msgid "Preview"
+msgstr "معاينة"
+
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+msgid "Reset desktop settings"
+msgstr "إعادة تعيين إعدادات سطح المكتب"
+
+msgid "Reset desktop settings?"
+msgstr "هل تريد إعادة تعيين إعدادات سطح المكتب؟"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "استعد جميع إعدادات GNOME Shell إلى الإعدادات الافتراضية للمصنع"
+
+msgid "Right"
+msgstr "يمين"
+
+msgid "Select image"
+msgstr "تحديد صورة"
+
+msgid "Seperated"
+msgstr "منفصل"
+
+msgid "Show Activities Button"
+msgstr "إظهار زر الأنشطة"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "إظهار الشبكة"
+
+msgid "Show Weather"
+msgstr "إظهار الطقس"
+
+msgid "Show or hide built-in panel elements."
+msgstr "إظهار أو إخفاء عناصر اللوحة المضمنة."
+
+msgid "Taskbar Elements"
+msgstr "عناصر شريط المهام"
+
+msgid "Taskbar Style"
+msgstr "نمط شريط المهام"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "قم بتمكين أو تعطيل أدوات واجهة مؤشرات اللوحة."
+
+msgid "Top"
+msgstr "أعلى"
+
+msgid "Tweaks"
+msgstr "التعديلات"
+
+msgid "Use Vista taskbar behavior"
+msgstr "سلوك شريط مهام Vista"
+
+msgid "Wallpaper"
+msgstr "خلفية الشاشة"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ زر الأنشطة — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ تم التطبيق — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ تم إعادة تعيين إعدادات سطح المكتب. أعد تشغيل Shell لتطبيق التغييرات."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ تم تطبيق خلفية GDM"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ فشل في تطبيق الموقع"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ فشل في تطبيق النمط"
+
+msgid "✗ Failed to reset"
+msgstr "✗ فشل في إعادة التعيين"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ فشل تعيين خلفية GDM"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ فشل تبديل زر الأنشطة"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ فشل في {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ الرجاء تحديد صورة أولاً"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "سيؤدي هذا إلى إعادة تعيين جميع إعدادات GNOME Shell إلى الإعدادات الافتراضية للمصنع.\n"
+#~ "ستفقد الإضافات وتخطيط اللوحة والتفضيلات."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "ArcMenu"
+#~ msgstr "قائمة ArcMenu"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "موضع شريط المهام"
+
+#~ msgid "Panel Position"
+#~ msgstr "موضع اللوحة"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "اختر مكان تواجد شريط المهام على الشاشة."

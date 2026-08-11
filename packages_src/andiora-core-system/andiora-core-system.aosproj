@@ -1,0 +1,198 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>andiora-core-system</PackageName>
+    <PackageVersion>2.0.0-5+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>Andiora core system foundation metapackage — essential system services, networking, hardware support, and administration tools. This is the base layer for all Andiora variants (Desktop, Server, IoT).</PackageDescription>
+    <Section>metapackages</Section>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>amd64 arm64</TargetArchitectures>
+    <Component>main</Component>
+    <SuiteShortNameMap>noble-addon=noble resolute-addon=resolute</SuiteShortNameMap>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ============================================================
+         Layer 0 — Container base (minimal shell + networking)
+         ============================================================ -->
+    <Dependency Include="andiora-container" />
+
+    <!-- ============================================================
+         Layer 1 — Core System (boot, init, kernel, firmware)
+         Removing these = unbootable system.
+         ============================================================ -->
+    <Dependency Include="grub-common" />
+    <Dependency Include="grub-efi-amd64 | grub-pc" Condition="'$(Arch)' == 'amd64'" />
+    <Dependency Include="grub-efi-arm64" Condition="'$(Arch)' == 'arm64'" />
+    <Dependency Include="grub2-common" />
+    <Dependency Include="andiora-grub-style" />
+    <Dependency Include="init" />
+    <Dependency Include="systemd-sysv" />
+    <Dependency Include="linux-base" />
+    <Dependency Include="linux-generic-hwe-26.04" Condition="'$(Suite)' == 'resolute-addon'" />
+    <Dependency Include="linux-firmware" />
+    <Dependency Include="systemd" />
+    <Dependency Include="systemd-hwe-hwdb" />
+    <Dependency Include="dracut | initramfs-tools" />
+    <Recommend Include="initramfs-tools" />
+    <Dependency Include="busybox-initramfs" />
+    <Dependency Include="efibootmgr" />
+    <Dependency Include="kmod" />
+
+    <!-- ============================================================
+         Networking (core — system won't have connectivity without these)
+         ============================================================ -->
+    <Dependency Include="libnss-systemd" />
+    <Dependency Include="network-manager" />
+    <Dependency Include="wpasupplicant" />
+    <Dependency Include="iproute2" />
+
+    <!-- ============================================================
+         Firewall — one of these three is required; ufw is preferred
+         ============================================================ -->
+    <Dependency Include="ufw | iptables | nftables" />
+
+    <!-- ============================================================
+         Security
+         ============================================================ -->
+    <Dependency Include="openssh-client" />
+
+    <!-- ============================================================
+         PAM / Authentication / Session
+         ============================================================ -->
+    <Dependency Include="libpam-systemd" />
+    <Dependency Include="libpam-modules" />
+    <Dependency Include="libpam-modules-bin" />
+    <Dependency Include="dbus" />
+    <Dependency Include="dbus-bin" />
+    <Dependency Include="dbus-user-session" />
+
+    <!-- ============================================================
+         Filesystem & Storage (core — FUSE is required)
+         ============================================================ -->
+    <Dependency Include="libfuse2t64" />
+    <Dependency Include="libfuse3-4" />
+
+    <!-- ============================================================
+         Locale & Timezone
+         ============================================================ -->
+    <Dependency Include="resolvconf" />
+
+    <!-- ============================================================
+         Essential CLI / Networking Tools
+         ============================================================ -->
+    <Dependency Include="wget" />
+    <Dependency Include="uuid-runtime" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- ============================================================
+         Recommends: security & networking supplements
+         ============================================================ -->
+    <Recommend Include="ufw" />
+    <Recommend Include="nftables" />
+    <Recommend Include="iptables" />
+    <Recommend Include="sudo-rs" />
+    <Recommend Include="apparmor" />
+    <Recommend Include="dhcpcd-base" />
+    <Recommend Include="dnsmasq-base" />
+
+    <!-- ============================================================
+         Recommends: filesystem & storage tools
+         ============================================================ -->
+    <Recommend Include="dosfstools" />
+    <Recommend Include="cifs-utils" />
+    <Recommend Include="parted" />
+    <Recommend Include="fdisk" />
+    <Recommend Include="hdparm" />
+
+    <!-- ============================================================
+         Recommends: system maintenance
+         ============================================================ -->
+    <Recommend Include="cron" />
+    <Recommend Include="logrotate" />
+    <Recommend Include="rsync" />
+
+    <!-- ============================================================
+         Recommends: Andiora system tuning
+         ============================================================ -->
+    <Recommend Include="andiora-system-tweaks" />
+
+    <!-- ============================================================
+         Recommends: CLI tools & utilities
+         ============================================================ -->
+
+    <Recommend Include="man-db" />
+
+    <!-- ============================================================
+         Recommends: hardware introspection
+         ============================================================ -->
+    <Recommend Include="pciutils" />
+    <Recommend Include="usbutils" />
+    <Recommend Include="lshw" />
+    <Recommend Include="ethtool" />
+    <Recommend Include="hwdata" />
+
+    <!-- ============================================================
+         Recommends: power-user / admin tools
+         ============================================================ -->
+    <Recommend Include="htop" />
+    <Recommend Include="fastfetch" />
+    <Recommend Include="net-tools" />
+    <Recommend Include="iputils-tracepath" />
+    <Recommend Include="traceroute" />
+    <Recommend Include="httping" />
+    <Recommend Include="smartmontools" />
+    <Recommend Include="mdadm" />
+    <Recommend Include="whois" />
+    <Recommend Include="bind9-dnsutils" />
+
+    <Recommend Include="busybox-static" />
+    <Recommend Include="command-not-found" />
+    <Recommend Include="cpio" />
+    <Recommend Include="crash" />
+    <Recommend Include="debconf-i18n" />
+    <Recommend Include="dmidecode" />
+    <Recommend Include="dns-root-data" />
+    <Recommend Include="eject" />
+    <Recommend Include="gettext" />
+    <Recommend Include="ibverbs-providers" />
+    <Recommend Include="libmbim-utils" />
+    <Recommend Include="manpages" />
+    <Recommend Include="manpages-dev" />
+    <Recommend Include="media-types" />
+    <Recommend Include="mtr-tiny" />
+    <Recommend Include="numactl" />
+    <Recommend Include="powermgmt-base" />
+    <Recommend Include="python3-rich" />
+    <Recommend Include="python3-systemd" />
+    <Recommend Include="strace" />
+    <Recommend Include="tcpdump" />
+    <Recommend Include="time" />
+    <Recommend Include="xauth" />
+
+    <!-- PAM extras (enterprise / biometric) -->
+    <Recommend Include="libpam-cap" />
+    <Recommend Include="libpam-fprintd" />
+    <Recommend Include="libpam-pwquality" />
+    <Recommend Include="libpam-sss" />
+
+    <!-- Networking & Storage extras -->
+    <Recommend Include="networkd-dispatcher" />
+    <Recommend Include="dmsetup" />
+    <Recommend Include="systemd-cryptsetup" />
+    <Recommend Include="publicsuffix" />
+
+    <!-- Hardware extras -->
+    <Recommend Include="modemmanager" />
+    <Recommend Include="thermald" />
+    <Recommend Include="usb-modeswitch" />
+    <Recommend Include="libopengl0" />
+    <Recommend Include="bolt" />
+    <Recommend Include="cracklib-runtime" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,397 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ufwall-gtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 09:51+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "0 = append at end"
+msgstr "0 = lisää loppuun"
+
+msgid "About"
+msgstr "Tietoja"
+
+msgid "Action"
+msgstr "Toiminto"
+
+msgid "Active"
+msgstr "Aktiivinen"
+
+msgid "Add"
+msgstr "Lisää"
+
+msgid "Add Rule"
+msgstr "Lisää sääntö"
+
+msgid "Advanced"
+msgstr "Tarkemmat asetukset"
+
+msgid "All"
+msgstr "Kaikki"
+
+msgid "Allow"
+msgstr "Salli"
+
+msgid "Allow applications with predefined rules."
+msgstr "Salli sovellukset, joilla on ennalta määritellyt säännöt."
+
+msgid "Application Profiles"
+msgstr "Sovellusprofiilit"
+
+msgid "Audit"
+msgstr "Rekisteri"
+
+msgid "Auditor Error"
+msgstr "Tarkastajan virhe"
+
+msgid "Block"
+msgstr "Estä"
+
+msgid "Block Connection?"
+msgstr "Estä yhteys?"
+
+msgid "Block inbound traffic from"
+msgstr "Estä saapuva liikenne kohteesta"
+
+msgid "Block outbound traffic to"
+msgstr "Estä lähtevä liikanne kohteeseen"
+
+msgid "Blocked Events"
+msgstr "Estetyt tapahtumat"
+
+msgid "Blocked Successfully"
+msgstr "Estetty onnistuneesti"
+
+msgid "Both"
+msgstr "Molemmat"
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+#, fuzzy
+msgid "Local Network Discovery"
+msgstr "Multicast DNS paikallisen verkon etsintää varten"
+
+msgid "Control multicast DNS discovery and .local name resolution."
+msgstr ""
+
+msgid "Local Network Discovery (mDNS)"
+msgstr ""
+
+msgid "Checking service status…"
+msgstr ""
+
+msgid "Network Discovery Error"
+msgstr ""
+
+msgid "Avahi is not installed."
+msgstr ""
+
+msgid "Avahi is running; .local names and service discovery are available."
+msgstr ""
+
+msgid "Avahi is enabled but not currently running."
+msgstr ""
+
+msgid "Avahi is blocked; .local names and service discovery are unavailable."
+msgstr ""
+
+msgid "Comment"
+msgstr "Kommentti"
+
+msgid "Custom"
+msgstr "Mukautettu"
+
+msgid "Dashboard"
+msgstr "Kojelauta"
+
+msgid "Default Policies"
+msgstr "Oletuspolitiikat"
+
+msgid "Delete"
+msgstr "Poista"
+
+msgid "Delete All"
+msgstr "Poista kaikki"
+
+msgid "Delete All Rules?"
+msgstr "Haluatko poistaa kaikki säännöt?"
+
+msgid "Delete Rule"
+msgstr "Poista sääntö"
+
+msgid "Delete rule"
+msgstr "Poista sääntö"
+
+msgid "Deny"
+msgstr "Estä"
+
+msgid "Destination IP"
+msgstr "Kohde-IP"
+
+msgid "Direction"
+msgstr "Suunta"
+
+msgid "Error"
+msgstr "Virhe"
+
+msgid "Failed to Block"
+msgstr "Estäminen epäonnistui"
+
+msgid "Firewall"
+msgstr "Palomuuri"
+
+msgid "Firewall Rules"
+msgstr "Palomuurisäännöt"
+
+msgid "Full"
+msgstr "Täysi"
+
+msgid "High"
+msgstr "Korkea"
+
+msgid "In"
+msgstr "Sisään"
+
+msgid "Inactive"
+msgstr "Epäaktiivinen"
+
+msgid "Inbound"
+msgstr "Saapuva"
+
+msgid "Incoming"
+msgstr "Saapuva"
+
+msgid "Insert Before Rule"
+msgstr "Lisää ennen sääntöä"
+
+msgid "Interface"
+msgstr "Liitäntä"
+
+msgid "Limit"
+msgstr "Rajoitus"
+
+msgid "Listening Ports"
+msgstr "Kuuntelevat portit"
+
+msgid "Log Level"
+msgstr "Lokitaso"
+
+msgid "Logging"
+msgstr "Lokitus"
+
+msgid "Low"
+msgstr "Matala"
+
+msgid "Medium"
+msgstr "Keskitaso"
+
+msgid "Monitoring Network Activity"
+msgstr "Valvotaan verkkotoimintaa"
+
+msgid "No Profiles"
+msgstr "Ei profiileja"
+
+msgid "No Rules"
+msgstr "Ei sääntöjä"
+
+msgid "No application profiles found"
+msgstr "Sovellusprofiileja ei löytynyt"
+
+msgid "No blocked connections in recent events"
+msgstr "Estettyjä yhteyksiä ei ole viimeisimmissä tapahtumissa"
+
+msgid "No blocked ports in recent events"
+msgstr "Äskettäisissä tapahtumissa ei ole estettyjä portteja"
+
+msgid "No listening ports detected"
+msgstr "Kuuntelevia portteja ei havaittu"
+
+msgid "Off"
+msgstr "Pois päältä"
+
+msgid "Out"
+msgstr "Ulos"
+
+msgid "Outbound"
+msgstr "Lähtevä"
+
+msgid "Outgoing"
+msgstr "Menevä"
+
+msgid "Pause list updates"
+msgstr "Keskeytä luettelon päivitykset"
+
+msgid "Port / Protocol"
+msgstr "Portti / Protokolla"
+
+msgid "Port / Service Name"
+msgstr "Portti / Palvelun nimi"
+
+msgid "Profiles"
+msgstr "Profiilit"
+
+msgid "Protocol"
+msgstr "Protokolla"
+
+msgid "Quick Allow Port"
+msgstr "Salli portti nopeasti"
+
+msgid "Recent Blocked Events"
+msgstr "Viimeisimmät estetyt tapahtumat"
+
+msgid "Recent Events Parsed"
+msgstr "Viimeisimmät tapahtumat analysoidut"
+
+msgid "Refresh"
+msgstr "Päivitä"
+
+msgid "Reject"
+msgstr "Hylkää"
+
+msgid "Resolve Domains"
+msgstr "Nimeä alueet"
+
+msgid "Rule added to block"
+msgstr "Sääntö lisätty estoon"
+
+msgid "Rules"
+msgstr "Säännöt"
+
+msgid "Save"
+msgstr "Tallenna"
+
+msgid "Search Process or IP..."
+msgstr "Hae prosessia tai IP-osoitetta..."
+
+msgid "Search rules..."
+msgstr "Hae sääntöjä..."
+
+msgid "Service"
+msgstr "Palvelu"
+
+msgid "Show"
+msgstr "Näytä"
+
+msgid "Source IP"
+msgstr "Lähde-IP"
+
+msgid "Status"
+msgstr "Tila"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "There are no rules configured yet."
+msgstr "Sääntöjä ei ole vielä määritetty."
+
+msgid "This will delete all custom rules. This action cannot be undone."
+msgstr ""
+"Tämä poistaa kaikki mukautetut säännöt. Tätä toimintoa ei voi peruuttaa."
+
+msgid ""
+"This will prevent the remote host from sending any packets to your machine."
+msgstr "Tämä estää etäkoneen lähettämästä paketteja koneeseesi."
+
+msgid ""
+"This will prevent your machine from sending any packets to the remote host."
+msgstr "Tämä estää konettasi lähettämästä paketteja etäkoneelle."
+
+msgid "Top Blocked Connections"
+msgstr "Eniten estetyt yhteydet"
+
+msgid "Top Blocked Ports"
+msgstr "Estetyt portit"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "e.g. 80,443/tcp or 8080"
+msgstr "esim. 80,443/tcp tai 8080"
+
+msgid "BitTorrent client"
+msgstr "Bittorrent-asiakasohjelma"
+
+msgid "Common UNIX Printing System server"
+msgstr "Unixin yleinen tulostusjärjestelmän palvelin"
+
+msgid "Continuous file synchronization"
+msgstr "Jatkuva tiedostojen synkronointi"
+
+msgid "Docker container runtime API"
+msgstr "Docker-säiliön ajoajan API"
+
+msgid "Domain Name System server"
+msgstr "Nimipalvelun nimipalvelin"
+
+msgid "Extensible Messaging and Presence Protocol"
+msgstr "Extensible Messaging and Presence Protocol"
+
+msgid "File Transfer Protocol"
+msgstr "Tiedonsiirtoprotokolla (FTP)"
+
+msgid "File synchronization service"
+msgstr "Tiedostojen synkronointipalvelu"
+
+msgid "Hypertext Transfer Protocol for web servers"
+msgstr "Hypertextins siirtoprotokolla verkkopalvelimia varten"
+
+msgid "In-memory data structure store"
+msgstr "Muistissa toimivien tietorakenteiden tallennusjärjestelmä"
+
+msgid "Internet Message Access Protocol for email"
+msgstr "Internet Message Access Protocol sähköpostia varten"
+
+msgid "Lightweight Directory Access Protocol"
+msgstr "Kevyt hakemiston päästöprotokolla (LDAP)"
+
+msgid "Media streaming server"
+msgstr "Median suoratoistopalvelin"
+
+msgid "Modern VPN tunnel"
+msgstr "Nykyinen VPN-tunneli"
+
+msgid "Multicast DNS for local network discovery"
+msgstr "Multicast DNS paikallisen verkon etsintää varten"
+
+msgid "MySQL database server"
+msgstr "MySQL-tietokantapalvelin"
+
+msgid "Network File System"
+msgstr "Tiedostojen verkkojärjestelmä (NFS)"
+
+msgid "Network Time Protocol"
+msgstr "Portti / Protokolla"
+
+msgid "NoSQL document database"
+msgstr "NoSQL-asiakirjatietokanta"
+
+msgid "Phone and desktop integration"
+msgstr "Puhelimen ja työpöydän integraatio"
+
+msgid "Plex media streaming server"
+msgstr "Plex-mediasuoratoistopalvelin"
+
+msgid "Post Office Protocol for email retrieval"
+msgstr "Post Office Protocol sähköpostin noutamista varten"
+
+msgid "PostgreSQL database server"
+msgstr "PostgreSQL-tietokantapalvelin"
+
+msgid "Remote Desktop Protocol"
+msgstr "Portti / Protokolla"
+
+msgid "Secure HTTP for web servers"
+msgstr "Suojattu HTTP verkkopalvelimia varten"
+
+msgid "Secure shell remote access"
+msgstr "Suojattu kuori-pääsy etänä"
+
+msgid "Simple Mail Transfer Protocol"
+msgstr "Simple Mail Transfer Protocol"
+
+msgid "Virtual Network Computing remote desktop"
+msgstr "Virtual Network Computing -kauko työpöytä"
+
+msgid "Windows file and printer sharing"
+msgstr "Windows-tiedostojen ja tulostinten jako"

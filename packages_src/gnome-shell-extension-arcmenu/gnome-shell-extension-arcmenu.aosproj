@@ -1,0 +1,47 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>gnome-shell-extension-arcmenu</PackageName>
+    <PackageVersion>2.0.2-1+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <Section>gnome</Section>
+    <PackageDescription>Application Menu Extension for GNOME — packaged for Andiora</PackageDescription>
+    <Section>gnome</Section>
+    <PackageHomepage>https://extensions.gnome.org/extension/3628/</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>all</TargetArchitectures>
+    <Component>main</Component>
+    <SuiteShortNameMap>noble-addon=noble resolute-addon=resolute</SuiteShortNameMap>
+  </PropertyGroup>
+  <ItemGroup>
+    <DependencyCheckSource Url="https://mirror.aiursoft.com/ubuntu" SuiteMap="noble-addon=noble resolute-addon=resolute" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Dependency Include="andiora-dconf-runtime" />
+    <Dependency Include="gnome-shell" />
+    <Dependency Include="dconf-gsettings-backend | gsettings-backend" />
+    <Dependency Include="gir1.2-adw-1" />
+    <Dependency Include="gir1.2-gtk-4.0" />
+    <Dependency Include="gir1.2-gmenu-3.0" />
+    <Dependency Include="gir1.2-accountsservice-1.0" />
+    <Recommend Include="gnome-shell-extension-prefs | gnome-shell-extension-manager" />
+    <IncludeFolder Include="deploy/noble/arcmenu@arcmenu.com"
+                   Target="/usr/share/gnome-shell/extensions/arcmenu@arcmenu.com"
+                   Condition="'$(Suite)' == 'noble-addon'" />
+                   Target="/usr/share/gnome-shell/extensions/arcmenu@arcmenu.com"
+    <IncludeFolder Include="deploy/resolute/arcmenu@arcmenu.com"
+                   Target="/usr/share/gnome-shell/extensions/arcmenu@arcmenu.com"
+                   Condition="'$(Suite)' == 'resolute-addon'" />
+  </ItemGroup>
+  <ItemGroup>
+    <PrebuildCommand Run="bash download.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <IncludeFile Include="dconf/10-arcmenu.conf" Target="/etc/dconf/db/andiora.d/10-arcmenu.conf" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

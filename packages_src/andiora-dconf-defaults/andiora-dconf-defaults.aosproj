@@ -1,0 +1,48 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>andiora-dconf-defaults</PackageName>
+    <PackageVersion>2.0.1-7+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>Andiora system-wide dconf/gschema/GDM defaults</PackageDescription>
+    <Section>admin</Section>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>all</TargetArchitectures>
+    <Component>main</Component>
+    <SuiteShortNameMap>noble-addon=noble resolute-addon=resolute</SuiteShortNameMap>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Dependency Include="andiora-dconf-runtime" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- gsettings schema override -->
+    <IncludeFile Include="assets/99-andiora-defaults.gschema.override"
+                 Target="/usr/share/glib-2.0/schemas/99-andiora-defaults.gschema.override" />
+
+    <!-- dconf database fragments (sorted by priority) -->
+    <IncludeFile Include="assets/01-custom-keybindings.conf"
+                 Target="/etc/dconf/db/andiora.d/01-custom-keybindings.conf" />
+    <IncludeFile Include="assets/02-ptyxis-terminal.conf"
+                 Target="/etc/dconf/db/andiora.d/02-ptyxis-terminal.conf" />
+    <IncludeFile Include="assets/03-system-extensions.conf"
+                 Target="/etc/dconf/db/andiora.d/03-system-extensions.conf" />
+    <!-- 04 is reserved for dynamic build-time configs (mod 52) -->
+    <IncludeFile Include="assets/05-app-folders.conf"
+                 Target="/etc/dconf/db/andiora.d/05-app-folders.conf" />
+    <!-- 10-19 are per-extension dconf fragments shipped by Apkg packages -->
+
+    <!-- GDM greeter -->
+    <IncludeFile Include="assets/greeter.dconf-defaults.ini"
+                 Target="/etc/gdm3/greeter.dconf-defaults" />
+    <IncludeFile Include="assets/andiora_text_smaller.png"
+                 Target="/usr/share/pixmaps/andiora_text_smaller.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+</Project>

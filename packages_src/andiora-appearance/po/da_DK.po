@@ -1,0 +1,227 @@
+# Andiora Appearance — Danish translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Danish\n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Om Andiora Udseende"
+
+msgid "Advanced"
+msgstr "Avanceret"
+
+msgid "Andiora Appearance"
+msgstr "Andiora Udseende"
+
+msgid "Andiora Team"
+msgstr "Andiora-teamet"
+
+msgid "Appearance"
+msgstr "Udseende"
+
+msgid "Apply to Login Screen"
+msgstr "Anvend på loginskærm"
+
+msgid "Bottom"
+msgstr "Bund"
+
+msgid "Cancel"
+msgstr "Annuller"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Vælg et billede til GDM-loginskærmens baggrund."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Vælg det visuelle stil af din opgavelinje."
+
+msgid "Choose…"
+msgstr "Vælg…"
+
+msgid "Classic"
+msgstr "Klassisk"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Saml flere vinduer fra én app i ét ikon"
+
+msgid "Danger Zone"
+msgstr "Farezone"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Vis aktivitetsknappen på proceslinjen"
+
+msgid "Enable grouping"
+msgstr "Aktivér gruppering"
+
+msgid "Extension Settings"
+msgstr "Udvidelsesindstillinger"
+
+msgid "GDM Wallpaper"
+msgstr "GDM-baggrund"
+
+msgid "Group apps"
+msgstr "Gruppér apps"
+
+msgid "Images"
+msgstr "Billeder"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Adskil startikoner fra kørende apps"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Left"
+msgstr "Venstre"
+
+msgid "Login Screen Wallpaper"
+msgstr "Baggrund for loginskærm"
+
+msgid "Open"
+msgstr "Åbn"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Åbn præferencevinduerne for paneludvidelser."
+
+msgid "Panel Indicators"
+msgstr "Panelindikatorer"
+
+msgid "Panel Widgets"
+msgstr "Panelwidgetter"
+
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+msgid "Reset"
+msgstr "Nulstil"
+
+msgid "Reset desktop settings"
+msgstr "Nulstil skrivebordsindstillinger"
+
+msgid "Reset desktop settings?"
+msgstr "Nulstil skrivebordsindstillinger?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Gendan alle GNOME Shell-indstillinger til fabriksstandard"
+
+msgid "Right"
+msgstr "Højre"
+
+msgid "Select image"
+msgstr "Vælg billede"
+
+msgid "Seperated"
+msgstr "Adskilt"
+
+msgid "Show Activities Button"
+msgstr "Vis aktivitetsknap"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Vis netværk"
+
+msgid "Show Weather"
+msgstr "Vis vejr"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Vis eller skjul indbyggede panelelementer."
+
+msgid "Taskbar Elements"
+msgstr "Proceslinjeelementer"
+
+msgid "Taskbar Style"
+msgstr "Opgavelinjestil"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Slå panelindikatorwidgetter til eller fra."
+
+msgid "Top"
+msgstr "Top"
+
+msgid "Tweaks"
+msgstr "Justeringer"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Vista-proceslinjeopførsel"
+
+msgid "Wallpaper"
+msgstr "Baggrundsbillede"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Aktivitetsknap — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Anvendt — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Skrivebordsindstillinger nulstillet. Genstart Shell for at anvende."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ GDM-baggrund anvendt"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}et"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Kunne ikke anvende position"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Kunne ikke anvende stil"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Kunne ikke nulstille"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Kunne ikke indstille GDM-baggrund"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Kunne ikke skifte aktivitetsknap"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Kunne ikke {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Vælg venligst et billede først"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Dette nulstiller alle GNOME Shell-indstillinger til fabriksstandard.\n"
+#~ "Dine udvidelser, panellayout og præferencer går tabt."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Opgavelinjeposition"
+
+#~ msgid "Panel Position"
+#~ msgstr "Panelposition"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Vælg hvor din opgavelinje sidder på skærmen."

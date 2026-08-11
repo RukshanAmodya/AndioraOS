@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Andiora Driver Center
+Name[zh_CN]=Andiora 驱动中心
+Comment=Install and repair hardware drivers
+Comment[zh_CN]=安装和修复硬件驱动程序
+Exec=andiora-driver-center
+Icon=com.andiora.DriverCenter
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+Keywords=driver;nvidia;graphics;xbox;secure boot;hardware;
+Keywords[zh_CN]=驱动;显卡;英伟达;手柄;安全启动;硬件;
+StartupNotify=true
+StartupWMClass=com.andiora.DriverCenter
+DBusActivatable=false

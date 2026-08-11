@@ -1,0 +1,1798 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-09 15:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: andiora-oobe/assets/andiora-oobe:371
+msgid "Disk Snapshots Manager"
+msgstr "Менеджер снимков дисков"
+
+#: andiora-oobe/assets/andiora-oobe:373
+msgid "Protect your system with automatic Btrfs snapshots and smart cleanup."
+msgstr ""
+"Защитите свою систему с помощью автоматических снимков Btrfs и "
+"интеллектуальной очистки."
+
+#: andiora-oobe/assets/andiora-oobe:375
+msgid "Configure Automatic Snapshots"
+msgstr "Настройка автоматических снимков"
+
+#: andiora-oobe/assets/andiora-oobe:380
+msgid "System Backup"
+msgstr "Резервное копирование системы"
+
+#: andiora-oobe/assets/andiora-oobe:382
+msgid "Use Deja Dup to protect your"
+msgstr "Используйте Deja Dup для защиты ваших"
+
+#: andiora-oobe/assets/andiora-oobe:383
+msgid "important files with automated,"
+msgstr "важные файлы с помощью автоматизированных,"
+
+#: andiora-oobe/assets/andiora-oobe:384
+msgid "secure local or remote backups."
+msgstr "безопасных локальных или удаленных резервных копий."
+
+#: andiora-oobe/assets/andiora-oobe:386
+msgid "Get Deja Dup"
+msgstr "Получить Deja Dup"
+
+#: andiora-oobe/assets/andiora-oobe:457
+msgid "NetworkManager could not scan Wi-Fi."
+msgstr "NetworkManager не смог просканировать Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:520
+msgid "Could not inspect network adapters."
+msgstr "Не удалось проверить сетевые адаптеры."
+
+#: andiora-oobe/assets/andiora-oobe:530
+msgid "Could not read the Wi-Fi radio state."
+msgstr "Не удалось прочитать состояние радио Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:536
+msgid "Unknown Wi-Fi radio state: {}"
+msgstr "Неизвестное состояние радио Wi-Fi: {}"
+
+#: andiora-oobe/assets/andiora-oobe:537
+msgid "empty"
+msgstr "пустой"
+
+#: andiora-oobe/assets/andiora-oobe:546
+msgid "Could not change the Wi-Fi radio state."
+msgstr "Не удалось изменить состояние радио Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:648
+msgid "Welcome Home."
+msgstr "Добро пожаловать домой."
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "Andiora is ready. Just a few steps to shape it"
+msgstr "Andiora готов. Осталось несколько шагов, чтобы настроить его под себя"
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "into the perfect system tailored to your habits."
+msgstr "в идеальную систему, адаптированную под ваши привычки."
+
+#: andiora-oobe/assets/andiora-oobe:668
+msgid "  Start Setup  "
+msgstr "Начать настройку"
+
+#: andiora-oobe/assets/andiora-oobe:715
+msgid "Connect to the Internet"
+msgstr "Подключитесь к Интернету"
+
+#: andiora-oobe/assets/andiora-oobe:723
+msgid ""
+"Connect now so Andiora can safely check for updates, drivers, and apps."
+msgstr ""
+"Подключитесь сейчас, чтобы Andiora могла безопасно проверять наличие "
+"обновлений, драйверов и приложений."
+
+#: andiora-oobe/assets/andiora-oobe:731
+msgid "Internet Connection"
+msgstr "Подключение к Интернету"
+
+#: andiora-oobe/assets/andiora-oobe:738
+msgid "Network Hardware"
+msgstr "Сетевое оборудование"
+
+#: andiora-oobe/assets/andiora-oobe:746
+msgid "Available Wi-Fi Networks"
+msgstr "Доступные сети Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:748
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:751
+msgid "Scan Again"
+msgstr "Сканировать еще раз"
+
+#: andiora-oobe/assets/andiora-oobe:760
+#: andiora-oobe/assets/andiora-oobe:832
+#: andiora-oobe/assets/andiora-oobe:840
+#: andiora-oobe/assets/andiora-oobe:855
+msgid "Open Network Settings"
+msgstr "Открыть настройки сети"
+
+#: andiora-oobe/assets/andiora-oobe:769
+msgid "Could not open network settings: {}"
+msgstr "Не удалось открыть настройки сети: {}"
+
+#: andiora-oobe/assets/andiora-oobe:779
+msgid "Continue Offline"
+msgstr "Продолжить в автономном режиме"
+
+#: andiora-oobe/assets/andiora-oobe:783
+msgid "Skip updates, online drivers, apps, and account setup."
+msgstr ""
+"Пропустите обновления, онлайн-драйверы, приложения и настройку учетной "
+"записи."
+
+#: andiora-oobe/assets/andiora-oobe:799
+msgid "Internet connection is ready. Choose Next to continue."
+msgstr "Интернет-соединение готово. Выберите «Далее», чтобы продолжить."
+
+#: andiora-oobe/assets/andiora-oobe:806
+msgid "Connect to Wi-Fi or a wired network to continue."
+msgstr "Подключитесь к Wi-Fi или проводной сети, чтобы продолжить."
+
+#: andiora-oobe/assets/andiora-oobe:829
+msgid "No network adapters detected."
+msgstr "Сетевые адаптеры не обнаружены."
+
+#: andiora-oobe/assets/andiora-oobe:831
+msgid "Connect a network adapter or continue offline."
+msgstr "Подключите сетевой адаптер или продолжайте работу в автономном режиме."
+
+#: andiora-oobe/assets/andiora-oobe:836
+msgid "Wired Network"
+msgstr "Проводная сеть"
+
+#: andiora-oobe/assets/andiora-oobe:838
+msgid "Cable connected."
+msgstr "Кабель подключен."
+
+#: andiora-oobe/assets/andiora-oobe:839
+msgid "Plug in a network cable to connect."
+msgstr "Подключите сетевой кабель для подключения."
+
+#: andiora-oobe/assets/andiora-oobe:844
+msgid "Wireless Network"
+msgstr "Беспроводная сеть"
+
+#: andiora-oobe/assets/andiora-oobe:845
+msgid "Wi-Fi adapter detected."
+msgstr "Обнаружен адаптер Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:846
+msgid "Open Wi-Fi Settings"
+msgstr "Откройте настройки Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:850
+msgid "Wired and Wireless Networks"
+msgstr "Проводные и беспроводные сети"
+
+#: andiora-oobe/assets/andiora-oobe:852
+msgid "Cable connected and Wi-Fi available."
+msgstr "Кабель подключен, есть Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:854
+msgid "Wi-Fi is available; the network cable is disconnected."
+msgstr "доступен Wi-Fi; сетевой кабель отключен."
+
+#: andiora-oobe/assets/andiora-oobe:866
+msgid "Wi-Fi is turned off."
+msgstr "Wi-Fi отключен."
+
+#: andiora-oobe/assets/andiora-oobe:870
+msgid "No Wi-Fi networks found."
+msgstr "Сети Wi-Fi не найдены."
+
+#: andiora-oobe/assets/andiora-oobe:899
+msgid "Wi-Fi unavailable: {}"
+msgstr "Wi-Fi недоступен: {}"
+
+#: andiora-oobe/assets/andiora-oobe:981
+msgid "Define Your Visual Order"
+msgstr "Определите свой визуальный порядок"
+
+#: andiora-oobe/assets/andiora-oobe:991
+msgid "Light and Shadow"
+msgstr "Свет и тень"
+
+#: andiora-oobe/assets/andiora-oobe:992
+msgid "Choose a crisp light theme, or an immersive dark experience."
+msgstr "Выберите четкую светлую тему или погружающий темный режим."
+
+#: andiora-oobe/assets/andiora-oobe:1011
+msgid "Light"
+msgstr "Светлая"
+
+#: andiora-oobe/assets/andiora-oobe:1023
+msgid "Dark"
+msgstr "Темная"
+
+#: andiora-oobe/assets/andiora-oobe:1054
+msgid "Workflow Layout"
+msgstr "Макет рабочего процесса"
+
+#: andiora-oobe/assets/andiora-oobe:1055
+msgid "Prefer modern centered alignment, or classic left-docked?"
+msgstr ""
+"Предпочитаете современное центрирование или классическое расположение слева?"
+
+#: andiora-oobe/assets/andiora-oobe:1089
+msgid "Taskbar Layout"
+msgstr "Макет панели задач"
+
+#: andiora-oobe/assets/andiora-oobe:1090
+msgid "Choose your workflow."
+msgstr "Выберите свой рабочий процесс."
+
+#: andiora-oobe/assets/andiora-oobe:1099
+msgid " Modern "
+msgstr "Современный"
+
+#: andiora-oobe/assets/andiora-oobe:1100
+msgid " Classic "
+msgstr "Классический"
+
+#: andiora-oobe/assets/andiora-oobe:1129
+msgid "Show Virtual Desktop Switch Button"
+msgstr "Показать кнопку переключения виртуальных рабочих столов"
+
+#: andiora-oobe/assets/andiora-oobe:1130
+msgid "Display the Activities button on the taskbar"
+msgstr "Отображать кнопку «Активности» на панели задач"
+
+#: andiora-oobe/assets/andiora-oobe:1182
+msgid "Digital Sovereignty, Under Your Control"
+msgstr "Цифровой суверенитет под вашим контролем"
+
+#: andiora-oobe/assets/andiora-oobe:1190
+msgid "We deeply value privacy. Here, you hold absolute authority."
+msgstr ""
+"Мы глубоко ценим конфиденциальность. Здесь вы обладаете абсолютной властью."
+
+#: andiora-oobe/assets/andiora-oobe:1200
+msgid "Network Security"
+msgstr "Сетевая безопасность"
+
+#: andiora-oobe/assets/andiora-oobe:1202
+msgid ""
+"Control inbound protection and whether this computer participates in local "
+"network discovery."
+msgstr ""
+"Контролируйте входящую защиту и участие этого компьютера в обнаружении "
+"локальной сети."
+
+#: andiora-oobe/assets/andiora-oobe:1207
+msgid "Network Firewall (UFW)"
+msgstr "Сетевой межсетевой экран (UFW)"
+
+#: andiora-oobe/assets/andiora-oobe:1260
+msgid "Local Network Discovery (mDNS)"
+msgstr "Обнаружение локальной сети (mDNS)"
+
+#: andiora-oobe/assets/andiora-oobe:1262
+msgid ""
+"Find printers and nearby devices, and make .local names available on trusted "
+"networks."
+msgstr ""
+"Найдите принтеры и устройства поблизости и сделайте имена .local доступными "
+"в доверенных сетях."
+
+#: andiora-oobe/assets/andiora-oobe:1274
+msgid "Local network discovery controls are not installed."
+msgstr "Элементы управления обнаружением локальной сети не установлены."
+
+#: andiora-oobe/assets/andiora-oobe:1309
+msgid "Location Services"
+msgstr "Службы определения местоположения"
+
+#: andiora-oobe/assets/andiora-oobe:1311
+msgid ""
+"Allow apps like weather and clock to access your approximate geographic "
+"location."
+msgstr ""
+"Разрешить приложениям, таким как погода и часы, получать доступ к вашему "
+"приблизительному географическому положению."
+
+#: andiora-oobe/assets/andiora-oobe:1315
+msgid "Location Access"
+msgstr "Доступ к местоположению"
+
+#: andiora-oobe/assets/andiora-oobe:1333
+msgid "Power Settings"
+msgstr "Настройки питания"
+
+#: andiora-oobe/assets/andiora-oobe:1334
+msgid "Manage idle behavior to balance energy saving and convenience."
+msgstr ""
+"Управление поведением в режиме ожидания для баланса между энергосбережением "
+"и удобством."
+
+#: andiora-oobe/assets/andiora-oobe:1338
+msgid "Auto Sleep"
+msgstr "Автоматический сон"
+
+#: andiora-oobe/assets/andiora-oobe:1367
+msgid "Command-line Assistance"
+msgstr "Помощь в командной строке"
+
+#: andiora-oobe/assets/andiora-oobe:1368
+msgid "Control local bash predictions."
+msgstr "Управляйте локальными подсказками bash."
+
+#: andiora-oobe/assets/andiora-oobe:1372
+msgid "Bash Command Predictions"
+msgstr "Предсказание команд Bash"
+
+#: andiora-oobe/assets/andiora-oobe:1373
+msgid "Show command suggestions in bash"
+msgstr "Показывать подсказки команд в bash"
+
+#: andiora-oobe/assets/andiora-oobe:1390
+msgid ""
+"Could not update your Bash configuration. Your previous setting was kept."
+msgstr "Не удалось обновить конфигурацию Bash. Предыдущая настройка сохранена."
+
+#: andiora-oobe/assets/andiora-oobe:1428
+msgid "Keep Your System Up to Date"
+msgstr "Поддерживайте систему в актуальном состоянии"
+
+#: andiora-oobe/assets/andiora-oobe:1437
+msgid "Security patches and the latest features are just a click away."
+msgstr "Последние обновления безопасности и функции доступны в один клик."
+
+#: andiora-oobe/assets/andiora-oobe:1447
+msgid "Terminal Output"
+msgstr "Вывод терминала"
+
+#: andiora-oobe/assets/andiora-oobe:1483
+msgid "  Do It Later  "
+msgstr "Выполнить позже"
+
+#: andiora-oobe/assets/andiora-oobe:1486
+msgid "  Find Fastest Mirror  "
+msgstr "Найти самое быстрое зеркало"
+
+#: andiora-oobe/assets/andiora-oobe:1489
+msgid "  Check for Updates  "
+msgstr "Проверить обновления"
+
+#: andiora-oobe/assets/andiora-oobe:1523
+msgid "Checking for updates…"
+msgstr "Проверка обновлений…"
+
+#: andiora-oobe/assets/andiora-oobe:1555
+msgid "Updates are available."
+msgstr "Доступны обновления."
+
+#: andiora-oobe/assets/andiora-oobe:1556
+msgid "  Install Updates  "
+msgstr "Установить обновления"
+
+#: andiora-oobe/assets/andiora-oobe:1563
+msgid "✓ System is up to date."
+msgstr "✓ Система в актуальном состоянии."
+
+#: andiora-oobe/assets/andiora-oobe:1565
+#: andiora-oobe/assets/andiora-oobe:1595
+msgid "  Continue  "
+msgstr "Продолжить"
+
+#: andiora-oobe/assets/andiora-oobe:1572
+msgid "✗ Check failed: "
+msgstr "✗ Проверка не удалась:"
+
+#: andiora-oobe/assets/andiora-oobe:1578
+msgid "Installing updates…"
+msgstr "Установка обновлений…"
+
+#: andiora-oobe/assets/andiora-oobe:1593
+msgid "✓ Updates installed successfully!"
+msgstr "✓ Обновления успешно установлены!"
+
+#: andiora-oobe/assets/andiora-oobe:1604
+msgid "✗ Installation failed: "
+msgstr "✗ Установка не удалась:"
+
+#: andiora-oobe/assets/andiora-oobe:1643
+msgid "Testing mirrors…"
+msgstr "Проверка зеркал…"
+
+#: andiora-oobe/assets/andiora-oobe:1644
+msgid "=== Testing mirror speeds ==="
+msgstr "=== Тестирование скорости зеркал ==="
+
+#: andiora-oobe/assets/andiora-oobe:1769
+#: andiora-oobe/assets/andiora-oobe:1777
+#, python-brace-format
+msgid "Testing mirrors… ({c}/{t})"
+msgstr "Проверка зеркал… ({c}/{t})"
+
+#: andiora-oobe/assets/andiora-oobe:1785
+msgid "No mirrors reachable."
+msgstr "Ни одно зеркало недоступно."
+
+#: andiora-oobe/assets/andiora-oobe:1787
+msgid "✗ No mirrors reachable. Check your connection."
+msgstr "✗ Нет доступных зеркал. Проверьте соединение."
+
+#: andiora-oobe/assets/andiora-oobe:1795
+msgid "=== Testing bandwidth of top 5 mirrors "
+msgstr "=== Тестирование пропускной способности топ-5 зеркал ==="
+
+#: andiora-oobe/assets/andiora-oobe:1796
+msgid "(3 s each) ==="
+msgstr "(по 3 сек каждый) ==="
+
+#: andiora-oobe/assets/andiora-oobe:1850
+msgid "Best mirror by bandwidth"
+msgstr "Лучшее зеркало по пропускной способности"
+
+#: andiora-oobe/assets/andiora-oobe:1852
+#: andiora-oobe/assets/andiora-oobe:1873
+#: andiora-oobe/assets/andiora-oobe:1880
+msgid "Latency"
+msgstr "Задержка"
+
+#: andiora-oobe/assets/andiora-oobe:1853
+#: andiora-oobe/assets/andiora-oobe:1874
+#: andiora-oobe/assets/andiora-oobe:1881
+msgid "Bandwidth"
+msgstr "Пропускная способность"
+
+#: andiora-oobe/assets/andiora-oobe:1875
+msgid "This is already your current mirror."
+msgstr "Это уже ваш текущий репозиторий."
+
+#: andiora-oobe/assets/andiora-oobe:1885
+msgid "Current mirror"
+msgstr "Текущий репозиторий"
+
+#: andiora-oobe/assets/andiora-oobe:1889
+msgid "Switch to this mirror and run apt update?"
+msgstr "Переключиться на этот репозиторий и запустить apt update?"
+
+#: andiora-oobe/assets/andiora-oobe:1894
+msgid "Fastest Mirror Found"
+msgstr "Найден самый быстрый репозиторий"
+
+#: andiora-oobe/assets/andiora-oobe:1897
+msgid "Keep Current"
+msgstr "Оставить текущий"
+
+#: andiora-oobe/assets/andiora-oobe:1898
+msgid "Switch"
+msgstr "Переключить"
+
+#: andiora-oobe/assets/andiora-oobe:1920
+msgid "✗ Mirror test failed: "
+msgstr "✗ Проверка репозитория не удалась:"
+
+#: andiora-oobe/assets/andiora-oobe:1926
+msgid "Switching mirror…"
+msgstr "Переключение репозитория…"
+
+#: andiora-oobe/assets/andiora-oobe:1927
+msgid "=== Applying mirror switch ==="
+msgstr "=== Применяется переключение зеркала ==="
+
+#: andiora-oobe/assets/andiora-oobe:2002
+msgid "✓ Mirror switched and system updated."
+msgstr "✓ Зеркало переключено, система обновлена."
+
+#: andiora-oobe/assets/andiora-oobe:2005
+msgid "✓ Switched to "
+msgstr "✓ Переключено на"
+
+#: andiora-oobe/assets/andiora-oobe:2018
+msgid "✗ Switch failed: "
+msgstr "✗ Ошибка переключения:"
+
+#: andiora-oobe/assets/andiora-oobe:2058
+msgid "Could not open Andiora Driver Center: {}"
+msgstr "Не удалось открыть Центр драйверов Andiora: {}"
+
+#: andiora-oobe/assets/andiora-oobe:2092
+msgid "Configure Hardware Drivers?"
+msgstr "Настроить драйверы оборудования?"
+
+#: andiora-oobe/assets/andiora-oobe:2102
+msgid ""
+"Open Andiora Driver Center now to manage graphics cards, Xbox controllers, "
+"and other hardware."
+msgstr ""
+"Откройте Центр драйверов Andiora, чтобы управлять видеокартами, "
+"контроллерами Xbox и другим оборудованием."
+
+#: andiora-oobe/assets/andiora-oobe:2125
+msgid "Skip"
+msgstr "Пропустить"
+
+#: andiora-oobe/assets/andiora-oobe:2130
+msgid "Open Driver Center"
+msgstr "Открыть Центр драйверов"
+
+#: andiora-oobe/assets/andiora-oobe:2166
+msgid "Run Windows Apps, with ease"
+msgstr "Запускайте приложения Windows с легкостью"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid ""
+"Powered by Wine and Bottles technology, running classic Windows applications"
+msgstr ""
+"\tРаботает на базе технологий Wine и Bottles, запуская классические "
+"приложения Windows"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid "is now easier than ever."
+msgstr "теперь проще, чем когда-либо."
+
+#: andiora-oobe/assets/andiora-oobe:2191
+msgid "✓ Windows compatibility sandbox is already installed."
+msgstr "✓ Песочница совместимости с Windows уже установлена."
+
+#: andiora-oobe/assets/andiora-oobe:2207
+msgid "  Skip  "
+msgstr "Пропустить"
+
+#: andiora-oobe/assets/andiora-oobe:2211
+msgid "  Enable Windows Compatibility Sandbox  "
+msgstr "Включить песочницу совместимости Windows"
+
+#: andiora-oobe/assets/andiora-oobe:2221
+msgid "Configure Bottles"
+msgstr "Настройка Bottles"
+
+#: andiora-oobe/assets/andiora-oobe:2236
+msgid "Advanced Output"
+msgstr "Расширенный вывод"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "Deploying compatibility sandbox via Flatpak…"
+msgstr "Развертывание совместимого песочницы через Flatpak…"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "This may take a few minutes."
+msgstr "Это может занять несколько минут."
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "✓ Sandbox deployed successfully!"
+msgstr "✓ Песочница успешно развернута!"
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "You can now double-click .exe files to run them."
+msgstr "Теперь вы можете запускать файлы .exe двойным щелчком."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "✗ Deployment failed."
+msgstr "✗ Развертывание не удалось."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "You can install Bottles later from the App Store."
+msgstr "Вы можете установить Bottles позже из Магазина приложений."
+
+#: andiora-oobe/assets/andiora-oobe:2316
+msgid "✗ Error: "
+msgstr "✗ Ошибка:"
+
+#: andiora-oobe/assets/andiora-oobe:2347
+msgid "The Magic at Your Fingertips"
+msgstr "Магия на кончиках ваших пальцев"
+
+#: andiora-oobe/assets/andiora-oobe:2355
+msgid "Skip tedious clicking. Capture inspiration with elegance."
+msgstr ""
+"Пропустите утомительные клики. Захватывайте вдохновение с элегантностью."
+
+#: andiora-oobe/assets/andiora-oobe:2377
+msgid "Screenshot"
+msgstr "Снимок экрана"
+
+#: andiora-oobe/assets/andiora-oobe:2378
+msgid "Select, annotate, copy — all in one motion"
+msgstr "Выделите, аннотируйте, скопируйте — одним движением"
+
+#: andiora-oobe/assets/andiora-oobe:2396
+msgid "Screen Recording"
+msgstr "Запись экрана"
+
+#: andiora-oobe/assets/andiora-oobe:2397
+msgid "Seamless start, instant capture"
+msgstr "Бесшовный запуск, мгновенный захват"
+
+#: andiora-oobe/assets/andiora-oobe:2417
+msgid "More Essential Shortcuts"
+msgstr "Другие важные сочетания клавиш"
+
+#: andiora-oobe/assets/andiora-oobe:2420
+msgid "Open File Manager"
+msgstr "Открыть файловый менеджер"
+
+#: andiora-oobe/assets/andiora-oobe:2421
+msgid "Open Terminal"
+msgstr "Открыть терминал"
+
+#: andiora-oobe/assets/andiora-oobe:2422
+msgid "Task Manager"
+msgstr "Диспетчер задач"
+
+#: andiora-oobe/assets/andiora-oobe:2423
+msgid "View Clipboard History"
+msgstr "Просмотр истории буфера обмена"
+
+#: andiora-oobe/assets/andiora-oobe:2424
+msgid "Lock Screen"
+msgstr "Экран блокировки"
+
+#: andiora-oobe/assets/andiora-oobe:2425
+msgid "Action Center"
+msgstr "Центр действий"
+
+#: andiora-oobe/assets/andiora-oobe:2426
+msgid "Notification Center"
+msgstr "Центр уведомлений"
+
+#: andiora-oobe/assets/andiora-oobe:2427
+msgid "Toggle Network Stats Display"
+msgstr "Переключить отображение статистики сети"
+
+#: andiora-oobe/assets/andiora-oobe:2428
+msgid "Switch Between Windows"
+msgstr "Переключение между окнами"
+
+#: andiora-oobe/assets/andiora-oobe:2429
+msgid "Close Current Window"
+msgstr "Закрыть текущее окно"
+
+#: andiora-oobe/assets/andiora-oobe:2430
+msgid "Snap Windows"
+msgstr "Привязка окон"
+
+#: andiora-oobe/assets/andiora-oobe:2431
+msgid "Switch Virtual Desktop"
+msgstr "Переключить виртуальный рабочий стол"
+
+#: andiora-oobe/assets/andiora-oobe:2432
+msgid "Show Desktop"
+msgstr "Показать рабочий стол"
+
+#: andiora-oobe/assets/andiora-oobe:2433
+msgid "System Settings"
+msgstr "Настройки системы"
+
+#: andiora-oobe/assets/andiora-oobe:2434
+msgid "Emoji and Characters"
+msgstr "Эмодзи и символы"
+
+#: andiora-oobe/assets/andiora-oobe:2435
+msgid "Minimize Window"
+msgstr "Свернуть окно"
+
+#: andiora-oobe/assets/andiora-oobe:2453
+msgid ""
+"You can view and customize all shortcuts anytime in Settings → Keyboard."
+msgstr ""
+"Вы можете просматривать и настраивать все сочетания клавиш в любое время в "
+"разделе Настройки → Клавиатура."
+
+#: andiora-oobe/assets/andiora-oobe:2490
+msgid "In China? Use USTC mirror for App Store!"
+msgstr "Вы в Китае? Используйте зеркало USTC для магазина приложений!"
+
+#: andiora-oobe/assets/andiora-oobe:2496
+msgid ""
+"Flathub access can be slow from China. Switch to the USTC mirror for faster "
+"downloads."
+msgstr ""
+"Доступ к Flathub из Китая может быть медленным. Переключитесь на зеркало "
+"USTC для более быстрой загрузки."
+
+#: andiora-oobe/assets/andiora-oobe:2603
+msgid "✓ Already using Chinese mirror — downloads are fast."
+msgstr "✓ Уже используется китайское зеркало — загрузка быстрая."
+
+#: andiora-oobe/assets/andiora-oobe:2606
+msgid "Switch Back to International"
+msgstr "Вернуться к международной версии"
+
+#: andiora-oobe/assets/andiora-oobe:2609
+msgid "Flathub is using the international server."
+msgstr "Flathub использует международный сервер."
+
+#: andiora-oobe/assets/andiora-oobe:2612
+msgid "🚀 Switch to USTC Mirror"
+msgstr "🚀 Переключиться на зеркало USTC"
+
+#: andiora-oobe/assets/andiora-oobe:2625
+msgid "Testing USTC mirror..."
+msgstr "Тестирование зеркала USTC..."
+
+#: andiora-oobe/assets/andiora-oobe:2669
+msgid "Switching back..."
+msgstr "Переключение обратно..."
+
+#: andiora-oobe/assets/andiora-oobe:2696
+msgid "✗ Failed: "
+msgstr "✗ Не удалось:"
+
+#: andiora-oobe/assets/andiora-oobe:2699
+msgid "Retry"
+msgstr "Повторить"
+
+#: andiora-oobe/assets/andiora-oobe:2725
+msgid "Productive From Day One"
+msgstr "Продуктивность с первого дня"
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Essential productivity and entertainment tools, hand-picked for you."
+msgstr ""
+"Необходимые инструменты для продуктивности и развлечений, тщательно "
+"отобранные для вас."
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Click any app to open its details in the App Store."
+msgstr ""
+"Нажмите на любое приложение, чтобы открыть его подробности в Магазине "
+"приложений."
+
+#: andiora-oobe/assets/andiora-oobe:2746
+msgid "WeChat"
+msgstr "WeChat"
+
+#: andiora-oobe/assets/andiora-oobe:2747
+msgid "Most popular messaging app in China"
+msgstr "Самое популярное мессенджер-приложение в Китае"
+
+#: andiora-oobe/assets/andiora-oobe:2748
+msgid "QQ"
+msgstr "QQ"
+
+#: andiora-oobe/assets/andiora-oobe:2749
+msgid "Tencent QQ instant messenger"
+msgstr "Мгновенный мессенджер Tencent QQ"
+
+#: andiora-oobe/assets/andiora-oobe:2750
+msgid "WPS Office"
+msgstr "WPS Office"
+
+#: andiora-oobe/assets/andiora-oobe:2751
+msgid "Best office suite for Chinese documents"
+msgstr "Лучший офисный пакет для китайских документов"
+
+#: andiora-oobe/assets/andiora-oobe:2756
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: andiora-oobe/assets/andiora-oobe:2757
+msgid "The world's most popular web browser"
+msgstr "Самый популярный веб-браузер в мире"
+
+#: andiora-oobe/assets/andiora-oobe:2758
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+#: andiora-oobe/assets/andiora-oobe:2759
+msgid "Code editing. Redefined."
+msgstr "Редактирование кода. Переосмыслено."
+
+#: andiora-oobe/assets/andiora-oobe:2760
+msgid "Steam"
+msgstr "Steam"
+
+#: andiora-oobe/assets/andiora-oobe:2761
+msgid "Your portal to the gaming universe"
+msgstr "Ваш портал в игровую вселенную"
+
+#: andiora-oobe/assets/andiora-oobe:2762
+msgid "Discord"
+msgstr "Discord"
+
+#: andiora-oobe/assets/andiora-oobe:2763
+msgid "Chat, voice, and video for communities"
+msgstr "Чат, голосовая и видеосвязь для сообществ"
+
+#: andiora-oobe/assets/andiora-oobe:2764
+msgid "Spotify"
+msgstr "Spotify"
+
+#: andiora-oobe/assets/andiora-oobe:2765
+msgid "Music for everyone"
+msgstr "Музыка для всех"
+
+#: andiora-oobe/assets/andiora-oobe:2766
+msgid "OnlyOffice"
+msgstr "OnlyOffice"
+
+#: andiora-oobe/assets/andiora-oobe:2767
+msgid "Best Microsoft Office-compatible suite"
+msgstr "Лучший офисный пакет, совместимый с Microsoft Office"
+
+#: andiora-oobe/assets/andiora-oobe:2768
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: andiora-oobe/assets/andiora-oobe:2769
+msgid "Secure, fast, and easy email client"
+msgstr "Безопасный, быстрый и удобный почтовый клиент"
+
+#: andiora-oobe/assets/andiora-oobe:2770
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: andiora-oobe/assets/andiora-oobe:2771
+msgid "Sync and collaborate on your desktop or laptop"
+msgstr ""
+"Синхронизируйте данные и работайте совместно на компьютере или ноутбуке"
+
+#: andiora-oobe/assets/andiora-oobe:2772
+msgid "Blender"
+msgstr "Blender"
+
+#: andiora-oobe/assets/andiora-oobe:2773
+msgid "Professional 3D creation suite"
+msgstr "Профессиональный набор для создания 3D-контента"
+
+#: andiora-oobe/assets/andiora-oobe:2774
+msgid "GNOME Boxes"
+msgstr "GNOME Boxes"
+
+#: andiora-oobe/assets/andiora-oobe:2775
+msgid "Virtualization made simple"
+msgstr "Виртуализация, которая проста в использовании"
+
+#: andiora-oobe/assets/andiora-oobe:2776
+msgid "VLC"
+msgstr "VLC"
+
+#: andiora-oobe/assets/andiora-oobe:2777
+msgid "The versatile media player that plays everything"
+msgstr "Универсальный медиаплеер, воспроизводящий всё подряд"
+
+#: andiora-oobe/assets/andiora-oobe:2778
+msgid "Krita"
+msgstr "Krita"
+
+#: andiora-oobe/assets/andiora-oobe:2779
+msgid "Professional free and open source painting program"
+msgstr ""
+"Профессиональная бесплатная программа для рисования с открытым исходным кодом"
+
+#: andiora-oobe/assets/andiora-oobe:2780
+msgid "OBS Studio"
+msgstr "OBS Studio"
+
+#: andiora-oobe/assets/andiora-oobe:2781
+msgid "Free and open source software for video recording and live streaming"
+msgstr ""
+"Бесплатное программное обеспечение с открытым исходным кодом для записи "
+"видео и прямой трансляции"
+
+#: andiora-oobe/assets/andiora-oobe:2843
+msgid "Installed"
+msgstr "Установлено"
+
+#: andiora-oobe/assets/andiora-oobe:2845
+msgid "Click to open in App Store"
+msgstr "Нажмите, чтобы открыть в App Store"
+
+#: andiora-oobe/assets/andiora-oobe:2853
+msgid "Opening…"
+msgstr "Открывается…"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "Pro tip: You can explore these apps in the App Store,"
+msgstr "Совет: Вы можете изучить эти приложения в Магазине приложений,"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "and continue with the system setup while they download."
+msgstr "и продолжить настройку системы, пока они загружаются."
+
+#: andiora-oobe/assets/andiora-oobe:2881
+msgid "  Browse Store  "
+msgstr "Просмотр магазина"
+
+#: andiora-oobe/assets/andiora-oobe:2913
+msgid "Connect & Protect Your Data"
+msgstr "Подключение и защита ваших данных"
+
+#: andiora-oobe/assets/andiora-oobe:2937
+msgid "Online Accounts"
+msgstr "Учётные записи онлайн"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "Connect your Google, Microsoft,"
+msgstr "Подключите свои учетные записи Google, Microsoft,"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "or Nextcloud accounts to sync"
+msgstr "или Nextcloud для синхронизации"
+
+#: andiora-oobe/assets/andiora-oobe:2944
+msgid "files, contacts, and calendar."
+msgstr "файлы, контакты и календарь."
+
+#: andiora-oobe/assets/andiora-oobe:2954
+msgid "Connect Accounts"
+msgstr "Подключить учётные записи"
+
+#: andiora-oobe/assets/andiora-oobe:3024
+msgid "Your Data. Your Rules. Period."
+msgstr "Ваши данные. Ваши правила. Точка."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "Andiora disables all system-level telemetry by default."
+msgstr "Andiora по умолчанию отключает всю телеметрию на уровне системы."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "We do not collect your usage habits."
+msgstr "Мы не собираем ваши привычки использования."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "We do not upload your search history."
+msgstr "Мы не загружаем вашу историю поиска."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "There are no pervasive advertisements."
+msgstr "Здесь нет навязчивой рекламы."
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "In an era ruled by algorithms and surveillance,"
+msgstr "В эпоху, управляемую алгоритмами и слежкой,"
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "this is our firmest commitment to you."
+msgstr "это наше самое твердое обязательство перед вами."
+
+#: andiora-oobe/assets/andiora-oobe:3063
+msgid "✓ Zero telemetry — your activity is yours alone"
+msgstr "✓ Нулевая телеметрия — ваша деятельность принадлежит только вам"
+
+#: andiora-oobe/assets/andiora-oobe:3064
+msgid "✓ No data collection — your files stay on your device"
+msgstr "✓ Отсутствие сбора данных — ваши файлы остаются на вашем устройстве"
+
+#: andiora-oobe/assets/andiora-oobe:3065
+msgid "✓ No ads in your operating system"
+msgstr "✓ Нет рекламы в вашей операционной системе"
+
+#: andiora-oobe/assets/andiora-oobe:3066
+msgid "✓ Full root access — you truly own your machine"
+msgstr "✓ Полный доступ root — вы действительно владеете своей машиной"
+
+#: andiora-oobe/assets/andiora-oobe:3067
+msgid "✓ UFW firewall — your digital perimeter, defended"
+msgstr "✓ UFW брандмауэр — ваша цифровая граница, защищенная"
+
+#: andiora-oobe/assets/andiora-oobe:3068
+msgid "✓ Open source — the code is yours to inspect and modify"
+msgstr "✓ Открытый исходный код — вы можете проверять и изменять код"
+
+#: andiora-oobe/assets/andiora-oobe:3109
+msgid "Welcome to the Andiora Community"
+msgstr "Добро пожаловать в сообщество Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3118
+msgid "Whether you're a Windows refugee seeking shelter,"
+msgstr "Будь то беженец с Windows, ищущий убежище,"
+
+#: andiora-oobe/assets/andiora-oobe:3119
+msgid "or a hardcore geek developer — you'll find your tribe here."
+msgstr "или хардкорный разработчик-гик — здесь вы найдете свое племя."
+
+#: andiora-oobe/assets/andiora-oobe:3120
+msgid "Found a bug? Want a feature? Tell us anytime."
+msgstr "Нашли ошибку? Хотите функцию? Сообщите нам в любое время."
+
+#: andiora-oobe/assets/andiora-oobe:3132
+msgid "Official Documentation"
+msgstr "Официальная документация"
+
+#: andiora-oobe/assets/andiora-oobe:3133
+msgid "Comprehensive guides and troubleshooting — covers everything you need"
+msgstr ""
+"Подробные руководства и устранение неполадок — охватывает все необходимое"
+
+#: andiora-oobe/assets/andiora-oobe:3135
+msgid "Community Forums"
+msgstr "Форумы сообщества"
+
+#: andiora-oobe/assets/andiora-oobe:3136
+msgid "Discuss with other Andiora users and developers"
+msgstr "Обсуждайте с другими пользователями и разработчиками Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3138
+msgid "Discord Server"
+msgstr "Сервер Discord"
+
+#: andiora-oobe/assets/andiora-oobe:3139
+msgid "Join our official Discord server for real-time chat and support"
+msgstr ""
+"Присоединяйтесь к нашему официальному серверу Discord для общения и "
+"поддержки в реальном времени"
+
+#: andiora-oobe/assets/andiora-oobe:3141
+msgid "Report an Issue"
+msgstr "Сообщить об ошибке"
+
+#: andiora-oobe/assets/andiora-oobe:3142
+msgid "Found a bug or have a feature request? Let us know!"
+msgstr "Нашли ошибку или есть предложение по новой функции? Дайте нам знать!"
+
+#: andiora-oobe/assets/andiora-oobe:3144
+msgid "Buy Andiora Enterprise Edition"
+msgstr "Купить Andiora Enterprise Edition"
+
+#: andiora-oobe/assets/andiora-oobe:3145
+msgid ""
+"Get enterprise-grade support and advanced features for your organization"
+msgstr ""
+"Получите корпоративную поддержку и расширенные функции для вашей организации"
+
+#: andiora-oobe/assets/andiora-oobe:3147
+msgid "Ask Ubuntu"
+msgstr "Ask Ubuntu"
+
+#: andiora-oobe/assets/andiora-oobe:3148
+msgid "Almost all Ubuntu solutions apply directly to Andiora"
+msgstr "Почти все решения Ubuntu применимы напрямую к Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3150
+msgid "Source Code"
+msgstr "Исходный код"
+
+#: andiora-oobe/assets/andiora-oobe:3151
+msgid "Andiora is open-source. Explore the code and contribute!"
+msgstr ""
+"Andiora имеет открытый исходный код. Изучайте код и вносите свой вклад!"
+
+#: andiora-oobe/assets/andiora-oobe:3163
+msgid "Open"
+msgstr "Открыть"
+
+#: andiora-oobe/assets/andiora-oobe:3173
+msgid "💡 Andiora is compatible with Ubuntu's entire ecosystem."
+msgstr "💡 Andiora совместима со всей экосистемой Ubuntu."
+
+#: andiora-oobe/assets/andiora-oobe:3174
+msgid "You can rely on Ubuntu's vast documentation and expertise."
+msgstr "Вы можете положиться на обширную документацию и экспертизу Ubuntu."
+
+#: andiora-oobe/assets/andiora-oobe:3207
+msgid "All Set."
+msgstr "Все готово."
+
+#: andiora-oobe/assets/andiora-oobe:3216
+msgid "  Start Your Andiora Journey  "
+msgstr "Начните свое путешествие с Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3250
+msgid "Andiora Setup"
+msgstr "Настройка Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3253
+msgid "Andiora Welcome Center"
+msgstr "Приветственный центр Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3305
+msgid "← Back"
+msgstr "← Назад"
+
+#: andiora-oobe/assets/andiora-oobe:3314
+#: andiora-oobe/assets/andiora-oobe:3433
+msgid "Next →"
+msgstr "Далее →"
+
+#: andiora-oobe/assets/andiora-oobe:3431
+msgid "Finish"
+msgstr "Завершить"
+
+#: andiora-oobe/assets/andiora-oobe:3498
+msgid "Andiora Welcome"
+msgstr "Добро пожаловать в Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3500
+msgid "Andiora Team"
+msgstr "Команда Andiora"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:75
+msgid "Secure Boot Configuration"
+msgstr "Конфигурация Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:83
+msgid ""
+"Secure Boot is a motherboard security standard that ensures only trusted "
+"software loads at startup."
+msgstr ""
+"\tSecure Boot — это стандарт безопасности материнской платы, обеспечивающий "
+"загрузку только доверенного программного обеспечения при старте."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:86
+msgid "It protects your system from low-level malware and rootkits."
+msgstr ""
+"Он защищает вашу систему от низкоуровневого вредоносного ПО и руткитов."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:95
+msgid "System Trust Status"
+msgstr "Статус доверия системы"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:132
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:274
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:406
+msgid "Create & Enroll Certificate"
+msgstr "Создать и зарегистрировать сертификат"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:138
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:284
+msgid "Repair Module Signatures"
+msgstr "Восстановление сигнатур модулей"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:146
+msgid "Note: Use password <b>123456</b> after rebooting."
+msgstr "Примечание: Используйте пароль <b>123456</b> после перезагрузки."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:151
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:392
+msgid "Reboot & Configure Secure Boot"
+msgstr "Перезагрузка и настройка Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:159
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:358
+msgid "  Check Again  "
+msgstr "  Проверить снова  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:185
+msgid "Motherboard hardware protection is active"
+msgstr "Аппаратная защита материнской платы активна"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:188
+msgid "Firmware does not support Secure Boot"
+msgstr "Прошивка не поддерживает Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:191
+msgid "Secure Boot state could not be determined"
+msgstr "Состояние Secure Boot не удалось определить"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:194
+msgid "Secure Boot is disabled"
+msgstr "Secure Boot отключен"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:200
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:202
+msgid "Not required without firmware enforcement"
+msgstr "Не требуется без принудительной прошивки"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:206
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:210
+msgid "Not checked because Secure Boot state is unknown"
+msgstr "Не проверено, поскольку состояние Secure Boot неизвестно"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:215
+msgid "Certificate generated locally"
+msgstr "Сертификат сгенерирован локально"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:217
+msgid "Missing local certificate"
+msgstr "Отсутствует локальный сертификат"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:230
+msgid "Certificate is trusted by motherboard"
+msgstr "Сертификат доверяется материнской платой"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:234
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr "Ожидание регистрации в синем экране (MOKManager)"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:239
+msgid "Certificate is not trusted by motherboard"
+msgstr "Сертификат не является доверенным для материнской платы"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:245
+msgid "Kernel signature enforcement is inactive"
+msgstr "Применение подписи ядра неактивно"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:248
+msgid "Driver trust cannot be verified"
+msgstr "Невозможно проверить доверие драйвера"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:252
+msgid ""
+"Secure Boot trust is ready. No third-party kernel modules are currently "
+"installed."
+msgstr ""
+"Secure Boot доверие готово. Сторонние модули ядра в настоящее время не "
+"установлены."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:256
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:447
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:455
+msgid "Drivers are signed and ready to load"
+msgstr "Драйверы подписаны и готовы к загрузке"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:260
+msgid "Drivers are trusted, but automatic DKMS signing needs repair"
+msgstr ""
+"Драйверам можно доверять, но автоматическая подпись DKMS требует ремонта"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:264
+msgid "No signed third-party drivers detected"
+msgstr "Подписанные сторонние драйверы не обнаружены"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:267
+msgid "Some DKMS modules need to be re-signed"
+msgstr "Некоторые модули DKMS необходимо переподписать."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:272
+msgid "Enroll Existing Certificate"
+msgstr "Зарегистрировать существующий сертификат"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:282
+msgid "Repair Automatic DKMS Signing"
+msgstr "Восстановление автоматической подписи DKMS"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:299
+msgid "This firmware does not provide Secure Boot. No certificate is required."
+msgstr "Эта прошивка не поддерживает Secure Boot. Сертификат не требуется."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:306
+msgid ""
+"Secure Boot status could not be read. Driver trust operations are blocked "
+"until detection succeeds."
+msgstr ""
+"Статус Secure Boot не удалось прочитать. Операции доверия драйверов "
+"блокируются до тех пор, пока обнаружение не будет успешным."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:311
+msgid "No certificate is required while Secure Boot is disabled."
+msgstr "Сертификат не требуется, пока Secure Boot отключен."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:314
+msgid "System Trust Established. Third-party drivers will load securely."
+msgstr ""
+"Доверие системе установлено. Сторонние драйверы будут загружаться безопасно."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:318
+msgid "The certificate is enrolled and current drivers are trusted."
+msgstr "Сертификат зарегистрирован, и текущие драйверы являются доверенными."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:320
+msgid "Repair automatic DKMS signing before future driver updates."
+msgstr ""
+"Исправьте автоматическое подписание DKMS перед будущими обновлениями "
+"драйверов."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:325
+msgid "The certificate is enrolled, but some modules are not signed with it."
+msgstr "Сертификат зарегистрирован, но некоторые модули им не подписаны."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:330
+msgid "A certificate is waiting for enrollment."
+msgstr "Сертификат ожидает регистрации."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:332
+msgid "Restart and enter password 123456 in MOKManager."
+msgstr "Перезагрузитесь и введите пароль 123456 в MOKManager."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:337
+msgid "The local trust certificate is not yet enrolled."
+msgstr "Локальный сертификат доверия еще не зарегистрирован."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:339
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:346
+msgid "You must configure this to use third-party drivers like NVIDIA."
+msgstr ""
+"Вам необходимо настроить это, чтобы использовать сторонние драйверы, такие "
+"как NVIDIA."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:344
+msgid "The local trust certificate is missing."
+msgstr "Локальный сертификат доверия отсутствует."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:362
+msgid "  Checking...  "
+msgstr "  Проверка...  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:368
+msgid "Reboot Required"
+msgstr "Требуется перезагрузка"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:369
+msgid "Please trust the certificate upon reboot using password 123456."
+msgstr ""
+"Пожалуйста, доверьте сертификат при перезагрузке, используя пароль 123456."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:371
+msgid "Cancel"
+msgstr "Отмена"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:372
+msgid "Reboot"
+msgstr "Перезагрузка"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:380
+msgid "Success! When you reboot, a blue screen will appear."
+msgstr "Успешно! При перезагрузке появится синий экран."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:384
+msgid "Select 'Enroll MOK' → 'Continue' → 'Yes', and enter password: 123456"
+msgstr "Выберите «Enroll MOK» → «Continue» → «Yes» и введите пароль: 123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:388
+msgid "Certificate Created"
+msgstr "Сертификат создан"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:391
+msgid "Later"
+msgstr "Позже"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:420
+msgid "Secure Boot Trust Not Required"
+msgstr "Secure Boot Доверие не требуется"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:421
+msgid "Firmware signature enforcement is not active."
+msgstr "Проверка подписи встроенного ПО не активна."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:423
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:441
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:449
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:457
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:473
+msgid "OK"
+msgstr "ОК"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:431
+msgid ""
+"The certificate is ready, but one or more DKMS modules could not be rebuilt. "
+"You can repair them after enrollment."
+msgstr ""
+"Сертификат готов, но один или несколько модулей DKMS не удалось пересобрать. "
+"Вы можете восстановить их после регистрации."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:439
+msgid "Configuration needs attention"
+msgstr "Конфигурация требует внимания"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:446
+msgid "System Trust Established"
+msgstr "Установлено доверие к системе"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:454
+msgid "Driver Signature Trusted"
+msgstr "Подпись драйвера доверена"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:470
+msgid "Configuration failed. Please try again."
+msgstr "Не удалось выполнить настройку. Повторите попытку."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:471
+msgid "Please check the advanced output."
+msgstr "Пожалуйста, проверьте расширенный вывод."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:482
+msgid "Generating & Signing..."
+msgstr "Генерация и подпись..."
+
+#~ msgid "Unleash Your Graphics Hardware"
+#~ msgstr "Раскройте потенциал вашего графического оборудования"
+
+#, python-brace-format
+#~ msgid "NVIDIA proprietary driver is already installed. (Version: {})"
+#~ msgstr "Проприетарный драйвер NVIDIA уже установлен. (Версия: {})"
+
+#~ msgid "✗ Installation encountered an issue."
+#~ msgstr "✗ При установке возникла проблема."
+
+#~ msgid "An NVIDIA dedicated graphics card was detected in your system."
+#~ msgstr "В вашей системе обнаружена выделенная видеокарта NVIDIA."
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop"
+#~ msgstr ""
+#~ "\tДля максимальной плавности в играх, 3D-рендеринге и работе с рабочим "
+#~ "столом с высокой частотой кадров"
+
+#~ msgid "experiences, we recommend installing the proprietary driver."
+#~ msgstr "опыты, мы рекомендуем установить проприетарный драйвер."
+
+#~ msgid "  Check for Driver Updates  "
+#~ msgstr "Проверить обновления драйвера"
+
+#~ msgid "Repair & Reinstall"
+#~ msgstr "Восстановление и переустановка"
+
+#~ msgid "  One-Click NVIDIA Driver Install  "
+#~ msgstr "Установка драйвера NVIDIA в один клик"
+
+#~ msgid "Installing NVIDIA driver…"
+#~ msgstr "Установка драйвера NVIDIA…"
+
+#~ msgid "This may take several minutes."
+#~ msgstr "Это может занять несколько минут."
+
+#~ msgid "✓ Driver installed successfully!"
+#~ msgstr "✓ Драйвер успешно установлен!"
+
+#~ msgid "You can install drivers later from Settings."
+#~ msgstr "Вы можете установить драйверы позже в настройках."
+
+#~ msgid "Xbox Controller Support"
+#~ msgstr "Поддержка контроллера Xbox"
+
+#~ msgid "Xbox controller driver (xpadneo) is already installed."
+#~ msgstr "Драйвер контроллера Xbox (xpadneo) уже установлен."
+
+#~ msgid ""
+#~ "Enjoy seamless Xbox controller support with rumble and accurate inputs."
+#~ msgstr ""
+#~ "Наслаждайтесь безупречной поддержкой контроллера Xbox с обратной связью и "
+#~ "точным вводом."
+
+#~ msgid "Andiora provides native support for Xbox controllers via Bluetooth."
+#~ msgstr ""
+#~ "Andiora обеспечивает нативную поддержку контроллеров Xbox через "
+#~ "Bluetooth."
+
+#~ msgid "The advanced xpadneo driver is already set up and ready for gaming."
+#~ msgstr ""
+#~ "Продвинутый драйвер xpadneo уже настроен и готов к использованию в играх."
+
+#~ msgid ""
+#~ "For advanced features like rumble and accurate mapping, we recommend "
+#~ "installing the xpadneo driver."
+#~ msgstr ""
+#~ "Для использования расширенных функций, таких как виброотклик и точное "
+#~ "сопоставление, рекомендуем установить драйвер xpadneo."
+
+#~ msgid "Xbox Controller Driver Installed"
+#~ msgstr "Драйвер контроллера Xbox установлен"
+
+#~ msgid "The xpadneo driver is currently installed"
+#~ msgstr "Драйвер xpadneo в настоящее время установлен"
+
+#~ msgid "The driver is not installed"
+#~ msgstr "Драйвер не установлен"
+
+#~ msgid "Driver not installed, signature missing"
+#~ msgstr "Драйвер не установлен, отсутствует подпись"
+
+#~ msgid "Kernel module"
+#~ msgstr "Модуль ядра"
+
+#~ msgid "Not detected"
+#~ msgstr "Не обнаружено"
+
+#~ msgid "Driver is NOT signed"
+#~ msgstr "Драйвер НЕ подписан"
+
+#~ msgid "Signed with current trusted certificate"
+#~ msgstr "Подписан текущим доверенным сертификатом"
+
+#~ msgid "Signed with current certificate, but not enrolled"
+#~ msgstr "Подписан текущим сертификатом, но не зарегистрирован"
+
+#~ msgid "Signed with an unknown or outdated certificate"
+#~ msgstr "Подписан неизвестным или устаревшим сертификатом"
+
+#~ msgid "Controller Status"
+#~ msgstr "Статус контроллера"
+
+#~ msgid "Driver loaded and active. Ready to play!"
+#~ msgstr "Драйвер загружен и активен. Готов к игре!"
+
+#~ msgid "Driver standing by. Waiting for controller connection..."
+#~ msgstr "Драйвер ожидает подключения контроллера..."
+
+#~ msgid "Driver cannot load due to missing signature trust"
+#~ msgstr "Невозможно загрузить драйвер из-за отсутствия доверия к подписи"
+
+#~ msgid "Pair your controller"
+#~ msgstr "Подключите ваш контроллер"
+
+#~ msgid "Test your controller"
+#~ msgstr "Проверьте ваш контроллер"
+
+#~ msgid "  Install Xbox Driver  "
+#~ msgstr "Установить драйвер Xbox"
+
+#~ msgid ""
+#~ "⚠️ The driver signature does not match your system certificate. Click Fix "
+#~ "& Reinstall to repair the driver."
+#~ msgstr ""
+#~ "⚠️ Подпись драйвера не соответствует сертификату вашей системы. Нажмите "
+#~ "«Исправить и переустановить», чтобы восстановить драйвер."
+
+#~ msgid "Installing Xbox controller driver…"
+#~ msgstr "Установка драйвера контроллера Xbox…"
+
+#~ msgid "This may take a minute."
+#~ msgstr "Это может занять минуту."
+
+#~ msgid "Repairing driver signature…"
+#~ msgstr "Восстановление подписи драйвера…"
+
+#~ msgid "A reboot is recommended to apply changes."
+#~ msgstr "Рекомендуется перезагрузка для применения изменений."
+
+#~ msgid "  Fix & Reinstall Driver  "
+#~ msgstr "Установить драйвер Xbox"
+
+#~ msgid "(Reboot recommended)"
+#~ msgstr "(Рекомендуется перезагрузка)"
+
+#~ msgid "Cannot sign drivers without a certificate"
+#~ msgstr "Невозможно подписать драйверы без сертификата"
+
+#~ msgid ""
+#~ "Enable low-level network protection — silently blocks all unauthorized "
+#~ "inbound connections."
+#~ msgstr ""
+#~ "Включите защиту сети низкого уровня — молча блокирует все "
+#~ "несанкционированные входящие соединения."
+
+#~ msgid "Firewall"
+#~ msgstr "Межсетевой экран"
+
+#~ msgid "Local MOK Certificate"
+#~ msgstr "Локальный сертификат MOK"
+
+#~ msgid ""
+#~ "Please configure Secure Boot in the previous step before installing this "
+#~ "driver."
+#~ msgstr ""
+#~ "Пожалуйста, перезагрузите систему для регистрации сертификата перед "
+#~ "установкой этого драйвера."
+
+#~ msgid ""
+#~ "Please reboot to enroll the certificate before installing this driver."
+#~ msgstr ""
+#~ "Пожалуйста, перезагрузите систему для регистрации сертификата перед "
+#~ "установкой этого драйвера."
+
+#~ msgid "Scanning for installed drivers..."
+#~ msgstr "Сканирование установленных драйверов..."
+
+#~ msgid "Secure Boot Enabled"
+#~ msgstr "Secure Boot включен"
+
+#~ msgid "The local trust certificate is missing or not yet enrolled."
+#~ msgstr ""
+#~ "Локальный сертификат доверия отсутствует или еще не зарегистрирован."
+
+#~ msgid "Third-party Drivers"
+#~ msgstr "Сторонние драйверы"
+
+#~ msgid "UEFI Firmware Trust"
+#~ msgstr "Доверие к прошивке UEFI"
+
+#~ msgid ""
+#~ "⚠️ Secure Boot is enabled but the custom certificate is not yet enrolled."
+#~ msgstr ""
+#~ "⚠️ Secure Boot включен, но пользовательский сертификат еще не "
+#~ "зарегистрирован."
+
+#~ msgid "✓ Xbox controller driver installed successfully!"
+#~ msgstr "✓ Драйвер контроллера Xbox успешно установлен!"
+
+#~ msgid "✗ Repair failed."
+#~ msgstr "✗ Развертывание не удалось."
+
+#~ msgid "⚡ The following apps are provided by the Spark Store community."
+#~ msgstr "⚡ Следующие приложения предоставлены сообществом Spark Store."
+
+#~ msgid "Great for connecting to local services."
+#~ msgstr "Отлично подходит для подключения к локальным службам."
+
+#~ msgid "Spark Store"
+#~ msgstr "Spark Store"
+
+#~ msgid "Community app store for Chinese Linux users"
+#~ msgstr "Сообщество магазинов приложений для пользователей Linux в Китае"
+
+#~ msgid "Note: These apps link to their official or community download pages."
+#~ msgstr ""
+#~ "Примечание: Эти приложения ведут на их официальные или общедоступные "
+#~ "страницы загрузки."
+
+#~ msgid " Andiora is not affiliated with these vendors."
+#~ msgstr "Andiora не связан с этими поставщиками."
+
+#~ msgid ""
+#~ "Andiora is ready. Just a few steps to shape it\n"
+#~ "into the perfect system tailored to your habits."
+#~ msgstr ""
+#~ "Andiora готов. Осталось несколько шагов, чтобы настроить систему\n"
+#~ "под ваши привычки."
+
+#~ msgid "=== Testing mirror speeds ===\n"
+#~ msgstr "=== Тестирование скорости зеркал ==="
+
+#~ msgid ""
+#~ "\n"
+#~ "No mirrors reachable.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Нет доступных зеркал.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Applying mirror switch ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== Применение переключения репозитория ===\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "✓ Mirror switched and system updated.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "✓ Репоизиторий переключен, и система обновлена.\n"
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop\n"
+#~ "experiences, we recommend installing the proprietary driver."
+#~ msgstr ""
+#~ "Для максимальной плавности в играх, 3D-рендеринге и работе с высоким FPS "
+#~ "на рабочем столе мы рекомендуем установить проприетарный драйвер."
+
+#~ msgid ""
+#~ "Installing NVIDIA driver…\n"
+#~ "This may take several minutes."
+#~ msgstr ""
+#~ "Установка драйвера NVIDIA…\n"
+#~ "Это может занять несколько минут."
+
+#~ msgid ""
+#~ "✗ Installation encountered an issue.\n"
+#~ "You can install drivers later from Settings."
+#~ msgstr ""
+#~ "✗ Возникла проблема при установке.\n"
+#~ "Вы можете установить драйверы позже в настройках."
+
+#~ msgid ""
+#~ "Powered by Wine and Bottles technology, running classic Windows "
+#~ "applications\n"
+#~ "is now easier than ever."
+#~ msgstr ""
+#~ "Благодаря технологиям Wine и Bottles запуск классических приложений "
+#~ "Windows стал проще, чем когда-либо."
+
+#~ msgid ""
+#~ "Deploying compatibility sandbox via Flatpak…\n"
+#~ "This may take a few minutes."
+#~ msgstr ""
+#~ "Развертывание песочницы совместимости через Flatpak…\n"
+#~ "Это может занять несколько минут."
+
+#~ msgid ""
+#~ "✓ Sandbox deployed successfully!\n"
+#~ "You can now double-click .exe files to run them."
+#~ msgstr ""
+#~ "✓ Песочница успешно развернута!\n"
+#~ "Теперь можно дважды щелкать по файлам .exe, чтобы запустить их."
+
+#~ msgid ""
+#~ "✗ Deployment failed.\n"
+#~ "You can install Bottles later from the App Store."
+#~ msgstr ""
+#~ "✗ Ошибка развертывания.\n"
+#~ "Вы можете установить Bottles позже из магазина приложений."
+
+#~ msgid ""
+#~ "Essential productivity and entertainment tools, hand-picked for you.\n"
+#~ "Click any app to open its details in the App Store."
+#~ msgstr ""
+#~ "Необходимые инструменты для продуктивности и развлечений, отобранные "
+#~ "специально для вас.\n"
+#~ "Нажмите на любое приложение, чтобы открыть его подробности в App Store."
+
+#~ msgid ""
+#~ "⚡ The following apps are provided by the Spark Store community.\n"
+#~ "Great for connecting to local services."
+#~ msgstr ""
+#~ "⚡ Следующие приложения предоставлены сообществом Spark Store.\n"
+#~ "Отлично подходят для подключения к локальным сервисам."
+
+#~ msgid ""
+#~ "Pro tip: You can explore these apps in the App Store,\n"
+#~ "and continue with the system setup while they download."
+#~ msgstr ""
+#~ "Совет: вы можете изучить эти приложения в App Store,\n"
+#~ "и продолжить настройку системы, пока они загружаются."
+
+#~ msgid ""
+#~ "Note: These apps link to their official or community download pages. "
+#~ "Andiora is not affiliated with these vendors."
+#~ msgstr ""
+#~ "Примечание: Эти приложения ведут на официальные страницы загрузки или "
+#~ "сообщества. Andiora не аффилирована с этими поставщиками."
+
+#~ msgid ""
+#~ "Connect your Google, Microsoft,\n"
+#~ "or Nextcloud accounts to sync\n"
+#~ "files, contacts, and calendar."
+#~ msgstr ""
+#~ "Подключите свои учётные записи Google, Microsoft,\n"
+#~ "или Nextcloud для синхронизации\n"
+#~ "файлов, контактов и календаря."
+
+#~ msgid ""
+#~ "Use Deja Dup to protect your\n"
+#~ "important files with automated,\n"
+#~ "secure local or remote backups."
+#~ msgstr ""
+#~ "Используйте Deja Dup для защиты ваших\n"
+#~ "важных файлов с помощью автоматических,\n"
+#~ "надёжных локальных или удалённых резервных копий."
+
+#~ msgid ""
+#~ "Andiora disables all system-level telemetry by default.\n"
+#~ "We do not collect your usage habits.\n"
+#~ "We do not upload your search history.\n"
+#~ "There are no pervasive advertisements."
+#~ msgstr ""
+#~ "По умолчанию Andiora отключает все системные телеметрические службы.\n"
+#~ "Мы не собираем ваши привычки использования.\n"
+#~ "Мы не загружаем вашу историю поиска.\n"
+#~ "Нет навязчивой рекламы."
+
+#~ msgid ""
+#~ "In an era ruled by algorithms and surveillance,\n"
+#~ "this is our firmest commitment to you."
+#~ msgstr ""
+#~ "В эпоху, управляемую алгоритмами и слежкой,\n"
+#~ "это наше самое твёрдое обязательство перед вами."
+
+#~ msgid ""
+#~ "Whether you're a Windows refugee seeking shelter,\n"
+#~ "or a hardcore geek developer — you'll find your tribe here.\n"
+#~ "Found a bug? Want a feature? Tell us anytime."
+#~ msgstr ""
+#~ "Будь то беженец с Windows, ищущий убежище,\n"
+#~ "или хардкорный разработчик-гик — здесь вы найдете свою общину.\n"
+#~ "Нашли ошибку? Хотите новую функцию? Сообщайте нам в любое время."
+
+#~ msgid ""
+#~ "💡 Andiora is compatible with Ubuntu's entire ecosystem.\n"
+#~ "You can rely on Ubuntu's vast documentation and expertise."
+#~ msgstr ""
+#~ "💡 Andiora совместима с экосистемой Ubuntu.\n"
+#~ "Вы можете опираться на обширную документацию и опыт Ubuntu."
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Testing bandwidth of top 3 mirrors (3 s each) ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== Тестирование пропускной способности 3 лучших зеркал (по 3 с каждое) "
+#~ "===\n"
+
+#~ msgid ""
+#~ "✓ Driver installed successfully!\n"
+#~ "A reboot is recommended to apply changes."
+#~ msgstr ""
+#~ "✓ Драйвер успешно установлен!\n"
+#~ "Рекомендуется перезагрузка для применения изменений."

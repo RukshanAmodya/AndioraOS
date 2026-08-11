@@ -1,0 +1,1747 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-09 15:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ar <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=0 && n%100<=2 ? 4 : 5);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: andiora-oobe/assets/andiora-oobe:371
+msgid "Disk Snapshots Manager"
+msgstr "مدير لقطات القرص"
+
+#: andiora-oobe/assets/andiora-oobe:373
+msgid "Protect your system with automatic Btrfs snapshots and smart cleanup."
+msgstr "قم بحماية نظامك من خلال لقطات Btrfs التلقائية والتنظيف الذكي."
+
+#: andiora-oobe/assets/andiora-oobe:375
+msgid "Configure Automatic Snapshots"
+msgstr "تكوين اللقطات التلقائية"
+
+#: andiora-oobe/assets/andiora-oobe:380
+msgid "System Backup"
+msgstr "نسخ النظام الاحتياطي"
+
+#: andiora-oobe/assets/andiora-oobe:382
+msgid "Use Deja Dup to protect your"
+msgstr "استخدم Deja Dup لحماية ملفاتك"
+
+#: andiora-oobe/assets/andiora-oobe:383
+msgid "important files with automated,"
+msgstr "الملفات المهمة مع النسخ الاحتياطي التلقائي،"
+
+#: andiora-oobe/assets/andiora-oobe:384
+msgid "secure local or remote backups."
+msgstr "النسخ الاحتياطي المحلي أو البعيد الآمن."
+
+#: andiora-oobe/assets/andiora-oobe:386
+msgid "Get Deja Dup"
+msgstr "احصل على Deja Dup"
+
+#: andiora-oobe/assets/andiora-oobe:457
+msgid "NetworkManager could not scan Wi-Fi."
+msgstr "تعذر على NetworkManager فحص شبكة Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:520
+msgid "Could not inspect network adapters."
+msgstr "لا يمكن فحص محولات الشبكة."
+
+#: andiora-oobe/assets/andiora-oobe:530
+msgid "Could not read the Wi-Fi radio state."
+msgstr "تعذر قراءة حالة راديو Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:536
+msgid "Unknown Wi-Fi radio state: {}"
+msgstr "حالة راديو Wi-Fi غير معروفة: {}"
+
+#: andiora-oobe/assets/andiora-oobe:537
+msgid "empty"
+msgstr "فارغ"
+
+#: andiora-oobe/assets/andiora-oobe:546
+msgid "Could not change the Wi-Fi radio state."
+msgstr "لا يمكن تغيير حالة راديو Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:648
+msgid "Welcome Home."
+msgstr "مرحبًا بك في المنزل."
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "Andiora is ready. Just a few steps to shape it"
+msgstr "Andiora جاهز. فقط بضع خطوات لتشكيله"
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "into the perfect system tailored to your habits."
+msgstr "في نظام مثالي مصمم خصيصًا لعاداتك."
+
+#: andiora-oobe/assets/andiora-oobe:668
+msgid "  Start Setup  "
+msgstr "ابدأ الإعداد"
+
+#: andiora-oobe/assets/andiora-oobe:715
+msgid "Connect to the Internet"
+msgstr "الاتصال بالإنترنت"
+
+#: andiora-oobe/assets/andiora-oobe:723
+msgid ""
+"Connect now so Andiora can safely check for updates, drivers, and apps."
+msgstr ""
+"اتصل الآن حتى يتمكن Andiora من التحقق بأمان من التحديثات وبرامج التشغيل "
+"والتطبيقات."
+
+#: andiora-oobe/assets/andiora-oobe:731
+msgid "Internet Connection"
+msgstr "اتصال بالإنترنت"
+
+#: andiora-oobe/assets/andiora-oobe:738
+msgid "Network Hardware"
+msgstr "أجهزة الشبكة"
+
+#: andiora-oobe/assets/andiora-oobe:746
+msgid "Available Wi-Fi Networks"
+msgstr "شبكات الواي فاي المتوفرة"
+
+#: andiora-oobe/assets/andiora-oobe:748
+msgid "Wi-Fi"
+msgstr "واي فاي"
+
+#: andiora-oobe/assets/andiora-oobe:751
+msgid "Scan Again"
+msgstr "المسح مرة أخرى"
+
+#: andiora-oobe/assets/andiora-oobe:760
+#: andiora-oobe/assets/andiora-oobe:832
+#: andiora-oobe/assets/andiora-oobe:840
+#: andiora-oobe/assets/andiora-oobe:855
+msgid "Open Network Settings"
+msgstr "افتح إعدادات الشبكة"
+
+#: andiora-oobe/assets/andiora-oobe:769
+msgid "Could not open network settings: {}"
+msgstr "لا يمكن فتح إعدادات الشبكة: {}"
+
+#: andiora-oobe/assets/andiora-oobe:779
+msgid "Continue Offline"
+msgstr "متابعة دون اتصال"
+
+#: andiora-oobe/assets/andiora-oobe:783
+msgid "Skip updates, online drivers, apps, and account setup."
+msgstr "تخطي التحديثات وبرامج التشغيل عبر الإنترنت والتطبيقات وإعداد الحساب."
+
+#: andiora-oobe/assets/andiora-oobe:799
+msgid "Internet connection is ready. Choose Next to continue."
+msgstr "الاتصال بالإنترنت جاهز. اختر التالي للمتابعة."
+
+#: andiora-oobe/assets/andiora-oobe:806
+msgid "Connect to Wi-Fi or a wired network to continue."
+msgstr "اتصل بشبكة Wi-Fi أو شبكة سلكية للمتابعة."
+
+#: andiora-oobe/assets/andiora-oobe:829
+msgid "No network adapters detected."
+msgstr "لم يتم اكتشاف أي محولات للشبكة."
+
+#: andiora-oobe/assets/andiora-oobe:831
+msgid "Connect a network adapter or continue offline."
+msgstr "قم بتوصيل محول شبكة أو تابع دون الاتصال بالإنترنت."
+
+#: andiora-oobe/assets/andiora-oobe:836
+msgid "Wired Network"
+msgstr "الشبكة السلكية"
+
+#: andiora-oobe/assets/andiora-oobe:838
+msgid "Cable connected."
+msgstr "تم توصيل الكابل."
+
+#: andiora-oobe/assets/andiora-oobe:839
+msgid "Plug in a network cable to connect."
+msgstr "قم بتوصيل كابل الشبكة للاتصال."
+
+#: andiora-oobe/assets/andiora-oobe:844
+msgid "Wireless Network"
+msgstr "شبكة لاسلكية"
+
+#: andiora-oobe/assets/andiora-oobe:845
+msgid "Wi-Fi adapter detected."
+msgstr "تم اكتشاف محول Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:846
+msgid "Open Wi-Fi Settings"
+msgstr "افتح إعدادات الواي فاي"
+
+#: andiora-oobe/assets/andiora-oobe:850
+msgid "Wired and Wireless Networks"
+msgstr "الشبكات السلكية واللاسلكية"
+
+#: andiora-oobe/assets/andiora-oobe:852
+msgid "Cable connected and Wi-Fi available."
+msgstr "متصل بالكابل وتتوفر خدمة الواي فاي."
+
+#: andiora-oobe/assets/andiora-oobe:854
+msgid "Wi-Fi is available; the network cable is disconnected."
+msgstr "تتوفر خدمة الواي فاي. تم قطع كابل الشبكة."
+
+#: andiora-oobe/assets/andiora-oobe:866
+msgid "Wi-Fi is turned off."
+msgstr "تم إيقاف تشغيل Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:870
+msgid "No Wi-Fi networks found."
+msgstr "لم يتم العثور على شبكات Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:899
+msgid "Wi-Fi unavailable: {}"
+msgstr "شبكة Wi-Fi غير متاحة: {}"
+
+#: andiora-oobe/assets/andiora-oobe:981
+msgid "Define Your Visual Order"
+msgstr "عرّف ترتيبك البصري"
+
+#: andiora-oobe/assets/andiora-oobe:991
+msgid "Light and Shadow"
+msgstr "الضوء والظل"
+
+#: andiora-oobe/assets/andiora-oobe:992
+msgid "Choose a crisp light theme, or an immersive dark experience."
+msgstr "اختر سمة ضوئية واضحة، أو تجربة غامرة في الوضع الداكن."
+
+#: andiora-oobe/assets/andiora-oobe:1011
+msgid "Light"
+msgstr "ضوئي"
+
+#: andiora-oobe/assets/andiora-oobe:1023
+msgid "Dark"
+msgstr "داكن"
+
+#: andiora-oobe/assets/andiora-oobe:1054
+msgid "Workflow Layout"
+msgstr "تخطيط سير العمل"
+
+#: andiora-oobe/assets/andiora-oobe:1055
+msgid "Prefer modern centered alignment, or classic left-docked?"
+msgstr "هل تفضل المحاذاة المركزية الحديثة، أم التثبيت الكلاسيكي على اليسار؟"
+
+#: andiora-oobe/assets/andiora-oobe:1089
+msgid "Taskbar Layout"
+msgstr "تخطيط شريط المهام"
+
+#: andiora-oobe/assets/andiora-oobe:1090
+msgid "Choose your workflow."
+msgstr "اختر نمط سير العمل الخاص بك."
+
+#: andiora-oobe/assets/andiora-oobe:1099
+msgid " Modern "
+msgstr "حديث"
+
+#: andiora-oobe/assets/andiora-oobe:1100
+msgid " Classic "
+msgstr "كلاسيكي"
+
+#: andiora-oobe/assets/andiora-oobe:1129
+msgid "Show Virtual Desktop Switch Button"
+msgstr "إظهار زر التبديل بين سطح المكتب الافتراضي"
+
+#: andiora-oobe/assets/andiora-oobe:1130
+msgid "Display the Activities button on the taskbar"
+msgstr "عرض زر \"الأنشطة\" على شريط المهام"
+
+#: andiora-oobe/assets/andiora-oobe:1182
+msgid "Digital Sovereignty, Under Your Control"
+msgstr "السيادة الرقمية، تحت سيطرتك"
+
+#: andiora-oobe/assets/andiora-oobe:1190
+msgid "We deeply value privacy. Here, you hold absolute authority."
+msgstr "نحن نقدر الخصوصية بعمق. هنا، أنت تملك السلطة المطلقة."
+
+#: andiora-oobe/assets/andiora-oobe:1200
+msgid "Network Security"
+msgstr "أمن الشبكات"
+
+#: andiora-oobe/assets/andiora-oobe:1202
+msgid ""
+"Control inbound protection and whether this computer participates in local "
+"network discovery."
+msgstr ""
+"التحكم في الحماية الواردة وما إذا كان هذا الكمبيوتر يشارك في اكتشاف الشبكة "
+"المحلية."
+
+#: andiora-oobe/assets/andiora-oobe:1207
+msgid "Network Firewall (UFW)"
+msgstr "جدار حماية الشبكة (UFW)"
+
+#: andiora-oobe/assets/andiora-oobe:1260
+msgid "Local Network Discovery (mDNS)"
+msgstr "اكتشاف الشبكة المحلية (mDNS)"
+
+#: andiora-oobe/assets/andiora-oobe:1262
+msgid ""
+"Find printers and nearby devices, and make .local names available on trusted "
+"networks."
+msgstr ""
+"ابحث عن الطابعات والأجهزة القريبة، واجعل الأسماء المحلية متاحة على الشبكات "
+"الموثوقة."
+
+#: andiora-oobe/assets/andiora-oobe:1274
+msgid "Local network discovery controls are not installed."
+msgstr "لم يتم تثبيت عناصر التحكم في اكتشاف الشبكة المحلية."
+
+#: andiora-oobe/assets/andiora-oobe:1309
+msgid "Location Services"
+msgstr "خدمات الموقع"
+
+#: andiora-oobe/assets/andiora-oobe:1311
+msgid ""
+"Allow apps like weather and clock to access your approximate geographic "
+"location."
+msgstr "السماح لتطبيقات مثل الطقس والساعة بالوصول إلى موقعك الجغرافي التقريبي."
+
+#: andiora-oobe/assets/andiora-oobe:1315
+msgid "Location Access"
+msgstr "الوصول إلى الموقع"
+
+#: andiora-oobe/assets/andiora-oobe:1333
+msgid "Power Settings"
+msgstr "إعدادات الطاقة"
+
+#: andiora-oobe/assets/andiora-oobe:1334
+msgid "Manage idle behavior to balance energy saving and convenience."
+msgstr "إدارة سلوك الخمول لتحقيق التوازن بين توفير الطاقة والراحة."
+
+#: andiora-oobe/assets/andiora-oobe:1338
+msgid "Auto Sleep"
+msgstr "النوم التلقائي"
+
+#: andiora-oobe/assets/andiora-oobe:1367
+msgid "Command-line Assistance"
+msgstr "مساعدة سطر الأوامر"
+
+#: andiora-oobe/assets/andiora-oobe:1368
+msgid "Control local bash predictions."
+msgstr "تحكّم في تنبؤات bash المحلية."
+
+#: andiora-oobe/assets/andiora-oobe:1372
+msgid "Bash Command Predictions"
+msgstr "تنبؤات أوامر Bash"
+
+#: andiora-oobe/assets/andiora-oobe:1373
+msgid "Show command suggestions in bash"
+msgstr "اعرض اقتراحات الأوامر في bash"
+
+#: andiora-oobe/assets/andiora-oobe:1390
+msgid ""
+"Could not update your Bash configuration. Your previous setting was kept."
+msgstr "تعذّر تحديث إعدادات Bash. تم الاحتفاظ بإعدادك السابق."
+
+#: andiora-oobe/assets/andiora-oobe:1428
+msgid "Keep Your System Up to Date"
+msgstr "حافظ على نظامك محدثًا"
+
+#: andiora-oobe/assets/andiora-oobe:1437
+msgid "Security patches and the latest features are just a click away."
+msgstr "ترقيعات الأمان والميزات الجديدة هي على بعد نقرة واحدة فقط."
+
+#: andiora-oobe/assets/andiora-oobe:1447
+msgid "Terminal Output"
+msgstr "مخرجات الطرفية"
+
+#: andiora-oobe/assets/andiora-oobe:1483
+msgid "  Do It Later  "
+msgstr "فعل ذلك لاحقًا"
+
+#: andiora-oobe/assets/andiora-oobe:1486
+msgid "  Find Fastest Mirror  "
+msgstr "ابحث عن أسرع مرآة"
+
+#: andiora-oobe/assets/andiora-oobe:1489
+msgid "  Check for Updates  "
+msgstr "تحقق من التحديثات"
+
+#: andiora-oobe/assets/andiora-oobe:1523
+msgid "Checking for updates…"
+msgstr "جارٍ التحقق من التحديثات…"
+
+#: andiora-oobe/assets/andiora-oobe:1555
+msgid "Updates are available."
+msgstr "هناك تحديثات متاحة."
+
+#: andiora-oobe/assets/andiora-oobe:1556
+msgid "  Install Updates  "
+msgstr "تثبيت التحديثات"
+
+#: andiora-oobe/assets/andiora-oobe:1563
+msgid "✓ System is up to date."
+msgstr "✓ النظام محدث."
+
+#: andiora-oobe/assets/andiora-oobe:1565
+#: andiora-oobe/assets/andiora-oobe:1595
+msgid "  Continue  "
+msgstr "متابعة"
+
+#: andiora-oobe/assets/andiora-oobe:1572
+msgid "✗ Check failed: "
+msgstr "✗ فشل التحقق:"
+
+#: andiora-oobe/assets/andiora-oobe:1578
+msgid "Installing updates…"
+msgstr "جارٍ تثبيت التحديثات…"
+
+#: andiora-oobe/assets/andiora-oobe:1593
+msgid "✓ Updates installed successfully!"
+msgstr "✓ تم تثبيت التحديثات بنجاح!"
+
+#: andiora-oobe/assets/andiora-oobe:1604
+msgid "✗ Installation failed: "
+msgstr "✗ فشل التثبيت:"
+
+#: andiora-oobe/assets/andiora-oobe:1643
+msgid "Testing mirrors…"
+msgstr "اختبار المرايا…"
+
+#: andiora-oobe/assets/andiora-oobe:1644
+msgid "=== Testing mirror speeds ==="
+msgstr "=== اختبار سرعات المرآية ==="
+
+#: andiora-oobe/assets/andiora-oobe:1769
+#: andiora-oobe/assets/andiora-oobe:1777
+#, python-brace-format
+msgid "Testing mirrors… ({c}/{t})"
+msgstr "اختبار المرايا... ({c}/{t})"
+
+#: andiora-oobe/assets/andiora-oobe:1785
+msgid "No mirrors reachable."
+msgstr "لا يمكن الوصول إلى أي مرآيات."
+
+#: andiora-oobe/assets/andiora-oobe:1787
+msgid "✗ No mirrors reachable. Check your connection."
+msgstr "✗ لا يمكن الوصول إلى أي مرآة. تحقق من اتصالك."
+
+#: andiora-oobe/assets/andiora-oobe:1795
+msgid "=== Testing bandwidth of top 5 mirrors "
+msgstr "=== اختبار عرض النطاق الترددي لأفضل 5 مرآيات"
+
+#: andiora-oobe/assets/andiora-oobe:1796
+msgid "(3 s each) ==="
+msgstr "(3 ثوانٍ لكل منها) ==="
+
+#: andiora-oobe/assets/andiora-oobe:1850
+msgid "Best mirror by bandwidth"
+msgstr "أفضل مرآة من حيث عرض النطاق الترددي"
+
+#: andiora-oobe/assets/andiora-oobe:1852
+#: andiora-oobe/assets/andiora-oobe:1873
+#: andiora-oobe/assets/andiora-oobe:1880
+msgid "Latency"
+msgstr "زمن الاستجابة"
+
+#: andiora-oobe/assets/andiora-oobe:1853
+#: andiora-oobe/assets/andiora-oobe:1874
+#: andiora-oobe/assets/andiora-oobe:1881
+msgid "Bandwidth"
+msgstr "عرض النطاق الترددي"
+
+#: andiora-oobe/assets/andiora-oobe:1875
+msgid "This is already your current mirror."
+msgstr "هذا هو مرآتك الحالية بالفعل."
+
+#: andiora-oobe/assets/andiora-oobe:1885
+msgid "Current mirror"
+msgstr "المرآة الحالية"
+
+#: andiora-oobe/assets/andiora-oobe:1889
+msgid "Switch to this mirror and run apt update?"
+msgstr "التبديل إلى هذه المرآة وتشغيل تحديث apt؟"
+
+#: andiora-oobe/assets/andiora-oobe:1894
+msgid "Fastest Mirror Found"
+msgstr "تم العثور على أسرع مرآة"
+
+#: andiora-oobe/assets/andiora-oobe:1897
+msgid "Keep Current"
+msgstr "إبقاء الحالي"
+
+#: andiora-oobe/assets/andiora-oobe:1898
+msgid "Switch"
+msgstr "تبديل"
+
+#: andiora-oobe/assets/andiora-oobe:1920
+msgid "✗ Mirror test failed: "
+msgstr "✗ فشل اختبار المرآة:"
+
+#: andiora-oobe/assets/andiora-oobe:1926
+msgid "Switching mirror…"
+msgstr "جاري التبديل بين المرايا…"
+
+#: andiora-oobe/assets/andiora-oobe:1927
+msgid "=== Applying mirror switch ==="
+msgstr "=== تبديل المرآة جاري التنفيذ ==="
+
+#: andiora-oobe/assets/andiora-oobe:2002
+msgid "✓ Mirror switched and system updated."
+msgstr "✓ تم تبديل المرآة وتحديث النظام."
+
+#: andiora-oobe/assets/andiora-oobe:2005
+msgid "✓ Switched to "
+msgstr "✓ تم التبديل إلى"
+
+#: andiora-oobe/assets/andiora-oobe:2018
+msgid "✗ Switch failed: "
+msgstr "✗ فشل التبديل:"
+
+#: andiora-oobe/assets/andiora-oobe:2058
+msgid "Could not open Andiora Driver Center: {}"
+msgstr "تعذر فتح مركز برامج تشغيل Andiora: {}"
+
+#: andiora-oobe/assets/andiora-oobe:2092
+msgid "Configure Hardware Drivers?"
+msgstr "تهيئة برامج تشغيل الأجهزة؟"
+
+#: andiora-oobe/assets/andiora-oobe:2102
+msgid ""
+"Open Andiora Driver Center now to manage graphics cards, Xbox controllers, "
+"and other hardware."
+msgstr ""
+"افتح مركز برامج تشغيل Andiora الآن لإدارة بطاقات الرسوميات ووحدات تحكم Xbox "
+"والأجهزة الأخرى."
+
+#: andiora-oobe/assets/andiora-oobe:2125
+msgid "Skip"
+msgstr "تخطي"
+
+#: andiora-oobe/assets/andiora-oobe:2130
+msgid "Open Driver Center"
+msgstr "فتح مركز برامج التشغيل"
+
+#: andiora-oobe/assets/andiora-oobe:2166
+msgid "Run Windows Apps, with ease"
+msgstr "تشغيل تطبيقات Windows بسهولة"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid ""
+"Powered by Wine and Bottles technology, running classic Windows applications"
+msgstr "\tيعمل بتقنية Wine وBottles، لتشغيل تطبيقات ويندوز الكلاسيكية"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid "is now easier than ever."
+msgstr "أصبح أسهل من أي وقت مضى."
+
+#: andiora-oobe/assets/andiora-oobe:2191
+msgid "✓ Windows compatibility sandbox is already installed."
+msgstr "✓ تم تثبيت بيئة العزل المتوافقة مع Windows بالفعل."
+
+#: andiora-oobe/assets/andiora-oobe:2207
+msgid "  Skip  "
+msgstr "تخطّي"
+
+#: andiora-oobe/assets/andiora-oobe:2211
+msgid "  Enable Windows Compatibility Sandbox  "
+msgstr "تمكين صندوق الرموز التوافقي لنظام ويندوز"
+
+#: andiora-oobe/assets/andiora-oobe:2221
+msgid "Configure Bottles"
+msgstr "تكوين زجاجات"
+
+#: andiora-oobe/assets/andiora-oobe:2236
+msgid "Advanced Output"
+msgstr "إخراج متقدم"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "Deploying compatibility sandbox via Flatpak…"
+msgstr "نشر صندوق الرموز المتوافق عبر Flatpak…"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "This may take a few minutes."
+msgstr "قد يستغرق هذا بضع دقائق."
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "✓ Sandbox deployed successfully!"
+msgstr "✓ تم نشر صندوق الرموز بنجاح!"
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "You can now double-click .exe files to run them."
+msgstr "يمكنك الآن النقر نقرًا مزدوجًا على ملفات .exe لتشغيلها."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "✗ Deployment failed."
+msgstr "✗ فشل النشر."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "You can install Bottles later from the App Store."
+msgstr "يمكنك تثبيت Bottles لاحقًا من متجر التطبيقات."
+
+#: andiora-oobe/assets/andiora-oobe:2316
+msgid "✗ Error: "
+msgstr "✗ خطأ:"
+
+#: andiora-oobe/assets/andiora-oobe:2347
+msgid "The Magic at Your Fingertips"
+msgstr "السحر بين يديك"
+
+#: andiora-oobe/assets/andiora-oobe:2355
+msgid "Skip tedious clicking. Capture inspiration with elegance."
+msgstr "تخطّى النقر المتعب. التقط الإلهام بأناقة."
+
+#: andiora-oobe/assets/andiora-oobe:2377
+msgid "Screenshot"
+msgstr "لقطة شاشة"
+
+#: andiora-oobe/assets/andiora-oobe:2378
+msgid "Select, annotate, copy — all in one motion"
+msgstr "حدد، علّق، انسخ — كل ذلك بحركة واحدة"
+
+#: andiora-oobe/assets/andiora-oobe:2396
+msgid "Screen Recording"
+msgstr "تسجيل الشاشة"
+
+#: andiora-oobe/assets/andiora-oobe:2397
+msgid "Seamless start, instant capture"
+msgstr "بداية سلسة، التقاط فوري"
+
+#: andiora-oobe/assets/andiora-oobe:2417
+msgid "More Essential Shortcuts"
+msgstr "المزيد من الاختصارات الأساسية"
+
+#: andiora-oobe/assets/andiora-oobe:2420
+msgid "Open File Manager"
+msgstr "فتح مدير الملفات"
+
+#: andiora-oobe/assets/andiora-oobe:2421
+msgid "Open Terminal"
+msgstr "فتح الطرفية"
+
+#: andiora-oobe/assets/andiora-oobe:2422
+msgid "Task Manager"
+msgstr "مدير المهام"
+
+#: andiora-oobe/assets/andiora-oobe:2423
+msgid "View Clipboard History"
+msgstr "عرض سجل الحافظة"
+
+#: andiora-oobe/assets/andiora-oobe:2424
+msgid "Lock Screen"
+msgstr "قفل الشاشة"
+
+#: andiora-oobe/assets/andiora-oobe:2425
+msgid "Action Center"
+msgstr "مركز الإجراءات"
+
+#: andiora-oobe/assets/andiora-oobe:2426
+msgid "Notification Center"
+msgstr "مركز الإشعارات"
+
+#: andiora-oobe/assets/andiora-oobe:2427
+msgid "Toggle Network Stats Display"
+msgstr "تبديل عرض إحصائيات الشبكة"
+
+#: andiora-oobe/assets/andiora-oobe:2428
+msgid "Switch Between Windows"
+msgstr "التبديل بين النوافذ"
+
+#: andiora-oobe/assets/andiora-oobe:2429
+msgid "Close Current Window"
+msgstr "إغلاق النافذة الحالية"
+
+#: andiora-oobe/assets/andiora-oobe:2430
+msgid "Snap Windows"
+msgstr "تقسيم النوافذ"
+
+#: andiora-oobe/assets/andiora-oobe:2431
+msgid "Switch Virtual Desktop"
+msgstr "تبديل سطح المكتب الافتراضي"
+
+#: andiora-oobe/assets/andiora-oobe:2432
+msgid "Show Desktop"
+msgstr "عرض سطح المكتب"
+
+#: andiora-oobe/assets/andiora-oobe:2433
+msgid "System Settings"
+msgstr "إعدادات النظام"
+
+#: andiora-oobe/assets/andiora-oobe:2434
+msgid "Emoji and Characters"
+msgstr "الإيموجي والأحرف"
+
+#: andiora-oobe/assets/andiora-oobe:2435
+msgid "Minimize Window"
+msgstr "تصغير النافذة"
+
+#: andiora-oobe/assets/andiora-oobe:2453
+msgid ""
+"You can view and customize all shortcuts anytime in Settings → Keyboard."
+msgstr ""
+"يمكنك عرض وتخصيص جميع الاختصارات في أي وقت من الإعدادات → لوحة المفاتيح."
+
+#: andiora-oobe/assets/andiora-oobe:2490
+msgid "In China? Use USTC mirror for App Store!"
+msgstr "في الصين؟ استخدم مرآة USTC لمتجر التطبيقات!"
+
+#: andiora-oobe/assets/andiora-oobe:2496
+msgid ""
+"Flathub access can be slow from China. Switch to the USTC mirror for faster "
+"downloads."
+msgstr ""
+"قد يكون الوصول إلى Flathub بطيئًا من الصين. قم بالتبديل إلى مرآة USTC "
+"لتنزيلات أسرع."
+
+#: andiora-oobe/assets/andiora-oobe:2603
+msgid "✓ Already using Chinese mirror — downloads are fast."
+msgstr "✓ بالفعل تستخدم المرآة الصينية — التنزيلات سريعة."
+
+#: andiora-oobe/assets/andiora-oobe:2606
+msgid "Switch Back to International"
+msgstr "العودة إلى النسخة الدولية"
+
+#: andiora-oobe/assets/andiora-oobe:2609
+msgid "Flathub is using the international server."
+msgstr "يستخدم Flathub الخادم الدولي."
+
+#: andiora-oobe/assets/andiora-oobe:2612
+msgid "🚀 Switch to USTC Mirror"
+msgstr "🚀 التبديل إلى مرآة USTC"
+
+#: andiora-oobe/assets/andiora-oobe:2625
+msgid "Testing USTC mirror..."
+msgstr "اختبار مرآة USTC..."
+
+#: andiora-oobe/assets/andiora-oobe:2669
+msgid "Switching back..."
+msgstr "جارٍ العودة..."
+
+#: andiora-oobe/assets/andiora-oobe:2696
+msgid "✗ Failed: "
+msgstr "✗ فشل:"
+
+#: andiora-oobe/assets/andiora-oobe:2699
+msgid "Retry"
+msgstr "إعادة المحاولة"
+
+#: andiora-oobe/assets/andiora-oobe:2725
+msgid "Productive From Day One"
+msgstr "منتج منذ اليوم الأول"
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Essential productivity and entertainment tools, hand-picked for you."
+msgstr "أدوات الإنتاجية والترفيه الأساسية، مختارة بعناية لك."
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Click any app to open its details in the App Store."
+msgstr "انقر على أي تطبيق لفتح تفاصيله في متجر التطبيقات."
+
+#: andiora-oobe/assets/andiora-oobe:2746
+msgid "WeChat"
+msgstr "وي تشات"
+
+#: andiora-oobe/assets/andiora-oobe:2747
+msgid "Most popular messaging app in China"
+msgstr "تطبيق المراسلة الأكثر شعبية في الصين"
+
+#: andiora-oobe/assets/andiora-oobe:2748
+msgid "QQ"
+msgstr "كيو كيو"
+
+#: andiora-oobe/assets/andiora-oobe:2749
+msgid "Tencent QQ instant messenger"
+msgstr "برنامج المراسلة الفورية تينسنت كيوكيو"
+
+#: andiora-oobe/assets/andiora-oobe:2750
+msgid "WPS Office"
+msgstr "WPS Office"
+
+#: andiora-oobe/assets/andiora-oobe:2751
+msgid "Best office suite for Chinese documents"
+msgstr "أفضل حزمة مكتبية للمستندات الصينية"
+
+#: andiora-oobe/assets/andiora-oobe:2756
+msgid "Google Chrome"
+msgstr "جوجل كروم"
+
+#: andiora-oobe/assets/andiora-oobe:2757
+msgid "The world's most popular web browser"
+msgstr "المتصفح الأكثر شعبية في العالم"
+
+#: andiora-oobe/assets/andiora-oobe:2758
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+#: andiora-oobe/assets/andiora-oobe:2759
+msgid "Code editing. Redefined."
+msgstr "تحرير الأكواد. أُعيد تعريفه."
+
+#: andiora-oobe/assets/andiora-oobe:2760
+msgid "Steam"
+msgstr "Steam"
+
+#: andiora-oobe/assets/andiora-oobe:2761
+msgid "Your portal to the gaming universe"
+msgstr "بوابتك إلى عالم الألعاب"
+
+#: andiora-oobe/assets/andiora-oobe:2762
+msgid "Discord"
+msgstr "Discord"
+
+#: andiora-oobe/assets/andiora-oobe:2763
+msgid "Chat, voice, and video for communities"
+msgstr "دردشة وصوت وفيديو للمجتمعات"
+
+#: andiora-oobe/assets/andiora-oobe:2764
+msgid "Spotify"
+msgstr "Spotify"
+
+#: andiora-oobe/assets/andiora-oobe:2765
+msgid "Music for everyone"
+msgstr "الموسيقى للجميع"
+
+#: andiora-oobe/assets/andiora-oobe:2766
+msgid "OnlyOffice"
+msgstr "OnlyOffice"
+
+#: andiora-oobe/assets/andiora-oobe:2767
+msgid "Best Microsoft Office-compatible suite"
+msgstr "أفضل حزمة متوافقة مع Microsoft Office"
+
+#: andiora-oobe/assets/andiora-oobe:2768
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: andiora-oobe/assets/andiora-oobe:2769
+msgid "Secure, fast, and easy email client"
+msgstr "عميل بريد إلكتروني آمن وسريع وسهل الاستخدام"
+
+#: andiora-oobe/assets/andiora-oobe:2770
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: andiora-oobe/assets/andiora-oobe:2771
+msgid "Sync and collaborate on your desktop or laptop"
+msgstr "زامن وتعاون على حاسوبك المكتبي أو المحمول"
+
+#: andiora-oobe/assets/andiora-oobe:2772
+msgid "Blender"
+msgstr "بلندر"
+
+#: andiora-oobe/assets/andiora-oobe:2773
+msgid "Professional 3D creation suite"
+msgstr "حزمة إنشاء احترافية ثلاثية الأبعاد"
+
+#: andiora-oobe/assets/andiora-oobe:2774
+msgid "GNOME Boxes"
+msgstr "صناديق غنوم"
+
+#: andiora-oobe/assets/andiora-oobe:2775
+msgid "Virtualization made simple"
+msgstr "التخيل الافتراضي أصبح بسيطاً"
+
+#: andiora-oobe/assets/andiora-oobe:2776
+msgid "VLC"
+msgstr "في إل سي"
+
+#: andiora-oobe/assets/andiora-oobe:2777
+msgid "The versatile media player that plays everything"
+msgstr "مشغل الوسائط المتعدد الاستخدامات الذي يشغل كل شيء"
+
+#: andiora-oobe/assets/andiora-oobe:2778
+msgid "Krita"
+msgstr "Krita"
+
+#: andiora-oobe/assets/andiora-oobe:2779
+msgid "Professional free and open source painting program"
+msgstr "برنامج رسم احترافي مجاني ومفتوح المصدر"
+
+#: andiora-oobe/assets/andiora-oobe:2780
+msgid "OBS Studio"
+msgstr "OBS Studio"
+
+#: andiora-oobe/assets/andiora-oobe:2781
+msgid "Free and open source software for video recording and live streaming"
+msgstr "برنامج مجاني ومفتوح المصدر لتسجيل الفيديو والبث المباشر"
+
+#: andiora-oobe/assets/andiora-oobe:2843
+msgid "Installed"
+msgstr "مثبت"
+
+#: andiora-oobe/assets/andiora-oobe:2845
+msgid "Click to open in App Store"
+msgstr "انقر لفتحه في متجر التطبيقات"
+
+#: andiora-oobe/assets/andiora-oobe:2853
+msgid "Opening…"
+msgstr "جاري الفتح…"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "Pro tip: You can explore these apps in the App Store,"
+msgstr "نصيحة احترافية: يمكنك استكشاف هذه التطبيقات في متجر التطبيقات،"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "and continue with the system setup while they download."
+msgstr "والاستمرار في إعداد النظام أثناء التنزيل."
+
+#: andiora-oobe/assets/andiora-oobe:2881
+msgid "  Browse Store  "
+msgstr "تصفح المتجر"
+
+#: andiora-oobe/assets/andiora-oobe:2913
+msgid "Connect & Protect Your Data"
+msgstr "توصيل وحماية بياناتك"
+
+#: andiora-oobe/assets/andiora-oobe:2937
+msgid "Online Accounts"
+msgstr "حسابات الإنترنت"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "Connect your Google, Microsoft,"
+msgstr "قم بتوصيل حسابات Google وMicrosoft،"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "or Nextcloud accounts to sync"
+msgstr "أو حسابات Nextcloud لمزامنة"
+
+#: andiora-oobe/assets/andiora-oobe:2944
+msgid "files, contacts, and calendar."
+msgstr "الملفات، جهات الاتصال، والتقويم."
+
+#: andiora-oobe/assets/andiora-oobe:2954
+msgid "Connect Accounts"
+msgstr "ربط الحسابات"
+
+#: andiora-oobe/assets/andiora-oobe:3024
+msgid "Your Data. Your Rules. Period."
+msgstr "بياناتك. قواعدها. نقطة."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "Andiora disables all system-level telemetry by default."
+msgstr "تعطيل Andiora جميع قياسات Telemetry على مستوى النظام افتراضيًا."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "We do not collect your usage habits."
+msgstr "نحن لا نجمع عادات استخدامك."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "We do not upload your search history."
+msgstr "نحن لا نرفع سجل بحثك."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "There are no pervasive advertisements."
+msgstr "لا توجد إعلانات سائدة."
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "In an era ruled by algorithms and surveillance,"
+msgstr "في عصر تحكمه الخوارزميات والمراقبة،"
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "this is our firmest commitment to you."
+msgstr "هذا هو التزامنا الأقوى لك."
+
+#: andiora-oobe/assets/andiora-oobe:3063
+msgid "✓ Zero telemetry — your activity is yours alone"
+msgstr "✓ صفر تلغراف — نشاطك خاص بك وحده"
+
+#: andiora-oobe/assets/andiora-oobe:3064
+msgid "✓ No data collection — your files stay on your device"
+msgstr "✓ لا جمع بيانات — ملفاتك تبقى على جهازك"
+
+#: andiora-oobe/assets/andiora-oobe:3065
+msgid "✓ No ads in your operating system"
+msgstr "✓ لا إعلانات في نظام التشغيل الخاص بك"
+
+#: andiora-oobe/assets/andiora-oobe:3066
+msgid "✓ Full root access — you truly own your machine"
+msgstr "✓ وصول جذري كامل — أنت تملك جهازك حقاً"
+
+#: andiora-oobe/assets/andiora-oobe:3067
+msgid "✓ UFW firewall — your digital perimeter, defended"
+msgstr "✓ جدار الحماية UFW — حدودك الرقمية، محمية"
+
+#: andiora-oobe/assets/andiora-oobe:3068
+msgid "✓ Open source — the code is yours to inspect and modify"
+msgstr "✓ مفتوح المصدر — الكود مملوك لك لتفحصه وتعدله"
+
+#: andiora-oobe/assets/andiora-oobe:3109
+msgid "Welcome to the Andiora Community"
+msgstr "مرحبًا بك في مجتمع Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3118
+msgid "Whether you're a Windows refugee seeking shelter,"
+msgstr "سواء كنت لاجئًا من ويندوز تبحث عن ملاذ،"
+
+#: andiora-oobe/assets/andiora-oobe:3119
+msgid "or a hardcore geek developer — you'll find your tribe here."
+msgstr "أو مطورًا هاويًا متحمسًا — ستجد قبيلتك هنا."
+
+#: andiora-oobe/assets/andiora-oobe:3120
+msgid "Found a bug? Want a feature? Tell us anytime."
+msgstr "وجد خطأ؟ تريد ميزة؟ أخبرنا في أي وقت."
+
+#: andiora-oobe/assets/andiora-oobe:3132
+msgid "Official Documentation"
+msgstr "التوثيق الرسمي"
+
+#: andiora-oobe/assets/andiora-oobe:3133
+msgid "Comprehensive guides and troubleshooting — covers everything you need"
+msgstr "دلائل شاملة وحلول المشكلات — تغطي كل ما تحتاجه"
+
+#: andiora-oobe/assets/andiora-oobe:3135
+msgid "Community Forums"
+msgstr "منتديات المجتمع"
+
+#: andiora-oobe/assets/andiora-oobe:3136
+msgid "Discuss with other Andiora users and developers"
+msgstr "ناقش مع مستخدمين ومطوري Andiora الآخرين"
+
+#: andiora-oobe/assets/andiora-oobe:3138
+msgid "Discord Server"
+msgstr "خادم Discord"
+
+#: andiora-oobe/assets/andiora-oobe:3139
+msgid "Join our official Discord server for real-time chat and support"
+msgstr "انضم إلى خادم Discord الرسمي لدينا للدردشة الفورية والدعم"
+
+#: andiora-oobe/assets/andiora-oobe:3141
+msgid "Report an Issue"
+msgstr "الإبلاغ عن مشكلة"
+
+#: andiora-oobe/assets/andiora-oobe:3142
+msgid "Found a bug or have a feature request? Let us know!"
+msgstr "وجدت خطأً أو لديك طلب ميزة؟ أخبرنا!"
+
+#: andiora-oobe/assets/andiora-oobe:3144
+msgid "Buy Andiora Enterprise Edition"
+msgstr "اشترِ Andiora Enterprise Edition"
+
+#: andiora-oobe/assets/andiora-oobe:3145
+msgid ""
+"Get enterprise-grade support and advanced features for your organization"
+msgstr "احصل على دعم من الدرجة المؤسساتية وميزات متقدمة لمنظمتك"
+
+#: andiora-oobe/assets/andiora-oobe:3147
+msgid "Ask Ubuntu"
+msgstr "Ask Ubuntu"
+
+#: andiora-oobe/assets/andiora-oobe:3148
+msgid "Almost all Ubuntu solutions apply directly to Andiora"
+msgstr "معظم حلول Ubuntu تنطبق مباشرة على Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3150
+msgid "Source Code"
+msgstr "الكود المصدري"
+
+#: andiora-oobe/assets/andiora-oobe:3151
+msgid "Andiora is open-source. Explore the code and contribute!"
+msgstr "Andiora مفتوح المصدر. استكشف الكود وساهم!"
+
+#: andiora-oobe/assets/andiora-oobe:3163
+msgid "Open"
+msgstr "فتح"
+
+#: andiora-oobe/assets/andiora-oobe:3173
+msgid "💡 Andiora is compatible with Ubuntu's entire ecosystem."
+msgstr "💡 Andiora متوافق مع النظام البيئي بأكمله لأوبونتو."
+
+#: andiora-oobe/assets/andiora-oobe:3174
+msgid "You can rely on Ubuntu's vast documentation and expertise."
+msgstr "يمكنك الاعتماد على وثائق وخبرات أوبونتو الواسعة."
+
+#: andiora-oobe/assets/andiora-oobe:3207
+msgid "All Set."
+msgstr "الكل جاهز."
+
+#: andiora-oobe/assets/andiora-oobe:3216
+msgid "  Start Your Andiora Journey  "
+msgstr "ابدأ رحلتك مع Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3250
+msgid "Andiora Setup"
+msgstr "إعداد Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3253
+msgid "Andiora Welcome Center"
+msgstr "مركز الترحيب بـ Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3305
+msgid "← Back"
+msgstr "← رجوع"
+
+#: andiora-oobe/assets/andiora-oobe:3314
+#: andiora-oobe/assets/andiora-oobe:3433
+msgid "Next →"
+msgstr "التالي →"
+
+#: andiora-oobe/assets/andiora-oobe:3431
+msgid "Finish"
+msgstr "إنهاء"
+
+#: andiora-oobe/assets/andiora-oobe:3498
+msgid "Andiora Welcome"
+msgstr "مرحبًا بكم في Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3500
+msgid "Andiora Team"
+msgstr "فريق Andiora"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:75
+msgid "Secure Boot Configuration"
+msgstr "تكوين Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:83
+msgid ""
+"Secure Boot is a motherboard security standard that ensures only trusted "
+"software loads at startup."
+msgstr ""
+"\tالتمهيد الآمن هو معيار أمان للوحة الأم يضمن تحميل البرامج الموثوقة فقط عند "
+"بدء التشغيل."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:86
+msgid "It protects your system from low-level malware and rootkits."
+msgstr "يحمي نظامك من البرامج الضارة منخفضة المستوى وجذور الاختراق."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:95
+msgid "System Trust Status"
+msgstr "حالة ثقة النظام"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:132
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:274
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:406
+msgid "Create & Enroll Certificate"
+msgstr "إنشاء وتسجيل الشهادة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:138
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:284
+msgid "Repair Module Signatures"
+msgstr "تواقيع وحدة الإصلاح"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:146
+msgid "Note: Use password <b>123456</b> after rebooting."
+msgstr "ملاحظة: استخدم كلمة المرور <b>123456</b> بعد إعادة التشغيل."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:151
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:392
+msgid "Reboot & Configure Secure Boot"
+msgstr "إعادة التكوين وتكوين Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:159
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:358
+msgid "  Check Again  "
+msgstr "  إعادة التحقق  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:185
+msgid "Motherboard hardware protection is active"
+msgstr "حماية عتاد اللوحة الأم نشطة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:188
+msgid "Firmware does not support Secure Boot"
+msgstr "البرنامج الثابت لا يدعم Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:191
+msgid "Secure Boot state could not be determined"
+msgstr "تعذر تحديد حالة Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:194
+msgid "Secure Boot is disabled"
+msgstr "Secure Boot معطل"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:200
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:202
+msgid "Not required without firmware enforcement"
+msgstr "غير مطلوب دون فرض البرامج الثابتة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:206
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:210
+msgid "Not checked because Secure Boot state is unknown"
+msgstr "لم يتم تحديده لأن حالة Secure Boot غير معروفة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:215
+msgid "Certificate generated locally"
+msgstr "تم إنشاء الشهادة محليًا"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:217
+msgid "Missing local certificate"
+msgstr "الشهادة المحلية مفقودة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:230
+msgid "Certificate is trusted by motherboard"
+msgstr "الشهادة موثوقة من قبل اللوحة الأم"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:234
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr "قيد التسجيل في الشاشة الزرقاء (MOKManager)"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:239
+msgid "Certificate is not trusted by motherboard"
+msgstr "الشهادة غير موثوق بها من قبل اللوحة الأم"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:245
+msgid "Kernel signature enforcement is inactive"
+msgstr "فرض توقيع Kernel غير نشط"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:248
+msgid "Driver trust cannot be verified"
+msgstr "لا يمكن التحقق من ثقة برنامج التشغيل"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:252
+msgid ""
+"Secure Boot trust is ready. No third-party kernel modules are currently "
+"installed."
+msgstr ""
+"ثقة Secure Boot جاهزة. لا توجد وحدات kernel تابعة لجهة خارجية مثبتة حاليًا."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:256
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:447
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:455
+msgid "Drivers are signed and ready to load"
+msgstr "تم توقيع برامج التشغيل وهي جاهزة للتحميل"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:260
+msgid "Drivers are trusted, but automatic DKMS signing needs repair"
+msgstr "برامج التشغيل موثوق بها، ولكن التوقيع التلقائي DKMS يحتاج إلى إصلاح"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:264
+msgid "No signed third-party drivers detected"
+msgstr "لم يتم اكتشاف برامج تشغيل طرف ثالث موقعة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:267
+msgid "Some DKMS modules need to be re-signed"
+msgstr "تحتاج بعض وحدات DKMS إلى إعادة التوقيع"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:272
+msgid "Enroll Existing Certificate"
+msgstr "تسجيل الشهادة الموجودة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:282
+msgid "Repair Automatic DKMS Signing"
+msgstr "إصلاح التوقيع التلقائي DKMS"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:299
+msgid "This firmware does not provide Secure Boot. No certificate is required."
+msgstr "لا توفر هذه البرامج الثابتة Secure Boot. لا توجد شهادة مطلوبة."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:306
+msgid ""
+"Secure Boot status could not be read. Driver trust operations are blocked "
+"until detection succeeds."
+msgstr ""
+"تعذرت قراءة حالة Secure Boot. يتم حظر عمليات الثقة في برنامج التشغيل حتى "
+"ينجح الكشف."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:311
+msgid "No certificate is required while Secure Boot is disabled."
+msgstr "لا توجد شهادة مطلوبة أثناء تعطيل Secure Boot."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:314
+msgid "System Trust Established. Third-party drivers will load securely."
+msgstr "تم تأسيس ثقة النظام. سيتم تحميل برامج تشغيل طرف ثالث بأمان."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:318
+msgid "The certificate is enrolled and current drivers are trusted."
+msgstr "تم تسجيل الشهادة وبرامج التشغيل الحالية موثوقة."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:320
+msgid "Repair automatic DKMS signing before future driver updates."
+msgstr "قم بإصلاح التوقيع التلقائي DKMS قبل تحديثات برنامج التشغيل المستقبلية."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:325
+msgid "The certificate is enrolled, but some modules are not signed with it."
+msgstr "تم تسجيل الشهادة، ولكن لم يتم توقيع بعض الوحدات بها."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:330
+msgid "A certificate is waiting for enrollment."
+msgstr "هناك شهادة في انتظار التسجيل."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:332
+msgid "Restart and enter password 123456 in MOKManager."
+msgstr "أعد التشغيل وأدخل كلمة المرور 123456 في MOKManager."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:337
+msgid "The local trust certificate is not yet enrolled."
+msgstr "لم يتم تسجيل شهادة الثقة المحلية بعد."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:339
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:346
+msgid "You must configure this to use third-party drivers like NVIDIA."
+msgstr "يجب عليك تكوين هذا لاستخدام برامج تشغيل طرف ثالث مثل NVIDIA."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:344
+msgid "The local trust certificate is missing."
+msgstr "شهادة الثقة المحلية مفقودة."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:362
+msgid "  Checking...  "
+msgstr "  جار التحقق...  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:368
+msgid "Reboot Required"
+msgstr "إعادة التشغيل مطلوبة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:369
+msgid "Please trust the certificate upon reboot using password 123456."
+msgstr "يرجى الثقة بالشهادة عند إعادة التشغيل باستخدام كلمة المرور 123456."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:371
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:372
+msgid "Reboot"
+msgstr "إعادة التشغيل"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:380
+msgid "Success! When you reboot, a blue screen will appear."
+msgstr "نجاح! عند إعادة التشغيل، ستظهر شاشة زرقاء."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:384
+msgid "Select 'Enroll MOK' → 'Continue' → 'Yes', and enter password: 123456"
+msgstr "حدد 'Enroll MOK' → 'Continue' → 'Yes'، وأدخل كلمة المرور: 123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:388
+msgid "Certificate Created"
+msgstr "تم إنشاء الشهادة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:391
+msgid "Later"
+msgstr "لاحقًا"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:420
+msgid "Secure Boot Trust Not Required"
+msgstr "Secure Boot الثقة غير مطلوبة"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:421
+msgid "Firmware signature enforcement is not active."
+msgstr "فرض توقيع البرنامج الثابت غير نشط."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:423
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:441
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:449
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:457
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:473
+msgid "OK"
+msgstr "موافق"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:431
+msgid ""
+"The certificate is ready, but one or more DKMS modules could not be rebuilt. "
+"You can repair them after enrollment."
+msgstr ""
+"الشهادة جاهزة، ولكن لا يمكن إعادة بناء وحدة واحدة أو أكثر من وحدات DKMS. "
+"يمكنك إصلاحها بعد التسجيل."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:439
+msgid "Configuration needs attention"
+msgstr "يحتاج التكوين إلى الاهتمام"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:446
+msgid "System Trust Established"
+msgstr "تم إنشاء ثقة النظام"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:454
+msgid "Driver Signature Trusted"
+msgstr "توقيع السائق موثوق به"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:470
+msgid "Configuration failed. Please try again."
+msgstr "فشل التكوين. يرجى المحاولة مرة أخرى."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:471
+msgid "Please check the advanced output."
+msgstr "يرجى التحقق من الإخراج المتقدم."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:482
+msgid "Generating & Signing..."
+msgstr "جاري الإنشاء والتوقيع..."
+
+#~ msgid "Unleash Your Graphics Hardware"
+#~ msgstr "أطلق العنان لأجهزة الرسومات لديك"
+
+#, python-brace-format
+#~ msgid "NVIDIA proprietary driver is already installed. (Version: {})"
+#~ msgstr "تم تثبيت برنامج التشغيل المغلق لـ NVIDIA بالفعل. (الإصدار: {})"
+
+#~ msgid "✗ Installation encountered an issue."
+#~ msgstr "✗ واجهت عملية التثبيت مشكلة."
+
+#~ msgid "An NVIDIA dedicated graphics card was detected in your system."
+#~ msgstr "تم اكتشاف بطاقة رسومات مخصصة من NVIDIA في نظامك."
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop"
+#~ msgstr ""
+#~ "\tللحصول على أقصى سلاسة في الألعاب، والتصوير ثلاثي الأبعاد، وسطح المكتب "
+#~ "عالي الإطارات في الثانية"
+
+#~ msgid "experiences, we recommend installing the proprietary driver."
+#~ msgstr "لتجارب، نوصي بتثبيت البرنامج المملوك الخاص."
+
+#~ msgid "  Check for Driver Updates  "
+#~ msgstr "البحث عن تحديثات لبرنامج التشغيل"
+
+#~ msgid "Repair & Reinstall"
+#~ msgstr "الإصلاح وإعادة التثبيت"
+
+#~ msgid "  One-Click NVIDIA Driver Install  "
+#~ msgstr "تثبيت برنامج تشغيل NVIDIA بنقرة واحدة"
+
+#~ msgid "Installing NVIDIA driver…"
+#~ msgstr "جاري تثبيت برنامج تشغيل NVIDIA…"
+
+#~ msgid "This may take several minutes."
+#~ msgstr "قد يستغرق هذا عدة دقائق."
+
+#~ msgid "✓ Driver installed successfully!"
+#~ msgstr "✓ تم تثبيت برنامج التشغيل بنجاح!"
+
+#~ msgid "You can install drivers later from Settings."
+#~ msgstr "يمكنك تثبيت برامج التشغيل لاحقًا من الإعدادات."
+
+#~ msgid "Xbox Controller Support"
+#~ msgstr "دعم جهاز تحكم Xbox"
+
+#~ msgid "Xbox controller driver (xpadneo) is already installed."
+#~ msgstr "برنامج تشغيل جهاز تحكم Xbox (xpadneo) مثبت بالفعل."
+
+#~ msgid ""
+#~ "Enjoy seamless Xbox controller support with rumble and accurate inputs."
+#~ msgstr "استمتع بدعم سلس لأجهزة تحكم Xbox مع الاهتزاز وإدخال دقيق."
+
+#~ msgid "Andiora provides native support for Xbox controllers via Bluetooth."
+#~ msgstr "توفر Andiora دعمًا أصليًا لأجهزة تحكم Xbox عبر البلوتوث."
+
+#~ msgid "The advanced xpadneo driver is already set up and ready for gaming."
+#~ msgstr "برنامج التشغيل المتقدم xpadneo مُعد بالفعل وجاهز للألعاب."
+
+#~ msgid ""
+#~ "For advanced features like rumble and accurate mapping, we recommend "
+#~ "installing the xpadneo driver."
+#~ msgstr ""
+#~ "للميزات المتقدمة مثل الاهتزاز والتعيين الدقيق، نوصي بتثبيت سائق xpadneo."
+
+#~ msgid "Xbox Controller Driver Installed"
+#~ msgstr "تم تثبيت سائق وحدة تحكم Xbox"
+
+#~ msgid "The xpadneo driver is currently installed"
+#~ msgstr "سائق xpadneo مثبت حالياً"
+
+#~ msgid "The driver is not installed"
+#~ msgstr "السائق غير مثبت"
+
+#~ msgid "Driver not installed, signature missing"
+#~ msgstr "لم يتم تثبيت السائق، التوقيع مفقود"
+
+#~ msgid "Kernel module"
+#~ msgstr "وحدة النواة"
+
+#~ msgid "Not detected"
+#~ msgstr "لم يتم الكشف عنه"
+
+#~ msgid "Driver is NOT signed"
+#~ msgstr "السائق غير موقّع"
+
+#~ msgid "Signed with current trusted certificate"
+#~ msgstr "موقّع بشهادة موثوقة حالية"
+
+#~ msgid "Signed with current certificate, but not enrolled"
+#~ msgstr "موقّع بشهادة حالية، ولكن لم يتم تسجيلها"
+
+#~ msgid "Signed with an unknown or outdated certificate"
+#~ msgstr "موقّع بشهادة غير معروفة أو قديمة"
+
+#~ msgid "Controller Status"
+#~ msgstr "حالة وحدة التحكم"
+
+#~ msgid "Driver loaded and active. Ready to play!"
+#~ msgstr "تم تحميل السائق وهو نشط. جاهز للعب!"
+
+#~ msgid "Driver standing by. Waiting for controller connection..."
+#~ msgstr "السائق في حالة انتظار. بانتظار اتصال وحدة التحكم..."
+
+#~ msgid "Driver cannot load due to missing signature trust"
+#~ msgstr "لا يمكن تحميل السائق بسبب عدم ثقة التوقيع المفقود"
+
+#~ msgid "Pair your controller"
+#~ msgstr "اقترن بجهاز التحكم الخاص بك"
+
+#~ msgid "Test your controller"
+#~ msgstr "اختبر جهاز التحكم الخاص بك"
+
+#~ msgid "  Install Xbox Driver  "
+#~ msgstr "تثبيت برنامج تشغيل Xbox"
+
+#~ msgid ""
+#~ "⚠️ The driver signature does not match your system certificate. Click Fix "
+#~ "& Reinstall to repair the driver."
+#~ msgstr ""
+#~ "⚠️ توقيع السائق لا يتطابق مع شهادة النظام الخاصة بك. انقر على \"إصلاح "
+#~ "وإعادة تثبيت\" لإصلاح السائق."
+
+#~ msgid "Installing Xbox controller driver…"
+#~ msgstr "جاري تثبيت برنامج تشغيل جهاز تحكم Xbox…"
+
+#~ msgid "This may take a minute."
+#~ msgstr "قد يستغرق هذا دقيقة."
+
+#~ msgid "Repairing driver signature…"
+#~ msgstr "جاري إصلاح توقيع السائق…"
+
+#~ msgid "A reboot is recommended to apply changes."
+#~ msgstr "يُوصى بإعادة التشغيل لتطبيق التغييرات."
+
+#~ msgid "  Fix & Reinstall Driver  "
+#~ msgstr "تثبيت برنامج تشغيل Xbox"
+
+#~ msgid "(Reboot recommended)"
+#~ msgstr "(يُوصى بإعادة التشغيل)"
+
+#~ msgid "Cannot sign drivers without a certificate"
+#~ msgstr "لا يمكن توقيع البرامج بدون شهادة"
+
+#~ msgid ""
+#~ "Enable low-level network protection — silently blocks all unauthorized "
+#~ "inbound connections."
+#~ msgstr ""
+#~ "تفعيل حماية الشبكة منخفضة المستوى — يحجب بصمت جميع الاتصالات الواردة غير "
+#~ "المصرح بها."
+
+#~ msgid "Firewall"
+#~ msgstr "جدار الحماية (Firewall)"
+
+#~ msgid "Local MOK Certificate"
+#~ msgstr "شهادة MOK المحلية"
+
+#~ msgid ""
+#~ "Please configure Secure Boot in the previous step before installing this "
+#~ "driver."
+#~ msgstr "يرجى إعادة التشغيل لتسجيل الشهادة قبل تثبيت هذا السائق."
+
+#~ msgid ""
+#~ "Please reboot to enroll the certificate before installing this driver."
+#~ msgstr "يرجى إعادة التشغيل لتسجيل الشهادة قبل تثبيت هذا السائق."
+
+#~ msgid "Scanning for installed drivers..."
+#~ msgstr "جاري المسح عن برامج التشغيل المثبتة..."
+
+#~ msgid "Secure Boot Enabled"
+#~ msgstr "Secure Boot مفعّل"
+
+#~ msgid "The local trust certificate is missing or not yet enrolled."
+#~ msgstr "شهادة الثقة المحلية مفقودة أو لم يتم تسجيلها بعد."
+
+#~ msgid "Third-party Drivers"
+#~ msgstr "برامج تشغيل طرف ثالث"
+
+#~ msgid "UEFI Firmware Trust"
+#~ msgstr "ثقةfirmware UEFI"
+
+#~ msgid ""
+#~ "⚠️ Secure Boot is enabled but the custom certificate is not yet enrolled."
+#~ msgstr "⚠️ تم تمكين الإقلاع الآمن ولكن لم يتم تسجيل الشهادة المخصصة بعد."
+
+#~ msgid "✓ Xbox controller driver installed successfully!"
+#~ msgstr "✓ تم تثبيت برنامج تشغيل جهاز تحكم Xbox بنجاح!"
+
+#~ msgid "✗ Repair failed."
+#~ msgstr "✗ فشل النشر."
+
+#~ msgid "⚡ The following apps are provided by the Spark Store community."
+#~ msgstr "⚡ التطبيقات التالية مقدمة من مجتمع متجر Spark."
+
+#~ msgid "Great for connecting to local services."
+#~ msgstr "مثالي للاتصال بالخدمات المحلية."
+
+#~ msgid "Spark Store"
+#~ msgstr "متجر Spark"
+
+#~ msgid "Community app store for Chinese Linux users"
+#~ msgstr "متجر تطبيقات المجتمع لمستخدمي لينكس الصينيين"
+
+#~ msgid "Note: These apps link to their official or community download pages."
+#~ msgstr ""
+#~ "ملاحظة: ترتبط هذه التطبيقات بصفحات التنزيل الرسمية أو المجتمعية الخاصة "
+#~ "بها."
+
+#~ msgid " Andiora is not affiliated with these vendors."
+#~ msgstr "لا ترتبط Andiora بهذه البائعين."
+
+#~ msgid ""
+#~ "Andiora is ready. Just a few steps to shape it\n"
+#~ "into the perfect system tailored to your habits."
+#~ msgstr ""
+#~ "نظام Andiora جاهز. تبقى بضع خطوات لتشكيله\n"
+#~ "إلى النظام المثالي المصمم خصيصًا ليعكس عاداتك."
+
+#~ msgid "=== Testing mirror speeds ===\n"
+#~ msgstr "=== اختبار سرعات المرآة ==="
+
+#~ msgid ""
+#~ "\n"
+#~ "No mirrors reachable.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "لا يمكن الوصول إلى أي مرآة.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Applying mirror switch ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== تطبيق تبديل المرآة ===\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "✓ Mirror switched and system updated.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "✓ تم تبديل المرآة وتحديث النظام.\n"
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop\n"
+#~ "experiences, we recommend installing the proprietary driver."
+#~ msgstr ""
+#~ "للحصول على أقصى سلاسة في الألعاب، وتصميم الرسوميات ثلاثية الأبعاد، وتجارب "
+#~ "سطح المكتب عالية معدل الإطارات، نوصي بتثبيت برنامج التشغيل المغلق."
+
+#~ msgid ""
+#~ "Installing NVIDIA driver…\n"
+#~ "This may take several minutes."
+#~ msgstr ""
+#~ "جاري تثبيت برنامج تشغيل NVIDIA…\n"
+#~ "قد يستغرق هذا عدة دقائق."
+
+#~ msgid ""
+#~ "✗ Installation encountered an issue.\n"
+#~ "You can install drivers later from Settings."
+#~ msgstr ""
+#~ "✗ واجهت عملية التثبيت مشكلة.\n"
+#~ "يمكنك تثبيت برامج التشغيل لاحقًا من الإعدادات."
+
+#~ msgid ""
+#~ "Powered by Wine and Bottles technology, running classic Windows "
+#~ "applications\n"
+#~ "is now easier than ever."
+#~ msgstr ""
+#~ "بفضل تقنية Wine و Bottles، أصبح تشغيل تطبيقات Windows الكلاسيكية أسهل من "
+#~ "أي وقت مضى."
+
+#~ msgid ""
+#~ "Deploying compatibility sandbox via Flatpak…\n"
+#~ "This may take a few minutes."
+#~ msgstr ""
+#~ "جار نشر صندوق الرموز التوافقي عبر Flatpak…\n"
+#~ "قد يستغرق ذلك بضع دقائق."
+
+#~ msgid ""
+#~ "✓ Sandbox deployed successfully!\n"
+#~ "You can now double-click .exe files to run them."
+#~ msgstr ""
+#~ "✓ تم نشر صندوق الرموز بنجاح!\n"
+#~ "يمكنك الآن النقر المزدوج على ملفات .exe لتشغيلها."
+
+#~ msgid ""
+#~ "✗ Deployment failed.\n"
+#~ "You can install Bottles later from the App Store."
+#~ msgstr ""
+#~ "✗ فشل النشر.\n"
+#~ "يمكنك تثبيت زجاجات لاحقاً من متجر التطبيقات."
+
+#~ msgid ""
+#~ "Essential productivity and entertainment tools, hand-picked for you.\n"
+#~ "Click any app to open its details in the App Store."
+#~ msgstr ""
+#~ "أدوات الإنتاجية والترفيه الأساسية، مختارة بعناية لك.\n"
+#~ "انقر على أي تطبيق لفتح تفاصيله في متجر التطبيقات."
+
+#~ msgid ""
+#~ "⚡ The following apps are provided by the Spark Store community.\n"
+#~ "Great for connecting to local services."
+#~ msgstr ""
+#~ "⚡ التطبيقات التالية مقدمة من مجتمع متجر Spark.\n"
+#~ "مثالية للاتصال بالخدمات المحلية."
+
+#~ msgid ""
+#~ "Pro tip: You can explore these apps in the App Store,\n"
+#~ "and continue with the system setup while they download."
+#~ msgstr ""
+#~ "نصيحة احترافية: يمكنك استكشاف هذه التطبيقات في متجر التطبيقات،\n"
+#~ "والاستمرار في إعداد النظام أثناء تنزيلها."
+
+#~ msgid ""
+#~ "Note: These apps link to their official or community download pages. "
+#~ "Andiora is not affiliated with these vendors."
+#~ msgstr ""
+#~ "ملاحظة: تربط هذه التطبيقات بصفحات التنزيل الرسمية أو المجتمعية الخاصة "
+#~ "بها. Andiora غير تابعة لهؤلاء البائعين."
+
+#~ msgid ""
+#~ "Connect your Google, Microsoft,\n"
+#~ "or Nextcloud accounts to sync\n"
+#~ "files, contacts, and calendar."
+#~ msgstr ""
+#~ "اربط حسابات Google، Microsoft،\n"
+#~ "أو Nextcloud الخاصة بك لمزامنة\n"
+#~ "الملفات، جهات الاتصال، والتقويم."
+
+#~ msgid ""
+#~ "Use Deja Dup to protect your\n"
+#~ "important files with automated,\n"
+#~ "secure local or remote backups."
+#~ msgstr ""
+#~ "استخدم Deja Dup لحماية ملفاتك\n"
+#~ "المهمة بنسخ احتياطية محلية أو عن بُعد\n"
+#~ "آمنة ومؤتمتة."
+
+#~ msgid ""
+#~ "Andiora disables all system-level telemetry by default.\n"
+#~ "We do not collect your usage habits.\n"
+#~ "We do not upload your search history.\n"
+#~ "There are no pervasive advertisements."
+#~ msgstr ""
+#~ "يعطل Andiora جميع أنظمة التلغراف على مستوى النظام افتراضياً.\n"
+#~ "نحن لا نجمع عادات استخدامك.\n"
+#~ "لا نقوم برفع سجل بحثك.\n"
+#~ "لا توجد إعلانات منتشرة."
+
+#~ msgid ""
+#~ "In an era ruled by algorithms and surveillance,\n"
+#~ "this is our firmest commitment to you."
+#~ msgstr ""
+#~ "في عصر تحكم فيه الخوارزميات والمراقبة،\n"
+#~ "هذا هو التزامنا الأبلغ لك."
+
+#~ msgid ""
+#~ "Whether you're a Windows refugee seeking shelter,\n"
+#~ "or a hardcore geek developer — you'll find your tribe here.\n"
+#~ "Found a bug? Want a feature? Tell us anytime."
+#~ msgstr ""
+#~ "سواء كنت لاجئًا من Windows تبحث عن ملجأ،\n"
+#~ "أو مطورًا متحمسًا — ستجد قبيلتك هنا.\n"
+#~ "وجدت خطأً؟ تريد ميزة؟ أخبرنا في أي وقت."
+
+#~ msgid ""
+#~ "💡 Andiora is compatible with Ubuntu's entire ecosystem.\n"
+#~ "You can rely on Ubuntu's vast documentation and expertise."
+#~ msgstr ""
+#~ "💡 Andiora متوافق مع كامل نظام Ubuntu البيئي.\n"
+#~ "يمكنك الاعتماد على وثائق وخبرة Ubuntu الواسعة."
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Testing bandwidth of top 3 mirrors (3 s each) ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== اختبار عرض النطاق الترددي لأفضل 3 مرايا (3 ثوانٍ لكل منها) ===\n"
+
+#~ msgid ""
+#~ "✓ Driver installed successfully!\n"
+#~ "A reboot is recommended to apply changes."
+#~ msgstr ""
+#~ "✓ تم تثبيت برنامج التشغيل بنجاح!\n"
+#~ "يُنصح بإعادة التشغيل لتطبيق التغييرات."

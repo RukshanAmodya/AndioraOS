@@ -1,0 +1,64 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>plymouth-andiora</PackageName>
+    <PackageVersion>2.0.0+$(UpstreamVersion)-5+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>Andiora boot splash theme</PackageDescription>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>resolute-addon</TargetSuites>
+    <TargetArchitectures>amd64 arm64</TargetArchitectures>
+    <Component>main</Component>
+
+    <!-- Derive from upstream to inherit all animation frames, throbbers, and the two-step module -->
+    <UpstreamUrl>https://mirror.aiursoft.com/ubuntu</UpstreamUrl>
+    <UpstreamDistro>ubuntu</UpstreamDistro>
+    <UpstreamPackage>plymouth-theme-spinner</UpstreamPackage>
+    <UpstreamSuite>$(Suite)</UpstreamSuite>
+    <UpstreamSuiteMapping>resolute-addon=resolute</UpstreamSuiteMapping>
+    <UpstreamComponent>$(Component)</UpstreamComponent>
+    <UpstreamArch>$(Arch)</UpstreamArch>
+
+    <!-- Provides satisfies any Depends/Recommends on plymouth-theme-spinner -->
+    <Provides>plymouth-theme-spinner</Provides>
+    <!-- Conflicts + Replaces: clean upgrade from the old swap package or Ubuntu's version -->
+    <Conflicts>plymouth-theme-spinner</Conflicts>
+    <Replaces>plymouth-theme-spinner</Replaces>
+    <!-- No Replaces: plymouth — we no longer touch any file owned by the plymouth main package -->
+    <SuppressUpstreamScripts>true</SuppressUpstreamScripts>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      Relocate the entire spinner theme into our own namespace:
+        1. Copy themes/spinner → themes/andiora
+        2. Rename spinner.plymouth → andiora.plymouth and fix the ImageDir path inside it
+        3. Drop the now-redundant ubuntu-logo.png (belongs to plymouth main; we don't need it)
+        4. Drop themes/spinner (we own themes/andiora now)
+    -->
+    <PrebuildCommand Run="for src in obj/*/usr/share/plymouth/themes/spinner; do cp -r &quot;$src&quot; &quot;$(dirname &quot;$src&quot;)/andiora&quot;; done" />
+    <PrebuildCommand Run="for f in obj/*/usr/share/plymouth/themes/andiora/spinner.plymouth; do mv &quot;$f&quot; &quot;$(dirname &quot;$f&quot;)/andiora.plymouth&quot;; done" />
+    <PrebuildCommand Run="sed -i 's|themes//spinner|themes/andiora|g; s|themes/spinner|themes/andiora|g; s|Name=Spinner|Name=Andiora|g' obj/*/usr/share/plymouth/themes/andiora/andiora.plymouth" />
+    <!-- Inject BGRT firmware-background support (same as Ubuntu's bgrt theme) -->
+    <PrebuildCommand Run="sed -i '/^MessageBelowAnimation=true$/a DialogClearsFirmwareBackground=false' obj/*/usr/share/plymouth/themes/andiora/andiora.plymouth" />
+    <PrebuildCommand Run="sed -i '/^UseEndAnimation=false$/a UseFirmwareBackground=true' obj/*/usr/share/plymouth/themes/andiora/andiora.plymouth" />
+    <PrebuildCommand Run="rm -f  obj/*/usr/share/plymouth/ubuntu-logo.png" />
+    <PrebuildCommand Run="rm -rf obj/*/usr/share/plymouth/themes/spinner" />
+    <!-- resolute: watermark.png is a dangling symlink after copy; remove it so IncludeFile can write a real file -->
+    <PrebuildCommand Run="find obj/*/usr/share/plymouth/themes/andiora -name 'watermark.png' -type l -delete" />
+
+    <!-- Override the two brand images with Andiora artwork; all other files come from upstream -->
+    <IncludeFile Include="assets/andiora_text.png" Target="/usr/share/plymouth/themes/andiora/watermark.png" />
+    <IncludeFile Include="assets/logo_96.png"       Target="/usr/share/plymouth/themes/andiora/bgrt-fallback.png" />
+    <IncludeFile Include="assets/andiora-text.plymouth" Target="/usr/share/plymouth/themes/andiora-text/andiora-text.plymouth" />
+
+    <!-- Register theme with update-alternatives and rebuild initramfs on install/remove -->
+    <PostInstallScript Include="scripts/postinst.sh" />
+    <PreRemoveScript  Include="scripts/prerm.sh" />
+
+    <!-- ubuntu-text.so module, needed by andiora-text.plymouth fallback theme -->
+    <Recommend Include="plymouth-theme-ubuntu-text" />
+  </ItemGroup>
+</Project>

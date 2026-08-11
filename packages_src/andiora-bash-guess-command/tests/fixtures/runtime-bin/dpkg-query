@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+[[ ${ANDIORA_RUNTIME_APT_COUNT-} ]] || exit 90
+printf 'dpkg-query\n' >>"$ANDIORA_RUNTIME_APT_COUNT"
+[[ $1 == '--show' ]] || exit 91
+printf '%s\n' bash build-essential

@@ -1,0 +1,7 @@
+#!/bin/bash
+# andiora-installer-beta — GTK4 native installer for Andiora (beta)
+#
+# The UI remains unprivileged to preserve the desktop session. It sends one
+# validated, immutable plan to the separate root executor when installation
+# begins.
+exec /usr/bin/python3 /usr/lib/andiora-installer-beta/main.py "$@"

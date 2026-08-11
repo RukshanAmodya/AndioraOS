@@ -1,0 +1,1242 @@
+# Danish translations for andiora-installer-beta package.
+# Copyright (C) 2026 THE andiora-installer-beta'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the andiora-installer-beta package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-installer-beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-01 11:01+0000\n"
+"PO-Revision-Date: 2026-07-30 14:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Installing an input method requires an Internet connection."
+msgstr "Installation af en inputmetode kræver en internetforbindelse."
+
+msgid ""
+"No Internet connection. Input methods cannot be installed. You can install "
+"them later when connected."
+msgstr ""
+"Ingen internetforbindelse. Inputmetoder kan ikke installeres. Du kan "
+"installere dem senere, når du er online."
+
+msgid ""
+"\n"
+"\n"
+"A real installation will create a machine-local MOK. After reboot, choose "
+"Enroll MOK → Continue → Yes in MOKManager and enter password 123456."
+msgstr ""
+"\n"
+"\n"
+"En rigtig installation vil oprette en maskinelokal MOK. Efter genstart skal "
+"du vælge Tilmeld MOK → Fortsæt → Ja i MOKManager og indtaste adgangskoden "
+"123456."
+
+msgid ""
+"\n"
+"On the blue MOKManager screen choose Enroll MOK → Continue → Yes, password: "
+"123456"
+msgstr ""
+"\n"
+"På den blå MOKManager-skærm vælger du Enroll MOK → Continue → Ja, "
+"adgangskode: 123456"
+
+msgid "4 GiB disk swap (priority 10) + 50% RAM LZ4 zram (priority 100)"
+msgstr "4 GiB disk-swap (prioritet 10) + 50% RAM LZ4 zram (prioritet 100)"
+
+msgid "; sudo does not require a password"
+msgstr "; sudo kræver ikke en adgangskode"
+
+msgid "; sudo requires the account password"
+msgstr "; sudo kræver kontoens adgangskode"
+
+msgid ""
+"A partition on this disk is mounted. Unmount it and rescan storage before "
+"continuing."
+msgstr ""
+"En partition på denne disk er monteret. Afmonter den og genundersøg lageret, "
+"før du fortsætter."
+
+msgid "ALL DATA on {disk} will be permanently erased."
+msgstr "ALLE DATA på {disk} vil blive permanent slettet."
+
+msgid "Account security"
+msgstr "Kontosikkerhed"
+
+msgid "Administrator access would be locked"
+msgstr "Administratoradgang ville blive låst"
+
+msgid "Advanced Storage"
+msgstr "Avanceret lager"
+
+msgid ""
+"Advanced coexistence can affect EFI firmware state and may trigger BitLocker "
+"recovery. It never shrinks or repairs Windows volumes."
+msgstr ""
+"Avanceret samexistens kan påvirke EFI-firmwaretilstanden og kan udløse "
+"BitLocker-gendannelse. Den krymper eller reparerer aldrig Windows-volumener."
+
+msgid "Advanced — keep existing systems"
+msgstr "Avanceret — behold eksisterende systemer"
+
+msgid "Advanced: Install Alongside"
+msgstr "Avanceret: Installer side om side"
+
+msgid ""
+"After changing partitions or unmounting a volume, rescan storage and select "
+"the target again."
+msgstr ""
+"Efter ændring af partitioner eller afmontering af et volumen, skal du "
+"genundersøge lageret og vælge målet igen."
+
+msgid ""
+"After restart, MOKManager will open. Choose Enroll MOK → Continue → Yes, "
+"then enter password 123456."
+msgstr ""
+"Efter genstart åbnes MOKManager. Vælg Enroll MOK → Continue → Yes, og "
+"indtast derefter adgangskoden 123456."
+
+msgid ""
+"All partitions and data on {disk} will be destroyed.\n"
+"\n"
+msgstr ""
+"Alle partitioner og data på {disk} vil blive slettet.\n"
+"\n"
+
+msgid ""
+"Alternatively, you may explicitly select one entire partition to erase. "
+"Everything in that selected partition will be destroyed; it is never "
+"selected automatically."
+msgstr ""
+"Alternativt kan du udtrykkeligt vælge en hel partition til sletning. Alt i "
+"den valgte partition vil blive ødelagt; den vælges aldrig automatisk."
+
+msgid "Battery power is too low for a safe installation."
+msgstr "Batteriniveauet er for lavt til en sikker installation."
+
+msgid "Charge to at least 80% before starting the installation."
+msgstr "Oplad til mindst 80 %, før installationen startes."
+
+msgid "Continue Anyway"
+msgstr "Fortsæt alligevel"
+
+msgid "Current battery level: {percent}%"
+msgstr "Aktuelt batteriniveau: {percent}%"
+
+msgid "External power is connected."
+msgstr "Ekstern strøm er tilsluttet."
+
+msgid "External power is not connected."
+msgstr "Ekstern strøm er ikke tilsluttet."
+
+msgid "I understand the risks and insist on installing with low battery."
+msgstr ""
+"Jeg forstår risikoen og insisterer på at installere med lavt batteriniveau."
+
+msgid "Low battery"
+msgstr "Lavt batteriniveau"
+
+msgid "Recheck"
+msgstr "Kontrollér igen"
+
+msgid "Andiora Installer"
+msgstr "Andiora-installationsprogram"
+
+msgid "Andiora Installer (Beta)"
+msgstr "Andiora-installationsprogram (Beta)"
+
+msgid "Andiora Installer (Development)"
+msgstr "Andiora-installationsprogram (Udvikling)"
+
+msgid ""
+"Andiora will use only the selected unallocated space on {disk}. Existing "
+"partitions will be preserved.\n"
+"\n"
+msgstr ""
+"Andiora vil kun bruge det valgte, ikke tildelte plads på {disk}. "
+"Eksisterende partitioner bevares.\n"
+"\n"
+
+msgid ""
+"Andiora will use only the selected unallocated space. The installer will "
+"not shrink or move an existing filesystem."
+msgstr ""
+"Andiora vil kun bruge det valgte ubenævnte plads. Installatøren vil ikke "
+"reducere eller flytte et eksisterende filsystem."
+
+msgid ""
+"Any program running as your user can obtain full administrator privileges "
+"without authentication. Your login password still protects sign-in, but it "
+"will not protect sudo. Are you sure you want to continue?"
+msgstr ""
+"ethvert program, der kører som din bruger, kan opnå fulde "
+"administratorrettigheder uden godkendelse. Din login-adgangskode beskytter "
+"stadig login, men den beskytter ikke sudo. Er du sikker på, at du vil "
+"fortsætte?"
+
+msgid "Arabic"
+msgstr "Arabisk"
+
+msgid "Back"
+msgstr "Tilbage"
+
+msgid ""
+"Before continuing: finish Windows updates, disable Fast Startup and "
+"hibernation, and back up the BitLocker recovery key. EFI, Secure Boot, TPM "
+"measurements and boot order can change."
+msgstr ""
+"Før du fortsætter: afslut Windows-opdateringer, deaktiver Hurtig start og "
+"hviletilstand, og sikkerhedskopier BitLocker-gendannelsesnøglen. EFI, Sikker "
+"opstart, TPM-målinger og startsekvens kan ændres."
+
+msgid "BitLocker detected"
+msgstr "BitLocker registreret"
+
+msgid ""
+"BitLocker storage will be preserved. The installer will not unlock, resize, "
+"repair or otherwise modify it."
+msgstr ""
+"BitLocker-lager vil blive bevaret. Installatøren vil ikke låse op, ændre "
+"størrelse, reparere eller på anden måde modificere det."
+
+msgid "Boot policy"
+msgstr "Opstartspolitik"
+
+msgid "Btrfs (recommended)"
+msgstr "Btrfs (anbefalet)"
+
+msgid "Btrfs — recommended"
+msgstr "Btrfs — anbefalet"
+
+msgid "Cannot create installation plan"
+msgstr "Kan ikke oprette installationsplan"
+
+msgid "Choose Installation Method"
+msgstr "Vælg installationsmetode"
+
+msgid "Choose one target disk. Storage settings come next."
+msgstr "Vælg én målskive. Lagringsindstillingerne følger herefter."
+
+msgid "Choose optional software to install"
+msgstr "Vælg valgfri software til installation"
+
+msgid "Choose your language to begin installation"
+msgstr "Vælg dit sprog for at starte installationen"
+
+msgid "Choose your location to set the system clock"
+msgstr "Vælg din placering for at indstille systemuret"
+
+msgid "Complete"
+msgstr "Fuldført"
+
+msgid "Computer Name"
+msgstr "Computernavn"
+
+msgid "Computer name contains invalid characters."
+msgstr "Computernavnet indeholder ugyldige tegn."
+
+msgid "Configure account, region, timezone, and machine identity"
+msgstr "Konfigurer konto, region, tidszone og maskinidentitet"
+
+msgid "Configure storage and swap"
+msgstr "Konfigurer lager og swap"
+
+msgid "Confirm Password"
+msgstr "Bekræft adgangskode"
+
+msgid "Confirm your keyboard layout"
+msgstr "Bekræft dit tastaturlayout"
+
+msgid "Continue Installation"
+msgstr "Fortsæt installation"
+
+msgid "Copy Andiora system"
+msgstr "Kopier Andiora-system"
+
+msgid "Copy Log"
+msgstr "Kopier log"
+
+msgid "Create a new 1 GiB Andiora EFI System Partition"
+msgstr "Opret en ny 1 GiB Andiora EFI-systempartition"
+
+msgid ""
+"Create and format a dedicated Andiora EFI System Partition inside the "
+"selected space."
+msgstr ""
+"Opret og formatter en dedikeret Andiora EFI-systempartition i det valgte "
+"område."
+
+msgid "Create your user account"
+msgstr "Opret din brugerkonto"
+
+msgid "Current disk layout"
+msgstr "Aktuel disklayout"
+
+msgid ""
+"DEVELOPMENT MODE — the plan will be validated and simulated. No privileged "
+"executor or disk command can run."
+msgstr ""
+"UDVIKLINGSTILSTAND — planen vil blive valideret og simuleret. Ingen "
+"privilegerede eksekutorer eller diskkommandoer kan køre."
+
+msgid "Danish"
+msgstr "Dansk"
+
+msgid "Detect Internet connectivity"
+msgstr "Detekter internetforbindelse"
+
+msgid "Detect firmware and Secure Boot"
+msgstr "Opdag firmware og Secure Boot"
+
+msgid ""
+"Development mode will simulate installation to {disk}. No disk data will be "
+"changed.\n"
+"\n"
+msgstr ""
+"Udviklingstilstand vil simulere installation til {disk}. Ingenti diskdata "
+"vil blive ændret.\n"
+"\n"
+
+msgid "Development simulation completed"
+msgstr "Udviklingssimulation fuldført"
+
+msgid "Discover Andiora"
+msgstr "Udforsk Andiora"
+
+msgid "Do not require a password for sudo commands"
+msgstr "Krav ikke en adgangskode til sudo-kommandoer"
+
+msgid "Download and install system updates during installation"
+msgstr "Download og installer systemopdateringer under installationen"
+
+msgid "Dutch"
+msgstr "Hollandsk"
+
+msgid "EFI System Partition"
+msgstr "EFI-systempartition"
+
+msgid "EFI policy"
+msgstr "EFI-politik"
+
+msgid "Empty disk — no partitions"
+msgstr "Tom disk – ingen partitioner"
+
+msgid "Enables shared-space subvolumes, snapshots and Disk Snapshots Manager."
+msgstr "Aktiverer delte subvolumes, snapshots og Disk Snapshots Manager."
+
+msgid "English (UK)"
+msgstr "Engelsk (UK)"
+
+msgid "English (US)"
+msgstr "Engelsk (US)"
+
+msgid "Ensure Disk Snapshots Manager is available"
+msgstr "Sørg for, at Disk Snapshots Manager er tilgængelig"
+
+msgid "Erase Disk and Install"
+msgstr "Slet disk og installer"
+
+msgid "Erase every partition and all data on the selected disk."
+msgstr "Slet alle partitioner og alle data på den valgte disk."
+
+msgid "Erase the entire selected disk?"
+msgstr "Slette hele den valgte disk?"
+
+msgid ""
+"Existing Windows, recovery and data partitions remain outside the write set "
+"and will be preserved."
+msgstr ""
+"Eksisterende Windows-, genoprettelses- og datapartitioner forbliver uden for "
+"skrive-sættet og vil blive bevaret."
+
+msgid ""
+"Existing partitions were detected. The first two choices delete them; "
+"Advanced is the preservation path."
+msgstr ""
+"Eksisterende partitioner blev detekteret. De to første valg sletter dem; "
+"Avanceret er vejen til bevaring."
+
+msgid ""
+"Existing partitions will be preserved. New Andiora partitions will be "
+"created only in the selected unallocated extent; EFI vendor files and the "
+"Andiora firmware boot entry may be updated."
+msgstr ""
+"Eksisterende partitioner bevares. Nye Andiora-partitioner oprettes kun i "
+"det valgte tildelte område; EFI-leverandørfiler og Andiora firmware-"
+"bootindgang kan opdateres."
+
+msgid "Filesystem"
+msgstr "Filsystem"
+
+msgid "Finalize target environment"
+msgstr "Afslut mål-miljøet"
+
+msgid "Finnish"
+msgstr "Finsk"
+
+msgid "Formats"
+msgstr "Formater"
+
+msgid "French"
+msgstr "Fransk"
+
+msgid "Full Name"
+msgstr "Fulde navn"
+
+msgid "German"
+msgstr "Tysk"
+
+msgid "Greek"
+msgstr "Græsk"
+
+msgid ""
+"Guided coexistence requires a system booted in UEFI mode and a GPT target "
+"disk. This disk cannot continue in guided mode."
+msgstr ""
+"Styret samexistens kræver et system bootet i UEFI-tilstand og en GPT-"
+"måldisk. Denne disk kan ikke fortsætte i styret tilstand."
+
+msgid ""
+"Guided storage selection is missing. Rescan and select the target again."
+msgstr "Den vejledte lagerudvælgelse mangler. Genanmeld og vælg målet igen."
+
+msgid "Hindi (India)"
+msgstr "Hindi (Indien)"
+
+msgid "How should Andiora use this disk?"
+msgstr "Hvordan skal Andiora bruge denne disk?"
+
+msgid "I Understand the Risk, Continue"
+msgstr "Jeg forstår risikoen, fortsæt"
+
+msgid "Indonesian"
+msgstr "Indonesisk"
+
+msgid "Install"
+msgstr "Installer"
+
+msgid "Install input method"
+msgstr "Installer inputmetode"
+
+msgid "Install {language} input method: {name}"
+msgstr "Installer inputmetode til {language}: {name}"
+
+msgid "Install Alongside"
+msgstr "Installer ved siden af"
+
+msgid "Install alongside"
+msgstr "Installer ved siden af"
+
+msgid "Install alongside requires a password-protected account."
+msgstr "Installation ved siden af kræver en adgangskodebeskyttet konto."
+
+msgid "Install bootloader"
+msgstr "Installer bootloader"
+
+msgid "Check systems on other disks"
+msgstr "Kontrollér systemer på andre diske"
+
+msgid "Install hardware drivers"
+msgstr "Installer hardware-drivere"
+
+msgid "Install in the selected free space?"
+msgstr "Installer i det valgte ledige plads?"
+
+msgid "Ensure required language packs are installed"
+msgstr "Sørg for, at de nødvendige sprogpakker er installeret"
+
+msgid "Install system updates"
+msgstr "Installer systemopdateringer"
+
+msgid "Install third-party drivers for this device"
+msgstr "Installer tredjepartsdrivere til denne enhed"
+
+msgid "Installation Complete"
+msgstr "Installation fuldført"
+
+msgid "Installation Failed"
+msgstr "Installation mislykkedes"
+
+msgid "Installation Steps"
+msgstr "Installationstrin"
+
+msgid ""
+"Installation cannot continue with this selection. There is no force-continue "
+"option around storage safety checks."
+msgstr ""
+"Installationen kan ikke fortsætte med dette valg. Der er ingen tving-fortsat "
+"mulighed omgående sikkerhedstjek for lager."
+
+msgid "Installation complete"
+msgstr "Installation fuldført"
+
+msgid "Installation failed"
+msgstr "Installation mislykkedes"
+
+msgid "Installation in progress"
+msgstr "Installation i gang"
+
+msgid "Installing Andiora"
+msgstr "Installerer Andiora"
+
+msgid "Italian"
+msgstr "Italiensk"
+
+msgid "Japanese (JIS keyboard)"
+msgstr "Japansk (JIS-tastatur)"
+
+msgid "Keyboard"
+msgstr "Tastatur"
+
+msgid "Keyboard Layout"
+msgstr "Tastaturoppæt"
+
+msgid "Configure physical keyboard layout"
+msgstr "Konfigurer fysisk tastaturopsætning"
+
+msgid "Korean"
+msgstr "Koreansk"
+
+msgid "Language"
+msgstr "Sprog"
+
+msgid "Live USB — excluded"
+msgstr "Live USB — ekskluderet"
+
+msgid "Mount target filesystems"
+msgstr "Montér målfilsystemer"
+
+msgid "Navigation error"
+msgstr "Navigationsfejl"
+
+msgid "New partitions"
+msgstr "Nye partitioner"
+
+msgid "Next"
+msgstr "Næste"
+
+msgid "Next slide"
+msgstr "Næste slide"
+
+msgid "No partition table"
+msgstr "Ingen partitionstabel"
+
+msgid "No suitable disks found."
+msgstr "Ingen egnede diske fundet."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with Windows Disk Management, then boot the installer "
+"again and rescan the disk."
+msgstr ""
+"Ingen egnet ubenævnt plads blev fundet. For at beskytte dine data, opret "
+"ubenævnt plads med Windows Diskhåndtering, boot derefter installatøren igen "
+"og genundersøg disken."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with a partitioning tool, then boot the installer again "
+"and rescan the disk."
+msgstr ""
+"Ingen egnet ubenævnt plads blev fundet. For at beskytte dine data, opret "
+"ubenævnt plads med et partitioneringsværktøj, boot derefter installatøren "
+"igen og genundersøg disken."
+
+msgid "Norwegian"
+msgstr "Norsk"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output"
+msgstr "Output"
+
+msgid "Output • Error"
+msgstr "Output • Fejl"
+
+msgid "Output • {count} warning(s)"
+msgstr "Output • {count} advarsel/advarsler"
+
+msgid "Partition details unavailable"
+msgstr "Partitionsdetaljer utilgængelige"
+
+msgid "Password"
+msgstr "Adgangskode"
+
+msgid "Password must be at least 6 characters."
+msgstr "Adgangskoden skal være på mindst 6 tegn."
+
+msgid "Passwordless sudo is unsafe"
+msgstr "Sudo uden adgangskode er usikkert"
+
+msgid "Platform"
+msgstr "Platform"
+
+msgid "Please do not turn off your computer"
+msgstr "Udskift venligst ikke din computer"
+
+msgid "Please review your choices before proceeding"
+msgstr "Gennemse venligst dine valg, før du fortsætter"
+
+msgid "Polish"
+msgstr "Polsk"
+
+msgid "Portuguese"
+msgstr "Portugisisk"
+
+msgid "Portuguese (Brazil)"
+msgstr "Portugisisk (Brasilien)"
+
+msgid "Prepare Secure Boot"
+msgstr "Fordi Secure Boot"
+
+msgid "Prepare installation disk"
+msgstr "Fordi installationsdisk"
+
+msgid "Prepare target environment"
+msgstr "Fordi mål-miljøet"
+
+msgid "Preparing installation…"
+msgstr "Forbereder installation…"
+
+msgid "Preserved partitions"
+msgstr "Bevarede partitioner"
+
+msgid "Previous slide"
+msgstr "Tidligere slide"
+
+msgid "Ready to Install"
+msgstr "Klar til installation"
+
+msgid "Reboot Now"
+msgstr "Genstart nu"
+
+msgid "Refresh package indexes"
+msgstr "Opdater pakkeindekser"
+
+msgid "Remove live-session components"
+msgstr "Fjern live-session-komponenter"
+
+msgid "Remove the installation media and restart your computer"
+msgstr "Fjern installationsmediet og genstart din computer"
+
+msgid ""
+"Requires an Internet connection. The base installation remains available "
+"when offline."
+msgstr ""
+"Kræver en internetforbindelse. Basisinstallationen forbliver tilgængelig, "
+"når du er offline."
+
+msgid "Rescan Storage"
+msgstr "Gensøg lagerplads"
+
+msgid "Rescan and Reselect Disk"
+msgstr "Gensøg og vælg disk igen"
+
+msgid "Restart and Enroll Secure Boot Key"
+msgstr "Genstart og tilmeld Secure Boot-nøgle"
+
+msgid "Restart is disabled in development protection mode"
+msgstr "Genstart er deaktiveret i udviklingsbeskyttelsesmodus"
+
+msgid "Return and Set a Password"
+msgstr "Tilbage og indstil en adgangskode"
+
+msgid "Return to Make Changes"
+msgstr "Tilbage for at foretage ændringer"
+
+msgid "Reuse {path} ({size})"
+msgstr "Gendan {path} ({size})"
+
+msgid ""
+"Reuse {path}; never format it; verify FAT health, identity and 64 MiB free "
+"before writing."
+msgstr ""
+"Gendan {path}; formatter den aldrig; verificer FAT-sundhed, identitet og 64 "
+"MiB fri plads før skrivning."
+
+msgid "Romanian"
+msgstr "Rumænsk"
+
+msgid "Russian"
+msgstr "Russisk"
+
+msgid "Save Log"
+msgstr "Gem log"
+
+msgid "Schedule MOK enrollment"
+msgstr "Planlæg MOK-tilmelding"
+
+msgid "Search timezones…"
+msgstr "Søg tidzoner…"
+
+msgid "Secure Boot enrollment"
+msgstr "Secure Boot-tilmelding"
+
+msgid "Select Installation Disk"
+msgstr "Vælg installationsdisk"
+
+msgid "Select Timezone"
+msgstr "Vælg tidzone"
+
+msgid "Select fastest package mirror"
+msgstr "Vælg hurtigste pakkespejl"
+
+msgid "Selected timezone"
+msgstr "Udvalgt tidzone"
+
+msgid "Selected unallocated space"
+msgstr "Udvalgt tildelt plads"
+
+msgid "Some drivers are proprietary or otherwise non-free software."
+msgstr "Nogle drivere er proprietære eller anden ikke-fri software."
+
+msgid "Spanish"
+msgstr "Spansk"
+
+msgid "Stable disk identity"
+msgstr "Stabil diskidentitet"
+
+msgid ""
+"Stable identity: {stable_id}\n"
+"\n"
+msgstr ""
+"Stabil identitet: {stable_id}\n"
+"\n"
+
+msgid "Storage Device"
+msgstr "Lagerenhed"
+
+msgid "Storage mode"
+msgstr "Lagermodus"
+
+msgid "Subvolumes"
+msgstr "Underbindinger"
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Swedish"
+msgstr "Svensk"
+
+msgid "System updates"
+msgstr "Systemopdateringer"
+
+msgid "Target Disk"
+msgstr "Måldisk"
+
+msgid "Target: {disk} ({size} — {model})"
+msgstr "Mål: {disk} ({size} — {model})"
+
+msgid "Test your keyboard here…"
+msgstr "Test dit tastatur her…"
+
+msgid "Thai"
+msgstr "Thai"
+
+msgid ""
+"The GPT disk or one of its partitions has no unique stable identifier. "
+"Guided coexistence cannot safely authorize preservation or writes on this "
+"disk."
+msgstr ""
+"GPT-disken eller en af dens partitioner har ingen unik stabil identifikator. "
+"Styret samexistens kan ikke sikkert autorisere bevarelse eller skrivning på "
+"denne disk."
+
+msgid ""
+"The complete partition map and free-space geometry could not be read "
+"consistently. No space on this disk is authorized for installation."
+msgstr ""
+"Hele partitionskortet og fri-plads geometrien kunne ikke læses konsistent. "
+"Ingen plads på denne disk er autoriseret til installation."
+
+msgid ""
+"The existing EFI System Partition is only a candidate. Health and free-space "
+"checks must pass before it can be reused, and it will never be formatted."
+msgstr ""
+"Den eksisterende EFI System Partition er kun en kandidat. Sundheds- og fri-"
+"plads tjek skal bestå, før den kan genbruges, og den vil aldrig blive "
+"formateret."
+
+msgid ""
+"The installation plan is valid. No disk, filesystem, bootloader, Secure Boot "
+"state, or installed system was changed."
+msgstr ""
+"Installationsplanen er gyldig. Ingen disk, filsystem, bootloader, Secure "
+"Boot-tilstand eller installeret system blev ændret."
+
+msgid "The installer cannot be closed while it is modifying the target disk."
+msgstr ""
+"Installationsprogrammet kan ikke lukkes, mens det modificerer måldisken."
+
+msgid ""
+"The installer will not mount, repair or infer the safety of Windows volumes "
+"from hibernation or Fast Startup state. Any required Windows maintenance "
+"must be completed in Windows."
+msgstr ""
+"Installatøren vil ikke montere, reparere eller udlede sikkerheden af Windows-"
+"volumener fra dvaletilstand eller Hurtig opstart-tilstand. Eventuel "
+"nødvendig Windows vedligeholdelse skal udføres i Windows."
+
+msgid "The privileged executor is disabled."
+msgstr "Den privilegerede eksekutor er deaktiveret."
+
+msgid ""
+"The selected disk changed or disappeared. Return to the disk page and select "
+"it again. {error}"
+msgstr ""
+"Den valgte disk er ændret eller er forsvundet. Gå tilbage til disksiden og "
+"vælg den igen. {error}"
+
+msgid "The selected disk size changed. Return and select it again."
+msgstr "Størrelsen på den valgte disk er ændret. Gå tilbage og vælg den igen."
+
+msgid ""
+"The selected disk topology changed. Review the disk and installation method "
+"again."
+msgstr ""
+"Topologien på den valgte disk er ændret. Gennemgå disken og "
+"installationsmetoden igen."
+
+msgid ""
+"The system will sign in to this account automatically and allow it to obtain "
+"full administrator privileges without a password. Anyone with physical "
+"access, and any program running as this user, can completely control the "
+"system. Use this only for a kiosk, temporary virtual machine, or another "
+"controlled environment."
+msgstr ""
+"Systemet vil logge ind på denne konto automatisk og tillade den at opnå "
+"fulde administratorrettigheder uden adgangskode. Enhver med fysisk adgang, "
+"og ethvert program, der kører som denne bruger, kan helt kontrollere "
+"systemet. Brug dette kun til en kiosk, midlertidig virtuel maskine eller et "
+"andet kontrolleret miljø."
+
+msgid "The two passwords do not match."
+msgstr "De to adgangskoder matcher ikke."
+
+msgid "Third-party drivers"
+msgstr "Tredjepartsdrivere"
+
+msgid ""
+"This account has no login password, but sudo would still require one. "
+"Because the root account is locked by default, you would be unable to "
+"perform administrator tasks. Set an account password or enable passwordless "
+"sudo."
+msgstr ""
+"Denne konto har ingen login-adgangskode, men sudo vil stadig kræve en. Da "
+"root-kontoen som standard er låst, kan du ikke udføre administratoropgaver. "
+"Angiv en adgangskode til kontoen eller aktiver passwordless sudo."
+
+msgid ""
+"This advanced path preserves existing partitions but changes the selected "
+"disk's partition table and the machine's EFI boot state."
+msgstr ""
+"Denne avancerede sti bevarer eksisterende partitioner, men ændrer den valgte "
+"disks partitionstabel og maskinens EFI-boot-tilstand."
+
+msgid "This configuration is very unsafe"
+msgstr "Denne konfiguration er meget usikker"
+
+msgid ""
+"This disk contains an active mapper, array or other nested block-device "
+"topology that guided coexistence does not support."
+msgstr ""
+"Denne disk indeholder en aktiv mapper, array eller anden nested block-device "
+"topologi, som styret samexistens ikke understøtter."
+
+msgid ""
+"This disk is too small for whole-disk installation. Advanced may continue "
+"only if suitable unallocated space exists."
+msgstr ""
+"Disken er for lille til en fuld disk-installation. Avanceret kan kun "
+"fortsætte, hvis der findes egnet tildelt plads."
+
+msgid "This installer does not shrink or preserve other systems."
+msgstr ""
+"Dette installationsprogram trækker ikke andre systemer tilbage eller bevarer "
+"dem."
+
+msgid "Timezone"
+msgstr "Tidzone"
+
+msgid "Too small"
+msgstr "For lille"
+
+msgid "Turkish"
+msgstr "Tyrkisk"
+
+msgid "Ukrainian"
+msgstr "Ukrainsk"
+
+msgid "Unallocated space"
+msgstr "Udelt plads"
+
+msgid "Unallocated · {size}"
+msgstr "Utildelt · {size}"
+
+msgid "Unavailable: {error}"
+msgstr "Uutilgængelig: {error}"
+
+msgid "Unknown filesystem"
+msgstr "Ukendt filsystem"
+
+msgid "Unmount installed system"
+msgstr "Afmonter installeret system"
+
+msgid "Updates and Drivers"
+msgstr "Opdateringer og drivere"
+
+msgid ""
+"Use already-unallocated space and preserve existing partitions. This is the "
+"only Windows coexistence path."
+msgstr ""
+"Bruk allerede udelt plads og bevare eksisterende partitioner. Dette er den "
+"eneste Windows-samlevingsvej."
+
+msgid "Use only existing unallocated space on the selected disk."
+msgstr "Bruk kun eksisterende udelt plads på det valgte disk."
+
+msgid "User"
+msgstr "Bruger"
+
+msgid "User Account"
+msgstr "Brugerkonto"
+
+msgid "Username"
+msgstr "Bbrugernavn"
+
+msgid ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+msgstr ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+
+msgid "Uses a traditional single root filesystem."
+msgstr "Bruker et traditionelt enkelt rod-filsystem."
+
+msgid "Validate Plan (No Installation)"
+msgstr "Valider plan (ingen installation)"
+
+msgid "Validate this installation plan?"
+msgstr "Valider denne installationsplan?"
+
+msgid "Verify kernel module signatures"
+msgstr "Verificer kernet modul-signaturer"
+
+msgid "Verify target disk isolation"
+msgstr "Verificer måldisk-isolering"
+
+msgid "Vietnamese"
+msgstr "Vietnamesisk"
+
+msgid "Welcome to Andiora"
+msgstr "Velkommen til Andiora"
+
+msgid "Windows detected"
+msgstr "Windows opdaget"
+
+msgid ""
+"Write only EFI/Andiora, do not overwrite EFI/BOOT, and require a verified "
+"Andiora NVRAM entry."
+msgstr ""
+"Skriv kun EFI/Andiora, overskriv ikke EFI/BOOT, og kræv en verificeret "
+"Andiora NVRAM-post."
+
+msgid "automatic login"
+msgstr "automatisk login"
+
+msgid "create a machine-local MOK; enroll after reboot with password 123456"
+msgstr ""
+"opret en maskinelokal MOK; tilmeld efter genstart med adgangskode 123456"
+
+msgid "detect and install (may include non-free software)"
+msgstr "opdag og installer (kan inkludere ikke-fri software)"
+
+msgid "do not install"
+msgstr "installer ikke"
+
+msgid "download and install"
+msgstr "download og installer"
+
+msgid "ext4 (classic)"
+msgstr "ext4 (klassisk)"
+
+msgid "ext4 — classic"
+msgstr "ext4 — klassisk"
+
+msgid "not required"
+msgstr "ikke påkrævet"
+
+msgid "password required for login"
+msgstr "adgangskode påkrævet til login"
+
+msgid "single ext4 root filesystem"
+msgstr "enkel ext4 rodfilsystem"
+
+msgid "{architecture} / {firmware} / Secure Boot: {secure_boot}"
+msgstr "{architecture} / {firmware} / Secure Boot: {secure_boot}"
+
+msgid "{count}: {paths}"
+msgstr "{count}: {paths}"
+
+msgid "{name}: {start}–{end} MiB"
+msgstr "{name}: {start}–{end} MiB"
+
+msgid "{path} as {filesystem}"
+msgstr "{path} som {filesystem}"
+
+msgid "{size} at {offset}"
+msgstr "{size} ved {offset}"
+
+msgid "{size} unallocated at {offset}"
+msgstr "{size} ubenyttet plads ved {offset}"
+
+msgid "{step} failed"
+msgstr "{step} mislykkedes"
+
+msgid ""
+"⚠ Only the selected unallocated space will be partitioned and formatted. "
+"Existing partitions are preserved, but EFI/Andiora files and the Andiora "
+"firmware boot entry may change. This installer will not shrink Windows for "
+"you."
+msgstr ""
+"⚠ Kun det valgte ubenyttede område vil blive op delt og formatteret. "
+"Eksisterende partitioner bevares, men EFI/Andiora-filer og Andiora-"
+"firmwareens boot-post kan ændres. Denne installationsprogram vil ikke "
+"mindske Windows for dig."
+
+msgid ""
+"⚠ This will erase ALL data on the selected disk. This action cannot be "
+"undone."
+msgstr ""
+"⚠ Dette vil slette ALLE data på den valgte disk. Denne handling kan ikke "
+"fortrydes."
+
+#: src/pages.py
+msgid "Connect to the Internet"
+msgstr "Opret forbindelse til internettet"
+
+#: src/pages.py
+msgid "Internet connection is ready."
+msgstr "Internetforbindelsen er klar."
+
+#: src/pages.py
+msgid "Available Wi-Fi Networks"
+msgstr "Tilgængelige Wi-Fi-netværk"
+
+msgid "Preserve connected Wi-Fi network"
+msgstr "Bevar det tilsluttede Wi-Fi-netværk"
+
+msgid "Loading storage devices…"
+msgstr "Indlæser lagerenheder…"
+
+msgid "Rechecking target disk…"
+msgstr "Kontrollerer måldisken igen…"
+
+msgid "Storage devices could not be loaded: {error}"
+msgstr "Lagerenhederne kunne ikke indlæses: {error}"
+
+#: src/pages.py
+msgid "Install extended multimedia format support"
+msgstr "Installér udvidet understøttelse af multimedieformater"
+
+#: src/pages.py
+msgid "Extended multimedia formats"
+msgstr "Udvidede multimedieformater"
+
+#: src/pages.py
+msgid ""
+"Adds wider GStreamer compatibility and support for additional legacy and "
+"specialist media formats. Some components may be subject to patent or "
+"redistribution terms."
+msgstr ""
+"Tilføjer bredere GStreamer-kompatibilitet og understøttelse af flere ældre "
+"og specialiserede medieformater. Nogle komponenter kan være underlagt "
+"patent- eller videredistributionsvilkår."
+
+#: src/pages.py
+msgid "A saved profile exists. Entering a password updates it securely."
+msgstr "A saved profile exists. Entering a password updates it securely."
+
+#: src/pages.py
+msgid "Anonymous identity (optional)"
+msgstr "Anonymous identity (optional)"
+
+#: src/pages.py
+msgid "CA certificate path (optional)"
+msgstr "CA certificate path (optional)"
+
+#: src/pages.py
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/pages.py
+msgid "Cancelling Wi-Fi operation…"
+msgstr "Cancelling Wi-Fi operation…"
+
+#: src/pages.py
+msgid "Client certificate path"
+msgstr "Client certificate path"
+
+#: src/pages.py
+msgid "Connect"
+msgstr "Connect"
+
+#: src/pages.py
+msgid "Continue"
+msgstr "Continue"
+
+#: src/pages.py
+msgid "Connect to a hidden network"
+msgstr "Connect to a hidden network"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connect to {network}"
+msgstr "Connect to {network}"
+
+#: src/pages.py
+msgid "Connected"
+msgstr "Connected"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connecting to {network}…"
+msgstr "Connecting to {network}…"
+
+#: src/pages.py
+msgid "Could not change the Wi-Fi connection"
+msgstr "Could not change the Wi-Fi connection"
+
+#: src/pages.py
+msgid "Disconnect"
+msgstr "Disconnect"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnect from {network}?"
+msgstr "Disconnect from {network}?"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnecting from {network}…"
+msgstr "Disconnecting from {network}…"
+
+#: src/pages.py
+msgid "Domain suffix match (optional)"
+msgstr "Domain suffix match (optional)"
+
+#: src/pages.py
+msgid "EAP method"
+msgstr "EAP method"
+
+#: src/pages.py
+msgid "Enhanced Open (OWE)"
+msgstr "Enhanced Open (OWE)"
+
+#: src/pages.py
+msgid ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+msgstr ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+
+#: src/pages.py
+msgid "Enter the exact network name and choose its security type."
+msgstr "Enter the exact network name and choose its security type."
+
+#: src/pages.py
+msgid "Enterprise Wi-Fi"
+msgstr "Enterprise Wi-Fi"
+
+#: src/pages.py
+msgid "Identity"
+msgstr "Identity"
+
+#: src/pages.py
+msgid "Inner authentication"
+msgstr "Inner authentication"
+
+#: src/pages.py
+msgid "Network name (SSID)"
+msgstr "Network name (SSID)"
+
+#: src/pages.py
+msgid "No Wi-Fi networks found."
+msgstr "No Wi-Fi networks found."
+
+#: src/pages.py
+msgid "Open network"
+msgstr "Open network"
+
+#: src/pages.py
+msgid "Personal Wi-Fi"
+msgstr "Personal Wi-Fi"
+
+#: src/pages.py
+msgid "Private key password (optional)"
+msgstr "Private key password (optional)"
+
+#: src/pages.py
+msgid "Private key path"
+msgstr "Private key path"
+
+#: src/pages.py
+msgid "Refresh Wi-Fi networks"
+msgstr "Refresh Wi-Fi networks"
+
+#: src/pages.py
+msgid "Saved"
+msgstr "Saved"
+
+#: src/pages.py
+msgid "Security"
+msgstr "Security"
+
+#: src/pages.py
+msgid ""
+"The installer will keep the saved network profile so it can be used again."
+msgstr ""
+"The installer will keep the saved network profile so it can be used again."
+
+#: src/pages.py
+msgid "The local network is connected, but Internet access is unavailable."
+msgstr "The local network is connected, but Internet access is unavailable."
+
+#: src/pages.py
+msgid "Turning Wi-Fi off…"
+msgstr "Turning Wi-Fi off…"
+
+#: src/pages.py
+msgid "Turning Wi-Fi on…"
+msgstr "Turning Wi-Fi on…"
+
+#: src/pages.py
+msgid "Use WPS"
+msgstr "Use WPS"
+
+#: src/pages.py
+msgid "WEP (legacy)"
+msgstr "WEP (legacy)"
+
+#: src/pages.py
+msgid ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+msgstr ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+
+#: src/pages.py
+#, python-brace-format
+msgid "Waiting for WPS on {network}. Press the WPS button on the router…"
+msgstr "Waiting for WPS on {network}. Press the WPS button on the router…"

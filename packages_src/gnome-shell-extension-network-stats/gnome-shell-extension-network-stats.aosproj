@@ -1,0 +1,51 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>gnome-shell-extension-network-stats</PackageName>
+    <PackageVersion>2.0.0-1+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>Displays internet upload speed, download speed, bandwidth, data usage. visit github page for instructions, suggestions and feature requests. ERROR while updating extension ? restart your system or reload gnome shell. — packaged for Andiora</PackageDescription>
+    <Section>gnome</Section>
+    <PackageHomepage>https://extensions.gnome.org/extension/4308/</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>all</TargetArchitectures>
+    <Component>main</Component>
+    <SuiteShortNameMap>noble-addon=noble resolute-addon=resolute</SuiteShortNameMap>
+  </PropertyGroup>
+  <ItemGroup>
+    <DependencyCheckSource Url="https://mirror.aiursoft.com/ubuntu" SuiteMap="noble-addon=noble resolute-addon=resolute" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Dependency Include="andiora-dconf-runtime" />
+    <Dependency Include="gnome-shell" />
+    <Dependency Include="dconf-gsettings-backend | gsettings-backend" />
+    <Dependency Include="gir1.2-adw-1" />
+    <Dependency Include="gir1.2-gtk-4.0" />
+    <Dependency Include="gir1.2-nm-1.0" />
+    <Recommend Include="gnome-shell-extension-prefs | gnome-shell-extension-manager" />
+    <IncludeFolder Include="deploy/noble/network-stats@gnome.noroadsleft.xyz"
+                   Target="/usr/share/gnome-shell/extensions/network-stats@gnome.noroadsleft.xyz"
+                   Condition="'$(Suite)' == 'noble-addon'" />
+                   Target="/usr/share/gnome-shell/extensions/network-stats@gnome.noroadsleft.xyz"
+    <IncludeFolder Include="deploy/resolute/network-stats@gnome.noroadsleft.xyz"
+                   Target="/usr/share/gnome-shell/extensions/network-stats@gnome.noroadsleft.xyz"
+                   Condition="'$(Suite)' == 'resolute-addon'" />
+  </ItemGroup>
+  <ItemGroup>
+    <IncludeFile Include="toggle_network_stats"
+                   Target="/usr/local/bin/toggle_network_stats" Mode="755" />
+  </ItemGroup>
+  <ItemGroup>
+    <PrebuildCommand Run="bash download.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <IncludeFile Include="dconf/17-network-stats.conf" Target="/etc/dconf/db/andiora.d/17-network-stats.conf" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

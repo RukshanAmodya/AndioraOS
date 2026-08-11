@@ -1,0 +1,1835 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-09 15:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: el <LL@li.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: andiora-oobe/assets/andiora-oobe:371
+msgid "Disk Snapshots Manager"
+msgstr "Διαχείριση Στιγμιότυπων Δίσκου"
+
+#: andiora-oobe/assets/andiora-oobe:373
+msgid "Protect your system with automatic Btrfs snapshots and smart cleanup."
+msgstr ""
+"Προστατέψτε το σύστημά σας με αυτόματα στιγμιότυπα Btrfs και έξυπνο "
+"καθαρισμό."
+
+#: andiora-oobe/assets/andiora-oobe:375
+msgid "Configure Automatic Snapshots"
+msgstr "Διαμόρφωση αυτόματων στιγμιότυπων"
+
+#: andiora-oobe/assets/andiora-oobe:380
+msgid "System Backup"
+msgstr "Αντίγραφα Ασφαλείας Συστήματος"
+
+#: andiora-oobe/assets/andiora-oobe:382
+msgid "Use Deja Dup to protect your"
+msgstr "Χρησιμοποιήστε το Deja Dup για να προστατέψετε τα"
+
+#: andiora-oobe/assets/andiora-oobe:383
+msgid "important files with automated,"
+msgstr "σπουδαία αρχεία με αυτοματοποιημένες,"
+
+#: andiora-oobe/assets/andiora-oobe:384
+msgid "secure local or remote backups."
+msgstr "ασφαλίσεις τοπικές ή απομακρυσμένες."
+
+#: andiora-oobe/assets/andiora-oobe:386
+msgid "Get Deja Dup"
+msgstr "Λάβετε το Deja Dup"
+
+#: andiora-oobe/assets/andiora-oobe:457
+msgid "NetworkManager could not scan Wi-Fi."
+msgstr "Το NetworkManager δεν μπόρεσε να σαρώσει το Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:520
+msgid "Could not inspect network adapters."
+msgstr "Δεν ήταν δυνατή η επιθεώρηση προσαρμογέων δικτύου."
+
+#: andiora-oobe/assets/andiora-oobe:530
+msgid "Could not read the Wi-Fi radio state."
+msgstr "Δεν ήταν δυνατή η ανάγνωση της κατάστασης του ραδιοφώνου Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:536
+msgid "Unknown Wi-Fi radio state: {}"
+msgstr "Άγνωστη κατάσταση ραδιοφώνου Wi-Fi: {}"
+
+#: andiora-oobe/assets/andiora-oobe:537
+msgid "empty"
+msgstr "αδειάζω"
+
+#: andiora-oobe/assets/andiora-oobe:546
+msgid "Could not change the Wi-Fi radio state."
+msgstr "Δεν ήταν δυνατή η αλλαγή της κατάστασης του ραδιοφώνου Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:648
+msgid "Welcome Home."
+msgstr "Καλώς ήρθατε στο σπίτι σας."
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "Andiora is ready. Just a few steps to shape it"
+msgstr "Το Andiora είναι έτοιμο. Απλά λίγα βήματα για να το διαμορφώσετε"
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "into the perfect system tailored to your habits."
+msgstr "στο τέλειο σύστημα προσαρμοσμένο στις συνήθειές σας."
+
+#: andiora-oobe/assets/andiora-oobe:668
+msgid "  Start Setup  "
+msgstr "Εκκίνηση ρύθμισης"
+
+#: andiora-oobe/assets/andiora-oobe:715
+msgid "Connect to the Internet"
+msgstr "Συνδεθείτε στο Διαδίκτυο"
+
+#: andiora-oobe/assets/andiora-oobe:723
+msgid ""
+"Connect now so Andiora can safely check for updates, drivers, and apps."
+msgstr ""
+"Συνδεθείτε τώρα, ώστε το Andiora να μπορεί να ελέγχει με ασφάλεια για "
+"ενημερώσεις, προγράμματα οδήγησης και εφαρμογές."
+
+#: andiora-oobe/assets/andiora-oobe:731
+msgid "Internet Connection"
+msgstr "Σύνδεση στο Διαδίκτυο"
+
+#: andiora-oobe/assets/andiora-oobe:738
+msgid "Network Hardware"
+msgstr "Υλικό Δικτύου"
+
+#: andiora-oobe/assets/andiora-oobe:746
+msgid "Available Wi-Fi Networks"
+msgstr "Διαθέσιμα δίκτυα Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:748
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:751
+msgid "Scan Again"
+msgstr "Σάρωση ξανά"
+
+#: andiora-oobe/assets/andiora-oobe:760
+#: andiora-oobe/assets/andiora-oobe:832
+#: andiora-oobe/assets/andiora-oobe:840
+#: andiora-oobe/assets/andiora-oobe:855
+msgid "Open Network Settings"
+msgstr "Ανοίξτε τις Ρυθμίσεις δικτύου"
+
+#: andiora-oobe/assets/andiora-oobe:769
+msgid "Could not open network settings: {}"
+msgstr "Δεν ήταν δυνατό το άνοιγμα των ρυθμίσεων δικτύου: {}"
+
+#: andiora-oobe/assets/andiora-oobe:779
+msgid "Continue Offline"
+msgstr "Συνέχεια εκτός σύνδεσης"
+
+#: andiora-oobe/assets/andiora-oobe:783
+msgid "Skip updates, online drivers, apps, and account setup."
+msgstr ""
+"Παραλείψτε ενημερώσεις, προγράμματα οδήγησης στο διαδίκτυο, εφαρμογές και "
+"ρύθμιση λογαριασμού."
+
+#: andiora-oobe/assets/andiora-oobe:799
+msgid "Internet connection is ready. Choose Next to continue."
+msgstr ""
+"Η σύνδεση στο Διαδίκτυο είναι έτοιμη. Επιλέξτε Επόμενο για να συνεχίσετε."
+
+#: andiora-oobe/assets/andiora-oobe:806
+msgid "Connect to Wi-Fi or a wired network to continue."
+msgstr "Συνδεθείτε σε Wi-Fi ή σε ενσύρματο δίκτυο για να συνεχίσετε."
+
+#: andiora-oobe/assets/andiora-oobe:829
+msgid "No network adapters detected."
+msgstr "Δεν εντοπίστηκαν προσαρμογείς δικτύου."
+
+#: andiora-oobe/assets/andiora-oobe:831
+msgid "Connect a network adapter or continue offline."
+msgstr "Συνδέστε έναν προσαρμογέα δικτύου ή συνεχίστε εκτός σύνδεσης."
+
+#: andiora-oobe/assets/andiora-oobe:836
+msgid "Wired Network"
+msgstr "Ενσύρματο Δίκτυο"
+
+#: andiora-oobe/assets/andiora-oobe:838
+msgid "Cable connected."
+msgstr "Συνδέθηκε καλώδιο."
+
+#: andiora-oobe/assets/andiora-oobe:839
+msgid "Plug in a network cable to connect."
+msgstr "Συνδέστε ένα καλώδιο δικτύου για να συνδεθείτε."
+
+#: andiora-oobe/assets/andiora-oobe:844
+msgid "Wireless Network"
+msgstr "Ασύρματο Δίκτυο"
+
+#: andiora-oobe/assets/andiora-oobe:845
+msgid "Wi-Fi adapter detected."
+msgstr "Εντοπίστηκε προσαρμογέας Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:846
+msgid "Open Wi-Fi Settings"
+msgstr "Ανοίξτε τις Ρυθμίσεις Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:850
+msgid "Wired and Wireless Networks"
+msgstr "Ενσύρματα και Ασύρματα Δίκτυα"
+
+#: andiora-oobe/assets/andiora-oobe:852
+msgid "Cable connected and Wi-Fi available."
+msgstr "Συνδεδεμένο καλώδιο και διαθέσιμο Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:854
+msgid "Wi-Fi is available; the network cable is disconnected."
+msgstr "Διατίθεται Wi-Fi. το καλώδιο δικτύου είναι αποσυνδεδεμένο."
+
+#: andiora-oobe/assets/andiora-oobe:866
+msgid "Wi-Fi is turned off."
+msgstr "Το Wi-Fi είναι απενεργοποιημένο."
+
+#: andiora-oobe/assets/andiora-oobe:870
+msgid "No Wi-Fi networks found."
+msgstr "Δεν βρέθηκαν δίκτυα Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:899
+msgid "Wi-Fi unavailable: {}"
+msgstr "Το Wi-Fi δεν είναι διαθέσιμο: {}"
+
+#: andiora-oobe/assets/andiora-oobe:981
+msgid "Define Your Visual Order"
+msgstr "Ορίστε την οπτική σας τάξη"
+
+#: andiora-oobe/assets/andiora-oobe:991
+msgid "Light and Shadow"
+msgstr "Φως και σκιά"
+
+#: andiora-oobe/assets/andiora-oobe:992
+msgid "Choose a crisp light theme, or an immersive dark experience."
+msgstr "Επιλέξτε ένα καθαρό φωτεινό θέμα ή μια εμβυθιστική σκοτεινή εμπειρία."
+
+#: andiora-oobe/assets/andiora-oobe:1011
+msgid "Light"
+msgstr "Φωτεινό"
+
+#: andiora-oobe/assets/andiora-oobe:1023
+msgid "Dark"
+msgstr "Σκοτεινό"
+
+#: andiora-oobe/assets/andiora-oobe:1054
+msgid "Workflow Layout"
+msgstr "Διάταξη ροής εργασιών"
+
+#: andiora-oobe/assets/andiora-oobe:1055
+msgid "Prefer modern centered alignment, or classic left-docked?"
+msgstr ""
+"Προτιμάτε τη σύγχρονη κεντρική ευθυγράμμιση ή την κλασική αριστερή "
+"τοποθέτηση;"
+
+#: andiora-oobe/assets/andiora-oobe:1089
+msgid "Taskbar Layout"
+msgstr "Διάταξη γραμμής εργασιών"
+
+#: andiora-oobe/assets/andiora-oobe:1090
+msgid "Choose your workflow."
+msgstr "Επιλέξτε τη ροή εργασιών σας."
+
+#: andiora-oobe/assets/andiora-oobe:1099
+msgid " Modern "
+msgstr "Σύγχρονο"
+
+#: andiora-oobe/assets/andiora-oobe:1100
+msgid " Classic "
+msgstr "Κλασικό"
+
+#: andiora-oobe/assets/andiora-oobe:1129
+msgid "Show Virtual Desktop Switch Button"
+msgstr "Εμφάνιση κουμπιού εναλλαγής εικονικών επιφανειών εργασίας"
+
+#: andiora-oobe/assets/andiora-oobe:1130
+msgid "Display the Activities button on the taskbar"
+msgstr "Εμφάνιση του κουμπίου Δραστηριότητες στη γραμμή εργασιών"
+
+#: andiora-oobe/assets/andiora-oobe:1182
+msgid "Digital Sovereignty, Under Your Control"
+msgstr "Ψηφιακή κυριαρχία, υπό τον έλεγχό σας"
+
+#: andiora-oobe/assets/andiora-oobe:1190
+msgid "We deeply value privacy. Here, you hold absolute authority."
+msgstr ""
+"Αξιολογούμε βαθιά την ιδιωτικότητα. Εδώ, εσείς κατέχετε απόλυτη εξουσία."
+
+#: andiora-oobe/assets/andiora-oobe:1200
+msgid "Network Security"
+msgstr "Ασφάλεια Δικτύου"
+
+#: andiora-oobe/assets/andiora-oobe:1202
+msgid ""
+"Control inbound protection and whether this computer participates in local "
+"network discovery."
+msgstr ""
+"Ελέγξτε την προστασία εισερχόμενων και εάν αυτός ο υπολογιστής συμμετέχει "
+"στην ανακάλυψη τοπικού δικτύου."
+
+#: andiora-oobe/assets/andiora-oobe:1207
+msgid "Network Firewall (UFW)"
+msgstr "Τείχος προστασίας δικτύου (UFW)"
+
+#: andiora-oobe/assets/andiora-oobe:1260
+msgid "Local Network Discovery (mDNS)"
+msgstr "Ανακάλυψη τοπικού δικτύου (mDNS)"
+
+#: andiora-oobe/assets/andiora-oobe:1262
+msgid ""
+"Find printers and nearby devices, and make .local names available on trusted "
+"networks."
+msgstr ""
+"Βρείτε εκτυπωτές και κοντινές συσκευές και κάντε διαθέσιμα ονόματα .τοπικά "
+"σε αξιόπιστα δίκτυα."
+
+#: andiora-oobe/assets/andiora-oobe:1274
+msgid "Local network discovery controls are not installed."
+msgstr "Τα στοιχεία ελέγχου εντοπισμού τοπικού δικτύου δεν έχουν εγκατασταθεί."
+
+#: andiora-oobe/assets/andiora-oobe:1309
+msgid "Location Services"
+msgstr "Υπηρεσίες τοποθεσίας"
+
+#: andiora-oobe/assets/andiora-oobe:1311
+msgid ""
+"Allow apps like weather and clock to access your approximate geographic "
+"location."
+msgstr ""
+"Επιτρέψτε σε εφαρμογές όπως καιρός και ρολόι να προσπελάσουν την κατά "
+"προσέγγιση γεωγραφική σας θέση."
+
+#: andiora-oobe/assets/andiora-oobe:1315
+msgid "Location Access"
+msgstr "Πρόσβαση στην τοποθεσία"
+
+#: andiora-oobe/assets/andiora-oobe:1333
+msgid "Power Settings"
+msgstr "Ρυθμίσεις ισχύος"
+
+#: andiora-oobe/assets/andiora-oobe:1334
+msgid "Manage idle behavior to balance energy saving and convenience."
+msgstr ""
+"Διαχείριση συμπεριφοράς ανενεργότητας για ισορροπία μεταξύ εξοικονόμησης "
+"ενέργειας και ευκολίας χρήσης."
+
+#: andiora-oobe/assets/andiora-oobe:1338
+msgid "Auto Sleep"
+msgstr "Αυτόματη Αδρανοποίηση"
+
+#: andiora-oobe/assets/andiora-oobe:1367
+msgid "Command-line Assistance"
+msgstr "Βοήθεια γραμμής εντολών"
+
+#: andiora-oobe/assets/andiora-oobe:1368
+msgid "Control local bash predictions."
+msgstr "Ελέγξτε τις τοπικές προβλέψεις bash."
+
+#: andiora-oobe/assets/andiora-oobe:1372
+msgid "Bash Command Predictions"
+msgstr "Προβλέψεις εντολών Bash"
+
+#: andiora-oobe/assets/andiora-oobe:1373
+msgid "Show command suggestions in bash"
+msgstr "Εμφάνιση προτάσεων εντολών στο bash"
+
+#: andiora-oobe/assets/andiora-oobe:1390
+msgid ""
+"Could not update your Bash configuration. Your previous setting was kept."
+msgstr ""
+"Δεν ήταν δυνατή η ενημέρωση της ρύθμισης Bash. Διατηρήθηκε η προηγούμενη "
+"ρύθμιση."
+
+#: andiora-oobe/assets/andiora-oobe:1428
+msgid "Keep Your System Up to Date"
+msgstr "Κρατήστε το Σύστημά σας Ενημερωμένο"
+
+#: andiora-oobe/assets/andiora-oobe:1437
+msgid "Security patches and the latest features are just a click away."
+msgstr ""
+"Oι ενημερώσεις ασφαλείας και οι τελευταίες λειτουργίες είναι μόνο ένα κλικ "
+"μακριά."
+
+#: andiora-oobe/assets/andiora-oobe:1447
+msgid "Terminal Output"
+msgstr "Έξοδος Τερματικού"
+
+#: andiora-oobe/assets/andiora-oobe:1483
+msgid "  Do It Later  "
+msgstr "Να γίνει αργότερα"
+
+#: andiora-oobe/assets/andiora-oobe:1486
+msgid "  Find Fastest Mirror  "
+msgstr "Εντοπισμός Ταχύτερου Καθρέφτη"
+
+#: andiora-oobe/assets/andiora-oobe:1489
+msgid "  Check for Updates  "
+msgstr "Έλεγχος για Ενημερώσεις"
+
+#: andiora-oobe/assets/andiora-oobe:1523
+msgid "Checking for updates…"
+msgstr "Έλεγχος για ενημερώσεις…"
+
+#: andiora-oobe/assets/andiora-oobe:1555
+msgid "Updates are available."
+msgstr "Υπάρχουν διαθέσιμες ενημερώσεις."
+
+#: andiora-oobe/assets/andiora-oobe:1556
+msgid "  Install Updates  "
+msgstr "Εγκατάσταση Ενημερώσεων"
+
+#: andiora-oobe/assets/andiora-oobe:1563
+msgid "✓ System is up to date."
+msgstr "✓ Το σύστημα είναι ενημερωμένο."
+
+#: andiora-oobe/assets/andiora-oobe:1565
+#: andiora-oobe/assets/andiora-oobe:1595
+msgid "  Continue  "
+msgstr "Συνέχεια"
+
+#: andiora-oobe/assets/andiora-oobe:1572
+msgid "✗ Check failed: "
+msgstr "✗ Αποτυχία ελέγχου:"
+
+#: andiora-oobe/assets/andiora-oobe:1578
+msgid "Installing updates…"
+msgstr "Εγκατάσταση ενημερώσεων…"
+
+#: andiora-oobe/assets/andiora-oobe:1593
+msgid "✓ Updates installed successfully!"
+msgstr "✓ Οι ενημερώσεις εγκαταστάθηκαν επιτυχώς!"
+
+#: andiora-oobe/assets/andiora-oobe:1604
+msgid "✗ Installation failed: "
+msgstr "✗ Αποτυχία εγκατάστασης:"
+
+#: andiora-oobe/assets/andiora-oobe:1643
+msgid "Testing mirrors…"
+msgstr "Δοκιμή καθρεφτών…"
+
+#: andiora-oobe/assets/andiora-oobe:1644
+msgid "=== Testing mirror speeds ==="
+msgstr "=== Δοκιμή ταχυτήτων κατοπτρών ==="
+
+#: andiora-oobe/assets/andiora-oobe:1769
+#: andiora-oobe/assets/andiora-oobe:1777
+#, python-brace-format
+msgid "Testing mirrors… ({c}/{t})"
+msgstr "Δοκιμή καθρεπτών… ({c}/{t})"
+
+#: andiora-oobe/assets/andiora-oobe:1785
+msgid "No mirrors reachable."
+msgstr "Κανένα κάτοπτρο δεν είναι προσβάσιμο."
+
+#: andiora-oobe/assets/andiora-oobe:1787
+msgid "✗ No mirrors reachable. Check your connection."
+msgstr "✗ Δεν υπάρχουν προσβάσιμοι καθρέφτες. Ελέγξτε τη σύνδεσή σας."
+
+#: andiora-oobe/assets/andiora-oobe:1795
+msgid "=== Testing bandwidth of top 5 mirrors "
+msgstr "=== Δοκιμή_bandwidth κορυφαίων 5 κατόπτρων ==="
+
+#: andiora-oobe/assets/andiora-oobe:1796
+msgid "(3 s each) ==="
+msgstr "(3 δλ το καθένα) ==="
+
+#: andiora-oobe/assets/andiora-oobe:1850
+msgid "Best mirror by bandwidth"
+msgstr "Καλύτερος καθρέφτης βάσει εύρους ζώνης"
+
+#: andiora-oobe/assets/andiora-oobe:1852
+#: andiora-oobe/assets/andiora-oobe:1873
+#: andiora-oobe/assets/andiora-oobe:1880
+msgid "Latency"
+msgstr "Καθυστέρηση"
+
+#: andiora-oobe/assets/andiora-oobe:1853
+#: andiora-oobe/assets/andiora-oobe:1874
+#: andiora-oobe/assets/andiora-oobe:1881
+msgid "Bandwidth"
+msgstr "Εύρος Ζώνης"
+
+#: andiora-oobe/assets/andiora-oobe:1875
+msgid "This is already your current mirror."
+msgstr "Αυτό είναι ήδη ο τρέχων καθρέφτης σας."
+
+#: andiora-oobe/assets/andiora-oobe:1885
+msgid "Current mirror"
+msgstr "Τρέχων καθρέφτης"
+
+#: andiora-oobe/assets/andiora-oobe:1889
+msgid "Switch to this mirror and run apt update?"
+msgstr "Εναλλαγή σε αυτόν τον καθρέφτη και εκτέλεση apt update;"
+
+#: andiora-oobe/assets/andiora-oobe:1894
+msgid "Fastest Mirror Found"
+msgstr "Γρήγορος Καθρέφτης Βρέθηκε"
+
+#: andiora-oobe/assets/andiora-oobe:1897
+msgid "Keep Current"
+msgstr "Διατήρηση Τρέχοντος"
+
+#: andiora-oobe/assets/andiora-oobe:1898
+msgid "Switch"
+msgstr "Εναλλαγή"
+
+#: andiora-oobe/assets/andiora-oobe:1920
+msgid "✗ Mirror test failed: "
+msgstr "✗ Αποτυχία δοκιμής καθρέφτη:"
+
+#: andiora-oobe/assets/andiora-oobe:1926
+msgid "Switching mirror…"
+msgstr "Ενέργεια εναλλαγής καθρέφτη…"
+
+#: andiora-oobe/assets/andiora-oobe:1927
+msgid "=== Applying mirror switch ==="
+msgstr "=== Εφαρμογή εναλλαγής κατόπτρου ==="
+
+#: andiora-oobe/assets/andiora-oobe:2002
+msgid "✓ Mirror switched and system updated."
+msgstr "✓ Το κάτοπτρο εναλλάχθηκε και το σύστημα ενημερώθηκε."
+
+#: andiora-oobe/assets/andiora-oobe:2005
+msgid "✓ Switched to "
+msgstr "✓ Εγινε εναλλαγή σε"
+
+#: andiora-oobe/assets/andiora-oobe:2018
+msgid "✗ Switch failed: "
+msgstr "✗ Αποτυχία εναλλαγής:"
+
+#: andiora-oobe/assets/andiora-oobe:2058
+msgid "Could not open Andiora Driver Center: {}"
+msgstr ""
+"Δεν ήταν δυνατό το άνοιγμα του Κέντρου προγραμμάτων οδήγησης Andiora: {}"
+
+#: andiora-oobe/assets/andiora-oobe:2092
+msgid "Configure Hardware Drivers?"
+msgstr "Ρύθμιση προγραμμάτων οδήγησης υλικού;"
+
+#: andiora-oobe/assets/andiora-oobe:2102
+msgid ""
+"Open Andiora Driver Center now to manage graphics cards, Xbox controllers, "
+"and other hardware."
+msgstr ""
+"Ανοίξτε τώρα το Κέντρο προγραμμάτων οδήγησης Andiora για να διαχειριστείτε "
+"κάρτες γραφικών, χειριστήρια Xbox και άλλο υλικό."
+
+#: andiora-oobe/assets/andiora-oobe:2125
+msgid "Skip"
+msgstr "Παράλειψη"
+
+#: andiora-oobe/assets/andiora-oobe:2130
+msgid "Open Driver Center"
+msgstr "Άνοιγμα Κέντρου προγραμμάτων οδήγησης"
+
+#: andiora-oobe/assets/andiora-oobe:2166
+msgid "Run Windows Apps, with ease"
+msgstr "Εκτελέστε Εφαρμογές Windows, με ευκολία"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid ""
+"Powered by Wine and Bottles technology, running classic Windows applications"
+msgstr ""
+"\tΜε δύναμη την τεχνολογία Wine και Bottles, τρέχει κλασικές εφαρμογές "
+"Windows"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid "is now easier than ever."
+msgstr "είναι τώρα πιο εύκολο από ποτέ."
+
+#: andiora-oobe/assets/andiora-oobe:2191
+msgid "✓ Windows compatibility sandbox is already installed."
+msgstr "✓ Το sandbox συμβατότητας Windows είναι ήδη εγκατεστημένο."
+
+#: andiora-oobe/assets/andiora-oobe:2207
+msgid "  Skip  "
+msgstr "Παράλειψη"
+
+#: andiora-oobe/assets/andiora-oobe:2211
+msgid "  Enable Windows Compatibility Sandbox  "
+msgstr "Ενεργοποίηση εμπεριλαμβανομένης συμβατότητας με τα Windows"
+
+#: andiora-oobe/assets/andiora-oobe:2221
+msgid "Configure Bottles"
+msgstr "Διαμόρφωση του Bottles"
+
+#: andiora-oobe/assets/andiora-oobe:2236
+msgid "Advanced Output"
+msgstr "Προηγμένη Έξοδος"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "Deploying compatibility sandbox via Flatpak…"
+msgstr "Αναπτύσσεται sandbox συμβατότητας μέσω Flatpak…"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "This may take a few minutes."
+msgstr "Αυτό μπορεί να πάρει λίγα λεπτά."
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "✓ Sandbox deployed successfully!"
+msgstr "✓ Το sandbox αναπτύχθηκε επιτυχώς!"
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "You can now double-click .exe files to run them."
+msgstr ""
+"Τώρα μπορείτε να κάνετε διπλό κλικ σε αρχεία .exe για να τα εκτελέσετε."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "✗ Deployment failed."
+msgstr "✗ Η ανάπτυξη απέτυχε."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "You can install Bottles later from the App Store."
+msgstr ""
+"Μπορείτε να εγκαταστήσετε τα Bottles αργότερα από το Κατάστημα Εφαρμογών."
+
+#: andiora-oobe/assets/andiora-oobe:2316
+msgid "✗ Error: "
+msgstr "✗ Σφάλμα:"
+
+#: andiora-oobe/assets/andiora-oobe:2347
+msgid "The Magic at Your Fingertips"
+msgstr "Η μαγεία στα δάχτυλά σας"
+
+#: andiora-oobe/assets/andiora-oobe:2355
+msgid "Skip tedious clicking. Capture inspiration with elegance."
+msgstr ""
+"Παύστε τις κουραστικές κινήσεις του ποντικιού. Αποτυπώστε την έμπνευση με "
+"κομψότητα."
+
+#: andiora-oobe/assets/andiora-oobe:2377
+msgid "Screenshot"
+msgstr "Στιγμιότυπο οθόνης"
+
+#: andiora-oobe/assets/andiora-oobe:2378
+msgid "Select, annotate, copy — all in one motion"
+msgstr "Επιλογή, σχολιασμός, αντιγραφή — όλα σε μια κίνηση"
+
+#: andiora-oobe/assets/andiora-oobe:2396
+msgid "Screen Recording"
+msgstr "Καταγραφή οθόνης"
+
+#: andiora-oobe/assets/andiora-oobe:2397
+msgid "Seamless start, instant capture"
+msgstr "Ομαλή εκκίνηση, άμεση λήψη"
+
+#: andiora-oobe/assets/andiora-oobe:2417
+msgid "More Essential Shortcuts"
+msgstr "Περισσότερες απαραίτητες συντομεύσεις"
+
+#: andiora-oobe/assets/andiora-oobe:2420
+msgid "Open File Manager"
+msgstr "Άνοιγμα διαχειριστή αρχείων"
+
+#: andiora-oobe/assets/andiora-oobe:2421
+msgid "Open Terminal"
+msgstr "Άνοιγμα τερματικού"
+
+#: andiora-oobe/assets/andiora-oobe:2422
+msgid "Task Manager"
+msgstr "Διαχειριστής εργασιών"
+
+#: andiora-oobe/assets/andiora-oobe:2423
+msgid "View Clipboard History"
+msgstr "Προβολή ιστορικού πρόχειρου"
+
+#: andiora-oobe/assets/andiora-oobe:2424
+msgid "Lock Screen"
+msgstr "Κλείδωμα οθόνης"
+
+#: andiora-oobe/assets/andiora-oobe:2425
+msgid "Action Center"
+msgstr "Κέντρο δράσεων"
+
+#: andiora-oobe/assets/andiora-oobe:2426
+msgid "Notification Center"
+msgstr "Κέντρο ειδοποιήσεων"
+
+#: andiora-oobe/assets/andiora-oobe:2427
+msgid "Toggle Network Stats Display"
+msgstr "Εμφάνιση/Απόκρυψη στατιστικών δικτύου"
+
+#: andiora-oobe/assets/andiora-oobe:2428
+msgid "Switch Between Windows"
+msgstr "Εναλλαγή μεταξύ παραθύρων"
+
+#: andiora-oobe/assets/andiora-oobe:2429
+msgid "Close Current Window"
+msgstr "Κλείσιμο τρέχοντος παραθύρου"
+
+#: andiora-oobe/assets/andiora-oobe:2430
+msgid "Snap Windows"
+msgstr "Προσαρμογή παραθύρων"
+
+#: andiora-oobe/assets/andiora-oobe:2431
+msgid "Switch Virtual Desktop"
+msgstr "Εναλλαγή εικονικού γραφικού περιβάλλοντος"
+
+#: andiora-oobe/assets/andiora-oobe:2432
+msgid "Show Desktop"
+msgstr "Εμφάνιση Επιφάνειας Εργασίας"
+
+#: andiora-oobe/assets/andiora-oobe:2433
+msgid "System Settings"
+msgstr "Ρυθμίσεις Συστήματος"
+
+#: andiora-oobe/assets/andiora-oobe:2434
+msgid "Emoji and Characters"
+msgstr "Εμοτζι & Χαρακτήρες"
+
+#: andiora-oobe/assets/andiora-oobe:2435
+msgid "Minimize Window"
+msgstr "Ελαχιστοποίηση Παραθύρου"
+
+#: andiora-oobe/assets/andiora-oobe:2453
+msgid ""
+"You can view and customize all shortcuts anytime in Settings → Keyboard."
+msgstr ""
+"Μπορείτε να προβάλετε και να προσαρμόσετε όλες τις συντομεύσεις οποιαδήποτε "
+"στιγμή στις Ρυθμίσεις → Πληκτρολόγιο."
+
+#: andiora-oobe/assets/andiora-oobe:2490
+msgid "In China? Use USTC mirror for App Store!"
+msgstr "Βρίσκεστε στην Κίνα; Χρησιμοποιήστε το USTC mirror για το App Store!"
+
+#: andiora-oobe/assets/andiora-oobe:2496
+msgid ""
+"Flathub access can be slow from China. Switch to the USTC mirror for faster "
+"downloads."
+msgstr ""
+"Η πρόσβαση στο Flathub μπορεί να είναι αργή από την Κίνα. Ενεργοποιήστε το "
+"USTC mirror για πιο γρήγορες λήψεις."
+
+#: andiora-oobe/assets/andiora-oobe:2603
+msgid "✓ Already using Chinese mirror — downloads are fast."
+msgstr "✓ Χρησιμοποιείται ήδη το κινεζικό mirror — οι λήψεις είναι γρήγορες."
+
+#: andiora-oobe/assets/andiora-oobe:2606
+msgid "Switch Back to International"
+msgstr "Επιστροφή στον Διεθνή Server"
+
+#: andiora-oobe/assets/andiora-oobe:2609
+msgid "Flathub is using the international server."
+msgstr "Tο Flathub χρησιμοποιεί τον διεθνή server."
+
+#: andiora-oobe/assets/andiora-oobe:2612
+msgid "🚀 Switch to USTC Mirror"
+msgstr "🚀 Ενεργοποιήστε το USTC Mirror"
+
+#: andiora-oobe/assets/andiora-oobe:2625
+msgid "Testing USTC mirror..."
+msgstr "Δοκιμή καθρέφτη USTC..."
+
+#: andiora-oobe/assets/andiora-oobe:2669
+msgid "Switching back..."
+msgstr "Επιστροφή σε λειτουργία..."
+
+#: andiora-oobe/assets/andiora-oobe:2696
+msgid "✗ Failed: "
+msgstr "✗ Απέτυχε:"
+
+#: andiora-oobe/assets/andiora-oobe:2699
+msgid "Retry"
+msgstr "Επανάληψη"
+
+#: andiora-oobe/assets/andiora-oobe:2725
+msgid "Productive From Day One"
+msgstr "Παραγωγικότητα από την πρώτη μέρα"
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Essential productivity and entertainment tools, hand-picked for you."
+msgstr ""
+"Βασικά εργαλεία παραγωγικότητας και ψυχαγωγίας, επιλεγμένα προσωπικά για "
+"εσάς."
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Click any app to open its details in the App Store."
+msgstr ""
+"Κάντε κλικ σε οποιαδήποτε εφαρμογή για να ανοίξετε τις λεπτομέρειές της στο "
+"Κατάστημα Εφαρμογών."
+
+#: andiora-oobe/assets/andiora-oobe:2746
+msgid "WeChat"
+msgstr "WeChat"
+
+#: andiora-oobe/assets/andiora-oobe:2747
+msgid "Most popular messaging app in China"
+msgstr "Η πιο δημοφιλής εφαρμογή μηνυμάτων στην Κίνα"
+
+#: andiora-oobe/assets/andiora-oobe:2748
+msgid "QQ"
+msgstr "QQ"
+
+#: andiora-oobe/assets/andiora-oobe:2749
+msgid "Tencent QQ instant messenger"
+msgstr "Άμεση επικοινωνία Tencent QQ"
+
+#: andiora-oobe/assets/andiora-oobe:2750
+msgid "WPS Office"
+msgstr "WPS Office"
+
+#: andiora-oobe/assets/andiora-oobe:2751
+msgid "Best office suite for Chinese documents"
+msgstr "Η καλύτερη σουίτα γραφείου για κινεζικά έγγραφα"
+
+#: andiora-oobe/assets/andiora-oobe:2756
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: andiora-oobe/assets/andiora-oobe:2757
+msgid "The world's most popular web browser"
+msgstr "Ο πιο δημοφιλής web browser στον κόσμο"
+
+#: andiora-oobe/assets/andiora-oobe:2758
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+#: andiora-oobe/assets/andiora-oobe:2759
+msgid "Code editing. Redefined."
+msgstr "Σχεδιασμός κώδικα. Αναπροσαρμοσμένος."
+
+#: andiora-oobe/assets/andiora-oobe:2760
+msgid "Steam"
+msgstr "Steam"
+
+#: andiora-oobe/assets/andiora-oobe:2761
+msgid "Your portal to the gaming universe"
+msgstr "Η πύλη σας στο γκαμινγκ σύμπαν"
+
+#: andiora-oobe/assets/andiora-oobe:2762
+msgid "Discord"
+msgstr "Discord"
+
+#: andiora-oobe/assets/andiora-oobe:2763
+msgid "Chat, voice, and video for communities"
+msgstr "Chat, φωνητική και βίντεο για κοινότητες"
+
+#: andiora-oobe/assets/andiora-oobe:2764
+msgid "Spotify"
+msgstr "Spotify"
+
+#: andiora-oobe/assets/andiora-oobe:2765
+msgid "Music for everyone"
+msgstr "Μουσική για όλους"
+
+#: andiora-oobe/assets/andiora-oobe:2766
+msgid "OnlyOffice"
+msgstr "OnlyOffice"
+
+#: andiora-oobe/assets/andiora-oobe:2767
+msgid "Best Microsoft Office-compatible suite"
+msgstr "Η καλύτερη συμβατή σουίτα με το Microsoft Office"
+
+#: andiora-oobe/assets/andiora-oobe:2768
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: andiora-oobe/assets/andiora-oobe:2769
+msgid "Secure, fast, and easy email client"
+msgstr "Ασφαλής, γρήγορος και εύχρηστος client email"
+
+#: andiora-oobe/assets/andiora-oobe:2770
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: andiora-oobe/assets/andiora-oobe:2771
+msgid "Sync and collaborate on your desktop or laptop"
+msgstr "Συγχρονίστε και συνεργαστείτε στον επιτραπέζιο ή φορητό υπολογιστή σας"
+
+#: andiora-oobe/assets/andiora-oobe:2772
+msgid "Blender"
+msgstr "Blender"
+
+#: andiora-oobe/assets/andiora-oobe:2773
+msgid "Professional 3D creation suite"
+msgstr "Επαγγελματικό σύνολο δημιουργίας 3D"
+
+#: andiora-oobe/assets/andiora-oobe:2774
+msgid "GNOME Boxes"
+msgstr "GNOME Boxes"
+
+#: andiora-oobe/assets/andiora-oobe:2775
+msgid "Virtualization made simple"
+msgstr "Η εικονικοποίηση απλοποιείται"
+
+#: andiora-oobe/assets/andiora-oobe:2776
+msgid "VLC"
+msgstr "VLC"
+
+#: andiora-oobe/assets/andiora-oobe:2777
+msgid "The versatile media player that plays everything"
+msgstr "Ο ευέλικτος media player που παίζει τα πάντα"
+
+#: andiora-oobe/assets/andiora-oobe:2778
+msgid "Krita"
+msgstr "Krita"
+
+#: andiora-oobe/assets/andiora-oobe:2779
+msgid "Professional free and open source painting program"
+msgstr "Επαγγελματικό δωρεάν και ανοιχτού κώδικα πρόγραμμα ζωγραφικής"
+
+#: andiora-oobe/assets/andiora-oobe:2780
+msgid "OBS Studio"
+msgstr "OBS Studio"
+
+#: andiora-oobe/assets/andiora-oobe:2781
+msgid "Free and open source software for video recording and live streaming"
+msgstr ""
+"Λογισμικό δωρεάν και ανοιχτού κώδικα για ηχογράφηση βίντεο και ζωντανή "
+"μετάδοση"
+
+#: andiora-oobe/assets/andiora-oobe:2843
+msgid "Installed"
+msgstr "Εγκατεστημένο"
+
+#: andiora-oobe/assets/andiora-oobe:2845
+msgid "Click to open in App Store"
+msgstr "Κάντε κλικ για άνοιγμα στο App Store"
+
+#: andiora-oobe/assets/andiora-oobe:2853
+msgid "Opening…"
+msgstr "Άνοιγμα…"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "Pro tip: You can explore these apps in the App Store,"
+msgstr ""
+"Συμβουλή: Μπορείτε να εξερευνήσετε αυτές τις εφαρμογές στο Κατάστημα "
+"Εφαρμογών,"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "and continue with the system setup while they download."
+msgstr "και συνεχίστε με τη ρύθμιση του συστήματος ενώ κατεβάζονται."
+
+#: andiora-oobe/assets/andiora-oobe:2881
+msgid "  Browse Store  "
+msgstr "Περιήγηση στο Κατάστημα"
+
+#: andiora-oobe/assets/andiora-oobe:2913
+msgid "Connect & Protect Your Data"
+msgstr "Συνδέστε & Προστατέψτε τα Δεδομένα σας"
+
+#: andiora-oobe/assets/andiora-oobe:2937
+msgid "Online Accounts"
+msgstr "Λογαριασμοί Διαδικτύου"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "Connect your Google, Microsoft,"
+msgstr "Συνδέστε τους λογαριασμούς Google, Microsoft,"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "or Nextcloud accounts to sync"
+msgstr "ή λογαριασμούς Nextcloud για συγχρονισμό"
+
+#: andiora-oobe/assets/andiora-oobe:2944
+msgid "files, contacts, and calendar."
+msgstr "αρχεία, επαφές και ημερολόγιο."
+
+#: andiora-oobe/assets/andiora-oobe:2954
+msgid "Connect Accounts"
+msgstr "Σύνδεση Λογαριασμών"
+
+#: andiora-oobe/assets/andiora-oobe:3024
+msgid "Your Data. Your Rules. Period."
+msgstr "Τα Δεδομένα σας. Οι Κανόνες σας. Τέλος."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "Andiora disables all system-level telemetry by default."
+msgstr "Το Andiora απενεργοποιεί εξ ορισμού όλες τις τηλεμετρείες συστήματος."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "We do not collect your usage habits."
+msgstr "Δεν συλλέγουμε τις συνήθειες χρήσης σας."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "We do not upload your search history."
+msgstr "Δεν ανεβάζουμε το ιστορικό αναζητήσεών σας."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "There are no pervasive advertisements."
+msgstr "Δεν υπάρχουν διαπεραστικές διαφημίσεις."
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "In an era ruled by algorithms and surveillance,"
+msgstr "Σε μια εποχή που κυβερνούν οι αλγόριθμοι και η παρακολούθηση,"
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "this is our firmest commitment to you."
+msgstr "αυτό είναι η πιο σταθερή δέσμευσή μας προς εσάς."
+
+#: andiora-oobe/assets/andiora-oobe:3063
+msgid "✓ Zero telemetry — your activity is yours alone"
+msgstr "✓ Μηδενική τηλεμετρία — η δραστηριότητά σας είναι μόνο δική σας"
+
+#: andiora-oobe/assets/andiora-oobe:3064
+msgid "✓ No data collection — your files stay on your device"
+msgstr "✓ Χωρίς συλλογή δεδομένων — τα αρχεία σας παραμένουν στη συσκευή σας"
+
+#: andiora-oobe/assets/andiora-oobe:3065
+msgid "✓ No ads in your operating system"
+msgstr "✓ Χωρίς διαφημίσεις στο λειτουργικό σύστημα"
+
+#: andiora-oobe/assets/andiora-oobe:3066
+msgid "✓ Full root access — you truly own your machine"
+msgstr ""
+"✓ Πλήρης πρόσβαση root — έχετε πραγματικά την ιδιοκτησία της μηχανής σας"
+
+#: andiora-oobe/assets/andiora-oobe:3067
+msgid "✓ UFW firewall — your digital perimeter, defended"
+msgstr "✓ UFW firewall — το ψηφιακό σας περιθώριο, προστατευμένο"
+
+#: andiora-oobe/assets/andiora-oobe:3068
+msgid "✓ Open source — the code is yours to inspect and modify"
+msgstr ""
+"✓ Open source — ο κώδικας είναι δικός σας για επιθεώρηση και τροποποίηση"
+
+#: andiora-oobe/assets/andiora-oobe:3109
+msgid "Welcome to the Andiora Community"
+msgstr "Καλώς ήρθατε στην Κοινότητα Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3118
+msgid "Whether you're a Windows refugee seeking shelter,"
+msgstr "Αν είστε πρόσφυγας Windows που αναζητά καταφύγιο,"
+
+#: andiora-oobe/assets/andiora-oobe:3119
+msgid "or a hardcore geek developer — you'll find your tribe here."
+msgstr "ή hardcore geek developer — θα βρείτε τη δική σας φυλή εδώ."
+
+#: andiora-oobe/assets/andiora-oobe:3120
+msgid "Found a bug? Want a feature? Tell us anytime."
+msgstr "Βρήκατε σφάλμα; Θέλετε μια λειτουργία; Πείτε μας οποιαδήποτε στιγμή."
+
+#: andiora-oobe/assets/andiora-oobe:3132
+msgid "Official Documentation"
+msgstr "Επίσημη Τεκμηρίωση"
+
+#: andiora-oobe/assets/andiora-oobe:3133
+msgid "Comprehensive guides and troubleshooting — covers everything you need"
+msgstr ""
+"Πληροφορημένοι οδηγοί και αντιμετώπιση προβλημάτων — καλύπτει όλα όσα "
+"χρειάζεστε"
+
+#: andiora-oobe/assets/andiora-oobe:3135
+msgid "Community Forums"
+msgstr "Φόρουμ Κοινότητας"
+
+#: andiora-oobe/assets/andiora-oobe:3136
+msgid "Discuss with other Andiora users and developers"
+msgstr "Sυζητήστε με άλλους χρήστες και προγραμματιστές Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3138
+msgid "Discord Server"
+msgstr "Discord Server"
+
+#: andiora-oobe/assets/andiora-oobe:3139
+msgid "Join our official Discord server for real-time chat and support"
+msgstr ""
+"Ενταχθείτε στο επίσημο Discord server μας για real-time chat και υποστήριξη"
+
+#: andiora-oobe/assets/andiora-oobe:3141
+msgid "Report an Issue"
+msgstr "Αναφορά Προβλήματος"
+
+#: andiora-oobe/assets/andiora-oobe:3142
+msgid "Found a bug or have a feature request? Let us know!"
+msgstr "Βρήκατε bug ή έχετε αίτημα λειτουργίας; Πείτε μας!"
+
+#: andiora-oobe/assets/andiora-oobe:3144
+msgid "Buy Andiora Enterprise Edition"
+msgstr "Αγορά Andiora Enterprise Edition"
+
+#: andiora-oobe/assets/andiora-oobe:3145
+msgid ""
+"Get enterprise-grade support and advanced features for your organization"
+msgstr ""
+"Αποκτήστε enterprise-grade υποστήριξη και προηγμένες λειτουργίες για τον "
+"οργανισμό σας"
+
+#: andiora-oobe/assets/andiora-oobe:3147
+msgid "Ask Ubuntu"
+msgstr "Ask Ubuntu"
+
+#: andiora-oobe/assets/andiora-oobe:3148
+msgid "Almost all Ubuntu solutions apply directly to Andiora"
+msgstr "Σχεδόν όλες οι λύσεις Ubuntu ισχύουν απευθείας για το Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3150
+msgid "Source Code"
+msgstr "Πηγαίος Κώδικας"
+
+#: andiora-oobe/assets/andiora-oobe:3151
+msgid "Andiora is open-source. Explore the code and contribute!"
+msgstr ""
+"Το Andiora είναι open-source. Εξερευνήστε τον κώδικα και συνεισφέρετε!"
+
+#: andiora-oobe/assets/andiora-oobe:3163
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: andiora-oobe/assets/andiora-oobe:3173
+msgid "💡 Andiora is compatible with Ubuntu's entire ecosystem."
+msgstr "💡 Το Andiora είναι συμβατό με όλο το οικοσύστημα του Ubuntu."
+
+#: andiora-oobe/assets/andiora-oobe:3174
+msgid "You can rely on Ubuntu's vast documentation and expertise."
+msgstr ""
+"Μπορείτε να βασιστείτε στην εκτενή τεκμηρίωση και την εμπειρογνωμοσύνη του "
+"Ubuntu."
+
+#: andiora-oobe/assets/andiora-oobe:3207
+msgid "All Set."
+msgstr "Όλα έτοιμα."
+
+#: andiora-oobe/assets/andiora-oobe:3216
+msgid "  Start Your Andiora Journey  "
+msgstr "Ξεκινήστε το ταξίδι σας στο Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3250
+msgid "Andiora Setup"
+msgstr "Ρύθμιση Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3253
+msgid "Andiora Welcome Center"
+msgstr "Κέντρο Καλωσορισμού Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3305
+msgid "← Back"
+msgstr "← Πίσω"
+
+#: andiora-oobe/assets/andiora-oobe:3314
+#: andiora-oobe/assets/andiora-oobe:3433
+msgid "Next →"
+msgstr "Επόμενο →"
+
+#: andiora-oobe/assets/andiora-oobe:3431
+msgid "Finish"
+msgstr "Ολοκλήρωση"
+
+#: andiora-oobe/assets/andiora-oobe:3498
+msgid "Andiora Welcome"
+msgstr "Καλώς ήρθατε στο Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3500
+msgid "Andiora Team"
+msgstr "Η ομάδα του Andiora"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:75
+msgid "Secure Boot Configuration"
+msgstr "Διαμόρφωση Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:83
+msgid ""
+"Secure Boot is a motherboard security standard that ensures only trusted "
+"software loads at startup."
+msgstr ""
+"\tΤο Secure Boot είναι ένα πρότυπο ασφαλείας της μητρικής πλακέτας που "
+"διασφαλίζει ότι μόνο αξιόπιστο λογισμικό φορτώνεται κατά την εκκίνηση."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:86
+msgid "It protects your system from low-level malware and rootkits."
+msgstr ""
+"Προστατεύει το σύστημά σας από κακόβουλο λογισμικό χαμηλού επιπέδου και "
+"rootkits."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:95
+msgid "System Trust Status"
+msgstr "Κατάσταση Εμπιστοσύνης Συστήματος"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:132
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:274
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:406
+msgid "Create & Enroll Certificate"
+msgstr "Δημιουργία & Εγγραφή Πιστοποιητικού"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:138
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:284
+msgid "Repair Module Signatures"
+msgstr "Υπογραφές μονάδας επισκευής"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:146
+msgid "Note: Use password <b>123456</b> after rebooting."
+msgstr ""
+"Σημείωση: Χρησιμοποιήστε τον κωδικό <b>123456</b> μετά την επανεκκίνηση."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:151
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:392
+msgid "Reboot & Configure Secure Boot"
+msgstr "Επανεκκίνηση & Διαμόρφωση Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:159
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:358
+msgid "  Check Again  "
+msgstr "  Επανέλεγχος  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:185
+msgid "Motherboard hardware protection is active"
+msgstr "Η προστασία υλικού της μητρικής πλακέτας είναι ενεργή"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:188
+msgid "Firmware does not support Secure Boot"
+msgstr ""
+"Το υλικολογισμικό δεν υποστηρίζει το Secure Boot\n"
+"Η κατάσταση "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:191
+msgid "Secure Boot state could not be determined"
+msgstr "Secure Boot δεν μπορεί να προσδιοριστεί"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:194
+msgid "Secure Boot is disabled"
+msgstr "Το Secure Boot είναι απενεργοποιημένο"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:200
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:202
+msgid "Not required without firmware enforcement"
+msgstr "Δεν απαιτείται χωρίς επιβολή υλικολογισμικού"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:206
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:210
+msgid "Not checked because Secure Boot state is unknown"
+msgstr "Δεν ελέγχθηκε επειδή η κατάσταση Secure Boot είναι άγνωστη"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:215
+msgid "Certificate generated locally"
+msgstr "Το πιστοποιητικό δημιουργήθηκε τοπικά"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:217
+msgid "Missing local certificate"
+msgstr "Λείπει τοπικό πιστοποιητικό"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:230
+msgid "Certificate is trusted by motherboard"
+msgstr "Το πιστοποιητικό εμπιστεύεται η μητρική πλακέτα"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:234
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr "Σε εκκρεμότητα εγγραφής σε μπλε οθόνη (MOKManager)"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:239
+msgid "Certificate is not trusted by motherboard"
+msgstr "Το πιστοποιητικό δεν είναι αξιόπιστο από τη μητρική πλακέτα"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:245
+msgid "Kernel signature enforcement is inactive"
+msgstr "Η επιβολή υπογραφής πυρήνα είναι ανενεργή"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:248
+msgid "Driver trust cannot be verified"
+msgstr ""
+"Δεν είναι δυνατή η επαλήθευση της εμπιστοσύνης του προγράμματος οδήγησης"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:252
+msgid ""
+"Secure Boot trust is ready. No third-party kernel modules are currently "
+"installed."
+msgstr ""
+"Το αξιόπιστο Secure Boot είναι έτοιμο. Δεν υπάρχουν επί του παρόντος "
+"εγκατεστημένες λειτουργικές μονάδες πυρήνα τρίτου μέρους."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:256
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:447
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:455
+msgid "Drivers are signed and ready to load"
+msgstr "Οι οδηγοί είναι υπογεγραμμένοι και έτοιμοι για φόρτωση"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:260
+msgid "Drivers are trusted, but automatic DKMS signing needs repair"
+msgstr ""
+"Τα προγράμματα οδήγησης είναι αξιόπιστα, αλλά η αυτόματη υπογραφή DKMS "
+"χρειάζεται επισκευή"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:264
+msgid "No signed third-party drivers detected"
+msgstr "Δεν εντοπίστηκαν υπογεγραμμένοι οδηγοί τρίτων"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:267
+msgid "Some DKMS modules need to be re-signed"
+msgstr "Ορισμένες μονάδες DKMS πρέπει να υπογραφούν εκ νέου"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:272
+msgid "Enroll Existing Certificate"
+msgstr "Εγγραφή υπάρχοντος πιστοποιητικού"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:282
+msgid "Repair Automatic DKMS Signing"
+msgstr "Επισκευή αυτόματης υπογραφής DKMS"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:299
+msgid "This firmware does not provide Secure Boot. No certificate is required."
+msgstr ""
+"Αυτό το υλικολογισμικό δεν παρέχει Secure Boot. Δεν απαιτείται πιστοποιητικό."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:306
+msgid ""
+"Secure Boot status could not be read. Driver trust operations are blocked "
+"until detection succeeds."
+msgstr ""
+"Δεν ήταν δυνατή η ανάγνωση της κατάστασης Secure Boot. Οι λειτουργίες "
+"αξιοπιστίας προγραμμάτων οδήγησης μπλοκάρονται μέχρι να επιτύχει ο "
+"εντοπισμός."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:311
+msgid "No certificate is required while Secure Boot is disabled."
+msgstr ""
+"Δεν απαιτείται πιστοποιητικό όταν το Secure Boot είναι απενεργοποιημένο."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:314
+msgid "System Trust Established. Third-party drivers will load securely."
+msgstr ""
+"Ιδρύθηκε Εμπιστοσύνη Συστήματος. Οι οδηγοί τρίτων θα φορτωθούν με ασφάλεια."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:318
+msgid "The certificate is enrolled and current drivers are trusted."
+msgstr ""
+"Το πιστοποιητικό έχει εγγραφεί και τα τρέχοντα προγράμματα οδήγησης είναι "
+"αξιόπιστα."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:320
+msgid "Repair automatic DKMS signing before future driver updates."
+msgstr ""
+"Επισκευάστε την αυτόματη υπογραφή DKMS πριν από μελλοντικές ενημερώσεις "
+"προγραμμάτων οδήγησης."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:325
+msgid "The certificate is enrolled, but some modules are not signed with it."
+msgstr ""
+"Το πιστοποιητικό έχει εγγραφεί, αλλά ορισμένες ενότητες δεν έχουν υπογραφεί "
+"με αυτό."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:330
+msgid "A certificate is waiting for enrollment."
+msgstr "Ένα πιστοποιητικό περιμένει για εγγραφή."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:332
+msgid "Restart and enter password 123456 in MOKManager."
+msgstr ""
+"Κάντε επανεκκίνηση και εισαγάγετε τον κωδικό πρόσβασης 123456 στο MOKManager."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:337
+msgid "The local trust certificate is not yet enrolled."
+msgstr "Το πιστοποιητικό τοπικής εμπιστοσύνης δεν έχει εγγραφεί ακόμη."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:339
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:346
+msgid "You must configure this to use third-party drivers like NVIDIA."
+msgstr ""
+"Πρέπει να το διαμορφώσετε για να χρησιμοποιήσετε οδηγούς τρίτων όπως ο "
+"NVIDIA."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:344
+msgid "The local trust certificate is missing."
+msgstr "Το πιστοποιητικό τοπικής εμπιστοσύνης λείπει."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:362
+msgid "  Checking...  "
+msgstr "  Έλεγχος...  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:368
+msgid "Reboot Required"
+msgstr "Απαιτείται Επανεκκίνηση"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:369
+msgid "Please trust the certificate upon reboot using password 123456."
+msgstr ""
+"Παρακαλώ εμπιστευτείτε το πιστοποιητικό κατά την επανεκκίνηση "
+"χρησιμοποιώντας τον κωδικό 123456."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:371
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:372
+msgid "Reboot"
+msgstr "Επανεκκίνηση"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:380
+msgid "Success! When you reboot, a blue screen will appear."
+msgstr "Επιτυχία! Όταν κάνετε επανεκκίνηση, θα εμφανιστεί μια μπλε οθόνη."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:384
+msgid "Select 'Enroll MOK' → 'Continue' → 'Yes', and enter password: 123456"
+msgstr ""
+"Επιλέξτε 'Enroll MOK' → 'Συνέχεια' → 'Ναι', και εισάγετε κωδικό: 123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:388
+msgid "Certificate Created"
+msgstr "Δημιουργήθηκε Πιστοποιητικό"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:391
+msgid "Later"
+msgstr "Αργότερα"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:420
+msgid "Secure Boot Trust Not Required"
+msgstr "Secure Boot Δεν απαιτείται εμπιστοσύνη"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:421
+msgid "Firmware signature enforcement is not active."
+msgstr "Η επιβολή υπογραφής υλικολογισμικού δεν είναι ενεργή."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:423
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:441
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:449
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:457
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:473
+msgid "OK"
+msgstr "Εντάξει"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:431
+msgid ""
+"The certificate is ready, but one or more DKMS modules could not be rebuilt. "
+"You can repair them after enrollment."
+msgstr ""
+"Το πιστοποιητικό είναι έτοιμο, αλλά μία ή περισσότερες μονάδες DKMS δεν ήταν "
+"δυνατό να αναδημιουργηθούν. Μπορείτε να τα επισκευάσετε μετά την εγγραφή σας."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:439
+msgid "Configuration needs attention"
+msgstr "Η διαμόρφωση χρειάζεται προσοχή"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:446
+msgid "System Trust Established"
+msgstr "Ιδρύθηκε η εμπιστοσύνη συστήματος"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:454
+msgid "Driver Signature Trusted"
+msgstr "Αξιόπιστο Ψηφιακό Υπογραφής Οδηγού"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:470
+msgid "Configuration failed. Please try again."
+msgstr "Η διαμόρφωση απέτυχε. Παρακαλώ δοκιμάστε ξανά."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:471
+msgid "Please check the advanced output."
+msgstr "Παρακαλώ ελέγξτε τις προηγμένες εξόδους."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:482
+msgid "Generating & Signing..."
+msgstr "Δημιουργία & Υπογραφή..."
+
+#~ msgid "Unleash Your Graphics Hardware"
+#~ msgstr "Εκτοξεύστε το Υλικό Γραφικών σας"
+
+#, python-brace-format
+#~ msgid "NVIDIA proprietary driver is already installed. (Version: {})"
+#~ msgstr "Ο ιδιόκτητος οδηγός NVIDIA είναι ήδη εγκατεστημένος. (Έκδοση: {})"
+
+#~ msgid "✗ Installation encountered an issue."
+#~ msgstr "✗ Η εγκατάσταση αντιμετώπισε πρόβλημα."
+
+#~ msgid "An NVIDIA dedicated graphics card was detected in your system."
+#~ msgstr "Ανιχνεύθηκε κάρτα γραφικών NVIDIA dedicated στο σύστημά σας."
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop"
+#~ msgstr ""
+#~ "\tΓια απόλυτη ομαλότητα στο gaming, την 3D αποτύπωση και τη γραφική "
+#~ "επιφάνεια υψηλού ρυθμού ανανέωσης"
+
+#~ msgid "experiences, we recommend installing the proprietary driver."
+#~ msgstr "εμπειρίες, συνιστούμε την εγκατάσταση του ιδιόκτητου οδηγού."
+
+#~ msgid "  Check for Driver Updates  "
+#~ msgstr "Έλεγχος για Ενημερώσεις Οδηγών"
+
+#~ msgid "Repair & Reinstall"
+#~ msgstr "Επισκευή και επανεγκατάσταση"
+
+#~ msgid "  One-Click NVIDIA Driver Install  "
+#~ msgstr "Εγκατάσταση Οδηγού NVIDIA με ένα Κλικ"
+
+#~ msgid "Installing NVIDIA driver…"
+#~ msgstr "Εγκατάσταση οδηγού NVIDIA…"
+
+#~ msgid "This may take several minutes."
+#~ msgstr "Αυτό μπορεί να πάρει αρκετά λεπτά."
+
+#~ msgid "✓ Driver installed successfully!"
+#~ msgstr "✓ Ο οδηγός εγκαταστάθηκε επιτυχώς!"
+
+#~ msgid "You can install drivers later from Settings."
+#~ msgstr "Μπορείτε να εγκαταστήσετε τους οδηγούς αργότερα από τις Ρυθμίσεις."
+
+#~ msgid "Xbox Controller Support"
+#~ msgstr "Υποστήριξη Χεριστηρίου Xbox"
+
+#~ msgid "Xbox controller driver (xpadneo) is already installed."
+#~ msgstr "Ο οδηγός χειριστηρίου Xbox (xpadneo) είναι ήδη εγκατεστημένος."
+
+#~ msgid ""
+#~ "Enjoy seamless Xbox controller support with rumble and accurate inputs."
+#~ msgstr ""
+#~ "Απολαύστε άψογη υποστήριξη χειριστηρίου Xbox με rumble και ακριβείς "
+#~ "εισόδους."
+
+#~ msgid "Andiora provides native support for Xbox controllers via Bluetooth."
+#~ msgstr ""
+#~ "Το Andiora παρέχει φυσική υποστήριξη για χειριστήρια Xbox μέσω Bluetooth."
+
+#~ msgid "The advanced xpadneo driver is already set up and ready for gaming."
+#~ msgstr ""
+#~ "Ο προηγμένος οδηγός xpadneo είναι ήδη ρυθμισμένος και έτοιμος για "
+#~ "παιχνίδια."
+
+#~ msgid ""
+#~ "For advanced features like rumble and accurate mapping, we recommend "
+#~ "installing the xpadneo driver."
+#~ msgstr ""
+#~ "Για προηγμένα χαρακτηριστικά όπως η δόνηση και η ακριβής χαρτογράφηση, "
+#~ "συνιστούμε την εγκατάσταση του οδηγού xpadneo."
+
+#~ msgid "Xbox Controller Driver Installed"
+#~ msgstr "Ο οδηγός ελεγκτή Xbox εγκατεστημένος"
+
+#~ msgid "The xpadneo driver is currently installed"
+#~ msgstr "Ο οδηγός xpadneo είναι εγκατεστημένος αυτή τη στιγμή"
+
+#~ msgid "The driver is not installed"
+#~ msgstr "Ο οδηγός δεν έχει εγκατασταθεί"
+
+#~ msgid "Driver not installed, signature missing"
+#~ msgstr "Ο οδηγός δεν έχει εγκατασταθεί, λείπει η ψηφιακή υπογραφή"
+
+#~ msgid "Kernel module"
+#~ msgstr "Μονάδα πυρήνα"
+
+#~ msgid "Not detected"
+#~ msgstr "Δεν εντοπίστηκε"
+
+#~ msgid "Driver is NOT signed"
+#~ msgstr "Ο οδηγός ΔΕΝ έχει υπογραφεί"
+
+#~ msgid "Signed with current trusted certificate"
+#~ msgstr "Υπογεγραμμένο με τρέχον αξιόπιστο πιστοποιητικό"
+
+#~ msgid "Signed with current certificate, but not enrolled"
+#~ msgstr "Υπογεγραμμένο με τρέχον πιστοποιητικό, αλλά όχι καταχωρημένο"
+
+#~ msgid "Signed with an unknown or outdated certificate"
+#~ msgstr "Υπογεγραμμένο με άγνωστο ή ξεπερασμένο πιστοποιητικό"
+
+#~ msgid "Controller Status"
+#~ msgstr "Κατάσταση Ελεγκτή"
+
+#~ msgid "Driver loaded and active. Ready to play!"
+#~ msgstr "Ο οδηγός φορτώθηκε και είναι ενεργός. Έτοιμος για χρήση!"
+
+#~ msgid "Driver standing by. Waiting for controller connection..."
+#~ msgstr "Ο οδηγός σε αναμονή. Αναμονή σύνδεσης ελεγκτή..."
+
+#~ msgid "Driver cannot load due to missing signature trust"
+#~ msgstr ""
+#~ "Ο οδηγός δεν μπορεί να φορτωθεί λόγω έλλειψης εμπιστοσύνης στην ψηφιακή "
+#~ "υπογραφή"
+
+#~ msgid "Pair your controller"
+#~ msgstr "Συνδέστε τον χειριστή σας"
+
+#~ msgid "Test your controller"
+#~ msgstr "Δοκιμάστε τον χειριστή σας"
+
+#~ msgid "  Install Xbox Driver  "
+#~ msgstr "Εγκατάσταση οδηγού Xbox"
+
+#~ msgid ""
+#~ "⚠️ The driver signature does not match your system certificate. Click Fix "
+#~ "& Reinstall to repair the driver."
+#~ msgstr ""
+#~ "⚠️ Η υπογραφή του προγράμματος οδήγησης δεν ταιριάζει με το πιστοποιητικό "
+#~ "συστήματός σας. Πατήστε Fix & Reinstall για να επισκευάσετε το πρόγραμμα "
+#~ "οδήγησης."
+
+#~ msgid "Installing Xbox controller driver…"
+#~ msgstr "Εγκατάσταση οδηγού χειριστηρίου Xbox…"
+
+#~ msgid "This may take a minute."
+#~ msgstr "Αυτό μπορεί να πάρει ένα λεπτό."
+
+#~ msgid "Repairing driver signature…"
+#~ msgstr "Επισκευή υπογραφής προγραμμάτων οδήγησης…"
+
+#~ msgid "A reboot is recommended to apply changes."
+#~ msgstr "Συνιστάται επανεκκίνηση για την εφαρμογή των αλλαγών."
+
+#~ msgid "  Fix & Reinstall Driver  "
+#~ msgstr "Εγκατάσταση οδηγού Xbox"
+
+#~ msgid "(Reboot recommended)"
+#~ msgstr "(Συνιστάται επανεκκίνηση)"
+
+#~ msgid "Cannot sign drivers without a certificate"
+#~ msgstr "Αδυναμία υπογραφής οδηγών χωρίς πιστοποιητικό"
+
+#~ msgid ""
+#~ "Enable low-level network protection — silently blocks all unauthorized "
+#~ "inbound connections."
+#~ msgstr ""
+#~ "Ενεργοποίηση προστασίας δικτύου χαμηλού επιπέδου — αποκλείει σιωπηλά όλες "
+#~ "τις μη εξουσιοδοτημένες εισερχόμενες συνδέσεις."
+
+#~ msgid "Firewall"
+#~ msgstr "Τείχος προστασίας (Firewall)"
+
+#~ msgid "Local MOK Certificate"
+#~ msgstr "Τοπικό Πιστοποιητικό MOK"
+
+#~ msgid ""
+#~ "Please configure Secure Boot in the previous step before installing this "
+#~ "driver."
+#~ msgstr ""
+#~ "Παρακαλώ κάντε επανεκκίνηση για να καταχωρήσετε το πιστοποιητικό πριν "
+#~ "εγκαταστήσετε αυτόν τον οδηγό."
+
+#~ msgid ""
+#~ "Please reboot to enroll the certificate before installing this driver."
+#~ msgstr ""
+#~ "Παρακαλώ κάντε επανεκκίνηση για να καταχωρήσετε το πιστοποιητικό πριν "
+#~ "εγκαταστήσετε αυτόν τον οδηγό."
+
+#~ msgid "Scanning for installed drivers..."
+#~ msgstr "Σάρωση για εγκατεστημένους οδηγούς..."
+
+#~ msgid "Secure Boot Enabled"
+#~ msgstr "Secure Boot Ενεργοποιημένο"
+
+#~ msgid "The local trust certificate is missing or not yet enrolled."
+#~ msgstr ""
+#~ "Το τοπικό πιστοποιητικό εμπιστοσύνης λείπει ή δεν έχει ακόμη εγγραφεί."
+
+#~ msgid "Third-party Drivers"
+#~ msgstr "Οδηγοί Τρίτων"
+
+#~ msgid "UEFI Firmware Trust"
+#~ msgstr "Εμπιστοσύνη UEFI Firmware"
+
+#~ msgid ""
+#~ "⚠️ Secure Boot is enabled but the custom certificate is not yet enrolled."
+#~ msgstr ""
+#~ "⚠️ Το Secure Boot είναι ενεργοποιημένο αλλά το προσαρμοσμένο πιστοποιητικό "
+#~ "δεν έχει καταχωρηθεί ακόμη."
+
+#~ msgid "✓ Xbox controller driver installed successfully!"
+#~ msgstr "✓ Ο οδηγός χειριστηρίου Xbox εγκαταστάθηκε επιτυχώς!"
+
+#~ msgid "✗ Repair failed."
+#~ msgstr "✗ Η ανάπτυξη απέτυχε."
+
+#~ msgid "⚡ The following apps are provided by the Spark Store community."
+#~ msgstr ""
+#~ "⚡ Οι παρακάτω εφαρμογές παρέχονται από την κοινότητα του Spark Store."
+
+#~ msgid "Great for connecting to local services."
+#~ msgstr "Ιδανικό για σύνδεση σε τοπικές υπηρεσίες."
+
+#~ msgid "Spark Store"
+#~ msgstr "Spark Store"
+
+#~ msgid "Community app store for Chinese Linux users"
+#~ msgstr "Κατάστημα εφαρμογών κοινότητας για χρήστες Linux στην Κίνα"
+
+#~ msgid "Note: These apps link to their official or community download pages."
+#~ msgstr ""
+#~ "Σημείωση: Αυτές οι εφαρμογές συνδέονται με τις επίσημες ή κοινότητες "
+#~ "σελίδες λήψης τους."
+
+#~ msgid " Andiora is not affiliated with these vendors."
+#~ msgstr "Το Andiora δεν συνδέεται με αυτούς τους προμηθευτές."
+
+#~ msgid ""
+#~ "Andiora is ready. Just a few steps to shape it\n"
+#~ "into the perfect system tailored to your habits."
+#~ msgstr ""
+#~ "Το Andiora είναι έτοιμο. Απομένουν λίγα βήματα για να το διαμορφώσετε\n"
+#~ "σε ένα ιδανικό σύστημα προσαρμοσμένο στις συνήθειές σας."
+
+#~ msgid "=== Testing mirror speeds ===\n"
+#~ msgstr "=== Δοκιμή ταχυτήτων καθρέφτη ==="
+
+#~ msgid ""
+#~ "\n"
+#~ "No mirrors reachable.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Δεν υπάρχουν προσβάσιμοι καθρέφτες.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Applying mirror switch ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== Εφαρμογή εναλλαγής καθρέφτη ===\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "✓ Mirror switched and system updated.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "✓ Ο καθρέφτης έχει εναλλαχθεί και το σύστημα ενημερώθηκε.\n"
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop\n"
+#~ "experiences, we recommend installing the proprietary driver."
+#~ msgstr ""
+#~ "Για απόλυτη ομαλότητα στο gaming, την 3D μοντελοποίηση και εμπειρίες "
+#~ "desktop υψηλού framerate, συνιστούμε την εγκατάσταση του ιδιόκτητου "
+#~ "οδηγού."
+
+#~ msgid ""
+#~ "Installing NVIDIA driver…\n"
+#~ "This may take several minutes."
+#~ msgstr ""
+#~ "Εγκατάσταση οδηγού NVIDIA…\n"
+#~ "Αυτό μπορεί να διαρκέσει αρκετά λεπτά."
+
+#~ msgid ""
+#~ "✗ Installation encountered an issue.\n"
+#~ "You can install drivers later from Settings."
+#~ msgstr ""
+#~ "✗ Προέκυψε πρόβλημα κατά την εγκατάσταση.\n"
+#~ "Μπορείτε να εγκαταστήσετε τους οδηγούς αργότερα από τις Ρυθμίσεις."
+
+#~ msgid ""
+#~ "Powered by Wine and Bottles technology, running classic Windows "
+#~ "applications\n"
+#~ "is now easier than ever."
+#~ msgstr ""
+#~ "Με την τεχνολογία Wine και Bottles, η εκτέλεση κλασικών εφαρμογών "
+#~ "Windows\n"
+#~ "είναι τώρα πιο εύκολη από ποτέ."
+
+#~ msgid ""
+#~ "Deploying compatibility sandbox via Flatpak…\n"
+#~ "This may take a few minutes."
+#~ msgstr ""
+#~ "Τοποθέτηση περιβάλλοντος συμβατότητας μέσω Flatpak…\n"
+#~ "Αυτό μπορεί να πάρει λίγα λεπτά."
+
+#~ msgid ""
+#~ "✓ Sandbox deployed successfully!\n"
+#~ "You can now double-click .exe files to run them."
+#~ msgstr ""
+#~ "✓ Το περιβάλλον τοποθετήθηκε επιτυχώς!\n"
+#~ "Μπορείτε τώρα να κάνετε διπλό κλικ στα αρχεία .exe για να τα εκτελέσετε."
+
+#~ msgid ""
+#~ "✗ Deployment failed.\n"
+#~ "You can install Bottles later from the App Store."
+#~ msgstr ""
+#~ "✗ Η τοποθέτηση απέτυχε.\n"
+#~ "Μπορείτε να εγκαταστήσετε το Bottles αργότερα από το App Store."
+
+#~ msgid ""
+#~ "Essential productivity and entertainment tools, hand-picked for you.\n"
+#~ "Click any app to open its details in the App Store."
+#~ msgstr ""
+#~ "Απαραίτητα εργαλεία παραγωγικότητας και ψυχαγωγίας, επιλεγμένα με "
+#~ "φροντίδα για εσάς.\n"
+#~ "Κάντε κλικ σε οποιαδήποτε εφαρμογή για να ανοίξετε τις λεπτομέρειές της "
+#~ "στο App Store."
+
+#~ msgid ""
+#~ "⚡ The following apps are provided by the Spark Store community.\n"
+#~ "Great for connecting to local services."
+#~ msgstr ""
+#~ "⚡ Οι ακόλουθες εφαρμογές παρέχονται από την κοινότητα του Spark Store.\n"
+#~ "Ιδανικές για σύνδεση με τοπικές υπηρεσίες."
+
+#~ msgid ""
+#~ "Pro tip: You can explore these apps in the App Store,\n"
+#~ "and continue with the system setup while they download."
+#~ msgstr ""
+#~ "Συμβουλή: Μπορείτε να εξερευνήσετε αυτές τις εφαρμογές στο App Store,\n"
+#~ "και να συνεχίσετε με την εγκατάσταση του συστήματος ενώ κατεβάζονται."
+
+#~ msgid ""
+#~ "Note: These apps link to their official or community download pages. "
+#~ "Andiora is not affiliated with these vendors."
+#~ msgstr ""
+#~ "Σημείωση: Αυτές οι εφαρμογές συνδέουν με τις επίσημες ή κοινότητες "
+#~ "σελίδες λήψης τους. Η Andiora δεν έχει σχέση με αυτούς τους "
+#~ "κατασκευαστές."
+
+#~ msgid ""
+#~ "Connect your Google, Microsoft,\n"
+#~ "or Nextcloud accounts to sync\n"
+#~ "files, contacts, and calendar."
+#~ msgstr ""
+#~ "Συνδέστε τους λογαριασμούς Google, Microsoft,\n"
+#~ "ή Nextcloud για συγχρονισμό\n"
+#~ "αρχείων, επαφών και ημερολογίου."
+
+#~ msgid ""
+#~ "Use Deja Dup to protect your\n"
+#~ "important files with automated,\n"
+#~ "secure local or remote backups."
+#~ msgstr ""
+#~ "Χρησιμοποιήστε το Deja Dup για να προστατέψετε τα\n"
+#~ "σημαντικά σας αρχεία με αυτοματοποιημένα,\n"
+#~ "ασφαλή τοπικά ή απομακρυσμένα αντίγραφα ασφαλείας."
+
+#~ msgid ""
+#~ "Andiora disables all system-level telemetry by default.\n"
+#~ "We do not collect your usage habits.\n"
+#~ "We do not upload your search history.\n"
+#~ "There are no pervasive advertisements."
+#~ msgstr ""
+#~ "Η Andiora απενεργοποιεί όλα τα τηλεμετρία συστήματος από προεπιλογή.\n"
+#~ "Δεν συλλέγουμε τις συνήθειές σας.\n"
+#~ "Δεν ανεβάζουμε την ιστορικό αναζήτησής σας.\n"
+#~ "Δεν υπάρχουν διαφημίσεις παντού."
+
+#~ msgid ""
+#~ "In an era ruled by algorithms and surveillance,\n"
+#~ "this is our firmest commitment to you."
+#~ msgstr ""
+#~ "Σε μια εποχή που κυβερνάται από αλγορίθμους και παρακολούθηση,\n"
+#~ "αυτό είναι η πιο σφιχτή δέσμευσή μας προς εσάς."
+
+#~ msgid ""
+#~ "Whether you're a Windows refugee seeking shelter,\n"
+#~ "or a hardcore geek developer — you'll find your tribe here.\n"
+#~ "Found a bug? Want a feature? Tell us anytime."
+#~ msgstr ""
+#~ "Είτε είστε πρόσφυγας των Windows που αναζητά καταφύγμα,\n"
+#~ "είτε hardcore geek developer — θα βρείτε την ομάδα σας εδώ.\n"
+#~ "Βρήκατε bug; Θέλετε μια λειτουργία; Πείτε μας οποιαδήποτε στιγμή."
+
+#~ msgid ""
+#~ "💡 Andiora is compatible with Ubuntu's entire ecosystem.\n"
+#~ "You can rely on Ubuntu's vast documentation and expertise."
+#~ msgstr ""
+#~ "💡 Το Andiora είναι συμβατό με ολόκληρο το οικοσύστημα του Ubuntu.\n"
+#~ "Μπορείτε να βασιστείτε στην τεράστια τεκμηρίωση και expertise του Ubuntu."
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Testing bandwidth of top 3 mirrors (3 s each) ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== Δοκιμή εύρους ζώνης των κορυφαίων 3 καθρεφτών (3 s το καθένα) ===\n"
+
+#~ msgid ""
+#~ "✓ Driver installed successfully!\n"
+#~ "A reboot is recommended to apply changes."
+#~ msgstr ""
+#~ "✓ Ο οδηγός εγκαταστάθηκε με επιτυχία!\n"
+#~ "Συνιστάται επανεκκίνηση για την εφαρμογή των αλλαγών."

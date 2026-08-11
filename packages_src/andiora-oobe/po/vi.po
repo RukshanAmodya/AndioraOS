@@ -1,0 +1,1798 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-09 15:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: vi <LL@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: andiora-oobe/assets/andiora-oobe:371
+msgid "Disk Snapshots Manager"
+msgstr "Trình quản lý ảnh chụp đĩa"
+
+#: andiora-oobe/assets/andiora-oobe:373
+msgid "Protect your system with automatic Btrfs snapshots and smart cleanup."
+msgstr ""
+"Bảo vệ hệ thống của bạn bằng ảnh chụp nhanh Btrfs tự động và dọn dẹp thông "
+"minh."
+
+#: andiora-oobe/assets/andiora-oobe:375
+msgid "Configure Automatic Snapshots"
+msgstr "Định cấu hình ảnh chụp nhanh tự động"
+
+#: andiora-oobe/assets/andiora-oobe:380
+msgid "System Backup"
+msgstr "Sao lưu Hệ thống"
+
+#: andiora-oobe/assets/andiora-oobe:382
+msgid "Use Deja Dup to protect your"
+msgstr "Sử dụng Deja Dup để bảo vệ"
+
+#: andiora-oobe/assets/andiora-oobe:383
+msgid "important files with automated,"
+msgstr "các tệp quan trọng với việc tự động hóa,"
+
+#: andiora-oobe/assets/andiora-oobe:384
+msgid "secure local or remote backups."
+msgstr "sao lưu cục bộ hoặc từ xa an toàn."
+
+#: andiora-oobe/assets/andiora-oobe:386
+msgid "Get Deja Dup"
+msgstr "Tải về Deja Dup"
+
+#: andiora-oobe/assets/andiora-oobe:457
+msgid "NetworkManager could not scan Wi-Fi."
+msgstr "Trình quản lý mạng không thể quét Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:520
+msgid "Could not inspect network adapters."
+msgstr "Không thể kiểm tra bộ điều hợp mạng."
+
+#: andiora-oobe/assets/andiora-oobe:530
+msgid "Could not read the Wi-Fi radio state."
+msgstr "Không thể đọc trạng thái sóng Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:536
+msgid "Unknown Wi-Fi radio state: {}"
+msgstr "Trạng thái sóng Wi-Fi không xác định: {}"
+
+#: andiora-oobe/assets/andiora-oobe:537
+msgid "empty"
+msgstr "trống"
+
+#: andiora-oobe/assets/andiora-oobe:546
+msgid "Could not change the Wi-Fi radio state."
+msgstr "Không thể thay đổi trạng thái sóng Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:648
+msgid "Welcome Home."
+msgstr "Chào mừng bạn về nhà."
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "Andiora is ready. Just a few steps to shape it"
+msgstr "Andiora đã sẵn sàng. Chỉ vài bước nữa là hoàn tất"
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "into the perfect system tailored to your habits."
+msgstr "thành hệ thống hoàn hảo được tùy chỉnh theo thói quen của bạn."
+
+#: andiora-oobe/assets/andiora-oobe:668
+msgid "  Start Setup  "
+msgstr "Bắt đầu thiết lập"
+
+#: andiora-oobe/assets/andiora-oobe:715
+msgid "Connect to the Internet"
+msgstr "Kết nối với Internet"
+
+#: andiora-oobe/assets/andiora-oobe:723
+msgid ""
+"Connect now so Andiora can safely check for updates, drivers, and apps."
+msgstr ""
+"Kết nối ngay bây giờ để Andiora có thể kiểm tra các bản cập nhật, trình "
+"điều khiển và ứng dụng một cách an toàn."
+
+#: andiora-oobe/assets/andiora-oobe:731
+msgid "Internet Connection"
+msgstr "Kết nối Internet"
+
+#: andiora-oobe/assets/andiora-oobe:738
+msgid "Network Hardware"
+msgstr "Phần cứng mạng"
+
+#: andiora-oobe/assets/andiora-oobe:746
+msgid "Available Wi-Fi Networks"
+msgstr "Mạng Wi-Fi khả dụng"
+
+#: andiora-oobe/assets/andiora-oobe:748
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:751
+msgid "Scan Again"
+msgstr "Quét lại"
+
+#: andiora-oobe/assets/andiora-oobe:760
+#: andiora-oobe/assets/andiora-oobe:832
+#: andiora-oobe/assets/andiora-oobe:840
+#: andiora-oobe/assets/andiora-oobe:855
+msgid "Open Network Settings"
+msgstr "Mở cài đặt mạng"
+
+#: andiora-oobe/assets/andiora-oobe:769
+msgid "Could not open network settings: {}"
+msgstr "Không thể mở cài đặt mạng: {}"
+
+#: andiora-oobe/assets/andiora-oobe:779
+msgid "Continue Offline"
+msgstr "Tiếp tục ngoại tuyến"
+
+#: andiora-oobe/assets/andiora-oobe:783
+msgid "Skip updates, online drivers, apps, and account setup."
+msgstr ""
+"Bỏ qua các bản cập nhật, trình điều khiển trực tuyến, ứng dụng và thiết lập "
+"tài khoản."
+
+#: andiora-oobe/assets/andiora-oobe:799
+msgid "Internet connection is ready. Choose Next to continue."
+msgstr "Kết nối Internet đã sẵn sàng. Chọn Tiếp theo để tiếp tục."
+
+#: andiora-oobe/assets/andiora-oobe:806
+msgid "Connect to Wi-Fi or a wired network to continue."
+msgstr "Kết nối với Wi-Fi hoặc mạng có dây để tiếp tục."
+
+#: andiora-oobe/assets/andiora-oobe:829
+msgid "No network adapters detected."
+msgstr "Không phát hiện thấy bộ điều hợp mạng nào."
+
+#: andiora-oobe/assets/andiora-oobe:831
+msgid "Connect a network adapter or continue offline."
+msgstr "Kết nối bộ điều hợp mạng hoặc tiếp tục ngoại tuyến."
+
+#: andiora-oobe/assets/andiora-oobe:836
+msgid "Wired Network"
+msgstr "Mạng có dây"
+
+#: andiora-oobe/assets/andiora-oobe:838
+msgid "Cable connected."
+msgstr "Đã kết nối cáp."
+
+#: andiora-oobe/assets/andiora-oobe:839
+msgid "Plug in a network cable to connect."
+msgstr "Cắm cáp mạng để kết nối."
+
+#: andiora-oobe/assets/andiora-oobe:844
+msgid "Wireless Network"
+msgstr "Mạng không dây"
+
+#: andiora-oobe/assets/andiora-oobe:845
+msgid "Wi-Fi adapter detected."
+msgstr "Đã phát hiện bộ điều hợp Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:846
+msgid "Open Wi-Fi Settings"
+msgstr "Mở cài đặt Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:850
+msgid "Wired and Wireless Networks"
+msgstr "Mạng có dây và không dây"
+
+#: andiora-oobe/assets/andiora-oobe:852
+msgid "Cable connected and Wi-Fi available."
+msgstr "Đã kết nối cáp và có Wi-Fi."
+
+#: andiora-oobe/assets/andiora-oobe:854
+msgid "Wi-Fi is available; the network cable is disconnected."
+msgstr "Wi-Fi có sẵn; cáp mạng bị ngắt kết nối."
+
+#: andiora-oobe/assets/andiora-oobe:866
+msgid "Wi-Fi is turned off."
+msgstr "Wi-Fi đã tắt."
+
+#: andiora-oobe/assets/andiora-oobe:870
+msgid "No Wi-Fi networks found."
+msgstr "Không tìm thấy mạng Wi-Fi nào."
+
+#: andiora-oobe/assets/andiora-oobe:899
+msgid "Wi-Fi unavailable: {}"
+msgstr "Wi-Fi không có sẵn: {}"
+
+#: andiora-oobe/assets/andiora-oobe:981
+msgid "Define Your Visual Order"
+msgstr "Xác định trật tự hình ảnh của bạn"
+
+#: andiora-oobe/assets/andiora-oobe:991
+msgid "Light and Shadow"
+msgstr "Ánh sáng và Bóng tối"
+
+#: andiora-oobe/assets/andiora-oobe:992
+msgid "Choose a crisp light theme, or an immersive dark experience."
+msgstr "Chọn giao diện sáng sắc nét, hoặc trải nghiệm tối đắm chìm."
+
+#: andiora-oobe/assets/andiora-oobe:1011
+msgid "Light"
+msgstr "Sáng"
+
+#: andiora-oobe/assets/andiora-oobe:1023
+msgid "Dark"
+msgstr "Tối"
+
+#: andiora-oobe/assets/andiora-oobe:1054
+msgid "Workflow Layout"
+msgstr "Bố cục Công việc"
+
+#: andiora-oobe/assets/andiora-oobe:1055
+msgid "Prefer modern centered alignment, or classic left-docked?"
+msgstr "Bạn thích căn giữa hiện đại, hay neo trái cổ điển?"
+
+#: andiora-oobe/assets/andiora-oobe:1089
+msgid "Taskbar Layout"
+msgstr "Bố cục Thanh tác vụ"
+
+#: andiora-oobe/assets/andiora-oobe:1090
+msgid "Choose your workflow."
+msgstr "Chọn cách làm việc của bạn."
+
+#: andiora-oobe/assets/andiora-oobe:1099
+msgid " Modern "
+msgstr "Hiện đại"
+
+#: andiora-oobe/assets/andiora-oobe:1100
+msgid " Classic "
+msgstr "Cổ điển"
+
+#: andiora-oobe/assets/andiora-oobe:1129
+msgid "Show Virtual Desktop Switch Button"
+msgstr "Hiển thị nút chuyển đổi Màn hình ảo"
+
+#: andiora-oobe/assets/andiora-oobe:1130
+msgid "Display the Activities button on the taskbar"
+msgstr "Hiển thị nút Hoạt động trên thanh tác vụ"
+
+#: andiora-oobe/assets/andiora-oobe:1182
+msgid "Digital Sovereignty, Under Your Control"
+msgstr "Chủ quyền Số, Trong tầm kiểm soát của bạn"
+
+#: andiora-oobe/assets/andiora-oobe:1190
+msgid "We deeply value privacy. Here, you hold absolute authority."
+msgstr ""
+"Chúng tôi rất trân trọng quyền riêng tư. Tại đây, bạn nắm giữ quyền lực "
+"tuyệt đối."
+
+#: andiora-oobe/assets/andiora-oobe:1200
+msgid "Network Security"
+msgstr "An ninh mạng"
+
+#: andiora-oobe/assets/andiora-oobe:1202
+msgid ""
+"Control inbound protection and whether this computer participates in local "
+"network discovery."
+msgstr ""
+"Kiểm soát việc bảo vệ gửi đến và liệu máy tính này có tham gia khám phá mạng "
+"cục bộ hay không."
+
+#: andiora-oobe/assets/andiora-oobe:1207
+msgid "Network Firewall (UFW)"
+msgstr "Tường lửa Mạng (UFW)"
+
+#: andiora-oobe/assets/andiora-oobe:1260
+msgid "Local Network Discovery (mDNS)"
+msgstr "Khám phá mạng cục bộ (mDNS)"
+
+#: andiora-oobe/assets/andiora-oobe:1262
+msgid ""
+"Find printers and nearby devices, and make .local names available on trusted "
+"networks."
+msgstr ""
+"Tìm máy in và các thiết bị lân cận, đồng thời cung cấp tên .local trên các "
+"mạng đáng tin cậy."
+
+#: andiora-oobe/assets/andiora-oobe:1274
+msgid "Local network discovery controls are not installed."
+msgstr "Kiểm soát khám phá mạng cục bộ chưa được cài đặt."
+
+#: andiora-oobe/assets/andiora-oobe:1309
+msgid "Location Services"
+msgstr "Dịch vụ vị trí"
+
+#: andiora-oobe/assets/andiora-oobe:1311
+msgid ""
+"Allow apps like weather and clock to access your approximate geographic "
+"location."
+msgstr ""
+"Cho phép các ứng dụng như thời tiết và đồng hồ truy cập vị trí địa lý gần "
+"đúng của bạn."
+
+#: andiora-oobe/assets/andiora-oobe:1315
+msgid "Location Access"
+msgstr "Truy cập Vị trí"
+
+#: andiora-oobe/assets/andiora-oobe:1333
+msgid "Power Settings"
+msgstr "Cài đặt nguồn"
+
+#: andiora-oobe/assets/andiora-oobe:1334
+msgid "Manage idle behavior to balance energy saving and convenience."
+msgstr ""
+"Quản lý hành vi chờ để cân bằng giữa tiết kiệm năng lượng và sự tiện lợi."
+
+#: andiora-oobe/assets/andiora-oobe:1338
+msgid "Auto Sleep"
+msgstr "Tự động Ngủ"
+
+#: andiora-oobe/assets/andiora-oobe:1367
+msgid "Command-line Assistance"
+msgstr "Hỗ trợ dòng lệnh"
+
+#: andiora-oobe/assets/andiora-oobe:1368
+msgid "Control local bash predictions."
+msgstr "Kiểm soát dự đoán bash cục bộ."
+
+#: andiora-oobe/assets/andiora-oobe:1372
+msgid "Bash Command Predictions"
+msgstr "Dự đoán lệnh Bash"
+
+#: andiora-oobe/assets/andiora-oobe:1373
+msgid "Show command suggestions in bash"
+msgstr "Hiển thị gợi ý lệnh trong bash"
+
+#: andiora-oobe/assets/andiora-oobe:1390
+msgid ""
+"Could not update your Bash configuration. Your previous setting was kept."
+msgstr "Không thể cập nhật cấu hình Bash. Cài đặt trước đó đã được giữ nguyên."
+
+#: andiora-oobe/assets/andiora-oobe:1428
+msgid "Keep Your System Up to Date"
+msgstr "Giữ cho Hệ thống của Bạn luôn Cập nhật"
+
+#: andiora-oobe/assets/andiora-oobe:1437
+msgid "Security patches and the latest features are just a click away."
+msgstr ""
+"Bản vá bảo mật và các tính năng mới nhất chỉ cách bạn một cú nhấp chuột."
+
+#: andiora-oobe/assets/andiora-oobe:1447
+msgid "Terminal Output"
+msgstr "Kết quả Terminal"
+
+#: andiora-oobe/assets/andiora-oobe:1483
+msgid "  Do It Later  "
+msgstr "Thực hiện sau"
+
+#: andiora-oobe/assets/andiora-oobe:1486
+msgid "  Find Fastest Mirror  "
+msgstr "Tìm máy chủ phản chiếu nhanh nhất"
+
+#: andiora-oobe/assets/andiora-oobe:1489
+msgid "  Check for Updates  "
+msgstr "Kiểm tra cập nhật"
+
+#: andiora-oobe/assets/andiora-oobe:1523
+msgid "Checking for updates…"
+msgstr "Đang kiểm tra cập nhật…"
+
+#: andiora-oobe/assets/andiora-oobe:1555
+msgid "Updates are available."
+msgstr "Có bản cập nhật sẵn sàng."
+
+#: andiora-oobe/assets/andiora-oobe:1556
+msgid "  Install Updates  "
+msgstr "Cài đặt cập nhật"
+
+#: andiora-oobe/assets/andiora-oobe:1563
+msgid "✓ System is up to date."
+msgstr "✓ Hệ thống đã được cập nhật."
+
+#: andiora-oobe/assets/andiora-oobe:1565
+#: andiora-oobe/assets/andiora-oobe:1595
+msgid "  Continue  "
+msgstr "Tiếp tục"
+
+#: andiora-oobe/assets/andiora-oobe:1572
+msgid "✗ Check failed: "
+msgstr "✗ Kiểm tra thất bại:"
+
+#: andiora-oobe/assets/andiora-oobe:1578
+msgid "Installing updates…"
+msgstr "Đang cài đặt cập nhật…"
+
+#: andiora-oobe/assets/andiora-oobe:1593
+msgid "✓ Updates installed successfully!"
+msgstr "✓ Đã cài đặt cập nhật thành công!"
+
+#: andiora-oobe/assets/andiora-oobe:1604
+msgid "✗ Installation failed: "
+msgstr "✗ Cài đặt thất bại:"
+
+#: andiora-oobe/assets/andiora-oobe:1643
+msgid "Testing mirrors…"
+msgstr "Đang kiểm tra các máy chủ phản chiếu…"
+
+#: andiora-oobe/assets/andiora-oobe:1644
+msgid "=== Testing mirror speeds ==="
+msgstr "=== Đang kiểm tra tốc độ kho lưu trữ phản chiếu ==="
+
+#: andiora-oobe/assets/andiora-oobe:1769
+#: andiora-oobe/assets/andiora-oobe:1777
+#, python-brace-format
+msgid "Testing mirrors… ({c}/{t})"
+msgstr "Đang kiểm tra các máy chủ phản chiếu… ({c}/{t})"
+
+#: andiora-oobe/assets/andiora-oobe:1785
+msgid "No mirrors reachable."
+msgstr "Không tìm thấy kho lưu trữ phản chiếu nào."
+
+#: andiora-oobe/assets/andiora-oobe:1787
+msgid "✗ No mirrors reachable. Check your connection."
+msgstr ""
+"✗ Không có máy chủ phản chiếu nào khả dụng. Hãy kiểm tra kết nối mạng của "
+"bạn."
+
+#: andiora-oobe/assets/andiora-oobe:1795
+msgid "=== Testing bandwidth of top 5 mirrors "
+msgstr "=== Đang kiểm tra băng thông của 5 kho lưu trữ hàng đầu ==="
+
+#: andiora-oobe/assets/andiora-oobe:1796
+msgid "(3 s each) ==="
+msgstr "(3 s mỗi mục) ==="
+
+#: andiora-oobe/assets/andiora-oobe:1850
+msgid "Best mirror by bandwidth"
+msgstr "Máy chủ phản chiếu tốt nhất theo băng thông"
+
+#: andiora-oobe/assets/andiora-oobe:1852
+#: andiora-oobe/assets/andiora-oobe:1873
+#: andiora-oobe/assets/andiora-oobe:1880
+msgid "Latency"
+msgstr "Độ trễ"
+
+#: andiora-oobe/assets/andiora-oobe:1853
+#: andiora-oobe/assets/andiora-oobe:1874
+#: andiora-oobe/assets/andiora-oobe:1881
+msgid "Bandwidth"
+msgstr "Băng thông"
+
+#: andiora-oobe/assets/andiora-oobe:1875
+msgid "This is already your current mirror."
+msgstr "Đây đã là mirror hiện tại của bạn."
+
+#: andiora-oobe/assets/andiora-oobe:1885
+msgid "Current mirror"
+msgstr "Mirror hiện tại"
+
+#: andiora-oobe/assets/andiora-oobe:1889
+msgid "Switch to this mirror and run apt update?"
+msgstr "Chuyển sang mirror này và chạy apt update?"
+
+#: andiora-oobe/assets/andiora-oobe:1894
+msgid "Fastest Mirror Found"
+msgstr "Khám phá mirror nhanh nhất"
+
+#: andiora-oobe/assets/andiora-oobe:1897
+msgid "Keep Current"
+msgstr "Giữ nguyên"
+
+#: andiora-oobe/assets/andiora-oobe:1898
+msgid "Switch"
+msgstr "Chuyển đổi"
+
+#: andiora-oobe/assets/andiora-oobe:1920
+msgid "✗ Mirror test failed: "
+msgstr "✗ Kiểm tra mirror thất bại:"
+
+#: andiora-oobe/assets/andiora-oobe:1926
+msgid "Switching mirror…"
+msgstr "Đang chuyển đổi mirror…"
+
+#: andiora-oobe/assets/andiora-oobe:1927
+msgid "=== Applying mirror switch ==="
+msgstr "=== Đang chuyển đổi kho lưu trữ phản chiếu ==="
+
+#: andiora-oobe/assets/andiora-oobe:2002
+msgid "✓ Mirror switched and system updated."
+msgstr "✓ Đã chuyển đổi kho lưu trữ phản chiếu và cập nhật hệ thống."
+
+#: andiora-oobe/assets/andiora-oobe:2005
+msgid "✓ Switched to "
+msgstr "✓ Đã chuyển sang"
+
+#: andiora-oobe/assets/andiora-oobe:2018
+msgid "✗ Switch failed: "
+msgstr "✗ Chuyển đổi thất bại:"
+
+#: andiora-oobe/assets/andiora-oobe:2058
+msgid "Could not open Andiora Driver Center: {}"
+msgstr "Không thể mở Trung tâm Trình điều khiển Andiora: {}"
+
+#: andiora-oobe/assets/andiora-oobe:2092
+msgid "Configure Hardware Drivers?"
+msgstr "Cấu hình trình điều khiển phần cứng?"
+
+#: andiora-oobe/assets/andiora-oobe:2102
+msgid ""
+"Open Andiora Driver Center now to manage graphics cards, Xbox controllers, "
+"and other hardware."
+msgstr ""
+"Mở Trung tâm Trình điều khiển Andiora ngay để quản lý card đồ họa, tay cầm "
+"Xbox và các phần cứng khác."
+
+#: andiora-oobe/assets/andiora-oobe:2125
+msgid "Skip"
+msgstr "Bỏ qua"
+
+#: andiora-oobe/assets/andiora-oobe:2130
+msgid "Open Driver Center"
+msgstr "Mở Trung tâm Trình điều khiển"
+
+#: andiora-oobe/assets/andiora-oobe:2166
+msgid "Run Windows Apps, with ease"
+msgstr "Chạy ứng dụng Windows dễ dàng"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid ""
+"Powered by Wine and Bottles technology, running classic Windows applications"
+msgstr ""
+"\tĐược cung cấp bởi công nghệ Wine và Bottles, chạy các ứng dụng Windows cổ "
+"điển"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid "is now easier than ever."
+msgstr "trở nên dễ dàng hơn bao giờ hết."
+
+#: andiora-oobe/assets/andiora-oobe:2191
+msgid "✓ Windows compatibility sandbox is already installed."
+msgstr "✓ Môi trường cách ly tương thích Windows đã được cài đặt."
+
+#: andiora-oobe/assets/andiora-oobe:2207
+msgid "  Skip  "
+msgstr "Skip"
+
+#: andiora-oobe/assets/andiora-oobe:2211
+msgid "  Enable Windows Compatibility Sandbox  "
+msgstr "Bật Hộp cát tương thích Windows"
+
+#: andiora-oobe/assets/andiora-oobe:2221
+msgid "Configure Bottles"
+msgstr "Định cấu hình Bottles"
+
+#: andiora-oobe/assets/andiora-oobe:2236
+msgid "Advanced Output"
+msgstr "Đầu ra nâng cao"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "Deploying compatibility sandbox via Flatpak…"
+msgstr "Đang triển khai hộp cát tương thích qua Flatpak…"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "This may take a few minutes."
+msgstr "Việc này có thể mất vài phút."
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "✓ Sandbox deployed successfully!"
+msgstr "✓ Đã triển khai hộp cát thành công!"
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "You can now double-click .exe files to run them."
+msgstr "Bây giờ bạn có thể nhấp đúp vào các tệp .exe để chạy chúng."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "✗ Deployment failed."
+msgstr "✗ Triển khai không thành công."
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "You can install Bottles later from the App Store."
+msgstr "Bạn có thể cài đặt Bottles sau này từ Cửa hàng Ứng dụng."
+
+#: andiora-oobe/assets/andiora-oobe:2316
+msgid "✗ Error: "
+msgstr "✗ Lỗi:"
+
+#: andiora-oobe/assets/andiora-oobe:2347
+msgid "The Magic at Your Fingertips"
+msgstr "Nghệ thuật ngay trong tầm tay bạn"
+
+#: andiora-oobe/assets/andiora-oobe:2355
+msgid "Skip tedious clicking. Capture inspiration with elegance."
+msgstr ""
+"Bỏ qua những cú nhấp chuột nhàm chán. Chụp lấy cảm hứng với sự thanh lịch."
+
+#: andiora-oobe/assets/andiora-oobe:2377
+msgid "Screenshot"
+msgstr "Chụp màn hình"
+
+#: andiora-oobe/assets/andiora-oobe:2378
+msgid "Select, annotate, copy — all in one motion"
+msgstr "Chọn, chú thích, sao chép — tất cả chỉ trong một thao tác"
+
+#: andiora-oobe/assets/andiora-oobe:2396
+msgid "Screen Recording"
+msgstr "Ghi màn hình"
+
+#: andiora-oobe/assets/andiora-oobe:2397
+msgid "Seamless start, instant capture"
+msgstr "Bắt đầu mượt mà, chụp ngay lập tức"
+
+#: andiora-oobe/assets/andiora-oobe:2417
+msgid "More Essential Shortcuts"
+msgstr "Các phím tắt thiết yếu khác"
+
+#: andiora-oobe/assets/andiora-oobe:2420
+msgid "Open File Manager"
+msgstr "Mở Trình quản lý tệp"
+
+#: andiora-oobe/assets/andiora-oobe:2421
+msgid "Open Terminal"
+msgstr "Mở Terminal"
+
+#: andiora-oobe/assets/andiora-oobe:2422
+msgid "Task Manager"
+msgstr "Trình quản lý tác vụ"
+
+#: andiora-oobe/assets/andiora-oobe:2423
+msgid "View Clipboard History"
+msgstr "Xem lịch sử khay nhớ tạm"
+
+#: andiora-oobe/assets/andiora-oobe:2424
+msgid "Lock Screen"
+msgstr "Khóa màn hình"
+
+#: andiora-oobe/assets/andiora-oobe:2425
+msgid "Action Center"
+msgstr "20Trung tâm hành động"
+
+#: andiora-oobe/assets/andiora-oobe:2426
+msgid "Notification Center"
+msgstr "21Trung tâm thông báo"
+
+#: andiora-oobe/assets/andiora-oobe:2427
+msgid "Toggle Network Stats Display"
+msgstr "Bật/tắt hiển thị thống kê mạng"
+
+#: andiora-oobe/assets/andiora-oobe:2428
+msgid "Switch Between Windows"
+msgstr "22Chuyển đổi giữa các cửa sổ"
+
+#: andiora-oobe/assets/andiora-oobe:2429
+msgid "Close Current Window"
+msgstr "23Đóng cửa sổ hiện tại"
+
+#: andiora-oobe/assets/andiora-oobe:2430
+msgid "Snap Windows"
+msgstr "24Ghim cửa sổ"
+
+#: andiora-oobe/assets/andiora-oobe:2431
+msgid "Switch Virtual Desktop"
+msgstr "Chuyển đổi Máy ảo Desktop"
+
+#: andiora-oobe/assets/andiora-oobe:2432
+msgid "Show Desktop"
+msgstr "Hiển thị màn hình máy tính"
+
+#: andiora-oobe/assets/andiora-oobe:2433
+msgid "System Settings"
+msgstr "Cài đặt hệ thống"
+
+#: andiora-oobe/assets/andiora-oobe:2434
+msgid "Emoji and Characters"
+msgstr "Biểu tượng cảm xúc và Ký tự"
+
+#: andiora-oobe/assets/andiora-oobe:2435
+msgid "Minimize Window"
+msgstr "Thu nhỏ cửa sổ"
+
+#: andiora-oobe/assets/andiora-oobe:2453
+msgid ""
+"You can view and customize all shortcuts anytime in Settings → Keyboard."
+msgstr ""
+"25Bạn có thể xem và tùy chỉnh tất cả phím tắt bất cứ lúc nào trong Cài đặt → "
+"Bàn phím."
+
+#: andiora-oobe/assets/andiora-oobe:2490
+msgid "In China? Use USTC mirror for App Store!"
+msgstr "Bạn ở Trung Quốc? Sử dụng máy chủ gương USTC cho App Store!"
+
+#: andiora-oobe/assets/andiora-oobe:2496
+msgid ""
+"Flathub access can be slow from China. Switch to the USTC mirror for faster "
+"downloads."
+msgstr ""
+"Truy cập Flathub có thể chậm từ Trung Quốc. Chuyển sang máy chủ gương USTC "
+"để tải xuống nhanh hơn."
+
+#: andiora-oobe/assets/andiora-oobe:2603
+msgid "✓ Already using Chinese mirror — downloads are fast."
+msgstr "✓ Đã đang sử dụng máy chủ gương Trung Quốc — tốc độ tải xuống nhanh."
+
+#: andiora-oobe/assets/andiora-oobe:2606
+msgid "Switch Back to International"
+msgstr "Chuyển lại về Quốc tế"
+
+#: andiora-oobe/assets/andiora-oobe:2609
+msgid "Flathub is using the international server."
+msgstr "Flathub đang sử dụng máy chủ quốc tế."
+
+#: andiora-oobe/assets/andiora-oobe:2612
+msgid "🚀 Switch to USTC Mirror"
+msgstr "🚀 Chuyển sang Máy chủ Gương USTC"
+
+#: andiora-oobe/assets/andiora-oobe:2625
+msgid "Testing USTC mirror..."
+msgstr "Kiểm tra gương USTC..."
+
+#: andiora-oobe/assets/andiora-oobe:2669
+msgid "Switching back..."
+msgstr "Đang chuyển lại..."
+
+#: andiora-oobe/assets/andiora-oobe:2696
+msgid "✗ Failed: "
+msgstr "✗ Không thành công:"
+
+#: andiora-oobe/assets/andiora-oobe:2699
+msgid "Retry"
+msgstr "Thử lại"
+
+#: andiora-oobe/assets/andiora-oobe:2725
+msgid "Productive From Day One"
+msgstr "Hiệu quả ngay từ ngày đầu tiên"
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Essential productivity and entertainment tools, hand-picked for you."
+msgstr ""
+"Công cụ năng suất và giải trí thiết yếu, được chọn lọc kỹ lưỡng cho bạn."
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Click any app to open its details in the App Store."
+msgstr ""
+"Nhấp vào bất kỳ ứng dụng nào để xem chi tiết của nó trong Cửa hàng Ứng dụng."
+
+#: andiora-oobe/assets/andiora-oobe:2746
+msgid "WeChat"
+msgstr "WeChat"
+
+#: andiora-oobe/assets/andiora-oobe:2747
+msgid "Most popular messaging app in China"
+msgstr "Ứng dụng nhắn tin phổ biến nhất tại Trung Quốc"
+
+#: andiora-oobe/assets/andiora-oobe:2748
+msgid "QQ"
+msgstr "QQ"
+
+#: andiora-oobe/assets/andiora-oobe:2749
+msgid "Tencent QQ instant messenger"
+msgstr "Trình nhắn tin tức thời Tencent QQ"
+
+#: andiora-oobe/assets/andiora-oobe:2750
+msgid "WPS Office"
+msgstr "WPS Office"
+
+#: andiora-oobe/assets/andiora-oobe:2751
+msgid "Best office suite for Chinese documents"
+msgstr "Bộ ứng dụng văn phòng tốt nhất cho tài liệu Trung Quốc"
+
+#: andiora-oobe/assets/andiora-oobe:2756
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: andiora-oobe/assets/andiora-oobe:2757
+msgid "The world's most popular web browser"
+msgstr "Truyền trình web phổ biến nhất thế giới"
+
+#: andiora-oobe/assets/andiora-oobe:2758
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+#: andiora-oobe/assets/andiora-oobe:2759
+msgid "Code editing. Redefined."
+msgstr "Soạn thảo mã. Được định nghĩa lại."
+
+#: andiora-oobe/assets/andiora-oobe:2760
+msgid "Steam"
+msgstr "Steam"
+
+#: andiora-oobe/assets/andiora-oobe:2761
+msgid "Your portal to the gaming universe"
+msgstr "Cổng vào vũ trụ trò chơi của bạn"
+
+#: andiora-oobe/assets/andiora-oobe:2762
+msgid "Discord"
+msgstr "Discord"
+
+#: andiora-oobe/assets/andiora-oobe:2763
+msgid "Chat, voice, and video for communities"
+msgstr "Trò chuyện, thoại và video cho cộng đồng"
+
+#: andiora-oobe/assets/andiora-oobe:2764
+msgid "Spotify"
+msgstr "Spotify"
+
+#: andiora-oobe/assets/andiora-oobe:2765
+msgid "Music for everyone"
+msgstr "Nhạc dành cho mọi người"
+
+#: andiora-oobe/assets/andiora-oobe:2766
+msgid "OnlyOffice"
+msgstr "OnlyOffice"
+
+#: andiora-oobe/assets/andiora-oobe:2767
+msgid "Best Microsoft Office-compatible suite"
+msgstr "Bộ ứng dụng tương thích tốt nhất với Microsoft Office"
+
+#: andiora-oobe/assets/andiora-oobe:2768
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: andiora-oobe/assets/andiora-oobe:2769
+msgid "Secure, fast, and easy email client"
+msgstr "Client email bảo mật, nhanh chóng và dễ sử dụng"
+
+#: andiora-oobe/assets/andiora-oobe:2770
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: andiora-oobe/assets/andiora-oobe:2771
+msgid "Sync and collaborate on your desktop or laptop"
+msgstr "Đồng bộ và cộng tác trên máy tính để bàn hoặc máy tính xách tay"
+
+#: andiora-oobe/assets/andiora-oobe:2772
+msgid "Blender"
+msgstr "Blender"
+
+#: andiora-oobe/assets/andiora-oobe:2773
+msgid "Professional 3D creation suite"
+msgstr "Bộ công cụ sáng tạo 3D chuyên nghiệp"
+
+#: andiora-oobe/assets/andiora-oobe:2774
+msgid "GNOME Boxes"
+msgstr "GNOME Boxes"
+
+#: andiora-oobe/assets/andiora-oobe:2775
+msgid "Virtualization made simple"
+msgstr "Khả năng ảo hóa trở nên đơn giản hơn"
+
+#: andiora-oobe/assets/andiora-oobe:2776
+msgid "VLC"
+msgstr "VLC"
+
+#: andiora-oobe/assets/andiora-oobe:2777
+msgid "The versatile media player that plays everything"
+msgstr "Cầu nối đa năng phát mọi định dạng media"
+
+#: andiora-oobe/assets/andiora-oobe:2778
+msgid "Krita"
+msgstr "Krita"
+
+#: andiora-oobe/assets/andiora-oobe:2779
+msgid "Professional free and open source painting program"
+msgstr "Chương trình vẽ chuyên nghiệp miễn phí và mã nguồn mở"
+
+#: andiora-oobe/assets/andiora-oobe:2780
+msgid "OBS Studio"
+msgstr "OBS Studio"
+
+#: andiora-oobe/assets/andiora-oobe:2781
+msgid "Free and open source software for video recording and live streaming"
+msgstr "Phần mềm miễn phí và mã nguồn mở để ghi video và phát trực tiếp"
+
+#: andiora-oobe/assets/andiora-oobe:2843
+msgid "Installed"
+msgstr "Đã cài đặt"
+
+#: andiora-oobe/assets/andiora-oobe:2845
+msgid "Click to open in App Store"
+msgstr "Nhấn để mở trong App Store"
+
+#: andiora-oobe/assets/andiora-oobe:2853
+msgid "Opening…"
+msgstr "Đang mở…"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "Pro tip: You can explore these apps in the App Store,"
+msgstr "Mẹo nhỏ: Bạn có thể khám phá các ứng dụng này trong Cửa hàng Ứng dụng,"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "and continue with the system setup while they download."
+msgstr "và tiếp tục thiết lập hệ thống trong khi chúng tải xuống."
+
+#: andiora-oobe/assets/andiora-oobe:2881
+msgid "  Browse Store  "
+msgstr "Duyệt Cửa Hàng"
+
+#: andiora-oobe/assets/andiora-oobe:2913
+msgid "Connect & Protect Your Data"
+msgstr "Kết nối & Bảo vệ Dữ liệu của Bạn"
+
+#: andiora-oobe/assets/andiora-oobe:2937
+msgid "Online Accounts"
+msgstr "Tài khoản Trực tuyến"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "Connect your Google, Microsoft,"
+msgstr "Kết nối với Google, Microsoft,"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "or Nextcloud accounts to sync"
+msgstr "hoặc tài khoản Nextcloud để đồng bộ hóa"
+
+#: andiora-oobe/assets/andiora-oobe:2944
+msgid "files, contacts, and calendar."
+msgstr "tệp tin, liên lạc và lịch."
+
+#: andiora-oobe/assets/andiora-oobe:2954
+msgid "Connect Accounts"
+msgstr "Kết nối Tài khoản"
+
+#: andiora-oobe/assets/andiora-oobe:3024
+msgid "Your Data. Your Rules. Period."
+msgstr "Dữ liệu của Bạn. Quy tắc của Bạn. Hết."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "Andiora disables all system-level telemetry by default."
+msgstr ""
+"Andiora vô hiệu hóa tất cả các công cụ theo dõi hệ thống ở cấp độ hệ thống "
+"theo mặc định."
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "We do not collect your usage habits."
+msgstr "Chúng tôi không thu thập thói quen sử dụng của bạn."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "We do not upload your search history."
+msgstr "Chúng tôi không tải lên lịch sử tìm kiếm của bạn."
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "There are no pervasive advertisements."
+msgstr "Không có quảng cáo lan tràn."
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "In an era ruled by algorithms and surveillance,"
+msgstr "Trong kỷ nguyên bị thống trị bởi thuật toán và giám sát,"
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "this is our firmest commitment to you."
+msgstr "đây là cam kết mạnh mẽ nhất của chúng tôi dành cho bạn."
+
+#: andiora-oobe/assets/andiora-oobe:3063
+msgid "✓ Zero telemetry — your activity is yours alone"
+msgstr "✓ Không telemetry — hoạt động của bạn chỉ thuộc về riêng bạn"
+
+#: andiora-oobe/assets/andiora-oobe:3064
+msgid "✓ No data collection — your files stay on your device"
+msgstr "✓ Không thu thập dữ liệu — tệp của bạn vẫn ở trên thiết bị"
+
+#: andiora-oobe/assets/andiora-oobe:3065
+msgid "✓ No ads in your operating system"
+msgstr "✓ Không quảng cáo trong hệ điều hành của bạn"
+
+#: andiora-oobe/assets/andiora-oobe:3066
+msgid "✓ Full root access — you truly own your machine"
+msgstr "✓ Truy cập root đầy đủ — bạn thực sự sở hữu máy tính của mình"
+
+#: andiora-oobe/assets/andiora-oobe:3067
+msgid "✓ UFW firewall — your digital perimeter, defended"
+msgstr "✓ UFW firewall — hàng rào kỹ thuật số của bạn, được bảo vệ vững chắc"
+
+#: andiora-oobe/assets/andiora-oobe:3068
+msgid "✓ Open source — the code is yours to inspect and modify"
+msgstr "✓ Mã nguồn mở — mã nguồn thuộc về bạn để kiểm tra và sửa đổi"
+
+#: andiora-oobe/assets/andiora-oobe:3109
+msgid "Welcome to the Andiora Community"
+msgstr "Chào mừng đến với Cộng đồng Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3118
+msgid "Whether you're a Windows refugee seeking shelter,"
+msgstr "Dù bạn là người tị nạn Windows đang tìm nơi trú ẩn,"
+
+#: andiora-oobe/assets/andiora-oobe:3119
+msgid "or a hardcore geek developer — you'll find your tribe here."
+msgstr ""
+"hoặc một lập trình viên đam mê công nghệ — bạn sẽ tìm thấy cộng đồng của "
+"mình ở đây."
+
+#: andiora-oobe/assets/andiora-oobe:3120
+msgid "Found a bug? Want a feature? Tell us anytime."
+msgstr ""
+"Tìm thấy lỗi? Muốn một tính năng? Hãy cho chúng tôi biết bất cứ lúc nào."
+
+#: andiora-oobe/assets/andiora-oobe:3132
+msgid "Official Documentation"
+msgstr "Tài liệu chính thức"
+
+#: andiora-oobe/assets/andiora-oobe:3133
+msgid "Comprehensive guides and troubleshooting — covers everything you need"
+msgstr "Hướng dẫn toàn diện và khắc phục sự cố — bao phủ mọi thứ bạn cần"
+
+#: andiora-oobe/assets/andiora-oobe:3135
+msgid "Community Forums"
+msgstr "Diễn đàn cộng đồng"
+
+#: andiora-oobe/assets/andiora-oobe:3136
+msgid "Discuss with other Andiora users and developers"
+msgstr "Thảo luận với những người dùng và nhà phát triển Andiora khác"
+
+#: andiora-oobe/assets/andiora-oobe:3138
+msgid "Discord Server"
+msgstr "Máy chủ Discord"
+
+#: andiora-oobe/assets/andiora-oobe:3139
+msgid "Join our official Discord server for real-time chat and support"
+msgstr ""
+"Tham gia máy chủ Discord chính thức của chúng tôi để trò chuyện và hỗ trợ "
+"theo thời gian thực"
+
+#: andiora-oobe/assets/andiora-oobe:3141
+msgid "Report an Issue"
+msgstr "Báo cáo vấn đề"
+
+#: andiora-oobe/assets/andiora-oobe:3142
+msgid "Found a bug or have a feature request? Let us know!"
+msgstr "Phát hiện lỗi hoặc có yêu cầu tính năng? Hãy cho chúng tôi biết!"
+
+#: andiora-oobe/assets/andiora-oobe:3144
+msgid "Buy Andiora Enterprise Edition"
+msgstr "Mua Andiora Enterprise Edition"
+
+#: andiora-oobe/assets/andiora-oobe:3145
+msgid ""
+"Get enterprise-grade support and advanced features for your organization"
+msgstr ""
+"Nhận hỗ trợ cấp doanh nghiệp và các tính năng nâng cao cho tổ chức của bạn"
+
+#: andiora-oobe/assets/andiora-oobe:3147
+msgid "Ask Ubuntu"
+msgstr "Ask Ubuntu"
+
+#: andiora-oobe/assets/andiora-oobe:3148
+msgid "Almost all Ubuntu solutions apply directly to Andiora"
+msgstr "Gần như tất cả các giải pháp Ubuntu đều áp dụng trực tiếp cho Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3150
+msgid "Source Code"
+msgstr "Mã nguồn"
+
+#: andiora-oobe/assets/andiora-oobe:3151
+msgid "Andiora is open-source. Explore the code and contribute!"
+msgstr "Andiora là mã nguồn mở. Khám phá mã nguồn và đóng góp!"
+
+#: andiora-oobe/assets/andiora-oobe:3163
+msgid "Open"
+msgstr "Mở"
+
+#: andiora-oobe/assets/andiora-oobe:3173
+msgid "💡 Andiora is compatible with Ubuntu's entire ecosystem."
+msgstr "💡 Andiora tương thích với toàn bộ hệ sinh thái của Ubuntu."
+
+#: andiora-oobe/assets/andiora-oobe:3174
+msgid "You can rely on Ubuntu's vast documentation and expertise."
+msgstr "Bạn có thể dựa vào tài liệu phong phú và chuyên môn của Ubuntu."
+
+#: andiora-oobe/assets/andiora-oobe:3207
+msgid "All Set."
+msgstr "Hoàn tất."
+
+#: andiora-oobe/assets/andiora-oobe:3216
+msgid "  Start Your Andiora Journey  "
+msgstr "Bắt đầu hành trình Andiora của bạn"
+
+#: andiora-oobe/assets/andiora-oobe:3250
+msgid "Andiora Setup"
+msgstr "Cài đặt Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3253
+msgid "Andiora Welcome Center"
+msgstr "Trung tâm chào mừng Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3305
+msgid "← Back"
+msgstr "← Quay lại"
+
+#: andiora-oobe/assets/andiora-oobe:3314
+#: andiora-oobe/assets/andiora-oobe:3433
+msgid "Next →"
+msgstr "Tiếp theo →"
+
+#: andiora-oobe/assets/andiora-oobe:3431
+msgid "Finish"
+msgstr "Hoàn tất"
+
+#: andiora-oobe/assets/andiora-oobe:3498
+msgid "Andiora Welcome"
+msgstr "Chào mừng đến với Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3500
+msgid "Andiora Team"
+msgstr "Đội ngũ Andiora"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:75
+msgid "Secure Boot Configuration"
+msgstr "Cấu hình Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:83
+msgid ""
+"Secure Boot is a motherboard security standard that ensures only trusted "
+"software loads at startup."
+msgstr ""
+"\tSecure Boot là tiêu chuẩn bảo mật bo mạch chủ đảm bảo chỉ phần mềm đáng "
+"tin cậy được tải khi khởi động."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:86
+msgid "It protects your system from low-level malware and rootkits."
+msgstr "Nó bảo vệ hệ thống của bạn khỏi mã độc cấp thấp và rootkit."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:95
+msgid "System Trust Status"
+msgstr "Tình trạng Tin cậy Hệ thống"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:132
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:274
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:406
+msgid "Create & Enroll Certificate"
+msgstr "Tạo & Đăng ký Chứng chỉ"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:138
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:284
+msgid "Repair Module Signatures"
+msgstr "Chữ ký mô-đun sửa chữa"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:146
+msgid "Note: Use password <b>123456</b> after rebooting."
+msgstr "Lưu ý: Sử dụng mật khẩu <b>123456</b> sau khi khởi động lại."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:151
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:392
+msgid "Reboot & Configure Secure Boot"
+msgstr "Khởi động lại & Cấu hình Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:159
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:358
+msgid "  Check Again  "
+msgstr "  Kiểm tra lại  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:185
+msgid "Motherboard hardware protection is active"
+msgstr "Bảo cứng bo mạch chủ đang hoạt động"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:188
+msgid "Firmware does not support Secure Boot"
+msgstr "Phần sụn không hỗ trợ Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:191
+msgid "Secure Boot state could not be determined"
+msgstr "Không thể xác định trạng thái Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:194
+msgid "Secure Boot is disabled"
+msgstr "Secure Boot bị tắt"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:200
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:202
+msgid "Not required without firmware enforcement"
+msgstr "Không bắt buộc nếu không thực thi chương trình cơ sở"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:206
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:210
+msgid "Not checked because Secure Boot state is unknown"
+msgstr "Không được kiểm tra vì trạng thái Secure Boot không xác định"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:215
+msgid "Certificate generated locally"
+msgstr "Chứng chỉ được tạo cục bộ"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:217
+msgid "Missing local certificate"
+msgstr "Thiếu chứng chỉ cục bộ"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:230
+msgid "Certificate is trusted by motherboard"
+msgstr "Bo mạch chủ tin cậy chứng chỉ này"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:234
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr "Chờ đăng ký trong màn hình xanh (MOKManager)"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:239
+msgid "Certificate is not trusted by motherboard"
+msgstr "Chứng chỉ không được bo mạch chủ tin cậy"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:245
+msgid "Kernel signature enforcement is inactive"
+msgstr "Thực thi chữ ký hạt nhân không hoạt động"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:248
+msgid "Driver trust cannot be verified"
+msgstr "Không thể xác minh độ tin cậy của trình điều khiển"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:252
+msgid ""
+"Secure Boot trust is ready. No third-party kernel modules are currently "
+"installed."
+msgstr ""
+"Niềm tin Secure Boot đã sẵn sàng. Hiện tại không có mô-đun hạt nhân của bên "
+"thứ ba nào được cài đặt."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:256
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:447
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:455
+msgid "Drivers are signed and ready to load"
+msgstr "Trình điều khiển đã được ký và sẵn sàng tải"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:260
+msgid "Drivers are trusted, but automatic DKMS signing needs repair"
+msgstr "Trình điều khiển được tin cậy nhưng việc ký DKMS tự động cần sửa chữa"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:264
+msgid "No signed third-party drivers detected"
+msgstr "Không phát hiện trình điều khiển bên thứ ba đã ký"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:267
+msgid "Some DKMS modules need to be re-signed"
+msgstr "Một số mô-đun DKMS cần được ký lại"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:272
+msgid "Enroll Existing Certificate"
+msgstr "Đăng ký chứng chỉ hiện có"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:282
+msgid "Repair Automatic DKMS Signing"
+msgstr "Sửa chữa chữ ký DKMS tự động"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:299
+msgid "This firmware does not provide Secure Boot. No certificate is required."
+msgstr ""
+"Phần sụn này không cung cấp Secure Boot. Không có giấy chứng nhận được yêu "
+"cầu."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:306
+msgid ""
+"Secure Boot status could not be read. Driver trust operations are blocked "
+"until detection succeeds."
+msgstr ""
+"Không thể đọc được trạng thái Secure Boot. Hoạt động tin cậy của trình điều "
+"khiển bị chặn cho đến khi phát hiện thành công."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:311
+msgid "No certificate is required while Secure Boot is disabled."
+msgstr "Không cần chứng chỉ khi Secure Boot bị tắt."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:314
+msgid "System Trust Established. Third-party drivers will load securely."
+msgstr ""
+"Nhật ký tin cậy hệ thống đã được thiết lập. Trình điều khiển bên thứ ba sẽ "
+"tải an toàn."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:318
+msgid "The certificate is enrolled and current drivers are trusted."
+msgstr "Chứng chỉ đã được đăng ký và trình điều khiển hiện tại được tin cậy."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:320
+msgid "Repair automatic DKMS signing before future driver updates."
+msgstr ""
+"Sửa chữa ký DKMS tự động trước khi cập nhật trình điều khiển trong tương lai."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:325
+msgid "The certificate is enrolled, but some modules are not signed with it."
+msgstr "Chứng chỉ đã được đăng ký nhưng một số mô-đun chưa được ký với nó."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:330
+msgid "A certificate is waiting for enrollment."
+msgstr "Chứng chỉ đang chờ đăng ký."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:332
+msgid "Restart and enter password 123456 in MOKManager."
+msgstr "Khởi động lại và nhập mật khẩu 123456 vào MOKManager."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:337
+msgid "The local trust certificate is not yet enrolled."
+msgstr "Chứng chỉ tin cậy cục bộ chưa được đăng ký."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:339
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:346
+msgid "You must configure this to use third-party drivers like NVIDIA."
+msgstr ""
+"Bạn phải cấu hình cái này để sử dụng các trình điều khiển bên thứ ba như "
+"NVIDIA."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:344
+msgid "The local trust certificate is missing."
+msgstr "Chứng chỉ tin cậy cục bộ bị thiếu."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:362
+msgid "  Checking...  "
+msgstr "  Đang kiểm tra...  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:368
+msgid "Reboot Required"
+msgstr "Yêu cầu khởi động lại"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:369
+msgid "Please trust the certificate upon reboot using password 123456."
+msgstr ""
+"Vui lòng tin tưởng chứng chỉ này khi khởi động lại bằng mật khẩu 123456."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:371
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:372
+msgid "Reboot"
+msgstr "Khởi động lại"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:380
+msgid "Success! When you reboot, a blue screen will appear."
+msgstr "Thành công! Khi bạn khởi động lại, một màn hình xanh sẽ xuất hiện."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:384
+msgid "Select 'Enroll MOK' → 'Continue' → 'Yes', and enter password: 123456"
+msgstr "Chọn 'Enroll MOK' → 'Continue' → 'Yes', và nhập mật khẩu: 123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:388
+msgid "Certificate Created"
+msgstr "Chứng chỉ đã được tạo"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:391
+msgid "Later"
+msgstr "Sau đó"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:420
+msgid "Secure Boot Trust Not Required"
+msgstr "Secure Boot Không cần tin cậy"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:421
+msgid "Firmware signature enforcement is not active."
+msgstr "Thực thi chữ ký chương trình cơ sở không hoạt động."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:423
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:441
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:449
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:457
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:473
+msgid "OK"
+msgstr "Được"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:431
+msgid ""
+"The certificate is ready, but one or more DKMS modules could not be rebuilt. "
+"You can repair them after enrollment."
+msgstr ""
+"Chứng chỉ đã sẵn sàng nhưng không thể xây dựng lại một hoặc nhiều mô-đun "
+"DKMS. Bạn có thể sửa chữa chúng sau khi đăng ký."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:439
+msgid "Configuration needs attention"
+msgstr "Cấu hình cần chú ý"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:446
+msgid "System Trust Established"
+msgstr "Đã thành lập hệ thống tin cậy"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:454
+msgid "Driver Signature Trusted"
+msgstr "Chữ ký trình điều khiển được tin cậy"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:470
+msgid "Configuration failed. Please try again."
+msgstr "Cấu hình không thành công. Vui lòng thử lại."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:471
+msgid "Please check the advanced output."
+msgstr "Vui lòng kiểm tra đầu ra nâng cao."
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:482
+msgid "Generating & Signing..."
+msgstr "Đang tạo & Ký..."
+
+#~ msgid "Unleash Your Graphics Hardware"
+#~ msgstr "Khơi phá sức mạnh phần cứng đồ họa của bạn"
+
+#, python-brace-format
+#~ msgid "NVIDIA proprietary driver is already installed. (Version: {})"
+#~ msgstr "Triển trình độc quyền NVIDIA đã được cài đặt. (Phiên bản: {})"
+
+#~ msgid "✗ Installation encountered an issue."
+#~ msgstr "✗ Gặp sự cố khi cài đặt."
+
+#~ msgid "An NVIDIA dedicated graphics card was detected in your system."
+#~ msgstr ""
+#~ "Một card đồ họa chuyên dụng NVIDIA đã được phát hiện trong hệ thống của "
+#~ "bạn."
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop"
+#~ msgstr ""
+#~ "\tĐể có độ mượt mà tối ưu trong chơi game, dựng hình 3D và máy tính để "
+#~ "bàn tốc độ cao"
+
+#~ msgid "experiences, we recommend installing the proprietary driver."
+#~ msgstr ""
+#~ "trải nghiệm, chúng tôi khuyên bạn nên cài đặt trình điều khiển độc quyền."
+
+#~ msgid "  Check for Driver Updates  "
+#~ msgstr "Kiểm tra cập nhật trình điều khiển"
+
+#~ msgid "Repair & Reinstall"
+#~ msgstr "Sửa chữa & Cài đặt lại"
+
+#~ msgid "  One-Click NVIDIA Driver Install  "
+#~ msgstr "Cài đặt trình điều khiển NVIDIA chỉ với một cú nhấp chuột"
+
+#~ msgid "Installing NVIDIA driver…"
+#~ msgstr "Đang cài đặt trình điều khiển NVIDIA…"
+
+#~ msgid "This may take several minutes."
+#~ msgstr "Việc này có thể mất vài phút."
+
+#~ msgid "✓ Driver installed successfully!"
+#~ msgstr "✓ Đã cài đặt trình điều khiển thành công!"
+
+#~ msgid "You can install drivers later from Settings."
+#~ msgstr "Bạn có thể cài đặt trình điều khiển sau này từ Cài đặt."
+
+#~ msgid "Xbox Controller Support"
+#~ msgstr "Hỗ trợ Bộ điều khiển Xbox"
+
+#~ msgid "Xbox controller driver (xpadneo) is already installed."
+#~ msgstr "Trình điều khiển bộ điều khiển Xbox (xpadneo) đã được cài đặt."
+
+#~ msgid ""
+#~ "Enjoy seamless Xbox controller support with rumble and accurate inputs."
+#~ msgstr ""
+#~ "Hưởng thụ hỗ trợ bộ điều khiển Xbox liền mạch với rung phản hồi và đầu "
+#~ "vào chính xác."
+
+#~ msgid "Andiora provides native support for Xbox controllers via Bluetooth."
+#~ msgstr "Andiora hỗ trợ native bộ điều khiển Xbox qua Bluetooth."
+
+#~ msgid "The advanced xpadneo driver is already set up and ready for gaming."
+#~ msgstr ""
+#~ "Trình điều khiển xpadneo nâng cao đã được thiết lập sẵn và sẵn sàng cho "
+#~ "trò chơi."
+
+#~ msgid ""
+#~ "For advanced features like rumble and accurate mapping, we recommend "
+#~ "installing the xpadneo driver."
+#~ msgstr ""
+#~ "Để có các tính năng nâng cao như rung và ánh xạ chính xác, chúng tôi "
+#~ "khuyến nghị cài đặt trình điều khiển xpadneo."
+
+#~ msgid "Xbox Controller Driver Installed"
+#~ msgstr "Trình điều khiển Xbox Controller đã được cài đặt"
+
+#~ msgid "The xpadneo driver is currently installed"
+#~ msgstr "Trình điều khiển xpadneo hiện đang được cài đặt"
+
+#~ msgid "The driver is not installed"
+#~ msgstr "Trình điều khiển chưa được cài đặt"
+
+#~ msgid "Driver not installed, signature missing"
+#~ msgstr "Chưa cài đặt trình điều khiển, thiếu chữ ký"
+
+#~ msgid "Kernel module"
+#~ msgstr "Mô-đun hạt nhân"
+
+#~ msgid "Not detected"
+#~ msgstr "Không được phát hiện"
+
+#~ msgid "Driver is NOT signed"
+#~ msgstr "Trình điều khiển KHÔNG được ký số"
+
+#~ msgid "Signed with current trusted certificate"
+#~ msgstr "Được ký bằng chứng chỉ tin cậy hiện tại"
+
+#~ msgid "Signed with current certificate, but not enrolled"
+#~ msgstr "Được ký bằng chứng chỉ hiện tại nhưng chưa được đăng ký"
+
+#~ msgid "Signed with an unknown or outdated certificate"
+#~ msgstr "Được ký bằng chứng chỉ không xác định hoặc đã lỗi thời"
+
+#~ msgid "Controller Status"
+#~ msgstr "Trạng thái bộ điều khiển"
+
+#~ msgid "Driver loaded and active. Ready to play!"
+#~ msgstr "Trình điều khiển đã tải và hoạt động. Sẵn sàng để chơi!"
+
+#~ msgid "Driver standing by. Waiting for controller connection..."
+#~ msgstr "Trình điều khiển đang chờ. Đang đợi kết nối bộ điều khiển..."
+
+#~ msgid "Driver cannot load due to missing signature trust"
+#~ msgstr "Không thể tải trình điều khiển do thiếu sự tin cậy của chữ ký"
+
+#~ msgid "Pair your controller"
+#~ msgstr "Ghép nối bộ điều khiển của bạn"
+
+#~ msgid "Test your controller"
+#~ msgstr "Kiểm tra bộ điều khiển của bạn"
+
+#~ msgid "  Install Xbox Driver  "
+#~ msgstr "Cài đặt trình điều khiển Xbox"
+
+#~ msgid ""
+#~ "⚠️ The driver signature does not match your system certificate. Click Fix "
+#~ "& Reinstall to repair the driver."
+#~ msgstr ""
+#~ "⚠️ Chữ ký trình điều khiển không khớp với chứng chỉ hệ thống của bạn. Nhấp "
+#~ "vào Sửa & Cài đặt lại để khắc phục trình điều khiển."
+
+#~ msgid "Installing Xbox controller driver…"
+#~ msgstr "Đang cài đặt trình điều khiển bộ điều khiển Xbox…"
+
+#~ msgid "This may take a minute."
+#~ msgstr "Việc này có thể mất một phút."
+
+#~ msgid "Repairing driver signature…"
+#~ msgstr "Đang sửa chữa chữ ký trình điều khiển…"
+
+#~ msgid "A reboot is recommended to apply changes."
+#~ msgstr "Nên khởi động lại để áp dụng các thay đổi."
+
+#~ msgid "  Fix & Reinstall Driver  "
+#~ msgstr "Cài đặt trình điều khiển Xbox"
+
+#~ msgid "(Reboot recommended)"
+#~ msgstr "(Đã khuyến nghị khởi động lại)"
+
+#~ msgid "Cannot sign drivers without a certificate"
+#~ msgstr "Không thể ký trình điều khiển mà không có chứng chỉ"
+
+#~ msgid ""
+#~ "Enable low-level network protection — silently blocks all unauthorized "
+#~ "inbound connections."
+#~ msgstr ""
+#~ "Bật bảo vệ mạng ở mức thấp — lặng lẽ chặn mọi kết nối đến trái phép."
+
+#~ msgid "Firewall"
+#~ msgstr "Tường lửa"
+
+#~ msgid "Local MOK Certificate"
+#~ msgstr "Chứng chỉ MOK cục bộ"
+
+#~ msgid ""
+#~ "Please configure Secure Boot in the previous step before installing this "
+#~ "driver."
+#~ msgstr ""
+#~ "Vui lòng khởi động lại máy để đăng ký chứng chỉ trước khi cài đặt trình "
+#~ "điều khiển này."
+
+#~ msgid ""
+#~ "Please reboot to enroll the certificate before installing this driver."
+#~ msgstr ""
+#~ "Vui lòng khởi động lại máy để đăng ký chứng chỉ trước khi cài đặt trình "
+#~ "điều khiển này."
+
+#~ msgid "Scanning for installed drivers..."
+#~ msgstr "Đang quét các trình điều khiển đã cài đặt..."
+
+#~ msgid "Secure Boot Enabled"
+#~ msgstr "Đã bật Secure Boot"
+
+#~ msgid "The local trust certificate is missing or not yet enrolled."
+#~ msgstr "Chứng chỉ tin cậy cục bộ bị thiếu hoặc chưa được đăng ký."
+
+#~ msgid "Third-party Drivers"
+#~ msgstr "Trình điều khiển bên thứ ba"
+
+#~ msgid "UEFI Firmware Trust"
+#~ msgstr "Nhật ký Tin cậy UEFI Firmware"
+
+#~ msgid ""
+#~ "⚠️ Secure Boot is enabled but the custom certificate is not yet enrolled."
+#~ msgstr ""
+#~ "⚠️ Secure Boot đang được bật nhưng chứng chỉ tùy chỉnh chưa được đăng ký."
+
+#~ msgid "✓ Xbox controller driver installed successfully!"
+#~ msgstr "✓ Đã cài đặt trình điều khiển bộ điều khiển Xbox thành công!"
+
+#~ msgid "✗ Repair failed."
+#~ msgstr "✗ Triển khai không thành công."
+
+#~ msgid "⚡ The following apps are provided by the Spark Store community."
+#~ msgstr "⚡ Các ứng dụng sau được cung cấp bởi cộng đồng Spark Store."
+
+#~ msgid "Great for connecting to local services."
+#~ msgstr "Rất tốt để kết nối với các dịch vụ cục bộ."
+
+#~ msgid "Spark Store"
+#~ msgstr "Spark Store"
+
+#~ msgid "Community app store for Chinese Linux users"
+#~ msgstr "Cửa hàng ứng dụng cộng đồng dành cho người dùng Linux Trung Quốc"
+
+#~ msgid "Note: These apps link to their official or community download pages."
+#~ msgstr ""
+#~ "Lưu ý: Các ứng dụng này liên kết đến trang tải xuống chính thức hoặc cộng "
+#~ "đồng của chúng."
+
+#~ msgid " Andiora is not affiliated with these vendors."
+#~ msgstr "Andiora không liên kết với các nhà cung cấp này."
+
+#~ msgid ""
+#~ "Andiora is ready. Just a few steps to shape it\n"
+#~ "into the perfect system tailored to your habits."
+#~ msgstr ""
+#~ "Andiora đã sẵn sàng. Chỉ còn vài bước để định hình hệ thống hoàn hảo, "
+#~ "tùy chỉnh theo thói quen của bạn."
+
+#~ msgid "=== Testing mirror speeds ===\n"
+#~ msgstr "=== Đang kiểm tra tốc độ của máy chủ phản chiếu ==="
+
+#~ msgid ""
+#~ "\n"
+#~ "No mirrors reachable.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Không có máy chủ phản chiếu nào khả dụng.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Applying mirror switch ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== Đang áp dụng chuyển đổi mirror ===\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "✓ Mirror switched and system updated.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "✓ Mirror đã được chuyển đổi và hệ thống đã được cập nhật.\n"
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop\n"
+#~ "experiences, we recommend installing the proprietary driver."
+#~ msgstr ""
+#~ "Để có trải nghiệm mượt mà nhất trong game, dựng hình 3D và màn hình "
+#~ "desktop có tần số quét cao\n"
+#~ "chúng tôi khuyến nghị cài đặt trình độc quyền."
+
+#~ msgid ""
+#~ "Installing NVIDIA driver…\n"
+#~ "This may take several minutes."
+#~ msgstr ""
+#~ "Đang cài đặt trình điều khiển NVIDIA…\n"
+#~ "Việc này có thể mất vài phút."
+
+#~ msgid ""
+#~ "✗ Installation encountered an issue.\n"
+#~ "You can install drivers later from Settings."
+#~ msgstr ""
+#~ "✗ Quá trình cài đặt gặp sự cố.\n"
+#~ "Bạn có thể cài đặt trình điều khiển sau từ Cài đặt."
+
+#~ msgid ""
+#~ "Powered by Wine and Bottles technology, running classic Windows "
+#~ "applications\n"
+#~ "is now easier than ever."
+#~ msgstr ""
+#~ "Được cung cấp bởi công nghệ Wine và Bottles, việc chạy các ứng dụng "
+#~ "Windows cổ điển\n"
+#~ "giờ đây dễ dàng hơn bao giờ hết."
+
+#~ msgid ""
+#~ "Deploying compatibility sandbox via Flatpak…\n"
+#~ "This may take a few minutes."
+#~ msgstr ""
+#~ "Đang triển khai hộp cát tương thích qua Flatpak…\n"
+#~ "Quá trình này có thể mất vài phút."
+
+#~ msgid ""
+#~ "✓ Sandbox deployed successfully!\n"
+#~ "You can now double-click .exe files to run them."
+#~ msgstr ""
+#~ "✓ Đã triển khai hộp cát thành công!\n"
+#~ "Bây giờ bạn có thể nhấp đúp vào các tệp .exe để chạy chúng."
+
+#~ msgid ""
+#~ "✗ Deployment failed.\n"
+#~ "You can install Bottles later from the App Store."
+#~ msgstr ""
+#~ "✗ Triển khai không thành công.\n"
+#~ "Bạn có thể cài đặt Bottles sau từ Cửa hàng ứng dụng."
+
+#~ msgid ""
+#~ "Essential productivity and entertainment tools, hand-picked for you.\n"
+#~ "Click any app to open its details in the App Store."
+#~ msgstr ""
+#~ "Các công cụ năng suất và giải trí thiết yếu, được tuyển chọn kỹ lưỡng "
+#~ "dành cho bạn.\n"
+#~ "Nhấp vào bất kỳ ứng dụng nào để xem chi tiết trên App Store."
+
+#~ msgid ""
+#~ "⚡ The following apps are provided by the Spark Store community.\n"
+#~ "Great for connecting to local services."
+#~ msgstr ""
+#~ "⚡ Các ứng dụng sau đây được cung cấp bởi cộng đồng Spark Store.\n"
+#~ "Phù hợp để kết nối với các dịch vụ địa phương."
+
+#~ msgid ""
+#~ "Pro tip: You can explore these apps in the App Store,\n"
+#~ "and continue with the system setup while they download."
+#~ msgstr ""
+#~ "Mẹo hay: Bạn có thể khám phá những ứng dụng này trong App Store, \n"
+#~ "và tiếp tục thiết lập hệ thống trong khi chúng tải xuống."
+
+#~ msgid ""
+#~ "Note: These apps link to their official or community download pages. "
+#~ "Andiora is not affiliated with these vendors."
+#~ msgstr ""
+#~ "Lưu ý: Các ứng dụng này liên kết đến trang tải về chính thức hoặc cộng "
+#~ "đồng của họ. Andiora không liên kết với các nhà cung cấp này."
+
+#~ msgid ""
+#~ "Connect your Google, Microsoft,\n"
+#~ "or Nextcloud accounts to sync\n"
+#~ "files, contacts, and calendar."
+#~ msgstr ""
+#~ "Kết nối tài khoản Google, Microsoft,\n"
+#~ "hoặc Nextcloud để đồng bộ hóa\n"
+#~ "tệp tin, danh bạ và lịch trình."
+
+#~ msgid ""
+#~ "Use Deja Dup to protect your\n"
+#~ "important files with automated,\n"
+#~ "secure local or remote backups."
+#~ msgstr ""
+#~ "Sử dụng Deja Dup để bảo vệ các tệp quan trọng\n"
+#~ "bằng cách sao lưu tự động, an toàn\n"
+#~ "tại máy cục bộ hoặc từ xa."
+
+#~ msgid ""
+#~ "Andiora disables all system-level telemetry by default.\n"
+#~ "We do not collect your usage habits.\n"
+#~ "We do not upload your search history.\n"
+#~ "There are no pervasive advertisements."
+#~ msgstr ""
+#~ "Andiora vô hiệu hóa tất cả telemetry ở cấp hệ thống theo mặc định.\n"
+#~ "Chúng tôi không thu thập thói quen sử dụng của bạn.\n"
+#~ "Chúng tôi không tải lên lịch sử tìm kiếm của bạn.\n"
+#~ "Không có quảng cáo lan tỏa."
+
+#~ msgid ""
+#~ "In an era ruled by algorithms and surveillance,\n"
+#~ "this is our firmest commitment to you."
+#~ msgstr ""
+#~ "Trong kỷ nguyên bị chi phối bởi thuật toán và giám sát,\n"
+#~ "đây là cam kết mạnh mẽ nhất của chúng tôi dành cho bạn."
+
+#~ msgid ""
+#~ "Whether you're a Windows refugee seeking shelter,\n"
+#~ "or a hardcore geek developer — you'll find your tribe here.\n"
+#~ "Found a bug? Want a feature? Tell us anytime."
+#~ msgstr ""
+#~ "Dù bạn là người tị nạn từ Windows đang tìm nơi trú ẩn,\n"
+#~ "hay một nhà phát triển lập trình viên chính hiệu — bạn sẽ tìm thấy cộng "
+#~ "đồng của mình ở đây.\n"
+#~ "Phát hiện lỗi? Muốn một tính năng? Hãy cho chúng tôi biết bất cứ lúc nào."
+
+#~ msgid ""
+#~ "💡 Andiora is compatible with Ubuntu's entire ecosystem.\n"
+#~ "You can rely on Ubuntu's vast documentation and expertise."
+#~ msgstr ""
+#~ "💡 Andiora tương thích với toàn bộ hệ sinh thái của Ubuntu.\n"
+#~ "Bạn có thể dựa vào tài liệu và chuyên môn rộng lớn của Ubuntu."
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Testing bandwidth of top 3 mirrors (3 s each) ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== Đang kiểm tra băng thông của 3 máy chủ phản chiếu hàng đầu (mỗi mục 3 "
+#~ "giây) ===\n"
+
+#~ msgid ""
+#~ "✓ Driver installed successfully!\n"
+#~ "A reboot is recommended to apply changes."
+#~ msgstr ""
+#~ "✓ Cài đặt trình điều khiển thành công!\n"
+#~ "Khởi động lại hệ thống được khuyến nghị để áp dụng các thay đổi."

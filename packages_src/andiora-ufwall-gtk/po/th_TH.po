@@ -1,0 +1,396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ufwall-gtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 09:51+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "0 = append at end"
+msgstr "0 = เพิ่มที่ท้าย"
+
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+msgid "Action"
+msgstr "การกระทำ"
+
+msgid "Active"
+msgstr "ใช้งานอยู่"
+
+msgid "Add"
+msgstr "เพิ่ม"
+
+msgid "Add Rule"
+msgstr "เพิ่มกฎ"
+
+msgid "Advanced"
+msgstr "ขั้นสูง"
+
+msgid "All"
+msgstr "ทั้งหมด"
+
+msgid "Allow"
+msgstr "อนุญาต"
+
+msgid "Allow applications with predefined rules."
+msgstr "อนุญาตแอปพลิเคชันที่มีกฎที่กำหนดไว้ล่วงหน้า"
+
+msgid "Application Profiles"
+msgstr "โปรไฟล์แอปพลิเคชัน"
+
+msgid "Audit"
+msgstr "การตรวจสอบ"
+
+msgid "Auditor Error"
+msgstr "ข้อผิดพลาดของผู้ตรวจสอบ"
+
+msgid "Block"
+msgstr "บล็อก"
+
+msgid "Block Connection?"
+msgstr "บล็อกการเชื่อมต่อ?"
+
+msgid "Block inbound traffic from"
+msgstr "บล็อกการรับข้อมูลจาก"
+
+msgid "Block outbound traffic to"
+msgstr "บล็อกการส่งข้อมูลไปยัง"
+
+msgid "Blocked Events"
+msgstr "เหตุการณ์ที่ถูกบล็อก"
+
+msgid "Blocked Successfully"
+msgstr "บล็อกสำเร็จ"
+
+msgid "Both"
+msgstr "ทั้งสอง"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#, fuzzy
+msgid "Local Network Discovery"
+msgstr "Multicast DNS สำหรับการค้นพบเครือข่ายท้องถิ่น"
+
+msgid "Control multicast DNS discovery and .local name resolution."
+msgstr ""
+
+msgid "Local Network Discovery (mDNS)"
+msgstr ""
+
+msgid "Checking service status…"
+msgstr ""
+
+msgid "Network Discovery Error"
+msgstr ""
+
+msgid "Avahi is not installed."
+msgstr ""
+
+msgid "Avahi is running; .local names and service discovery are available."
+msgstr ""
+
+msgid "Avahi is enabled but not currently running."
+msgstr ""
+
+msgid "Avahi is blocked; .local names and service discovery are unavailable."
+msgstr ""
+
+msgid "Comment"
+msgstr "หมายเหตุ"
+
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+msgid "Dashboard"
+msgstr "แดชบอร์ด"
+
+msgid "Default Policies"
+msgstr "นโยบายเริ่มต้น"
+
+msgid "Delete"
+msgstr "ลบ"
+
+msgid "Delete All"
+msgstr "ลบทั้งหมด"
+
+msgid "Delete All Rules?"
+msgstr "ลบกฎทั้งหมดหรือไม่"
+
+msgid "Delete Rule"
+msgstr "ลบกฎ"
+
+msgid "Delete rule"
+msgstr "ลบกฎ"
+
+msgid "Deny"
+msgstr "ปฏิเสธ"
+
+msgid "Destination IP"
+msgstr "ไอพีปลายทาง"
+
+msgid "Direction"
+msgstr "ทิศทาง"
+
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+msgid "Failed to Block"
+msgstr "การบล็อกล้มเหลว"
+
+msgid "Firewall"
+msgstr "ไฟร์วอลล์"
+
+msgid "Firewall Rules"
+msgstr "กฎของไฟร์วอลล์"
+
+msgid "Full"
+msgstr "เต็ม"
+
+msgid "High"
+msgstr "สูง"
+
+msgid "In"
+msgstr "เข้า"
+
+msgid "Inactive"
+msgstr "ไม่ใช้งาน"
+
+msgid "Inbound"
+msgstr "ทางเข้า"
+
+msgid "Incoming"
+msgstr "ขาเข้า"
+
+msgid "Insert Before Rule"
+msgstr "แทรกก่อนกฎ"
+
+msgid "Interface"
+msgstr "อินเทอร์เฟซ"
+
+msgid "Limit"
+msgstr "จำกัด"
+
+msgid "Listening Ports"
+msgstr "พอร์ตที่รับฟัง"
+
+msgid "Log Level"
+msgstr "ระดับการบันทึก"
+
+msgid "Logging"
+msgstr "การบันทึก"
+
+msgid "Low"
+msgstr "ต่ำ"
+
+msgid "Medium"
+msgstr "ปานกลาง"
+
+msgid "Monitoring Network Activity"
+msgstr "กำลังตรวจสอบกิจกรรมเครือข่าย"
+
+msgid "No Profiles"
+msgstr "ไม่มีโปรไฟล์"
+
+msgid "No Rules"
+msgstr "ไม่มีกฎ"
+
+msgid "No application profiles found"
+msgstr "ไม่พบโปรไฟล์แอปพลิเคชัน"
+
+msgid "No blocked connections in recent events"
+msgstr "ไม่มีการเชื่อมต่อที่ถูกบล็อกในเหตุการณ์ล่าสุด"
+
+msgid "No blocked ports in recent events"
+msgstr "ไม่มีการปิดกั้นพอร์ตในเหตุการณ์ล่าสุด"
+
+msgid "No listening ports detected"
+msgstr "ไม่พบพอร์ตที่รับฟัง"
+
+msgid "Off"
+msgstr "ปิด"
+
+msgid "Out"
+msgstr "ออก"
+
+msgid "Outbound"
+msgstr "ทางออก"
+
+msgid "Outgoing"
+msgstr "ขาออก"
+
+msgid "Pause list updates"
+msgstr "หยุดอัปเดตรายการ"
+
+msgid "Port / Protocol"
+msgstr "พอร์ต / โปรโตคอล"
+
+msgid "Port / Service Name"
+msgstr "พอร์ต / ชื่อบริการ"
+
+msgid "Profiles"
+msgstr "โปรไฟล์"
+
+msgid "Protocol"
+msgstr "โปรโตคอล"
+
+msgid "Quick Allow Port"
+msgstr "อนุญาตพอร์ตอย่างรวดเร็ว"
+
+msgid "Recent Blocked Events"
+msgstr "เหตุการณ์ที่ถูกบล็อกเมื่อเร็วๆ นี้"
+
+msgid "Recent Events Parsed"
+msgstr "เหตุการณ์ล่าสุดที่วิเคราะห์แล้ว"
+
+msgid "Refresh"
+msgstr "รีเฟรช"
+
+msgid "Reject"
+msgstr "ปฏิเสธ"
+
+msgid "Resolve Domains"
+msgstr "แก้ไขโดเมน"
+
+msgid "Rule added to block"
+msgstr "เพิ่มกฎลงในรายการบล็อก"
+
+msgid "Rules"
+msgstr "กฎ"
+
+msgid "Save"
+msgstr "บันทึก"
+
+msgid "Search Process or IP..."
+msgstr "ค้นหากระบวนการหรือ IP..."
+
+msgid "Search rules..."
+msgstr "ค้นหากฎ..."
+
+msgid "Service"
+msgstr "บริการ"
+
+msgid "Show"
+msgstr "แสดง"
+
+msgid "Source IP"
+msgstr "ที่อยู่ IP ต้นทาง"
+
+msgid "Status"
+msgstr "สถานะ"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "There are no rules configured yet."
+msgstr "ยังไม่ได้กำหนดกฎใดๆ"
+
+msgid "This will delete all custom rules. This action cannot be undone."
+msgstr "การดำเนินการนี้จะลบกฎที่กำหนดเองทั้งหมด การดำเนินการนี้ไม่สามารถย้อนกลับได้"
+
+msgid ""
+"This will prevent the remote host from sending any packets to your machine."
+msgstr "การดำเนินการนี้จะป้องกันไม่ให้โฮสต์ระยะไกลส่งแพ็กเก็ตมายังเครื่องของคุณ"
+
+msgid ""
+"This will prevent your machine from sending any packets to the remote host."
+msgstr "การดำเนินการนี้จะป้องกันไม่ให้เครื่องของคุณส่งแพ็กเก็ตไปยังโฮสต์ระยะไกล"
+
+msgid "Top Blocked Connections"
+msgstr "การเชื่อมต่อที่ถูกบล็อกสูงสุด"
+
+msgid "Top Blocked Ports"
+msgstr "พอร์ตที่ถูกบล็อกมากที่สุด"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "e.g. 80,443/tcp or 8080"
+msgstr "เช่น 80,443/tcp หรือ 8080"
+
+msgid "BitTorrent client"
+msgstr "ไคลเอนต์ BitTorrent"
+
+msgid "Common UNIX Printing System server"
+msgstr "เซิร์ฟเวอร์ระบบพิมพ์แบบยูนิกซ์ทั่วไป"
+
+msgid "Continuous file synchronization"
+msgstr "การซิงโครไนซ์ไฟล์อย่างต่อเนื่อง"
+
+msgid "Docker container runtime API"
+msgstr "API รันไทม์คอนเทนเนอร์ด็อกเกอร์"
+
+msgid "Domain Name System server"
+msgstr "เซิร์ฟเวอร์ระบบชื่อโดเมน"
+
+msgid "Extensible Messaging and Presence Protocol"
+msgstr "โปรโตคอลการส่งข้อความและการแสดงสถานะที่ขยายได้"
+
+msgid "File Transfer Protocol"
+msgstr "โปรโตคอลถ่ายโอนไฟล์"
+
+msgid "File synchronization service"
+msgstr "บริการซิงโครไนซ์ไฟล์"
+
+msgid "Hypertext Transfer Protocol for web servers"
+msgstr "โปรโตคอลถ่ายโอนข้อมูลไฮเปอร์เท็กซ์สำหรับเซิร์ฟเวอร์เว็บ"
+
+msgid "In-memory data structure store"
+msgstr "ที่เก็บโครงสร้างข้อมูลในหน่วยความจำ"
+
+msgid "Internet Message Access Protocol for email"
+msgstr "โปรโตคอลเข้าถึงข้อความอินเทอร์เน็ตสำหรับอีเมล"
+
+msgid "Lightweight Directory Access Protocol"
+msgstr "โปรโตคอลการเข้าถึงไดเรกทอรีแบบเบา"
+
+msgid "Media streaming server"
+msgstr "เซิร์ฟเวอร์สตรีมมิ่งสื่อ"
+
+msgid "Modern VPN tunnel"
+msgstr "อุโมงค์ VPN รุ่นใหม่"
+
+msgid "Multicast DNS for local network discovery"
+msgstr "Multicast DNS สำหรับการค้นพบเครือข่ายท้องถิ่น"
+
+msgid "MySQL database server"
+msgstr "เซิร์ฟเวอร์ฐานข้อมูล MySQL"
+
+msgid "Network File System"
+msgstr "ระบบไฟล์เครือข่าย"
+
+msgid "Network Time Protocol"
+msgstr "พอร์ต / โปรโตคอล"
+
+msgid "NoSQL document database"
+msgstr "ฐานข้อมูลเอกสาร NoSQL"
+
+msgid "Phone and desktop integration"
+msgstr "การผสานรวมโทรศัพท์และเดสก์ท็อป"
+
+msgid "Plex media streaming server"
+msgstr "เซิร์ฟเวอร์สตรีมมิ่งสื่อ Plex"
+
+msgid "Post Office Protocol for email retrieval"
+msgstr "โปรโตคอลไปรษณีย์สำหรับดึงอีเมล"
+
+msgid "PostgreSQL database server"
+msgstr "เซิร์ฟเวอร์ฐานข้อมูล PostgreSQL"
+
+msgid "Remote Desktop Protocol"
+msgstr "พอร์ต / โปรโตคอล"
+
+msgid "Secure HTTP for web servers"
+msgstr "HTTP ปลอดภัยสำหรับเซิร์ฟเวอร์เว็บ"
+
+msgid "Secure shell remote access"
+msgstr "การเข้าถึงระยะไกลผ่าน Secure Shell"
+
+msgid "Simple Mail Transfer Protocol"
+msgstr "โปรโตคอลส่งข้อความง่าย"
+
+msgid "Virtual Network Computing remote desktop"
+msgstr "VNC เดสก์ท็อประยะไกล"
+
+msgid "Windows file and printer sharing"
+msgstr "การแชร์ไฟล์และเครื่องพิมพ์ของ Windows"

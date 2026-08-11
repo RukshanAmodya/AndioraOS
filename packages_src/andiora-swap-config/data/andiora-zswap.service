@@ -1,0 +1,17 @@
+# Andiora Zswap vendor default.
+# Reads /etc/default/andiora-zswap (written by andiora-swapcontrol-gtk).
+# If no config exists, zswap remains disabled until the user opts in.
+[Unit]
+Description=Andiora Zswap Configuration
+DefaultDependencies=no
+After=systemd-journald.socket
+Before=swap.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=-/usr/sbin/modprobe zswap
+ExecStart=/usr/lib/andiora-swap-config/setup-zswap.sh
+
+[Install]
+WantedBy=multi-user.target

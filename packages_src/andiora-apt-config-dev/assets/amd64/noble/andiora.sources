@@ -1,0 +1,6 @@
+Types: deb
+URIs: https://apkg-dev.aiursoft.com/artifacts/andiora/
+Suites: noble-addon noble-webapps
+Components: main
+Architectures: amd64
+Signed-By: /usr/share/keyrings/andiora-archive-keyring.gpg

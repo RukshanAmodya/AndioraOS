@@ -1,0 +1,52 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>andiora-appearance</PackageName>
+    <PackageVersion>2.0.1-5+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>Andiora Appearance — toggle between Windows 11 and Classic taskbar layouts</PackageDescription>
+    <Section>utils</Section>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <AppStreamDeveloperName>Andiora Team</AppStreamDeveloperName>
+    <AppStreamMetadataLicense>CC0-1.0</AppStreamMetadataLicense>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>all</TargetArchitectures>
+    <Component>main</Component>
+    <SuiteShortNameMap>noble-addon=noble resolute-addon=resolute</SuiteShortNameMap>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <DependencyCheckSource Url="https://mirror.aiursoft.com/ubuntu" SuiteMap="noble-addon=noble resolute-addon=resolute" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Dependency Include="python3" />
+    <Dependency Include="python3-gi" />
+    <Dependency Include="python3-gi-cairo" />
+    <Dependency Include="gir1.2-gtk-4.0" />
+    <Dependency Include="dconf-cli" />
+    <Dependency Include="gir1.2-adw-1" />
+    <Dependency Include="andiora-gdm3-wallpaper" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <IncludeScript Include="src/andiora-appearance" Target="/usr/bin/andiora-appearance" />
+    <IncludeFile Include="src/andiora_appearance/__init__.py" Target="/usr/lib/python3/dist-packages/andiora_appearance/__init__.py" />
+    <IncludeFile Include="src/andiora_appearance/layout.py" Target="/usr/lib/python3/dist-packages/andiora_appearance/layout.py" />
+    <IncludeFile Include="src/andiora_appearance/preview.py" Target="/usr/lib/python3/dist-packages/andiora_appearance/preview.py" />
+    <IncludeFolder Include="locale" Target="/usr/share/locale" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AppStreamApplication Include="data/andiora-appearance.desktop" Icon="data/andiora-appearance.svg" />
+    <AppStreamScreenshot Include="screenshots/taskbar-style.png" Default="true" Caption="Choose a taskbar layout that matches your workflow" Environment="GNOME:dark" />
+    <AppStreamScreenshot Include="screenshots/panel-widgets.png" Caption="Configure panel widgets and their placement" Environment="GNOME:dark" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PrebuildCommand Run="PYTHONPATH=src python3 -m unittest discover -s tests -v" />
+    <PrebuildCommand Run="bash compile-locales.sh" />
+  </ItemGroup>
+</Project>

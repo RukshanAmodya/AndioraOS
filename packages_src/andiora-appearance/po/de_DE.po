@@ -1,0 +1,230 @@
+# Andiora Appearance — German translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Über Andiora-Aussehen"
+
+msgid "Advanced"
+msgstr "Erweitert"
+
+msgid "Andiora Appearance"
+msgstr "Andiora-Aussehen"
+
+msgid "Andiora Team"
+msgstr "Andiora-Team"
+
+msgid "Appearance"
+msgstr "Aussehen"
+
+msgid "Apply to Login Screen"
+msgstr "Auf Anmeldebildschirm anwenden"
+
+msgid "Bottom"
+msgstr "Unten"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Wählen Sie ein Bild für den GDM-Anmeldebildschirmhintergrund."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Wählen Sie den visuellen Stil Ihrer Taskleiste."
+
+msgid "Choose…"
+msgstr "Auswählen…"
+
+msgid "Classic"
+msgstr "Klassisch"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Mehrere Fenster einer App in einem Symbol zusammenfassen"
+
+msgid "Danger Zone"
+msgstr "Gefahrenzone"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Die Aktivitäten-Schaltfläche in der Taskleiste anzeigen"
+
+msgid "Enable grouping"
+msgstr "Gruppierung aktivieren"
+
+msgid "Extension Settings"
+msgstr "Erweiterungseinstellungen"
+
+msgid "GDM Wallpaper"
+msgstr "GDM-Hintergrund"
+
+msgid "Group apps"
+msgstr "Apps gruppieren"
+
+msgid "Images"
+msgstr "Bilder"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Starter von laufenden Apps trennen"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Left"
+msgstr "Links"
+
+msgid "Login Screen Wallpaper"
+msgstr "Anmeldebildschirm-Hintergrund"
+
+msgid "Open"
+msgstr "Öffnen"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Öffnen Sie die Einstellungsfenster der Panelerweiterungen."
+
+msgid "Panel Indicators"
+msgstr "Panel-Indikatoren"
+
+msgid "Panel Widgets"
+msgstr "Panel-Widgets"
+
+msgid "Preview"
+msgstr "Vorschau"
+
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+msgid "Reset desktop settings"
+msgstr "Desktop-Einstellungen zurücksetzen"
+
+msgid "Reset desktop settings?"
+msgstr "Desktop-Einstellungen zurücksetzen?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Alle GNOME Shell-Einstellungen auf die Werkseinstellungen zurücksetzen"
+
+msgid "Right"
+msgstr "Rechts"
+
+msgid "Select image"
+msgstr "Bild auswählen"
+
+msgid "Seperated"
+msgstr "Getrennt"
+
+msgid "Show Activities Button"
+msgstr "Aktivitäten-Schaltfläche anzeigen"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Netzwerk anzeigen"
+
+msgid "Show Weather"
+msgstr "Wetter anzeigen"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Integrierte Paneelelemente ein- oder ausblenden."
+
+msgid "Taskbar Elements"
+msgstr "Taskleistenelemente"
+
+msgid "Taskbar Style"
+msgstr "Taskleistenstil"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Panel-Indikator-Widgets ein- oder ausschalten."
+
+msgid "Top"
+msgstr "Oben"
+
+msgid "Tweaks"
+msgstr "Anpassungen"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Vista-Taskleistenverhalten"
+
+msgid "Wallpaper"
+msgstr "Hintergrundbild"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Aktivitäten-Schaltfläche — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Angewendet — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Desktop-Einstellungen zurückgesetzt. Shell neu starten zum Übernehmen.✓ Desktop-Einstellungen zurückgesetzt. Shell neu starten, um anzuwenden."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ GDM-Hintergrund angewendet"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Position konnte nicht angewendet werden"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Stil konnte nicht angewendet werden"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Zurücksetzen fehlgeschlagen"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ GDM-Hintergrund konnte nicht gesetzt werden"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Umschalten der Aktivitäten-Schaltfläche fehlgeschlagen"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ {label} konnte nicht {action} werden"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Bitte zuerst ein Bild auswählen"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Dies setzt alle GNOME Shell-Einstellungen auf Werkseinstellungen zurück.\n"
+#~ "Ihre Erweiterungen, das Panel-Layout und Einstellungen gehen verloren."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "ArcMenu"
+#~ msgstr "ArcMenü"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Taskleistenposition"
+
+#~ msgid "Panel Position"
+#~ msgstr "Panelposition"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Wählen Sie, wo Ihre Taskleiste auf dem Bildschirm platziert ist."

@@ -1,0 +1,34 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>andiora-apt-config-dev</PackageName>
+    <PackageVersion>2.0.1-1+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>APT pinning: Andiora packages always take precedence over Ubuntu</PackageDescription>
+    <Section>admin</Section>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>amd64 arm64</TargetArchitectures>
+    <Component>main</Component>
+    <Conflicts>andiora-apt-config</Conflicts>
+    <Replaces>andiora-apt-config</Replaces>
+    <SuiteShortNameMap>noble-addon=noble resolute-addon=resolute</SuiteShortNameMap>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Dependency Include="andiora-archive-keyring" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- APT pinning: prefer Andiora packages over upstream Ubuntu -->
+    <IncludeFile Include="assets/andiora" Target="/etc/apt/preferences.d/andiora" />
+
+    <!-- Per-arch per-suite APT sources — architectures match the target -->
+    <IncludeFile Include="assets/amd64/noble/andiora.sources"      Target="/etc/apt/sources.list.d/andiora.sources" Condition="'$(Suite)' == 'noble-addon' and '$(Arch)' == 'amd64'" />
+    <IncludeFile Include="assets/amd64/resolute/andiora.sources"   Target="/etc/apt/sources.list.d/andiora.sources" Condition="'$(Suite)' == 'resolute-addon' and '$(Arch)' == 'amd64'" />
+    <IncludeFile Include="assets/arm64/noble/andiora.sources"      Target="/etc/apt/sources.list.d/andiora.sources" Condition="'$(Suite)' == 'noble-addon' and '$(Arch)' == 'arm64'" />
+    <IncludeFile Include="assets/arm64/resolute/andiora.sources"   Target="/etc/apt/sources.list.d/andiora.sources" Condition="'$(Suite)' == 'resolute-addon' and '$(Arch)' == 'arm64'" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,397 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ufwall-gtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 09:51+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "0 = append at end"
+msgstr "0 = tambahkan di akhir"
+
+msgid "About"
+msgstr "Tentang"
+
+msgid "Action"
+msgstr "Tindakan"
+
+msgid "Active"
+msgstr "Aktif"
+
+msgid "Add"
+msgstr "Tambah"
+
+msgid "Add Rule"
+msgstr "Tambah Aturan"
+
+msgid "Advanced"
+msgstr "Lanjutan"
+
+msgid "All"
+msgstr "Semua"
+
+msgid "Allow"
+msgstr "Izinkan"
+
+msgid "Allow applications with predefined rules."
+msgstr "Izinkan aplikasi dengan aturan yang telah ditentukan sebelumnya."
+
+msgid "Application Profiles"
+msgstr "Profil Aplikasi"
+
+msgid "Audit"
+msgstr "Audit"
+
+msgid "Auditor Error"
+msgstr "Kesalahan Auditor"
+
+msgid "Block"
+msgstr "Blokir"
+
+msgid "Block Connection?"
+msgstr "Blokir Koneksi?"
+
+msgid "Block inbound traffic from"
+msgstr "Blokir lalu lintas masuk dari"
+
+msgid "Block outbound traffic to"
+msgstr "Blokir lalu lintas keluar ke"
+
+msgid "Blocked Events"
+msgstr "Peristiwa yang Diblokir"
+
+msgid "Blocked Successfully"
+msgstr "Berhasil Diblokir"
+
+msgid "Both"
+msgstr "Keduanya"
+
+msgid "Cancel"
+msgstr "Batal"
+
+#, fuzzy
+msgid "Local Network Discovery"
+msgstr "DNS multicast untuk penemuan jaringan lokal"
+
+msgid "Control multicast DNS discovery and .local name resolution."
+msgstr ""
+
+msgid "Local Network Discovery (mDNS)"
+msgstr ""
+
+msgid "Checking service status…"
+msgstr ""
+
+msgid "Network Discovery Error"
+msgstr ""
+
+msgid "Avahi is not installed."
+msgstr ""
+
+msgid "Avahi is running; .local names and service discovery are available."
+msgstr ""
+
+msgid "Avahi is enabled but not currently running."
+msgstr ""
+
+msgid "Avahi is blocked; .local names and service discovery are unavailable."
+msgstr ""
+
+msgid "Comment"
+msgstr "Komentar"
+
+msgid "Custom"
+msgstr "Kustom"
+
+msgid "Dashboard"
+msgstr "Dasbor"
+
+msgid "Default Policies"
+msgstr "Kebijakan Default"
+
+msgid "Delete"
+msgstr "Hapus"
+
+msgid "Delete All"
+msgstr "Hapus Semua"
+
+msgid "Delete All Rules?"
+msgstr "Hapus Semua Aturan?"
+
+msgid "Delete Rule"
+msgstr "Hapus Aturan"
+
+msgid "Delete rule"
+msgstr "Hapus aturan"
+
+msgid "Deny"
+msgstr "Tolak"
+
+msgid "Destination IP"
+msgstr "IP Tujuan"
+
+msgid "Direction"
+msgstr "Arah"
+
+msgid "Error"
+msgstr "Kesalahan"
+
+msgid "Failed to Block"
+msgstr "Gagal Memblokir"
+
+msgid "Firewall"
+msgstr "Bendalawang"
+
+msgid "Firewall Rules"
+msgstr "Aturan Firewall"
+
+msgid "Full"
+msgstr "Penuh"
+
+msgid "High"
+msgstr "Tinggi"
+
+msgid "In"
+msgstr "Masuk"
+
+msgid "Inactive"
+msgstr "Tidak aktif"
+
+msgid "Inbound"
+msgstr "Masuk"
+
+msgid "Incoming"
+msgstr "Masuk"
+
+msgid "Insert Before Rule"
+msgstr "Sisipkan Sebelum Aturan"
+
+msgid "Interface"
+msgstr "Antarmuka"
+
+msgid "Limit"
+msgstr "Batas"
+
+msgid "Listening Ports"
+msgstr "Port yang Mendengarkan"
+
+msgid "Log Level"
+msgstr "Tingkat Log"
+
+msgid "Logging"
+msgstr "Pencatatan"
+
+msgid "Low"
+msgstr "Rendah"
+
+msgid "Medium"
+msgstr "Sedang"
+
+msgid "Monitoring Network Activity"
+msgstr "Memantau Aktivitas Jaringan"
+
+msgid "No Profiles"
+msgstr "Tidak Ada Profil"
+
+msgid "No Rules"
+msgstr "Tidak Ada Aturan"
+
+msgid "No application profiles found"
+msgstr "Tidak ada profil aplikasi yang ditemukan"
+
+msgid "No blocked connections in recent events"
+msgstr "Tidak ada koneksi yang diblokir dalam peristiwa terbaru"
+
+msgid "No blocked ports in recent events"
+msgstr "Tidak ada port yang diblokir dalam peristiwa terbaru"
+
+msgid "No listening ports detected"
+msgstr "Tidak ada port pendengar yang terdeteksi"
+
+msgid "Off"
+msgstr "Mati"
+
+msgid "Out"
+msgstr "Keluar"
+
+msgid "Outbound"
+msgstr "Keluar"
+
+msgid "Outgoing"
+msgstr "Keluar"
+
+msgid "Pause list updates"
+msgstr "Jeda pembaruan daftar"
+
+msgid "Port / Protocol"
+msgstr "Port / Protokol"
+
+msgid "Port / Service Name"
+msgstr "Port / Nama Layanan"
+
+msgid "Profiles"
+msgstr "Profil"
+
+msgid "Protocol"
+msgstr "Protokol"
+
+msgid "Quick Allow Port"
+msgstr "Izinkan Port Cepat"
+
+msgid "Recent Blocked Events"
+msgstr "Peristiwa Terblokir Terbaru"
+
+msgid "Recent Events Parsed"
+msgstr "Peristiwa Terbaru Didekripsi"
+
+msgid "Refresh"
+msgstr "Muat Ulang"
+
+msgid "Reject"
+msgstr "Tolak"
+
+msgid "Resolve Domains"
+msgstr "Selesaikan Domain"
+
+msgid "Rule added to block"
+msgstr "Aturan ditambahkan ke blokir"
+
+msgid "Rules"
+msgstr "Aturan"
+
+msgid "Save"
+msgstr "Simpan"
+
+msgid "Search Process or IP..."
+msgstr "Cari Proses atau IP..."
+
+msgid "Search rules..."
+msgstr "Cari aturan..."
+
+msgid "Service"
+msgstr "Layanan"
+
+msgid "Show"
+msgstr "Tampilkan"
+
+msgid "Source IP"
+msgstr "IP Sumber"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "There are no rules configured yet."
+msgstr "Belum ada aturan yang dikonfigurasi."
+
+msgid "This will delete all custom rules. This action cannot be undone."
+msgstr ""
+"Ini akan menghapus semua aturan kustom. Tindakan ini tidak dapat dibatalkan."
+
+msgid ""
+"This will prevent the remote host from sending any packets to your machine."
+msgstr "Ini akan mencegah host jarak jauh mengirim paket ke mesin Anda."
+
+msgid ""
+"This will prevent your machine from sending any packets to the remote host."
+msgstr "Ini akan mencegah mesin Anda mengirim paket ke host jarak jauh."
+
+msgid "Top Blocked Connections"
+msgstr "Koneksi Teratas Diblokir"
+
+msgid "Top Blocked Ports"
+msgstr "Port Terblokir Teratas"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "e.g. 80,443/tcp or 8080"
+msgstr "mis. 80,443/tcp atau 8080"
+
+msgid "BitTorrent client"
+msgstr "Client BitTorrent"
+
+msgid "Common UNIX Printing System server"
+msgstr "Pengajar Sistem Pencetakan UNIX Umum"
+
+msgid "Continuous file synchronization"
+msgstr "Sinkronisasi berkas berkelanjutan"
+
+msgid "Docker container runtime API"
+msgstr "API runtime kontainer Docker"
+
+msgid "Domain Name System server"
+msgstr "Pengajar Sistem Nama Domain"
+
+msgid "Extensible Messaging and Presence Protocol"
+msgstr "Protokol Pesan dan Kehadiran yang Dapat Diperluas"
+
+msgid "File Transfer Protocol"
+msgstr "Protokol Transfer Berkas"
+
+msgid "File synchronization service"
+msgstr "Layanan sinkronisasi berkas"
+
+msgid "Hypertext Transfer Protocol for web servers"
+msgstr "Protokol Transfer Hypertext untuk pengajar web"
+
+msgid "In-memory data structure store"
+msgstr "Penyimpan struktur data dalam memori"
+
+msgid "Internet Message Access Protocol for email"
+msgstr "Protokol Akses Pesan Internet untuk email"
+
+msgid "Lightweight Directory Access Protocol"
+msgstr "Protokol Akses Direktori Ringan"
+
+msgid "Media streaming server"
+msgstr "Pengajar streaming media"
+
+msgid "Modern VPN tunnel"
+msgstr "Tunnel VPN modern"
+
+msgid "Multicast DNS for local network discovery"
+msgstr "DNS multicast untuk penemuan jaringan lokal"
+
+msgid "MySQL database server"
+msgstr "Pengajar basis data MySQL"
+
+msgid "Network File System"
+msgstr "Sistem Berkas Jaringan"
+
+msgid "Network Time Protocol"
+msgstr "Port / Protokol"
+
+msgid "NoSQL document database"
+msgstr "Basis data dokumen NoSQL"
+
+msgid "Phone and desktop integration"
+msgstr "Integrasi telepon dan desktop"
+
+msgid "Plex media streaming server"
+msgstr "Pengajar streaming media Plex"
+
+msgid "Post Office Protocol for email retrieval"
+msgstr "Protokol Kantor Pos untuk pengambilan email"
+
+msgid "PostgreSQL database server"
+msgstr "Pengajar basis data PostgreSQL"
+
+msgid "Remote Desktop Protocol"
+msgstr "Port / Protokol"
+
+msgid "Secure HTTP for web servers"
+msgstr "HTTP Aman untuk pengajar web"
+
+msgid "Secure shell remote access"
+msgstr "Akses jarak jauh shell aman"
+
+msgid "Simple Mail Transfer Protocol"
+msgstr "Protokol Transfer Mail Sederhana"
+
+msgid "Virtual Network Computing remote desktop"
+msgstr "Desktop jarak jauh Computing Jaringan Virtual"
+
+msgid "Windows file and printer sharing"
+msgstr "Pembagian berkas dan printer Windows"

@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ufwall-gtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 09:51+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "0 = append at end"
+msgstr "0 = 追加到末尾"
+
+msgid "About"
+msgstr "关于"
+
+msgid "Action"
+msgstr "动作"
+
+msgid "Active"
+msgstr "已启用"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Add Rule"
+msgstr "添加规则"
+
+msgid "Advanced"
+msgstr "高级"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Allow"
+msgstr "允许"
+
+msgid "Allow applications with predefined rules."
+msgstr "使用预定义规则允许应用程序。"
+
+msgid "Application Profiles"
+msgstr "应用程序预设"
+
+msgid "Audit"
+msgstr "审计"
+
+msgid "Auditor Error"
+msgstr "审计错误"
+
+msgid "Block"
+msgstr "阻止"
+
+msgid "Block Connection?"
+msgstr "阻止此连接？"
+
+msgid "Block inbound traffic from"
+msgstr "阻止来自以下地址的入站流量"
+
+msgid "Block outbound traffic to"
+msgstr "阻止发往以下地址的出站流量"
+
+msgid "Blocked Events"
+msgstr "已拦截事件"
+
+msgid "Blocked Successfully"
+msgstr "已成功阻止"
+
+msgid "Both"
+msgstr "两者"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Local Network Discovery"
+msgstr "本地网络发现"
+
+msgid "Control multicast DNS discovery and .local name resolution."
+msgstr "控制多播 DNS 发现和 .local 名称解析。"
+
+msgid "Local Network Discovery (mDNS)"
+msgstr "本地网络发现 (mDNS)"
+
+msgid "Checking service status…"
+msgstr "正在检查服务状态…"
+
+msgid "Network Discovery Error"
+msgstr "网络发现错误"
+
+msgid "Avahi is not installed."
+msgstr "未安装 Avahi。"
+
+msgid "Avahi is running; .local names and service discovery are available."
+msgstr "Avahi 正在运行；.local 名称和服务发现可用。"
+
+msgid "Avahi is enabled but not currently running."
+msgstr "Avahi 已启用，但当前未运行。"
+
+msgid "Avahi is blocked; .local names and service discovery are unavailable."
+msgstr "Avahi 已被阻止；.local 名称和服务发现不可用。"
+
+msgid "Comment"
+msgstr "备注"
+
+msgid "Custom"
+msgstr "自定义"
+
+msgid "Dashboard"
+msgstr "仪表盘"
+
+msgid "Default Policies"
+msgstr "默认策略"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Delete All"
+msgstr "删除全部"
+
+msgid "Delete All Rules?"
+msgstr "删除所有规则？"
+
+msgid "Delete Rule"
+msgstr "删除规则"
+
+msgid "Delete rule"
+msgstr "删除规则"
+
+msgid "Deny"
+msgstr "拒绝"
+
+msgid "Destination IP"
+msgstr "目标 IP"
+
+msgid "Direction"
+msgstr "方向"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Failed to Block"
+msgstr "阻止失败"
+
+msgid "Firewall"
+msgstr "防火墙"
+
+msgid "Firewall Rules"
+msgstr "防火墙规则"
+
+msgid "Full"
+msgstr "全部"
+
+msgid "High"
+msgstr "高"
+
+msgid "In"
+msgstr "入站"
+
+msgid "Inactive"
+msgstr "未启用"
+
+msgid "Inbound"
+msgstr "入站"
+
+msgid "Incoming"
+msgstr "入站"
+
+msgid "Insert Before Rule"
+msgstr "插入到规则前"
+
+msgid "Interface"
+msgstr "网络接口"
+
+msgid "Limit"
+msgstr "限制"
+
+msgid "Listening Ports"
+msgstr "监听端口"
+
+msgid "Log Level"
+msgstr "日志级别"
+
+msgid "Logging"
+msgstr "日志"
+
+msgid "Low"
+msgstr "低"
+
+msgid "Medium"
+msgstr "中"
+
+msgid "Monitoring Network Activity"
+msgstr "监控网络活动"
+
+msgid "No Profiles"
+msgstr "无预设"
+
+msgid "No Rules"
+msgstr "无规则"
+
+msgid "No application profiles found"
+msgstr "未找到应用程序预设"
+
+msgid "No blocked connections in recent events"
+msgstr "近期无被拦截的连接"
+
+msgid "No blocked ports in recent events"
+msgstr "近期无被拦截的端口"
+
+msgid "No listening ports detected"
+msgstr "未检测到监听端口"
+
+msgid "Off"
+msgstr "关闭"
+
+msgid "Out"
+msgstr "出站"
+
+msgid "Outbound"
+msgstr "出站"
+
+msgid "Outgoing"
+msgstr "出站"
+
+msgid "Pause list updates"
+msgstr "暂停列表更新"
+
+msgid "Port / Protocol"
+msgstr "端口 / 协议"
+
+msgid "Port / Service Name"
+msgstr "端口 / 服务名称"
+
+msgid "Profiles"
+msgstr "预设"
+
+msgid "Protocol"
+msgstr "协议"
+
+msgid "Quick Allow Port"
+msgstr "快速开放端口"
+
+msgid "Recent Blocked Events"
+msgstr "近期拦截事件"
+
+msgid "Recent Events Parsed"
+msgstr "已解析近期事件"
+
+msgid "Refresh"
+msgstr "刷新"
+
+msgid "Reject"
+msgstr "驳回"
+
+msgid "Resolve Domains"
+msgstr "解析域名"
+
+msgid "Rule added to block"
+msgstr "规则已添加到阻止列表"
+
+msgid "Rules"
+msgstr "规则"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Search Process or IP..."
+msgstr "搜索进程或 IP..."
+
+msgid "Search rules..."
+msgstr "搜索规则..."
+
+msgid "Service"
+msgstr "服务"
+
+msgid "Show"
+msgstr "显示"
+
+msgid "Source IP"
+msgstr "来源 IP"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "There are no rules configured yet."
+msgstr "尚未配置任何规则。"
+
+msgid "This will delete all custom rules. This action cannot be undone."
+msgstr "这将删除所有自定义规则。此操作无法撤销。"
+
+msgid ""
+"This will prevent the remote host from sending any packets to your machine."
+msgstr "这将阻止远程主机向您的计算机发送任何数据包。"
+
+msgid ""
+"This will prevent your machine from sending any packets to the remote host."
+msgstr "这将阻止您的计算机向远程主机发送任何数据包。"
+
+msgid "Top Blocked Connections"
+msgstr "阻止次数最多的连接"
+
+msgid "Top Blocked Ports"
+msgstr "被拦截最多的端口"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "e.g. 80,443/tcp or 8080"
+msgstr "例如 80,443/tcp 或 8080"
+
+msgid "BitTorrent client"
+msgstr "BitTorrent客户端"
+
+msgid "Common UNIX Printing System server"
+msgstr "通用UNIX打印系统服务器"
+
+msgid "Continuous file synchronization"
+msgstr "连续文件同步"
+
+msgid "Docker container runtime API"
+msgstr "Docker容器运行时API"
+
+msgid "Domain Name System server"
+msgstr "域名系统服务器"
+
+msgid "Extensible Messaging and Presence Protocol"
+msgstr "可扩展消息和在线状态协议"
+
+msgid "File Transfer Protocol"
+msgstr "文件传输协议"
+
+msgid "File synchronization service"
+msgstr "文件同步服务"
+
+msgid "Hypertext Transfer Protocol for web servers"
+msgstr "Web服务器的超文本传输协议"
+
+msgid "In-memory data structure store"
+msgstr "内存数据结构存储"
+
+msgid "Internet Message Access Protocol for email"
+msgstr "用于电子邮件的互联网消息访问协议"
+
+msgid "Lightweight Directory Access Protocol"
+msgstr "轻量级目录访问协议"
+
+msgid "Media streaming server"
+msgstr "媒体流媒体服务器"
+
+msgid "Modern VPN tunnel"
+msgstr "现代VPN隧道"
+
+msgid "Multicast DNS for local network discovery"
+msgstr "用于本地网络发现的多播DNS"
+
+msgid "MySQL database server"
+msgstr "MySQL数据库服务器"
+
+msgid "Network File System"
+msgstr "网络文件系统"
+
+msgid "Network Time Protocol"
+msgstr "端口 / 协议"
+
+msgid "NoSQL document database"
+msgstr "NoSQL文档数据库"
+
+msgid "Phone and desktop integration"
+msgstr "手机和桌面集成"
+
+msgid "Plex media streaming server"
+msgstr "Plex媒体流媒体服务器"
+
+msgid "Post Office Protocol for email retrieval"
+msgstr "用于检索电子邮件的邮局协议"
+
+msgid "PostgreSQL database server"
+msgstr "PostgreSQL数据库服务器"
+
+msgid "Remote Desktop Protocol"
+msgstr "端口 / 协议"
+
+msgid "Secure HTTP for web servers"
+msgstr "Web服务器的安全HTTP"
+
+msgid "Secure shell remote access"
+msgstr "安全Shell远程访问"
+
+msgid "Simple Mail Transfer Protocol"
+msgstr "简单邮件传输协议"
+
+msgid "Virtual Network Computing remote desktop"
+msgstr "虚拟网络计算远程桌面"
+
+msgid "Windows file and printer sharing"
+msgstr "Windows文件和打印机共享"
+
+#~ msgid "Firewall Active"
+#~ msgstr "防火墙已启用"
+
+#~ msgid "Loading..."
+#~ msgstr "加载中..."
+
+#~ msgid "Loading blocked events..."
+#~ msgstr "正在加载拦截事件..."
+
+#~ msgid "No targeted ports in recent events"
+#~ msgstr "近期无被攻击端口"
+
+#~ msgid "recent blocked events"
+#~ msgstr "条近期拦截事件"
+
+#~ msgid "Summary"
+#~ msgstr "摘要"
+
+#~ msgid "Top Targeted Ports"
+#~ msgstr "被攻击 Top 端口"
+
+#~ msgid "No rules configured yet."
+#~ msgstr "尚未配置规则。"
+
+#~ msgid "Click Add Rule to allow a service or port."
+#~ msgstr "点击“添加规则”以放行服务或端口。"
+
+#~ msgid "Authentication is required to modify firewall settings"
+#~ msgstr "修改防火墙设置需要管理员权限"

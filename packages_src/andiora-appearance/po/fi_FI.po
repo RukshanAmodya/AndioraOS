@@ -1,0 +1,227 @@
+# Andiora Appearance — Finnish translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Finnish\n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Tietoja Andiora-ulkonäöstä"
+
+msgid "Advanced"
+msgstr "Edistynyt"
+
+msgid "Andiora Appearance"
+msgstr "Andiora-ulkonäkö"
+
+msgid "Andiora Team"
+msgstr "Andiora-tiimi"
+
+msgid "Appearance"
+msgstr "Ulkonäkö"
+
+msgid "Apply to Login Screen"
+msgstr "Käytä kirjautumisruudussa"
+
+msgid "Bottom"
+msgstr "Alas"
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Valitse kuva GDM-kirjautumisruudun taustaksi."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Valitse tehtäväpalkin visuaalinen tyyli."
+
+msgid "Choose…"
+msgstr "Valitse…"
+
+msgid "Classic"
+msgstr "Klassinen"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Yhdistä yhden sovelluksen useat ikkunat yhdeksi kuvakkeeksi"
+
+msgid "Danger Zone"
+msgstr "Vaaravyöhyke"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Näytä Toiminnot-painike tehtäväpalkissa"
+
+msgid "Enable grouping"
+msgstr "Ota ryhmitys käyttöön"
+
+msgid "Extension Settings"
+msgstr "Laajennusten asetukset"
+
+msgid "GDM Wallpaper"
+msgstr "GDM-taustakuva"
+
+msgid "Group apps"
+msgstr "Ryhmitä sovellukset"
+
+msgid "Images"
+msgstr "Kuvat"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Erota käynnistimet käynnissä olevista sovelluksista"
+
+msgid "Layout"
+msgstr "Ulkoasu"
+
+msgid "Left"
+msgstr "Vasen"
+
+msgid "Login Screen Wallpaper"
+msgstr "Kirjautumisruudun taustakuva"
+
+msgid "Open"
+msgstr "Avaa"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Avaa tehtäväpalkin laajennusten asetukset."
+
+msgid "Panel Indicators"
+msgstr "Palkin ilmoitukset"
+
+msgid "Panel Widgets"
+msgstr "Palkin widgetit"
+
+msgid "Preview"
+msgstr "Esikatselu"
+
+msgid "Reset"
+msgstr "Nollaa"
+
+msgid "Reset desktop settings"
+msgstr "Nollaa työpöydän asetukset"
+
+msgid "Reset desktop settings?"
+msgstr "Nollataanko työpöydän asetukset?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Palauta kaikki GNOME Shell -asetukset tehdasasetuksiin"
+
+msgid "Right"
+msgstr "Oikea"
+
+msgid "Select image"
+msgstr "Valitse kuva"
+
+msgid "Seperated"
+msgstr "Erillinen"
+
+msgid "Show Activities Button"
+msgstr "Näytä Toiminnot-painike"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Näytä verkko"
+
+msgid "Show Weather"
+msgstr "Näytä sää"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Näytä tai piilota sisäänrakennetut paneelielementit."
+
+msgid "Taskbar Elements"
+msgstr "Tehtäväpalkin elementit"
+
+msgid "Taskbar Style"
+msgstr "Tehtäväpalkin tyyli"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Ota palkin ilmoituswidgetit käyttöön tai poista ne käytöstä."
+
+msgid "Top"
+msgstr "Ylös"
+
+msgid "Tweaks"
+msgstr "Hienosäädöt"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Vista-tehtäväpalkin toiminta"
+
+msgid "Wallpaper"
+msgstr "Taustakuva"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Toiminnot-painike — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Sovellettu — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Työpöydän asetukset nollattu. Käynnistä Shell uudelleen ottaaksesi käyttöön.✓ Työpöydän asetukset nollattu. Käynnistä Shell uudelleen ottaaksesi muutokset käyttöön."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ GDM-taustakuva käytössä"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}ettu"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Sijainnin soveltaminen epäonnistui"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Tyylin soveltaminen epäonnistui"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Nollaus epäonnistui"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ GDM-taustakuvan asettaminen epäonnistui"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Toiminnot-painikkeen vaihto epäonnistui"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ {action} {label} epäonnistui"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Valitse ensin kuva"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Tämä palauttaa kaikki GNOME Shell -asetukset tehdasasetuksiin.\n"
+#~ "Laajennuksesi, paneelin asettelu ja asetukset menetetään."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Tehtäväpalkin sijainti"
+
+#~ msgid "Panel Position"
+#~ msgstr "Palkin sijainti"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Valitse, missä tehtäväpalkki sijaitsee näytöllä."

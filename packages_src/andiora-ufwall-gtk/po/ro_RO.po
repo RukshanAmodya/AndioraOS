@@ -1,0 +1,402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ufwall-gtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 09:51+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "0 = append at end"
+msgstr "0 = adaugă la final"
+
+msgid "About"
+msgstr "Despre"
+
+msgid "Action"
+msgstr "Acțiune"
+
+msgid "Active"
+msgstr "Activ"
+
+msgid "Add"
+msgstr "Adaugă"
+
+msgid "Add Rule"
+msgstr "Adaugă regulă"
+
+msgid "Advanced"
+msgstr "Avansat"
+
+msgid "All"
+msgstr "Toate"
+
+msgid "Allow"
+msgstr "Permite"
+
+msgid "Allow applications with predefined rules."
+msgstr "Permiteți aplicațiilor cu reguli predefinite."
+
+msgid "Application Profiles"
+msgstr "Profile de aplicații"
+
+msgid "Audit"
+msgstr "Audit"
+
+msgid "Auditor Error"
+msgstr "Eroare auditor"
+
+msgid "Block"
+msgstr "Blochează"
+
+msgid "Block Connection?"
+msgstr "Blochezi conexiunea?"
+
+msgid "Block inbound traffic from"
+msgstr "Blochează traficul intrin de la"
+
+msgid "Block outbound traffic to"
+msgstr "Blochează traficul ieșit către"
+
+msgid "Blocked Events"
+msgstr "Evenimente blocate"
+
+msgid "Blocked Successfully"
+msgstr "Blocat cu succes"
+
+msgid "Both"
+msgstr "Ambele"
+
+msgid "Cancel"
+msgstr "Anulează"
+
+#, fuzzy
+msgid "Local Network Discovery"
+msgstr "Multicast DNS pentru descoperirea rețelei locale"
+
+msgid "Control multicast DNS discovery and .local name resolution."
+msgstr ""
+
+msgid "Local Network Discovery (mDNS)"
+msgstr ""
+
+msgid "Checking service status…"
+msgstr ""
+
+msgid "Network Discovery Error"
+msgstr ""
+
+msgid "Avahi is not installed."
+msgstr ""
+
+msgid "Avahi is running; .local names and service discovery are available."
+msgstr ""
+
+msgid "Avahi is enabled but not currently running."
+msgstr ""
+
+msgid "Avahi is blocked; .local names and service discovery are unavailable."
+msgstr ""
+
+msgid "Comment"
+msgstr "Comentariu"
+
+msgid "Custom"
+msgstr "Personalizat"
+
+msgid "Dashboard"
+msgstr "Panou de control"
+
+msgid "Default Policies"
+msgstr "Politici implicite"
+
+msgid "Delete"
+msgstr "Șterge"
+
+msgid "Delete All"
+msgstr "Șterge tot"
+
+msgid "Delete All Rules?"
+msgstr "Ștergeți toate regulile?"
+
+msgid "Delete Rule"
+msgstr "Șterge regula"
+
+msgid "Delete rule"
+msgstr "Șterge regula"
+
+msgid "Deny"
+msgstr "Refuză"
+
+msgid "Destination IP"
+msgstr "IP destinație"
+
+msgid "Direction"
+msgstr "Direcție"
+
+msgid "Error"
+msgstr "Eroare"
+
+msgid "Failed to Block"
+msgstr "Blocarea a eșuat"
+
+msgid "Firewall"
+msgstr "Zid de protecție"
+
+msgid "Firewall Rules"
+msgstr "Reguli firewall"
+
+msgid "Full"
+msgstr "Complet"
+
+msgid "High"
+msgstr "Ridicat"
+
+msgid "In"
+msgstr "Intrare"
+
+msgid "Inactive"
+msgstr "Inactiv"
+
+msgid "Inbound"
+msgstr "Intrin"
+
+msgid "Incoming"
+msgstr "Intrare"
+
+msgid "Insert Before Rule"
+msgstr "Inserează înainte de regulă"
+
+msgid "Interface"
+msgstr "Interfață"
+
+msgid "Limit"
+msgstr "Limită"
+
+msgid "Listening Ports"
+msgstr "Porturi ascultate"
+
+msgid "Log Level"
+msgstr "Nivel jurnal"
+
+msgid "Logging"
+msgstr "Înregistrare"
+
+msgid "Low"
+msgstr "Scăzut"
+
+msgid "Medium"
+msgstr "Mediu"
+
+msgid "Monitoring Network Activity"
+msgstr "Monitorizarea activității rețelei"
+
+msgid "No Profiles"
+msgstr "Niciun profil"
+
+msgid "No Rules"
+msgstr "Nicio regulă"
+
+msgid "No application profiles found"
+msgstr "Nu s-au găsit profiluri de aplicație"
+
+msgid "No blocked connections in recent events"
+msgstr "Nicio conexiune blocată în evenimentele recente"
+
+msgid "No blocked ports in recent events"
+msgstr "Nicio port blocat în evenimentele recente"
+
+msgid "No listening ports detected"
+msgstr "Nu s-au detectat porturi ascultătoare"
+
+msgid "Off"
+msgstr "Oprit"
+
+msgid "Out"
+msgstr "Ieșire"
+
+msgid "Outbound"
+msgstr "Ieșit"
+
+msgid "Outgoing"
+msgstr "Ieșire"
+
+msgid "Pause list updates"
+msgstr "Întrerupe actualizările listei"
+
+msgid "Port / Protocol"
+msgstr "Port / Protocol"
+
+msgid "Port / Service Name"
+msgstr "Port / Nume serviciu"
+
+msgid "Profiles"
+msgstr "Profiluri"
+
+msgid "Protocol"
+msgstr "Protocol"
+
+msgid "Quick Allow Port"
+msgstr "Permite rapid portul"
+
+msgid "Recent Blocked Events"
+msgstr "Evenimente recente blocate"
+
+msgid "Recent Events Parsed"
+msgstr "Evenimente recente analizate"
+
+msgid "Refresh"
+msgstr "Reîmprospătare"
+
+msgid "Reject"
+msgstr "Respinge"
+
+msgid "Resolve Domains"
+msgstr "Rezolvă domenii"
+
+msgid "Rule added to block"
+msgstr "Regulă adăugată la blocare"
+
+msgid "Rules"
+msgstr "Reguli"
+
+msgid "Save"
+msgstr "Salvează"
+
+msgid "Search Process or IP..."
+msgstr "Caută proces sau IP..."
+
+msgid "Search rules..."
+msgstr "Caută reguli..."
+
+msgid "Service"
+msgstr "Serviciu"
+
+msgid "Show"
+msgstr "Afișare"
+
+msgid "Source IP"
+msgstr "IP sursă"
+
+msgid "Status"
+msgstr "Stare"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "There are no rules configured yet."
+msgstr "Nu există reguli configurate încă."
+
+msgid "This will delete all custom rules. This action cannot be undone."
+msgstr ""
+"Aceasta va șterge toate regulile personalizate. Această acțiune nu poate fi "
+"anulată."
+
+msgid ""
+"This will prevent the remote host from sending any packets to your machine."
+msgstr ""
+"Acest lucru va împiedica gazda la distanță să trimită pachete către "
+"calculatorul dumneavoastră."
+
+msgid ""
+"This will prevent your machine from sending any packets to the remote host."
+msgstr ""
+"Acest lucru va împiedica calculatorul dumneavoastră să trimită pachete către "
+"gazda la distanță."
+
+msgid "Top Blocked Connections"
+msgstr "Cele mai blocate conexiuni"
+
+msgid "Top Blocked Ports"
+msgstr "Porturile cele mai blocate"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "e.g. 80,443/tcp or 8080"
+msgstr "ex. 80,443/tcp sau 8080"
+
+msgid "BitTorrent client"
+msgstr ""
+
+msgid "Common UNIX Printing System server"
+msgstr ""
+
+msgid "Continuous file synchronization"
+msgstr ""
+
+msgid "Docker container runtime API"
+msgstr ""
+
+msgid "Domain Name System server"
+msgstr ""
+
+msgid "Extensible Messaging and Presence Protocol"
+msgstr ""
+
+msgid "File Transfer Protocol"
+msgstr ""
+
+msgid "File synchronization service"
+msgstr "Serviciu de sincronizare a fișierelor"
+
+msgid "Hypertext Transfer Protocol for web servers"
+msgstr ""
+
+msgid "In-memory data structure store"
+msgstr ""
+
+msgid "Internet Message Access Protocol for email"
+msgstr ""
+
+msgid "Lightweight Directory Access Protocol"
+msgstr ""
+
+msgid "Media streaming server"
+msgstr "Server de streaming media"
+
+msgid "Modern VPN tunnel"
+msgstr "Tunel VPN modern"
+
+msgid "Multicast DNS for local network discovery"
+msgstr "Multicast DNS pentru descoperirea rețelei locale"
+
+msgid "MySQL database server"
+msgstr "Server de baze de date MySQL"
+
+msgid "Network File System"
+msgstr "Sistemul de Fișiere de Rețea"
+
+msgid "Network Time Protocol"
+msgstr "Port / Protocol"
+
+msgid "NoSQL document database"
+msgstr "Bază de date documentară NoSQL"
+
+msgid "Phone and desktop integration"
+msgstr "Integrare între telefon și calculator"
+
+msgid "Plex media streaming server"
+msgstr "Server de streaming media Plex"
+
+msgid "Post Office Protocol for email retrieval"
+msgstr "Post Office Protocol pentru preluarea emailurilor"
+
+msgid "PostgreSQL database server"
+msgstr "Server de baze de date PostgreSQL"
+
+msgid "Remote Desktop Protocol"
+msgstr "Port / Protocol"
+
+msgid "Secure HTTP for web servers"
+msgstr "HTTP securizat pentru servere web"
+
+msgid "Secure shell remote access"
+msgstr "Acces remote prin Secure Shell"
+
+msgid "Simple Mail Transfer Protocol"
+msgstr "Simple Mail Transfer Protocol"
+
+msgid "Virtual Network Computing remote desktop"
+msgstr "Desktop la distanță prin Virtual Network Computing"
+
+msgid "Windows file and printer sharing"
+msgstr "Partajare de fișiere și imprimante Windows"

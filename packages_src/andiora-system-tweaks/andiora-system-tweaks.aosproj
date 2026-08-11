@@ -1,0 +1,31 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>andiora-system-tweaks</PackageName>
+    <PackageVersion>2.0.0-1+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>Andiora system performance and compatibility tweaks — optimized for interactive desktop responsiveness</PackageDescription>
+    <Section>admin</Section>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>all</TargetArchitectures>
+    <Component>main</Component>
+    <Conflicts>andiora-system-tweaks-server</Conflicts>
+    <Replaces>andiora-system-tweaks-server</Replaces>
+    <SuiteShortNameMap>noble-addon=noble resolute-addon=resolute</SuiteShortNameMap>
+  </PropertyGroup>
+  <ItemGroup>
+    <DependencyCheckSource Url="https://mirror.aiursoft.com/ubuntu" SuiteMap="noble-addon=noble resolute-addon=resolute" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <IncludeFile Include="assets/20-andiora-tweaks.conf" Target="/etc/sysctl.d/20-andiora-tweaks.conf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PostInstallScript Include="scripts/postinst.sh" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1252 @@
+# Portuguese translations for andiora-installer-beta package.
+# Copyright (C) 2026 THE andiora-installer-beta'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the andiora-installer-beta package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-installer-beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-01 11:01+0000\n"
+"PO-Revision-Date: 2026-07-30 14:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Installing an input method requires an Internet connection."
+msgstr "A instalação de um método de introdução requer uma ligação à Internet."
+
+msgid ""
+"No Internet connection. Input methods cannot be installed. You can install "
+"them later when connected."
+msgstr ""
+"Sem ligação à Internet. Não é possível instalar métodos de introdução. Pode "
+"instalá-los mais tarde quando estiver ligado."
+
+msgid ""
+"\n"
+"\n"
+"A real installation will create a machine-local MOK. After reboot, choose "
+"Enroll MOK → Continue → Yes in MOKManager and enter password 123456."
+msgstr ""
+"\n"
+"\n"
+"Uma instalação real criará um MOK local à máquina. Após a reinicialização, "
+"selecione Inscrever MOK → Continuar → Sim no MOKManager e introduza a "
+"palavra-passe 123456."
+
+msgid ""
+"\n"
+"On the blue MOKManager screen choose Enroll MOK → Continue → Yes, password: "
+"123456"
+msgstr ""
+"\n"
+"No ecrã azul do MOKManager, selecione Inscrever MOK → Continuar → Sim, "
+"palavra-passe: 123456"
+
+msgid "4 GiB disk swap (priority 10) + 50% RAM LZ4 zram (priority 100)"
+msgstr ""
+"Swap de disco de 4 GiB (prioridade 10) + 50% da RAM zram LZ4 (prioridade 100)"
+
+msgid "; sudo does not require a password"
+msgstr "; o sudo não requer palavra-passe"
+
+msgid "; sudo requires the account password"
+msgstr "; o sudo requer a palavra-passe da conta"
+
+msgid ""
+"A partition on this disk is mounted. Unmount it and rescan storage before "
+"continuing."
+msgstr ""
+"Uma partição neste disco está montada. Desmonte-a e verifique novamente o "
+"armazenamento antes de continuar."
+
+msgid "ALL DATA on {disk} will be permanently erased."
+msgstr "TODOS OS DADOS em {disk} serão apagados permanentemente."
+
+msgid "Account security"
+msgstr "Segurança da conta"
+
+msgid "Administrator access would be locked"
+msgstr "Acesso de administrador ficaria bloqueado"
+
+msgid "Advanced Storage"
+msgstr "Armazenamento Avançado"
+
+msgid ""
+"Advanced coexistence can affect EFI firmware state and may trigger BitLocker "
+"recovery. It never shrinks or repairs Windows volumes."
+msgstr ""
+"A coexistência avançada pode afetar o estado do firmware EFI e pode "
+"desencadear a recuperação do BitLocker. Nunca reduz ou repara volumes do "
+"Windows."
+
+msgid "Advanced — keep existing systems"
+msgstr "Avançado — manter sistemas existentes"
+
+msgid "Advanced: Install Alongside"
+msgstr "Avançado: Instalar em paralelo"
+
+msgid ""
+"After changing partitions or unmounting a volume, rescan storage and select "
+"the target again."
+msgstr ""
+"Após alterar partições ou desmontar um volume, verifique novamente o "
+"armazenamento e selecione o destino novamente."
+
+msgid ""
+"After restart, MOKManager will open. Choose Enroll MOK → Continue → Yes, "
+"then enter password 123456."
+msgstr ""
+"Após a reinicialização, o MOKManager abrir-se-á. Selecione Inscrever MOK → "
+"Continuar → Sim e, em seguida, introduza a palavra-passe 123456."
+
+msgid ""
+"All partitions and data on {disk} will be destroyed.\n"
+"\n"
+msgstr ""
+"Todas as partições e dados em {disk} serão destruídos.\n"
+"\n"
+
+msgid ""
+"Alternatively, you may explicitly select one entire partition to erase. "
+"Everything in that selected partition will be destroyed; it is never "
+"selected automatically."
+msgstr ""
+"Alternativamente, pode selecionar explicitamente uma partição inteira para "
+"apagar. Tudo nessa partição selecionada será destruído; nunca é selecionado "
+"automaticamente."
+
+msgid "Battery power is too low for a safe installation."
+msgstr "O nível da bateria é demasiado baixo para uma instalação segura."
+
+msgid "Charge to at least 80% before starting the installation."
+msgstr "Carregue a bateria até pelo menos 80% antes de iniciar a instalação."
+
+msgid "Continue Anyway"
+msgstr "Continuar mesmo assim"
+
+msgid "Current battery level: {percent}%"
+msgstr "Nível atual da bateria: {percent}%"
+
+msgid "External power is connected."
+msgstr "A alimentação externa está ligada."
+
+msgid "External power is not connected."
+msgstr "A alimentação externa não está ligada."
+
+msgid "I understand the risks and insist on installing with low battery."
+msgstr "Compreendo os riscos e insisto em instalar com a bateria fraca."
+
+msgid "Low battery"
+msgstr "Bateria fraca"
+
+msgid "Recheck"
+msgstr "Verificar novamente"
+
+msgid "Andiora Installer"
+msgstr "Instalador do Andiora"
+
+msgid "Andiora Installer (Beta)"
+msgstr "Instalador do Andiora (Beta)"
+
+msgid "Andiora Installer (Development)"
+msgstr "Instalador do Andiora (Desenvolvimento)"
+
+msgid ""
+"Andiora will use only the selected unallocated space on {disk}. Existing "
+"partitions will be preserved.\n"
+"\n"
+msgstr ""
+"Andiora utilizará apenas o espaço não alocado selecionado em {disk}. As "
+"partições existentes serão preservadas.\n"
+"\n"
+
+msgid ""
+"Andiora will use only the selected unallocated space. The installer will "
+"not shrink or move an existing filesystem."
+msgstr ""
+"Andiora utilizará apenas o espaço não alocado selecionado. O instalador não "
+"reduzirá nem moverá um sistema de ficheiros existente."
+
+msgid ""
+"Any program running as your user can obtain full administrator privileges "
+"without authentication. Your login password still protects sign-in, but it "
+"will not protect sudo. Are you sure you want to continue?"
+msgstr ""
+"Qualquer programa executado como o seu utilizador pode obter privilégios "
+"completos de administrador sem autenticação. A palavra-passe de início de "
+"sessão ainda protege o acesso, mas não protegerá o sudo. Tem a certeza de "
+"que deseja continuar?"
+
+msgid "Arabic"
+msgstr "Árabe"
+
+msgid "Back"
+msgstr "Voltar"
+
+msgid ""
+"Before continuing: finish Windows updates, disable Fast Startup and "
+"hibernation, and back up the BitLocker recovery key. EFI, Secure Boot, TPM "
+"measurements and boot order can change."
+msgstr ""
+"Antes de continuar: conclua as atualizações do Windows, desative o Início "
+"Rápido e a hibernação, e faça uma cópia de segurança da chave de recuperação "
+"BitLocker. EFI, Secure Boot, medições TPM e ordem de arranque podem mudar."
+
+msgid "BitLocker detected"
+msgstr "BitLocker detetado"
+
+msgid ""
+"BitLocker storage will be preserved. The installer will not unlock, resize, "
+"repair or otherwise modify it."
+msgstr ""
+"O armazenamento BitLocker será preservado. O instalador não desbloqueará, "
+"redimensionará, reparará ou modificá-lo-á de qualquer outra forma."
+
+msgid "Boot policy"
+msgstr "Política de arranque"
+
+msgid "Btrfs (recommended)"
+msgstr "Btrfs (recomendado)"
+
+msgid "Btrfs — recommended"
+msgstr "Btrfs — recomendado"
+
+msgid "Cannot create installation plan"
+msgstr "Não é possível criar o plano de instalação"
+
+msgid "Choose Installation Method"
+msgstr "Escolher Método de Instalação"
+
+msgid "Choose one target disk. Storage settings come next."
+msgstr ""
+"Escolha um disco alvo. As definições de armazenamento seguem em seguida."
+
+msgid "Choose optional software to install"
+msgstr "Escolha o software opcional para instalar"
+
+msgid "Choose your language to begin installation"
+msgstr "Selecione o seu idioma para iniciar a instalação"
+
+msgid "Choose your location to set the system clock"
+msgstr "Escolha a sua localização para definir o relógio do sistema"
+
+msgid "Complete"
+msgstr "Concluído"
+
+msgid "Computer Name"
+msgstr "Nome do Computador"
+
+msgid "Computer name contains invalid characters."
+msgstr "O nome do computador contém caracteres inválidos."
+
+msgid "Configure account, region, timezone, and machine identity"
+msgstr "Configurar conta, região, fuso horário e identidade da máquina"
+
+msgid "Configure storage and swap"
+msgstr "Configurar armazenamento e swap"
+
+msgid "Confirm Password"
+msgstr "Confirmar Palavra-passe"
+
+msgid "Confirm your keyboard layout"
+msgstr "Confirme o seu layout de teclado"
+
+msgid "Continue Installation"
+msgstr "Continuar Instalação"
+
+msgid "Copy Andiora system"
+msgstr "Copiar sistema Andiora"
+
+msgid "Copy Log"
+msgstr "Copiar Registo"
+
+msgid "Create a new 1 GiB Andiora EFI System Partition"
+msgstr "Crie uma nova partição EFI de sistema Andiora de 1 GiB"
+
+msgid ""
+"Create and format a dedicated Andiora EFI System Partition inside the "
+"selected space."
+msgstr ""
+"Crie e formate uma partição EFI de sistema Andiora dedicada dentro do "
+"espaço selecionado."
+
+msgid "Create your user account"
+msgstr "Crie a sua conta de utilizador"
+
+msgid "Current disk layout"
+msgstr "Layout atual do disco"
+
+msgid ""
+"DEVELOPMENT MODE — the plan will be validated and simulated. No privileged "
+"executor or disk command can run."
+msgstr ""
+"MODO DE DESENVOLVIMENTO — o plano será validado e simulado. Nenhum executor "
+"privilegiado ou comando de disco pode ser executado."
+
+msgid "Danish"
+msgstr "Dinamarquês"
+
+msgid "Detect Internet connectivity"
+msgstr "Detetar conectividade à Internet"
+
+msgid "Detect firmware and Secure Boot"
+msgstr "Detetar firmware e Secure Boot"
+
+msgid ""
+"Development mode will simulate installation to {disk}. No disk data will be "
+"changed.\n"
+"\n"
+msgstr ""
+"O modo de desenvolvimento simulará a instalação em {disk}. Nenhum dado do "
+"disco será alterado.\n"
+"\n"
+
+msgid "Development simulation completed"
+msgstr "Simulação de desenvolvimento concluída"
+
+msgid "Discover Andiora"
+msgstr "Descubra o Andiora"
+
+msgid "Do not require a password for sudo commands"
+msgstr "Não exigir palavra-passe para comandos sudo"
+
+msgid "Download and install system updates during installation"
+msgstr ""
+"Efetuar download e instalar atualizações do sistema durante a instalação"
+
+msgid "Dutch"
+msgstr "Holandês"
+
+msgid "EFI System Partition"
+msgstr "Partição do Sistema EFI"
+
+msgid "EFI policy"
+msgstr "Política EFI"
+
+msgid "Empty disk — no partitions"
+msgstr "Disco vazio — sem partições"
+
+msgid "Enables shared-space subvolumes, snapshots and Disk Snapshots Manager."
+msgstr ""
+"Ativa subvolumes de espaço partilhado, instantâneos e Disk Snapshots Manager."
+
+msgid "English (UK)"
+msgstr "Inglês (Reino Unido)"
+
+msgid "English (US)"
+msgstr "Inglês (EUA)"
+
+msgid "Ensure Disk Snapshots Manager is available"
+msgstr "Certifique-se de que o Disk Snapshots Manager está disponível"
+
+msgid "Erase Disk and Install"
+msgstr "Apagar Disco e Instalar"
+
+msgid "Erase every partition and all data on the selected disk."
+msgstr "Elimina todas as partições e todos os dados no disco selecionado."
+
+msgid "Erase the entire selected disk?"
+msgstr "Apagar todo o disco selecionado?"
+
+msgid ""
+"Existing Windows, recovery and data partitions remain outside the write set "
+"and will be preserved."
+msgstr ""
+"As partições existentes do Windows, de recuperação e de dados permanecem "
+"fora do conjunto de gravação e serão preservadas."
+
+msgid ""
+"Existing partitions were detected. The first two choices delete them; "
+"Advanced is the preservation path."
+msgstr ""
+"Foram detetadas partições existentes. As duas primeiras opções eliminam-nas; "
+"Avançado é o caminho de preservação."
+
+msgid ""
+"Existing partitions will be preserved. New Andiora partitions will be "
+"created only in the selected unallocated extent; EFI vendor files and the "
+"Andiora firmware boot entry may be updated."
+msgstr ""
+"As partições existentes serão preservadas. Novas partições do Andiora serão "
+"criadas apenas na extensão não alocada selecionada; os ficheiros do "
+"fornecedor EFI e a entrada de arranque da firmware do Andiora poderão ser "
+"atualizados."
+
+msgid "Filesystem"
+msgstr "Sistema de ficheiros"
+
+msgid "Finalize target environment"
+msgstr "Finalizar ambiente alvo"
+
+msgid "Finnish"
+msgstr "Finlandês"
+
+msgid "Formats"
+msgstr "Formata"
+
+msgid "French"
+msgstr "Francês"
+
+msgid "Full Name"
+msgstr "Nome Completo"
+
+msgid "German"
+msgstr "Alemão"
+
+msgid "Greek"
+msgstr "Grego"
+
+msgid ""
+"Guided coexistence requires a system booted in UEFI mode and a GPT target "
+"disk. This disk cannot continue in guided mode."
+msgstr ""
+"A coexistência guiada requer um sistema inicializado em modo UEFI e um disco "
+"de destino GPT. Este disco não pode continuar no modo guiado."
+
+msgid ""
+"Guided storage selection is missing. Rescan and select the target again."
+msgstr ""
+"A seleção de armazenamento guiada está ausente. Volte a pesquisar e "
+"selecione o destino novamente."
+
+msgid "Hindi (India)"
+msgstr "Hindi (Índia)"
+
+msgid "How should Andiora use this disk?"
+msgstr "Como deve o Andiora utilizar este disco?"
+
+msgid "I Understand the Risk, Continue"
+msgstr "Compreendo o Risco, Continuar"
+
+msgid "Indonesian"
+msgstr "Indonésio"
+
+msgid "Install"
+msgstr "Instalar"
+
+msgid "Install input method"
+msgstr "Instalar método de introdução"
+
+msgid "Install {language} input method: {name}"
+msgstr "Instalar método de introdução em {language}: {name}"
+
+msgid "Install Alongside"
+msgstr "Instalar em conjunto"
+
+msgid "Install alongside"
+msgstr "Instalar em conjunto"
+
+msgid "Install alongside requires a password-protected account."
+msgstr "Instalar em conjunto requer uma conta protegida por palavra-passe."
+
+msgid "Install bootloader"
+msgstr "Instalar gestor de arranque"
+
+msgid "Check systems on other disks"
+msgstr "Verificar sistemas noutros discos"
+
+msgid "Install hardware drivers"
+msgstr "Instalar controladores de hardware"
+
+msgid "Install in the selected free space?"
+msgstr "Instalar no espaço livre selecionado?"
+
+msgid "Ensure required language packs are installed"
+msgstr "Garantir que os pacotes de idioma necessários estão instalados"
+
+msgid "Install system updates"
+msgstr "Instalar atualizações do sistema"
+
+msgid "Install third-party drivers for this device"
+msgstr "Instalar controladores de terceiros para este dispositivo"
+
+msgid "Installation Complete"
+msgstr "Instalação Concluída"
+
+msgid "Installation Failed"
+msgstr "Falha na Instalação"
+
+msgid "Installation Steps"
+msgstr "Etapas da Instalação"
+
+msgid ""
+"Installation cannot continue with this selection. There is no force-continue "
+"option around storage safety checks."
+msgstr ""
+"A instalação não pode continuar com esta seleção. Não existe opção de forçar "
+"a continuação em torno das verificações de segurança de armazenamento."
+
+msgid "Installation complete"
+msgstr "Instalação concluída"
+
+msgid "Installation failed"
+msgstr "Falha na instalação"
+
+msgid "Installation in progress"
+msgstr "Instalação em curso"
+
+msgid "Installing Andiora"
+msgstr "A instalar Andiora"
+
+msgid "Italian"
+msgstr "Italiano"
+
+msgid "Japanese (JIS keyboard)"
+msgstr "Japonês (teclado JIS)"
+
+msgid "Keyboard"
+msgstr "Teclado"
+
+msgid "Keyboard Layout"
+msgstr "Layout do Teclado"
+
+msgid "Configure physical keyboard layout"
+msgstr "Configurar o esquema do teclado físico"
+
+msgid "Korean"
+msgstr "Coreano"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Live USB — excluded"
+msgstr "USB Live — excluído"
+
+msgid "Mount target filesystems"
+msgstr "Montar sistemas de ficheiros alvo"
+
+msgid "Navigation error"
+msgstr "Erro de navegação"
+
+msgid "New partitions"
+msgstr "Novas partições"
+
+msgid "Next"
+msgstr "Próximo"
+
+msgid "Next slide"
+msgstr "Próximo slide"
+
+msgid "No partition table"
+msgstr "Sem tabela de partições"
+
+msgid "No suitable disks found."
+msgstr "Nenhum disco adequado encontrado."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with Windows Disk Management, then boot the installer "
+"again and rescan the disk."
+msgstr ""
+"Não foi encontrado espaço não alocado adequado. Para proteger os seus dados, "
+"crie espaço não alocado com a Gestão de Discos do Windows, reinicie o "
+"instalador e verifique novamente o disco."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with a partitioning tool, then boot the installer again "
+"and rescan the disk."
+msgstr ""
+"Não foi encontrado espaço não alocado adequado. Para proteger os seus dados, "
+"crie espaço não alocado com uma ferramenta de particionamento, reinicie o "
+"instalador e verifique novamente o disco."
+
+msgid "Norwegian"
+msgstr "Norueguês"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Output"
+msgstr "Saída"
+
+msgid "Output • Error"
+msgstr "Saída • Erro"
+
+msgid "Output • {count} warning(s)"
+msgstr "Saída • {count} aviso(s)"
+
+msgid "Partition details unavailable"
+msgstr "Detalhes da partição indisponíveis"
+
+msgid "Password"
+msgstr "Palavra-passe"
+
+msgid "Password must be at least 6 characters."
+msgstr "A palavra-passe deve ter pelo menos 6 caracteres."
+
+msgid "Passwordless sudo is unsafe"
+msgstr "O sudo sem palavra-passe é inseguro"
+
+msgid "Platform"
+msgstr "Plataforma"
+
+msgid "Please do not turn off your computer"
+msgstr "Não desligue o computador"
+
+msgid "Please review your choices before proceeding"
+msgstr "Por favor, reveja as suas escolhas antes de prosseguir"
+
+msgid "Polish"
+msgstr "Polonês"
+
+msgid "Portuguese"
+msgstr "Português"
+
+msgid "Portuguese (Brazil)"
+msgstr "Português (Brasil)"
+
+msgid "Prepare Secure Boot"
+msgstr "Preparar Secure Boot"
+
+msgid "Prepare installation disk"
+msgstr "Preparar disco de instalação"
+
+msgid "Prepare target environment"
+msgstr "Preparar ambiente alvo"
+
+msgid "Preparing installation…"
+msgstr "A preparar a instalação…"
+
+msgid "Preserved partitions"
+msgstr "Partições preservadas"
+
+msgid "Previous slide"
+msgstr "Slide anterior"
+
+msgid "Ready to Install"
+msgstr "Pronto para Instalar"
+
+msgid "Reboot Now"
+msgstr "Reiniciar Agora"
+
+msgid "Refresh package indexes"
+msgstr "Atualizar índices de pacotes"
+
+msgid "Remove live-session components"
+msgstr "Remover componentes da sessão live"
+
+msgid "Remove the installation media and restart your computer"
+msgstr "Remova o suporte de instalação e reinicie o seu computador"
+
+msgid ""
+"Requires an Internet connection. The base installation remains available "
+"when offline."
+msgstr ""
+"Requer uma ligação à Internet. A instalação base permanece disponível "
+"offline."
+
+msgid "Rescan Storage"
+msgstr "Rescanner armazenamento"
+
+msgid "Rescan and Reselect Disk"
+msgstr "Rescanner e redefinir disco"
+
+msgid "Restart and Enroll Secure Boot Key"
+msgstr "Reiniciar e Inscrever Chave do Secure Boot"
+
+msgid "Restart is disabled in development protection mode"
+msgstr ""
+"A reinicialização está desativada no modo de proteção de desenvolvimento"
+
+msgid "Return and Set a Password"
+msgstr "Voltar e Definir uma Palavra-passe"
+
+msgid "Return to Make Changes"
+msgstr "Voltar para Efetuar Alterações"
+
+msgid "Reuse {path} ({size})"
+msgstr "Reutilizar {path} ({size})"
+
+msgid ""
+"Reuse {path}; never format it; verify FAT health, identity and 64 MiB free "
+"before writing."
+msgstr ""
+"Reutilizar {path}; nunca formatá-lo; verificar a saúde FAT, identidade e 64 "
+"MiB livres antes de gravar."
+
+msgid "Romanian"
+msgstr "Romeno"
+
+msgid "Russian"
+msgstr "Russo"
+
+msgid "Save Log"
+msgstr "Guardar Registo"
+
+msgid "Schedule MOK enrollment"
+msgstr "Agendar inscrição MOK"
+
+msgid "Search timezones…"
+msgstr "Pesquisar fusos horários…"
+
+msgid "Secure Boot enrollment"
+msgstr "Inscrição do Secure Boot"
+
+msgid "Select Installation Disk"
+msgstr "Selecionar Disco de Instalação"
+
+msgid "Select Timezone"
+msgstr "Selecionar Fuso Horário"
+
+msgid "Select fastest package mirror"
+msgstr "Selecionar espelho de pacotes mais rápido"
+
+msgid "Selected timezone"
+msgstr "Fuso horário selecionado"
+
+msgid "Selected unallocated space"
+msgstr "Espaço não alocado selecionado"
+
+msgid "Some drivers are proprietary or otherwise non-free software."
+msgstr "Alguns controladores são proprietários ou outro software não livre."
+
+msgid "Spanish"
+msgstr "Espanhol"
+
+msgid "Stable disk identity"
+msgstr "Identidade estável do disco"
+
+msgid ""
+"Stable identity: {stable_id}\n"
+"\n"
+msgstr ""
+"Identidade estável: {stable_id}\n"
+"\n"
+
+msgid "Storage Device"
+msgstr "Dispositivo de armazenamento"
+
+msgid "Storage mode"
+msgstr "Modo de armazenamento"
+
+msgid "Subvolumes"
+msgstr "Subvolumes"
+
+msgid "Swap"
+msgstr "Troca"
+
+msgid "Swedish"
+msgstr "Sueco"
+
+msgid "System updates"
+msgstr "Atualizações do sistema"
+
+msgid "Target Disk"
+msgstr "Disco Alvo"
+
+msgid "Target: {disk} ({size} — {model})"
+msgstr "Alvo: {disk} ({size} — {model})"
+
+msgid "Test your keyboard here…"
+msgstr "Teste o seu teclado aqui…"
+
+msgid "Thai"
+msgstr "Tailandês"
+
+msgid ""
+"The GPT disk or one of its partitions has no unique stable identifier. "
+"Guided coexistence cannot safely authorize preservation or writes on this "
+"disk."
+msgstr ""
+"O disco GPT ou uma das suas partições não tem um identificador estável "
+"único. A coexistência guiada não pode autorizar com segurança a preservação "
+"ou gravações neste disco."
+
+msgid ""
+"The complete partition map and free-space geometry could not be read "
+"consistently. No space on this disk is authorized for installation."
+msgstr ""
+"Não foi possível ler consistentemente o mapa de partições completo e a "
+"geometria do espaço livre. Nenhum espaço neste disco é autorizado para "
+"instalação."
+
+msgid ""
+"The existing EFI System Partition is only a candidate. Health and free-space "
+"checks must pass before it can be reused, and it will never be formatted."
+msgstr ""
+"A partição de sistema EFI existente é apenas uma candidata. As verificações "
+"de saúde e de espaço livre devem ser aprovadas antes de poder ser "
+"reutilizada, e nunca será formatada."
+
+msgid ""
+"The installation plan is valid. No disk, filesystem, bootloader, Secure Boot "
+"state, or installed system was changed."
+msgstr ""
+"O plano de instalação é válido. Nenhum disco, sistema de ficheiros, gestor "
+"de arranque, estado do Secure Boot ou sistema instalado foi alterado."
+
+msgid "The installer cannot be closed while it is modifying the target disk."
+msgstr ""
+"O instalador não pode ser fechado enquanto estiver a modificar o disco alvo."
+
+msgid ""
+"The installer will not mount, repair or infer the safety of Windows volumes "
+"from hibernation or Fast Startup state. Any required Windows maintenance "
+"must be completed in Windows."
+msgstr ""
+"O instalador não montará, reparará nem inferirá a segurança dos volumes do "
+"Windows provenientes do estado de hibernação ou Arranque Rápido. Qualquer "
+"manutenção necessária no Windows deve ser concluída no Windows."
+
+msgid "The privileged executor is disabled."
+msgstr "O executor privilegiado está desativado."
+
+msgid ""
+"The selected disk changed or disappeared. Return to the disk page and select "
+"it again. {error}"
+msgstr ""
+"O disco selecionado mudou ou desapareceu. Volte à página de discos e "
+"seleccione-o novamente. {error}"
+
+msgid "The selected disk size changed. Return and select it again."
+msgstr "O tamanho do disco selecionado mudou. Volte e seleccione-o novamente."
+
+msgid ""
+"The selected disk topology changed. Review the disk and installation method "
+"again."
+msgstr ""
+"A topologia do disco selecionado mudou. Revise o disco e o método de "
+"instalação novamente."
+
+msgid ""
+"The system will sign in to this account automatically and allow it to obtain "
+"full administrator privileges without a password. Anyone with physical "
+"access, and any program running as this user, can completely control the "
+"system. Use this only for a kiosk, temporary virtual machine, or another "
+"controlled environment."
+msgstr ""
+"O sistema irá iniciar sessão nesta conta automaticamente e permitir-lhe-á "
+"obter privilégios completos de administrador sem palavra-passe. Qualquer "
+"pessoa com acesso físico, e qualquer programa executado como este "
+"utilizador, pode controlar completamente o sistema. Utilize isto apenas para "
+"um quiosque, máquina virtual temporária ou outro ambiente controlado."
+
+msgid "The two passwords do not match."
+msgstr "As duas palavras-passe não coincidem."
+
+msgid "Third-party drivers"
+msgstr "Controladores de terceiros"
+
+msgid ""
+"This account has no login password, but sudo would still require one. "
+"Because the root account is locked by default, you would be unable to "
+"perform administrator tasks. Set an account password or enable passwordless "
+"sudo."
+msgstr ""
+"Esta conta não tem palavra-passe de início de sessão, mas o sudo ainda a "
+"exigiria. Como a conta root está bloqueada por predefinição, seria incapaz "
+"de executar tarefas de administrador. Defina uma palavra-passe de conta ou "
+"ative o sudo sem palavra-passe."
+
+msgid ""
+"This advanced path preserves existing partitions but changes the selected "
+"disk's partition table and the machine's EFI boot state."
+msgstr ""
+"Esta opção avançada preserva as partições existentes, mas altera a tabela de "
+"partições do disco selecionado e o estado de inicialização EFI da máquina."
+
+msgid "This configuration is very unsafe"
+msgstr "Esta configuração é muito insegura"
+
+msgid ""
+"This disk contains an active mapper, array or other nested block-device "
+"topology that guided coexistence does not support."
+msgstr ""
+"Este disco contém um mapeador ativo, uma matriz ou outra topologia aninhada "
+"de dispositivo de bloco que a coexistência orientada não suporta."
+
+msgid ""
+"This disk is too small for whole-disk installation. Advanced may continue "
+"only if suitable unallocated space exists."
+msgstr ""
+"Este disco é demasiado pequeno para instalação em todo o disco. A opção "
+"avançada pode continuar apenas se existir espaço não alocado adequado."
+
+msgid "This installer does not shrink or preserve other systems."
+msgstr "Este instalador não reduz nem preserva outros sistemas."
+
+msgid "Timezone"
+msgstr "Fuso Horário"
+
+msgid "Too small"
+msgstr "Dimensão insuficiente"
+
+msgid "Turkish"
+msgstr "Turco"
+
+msgid "Ukrainian"
+msgstr "Ucraniano"
+
+msgid "Unallocated space"
+msgstr "Espaço não alocado"
+
+msgid "Unallocated · {size}"
+msgstr "Não alocado · {size}"
+
+msgid "Unavailable: {error}"
+msgstr "Indisponível: {error}"
+
+msgid "Unknown filesystem"
+msgstr "Sistema de ficheiros desconhecido"
+
+msgid "Unmount installed system"
+msgstr "Desmontar sistema instalado"
+
+msgid "Updates and Drivers"
+msgstr "Atualizações e Controladores"
+
+msgid ""
+"Use already-unallocated space and preserve existing partitions. This is the "
+"only Windows coexistence path."
+msgstr ""
+"Utilizar espaço já não alocado e preservar as partições existentes. Esta é a "
+"única opção de coexistência com o Windows."
+
+msgid "Use only existing unallocated space on the selected disk."
+msgstr "Utilizar apenas o espaço não alocado existente no disco selecionado."
+
+msgid "User"
+msgstr "Utilizador"
+
+msgid "User Account"
+msgstr "Conta de Utilizador"
+
+msgid "Username"
+msgstr "Nome de Utilizador"
+
+msgid ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+msgstr ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+
+msgid "Uses a traditional single root filesystem."
+msgstr "Utiliza um sistema de ficheiros raiz único tradicional."
+
+msgid "Validate Plan (No Installation)"
+msgstr "Validar Plano (Sem Instalação)"
+
+msgid "Validate this installation plan?"
+msgstr "Validar este plano de instalação?"
+
+msgid "Verify kernel module signatures"
+msgstr "Verificar assinaturas dos módulos do kernel"
+
+msgid "Verify target disk isolation"
+msgstr "Verificar isolamento do disco alvo"
+
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+msgid "Welcome to Andiora"
+msgstr "Bem-vindo ao Andiora"
+
+msgid "Windows detected"
+msgstr "Detetação do Windows"
+
+msgid ""
+"Write only EFI/Andiora, do not overwrite EFI/BOOT, and require a verified "
+"Andiora NVRAM entry."
+msgstr ""
+"Escrever apenas no EFI/Andiora, não sobrescrever o EFI/BOOT e exigir uma "
+"entrada NVRAM do Andiora verificada."
+
+msgid "automatic login"
+msgstr "início de sessão automático"
+
+msgid "create a machine-local MOK; enroll after reboot with password 123456"
+msgstr ""
+"criar um MOK local à máquina; inscrever após reinicialização com a palavra-"
+"passe 123456"
+
+msgid "detect and install (may include non-free software)"
+msgstr "detetar e instalar (pode incluir software não livre)"
+
+msgid "do not install"
+msgstr "não instalar"
+
+msgid "download and install"
+msgstr "efetuar download e instalar"
+
+msgid "ext4 (classic)"
+msgstr "ext4 (clássico)"
+
+msgid "ext4 — classic"
+msgstr "ext4 — clássico"
+
+msgid "not required"
+msgstr "não necessário"
+
+msgid "password required for login"
+msgstr "palavra-passe necessária para início de sessão"
+
+msgid "single ext4 root filesystem"
+msgstr "sistema de ficheiros ext4 único raiz"
+
+msgid "{architecture} / {firmware} / Secure Boot: {secure_boot}"
+msgstr "{architecture} / {firmware} / Secure Boot: {secure_boot}"
+
+msgid "{count}: {paths}"
+msgstr "{count}: {paths}"
+
+msgid "{name}: {start}–{end} MiB"
+msgstr "{name}: {start}–{end} MiB"
+
+msgid "{path} as {filesystem}"
+msgstr "{path} como {filesystem}"
+
+msgid "{size} at {offset}"
+msgstr "{size} em {offset}"
+
+msgid "{size} unallocated at {offset}"
+msgstr "{size} não alocado em {offset}"
+
+msgid "{step} failed"
+msgstr "{step} falhou"
+
+msgid ""
+"⚠ Only the selected unallocated space will be partitioned and formatted. "
+"Existing partitions are preserved, but EFI/Andiora files and the Andiora "
+"firmware boot entry may change. This installer will not shrink Windows for "
+"you."
+msgstr ""
+"⚠ Apenas o espaço não alocado selecionado será particionado e formatado. As "
+"partições existentes são preservadas, mas os ficheiros EFI/Andiora e a "
+"entrada de boot do firmware Andiora podem alterar-se. Este instalador não "
+"reduzirá o Windows por si."
+
+msgid ""
+"⚠ This will erase ALL data on the selected disk. This action cannot be "
+"undone."
+msgstr ""
+"⚠ Isto apagará TODOS os dados no disco selecionado. Esta ação não pode ser "
+"desfeita."
+
+#: src/pages.py
+msgid "Connect to the Internet"
+msgstr "Ligar à Internet"
+
+#: src/pages.py
+msgid "Internet connection is ready."
+msgstr "A ligação à Internet está pronta."
+
+#: src/pages.py
+msgid "Available Wi-Fi Networks"
+msgstr "Redes Wi-Fi disponíveis"
+
+msgid "Preserve connected Wi-Fi network"
+msgstr "Manter a rede Wi-Fi ligada"
+
+msgid "Loading storage devices…"
+msgstr "A carregar dispositivos de armazenamento…"
+
+msgid "Rechecking target disk…"
+msgstr "A verificar novamente o disco de destino…"
+
+msgid "Storage devices could not be loaded: {error}"
+msgstr "Não foi possível carregar os dispositivos de armazenamento: {error}"
+
+#: src/pages.py
+msgid "Install extended multimedia format support"
+msgstr "Instalar suporte alargado para formatos multimédia"
+
+#: src/pages.py
+msgid "Extended multimedia formats"
+msgstr "Formatos multimédia alargados"
+
+#: src/pages.py
+msgid ""
+"Adds wider GStreamer compatibility and support for additional legacy and "
+"specialist media formats. Some components may be subject to patent or "
+"redistribution terms."
+msgstr ""
+"Adiciona maior compatibilidade com o GStreamer e suporte para outros "
+"formatos multimédia antigos e especializados. Alguns componentes podem estar "
+"sujeitos a patentes ou condições de redistribuição."
+
+#: src/pages.py
+msgid "A saved profile exists. Entering a password updates it securely."
+msgstr "A saved profile exists. Entering a password updates it securely."
+
+#: src/pages.py
+msgid "Anonymous identity (optional)"
+msgstr "Anonymous identity (optional)"
+
+#: src/pages.py
+msgid "CA certificate path (optional)"
+msgstr "CA certificate path (optional)"
+
+#: src/pages.py
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/pages.py
+msgid "Cancelling Wi-Fi operation…"
+msgstr "Cancelling Wi-Fi operation…"
+
+#: src/pages.py
+msgid "Client certificate path"
+msgstr "Client certificate path"
+
+#: src/pages.py
+msgid "Connect"
+msgstr "Connect"
+
+#: src/pages.py
+msgid "Continue"
+msgstr "Continue"
+
+#: src/pages.py
+msgid "Connect to a hidden network"
+msgstr "Connect to a hidden network"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connect to {network}"
+msgstr "Connect to {network}"
+
+#: src/pages.py
+msgid "Connected"
+msgstr "Connected"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connecting to {network}…"
+msgstr "Connecting to {network}…"
+
+#: src/pages.py
+msgid "Could not change the Wi-Fi connection"
+msgstr "Could not change the Wi-Fi connection"
+
+#: src/pages.py
+msgid "Disconnect"
+msgstr "Disconnect"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnect from {network}?"
+msgstr "Disconnect from {network}?"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnecting from {network}…"
+msgstr "Disconnecting from {network}…"
+
+#: src/pages.py
+msgid "Domain suffix match (optional)"
+msgstr "Domain suffix match (optional)"
+
+#: src/pages.py
+msgid "EAP method"
+msgstr "EAP method"
+
+#: src/pages.py
+msgid "Enhanced Open (OWE)"
+msgstr "Enhanced Open (OWE)"
+
+#: src/pages.py
+msgid ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+msgstr ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+
+#: src/pages.py
+msgid "Enter the exact network name and choose its security type."
+msgstr "Enter the exact network name and choose its security type."
+
+#: src/pages.py
+msgid "Enterprise Wi-Fi"
+msgstr "Enterprise Wi-Fi"
+
+#: src/pages.py
+msgid "Identity"
+msgstr "Identity"
+
+#: src/pages.py
+msgid "Inner authentication"
+msgstr "Inner authentication"
+
+#: src/pages.py
+msgid "Network name (SSID)"
+msgstr "Network name (SSID)"
+
+#: src/pages.py
+msgid "No Wi-Fi networks found."
+msgstr "No Wi-Fi networks found."
+
+#: src/pages.py
+msgid "Open network"
+msgstr "Open network"
+
+#: src/pages.py
+msgid "Personal Wi-Fi"
+msgstr "Personal Wi-Fi"
+
+#: src/pages.py
+msgid "Private key password (optional)"
+msgstr "Private key password (optional)"
+
+#: src/pages.py
+msgid "Private key path"
+msgstr "Private key path"
+
+#: src/pages.py
+msgid "Refresh Wi-Fi networks"
+msgstr "Refresh Wi-Fi networks"
+
+#: src/pages.py
+msgid "Saved"
+msgstr "Saved"
+
+#: src/pages.py
+msgid "Security"
+msgstr "Security"
+
+#: src/pages.py
+msgid ""
+"The installer will keep the saved network profile so it can be used again."
+msgstr ""
+"The installer will keep the saved network profile so it can be used again."
+
+#: src/pages.py
+msgid "The local network is connected, but Internet access is unavailable."
+msgstr "The local network is connected, but Internet access is unavailable."
+
+#: src/pages.py
+msgid "Turning Wi-Fi off…"
+msgstr "Turning Wi-Fi off…"
+
+#: src/pages.py
+msgid "Turning Wi-Fi on…"
+msgstr "Turning Wi-Fi on…"
+
+#: src/pages.py
+msgid "Use WPS"
+msgstr "Use WPS"
+
+#: src/pages.py
+msgid "WEP (legacy)"
+msgstr "WEP (legacy)"
+
+#: src/pages.py
+msgid ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+msgstr ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+
+#: src/pages.py
+#, python-brace-format
+msgid "Waiting for WPS on {network}. Press the WPS button on the router…"
+msgstr "Waiting for WPS on {network}. Press the WPS button on the router…"

@@ -1,0 +1,1143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-yubikey-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-04 17:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "1 identity is currently available to SSH applications."
+msgstr ""
+
+msgid "1 resident SSH key is available from your connected YubiKey."
+msgstr ""
+
+msgid "1 resident SSH key · {0}"
+msgstr ""
+
+msgid "A key must be connected before it can be enrolled."
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Account password"
+msgstr ""
+
+msgid "Add another SSH key"
+msgstr ""
+
+msgid "Add this public key to GitHub as a Signing Key."
+msgstr ""
+
+msgid "Administrator access"
+msgstr ""
+
+msgid "Advanced options"
+msgstr ""
+
+msgid "Algorithm"
+msgstr ""
+
+msgid "Allow sudo without authentication"
+msgstr ""
+
+msgid "Allowed for sudo · not currently connected"
+msgstr ""
+
+msgid "Allowed to authorize sudo"
+msgstr ""
+
+msgid "Allowed to unlock this user"
+msgstr ""
+
+msgid "Allowed to unlock this user · not currently connected"
+msgstr ""
+
+msgid "Already loaded"
+msgstr ""
+
+msgid "An enrolled YubiKey or the account password can authorize sudo."
+msgstr ""
+
+msgid "Andiora Team"
+msgstr ""
+
+msgid "Andiora YubiKey Security Center"
+msgstr ""
+
+msgid "Andiora works more securely with a YubiKey"
+msgstr ""
+
+msgid "Application"
+msgstr ""
+
+msgid "Application must begin with ssh:, contain no whitespace, and be at most 253 bytes."
+msgstr ""
+
+msgid "Available"
+msgstr ""
+
+msgid "Available through SSH agent"
+msgstr ""
+
+msgid "Available through local key handle"
+msgstr ""
+
+msgid "Buy a YubiKey"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Checking SSH keys…"
+msgstr ""
+
+msgid "Checking SSH support…"
+msgstr ""
+
+msgid "Checking connected YubiKeys"
+msgstr ""
+
+msgid "Choose a YubiKey-backed SSH key"
+msgstr ""
+
+msgid "Choose a local key-handle file"
+msgstr ""
+
+msgid "Choose a supported OpenSSH security-key algorithm."
+msgstr ""
+
+msgid "Choose a valid /dev/hidrawN FIDO device."
+msgstr ""
+
+msgid "Choose a valid output folder."
+msgstr ""
+
+msgid "Choose an SSH key for Git signing."
+msgstr ""
+
+msgid "Choose local SSH key-handle path"
+msgstr ""
+
+msgid "Choose one SSH key. The selection takes effect immediately for this user's Git commits."
+msgstr ""
+
+msgid "Choose which YubiKeys may unlock {0}. Password sign-in remains available."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Command exited with"
+msgstr ""
+
+msgid "Command exited with {0}"
+msgstr ""
+
+msgid "Commit signing"
+msgstr ""
+
+msgid "Configured YubiKeys"
+msgstr ""
+
+msgid "Configured for {0} · Not connected"
+msgstr ""
+
+msgid "Connect a FIDO security key first"
+msgstr ""
+
+msgid "Connect a YubiKey"
+msgstr ""
+
+msgid "Connect a YubiKey to get started"
+msgstr ""
+
+msgid "Connect your YubiKey"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Connected YubiKeys"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Continue to PIN"
+msgstr ""
+
+msgid "Copy public key"
+msgstr ""
+
+msgid "Could not check SSH keys"
+msgstr ""
+
+msgid "Could not create a temporary public-key file: {0}"
+msgstr ""
+
+msgid "Could not create temporary Git signing data: {0}"
+msgstr ""
+
+msgid "Could not create {0}: {1}"
+msgstr ""
+
+msgid "Could not export the public key: {0}"
+msgstr ""
+
+msgid "Could not find security keys"
+msgstr ""
+
+msgid "Could not flush the temporary public key: {0}"
+msgstr ""
+
+msgid "Could not inspect USB devices: {0}"
+msgstr ""
+
+msgid "Could not inspect this YubiKey"
+msgstr ""
+
+msgid "Could not list YubiKeys"
+msgstr ""
+
+msgid "Could not locate the secure PIN helper: {0}"
+msgstr ""
+
+msgid "Could not prepare the Git signing test: {0}"
+msgstr ""
+
+msgid "Could not protect {0}: {1}"
+msgstr ""
+
+msgid "Could not provide the FIDO PIN: {0}"
+msgstr ""
+
+msgid "Could not request administrator access: {0}"
+msgstr ""
+
+msgid "Could not run {0}: {1}"
+msgstr ""
+
+msgid "Could not start {0}: {1}"
+msgstr ""
+
+msgid "Could not update security keys"
+msgstr ""
+
+msgid "Could not write the temporary public key: {0}"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Create a resident SSH credential on a selected device"
+msgstr ""
+
+msgid "Create a resident SSH key"
+msgstr ""
+
+msgid "Create…"
+msgstr ""
+
+msgid "Deletion result is unknown"
+msgstr ""
+
+msgid "Disabled · sudo must authenticate with a YubiKey or account password"
+msgstr ""
+
+msgid "Discover SSH keys on your YubiKeys"
+msgstr ""
+
+msgid "Display label must be at most 200 bytes and contain no control characters."
+msgstr ""
+
+msgid "Do not sign new commits by default"
+msgstr ""
+
+msgid "During enrollment, disconnect all other security keys. The selected key will blink; touch it to continue. Multiple keys can be enrolled one at a time."
+msgstr ""
+
+msgid "ECDSA-SK (recommended compatibility)"
+msgstr ""
+
+msgid "ECDSA-SK works with the widest range of YubiKeys"
+msgstr ""
+
+msgid "ECDSA-SK · resident · touch required · safe compatibility defaults"
+msgstr ""
+
+msgid "Ed25519-SK (newer YubiKeys)"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Enabled · programs can obtain administrator privileges without confirmation"
+msgstr ""
+
+msgid "Enabling passwordless sudo…"
+msgstr ""
+
+msgid "Enabling sudo authentication…"
+msgstr ""
+
+msgid "Enrolled · inactive while sudo authentication is bypassed"
+msgstr ""
+
+msgid "Enrollment safety"
+msgstr ""
+
+msgid "Enter the FIDO PIN for {0}. Touch it if it flashes. The PIN is never stored."
+msgstr ""
+
+msgid "Enter the FIDO PIN, then touch the selected YubiKey when it flashes. No commit will be created."
+msgstr ""
+
+msgid "Enter the FIDO PIN. Touch the YubiKey if it flashes."
+msgstr ""
+
+msgid "Enter the YubiKey FIDO PIN to test this local key handle."
+msgstr ""
+
+msgid "Enter the selected YubiKey FIDO PIN"
+msgstr ""
+
+msgid "Export .pub"
+msgstr ""
+
+msgid "Export SSH public key"
+msgstr ""
+
+msgid "FIDO PIN"
+msgstr ""
+
+msgid "FIDO device discovery is unavailable"
+msgstr ""
+
+msgid "FIDO security key"
+msgstr ""
+
+msgid "Finish inspecting your YubiKeys"
+msgstr ""
+
+msgid "Firmware {0}"
+msgstr ""
+
+msgid "For safe enrollment, disconnect every other security key and leave only the selected YubiKey connected."
+msgstr ""
+
+msgid "Git signing"
+msgstr ""
+
+msgid "Git signing is enabled"
+msgstr ""
+
+msgid "Git signing test failed:\n{0}"
+msgstr ""
+
+msgid "Git signing test passed"
+msgstr ""
+
+msgid "Git is not installed"
+msgstr ""
+
+msgid "The Git installation task stopped unexpectedly."
+msgstr ""
+
+msgid "Git is required for commit signing. Install it to continue."
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Insert a YubiKey"
+msgstr ""
+
+msgid "Insert a YubiKey, then press Refresh."
+msgstr ""
+
+msgid "Insert a YubiKey. This page will detect it when you refresh."
+msgstr ""
+
+msgid "Inspect"
+msgstr ""
+
+msgid "Inspect YubiKey"
+msgstr ""
+
+msgid "Inspect YubiKey {0} of {1}"
+msgstr ""
+
+msgid "Inspect again"
+msgstr ""
+
+msgid "Inspect all keys"
+msgstr ""
+
+msgid "Inspect this YubiKey"
+msgstr ""
+
+msgid "Inspected"
+msgstr ""
+
+msgid "Inspection needs attention · {0}"
+msgstr ""
+
+msgid "Invalid FIDO device path."
+msgstr ""
+
+msgid "Keys stored on your YubiKeys"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Load SSH keys"
+msgstr ""
+
+msgid "Load all"
+msgstr ""
+
+msgid "Load keys"
+msgstr ""
+
+msgid "Load resident SSH keys"
+msgstr ""
+
+msgid "Load this YubiKey's resident SSH keys into the agent"
+msgstr ""
+
+msgid "Load this resident key into the SSH agent before signing"
+msgstr ""
+
+msgid "Loaded"
+msgstr ""
+
+msgid "Loading SSH keys… Touch the YubiKey if it flashes."
+msgstr ""
+
+msgid "Local key handle path"
+msgstr ""
+
+msgid "Local key label"
+msgstr ""
+
+msgid "Looking for your SSH agent and connected YubiKeys."
+msgstr ""
+
+msgid "Needs attention"
+msgstr ""
+
+msgid "New hardware-backed SSH key"
+msgstr ""
+
+msgid "No FIDO security key detected"
+msgstr ""
+
+msgid "No SSH agent was detected"
+msgstr ""
+
+msgid "No YubiKey connected"
+msgstr ""
+
+msgid "No hardware serial"
+msgstr ""
+
+msgid "No resident SSH keys"
+msgstr ""
+
+msgid "No resident SSH keys found"
+msgstr ""
+
+msgid "No resident SSH keys found · {0}"
+msgstr ""
+
+msgid "No resident SSH keys were found on the connected YubiKeys."
+msgstr ""
+
+msgid "No signing"
+msgstr ""
+
+msgid "Not configured"
+msgstr ""
+
+msgid "Not inspected"
+msgstr ""
+
+msgid "Not inspected yet · {0}"
+msgstr ""
+
+msgid "Open the official Yubico Store"
+msgstr ""
+
+msgid "Install Git"
+msgstr ""
+
+msgid "Installing Git…"
+msgstr ""
+
+msgid "OpenSSH could not load resident keys. The SSH agent contains no newly loaded identity."
+msgstr ""
+
+msgid "OpenSSH could not load resident keys:\n{0}"
+msgstr ""
+
+msgid "OpenSSH did not create a resident key:\n{0}"
+msgstr ""
+
+msgid "OpenSSH finished creating the key, but the YubiKey could not be verified afterward: {0}\nDo not immediately retry; inspect the key first to avoid creating a duplicate."
+msgstr ""
+
+msgid "OpenSSH reported success, but no new resident credential was detected. Do not retry until you inspect the YubiKey."
+msgstr ""
+
+msgid "OpenSSH/FIDO credential metadata and local file location"
+msgstr ""
+
+msgid "Passwordless"
+msgstr ""
+
+msgid "Permanently delete"
+msgstr ""
+
+msgid "Permanently delete from YubiKey…"
+msgstr ""
+
+msgid "Permanently delete this resident SSH credential?"
+msgstr ""
+
+msgid "Protect authentication and commit signing"
+msgstr ""
+
+msgid "Protection for {0}"
+msgstr ""
+
+msgid "Read the resident SSH keys already stored on your YubiKeys. You will enter each key's FIDO PIN and may need to touch it."
+msgstr ""
+
+msgid "Reading SSH keys from {0}… Touch it if it flashes."
+msgstr ""
+
+msgid "Reading account security settings…"
+msgstr ""
+
+msgid "Ready"
+msgstr ""
+
+msgid "Ready to inspect"
+msgstr ""
+
+msgid "Ready to protect {0}"
+msgstr ""
+
+msgid "Refresh connected YubiKeys"
+msgstr ""
+
+msgid "Remove from agent"
+msgstr ""
+
+msgid "Removing this key from the SSH agent…"
+msgstr ""
+
+msgid "Require verification for every signature"
+msgstr ""
+
+msgid "Requires the FIDO PIN each time this key signs"
+msgstr ""
+
+msgid "Resident SSH key created"
+msgstr ""
+
+msgid "Resident credential permanently deleted"
+msgstr ""
+
+msgid "Resident keys loaded"
+msgstr ""
+
+msgid "Resident username"
+msgstr ""
+
+msgid "Resident username must contain 1–64 bytes and no control characters."
+msgstr ""
+
+msgid "SSH & Git"
+msgstr ""
+
+msgid "SSH agent"
+msgstr ""
+
+msgid "SSH agent is ready"
+msgstr ""
+
+msgid "SSH agent unavailable"
+msgstr ""
+
+msgid "SSH commit signing"
+msgstr ""
+
+msgid "SSH key actions"
+msgstr ""
+
+msgid "SSH key for {0}"
+msgstr ""
+
+msgid "SSH keys"
+msgstr ""
+
+msgid "SSH_AUTH_SOCK is not set"
+msgstr ""
+
+msgid "Safe defaults use ECDSA-SK, require touch, and store a discoverable credential on the selected YubiKey."
+msgstr ""
+
+msgid "Secure sudo authorization"
+msgstr ""
+
+msgid "Security Center"
+msgstr ""
+
+msgid "Serial {0}"
+msgstr ""
+
+msgid "Sign in, authorize sudo, and protect SSH and Git identities with a physical touch."
+msgstr ""
+
+msgid "Sign-in"
+msgstr ""
+
+msgid "Signing test passed"
+msgstr ""
+
+msgid "Temporary public-key path is invalid."
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+msgid "Test Git signing"
+msgstr ""
+
+msgid "Test signing"
+msgstr ""
+
+msgid "The FIDO enrollment tool is not installed. Install the libpam-u2f package, then try again."
+msgstr ""
+
+msgid "The PIN is sent directly to ssh-add and is never stored."
+msgstr ""
+
+msgid "The PIN is sent through a private pipe to OpenSSH. It is never stored or placed in command arguments."
+msgstr ""
+
+msgid "The SSH agent successfully signed and verified data with this key."
+msgstr ""
+
+msgid "The YubiKey operation stopped unexpectedly."
+msgstr ""
+
+msgid "The credential will be created only on this exact device"
+msgstr ""
+
+msgid "The deletion command finished, but the selected YubiKey could not be inspected afterward: {0}\nThe credential may or may not have been deleted. Do not retry. Reconnect and inspect the YubiKey first."
+msgstr ""
+
+msgid "The enrollment task failed."
+msgstr ""
+
+msgid "The exact resident credential is no longer present on the selected YubiKey. Local .pub or key-handle files and any SSH-agent entry were not removed."
+msgstr ""
+
+msgid "The inspected resident SSH credentials are already available in this agent."
+msgstr ""
+
+msgid "The local SSH key-handle path is invalid."
+msgstr ""
+
+msgid "The local SSH key-handle path is not valid UTF-8."
+msgstr ""
+
+msgid "The local key path must be absolute."
+msgstr ""
+
+msgid "The non-exportable private key remains protected by the selected YubiKey.\n\nAlgorithm: {0}\nApplication: {1}\nResident username: {2}\nFingerprint: {3}\n\nLocal key handle: {4}\nPublic key: {5}\n\nThe key is not automatically loaded into the SSH agent."
+msgstr ""
+
+msgid "The operation was cancelled or denied."
+msgstr ""
+
+msgid "The output folder does not exist: {0}"
+msgstr ""
+
+msgid "The resident credential ID is invalid. Refresh before deleting."
+msgstr ""
+
+msgid "The resident credential did not return a public key."
+msgstr ""
+
+msgid "The resident credential is still present. Deletion was not completed: {0}"
+msgstr ""
+
+msgid "The resident credential returned an incomplete public key."
+msgstr ""
+
+msgid "The resident credential returned malformed PEM data."
+msgstr ""
+
+msgid "The resident credential {0} exists on the YubiKey, but its local handle files are incomplete. Do not retry creation."
+msgstr ""
+
+msgid "The resident credential {0} was created on the YubiKey, but OpenSSH did not complete successfully:\n{1}\nDo not retry creation. Inspect the key and preserve any local files that were written."
+msgstr ""
+
+msgid "The security key returned an invalid PAM credential."
+msgstr ""
+
+msgid "The selected FIDO device is no longer connected. Refresh and inspect it again."
+msgstr ""
+
+msgid "The selected FIDO device is no longer connected. Refresh and try again."
+msgstr ""
+
+msgid "The selected credential created a valid Git-format SSH signature. No repository or commit was changed."
+msgstr ""
+
+msgid "The selected private-key or .pub file already exists. Choose another name."
+msgstr ""
+
+msgid "The selected resident credential changed since it was inspected. Nothing was deleted; refresh and verify the key."
+msgstr ""
+
+msgid "The selected resident credential is no longer present on this YubiKey. Nothing was deleted."
+msgstr ""
+
+msgid "The signature was created but could not be verified: {0}"
+msgstr ""
+
+msgid "The sudo policy task failed."
+msgstr ""
+
+msgid "The temporary Git signature path is invalid."
+msgstr ""
+
+msgid "The temporary Git signing path is invalid."
+msgstr ""
+
+msgid "These keys are trusted by this account but are not currently connected."
+msgstr ""
+
+msgid "This PIN authorizes permanent deletion of the exact credential shown in the previous step. It is never stored."
+msgstr ""
+
+msgid "This YubiKey has no discoverable ssh:* credentials."
+msgstr ""
+
+msgid "This is not a supported OpenSSH security-key public key."
+msgstr ""
+
+msgid "This removes the private credential from the selected YubiKey and cannot be undone. It does not remove local files or an identity already loaded in the SSH agent."
+msgstr ""
+
+msgid "This setting applies only to the current user."
+msgstr ""
+
+msgid "This will only take a moment."
+msgstr ""
+
+msgid "Touch the YubiKey when prompted. Loading resident keys into the SSH agent…"
+msgstr ""
+
+msgid "Touch the YubiKey. Creating and verifying a temporary Git-format SSH signature…"
+msgstr ""
+
+msgid "Touch the YubiKey. Testing SSH signing and verification…"
+msgstr ""
+
+msgid "Touch the selected YubiKey. Creating an SSH resident key on {0}… Do not remove the key."
+msgstr ""
+
+msgid "Touch this key when prompted to enroll it"
+msgstr ""
+
+msgid "Touch this key when prompted to enroll it for sudo"
+msgstr ""
+
+msgid "Touch your security key to continue."
+msgstr ""
+
+msgid "Try Again"
+msgstr ""
+
+msgid "Type {0} to confirm"
+msgstr ""
+
+msgid "Unavailable"
+msgstr ""
+
+msgid "Unknown authentication purpose."
+msgstr ""
+
+msgid "Unlock GDM"
+msgstr ""
+
+msgid "Unlock sudo"
+msgstr ""
+
+msgid "Unlock the current user"
+msgstr ""
+
+msgid "Unlock your account with a touch"
+msgstr ""
+
+msgid "Unnamed SSH credential"
+msgstr ""
+
+msgid "Unsupported resident SSH public-key algorithm."
+msgstr ""
+
+msgid "Updating Git commit signing…"
+msgstr ""
+
+msgid "Updating sign-in settings…"
+msgstr ""
+
+msgid "Updating sudo settings…"
+msgstr ""
+
+msgid "Use YubiKey to unlock sudo"
+msgstr ""
+
+msgid "Verifying and permanently deleting the selected resident credential. Do not unplug the YubiKey…"
+msgstr ""
+
+msgid "View in App Store"
+msgstr ""
+
+msgid "Waiting"
+msgstr ""
+
+msgid "Waiting for a configured YubiKey"
+msgstr ""
+
+msgid "You may enroll keys now, but sudo bypasses PAM while passwordless access is enabled."
+msgstr ""
+
+msgid "Your YubiKeys are inspected"
+msgstr ""
+
+msgid "Your hardware-backed SSH keys"
+msgstr ""
+
+msgid "Your resident SSH keys stay on the security key. Insert it to view and use them."
+msgstr ""
+
+msgid "Your security settings are ready. Connect a configured YubiKey when you need it."
+msgstr ""
+
+msgid "YubiKey"
+msgstr ""
+
+msgid "YubiKey configuration failed"
+msgstr ""
+
+msgid "YubiKey connected"
+msgstr ""
+
+msgid "YubiKey or account password"
+msgstr ""
+
+msgid "YubiKey without hardware serial"
+msgstr ""
+
+msgid "YubiKey · Serial {0}"
+msgstr ""
+
+msgid "YubiKey: {0}\nDevice: {1}\nApplication: {2}\nResident username: {3}\nAlgorithm: {4}\nFingerprint: {5}"
+msgstr ""
+
+msgid "YubiKeys"
+msgstr ""
+
+msgid "agent"
+msgstr ""
+
+msgid "fido2-token reported success, but the resident credential is still present. Do not retry until you refresh and inspect the YubiKey."
+msgstr ""
+
+msgid "sudo authentication is bypassed"
+msgstr ""
+
+msgid "sudo authentication policy"
+msgstr ""
+
+msgid "unknown"
+msgstr ""
+
+msgid "user"
+msgstr ""
+
+msgid "{0} SSH keys loaded"
+msgstr ""
+
+msgid "{0} YubiKeys connected"
+msgstr ""
+
+msgid "{0} exited with {1}"
+msgstr ""
+
+msgid "{0} failed: {1}"
+msgstr ""
+
+msgid "{0} identities are currently available to SSH applications."
+msgstr ""
+
+msgid "{0} is enabled for this YubiKey"
+msgstr ""
+
+msgid "{0} is not configured for this YubiKey"
+msgstr ""
+
+msgid "{0} new SSH identities were added to the agent."
+msgstr ""
+
+msgid "{0} new SSH identity was added to the agent."
+msgstr ""
+
+msgid "{0} resident SSH keys are available from your connected YubiKeys."
+msgstr ""
+
+msgid "{0} resident SSH keys · {1}"
+msgstr ""
+
+msgid "{0} resident credentials inspected"
+msgstr ""
+
+msgid "{0} to inspect"
+msgstr ""
+
+msgid "{0} · no hardware serial"
+msgstr ""
+
+msgid "{0} · {1}"
+msgstr ""
+
+msgid "Checking Passkeys support…"
+msgstr ""
+
+msgid "Could not open Yubico Authenticator"
+msgstr ""
+
+msgid "Open Yubico Authenticator"
+msgstr ""
+
+msgid "Passkeys"
+msgstr ""
+
+msgid "Choose the passkey option and follow the prompt to use the same YubiKey."
+msgstr ""
+
+msgid "Confirm it is you"
+msgstr ""
+
+msgid "How to use"
+msgstr ""
+
+msgid "Insert your YubiKey, enter its FIDO PIN when asked, then touch the key."
+msgstr ""
+
+msgid "Inspect a connected YubiKey to reveal its resident SSH keys and available actions."
+msgstr ""
+
+msgid "Install the official Yubico Authenticator first. When installation is complete, return here and refresh this page."
+msgstr ""
+
+msgid "Keep a recovery method or a backup security key for important accounts."
+msgstr ""
+
+msgid "Manage passkeys"
+msgstr ""
+
+msgid "On a supported website or app, choose to create a passkey and select your security key."
+msgstr ""
+
+msgid "Passkeys are passwordless sign-in credentials stored on compatible security keys. Registration and sign-in begin in a supported website or app; follow its prompts to insert your YubiKey, enter the FIDO PIN, and touch the key."
+msgstr ""
+
+msgid "Protect passkeys with your YubiKey"
+msgstr ""
+
+msgid "Register a passkey"
+msgstr ""
+
+msgid "Sign in next time"
+msgstr ""
+
+msgid "The SSH agent makes selected keys available to SSH applications during this session."
+msgstr ""
+
+msgid "Yubico Authenticator is installed"
+msgstr ""
+
+msgid "Yubico Authenticator is not installed"
+msgstr ""
+
+msgid "Yubico Authenticator lets you view and manage passkeys stored on your YubiKey. This security center does not read, create, or delete passkeys; it only opens the installed app."
+msgstr ""
+
+msgid "A file already exists at the managed SSH configuration path: {0}"
+msgstr ""
+
+msgid "After the first YubiKey authentication, later SSH sessions can reuse the connection. The last session remains available in the background for 10 minutes."
+msgstr ""
+
+msgid "Could not create a temporary file in {0}: {1}"
+msgstr ""
+
+msgid "Could not inspect {0}: {1}"
+msgstr ""
+
+msgid "Could not protect the temporary SSH configuration in {0}: {1}"
+msgstr ""
+
+msgid "Could not read {0}: {1}"
+msgstr ""
+
+msgid "Could not remove {0}: {1}"
+msgstr ""
+
+msgid "Could not replace {0}: {1}"
+msgstr ""
+
+msgid "Could not synchronize {0}: {1}"
+msgstr ""
+
+msgid "Could not update SSH connection persistence"
+msgstr ""
+
+msgid "Could not validate the SSH configuration: {0}"
+msgstr ""
+
+msgid "Could not write the temporary SSH configuration in {0}: {1}"
+msgstr ""
+
+msgid "Disabled · each new connection authenticates separately"
+msgstr ""
+
+msgid "Enabled · idle connections remain available for 10 minutes"
+msgstr ""
+
+msgid "HOME does not point to a valid folder: {0}"
+msgstr ""
+
+msgid "HOME is not set. The SSH configuration cannot be located."
+msgstr ""
+
+msgid "Main SSH configuration unavailable"
+msgstr ""
+
+msgid "Managed SSH configuration unavailable"
+msgstr ""
+
+msgid "Managed configuration preview"
+msgstr ""
+
+msgid "Manual review required"
+msgstr ""
+
+msgid "Needs attention · review the SSH configuration before continuing"
+msgstr ""
+
+msgid "Needs attention · the SSH configuration could not be located"
+msgstr ""
+
+msgid "Only new SSH connections are affected. Turning this off does not stop existing background connections. Earlier host-specific OpenSSH settings still take priority."
+msgstr ""
+
+msgid "OpenSSH rejected the generated configuration."
+msgstr ""
+
+msgid "OpenSSH rejected the generated configuration: {0}"
+msgstr ""
+
+msgid "Reuse SSH connections in the background"
+msgstr ""
+
+msgid "SSH connection persistence"
+msgstr ""
+
+msgid "The SSH configuration changed during rollback. No further changes were made."
+msgstr ""
+
+msgid "The SSH configuration changed while it was being updated. Refresh and try again."
+msgstr ""
+
+msgid "The SSH configuration contains duplicate or incomplete application markers. Remove or repair the marked block manually."
+msgstr ""
+
+msgid "The SSH configuration is not valid UTF-8 and cannot be safely managed: {0}"
+msgstr ""
+
+msgid "The SSH configuration is writable by another user: {0}"
+msgstr ""
+
+msgid "The SSH configuration path is invalid."
+msgstr ""
+
+msgid "The SSH configuration path is not a safe, regular file: {0}"
+msgstr ""
+
+msgid "The SSH directory is writable by another user: {0}"
+msgstr ""
+
+msgid "The SSH path is not a safe, regular directory: {0}"
+msgstr ""
+
+msgid "The SSH path is not owned by the current user: {0}"
+msgstr ""
+
+msgid "The SSH persistence update stopped unexpectedly."
+msgstr ""
+
+msgid "The application-managed block in the SSH configuration was changed. Restore or remove the marked block manually."
+msgstr ""
+
+msgid "The generated SSH persistence configuration did not match the expected preset."
+msgstr ""
+
+msgid "The managed SSH block exists but the main configuration is missing: {0}"
+msgstr ""
+
+msgid "The managed SSH block is no longer present. Refresh and try again."
+msgstr ""
+
+msgid "The managed SSH configuration changed while it was being removed: {0}"
+msgstr ""
+
+msgid "The managed SSH configuration is missing: {0}"
+msgstr ""
+
+msgid "The managed SSH configuration was changed outside this application: {0}"
+msgstr ""
+
+msgid "The managed SSH file is also referenced outside the application-managed block. Remove the extra Include before using this setting."
+msgstr ""
+
+msgid "The managed SSH file is referenced outside the application-managed block. Remove that Include before using this setting."
+msgstr ""
+
+msgid "What this setting changes"
+msgstr ""
+
+msgid "{0} includes {1}"
+msgstr ""

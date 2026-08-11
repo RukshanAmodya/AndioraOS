@@ -1,0 +1,227 @@
+# Andiora Appearance — Polish translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "O wyglądzie Andiora"
+
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+msgid "Andiora Appearance"
+msgstr "Wygląd Andiora"
+
+msgid "Andiora Team"
+msgstr "Zespół Andiora"
+
+msgid "Appearance"
+msgstr "Wygląd"
+
+msgid "Apply to Login Screen"
+msgstr "Zastosuj do ekranu logowania"
+
+msgid "Bottom"
+msgstr "Dół"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Wybierz obraz jako tło ekranu logowania GDM."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Wybierz wizualny styl paska zadań."
+
+msgid "Choose…"
+msgstr "Wybierz…"
+
+msgid "Classic"
+msgstr "Klasyczny"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Połącz wiele okien jednej aplikacji w jedną ikonę"
+
+msgid "Danger Zone"
+msgstr "Strefa zagrożenia"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Wyświetl przycisk Aktywności na pasku zadań"
+
+msgid "Enable grouping"
+msgstr "Włącz grupowanie"
+
+msgid "Extension Settings"
+msgstr "Ustawienia rozszerzeń"
+
+msgid "GDM Wallpaper"
+msgstr "Tapeta GDM"
+
+msgid "Group apps"
+msgstr "Grupuj aplikacje"
+
+msgid "Images"
+msgstr "Obrazy"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Oddziel programy uruchamiające od uruchomionych aplikacji"
+
+msgid "Layout"
+msgstr "Układ"
+
+msgid "Left"
+msgstr "Lewo"
+
+msgid "Login Screen Wallpaper"
+msgstr "Tapeta ekranu logowania"
+
+msgid "Open"
+msgstr "Otwórz"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Otwórz okna preferencji rozszerzeń panelu."
+
+msgid "Panel Indicators"
+msgstr "Wskaźniki panelu"
+
+msgid "Panel Widgets"
+msgstr "Widżety panelu"
+
+msgid "Preview"
+msgstr "Podgląd"
+
+msgid "Reset"
+msgstr "Resetuj"
+
+msgid "Reset desktop settings"
+msgstr "Zresetuj ustawienia pulpitu"
+
+msgid "Reset desktop settings?"
+msgstr "Zresetować ustawienia pulpitu?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Przywróć wszystkie ustawienia GNOME Shell do domyślnych"
+
+msgid "Right"
+msgstr "Prawo"
+
+msgid "Select image"
+msgstr "Wybierz obraz"
+
+msgid "Seperated"
+msgstr "Rozdzielony"
+
+msgid "Show Activities Button"
+msgstr "Pokaż przycisk Aktywności"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Pokaż sieć"
+
+msgid "Show Weather"
+msgstr "Pokaż pogodę"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Pokaż lub ukryj wbudowane elementy panelu."
+
+msgid "Taskbar Elements"
+msgstr "Elementy paska zadań"
+
+msgid "Taskbar Style"
+msgstr "Styl paska zadań"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Włącz lub wyłącz widżety wskaźników panelu."
+
+msgid "Top"
+msgstr "Góra"
+
+msgid "Tweaks"
+msgstr "Dostosowania"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Zachowanie paska zadań Vista"
+
+msgid "Wallpaper"
+msgstr "Tapeta"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Przycisk aktywności — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Zastosowano — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Ustawienia pulpitu zresetowane. Uruchom ponownie Shell, aby zastosować.✓ Ustawienia pulpitu zresetowane. Uruchom ponownie Shell, aby zastosować zmiany."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ Zastosowano tapetę GDM"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}owane"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Nie udało się zastosować pozycji"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Nie udało się zastosować stylu"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Nie udało się zresetować"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Nie udało się ustawić tapety GDM"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Nie udało się przełączyć przycisku aktywności"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Nie udało się {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Najpierw wybierz obraz"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Spowoduje to zresetowanie wszystkich ustawień GNOME Shell do wartości domyślnych.\n"
+#~ "Twoje rozszerzenia, układ panelu i preferencje zostaną utracone."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Pozycja paska zadań"
+
+#~ msgid "Panel Position"
+#~ msgstr "Pozycja panelu"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Wybierz, gdzie pasek zadań znajduje się na ekranie."

@@ -1,0 +1,227 @@
+# Andiora Appearance — Portuguese (Brazil) translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Sobre a Aparência do Andiora"
+
+msgid "Advanced"
+msgstr "Avançado"
+
+msgid "Andiora Appearance"
+msgstr "Aparência do Andiora"
+
+msgid "Andiora Team"
+msgstr "Equipe Andiora"
+
+msgid "Appearance"
+msgstr "Aparência"
+
+msgid "Apply to Login Screen"
+msgstr "Aplicar à tela de login"
+
+msgid "Bottom"
+msgstr "Embaixo"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Escolha uma imagem para o fundo da tela de login do GDM."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Escolha o estilo visual da sua barra de tarefas."
+
+msgid "Choose…"
+msgstr "Escolher…"
+
+msgid "Classic"
+msgstr "Clássico"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Combinar várias janelas de um app em um único ícone"
+
+msgid "Danger Zone"
+msgstr "Zona de Perigo"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Exibir o botão Atividades na barra de tarefas"
+
+msgid "Enable grouping"
+msgstr "Ativar agrupamento"
+
+msgid "Extension Settings"
+msgstr "Configurações da Extensão"
+
+msgid "GDM Wallpaper"
+msgstr "Papel de parede do GDM"
+
+msgid "Group apps"
+msgstr "Agrupar aplicativos"
+
+msgid "Images"
+msgstr "Imagens"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Separar iniciadores dos aplicativos em execução"
+
+msgid "Layout"
+msgstr "Disposição"
+
+msgid "Left"
+msgstr "Esquerda"
+
+msgid "Login Screen Wallpaper"
+msgstr "Papel de parede da tela de login"
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Abre as janelas de preferências das extensões do painel."
+
+msgid "Panel Indicators"
+msgstr "Indicadores do Painel"
+
+msgid "Panel Widgets"
+msgstr "Widgets do Painel"
+
+msgid "Preview"
+msgstr "Prévia"
+
+msgid "Reset"
+msgstr "Redefinir"
+
+msgid "Reset desktop settings"
+msgstr "Redefinir configurações da área de trabalho"
+
+msgid "Reset desktop settings?"
+msgstr "Redefinir configurações da área de trabalho?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Restaurar todas as configurações do GNOME Shell para os padrões de fábricaRestaura todas as configurações do GNOME Shell para os padrões de fábrica"
+
+msgid "Right"
+msgstr "Direita"
+
+msgid "Select image"
+msgstr "Selecionar imagem"
+
+msgid "Seperated"
+msgstr "Separado"
+
+msgid "Show Activities Button"
+msgstr "Mostrar botão Atividades"
+
+msgid "Show Desktop Icons"
+msgstr "Mostrar ícones da área de trabalho"
+
+msgid "Show Network"
+msgstr "Mostrar rede"
+
+msgid "Show Weather"
+msgstr "Mostrar clima"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Mostrar ou ocultar elementos integrados do painel."
+
+msgid "Taskbar Elements"
+msgstr "Elementos da barra de tarefas"
+
+msgid "Taskbar Style"
+msgstr "Estilo da Barra de Tarefas"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Ativa ou desativa os widgets dos indicadores do painel."
+
+msgid "Top"
+msgstr "Em cima"
+
+msgid "Tweaks"
+msgstr "Ajustes"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Comportamento da barra de tarefas Vista"
+
+msgid "Wallpaper"
+msgstr "Papel de Parede"
+
+msgid "Windows 11"
+msgstr "Mostrar ícones da área de trabalho"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Botão atividades — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Aplicado — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Configurações da área de trabalho redefinidas. Reinicie o Shell para aplicar.✓ Configurações da área de trabalho redefinidas. Reinicie o Shell para aplicar."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ Papel de parede do GDM aplicado"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}o"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Falha ao aplicar posição"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Falha ao aplicar estilo"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Falha ao redefinir"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Falha ao definir papel de parede do GDM"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Falha ao alternar o botão atividades"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Falha ao {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Selecione uma imagem primeiro"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Isso redefinirá todas as configurações do GNOME Shell para os padrões de fábrica.\n"
+#~ "Suas extensões, layout do painel e preferências serão perdidos."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Posição da Barra de Tarefas"
+
+#~ msgid "Panel Position"
+#~ msgstr "Posição do Painel"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Escolha onde a sua barra de tarefas fica na tela."

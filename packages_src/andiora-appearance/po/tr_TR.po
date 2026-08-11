@@ -1,0 +1,230 @@
+# Andiora Appearance — Turkish translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Andiora Görünümü Hakkında"
+
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgid "Andiora Appearance"
+msgstr "Andiora Görünümü"
+
+msgid "Andiora Team"
+msgstr "Andiora Ekibi"
+
+msgid "Appearance"
+msgstr "Görünüm"
+
+msgid "Apply to Login Screen"
+msgstr "Giriş Ekranına Uygula"
+
+msgid "Bottom"
+msgstr "Alt"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "GDM giriş ekranı arka planı için bir resim seçin."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Görev çubuğunun görsel stilini seçin."
+
+msgid "Choose…"
+msgstr "Seç…"
+
+msgid "Classic"
+msgstr "Klasik"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Bir uygulamanın birden çok penceresini tek bir simgede birleştir"
+
+msgid "Danger Zone"
+msgstr "Tehlike Bölgesi"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Etkinlikler düğmesini görev çubuğunda görüntüle"
+
+msgid "Enable grouping"
+msgstr "Gruplandırmayı etkinleştir"
+
+msgid "Extension Settings"
+msgstr "Eklenti Ayarları"
+
+msgid "GDM Wallpaper"
+msgstr "GDM Duvar Kağıdı"
+
+msgid "Group apps"
+msgstr "Uygulamaları grupla"
+
+msgid "Images"
+msgstr "Resimler"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Başlatıcıları çalışan uygulamalardan ayır"
+
+msgid "Layout"
+msgstr "Düzen"
+
+msgid "Left"
+msgstr "Sol"
+
+msgid "Login Screen Wallpaper"
+msgstr "Giriş Ekranı Duvar Kağıdı"
+
+msgid "Open"
+msgstr "Aç"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Panel eklentilerinin tercih pencerelerini açın."
+
+msgid "Panel Indicators"
+msgstr "Panel Göstergeleri"
+
+msgid "Panel Widgets"
+msgstr "Panel Widget'ları"
+
+msgid "Preview"
+msgstr "Önizleme"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "Reset desktop settings"
+msgstr "Masaüstü ayarlarını sıfırla"
+
+msgid "Reset desktop settings?"
+msgstr "Masaüstü ayarları sıfırlansın mı?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Tüm GNOME Shell ayarlarını fabrika varsayılanlarına geri yükle"
+
+msgid "Right"
+msgstr "Sağ"
+
+msgid "Select image"
+msgstr "Resim seç"
+
+msgid "Seperated"
+msgstr "Ayrık"
+
+msgid "Show Activities Button"
+msgstr "Etkinlikler Düğmesini Göster"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Ağı Göster"
+
+msgid "Show Weather"
+msgstr "Hava Durumunu Göster"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Yerleşik panel öğelerini göster veya gizle."
+
+msgid "Taskbar Elements"
+msgstr "Görev Çubuğu Öğeleri"
+
+msgid "Taskbar Style"
+msgstr "Görev Çubuğu Stili"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Panel göstergesi widget'larını açın veya kapatın."
+
+msgid "Top"
+msgstr "Üst"
+
+msgid "Tweaks"
+msgstr "Tweakler"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Vista görev çubuğu davranışı"
+
+msgid "Wallpaper"
+msgstr "Duvar Kağıdı"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Etkinlikler düğmesi — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Uygulandı — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Masaüstü ayarları sıfırlandı. Uygulamak için Shell'i yeniden başlatın.✓ Masaüstü ayarları sıfırlandı. Uygulamak için Shell'i yeniden başlatın."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ GDM duvar kağıdı uygulandı"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}ildi"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Konum uygulanamadı"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Stil uygulanamadı"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Sıfırlama başarısız"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ GDM duvar kağıdı ayarlanamadı"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Etkinlikler düğmesi değiştirilemedi"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ {label} {action} işlemi başarısız"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Lütfen önce bir resim seçin"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Bu, tüm GNOME Shell ayarlarını fabrika varsayılanlarına sıfırlayacaktır.\n"
+#~ "Uzantılarınız, panel düzeniniz ve tercihleriniz kaybolacak."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "ArcMenu"
+#~ msgstr "ArcMenü"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Görev Çubuğu Konumu"
+
+#~ msgid "Panel Position"
+#~ msgstr "Panel Konumu"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Görev çubuğunun ekranda nerede bulunacağını seçin."

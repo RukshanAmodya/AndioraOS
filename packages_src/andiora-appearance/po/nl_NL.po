@@ -1,0 +1,227 @@
+# Andiora Appearance — Dutch translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Over Andiora Uiterlijk"
+
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+msgid "Andiora Appearance"
+msgstr "Andiora Uiterlijk"
+
+msgid "Andiora Team"
+msgstr "Andiora-team"
+
+msgid "Appearance"
+msgstr "Uiterlijk"
+
+msgid "Apply to Login Screen"
+msgstr "Toepassen op inlogscherm"
+
+msgid "Bottom"
+msgstr "Onder"
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Kies een afbeelding voor de achtergrond van het GDM-inlogscherm."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Kies de visuele stijl van je taakbalk."
+
+msgid "Choose…"
+msgstr "Kiezen…"
+
+msgid "Classic"
+msgstr "Klassiek"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Meerdere vensters van één app combineren in één pictogram"
+
+msgid "Danger Zone"
+msgstr "Gevarenzone"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "De Activiteitenknop op de taakbalk weergeven"
+
+msgid "Enable grouping"
+msgstr "Groepering inschakelen"
+
+msgid "Extension Settings"
+msgstr "Extensie-instellingen"
+
+msgid "GDM Wallpaper"
+msgstr "GDM-achtergrond"
+
+msgid "Group apps"
+msgstr "Apps groeperen"
+
+msgid "Images"
+msgstr "Afbeeldingen"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Starters scheiden van actieve apps"
+
+msgid "Layout"
+msgstr "Indeling"
+
+msgid "Left"
+msgstr "Links"
+
+msgid "Login Screen Wallpaper"
+msgstr "Achtergrond inlogscherm"
+
+msgid "Open"
+msgstr "Openen"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Open de voorkeursvensters van de panelextensies."
+
+msgid "Panel Indicators"
+msgstr "Paneelindicatoren"
+
+msgid "Panel Widgets"
+msgstr "Paneelwidgets"
+
+msgid "Preview"
+msgstr "Voorbeeld"
+
+msgid "Reset"
+msgstr "Resetten"
+
+msgid "Reset desktop settings"
+msgstr "Bureaubladinstellingen resetten"
+
+msgid "Reset desktop settings?"
+msgstr "Bureaubladinstellingen resetten?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Herstel alle GNOME Shell-instellingen naar fabrieksinstellingen"
+
+msgid "Right"
+msgstr "Rechts"
+
+msgid "Select image"
+msgstr "Afbeelding selecteren"
+
+msgid "Seperated"
+msgstr "Gescheiden"
+
+msgid "Show Activities Button"
+msgstr "Activiteitenknop weergeven"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Toon netwerk"
+
+msgid "Show Weather"
+msgstr "Toon weer"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Ingebouwde panelelementen weergeven of verbergen."
+
+msgid "Taskbar Elements"
+msgstr "Taakbalkelementen"
+
+msgid "Taskbar Style"
+msgstr "Taakbalkstijl"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Schakel paneelindicatoren widgets in of uit."
+
+msgid "Top"
+msgstr "Boven"
+
+msgid "Tweaks"
+msgstr "Aanpassingen"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Vista-taakbalkgedrag"
+
+msgid "Wallpaper"
+msgstr "Achtergrondafbeelding"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Activiteitenknop — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Toegepast — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Bureaubladinstellingen gereset. Herstart Shell om toe te passen."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ GDM-achtergrond toegepast"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Positie kan niet worden toegepast"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Stijl kan niet worden toegepast"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Kan niet resetten"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Instellen GDM-achtergrond mislukt"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Kon activiteitenknop niet schakelen"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Kan {label} niet {action}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Selecteer eerst een afbeelding"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Hiermee worden alle GNOME Shell-instellingen teruggezet naar de fabrieksinstellingen.\n"
+#~ "Uw extensies, paneelindeling en voorkeuren gaan verloren."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Taakbalkpositie"
+
+#~ msgid "Panel Position"
+#~ msgstr "Panneelpositie"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Kies waar je taakbalk op het scherm komt te zitten."

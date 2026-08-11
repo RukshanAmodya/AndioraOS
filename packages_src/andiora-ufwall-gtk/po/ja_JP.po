@@ -1,0 +1,398 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ufwall-gtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 09:51+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "0 = append at end"
+msgstr "0 = 末尾に追加"
+
+msgid "About"
+msgstr "情報"
+
+msgid "Action"
+msgstr "アクション"
+
+msgid "Active"
+msgstr "有効"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Add Rule"
+msgstr "ルールを追加"
+
+msgid "Advanced"
+msgstr "詳細設定"
+
+msgid "All"
+msgstr "すべて"
+
+msgid "Allow"
+msgstr "許可"
+
+msgid "Allow applications with predefined rules."
+msgstr "事前定義されたルールを持つアプリケーションを許可します。"
+
+msgid "Application Profiles"
+msgstr "アプリケーションプロファイル"
+
+msgid "Audit"
+msgstr "監査"
+
+msgid "Auditor Error"
+msgstr "審査官エラー"
+
+msgid "Block"
+msgstr "ブロック"
+
+msgid "Block Connection?"
+msgstr "接続をブロックしますか？"
+
+msgid "Block inbound traffic from"
+msgstr "次のホストからの着信トラフィックをブロックする"
+
+msgid "Block outbound traffic to"
+msgstr "次のホストへの送信トラフィックをブロックする"
+
+msgid "Blocked Events"
+msgstr "ブロックされたイベント"
+
+msgid "Blocked Successfully"
+msgstr "正常にブロックされました"
+
+msgid "Both"
+msgstr "両方"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+#, fuzzy
+msgid "Local Network Discovery"
+msgstr "ローカルネットワーク検出のためのMulticast DNS"
+
+msgid "Control multicast DNS discovery and .local name resolution."
+msgstr ""
+
+msgid "Local Network Discovery (mDNS)"
+msgstr ""
+
+msgid "Checking service status…"
+msgstr ""
+
+msgid "Network Discovery Error"
+msgstr ""
+
+msgid "Avahi is not installed."
+msgstr ""
+
+msgid "Avahi is running; .local names and service discovery are available."
+msgstr ""
+
+msgid "Avahi is enabled but not currently running."
+msgstr ""
+
+msgid "Avahi is blocked; .local names and service discovery are unavailable."
+msgstr ""
+
+msgid "Comment"
+msgstr "コメント"
+
+msgid "Custom"
+msgstr "カスタム"
+
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+msgid "Default Policies"
+msgstr "デフォルトポリシー"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Delete All"
+msgstr "すべて削除"
+
+msgid "Delete All Rules?"
+msgstr "すべてのルールを削除しますか？"
+
+msgid "Delete Rule"
+msgstr "ルールを削除"
+
+msgid "Delete rule"
+msgstr "ルールを削除"
+
+msgid "Deny"
+msgstr "拒否"
+
+msgid "Destination IP"
+msgstr "宛先 IP"
+
+msgid "Direction"
+msgstr "方向"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Failed to Block"
+msgstr "ブロックに失敗しました"
+
+msgid "Firewall"
+msgstr "ファイアウォール"
+
+msgid "Firewall Rules"
+msgstr "ファイアウォールルール"
+
+msgid "Full"
+msgstr "フル"
+
+msgid "High"
+msgstr "高"
+
+msgid "In"
+msgstr "入力"
+
+msgid "Inactive"
+msgstr "無効"
+
+msgid "Inbound"
+msgstr "着信"
+
+msgid "Incoming"
+msgstr "受信"
+
+msgid "Insert Before Rule"
+msgstr "ルール前に挿入"
+
+msgid "Interface"
+msgstr "インターフェース"
+
+msgid "Limit"
+msgstr "制限"
+
+msgid "Listening Ports"
+msgstr "リスニングポート"
+
+msgid "Log Level"
+msgstr "ログレベル"
+
+msgid "Logging"
+msgstr "ログ記録"
+
+msgid "Low"
+msgstr "低"
+
+msgid "Medium"
+msgstr "中"
+
+msgid "Monitoring Network Activity"
+msgstr "ネットワークアクティビティの監視"
+
+msgid "No Profiles"
+msgstr "プロファイルがありません"
+
+msgid "No Rules"
+msgstr "ルールがありません"
+
+msgid "No application profiles found"
+msgstr "アプリケーションプロファイルが見つかりません"
+
+msgid "No blocked connections in recent events"
+msgstr "最近のイベントにブロックされた接続はありません"
+
+msgid "No blocked ports in recent events"
+msgstr "最近のイベントにブロックされたポートはありません"
+
+msgid "No listening ports detected"
+msgstr "リスニングポートが検出されませんでした"
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "Out"
+msgstr "アウト"
+
+msgid "Outbound"
+msgstr "送信"
+
+msgid "Outgoing"
+msgstr "送信"
+
+msgid "Pause list updates"
+msgstr "リスト更新を一時停止"
+
+msgid "Port / Protocol"
+msgstr "ポート / プロトコル"
+
+msgid "Port / Service Name"
+msgstr "ポート / サービス名"
+
+msgid "Profiles"
+msgstr "プロファイル"
+
+msgid "Protocol"
+msgstr "プロトコル"
+
+msgid "Quick Allow Port"
+msgstr "ポートのクイック許可"
+
+msgid "Recent Blocked Events"
+msgstr "最近のブロックされたイベント"
+
+msgid "Recent Events Parsed"
+msgstr "解析された最近のイベント"
+
+msgid "Refresh"
+msgstr "更新"
+
+msgid "Reject"
+msgstr "拒否"
+
+msgid "Resolve Domains"
+msgstr "ドメインを解決"
+
+msgid "Rule added to block"
+msgstr "ルールがブロックリストに追加されました"
+
+msgid "Rules"
+msgstr "ルール"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Search Process or IP..."
+msgstr "プロセスまたはIPを検索..."
+
+msgid "Search rules..."
+msgstr "ルールを検索..."
+
+msgid "Service"
+msgstr "サービス"
+
+msgid "Show"
+msgstr "表示"
+
+msgid "Source IP"
+msgstr "送信元 IP"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "There are no rules configured yet."
+msgstr "まだルールが設定されていません。"
+
+msgid "This will delete all custom rules. This action cannot be undone."
+msgstr ""
+"これにより、すべてのカスタムルールが削除されます。この操作は元に戻すことがで"
+"きません。"
+
+msgid ""
+"This will prevent the remote host from sending any packets to your machine."
+msgstr "リモートホストからお使いのマシンへのパケット送信をすべて防止します。"
+
+msgid ""
+"This will prevent your machine from sending any packets to the remote host."
+msgstr "お使いのマシンからリモートホストへのパケット送信をすべて防止します。"
+
+msgid "Top Blocked Connections"
+msgstr "ブロックされた上位接続"
+
+msgid "Top Blocked Ports"
+msgstr "ブロックされた上位ポート"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "e.g. 80,443/tcp or 8080"
+msgstr "例: 80,443/tcp または 8080"
+
+msgid "BitTorrent client"
+msgstr "BitTorrentクライアント"
+
+msgid "Common UNIX Printing System server"
+msgstr "Common UNIX Printing Systemサーバー"
+
+msgid "Continuous file synchronization"
+msgstr "継続的なファイル同期"
+
+msgid "Docker container runtime API"
+msgstr "DockerコンテナランタイムAPI"
+
+msgid "Domain Name System server"
+msgstr "Domain Name Systemサーバー"
+
+msgid "Extensible Messaging and Presence Protocol"
+msgstr "Extensible Messaging and Presence Protocol"
+
+msgid "File Transfer Protocol"
+msgstr "File Transfer Protocol"
+
+msgid "File synchronization service"
+msgstr "ファイル同期サービス"
+
+msgid "Hypertext Transfer Protocol for web servers"
+msgstr "Webサーバー用のHypertext Transfer Protocol"
+
+msgid "In-memory data structure store"
+msgstr "インメモリデータ構造ストア"
+
+msgid "Internet Message Access Protocol for email"
+msgstr "電子メール用のInternet Message Access Protocol"
+
+msgid "Lightweight Directory Access Protocol"
+msgstr "Lightweight Directory Access Protocol"
+
+msgid "Media streaming server"
+msgstr "メディアストリーミングサーバー"
+
+msgid "Modern VPN tunnel"
+msgstr "最新のVPNトンネル"
+
+msgid "Multicast DNS for local network discovery"
+msgstr "ローカルネットワーク検出のためのMulticast DNS"
+
+msgid "MySQL database server"
+msgstr "MySQLデータベースサーバー"
+
+msgid "Network File System"
+msgstr "Network File System"
+
+msgid "Network Time Protocol"
+msgstr "ポート / プロトコル"
+
+msgid "NoSQL document database"
+msgstr "NoSQL文書型データベース"
+
+msgid "Phone and desktop integration"
+msgstr "電話とデスクトップの統合"
+
+msgid "Plex media streaming server"
+msgstr "Plexメディアストリーミングサーバー"
+
+msgid "Post Office Protocol for email retrieval"
+msgstr "電子メール取得用のPost Office Protocol"
+
+msgid "PostgreSQL database server"
+msgstr "PostgreSQLデータベースサーバー"
+
+msgid "Remote Desktop Protocol"
+msgstr "ポート / プロトコル"
+
+msgid "Secure HTTP for web servers"
+msgstr "Webサーバー用のSecure HTTP"
+
+msgid "Secure shell remote access"
+msgstr "Secure shellによるリモートアクセス"
+
+msgid "Simple Mail Transfer Protocol"
+msgstr "Simple Mail Transfer Protocol"
+
+msgid "Virtual Network Computing remote desktop"
+msgstr "Virtual Network Computingによるリモートデスクトップ"
+
+msgid "Windows file and printer sharing"
+msgstr "Windowsのファイルおよびプリンター共有"

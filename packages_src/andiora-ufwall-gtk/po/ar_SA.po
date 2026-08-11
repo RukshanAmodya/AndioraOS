@@ -1,0 +1,427 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ufwall-gtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 09:51+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "0 = append at end"
+msgstr "0 = إرفاق في النهاية"
+
+msgid "About"
+msgstr "حول"
+
+msgid "Action"
+msgstr "الإجراء"
+
+msgid "Active"
+msgstr "نشط"
+
+msgid "Add"
+msgstr "إضافة"
+
+msgid "Add Rule"
+msgstr "إضافة قاعدة"
+
+msgid "Advanced"
+msgstr "متقدم"
+
+msgid "All"
+msgstr "الكل"
+
+msgid "Allow"
+msgstr "السماح"
+
+msgid "Allow applications with predefined rules."
+msgstr "السماح للتطبيقات ذات القواعد المحددة مسبقاً."
+
+msgid "Application Profiles"
+msgstr "ملفات تعريف التطبيقات"
+
+msgid "Audit"
+msgstr "التدقيق"
+
+msgid "Auditor Error"
+msgstr "خطأ في المراجع"
+
+msgid "Block"
+msgstr "حظر"
+
+msgid "Block Connection?"
+msgstr "حظر الاتصال؟"
+
+msgid "Block inbound traffic from"
+msgstr "\\\\tحظر حركة المرور الواردة من"
+
+msgid "Block outbound traffic to"
+msgstr "حظر حركة المرور الصادرة إلى"
+
+msgid "Blocked Events"
+msgstr "الأحداث المحظورة"
+
+msgid "Blocked Successfully"
+msgstr "الأوقات المحظورة"
+
+msgid "Both"
+msgstr "كلاهما"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+#, fuzzy
+msgid "Local Network Discovery"
+msgstr "DNS متعدد البث لاكتشاف الشبكة المحلية"
+
+msgid "Control multicast DNS discovery and .local name resolution."
+msgstr ""
+
+msgid "Local Network Discovery (mDNS)"
+msgstr ""
+
+msgid "Checking service status…"
+msgstr ""
+
+msgid "Network Discovery Error"
+msgstr ""
+
+msgid "Avahi is not installed."
+msgstr ""
+
+msgid "Avahi is running; .local names and service discovery are available."
+msgstr ""
+
+msgid "Avahi is enabled but not currently running."
+msgstr ""
+
+msgid "Avahi is blocked; .local names and service discovery are unavailable."
+msgstr ""
+
+msgid "Comment"
+msgstr "تعليق"
+
+msgid "Custom"
+msgstr "مخصص"
+
+msgid "Dashboard"
+msgstr "لوحة القيادة"
+
+msgid "Default Policies"
+msgstr "السياسات الافتراضية"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Delete All"
+msgstr "حذف الكل"
+
+msgid "Delete All Rules?"
+msgstr "هل تريد حذف جميع القواعد؟"
+
+msgid "Delete Rule"
+msgstr "حذف القاعدة"
+
+msgid "Delete rule"
+msgstr "حذف القاعدة"
+
+msgid "Deny"
+msgstr "رفض"
+
+msgid "Destination IP"
+msgstr "عنوان IP الوجهة"
+
+msgid "Direction"
+msgstr "الاتجاه"
+
+msgid "Error"
+msgstr "خطأ"
+
+msgid "Failed to Block"
+msgstr "فشل في الحظر"
+
+msgid "Firewall"
+msgstr "جدار الحماية"
+
+msgid "Firewall Rules"
+msgstr "قواعد جدار الحماية"
+
+msgid "Full"
+msgstr "كامل"
+
+msgid "High"
+msgstr "مرتفع"
+
+msgid "In"
+msgstr "دخول"
+
+msgid "Inactive"
+msgstr "غير نشط"
+
+msgid "Inbound"
+msgstr "وارد"
+
+msgid "Incoming"
+msgstr "وارد"
+
+msgid "Insert Before Rule"
+msgstr "إدراج قبل القاعدة"
+
+msgid "Interface"
+msgstr "الواجهة"
+
+msgid "Limit"
+msgstr "الحد"
+
+msgid "Listening Ports"
+msgstr "المنافذ المستمعة"
+
+msgid "Log Level"
+msgstr "مستوى السجل"
+
+msgid "Logging"
+msgstr "تسجيل"
+
+msgid "Low"
+msgstr "منخفض"
+
+msgid "Medium"
+msgstr "متوسط"
+
+msgid "Monitoring Network Activity"
+msgstr "مراقبة نشاط الشبكة"
+
+msgid "No Profiles"
+msgstr "لا توجد ملفات تعريف"
+
+msgid "No Rules"
+msgstr "لا توجد قواعد"
+
+msgid "No application profiles found"
+msgstr "لم يتم العثور على ملفات تعريف للتطبيقات"
+
+msgid "No blocked connections in recent events"
+msgstr "لا توجد اتصالات محظورة في الأحداث الأخيرة"
+
+msgid "No blocked ports in recent events"
+msgstr "لا توجد منافذ محظورة في الأحداث الأخيرة"
+
+msgid "No listening ports detected"
+msgstr "لم يتم اكتشاف أي منافذ استماع"
+
+msgid "Off"
+msgstr "إيقاف"
+
+msgid "Out"
+msgstr "خارجي"
+
+msgid "Outbound"
+msgstr "صادر"
+
+msgid "Outgoing"
+msgstr "الخارج"
+
+msgid "Pause list updates"
+msgstr "إيقاف تحديث القائمة"
+
+msgid "Port / Protocol"
+msgstr "المنفذ / البروتوكول"
+
+msgid "Port / Service Name"
+msgstr "المنفذ / اسم الخدمة"
+
+msgid "Profiles"
+msgstr "الملفات الشخصية"
+
+msgid "Protocol"
+msgstr "البروتوكول"
+
+msgid "Quick Allow Port"
+msgstr "السماح السريع بالمنفذ"
+
+msgid "Recent Blocked Events"
+msgstr "الأحداث المحظورة الأخيرة"
+
+msgid "Recent Events Parsed"
+msgstr "الأحداث الأخيرة التي تم تحليلها"
+
+msgid "Refresh"
+msgstr "تحديث"
+
+msgid "Reject"
+msgstr "رفض"
+
+msgid "Resolve Domains"
+msgstr "حل النطاقات"
+
+msgid "Rule added to block"
+msgstr "تمت إضافة القاعدة للحظر"
+
+msgid "Rules"
+msgstr "القواعد"
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Search Process or IP..."
+msgstr "البحث عن عملية أو IP..."
+
+msgid "Search rules..."
+msgstr "البحث في القواعد..."
+
+msgid "Service"
+msgstr "الخدمة"
+
+msgid "Show"
+msgstr "إظهار"
+
+msgid "Source IP"
+msgstr "عنوان IP المصدر"
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "There are no rules configured yet."
+msgstr "لم يتم تكوين أي قواعد بعد."
+
+msgid "This will delete all custom rules. This action cannot be undone."
+msgstr ""
+"سيؤدي هذا إلى حذف جميع القواعد المخصصة. لا يمكن التراجع عن هذا الإجراء."
+
+msgid ""
+"This will prevent the remote host from sending any packets to your machine."
+msgstr "سيمنع هذا المضيف البعيد من إرسال أي حزم إلى جهازك."
+
+msgid ""
+"This will prevent your machine from sending any packets to the remote host."
+msgstr "سيمنع هذا جهازك من إرسال أي حزم إلى المضيف البعيد."
+
+msgid "Top Blocked Connections"
+msgstr "أكثر الاتصالات المحظورة"
+
+msgid "Top Blocked Ports"
+msgstr "أعلى المنافذ المحظورة"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "e.g. 80,443/tcp or 8080"
+msgstr "مثال: 80,443/tcp أو 8080"
+
+msgid "BitTorrent client"
+msgstr "عميل BitTorrent"
+
+msgid "Common UNIX Printing System server"
+msgstr "خادم نظام الطباعة الموحد لـ UNIX"
+
+msgid "Continuous file synchronization"
+msgstr "مزامنة الملفات المستمرة"
+
+msgid "Docker container runtime API"
+msgstr "واجهة برمجة التطبيقات لتشغيل حاويات Docker"
+
+msgid "Domain Name System server"
+msgstr "خادم نظام أسماء النطاقات"
+
+msgid "Extensible Messaging and Presence Protocol"
+msgstr "بروتوكول الرسائل والحضور القابل للتوسع"
+
+msgid "File Transfer Protocol"
+msgstr "بروتوكول نقل الملفات"
+
+msgid "File synchronization service"
+msgstr "خدمة مزامنة الملفات"
+
+msgid "Hypertext Transfer Protocol for web servers"
+msgstr "بروتوكول نقل النص التشعبي لخوادم الويب"
+
+msgid "In-memory data structure store"
+msgstr "مخزن هيكل البيانات في الذاكرة"
+
+msgid "Internet Message Access Protocol for email"
+msgstr "بروتوكول وصول رسائل الإنترنت للبريد الإلكتروني"
+
+msgid "Lightweight Directory Access Protocol"
+msgstr "بروتوكول الوصول الخفيف إلى دليل الخادم"
+
+msgid "Media streaming server"
+msgstr "خادم بث الوسائط"
+
+msgid "Modern VPN tunnel"
+msgstr "نفق VPN حديث"
+
+msgid "Multicast DNS for local network discovery"
+msgstr "DNS متعدد البث لاكتشاف الشبكة المحلية"
+
+msgid "MySQL database server"
+msgstr "خادم قاعدة بيانات MySQL"
+
+msgid "Network File System"
+msgstr "نظام ملفات الشبكة"
+
+msgid "Network Time Protocol"
+msgstr "المنفذ / البروتوكول"
+
+msgid "NoSQL document database"
+msgstr "قاعدة بيانات مستندات NoSQL"
+
+msgid "Phone and desktop integration"
+msgstr "تكامل الهاتف وأجهزة سطح المكتب"
+
+msgid "Plex media streaming server"
+msgstr "خادم بث الوسائط Plex"
+
+msgid "Post Office Protocol for email retrieval"
+msgstr "بروتوكول مكتب البريد لاسترجاع البريد الإلكتروني"
+
+msgid "PostgreSQL database server"
+msgstr "خادم قاعدة بيانات PostgreSQL"
+
+msgid "Remote Desktop Protocol"
+msgstr "المنفذ / البروتوكول"
+
+msgid "Secure HTTP for web servers"
+msgstr "HTTP الآمن لخوادم الويب"
+
+msgid "Secure shell remote access"
+msgstr "الوصول عن بُعد عبر shell الآمن"
+
+msgid "Simple Mail Transfer Protocol"
+msgstr "بروتوكول نقل البريد البسيط"
+
+msgid "Virtual Network Computing remote desktop"
+msgstr "سطح المكتب عن بُعد عبر الحوسبة الافتراضية للشبكة"
+
+msgid "Windows file and printer sharing"
+msgstr "مشاركة الملفات والطابعات في Windows"
+
+#~ msgid "Firewall Active"
+#~ msgstr "جدار الحماية نشط"
+
+#~ msgid "Loading..."
+#~ msgstr "جارٍ التحميل..."
+
+#~ msgid "Loading blocked events..."
+#~ msgstr "جارٍ تحميل الأحداث المحظورة..."
+
+#~ msgid "No targeted ports in recent events"
+#~ msgstr "لا توجد منافذ مستهدفة في الأحداث الأخيرة"
+
+#~ msgid "recent blocked events"
+#~ msgstr "الأحداث المحظورة الأخيرة"
+
+#~ msgid "Summary"
+#~ msgstr "ملخص"
+
+#~ msgid "Top Targeted Ports"
+#~ msgstr "أعلى المنافذ المستهدفة"
+
+#~ msgid "No rules configured yet."
+#~ msgstr "لم يتم تكوين أي قواعد بعد."
+
+#~ msgid "Click Add Rule to allow a service or port."
+#~ msgstr "انقر على إضافة قاعدة للسماح بخدمة أو منفذ."
+
+#~ msgid "Authentication is required to modify firewall settings"
+#~ msgstr "المصادقة مطلوبة لتعديل إعدادات جدار الحماية"

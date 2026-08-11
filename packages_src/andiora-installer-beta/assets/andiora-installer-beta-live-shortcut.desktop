@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Prepare and start Andiora Installer
+Exec=/usr/lib/andiora-installer-beta/create-live-shortcut
+OnlyShowIn=GNOME;
+NoDisplay=true
+X-GNOME-Autostart-enabled=true

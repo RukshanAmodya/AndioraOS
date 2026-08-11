@@ -1,0 +1,227 @@
+# Andiora Appearance — Romanian translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Despre aspectul Andiora"
+
+msgid "Advanced"
+msgstr "Avansat"
+
+msgid "Andiora Appearance"
+msgstr "Aspectul Andiora"
+
+msgid "Andiora Team"
+msgstr "Echipa Andiora"
+
+msgid "Appearance"
+msgstr "Aspect"
+
+msgid "Apply to Login Screen"
+msgstr "Aplicați la ecranul de autentificare"
+
+msgid "Bottom"
+msgstr "Jos"
+
+msgid "Cancel"
+msgstr "Anulează"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Alegeți o imagine pentru fundalul ecranului de autentificare GDM."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Alege stilul vizual al barei de activități."
+
+msgid "Choose…"
+msgstr "Alegeți…"
+
+msgid "Classic"
+msgstr "Clasic"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Combinați mai multe ferestre ale unei aplicații într-o singură pictogramăCombină mai multe ferestre ale unei aplicații într-o singură pictogramă"
+
+msgid "Danger Zone"
+msgstr "Zona de pericol"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Afișează butonul Activități pe bara de activități"
+
+msgid "Enable grouping"
+msgstr "Activează gruparea"
+
+msgid "Extension Settings"
+msgstr "Setări extensii"
+
+msgid "GDM Wallpaper"
+msgstr "Fundal GDM"
+
+msgid "Group apps"
+msgstr "Grupează aplicațiile"
+
+msgid "Images"
+msgstr "Imagini"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Separă lansatoarele de aplicațiile în execuție"
+
+msgid "Layout"
+msgstr "Aranjament"
+
+msgid "Left"
+msgstr "Stânga"
+
+msgid "Login Screen Wallpaper"
+msgstr "Fundal ecran de autentificare"
+
+msgid "Open"
+msgstr "Deschide"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Deschide ferestrele de preferințe ale extensiilor panoului."
+
+msgid "Panel Indicators"
+msgstr "Indicatori panou"
+
+msgid "Panel Widgets"
+msgstr "Widget-uri panou"
+
+msgid "Preview"
+msgstr "Previzualizare"
+
+msgid "Reset"
+msgstr "Resetează"
+
+msgid "Reset desktop settings"
+msgstr "Resetează setările desktopului"
+
+msgid "Reset desktop settings?"
+msgstr "Resetezi setările desktopului?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Restaurați toate setările GNOME Shell la valorile impliciteRestabilește toate setările GNOME Shell la valorile implicite de fabrică"
+
+msgid "Right"
+msgstr "Dreapta"
+
+msgid "Select image"
+msgstr "Selectați imaginea"
+
+msgid "Seperated"
+msgstr "Separat"
+
+msgid "Show Activities Button"
+msgstr "Afișează butonul Activități"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Arată rețeaua"
+
+msgid "Show Weather"
+msgstr "Arată vremea"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Afișați sau ascundeți elementele de panou încorporate."
+
+msgid "Taskbar Elements"
+msgstr "Elemente din bara de activități"
+
+msgid "Taskbar Style"
+msgstr "Stilul barei de activități"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Activează sau dezactivează widget-urile indicatorului panoului."
+
+msgid "Top"
+msgstr "Sus"
+
+msgid "Tweaks"
+msgstr "Optimizări"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Comportament bară de activități Vista"
+
+msgid "Wallpaper"
+msgstr "Imagine fundal"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Buton activități — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Aplicat — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Setările desktopului au fost resetate. Reporniți Shell pentru a aplica.✓ Setările desktopului au fost resetate. Repornește Shell pentru a aplica."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ Fundal GDM aplicat"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Nu s-a putut aplica poziția"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Nu s-a putut aplica stilul"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Resetare eșuată"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Eșec la setarea fundalului GDM"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Nu s-a putut comuta butonul de activități"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Nu s-a putut {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Vă rugăm să selectați mai întâi o imagine"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Aceasta va reseta toate setările GNOME Shell la valorile implicite din fabrică.\n"
+#~ "Extensiile, aspectul panoului și preferințele dvs. vor fi pierdute."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Poziția barei de activități"
+
+#~ msgid "Panel Position"
+#~ msgstr "Poziție panou"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Alege unde se află bara de activități pe ecran."

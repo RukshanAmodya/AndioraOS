@@ -1,0 +1,114 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>andiora-desktop-apps</PackageName>
+    <PackageVersion>2.0.1-7+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>Andiora default applications — pulls in recommended apps for Andiora</PackageDescription>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>all</TargetArchitectures>
+    <Component>main</Component>
+    <SuiteShortNameMap>noble-addon=noble resolute-addon=resolute</SuiteShortNameMap>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Core & System -->
+    <Suggest Include="andiora-btrfs-snapshots-manager" Condition="'$(Suite)' == 'resolute-addon'" />
+    <Recommend Include="andiora-mimeapps" />
+
+    <!-- Web & Connectivity -->
+    <Recommend Include="firefox-andiora" />
+    <Recommend Include="gnome-browser-connector" />
+    <Recommend Include="gnome-online-accounts" />
+    <Recommend Include="remmina" />
+    <Recommend Include="remmina-plugin-rdp" />
+    <Recommend Include="transmission-gtk" />
+
+    <!-- Mail -->
+    <Recommend Include="geary" />
+
+    <!-- Productivity & Utilities -->
+    <Recommend Include="gnome-calendar" />
+    <Recommend Include="gnome-clocks" />
+    <Recommend Include="gnome-weather" />
+    <Recommend Include="gnome-text-editor" />
+    <Recommend Include="evince" Condition="'$(Suite)' == 'noble-addon'" />
+    <Recommend Include="papers" Condition="'$(Suite)' == 'resolute-addon'" />
+    <Recommend Include="gnome-calculator" />
+    <Recommend Include="seahorse" />
+    <Recommend Include="gnome-characters" />
+    <Recommend Include="gnome-font-viewer" />
+    <Recommend Include="simple-scan" />
+
+    <!-- Media & Graphics -->
+    <Recommend Include="loupe" />
+    <Recommend Include="totem" Condition="'$(Suite)' == 'noble-addon'" />
+    <Recommend Include="celluloid" Condition="'$(Suite)' == 'resolute-addon'" />
+    <Recommend Include="amberol" />
+    <Recommend Include="gnome-snapshot" />
+    <Recommend Include="gnome-sound-recorder" />
+    <Recommend Include="ffmpegthumbnailer" />
+    <Recommend Include="libgdk-pixbuf2.0-bin" />
+
+    <!-- System & Maintenance -->
+    <Recommend Include="andiora-driver-center" />
+    <Recommend Include="andiora-oobe" />
+    <Recommend Include="andiora-exe-runner" />
+    <Recommend Include="andiora-ufwall-gtk" />
+    <Recommend Include="andiora-swapcontrol-gtk" />
+    <Recommend Include="andiora-yubikey-manager" />
+    <Recommend Include="baobab" />
+    <Recommend Include="file-roller" />
+    <Recommend Include="gnome-sushi" />
+    <Recommend Include="gnome-disk-utility" />
+    <Recommend Include="gnome-logs" />
+    <Recommend Include="gnome-system-monitor" Condition="'$(Suite)' == 'noble-addon'" />
+    <Recommend Include="resources" Condition="'$(Suite)' == 'resolute-addon'" />
+    <Recommend Include="gnome-power-manager" />
+    <Recommend Include="usb-creator-gtk" />
+
+    <!-- Documentation & Entertainment -->
+    <Recommend Include="yelp" />
+    <Recommend Include="gnome-user-docs" />
+
+    <!-- Games and fun -->
+    <Recommend Include="gnome-control-center-faces" />
+    <Recommend Include="gnome-chess" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Replace Celluloid desktop Name with GenericName — "Celluloid"
+         is confusing in many cultures; the GenericName is universally
+         understood and provided by upstream. -->
+    <IncludeFile Include="assets/io.github.celluloid_player.Celluloid.desktop"
+                 Target="/usr/share/applications/io.github.celluloid_player.Celluloid.desktop" />
+
+    <!-- Replace Geary desktop Name with local "Email"/"Mail" — "Geary"
+         is meaningless branding; the local word for "Mail" is what users
+         look for in their launcher. -->
+    <IncludeFile Include="assets/org.gnome.Geary.desktop"
+                 Target="/usr/share/applications/org.gnome.Geary.desktop" />
+
+    <!-- Replace Amberol desktop Name with local "Music Player" — "Amberol"
+         means nothing to an end user; "Music Player" in their language does. -->
+    <IncludeFile Include="assets/io.bassi.Amberol.desktop"
+                 Target="/usr/share/applications/io.bassi.Amberol.desktop" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PreInstallScript Include="scripts/preinst.sh" />
+    <PostRemoveScript Include="scripts/postrm.sh" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DependencyCheckSource
+        Url="https://mirror.aiursoft.com/ubuntu"
+        SuiteMap="noble-addon=noble resolute-addon=resolute" />
+    <DependencyCheckSource
+        Url="https://apkg-dev.aiursoft.com/artifacts/andiora"
+        SuiteMap="noble-addon=noble-addon-addon resolute-addon=resolute-addon" />
+  </ItemGroup>
+</Project>

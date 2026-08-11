@@ -1,0 +1,5 @@
+[D-BUS Service]
+Name=org.andiora.BtrfsSnapshotsManager
+Exec=/usr/libexec/andiora-btrfs-snapshots-manager-helper
+User=root
+SystemdService=andiora-btrfs-snapshots-manager-helper.service

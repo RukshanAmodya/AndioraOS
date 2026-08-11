@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.andiora.BtrfsSnapshotsManager
+Exec=/usr/bin/andiora-btrfs-snapshots-manager --gapplication-service

@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "To use the full Andiora AI-powered assistant, install andiora-why-ai:"
+echo ""
+echo "    sudo apt install andiora-why-ai"
+echo ""
+exit 1

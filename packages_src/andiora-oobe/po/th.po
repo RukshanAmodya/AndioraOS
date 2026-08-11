@@ -1,0 +1,1734 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2026 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-09 15:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: th <LL@li.org>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: andiora-oobe/assets/andiora-oobe:371
+msgid "Disk Snapshots Manager"
+msgstr "ตัวจัดการสแนปชอตของดิสก์"
+
+#: andiora-oobe/assets/andiora-oobe:373
+msgid "Protect your system with automatic Btrfs snapshots and smart cleanup."
+msgstr "ปกป้องระบบของคุณด้วยสแน็ปช็อต Btrfs อัตโนมัติและการล้างข้อมูลอัจฉริยะ"
+
+#: andiora-oobe/assets/andiora-oobe:375
+msgid "Configure Automatic Snapshots"
+msgstr "กำหนดค่าสแนปชอตอัตโนมัติ"
+
+#: andiora-oobe/assets/andiora-oobe:380
+msgid "System Backup"
+msgstr "การสำรองข้อมูลระบบ"
+
+#: andiora-oobe/assets/andiora-oobe:382
+msgid "Use Deja Dup to protect your"
+msgstr "ใช้ Deja Dup เพื่อปกป้องไฟล์"
+
+#: andiora-oobe/assets/andiora-oobe:383
+msgid "important files with automated,"
+msgstr "ไฟล์สำคัญด้วยการสำรองข้อมูลอัตโนมัติ"
+
+#: andiora-oobe/assets/andiora-oobe:384
+msgid "secure local or remote backups."
+msgstr "การสำรองข้อมูลแบบปลอดภัยในเครื่องระยะไกลหรือภายในเครือข่าย"
+
+#: andiora-oobe/assets/andiora-oobe:386
+msgid "Get Deja Dup"
+msgstr "รับ Deja Dup"
+
+#: andiora-oobe/assets/andiora-oobe:457
+msgid "NetworkManager could not scan Wi-Fi."
+msgstr "NetworkManager ไม่สามารถสแกน Wi-Fi ได้"
+
+#: andiora-oobe/assets/andiora-oobe:520
+msgid "Could not inspect network adapters."
+msgstr "ไม่สามารถตรวจสอบอะแดปเตอร์เครือข่ายได้"
+
+#: andiora-oobe/assets/andiora-oobe:530
+msgid "Could not read the Wi-Fi radio state."
+msgstr "ไม่สามารถอ่านสถานะวิทยุ Wi-Fi ได้"
+
+#: andiora-oobe/assets/andiora-oobe:536
+msgid "Unknown Wi-Fi radio state: {}"
+msgstr "สถานะวิทยุ Wi-Fi ที่ไม่รู้จัก: {}"
+
+#: andiora-oobe/assets/andiora-oobe:537
+msgid "empty"
+msgstr "ว่างเปล่า"
+
+#: andiora-oobe/assets/andiora-oobe:546
+msgid "Could not change the Wi-Fi radio state."
+msgstr "ไม่สามารถเปลี่ยนสถานะวิทยุ Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:648
+msgid "Welcome Home."
+msgstr "ยินดีต้อนรับสู่บ้านของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "Andiora is ready. Just a few steps to shape it"
+msgstr "Andiora พร้อมใช้งานแล้ว เหลืออีกเพียงไม่กี่ขั้นตอนในการปรับแต่งให้เข้ากับคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:658
+msgid "into the perfect system tailored to your habits."
+msgstr "กลายเป็นระบบที่ปรับแต่งให้เข้ากับนิสัยของคุณได้อย่างสมบูรณ์แบบ"
+
+#: andiora-oobe/assets/andiora-oobe:668
+msgid "  Start Setup  "
+msgstr "เริ่มการตั้งค่า"
+
+#: andiora-oobe/assets/andiora-oobe:715
+msgid "Connect to the Internet"
+msgstr "เชื่อมต่ออินเทอร์เน็ต"
+
+#: andiora-oobe/assets/andiora-oobe:723
+msgid ""
+"Connect now so Andiora can safely check for updates, drivers, and apps."
+msgstr ""
+"เชื่อมต่อตอนนี้เพื่อให้ Andiora สามารถตรวจสอบการอัปเดต ไดร์เวอร์ และแอพได้อย่างปลอดภัย"
+
+#: andiora-oobe/assets/andiora-oobe:731
+msgid "Internet Connection"
+msgstr "การเชื่อมต่ออินเทอร์เน็ต"
+
+#: andiora-oobe/assets/andiora-oobe:738
+msgid "Network Hardware"
+msgstr "ฮาร์ดแวร์เครือข่าย"
+
+#: andiora-oobe/assets/andiora-oobe:746
+msgid "Available Wi-Fi Networks"
+msgstr "เครือข่าย Wi-Fi ที่ใช้งานได้"
+
+#: andiora-oobe/assets/andiora-oobe:748
+msgid "Wi-Fi"
+msgstr "อินเตอร์เน็ตไร้สาย"
+
+#: andiora-oobe/assets/andiora-oobe:751
+msgid "Scan Again"
+msgstr "สแกนอีกครั้ง"
+
+#: andiora-oobe/assets/andiora-oobe:760
+#: andiora-oobe/assets/andiora-oobe:832
+#: andiora-oobe/assets/andiora-oobe:840
+#: andiora-oobe/assets/andiora-oobe:855
+msgid "Open Network Settings"
+msgstr "เปิดการตั้งค่าเครือข่าย"
+
+#: andiora-oobe/assets/andiora-oobe:769
+msgid "Could not open network settings: {}"
+msgstr "ไม่สามารถเปิดการตั้งค่าเครือข่าย: {}"
+
+#: andiora-oobe/assets/andiora-oobe:779
+msgid "Continue Offline"
+msgstr "ดำเนินการต่อแบบออฟไลน์"
+
+#: andiora-oobe/assets/andiora-oobe:783
+msgid "Skip updates, online drivers, apps, and account setup."
+msgstr "ข้ามการอัปเดต ไดรเวอร์ออนไลน์ แอป และการตั้งค่าบัญชี"
+
+#: andiora-oobe/assets/andiora-oobe:799
+msgid "Internet connection is ready. Choose Next to continue."
+msgstr "การเชื่อมต่ออินเทอร์เน็ตพร้อมแล้ว เลือกถัดไปเพื่อดำเนินการต่อ"
+
+#: andiora-oobe/assets/andiora-oobe:806
+msgid "Connect to Wi-Fi or a wired network to continue."
+msgstr "เชื่อมต่อ Wi-Fi หรือเครือข่ายแบบมีสายเพื่อดำเนินการต่อ"
+
+#: andiora-oobe/assets/andiora-oobe:829
+msgid "No network adapters detected."
+msgstr "ไม่พบอะแดปเตอร์เครือข่าย"
+
+#: andiora-oobe/assets/andiora-oobe:831
+msgid "Connect a network adapter or continue offline."
+msgstr "เชื่อมต่ออะแดปเตอร์เครือข่ายหรือดำเนินการต่อแบบออฟไลน์"
+
+#: andiora-oobe/assets/andiora-oobe:836
+msgid "Wired Network"
+msgstr "เครือข่ายแบบมีสาย"
+
+#: andiora-oobe/assets/andiora-oobe:838
+msgid "Cable connected."
+msgstr "เชื่อมต่อสายเคเบิลแล้ว"
+
+#: andiora-oobe/assets/andiora-oobe:839
+msgid "Plug in a network cable to connect."
+msgstr "เสียบสายเคเบิลเครือข่ายเพื่อเชื่อมต่อ"
+
+#: andiora-oobe/assets/andiora-oobe:844
+msgid "Wireless Network"
+msgstr "เครือข่ายไร้สาย"
+
+#: andiora-oobe/assets/andiora-oobe:845
+msgid "Wi-Fi adapter detected."
+msgstr "ตรวจพบอแด็ปเตอร์ Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:846
+msgid "Open Wi-Fi Settings"
+msgstr "เปิดการตั้งค่า Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:850
+msgid "Wired and Wireless Networks"
+msgstr "เครือข่ายแบบใช้สายและไร้สาย"
+
+#: andiora-oobe/assets/andiora-oobe:852
+msgid "Cable connected and Wi-Fi available."
+msgstr "เชื่อมต่อสายเคเบิลและมี Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:854
+msgid "Wi-Fi is available; the network cable is disconnected."
+msgstr "มีบริการอินเทอร์เน็ตไร้สาย สายเคเบิลเครือข่ายถูกตัดการเชื่อมต่อ"
+
+#: andiora-oobe/assets/andiora-oobe:866
+msgid "Wi-Fi is turned off."
+msgstr "Wi-Fi ปิดอยู่"
+
+#: andiora-oobe/assets/andiora-oobe:870
+msgid "No Wi-Fi networks found."
+msgstr "ไม่พบเครือข่าย Wi-Fi"
+
+#: andiora-oobe/assets/andiora-oobe:899
+msgid "Wi-Fi unavailable: {}"
+msgstr "Wi-Fi ไม่พร้อมใช้งาน: {}"
+
+#: andiora-oobe/assets/andiora-oobe:981
+msgid "Define Your Visual Order"
+msgstr "กำหนดลำดับภาพของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:991
+msgid "Light and Shadow"
+msgstr "แสงและเงา"
+
+#: andiora-oobe/assets/andiora-oobe:992
+msgid "Choose a crisp light theme, or an immersive dark experience."
+msgstr "เลือกธีมสว่างที่คมชัด หรือประสบการณ์แบบมืดที่ погруตัว"
+
+#: andiora-oobe/assets/andiora-oobe:1011
+msgid "Light"
+msgstr "สว่าง"
+
+#: andiora-oobe/assets/andiora-oobe:1023
+msgid "Dark"
+msgstr "มืด"
+
+#: andiora-oobe/assets/andiora-oobe:1054
+msgid "Workflow Layout"
+msgstr "เลย์เอาต์เวิร์กโฟลว์"
+
+#: andiora-oobe/assets/andiora-oobe:1055
+msgid "Prefer modern centered alignment, or classic left-docked?"
+msgstr "คุณชอบการจัดกึ่งกลางแบบสมัยใหม่ หรือการจ่อซ้ายแบบคลาสสิก?"
+
+#: andiora-oobe/assets/andiora-oobe:1089
+msgid "Taskbar Layout"
+msgstr "เลย์เอาต์แทสก์บาร์"
+
+#: andiora-oobe/assets/andiora-oobe:1090
+msgid "Choose your workflow."
+msgstr "เลือกเวิร์กโฟลว์ของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:1099
+msgid " Modern "
+msgstr "สมัยใหม่"
+
+#: andiora-oobe/assets/andiora-oobe:1100
+msgid " Classic "
+msgstr "คลาสสิก"
+
+#: andiora-oobe/assets/andiora-oobe:1129
+msgid "Show Virtual Desktop Switch Button"
+msgstr "แสดงปุ่มสลับเดสก์ท็อปเสมือน"
+
+#: andiora-oobe/assets/andiora-oobe:1130
+msgid "Display the Activities button on the taskbar"
+msgstr "แสดงปุ่มกิจกรรมบนแทสก์บาร์"
+
+#: andiora-oobe/assets/andiora-oobe:1182
+msgid "Digital Sovereignty, Under Your Control"
+msgstr "อธิปไตยทางดิจิทัล ภายใต้การควบคุมของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:1190
+msgid "We deeply value privacy. Here, you hold absolute authority."
+msgstr "เราให้คุณค่ากับความเป็นส่วนตัวอย่างลึกซึ้ง ที่นี่คุณมีอำนาจสมบูรณ์"
+
+#: andiora-oobe/assets/andiora-oobe:1200
+msgid "Network Security"
+msgstr "ความปลอดภัยของเครือข่าย"
+
+#: andiora-oobe/assets/andiora-oobe:1202
+msgid ""
+"Control inbound protection and whether this computer participates in local "
+"network discovery."
+msgstr "ควบคุมการป้องกันขาเข้าและดูว่าคอมพิวเตอร์เครื่องนี้มีส่วนร่วมในการค้นพบเครือข่ายท้องถิ่นหรือไม่"
+
+#: andiora-oobe/assets/andiora-oobe:1207
+msgid "Network Firewall (UFW)"
+msgstr "ไฟร์วอลล์เครือข่าย (UFW)"
+
+#: andiora-oobe/assets/andiora-oobe:1260
+msgid "Local Network Discovery (mDNS)"
+msgstr "การค้นพบเครือข่ายท้องถิ่น (mDNS)"
+
+#: andiora-oobe/assets/andiora-oobe:1262
+msgid ""
+"Find printers and nearby devices, and make .local names available on trusted "
+"networks."
+msgstr ""
+"ค้นหาเครื่องพิมพ์และอุปกรณ์ใกล้เคียง และทำให้ชื่อ .local พร้อมใช้งานบนเครือข่ายที่เชื่อถือได้"
+
+#: andiora-oobe/assets/andiora-oobe:1274
+msgid "Local network discovery controls are not installed."
+msgstr "ไม่ได้ติดตั้งการควบคุมการค้นพบเครือข่ายท้องถิ่น"
+
+#: andiora-oobe/assets/andiora-oobe:1309
+msgid "Location Services"
+msgstr "บริการตำแหน่ง"
+
+#: andiora-oobe/assets/andiora-oobe:1311
+msgid ""
+"Allow apps like weather and clock to access your approximate geographic "
+"location."
+msgstr "อนุญาตให้แอปเช่นสภาพอากาศและนาฬิกาเข้าถึงตำแหน่งทางภูมิศาสตร์โดยประมาณของคุณได้"
+
+#: andiora-oobe/assets/andiora-oobe:1315
+msgid "Location Access"
+msgstr "การเข้าถึงตำแหน่ง"
+
+#: andiora-oobe/assets/andiora-oobe:1333
+msgid "Power Settings"
+msgstr "การตั้งค่าพลังงาน"
+
+#: andiora-oobe/assets/andiora-oobe:1334
+msgid "Manage idle behavior to balance energy saving and convenience."
+msgstr "จัดการพฤติกรรมเมื่อไม่ใช้งานเพื่อสมดุลระหว่างการประหยัดพลังงานและความสะดวก"
+
+#: andiora-oobe/assets/andiora-oobe:1338
+msgid "Auto Sleep"
+msgstr "พักอัตโนมัติ"
+
+#: andiora-oobe/assets/andiora-oobe:1367
+msgid "Command-line Assistance"
+msgstr "ตัวช่วยบรรทัดคำสั่ง"
+
+#: andiora-oobe/assets/andiora-oobe:1368
+msgid "Control local bash predictions."
+msgstr "ควบคุมการคาดเดา bash ภายในเครื่อง"
+
+#: andiora-oobe/assets/andiora-oobe:1372
+msgid "Bash Command Predictions"
+msgstr "การคาดเดาคำสั่ง Bash"
+
+#: andiora-oobe/assets/andiora-oobe:1373
+msgid "Show command suggestions in bash"
+msgstr "แสดงคำแนะนำคำสั่งใน bash"
+
+#: andiora-oobe/assets/andiora-oobe:1390
+msgid ""
+"Could not update your Bash configuration. Your previous setting was kept."
+msgstr "ไม่สามารถอัปเดตการตั้งค่า Bash ได้ ระบบยังคงใช้การตั้งค่าก่อนหน้า"
+
+#: andiora-oobe/assets/andiora-oobe:1428
+msgid "Keep Your System Up to Date"
+msgstr "รักษาให้ระบบของคุณทันสมัยอยู่เสมอ"
+
+#: andiora-oobe/assets/andiora-oobe:1437
+msgid "Security patches and the latest features are just a click away."
+msgstr "แพตช์ความปลอดภัยและฟีเจอร์ล่าสุดอยู่เพียงคลิกเดียว"
+
+#: andiora-oobe/assets/andiora-oobe:1447
+msgid "Terminal Output"
+msgstr "ผลลัพธ์จากเทอร์มินัล"
+
+#: andiora-oobe/assets/andiora-oobe:1483
+msgid "  Do It Later  "
+msgstr "ทำทีหลัง"
+
+#: andiora-oobe/assets/andiora-oobe:1486
+msgid "  Find Fastest Mirror  "
+msgstr "ค้นหาตัวสะท้อนข้อมูล (Mirror) ที่เร็วที่สุด"
+
+#: andiora-oobe/assets/andiora-oobe:1489
+msgid "  Check for Updates  "
+msgstr "ตรวจสอบอัปเดต"
+
+#: andiora-oobe/assets/andiora-oobe:1523
+msgid "Checking for updates…"
+msgstr "กำลังตรวจสอบอัปเดต…"
+
+#: andiora-oobe/assets/andiora-oobe:1555
+msgid "Updates are available."
+msgstr "มีอัปเดตพร้อมติดตั้ง"
+
+#: andiora-oobe/assets/andiora-oobe:1556
+msgid "  Install Updates  "
+msgstr "ติดตั้งอัปเดต"
+
+#: andiora-oobe/assets/andiora-oobe:1563
+msgid "✓ System is up to date."
+msgstr "✓ ระบบของคุณทันสมัยอยู่แล้ว"
+
+#: andiora-oobe/assets/andiora-oobe:1565
+#: andiora-oobe/assets/andiora-oobe:1595
+msgid "  Continue  "
+msgstr "ดำเนินการต่อ"
+
+#: andiora-oobe/assets/andiora-oobe:1572
+msgid "✗ Check failed: "
+msgstr "✗ การตรวจสอบล้มเหลว:"
+
+#: andiora-oobe/assets/andiora-oobe:1578
+msgid "Installing updates…"
+msgstr "กำลังติดตั้งอัปเดต…"
+
+#: andiora-oobe/assets/andiora-oobe:1593
+msgid "✓ Updates installed successfully!"
+msgstr "✓ ติดตั้งอัปเดตสำเร็จ!"
+
+#: andiora-oobe/assets/andiora-oobe:1604
+msgid "✗ Installation failed: "
+msgstr "✗ การติดตั้งล้มเหลว:"
+
+#: andiora-oobe/assets/andiora-oobe:1643
+msgid "Testing mirrors…"
+msgstr "กำลังทดสอบตัวสะท้อนข้อมูล (Mirror)…"
+
+#: andiora-oobe/assets/andiora-oobe:1644
+msgid "=== Testing mirror speeds ==="
+msgstr "=== กำลังทดสอบความเร็วของ mirror ==="
+
+#: andiora-oobe/assets/andiora-oobe:1769
+#: andiora-oobe/assets/andiora-oobe:1777
+#, python-brace-format
+msgid "Testing mirrors… ({c}/{t})"
+msgstr "กำลังทดสอบกระจก... ({c}/{t})"
+
+#: andiora-oobe/assets/andiora-oobe:1785
+msgid "No mirrors reachable."
+msgstr "ไม่พบ mirror ที่สามารถเข้าถึงได้"
+
+#: andiora-oobe/assets/andiora-oobe:1787
+msgid "✗ No mirrors reachable. Check your connection."
+msgstr "✗ ไม่พบตัวสะท้อนข้อมูลที่เชื่อมต่อได้ กรุณาตรวจสอบการเชื่อมต่อของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:1795
+msgid "=== Testing bandwidth of top 5 mirrors "
+msgstr "=== กำลังทดสอบแบนด์วิดท์ของ mirror 5 อันดับแรก ==="
+
+#: andiora-oobe/assets/andiora-oobe:1796
+msgid "(3 s each) ==="
+msgstr "(3 วินาทีต่อรายการ) ==="
+
+#: andiora-oobe/assets/andiora-oobe:1850
+msgid "Best mirror by bandwidth"
+msgstr "ตัวสะท้อนข้อมูลที่ดีที่สุดในแง่ของแบนด์วิดท์"
+
+#: andiora-oobe/assets/andiora-oobe:1852
+#: andiora-oobe/assets/andiora-oobe:1873
+#: andiora-oobe/assets/andiora-oobe:1880
+msgid "Latency"
+msgstr "ความล่าช้า"
+
+#: andiora-oobe/assets/andiora-oobe:1853
+#: andiora-oobe/assets/andiora-oobe:1874
+#: andiora-oobe/assets/andiora-oobe:1881
+msgid "Bandwidth"
+msgstr "แบนด์วิดท์"
+
+#: andiora-oobe/assets/andiora-oobe:1875
+msgid "This is already your current mirror."
+msgstr "นี่คือ mirror ปัจจุบันของคุณแล้ว"
+
+#: andiora-oobe/assets/andiora-oobe:1885
+msgid "Current mirror"
+msgstr "Mirror ปัจจุบัน"
+
+#: andiora-oobe/assets/andiora-oobe:1889
+msgid "Switch to this mirror and run apt update?"
+msgstr "สลับไปใช้ mirror นี้และรัน apt update?"
+
+#: andiora-oobe/assets/andiora-oobe:1894
+msgid "Fastest Mirror Found"
+msgstr "พบ mirror ที่เร็วที่สุด"
+
+#: andiora-oobe/assets/andiora-oobe:1897
+msgid "Keep Current"
+msgstr "คงค่าปัจจุบันไว้"
+
+#: andiora-oobe/assets/andiora-oobe:1898
+msgid "Switch"
+msgstr "สลับ"
+
+#: andiora-oobe/assets/andiora-oobe:1920
+msgid "✗ Mirror test failed: "
+msgstr "✗ การทดสอบ mirror ล้มเหลว:"
+
+#: andiora-oobe/assets/andiora-oobe:1926
+msgid "Switching mirror…"
+msgstr "กำลังสลับ mirror…"
+
+#: andiora-oobe/assets/andiora-oobe:1927
+msgid "=== Applying mirror switch ==="
+msgstr "=== กำลังสลับกระจก (mirror) ==="
+
+#: andiora-oobe/assets/andiora-oobe:2002
+msgid "✓ Mirror switched and system updated."
+msgstr "✓ สลับ mirror และอัปเดตระบบเรียบร้อยแล้ว"
+
+#: andiora-oobe/assets/andiora-oobe:2005
+msgid "✓ Switched to "
+msgstr "✓ เปลี่ยนไปใช้"
+
+#: andiora-oobe/assets/andiora-oobe:2018
+msgid "✗ Switch failed: "
+msgstr "✗ การสลับล้มเหลว:"
+
+#: andiora-oobe/assets/andiora-oobe:2058
+msgid "Could not open Andiora Driver Center: {}"
+msgstr "ไม่สามารถเปิดศูนย์ไดรเวอร์ Andiora ได้: {}"
+
+#: andiora-oobe/assets/andiora-oobe:2092
+msgid "Configure Hardware Drivers?"
+msgstr "กำหนดค่าไดรเวอร์ฮาร์ดแวร์หรือไม่?"
+
+#: andiora-oobe/assets/andiora-oobe:2102
+msgid ""
+"Open Andiora Driver Center now to manage graphics cards, Xbox controllers, "
+"and other hardware."
+msgstr ""
+"เปิดศูนย์ไดรเวอร์ Andiora ตอนนี้เพื่อจัดการการ์ดกราฟิก คอนโทรลเลอร์ Xbox และฮาร์ดแวร์อื่น ๆ"
+
+#: andiora-oobe/assets/andiora-oobe:2125
+msgid "Skip"
+msgstr "ข้าม"
+
+#: andiora-oobe/assets/andiora-oobe:2130
+msgid "Open Driver Center"
+msgstr "เปิดศูนย์ไดรเวอร์"
+
+#: andiora-oobe/assets/andiora-oobe:2166
+msgid "Run Windows Apps, with ease"
+msgstr "รันแอป Windows ได้อย่างง่ายดาย"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid ""
+"Powered by Wine and Bottles technology, running classic Windows applications"
+msgstr "ขับเคลื่อนด้วยเทคโนโลยี Wine และ Bottles ทำงานกับแอปพลิเคชัน Windows แบบคลาสสิก"
+
+#: andiora-oobe/assets/andiora-oobe:2175
+msgid "is now easier than ever."
+msgstr "ง่ายกว่าที่เคยเป็นมา"
+
+#: andiora-oobe/assets/andiora-oobe:2191
+msgid "✓ Windows compatibility sandbox is already installed."
+msgstr "✓ Sandbox ความเข้ากันได้ของ Windows ถูกติดตั้งไว้แล้ว"
+
+#: andiora-oobe/assets/andiora-oobe:2207
+msgid "  Skip  "
+msgstr "ข้าม"
+
+#: andiora-oobe/assets/andiora-oobe:2211
+msgid "  Enable Windows Compatibility Sandbox  "
+msgstr "เปิดใช้ Sandbox ความเข้ากันได้ของ Windows"
+
+#: andiora-oobe/assets/andiora-oobe:2221
+msgid "Configure Bottles"
+msgstr "กำหนดค่า Bottles"
+
+#: andiora-oobe/assets/andiora-oobe:2236
+msgid "Advanced Output"
+msgstr "เอาต์พุตขั้นสูง"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "Deploying compatibility sandbox via Flatpak…"
+msgstr "กำลังติดตั้ง sandbox ความเข้ากันได้ผ่าน Flatpak…"
+
+#: andiora-oobe/assets/andiora-oobe:2264
+msgid "This may take a few minutes."
+msgstr "ขั้นตอนนี้อาจใช้เวลาสักครู่"
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "✓ Sandbox deployed successfully!"
+msgstr "✓ ติดตั้ง sandbox สำเร็จแล้ว!"
+
+#: andiora-oobe/assets/andiora-oobe:2299
+msgid "You can now double-click .exe files to run them."
+msgstr "ตอนนี้คุณสามารถดับเบิลคลิกไฟล์ .exe เพื่อรันได้"
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "✗ Deployment failed."
+msgstr "✗ การติดตั้งล้มเหลว"
+
+#: andiora-oobe/assets/andiora-oobe:2308
+msgid "You can install Bottles later from the App Store."
+msgstr "คุณสามารถติดตั้ง Bottles ภายหลังได้จาก App Store"
+
+#: andiora-oobe/assets/andiora-oobe:2316
+msgid "✗ Error: "
+msgstr "✗ เกิดข้อผิดพลาด:"
+
+#: andiora-oobe/assets/andiora-oobe:2347
+msgid "The Magic at Your Fingertips"
+msgstr "มนต์เวทที่ปลายนิ้วคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:2355
+msgid "Skip tedious clicking. Capture inspiration with elegance."
+msgstr "ข้ามการคลิกที่ยุ่งยาก จับแรงบันดาลใจด้วยความสง่างาม"
+
+#: andiora-oobe/assets/andiora-oobe:2377
+msgid "Screenshot"
+msgstr "ถ่ายภาพหน้าจอ"
+
+#: andiora-oobe/assets/andiora-oobe:2378
+msgid "Select, annotate, copy — all in one motion"
+msgstr "เลือก anotate คัดลอก — ทั้งหมดในขั้นตอนเดียว"
+
+#: andiora-oobe/assets/andiora-oobe:2396
+msgid "Screen Recording"
+msgstr "บันทึกวิดีโอหน้าจอ"
+
+#: andiora-oobe/assets/andiora-oobe:2397
+msgid "Seamless start, instant capture"
+msgstr "เริ่มต้นอย่างลื่นไหล จับภาพได้ทันที"
+
+#: andiora-oobe/assets/andiora-oobe:2417
+msgid "More Essential Shortcuts"
+msgstr "ทางลัดสำคัญเพิ่มเติม"
+
+#: andiora-oobe/assets/andiora-oobe:2420
+msgid "Open File Manager"
+msgstr "เปิด File Manager"
+
+#: andiora-oobe/assets/andiora-oobe:2421
+msgid "Open Terminal"
+msgstr "เปิด Terminal"
+
+#: andiora-oobe/assets/andiora-oobe:2422
+msgid "Task Manager"
+msgstr "ตัวจัดการงาน (Task Manager)"
+
+#: andiora-oobe/assets/andiora-oobe:2423
+msgid "View Clipboard History"
+msgstr "ดูประวัติคลิปบอร์ด"
+
+#: andiora-oobe/assets/andiora-oobe:2424
+msgid "Lock Screen"
+msgstr "ล็อคหน้าจอ"
+
+#: andiora-oobe/assets/andiora-oobe:2425
+msgid "Action Center"
+msgstr "ศูนย์การกระทำ (Action Center)"
+
+#: andiora-oobe/assets/andiora-oobe:2426
+msgid "Notification Center"
+msgstr "ศูนย์แจ้งเตือน (Notification Center)"
+
+#: andiora-oobe/assets/andiora-oobe:2427
+msgid "Toggle Network Stats Display"
+msgstr "เปิด/ปิดการแสดงสถิติเครือข่าย"
+
+#: andiora-oobe/assets/andiora-oobe:2428
+msgid "Switch Between Windows"
+msgstr "สลับระหว่างหน้าต่าง"
+
+#: andiora-oobe/assets/andiora-oobe:2429
+msgid "Close Current Window"
+msgstr "ปิดหน้าต่างปัจจุบัน"
+
+#: andiora-oobe/assets/andiora-oobe:2430
+msgid "Snap Windows"
+msgstr "จัดเรียงหน้าต่าง (Snap Windows)"
+
+#: andiora-oobe/assets/andiora-oobe:2431
+msgid "Switch Virtual Desktop"
+msgstr "สลับเดสก์ท็อปเสมือน"
+
+#: andiora-oobe/assets/andiora-oobe:2432
+msgid "Show Desktop"
+msgstr "แสดงเดสก์ท็อป"
+
+#: andiora-oobe/assets/andiora-oobe:2433
+msgid "System Settings"
+msgstr "การตั้งค่าระบบ"
+
+#: andiora-oobe/assets/andiora-oobe:2434
+msgid "Emoji and Characters"
+msgstr "อิโมจิและอักขระ"
+
+#: andiora-oobe/assets/andiora-oobe:2435
+msgid "Minimize Window"
+msgstr "ย่อหน้าต่าง"
+
+#: andiora-oobe/assets/andiora-oobe:2453
+msgid ""
+"You can view and customize all shortcuts anytime in Settings → Keyboard."
+msgstr "คุณสามารถดูและปรับแต่งทางลัดทั้งหมดได้ทุกเมื่อใน การตั้งค่า → คีย์บอร์ด"
+
+#: andiora-oobe/assets/andiora-oobe:2490
+msgid "In China? Use USTC mirror for App Store!"
+msgstr "อยู่ในประเทศจีนหรือไม่? ใช้เซิร์ฟเวอร์กระจก USTC สำหรับ App Store!"
+
+#: andiora-oobe/assets/andiora-oobe:2496
+msgid ""
+"Flathub access can be slow from China. Switch to the USTC mirror for faster "
+"downloads."
+msgstr ""
+"การเข้าถึง Flathub จากจีนอาจช้า ให้เปลี่ยนไปใช้เซิร์ฟเวอร์กระจก USTC เพื่อดาวน์โหลดได้เร็วขึ้น"
+
+#: andiora-oobe/assets/andiora-oobe:2603
+msgid "✓ Already using Chinese mirror — downloads are fast."
+msgstr "✓ กำลังใช้เซิร์ฟเวอร์กระจกจีนอยู่แล้ว — ดาวน์โหลดได้รวดเร็ว"
+
+#: andiora-oobe/assets/andiora-oobe:2606
+msgid "Switch Back to International"
+msgstr "เปลี่ยนกลับเป็นเซิร์ฟเวอร์สากล"
+
+#: andiora-oobe/assets/andiora-oobe:2609
+msgid "Flathub is using the international server."
+msgstr "Flathub กำลังใช้เซิร์ฟเวอร์สากล"
+
+#: andiora-oobe/assets/andiora-oobe:2612
+msgid "🚀 Switch to USTC Mirror"
+msgstr "🚀 เปลี่ยนไปใช้เซิร์ฟเวอร์กระจก USTC"
+
+#: andiora-oobe/assets/andiora-oobe:2625
+msgid "Testing USTC mirror..."
+msgstr "ทดสอบกระจก USTC..."
+
+#: andiora-oobe/assets/andiora-oobe:2669
+msgid "Switching back..."
+msgstr "กำลังเปลี่ยนกลับ..."
+
+#: andiora-oobe/assets/andiora-oobe:2696
+msgid "✗ Failed: "
+msgstr "✗ ล้มเหลว:"
+
+#: andiora-oobe/assets/andiora-oobe:2699
+msgid "Retry"
+msgstr "ลองอีกครั้ง"
+
+#: andiora-oobe/assets/andiora-oobe:2725
+msgid "Productive From Day One"
+msgstr "มีประสิทธิผลตั้งแต่แรกวัน"
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Essential productivity and entertainment tools, hand-picked for you."
+msgstr "เครื่องมือผลิตผลงานและความบันเทิงที่จำเป็น เลือกสรรมาเพื่อคุณโดยเฉพาะ"
+
+#: andiora-oobe/assets/andiora-oobe:2734
+msgid "Click any app to open its details in the App Store."
+msgstr "คลิกแอปพลิเคชันใดก็ได้เพื่อดูรายละเอียดเพิ่มเติมใน App Store"
+
+#: andiora-oobe/assets/andiora-oobe:2746
+msgid "WeChat"
+msgstr "WeChat"
+
+#: andiora-oobe/assets/andiora-oobe:2747
+msgid "Most popular messaging app in China"
+msgstr "แอปแชทที่นิยมที่สุดในจีน"
+
+#: andiora-oobe/assets/andiora-oobe:2748
+msgid "QQ"
+msgstr "QQ"
+
+#: andiora-oobe/assets/andiora-oobe:2749
+msgid "Tencent QQ instant messenger"
+msgstr "Tencent QQ โปรแกรมส่งข้อความทันที"
+
+#: andiora-oobe/assets/andiora-oobe:2750
+msgid "WPS Office"
+msgstr "WPS Office"
+
+#: andiora-oobe/assets/andiora-oobe:2751
+msgid "Best office suite for Chinese documents"
+msgstr "ชุดโปรแกรมสำนักงานที่ดีที่สุดสำหรับเอกสารภาษาจีน"
+
+#: andiora-oobe/assets/andiora-oobe:2756
+msgid "Google Chrome"
+msgstr "Google Chrome"
+
+#: andiora-oobe/assets/andiora-oobe:2757
+msgid "The world's most popular web browser"
+msgstr "เบราว์เซอร์ยอดนิยมที่สุดในโลก"
+
+#: andiora-oobe/assets/andiora-oobe:2758
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+#: andiora-oobe/assets/andiora-oobe:2759
+msgid "Code editing. Redefined."
+msgstr "การแก้ไขโค้ด นิยามใหม่"
+
+#: andiora-oobe/assets/andiora-oobe:2760
+msgid "Steam"
+msgstr "Steam"
+
+#: andiora-oobe/assets/andiora-oobe:2761
+msgid "Your portal to the gaming universe"
+msgstr "ประตูสู่จักรวาลเกมมิ่งของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:2762
+msgid "Discord"
+msgstr "Discord"
+
+#: andiora-oobe/assets/andiora-oobe:2763
+msgid "Chat, voice, and video for communities"
+msgstr "แชท เสียง และวิดีโอสำหรับชุมชน"
+
+#: andiora-oobe/assets/andiora-oobe:2764
+msgid "Spotify"
+msgstr "Spotify"
+
+#: andiora-oobe/assets/andiora-oobe:2765
+msgid "Music for everyone"
+msgstr "ดนตรีสำหรับทุกคน"
+
+#: andiora-oobe/assets/andiora-oobe:2766
+msgid "OnlyOffice"
+msgstr "OnlyOffice"
+
+#: andiora-oobe/assets/andiora-oobe:2767
+msgid "Best Microsoft Office-compatible suite"
+msgstr "ชุดโปรแกรมที่เข้ากันได้กับ Microsoft Office ที่ดีที่สุด"
+
+#: andiora-oobe/assets/andiora-oobe:2768
+msgid "Thunderbird"
+msgstr "Thunderbird"
+
+#: andiora-oobe/assets/andiora-oobe:2769
+msgid "Secure, fast, and easy email client"
+msgstr "ไคลเอนต์อีเมลที่ปลอดภัย รวดเร็ว และใช้งานง่าย"
+
+#: andiora-oobe/assets/andiora-oobe:2770
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: andiora-oobe/assets/andiora-oobe:2771
+msgid "Sync and collaborate on your desktop or laptop"
+msgstr "ซิงค์และทำงานร่วมกันบนเดสก์ท็อปหรือแล็ปท็อปของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:2772
+msgid "Blender"
+msgstr "Blender"
+
+#: andiora-oobe/assets/andiora-oobe:2773
+msgid "Professional 3D creation suite"
+msgstr "ชุดเครื่องมือสร้างงาน 3D แบบมืออาชีพ"
+
+#: andiora-oobe/assets/andiora-oobe:2774
+msgid "GNOME Boxes"
+msgstr "GNOME Boxes"
+
+#: andiora-oobe/assets/andiora-oobe:2775
+msgid "Virtualization made simple"
+msgstr "การสร้างระบบเสมือนที่เรียบง่าย"
+
+#: andiora-oobe/assets/andiora-oobe:2776
+msgid "VLC"
+msgstr "VLC"
+
+#: andiora-oobe/assets/andiora-oobe:2777
+msgid "The versatile media player that plays everything"
+msgstr "โปรแกรมเล่นสื่ออเนกประสงค์ที่เล่นได้ทุกอย่าง"
+
+#: andiora-oobe/assets/andiora-oobe:2778
+msgid "Krita"
+msgstr "Krita"
+
+#: andiora-oobe/assets/andiora-oobe:2779
+msgid "Professional free and open source painting program"
+msgstr "โปรแกรมวาดภาพฟรีและโอเพนซอร์สสำหรับงานระดับมืออาชีพ"
+
+#: andiora-oobe/assets/andiora-oobe:2780
+msgid "OBS Studio"
+msgstr "OBS Studio"
+
+#: andiora-oobe/assets/andiora-oobe:2781
+msgid "Free and open source software for video recording and live streaming"
+msgstr "ซอฟต์แวร์ฟรีและโอเพนซอร์สสำหรับการบันทึกวิดีโอและไลฟ์สตรีม"
+
+#: andiora-oobe/assets/andiora-oobe:2843
+msgid "Installed"
+msgstr "ติดตั้งแล้ว"
+
+#: andiora-oobe/assets/andiora-oobe:2845
+msgid "Click to open in App Store"
+msgstr "คลิกเพื่อเปิดใน App Store"
+
+#: andiora-oobe/assets/andiora-oobe:2853
+msgid "Opening…"
+msgstr "กำลังเปิด…"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "Pro tip: You can explore these apps in the App Store,"
+msgstr "เคล็ดลับ: คุณสามารถสำรวจแอปเหล่านี้ใน App Store ได้"
+
+#: andiora-oobe/assets/andiora-oobe:2871
+msgid "and continue with the system setup while they download."
+msgstr "และดำเนินการต่อกับการตั้งค่าระบบในขณะที่ดาวน์โหลดอยู่"
+
+#: andiora-oobe/assets/andiora-oobe:2881
+msgid "  Browse Store  "
+msgstr "เยี่ยมชมร้านค้า"
+
+#: andiora-oobe/assets/andiora-oobe:2913
+msgid "Connect & Protect Your Data"
+msgstr "เชื่อมต่อ & ปกป้องข้อมูลของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:2937
+msgid "Online Accounts"
+msgstr "บัญชีออนไลน์"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "Connect your Google, Microsoft,"
+msgstr "เชื่อมต่อ Google, Microsoft ของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:2943
+msgid "or Nextcloud accounts to sync"
+msgstr "หรือบัญชี Nextcloud เพื่อซิงค์"
+
+#: andiora-oobe/assets/andiora-oobe:2944
+msgid "files, contacts, and calendar."
+msgstr "ไฟล์, ผู้ติดต่อ, และปฏิทิน"
+
+#: andiora-oobe/assets/andiora-oobe:2954
+msgid "Connect Accounts"
+msgstr "เชื่อมต่อบัญชี"
+
+#: andiora-oobe/assets/andiora-oobe:3024
+msgid "Your Data. Your Rules. Period."
+msgstr "ข้อมูลของคุณ กฎของคุณ จบสิ้น"
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "Andiora disables all system-level telemetry by default."
+msgstr "Andiora ปิดการใช้งาน telemetry ระดับระบบทั้งหมดโดยค่าเริ่มต้น"
+
+#: andiora-oobe/assets/andiora-oobe:3033
+msgid "We do not collect your usage habits."
+msgstr "เราไม่เก็บรวบรวมพฤติกรรมการใช้งานของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "We do not upload your search history."
+msgstr "เราไม่อัปโหลดประวัติการค้นหาของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:3034
+msgid "There are no pervasive advertisements."
+msgstr "ไม่มีโฆษณาที่รุกล้ำ"
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "In an era ruled by algorithms and surveillance,"
+msgstr "ในยุคที่ควบคุมโดยอัลกอริทึมและการสอดแนม"
+
+#: andiora-oobe/assets/andiora-oobe:3045
+msgid "this is our firmest commitment to you."
+msgstr "นี่คือคำมั่นสัญญาที่หนักแน่นที่สุดของเราต่อคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:3063
+msgid "✓ Zero telemetry — your activity is yours alone"
+msgstr "✓ ไม่มีเทเลเมทรี — กิจกรรมของคุณเป็นของคุณเพียงผู้เดียว"
+
+#: andiora-oobe/assets/andiora-oobe:3064
+msgid "✓ No data collection — your files stay on your device"
+msgstr "✓ ไม่มีการเก็บข้อมูล — ไฟล์ของคุณยังคงอยู่บนอุปกรณ์ของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:3065
+msgid "✓ No ads in your operating system"
+msgstr "✓ ไม่มีโฆษณาในระบบปฏิบัติการของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:3066
+msgid "✓ Full root access — you truly own your machine"
+msgstr "✓ การเข้าถึง root เต็มรูปแบบ — คุณเป็นเจ้าของเครื่องจักรอย่างแท้จริง"
+
+#: andiora-oobe/assets/andiora-oobe:3067
+msgid "✓ UFW firewall — your digital perimeter, defended"
+msgstr "✓ UFW ไฟร์วอลล์ — ชายแดนดิจิทัลของคุณ ที่ได้รับการป้องกันอย่างแน่นหนา"
+
+#: andiora-oobe/assets/andiora-oobe:3068
+msgid "✓ Open source — the code is yours to inspect and modify"
+msgstr "✓ โอเพนซอร์ส — โค้ดนี้เป็นของคุณ สามารถตรวจสอบและแก้ไขได้"
+
+#: andiora-oobe/assets/andiora-oobe:3109
+msgid "Welcome to the Andiora Community"
+msgstr "ยินดีต้อนรับสู่ชุมชน Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3118
+msgid "Whether you're a Windows refugee seeking shelter,"
+msgstr "ไม่ว่าคุณจะเป็นผู้ลี้ภัยจาก Windows ที่กำลังมองหาที่หลบภัย"
+
+#: andiora-oobe/assets/andiora-oobe:3119
+msgid "or a hardcore geek developer — you'll find your tribe here."
+msgstr "หรือเป็นนักพัฒนาเก๋าเกมระดับฮาร์ดคอร์ — คุณจะได้พบชุมชนของคุณที่นี่"
+
+#: andiora-oobe/assets/andiora-oobe:3120
+msgid "Found a bug? Want a feature? Tell us anytime."
+msgstr "พบข้อผิดพลาด? ต้องการฟีเจอร์ใหม่? บอกเรา kapan saja ได้เลย"
+
+#: andiora-oobe/assets/andiora-oobe:3132
+msgid "Official Documentation"
+msgstr "เอกสารทางการ"
+
+#: andiora-oobe/assets/andiora-oobe:3133
+msgid "Comprehensive guides and troubleshooting — covers everything you need"
+msgstr "คู่มือครบวงจรและการแก้ปัญหา — ครอบคลุมทุกสิ่งที่คุณต้องการ"
+
+#: andiora-oobe/assets/andiora-oobe:3135
+msgid "Community Forums"
+msgstr "ฟอรัมชุมชน"
+
+#: andiora-oobe/assets/andiora-oobe:3136
+msgid "Discuss with other Andiora users and developers"
+msgstr "พูดคุยกับผู้ใช้และนักพัฒนา Andiora รายอื่น"
+
+#: andiora-oobe/assets/andiora-oobe:3138
+msgid "Discord Server"
+msgstr "เซิร์ฟเวอร์ Discord"
+
+#: andiora-oobe/assets/andiora-oobe:3139
+msgid "Join our official Discord server for real-time chat and support"
+msgstr "เข้าร่วมเซิร์ฟเวอร์ Discord ทางการของเราเพื่อแชทและรับความช่วยเหลือแบบเรียลไทม์"
+
+#: andiora-oobe/assets/andiora-oobe:3141
+msgid "Report an Issue"
+msgstr "รายงานปัญหา"
+
+#: andiora-oobe/assets/andiora-oobe:3142
+msgid "Found a bug or have a feature request? Let us know!"
+msgstr "เจอข้อผิดพลาดหรือมีข้อเสนอแนะฟีเจอร์? แจ้งเราได้เลย!"
+
+#: andiora-oobe/assets/andiora-oobe:3144
+msgid "Buy Andiora Enterprise Edition"
+msgstr "ซื้อ Andiora Enterprise Edition"
+
+#: andiora-oobe/assets/andiora-oobe:3145
+msgid ""
+"Get enterprise-grade support and advanced features for your organization"
+msgstr "รับระดับการสนับสนุนระดับองค์กรและฟีเจอร์ขั้นสูงสำหรับองค์กรของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:3147
+msgid "Ask Ubuntu"
+msgstr "Ask Ubuntu"
+
+#: andiora-oobe/assets/andiora-oobe:3148
+msgid "Almost all Ubuntu solutions apply directly to Andiora"
+msgstr "แนวทางแก้ไขของ Ubuntu เกือบทั้งหมดสามารถใช้ได้โดยตรงกับ Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3150
+msgid "Source Code"
+msgstr "ซอร์สโค้ด"
+
+#: andiora-oobe/assets/andiora-oobe:3151
+msgid "Andiora is open-source. Explore the code and contribute!"
+msgstr "Andiora เป็นโอเพนซอร์ส สำรวจโค้ดและมีส่วนร่วมได้!"
+
+#: andiora-oobe/assets/andiora-oobe:3163
+msgid "Open"
+msgstr "เปิด"
+
+#: andiora-oobe/assets/andiora-oobe:3173
+msgid "💡 Andiora is compatible with Ubuntu's entire ecosystem."
+msgstr "💡 Andiora รองรับระบบนิเวศทั้งหมดของ Ubuntu"
+
+#: andiora-oobe/assets/andiora-oobe:3174
+msgid "You can rely on Ubuntu's vast documentation and expertise."
+msgstr "คุณสามารถพึ่งพาเอกสารประกอบและองค์ความรู้อันกว้างใหญ่ของ Ubuntu ได้"
+
+#: andiora-oobe/assets/andiora-oobe:3207
+msgid "All Set."
+msgstr "เสร็จสิ้นทุกขั้นตอนแล้ว"
+
+#: andiora-oobe/assets/andiora-oobe:3216
+msgid "  Start Your Andiora Journey  "
+msgstr "เริ่มต้นการเดินทางกับ Andiora ของคุณ"
+
+#: andiora-oobe/assets/andiora-oobe:3250
+msgid "Andiora Setup"
+msgstr "การตั้งค่า Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3253
+msgid "Andiora Welcome Center"
+msgstr "ศูนย์ต้อนรับ Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3305
+msgid "← Back"
+msgstr "← กลับ"
+
+#: andiora-oobe/assets/andiora-oobe:3314
+#: andiora-oobe/assets/andiora-oobe:3433
+msgid "Next →"
+msgstr "ถัดไป →"
+
+#: andiora-oobe/assets/andiora-oobe:3431
+msgid "Finish"
+msgstr "เสร็จสิ้น"
+
+#: andiora-oobe/assets/andiora-oobe:3498
+msgid "Andiora Welcome"
+msgstr "ยินดีต้อนรับสู่ Andiora"
+
+#: andiora-oobe/assets/andiora-oobe:3500
+msgid "Andiora Team"
+msgstr "ทีม Andiora"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:75
+msgid "Secure Boot Configuration"
+msgstr "การกำหนดค่า Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:83
+msgid ""
+"Secure Boot is a motherboard security standard that ensures only trusted "
+"software loads at startup."
+msgstr ""
+"Secure Boot "
+"เป็นมาตรฐานความปลอดภัยของเมนบอร์ดที่รับประกันว่าเฉพาะซอฟต์แวร์ที่ได้รับอนุญาตเท่านั้นที่จะโหลดในขณะเริ่มต้นเครื่อง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:86
+msgid "It protects your system from low-level malware and rootkits."
+msgstr "มันปกป้องระบบของคุณจากมัลแวร์ระดับต่ำและรูทคิต"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:95
+msgid "System Trust Status"
+msgstr "สถานะความไว้วางใจของระบบ"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:132
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:274
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:406
+msgid "Create & Enroll Certificate"
+msgstr "สร้างและลงทะเบียนใบรับรอง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:138
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:284
+msgid "Repair Module Signatures"
+msgstr "ซ่อมแซมลายเซ็นโมดูล"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:146
+msgid "Note: Use password <b>123456</b> after rebooting."
+msgstr "หมายเหตุ: ใช้รหัสผ่าน <b>123456</b> หลังจาก รีสตาร์ทเครื่อง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:151
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:392
+msgid "Reboot & Configure Secure Boot"
+msgstr "รีสตาร์ท & กำหนดค่า Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:159
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:358
+msgid "  Check Again  "
+msgstr "  ตรวจสอบอีกครั้ง  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:185
+msgid "Motherboard hardware protection is active"
+msgstr "การป้องกันฮาร์ดแวร์ของเมนบอร์ดกำลังทำงานอยู่"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:188
+msgid "Firmware does not support Secure Boot"
+msgstr "เฟิร์มแวร์ไม่รองรับ Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:191
+msgid "Secure Boot state could not be determined"
+msgstr "ไม่สามารถระบุสถานะ Secure Boot ได้"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:194
+msgid "Secure Boot is disabled"
+msgstr "Secure Boot ถูกปิดใช้งาน"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:200
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:202
+msgid "Not required without firmware enforcement"
+msgstr "ไม่จำเป็นหากไม่มีการบังคับใช้เฟิร์มแวร์"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:206
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:210
+msgid "Not checked because Secure Boot state is unknown"
+msgstr "ไม่ได้ตรวจสอบเนื่องจากไม่ทราบสถานะ Secure Boot"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:215
+msgid "Certificate generated locally"
+msgstr "สร้างใบรับรองภายในเครื่อง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:217
+msgid "Missing local certificate"
+msgstr "ขาดใบรับรองในเครื่อง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:230
+msgid "Certificate is trusted by motherboard"
+msgstr "ใบรับรองได้รับความไว้วางใจจากเมนบอร์ด"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:234
+msgid "Pending enrollment in blue screen (MOKManager)"
+msgstr "\\รกำลังรอการลงทะเบียนในหน้าจอสีน้ำเงิน (MOKManager)"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:239
+msgid "Certificate is not trusted by motherboard"
+msgstr "เมนบอร์ดไม่น่าเชื่อถือใบรับรอง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:245
+msgid "Kernel signature enforcement is inactive"
+msgstr "การบังคับใช้ลายเซ็นเคอร์เนลไม่ได้ใช้งาน"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:248
+msgid "Driver trust cannot be verified"
+msgstr "ไม่สามารถตรวจสอบความน่าเชื่อถือของผู้ขับขี่ได้"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:252
+msgid ""
+"Secure Boot trust is ready. No third-party kernel modules are currently "
+"installed."
+msgstr "ความไว้วางใจ Secure Boot พร้อมแล้ว ไม่มีการติดตั้งโมดูลเคอร์เนลของบริษัทอื่นในปัจจุบัน"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:256
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:447
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:455
+msgid "Drivers are signed and ready to load"
+msgstr "ไดรเวอร์ลงนามเรียบร้อยแล้วและพร้อมโหลด"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:260
+msgid "Drivers are trusted, but automatic DKMS signing needs repair"
+msgstr "ไดรเวอร์เชื่อถือได้ แต่การเซ็นชื่อ DKMS อัตโนมัติจำเป็นต้องได้รับการซ่อมแซม"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:264
+msgid "No signed third-party drivers detected"
+msgstr "ไม่พบไดรเวอร์บุคคลที่สามที่มีการลงนาม"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:267
+msgid "Some DKMS modules need to be re-signed"
+msgstr "โมดูล DKMS บางโมดูลจำเป็นต้องลงนามใหม่"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:272
+msgid "Enroll Existing Certificate"
+msgstr "ลงทะเบียนใบรับรองที่มีอยู่"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:282
+msgid "Repair Automatic DKMS Signing"
+msgstr "ซ่อมแซมการลงนาม DKMS อัตโนมัติ"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:299
+msgid "This firmware does not provide Secure Boot. No certificate is required."
+msgstr "เฟิร์มแวร์นี้ไม่มี Secure Boot ไม่จำเป็นต้องมีใบรับรอง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:306
+msgid ""
+"Secure Boot status could not be read. Driver trust operations are blocked "
+"until detection succeeds."
+msgstr ""
+"ไม่สามารถอ่านสถานะ Secure Boot ได้ "
+"การดำเนินการที่เชื่อถือได้ของไดรเวอร์จะถูกบล็อกจนกว่าการตรวจจับจะสำเร็จ"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:311
+msgid "No certificate is required while Secure Boot is disabled."
+msgstr "ไม่จำเป็นต้องมีใบรับรองในขณะที่ Secure Boot ถูกปิดใช้งาน"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:314
+msgid "System Trust Established. Third-party drivers will load securely."
+msgstr "ความไว้วางใจของระบบได้รับการจัดตั้งแล้ว ไดรเวอร์บุคคลที่สามจะโหลดอย่างปลอดภัย"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:318
+msgid "The certificate is enrolled and current drivers are trusted."
+msgstr "ลงทะเบียนใบรับรองแล้วและไดรเวอร์ปัจจุบันเชื่อถือได้"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:320
+msgid "Repair automatic DKMS signing before future driver updates."
+msgstr "ซ่อมแซมการเซ็นชื่อ DKMS อัตโนมัติก่อนการอัปเดตไดรเวอร์ในอนาคต"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:325
+msgid "The certificate is enrolled, but some modules are not signed with it."
+msgstr "ลงทะเบียนใบรับรองแล้ว แต่บางโมดูลไม่ได้ลงนามด้วย"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:330
+msgid "A certificate is waiting for enrollment."
+msgstr "ใบรับรองกำลังรอการลงทะเบียน"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:332
+msgid "Restart and enter password 123456 in MOKManager."
+msgstr "รีสตาร์ทและป้อนรหัสผ่าน 123456 ใน MOKManager"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:337
+msgid "The local trust certificate is not yet enrolled."
+msgstr "ใบรับรองความน่าเชื่อถือในเครื่องยังไม่ได้ลงทะเบียน"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:339
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:346
+msgid "You must configure this to use third-party drivers like NVIDIA."
+msgstr "คุณต้องกำหนดค่าสิ่งนี้เพื่อใช้ไดรเวอร์บุคคลที่สาม เช่น NVIDIA"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:344
+msgid "The local trust certificate is missing."
+msgstr "ใบรับรองความน่าเชื่อถือในเครื่องหายไป"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:362
+msgid "  Checking...  "
+msgstr "  กำลังตรวจสอบ...  "
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:368
+msgid "Reboot Required"
+msgstr "จำเป็นต้องรีสตาร์ท"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:369
+msgid "Please trust the certificate upon reboot using password 123456."
+msgstr "กรุณาไว้วางใจใบรับรองเมื่อรีสตาร์ทโดยใช้รหัสผ่าน 123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:371
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:372
+msgid "Reboot"
+msgstr "รีสตาร์ท"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:380
+msgid "Success! When you reboot, a blue screen will appear."
+msgstr "สำเร็จ! เมื่อคุณรีสตาร์ท หน้าจอสีน้ำเงินจะปรากฏขึ้น"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:384
+msgid "Select 'Enroll MOK' → 'Continue' → 'Yes', and enter password: 123456"
+msgstr "เลือก 'Enroll MOK' → 'Continue' → 'Yes' และป้อนรหัสผ่าน: 123456"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:388
+msgid "Certificate Created"
+msgstr "สร้างใบรับรองแล้ว"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:391
+msgid "Later"
+msgstr "ต่อมา"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:420
+msgid "Secure Boot Trust Not Required"
+msgstr "Secure Boot ไม่จำเป็นต้องเชื่อถือ"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:421
+msgid "Firmware signature enforcement is not active."
+msgstr "การบังคับใช้ลายเซ็นเฟิร์มแวร์ไม่ทำงาน"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:423
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:441
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:449
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:457
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:473
+msgid "OK"
+msgstr "ตกลง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:431
+msgid ""
+"The certificate is ready, but one or more DKMS modules could not be rebuilt. "
+"You can repair them after enrollment."
+msgstr ""
+"ใบรับรองพร้อมแล้ว แต่โมดูล DKMS อย่างน้อยหนึ่งโมดูลไม่สามารถสร้างขึ้นใหม่ได้ "
+"คุณสามารถซ่อมแซมได้หลังจากการลงทะเบียน"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:439
+msgid "Configuration needs attention"
+msgstr "การกำหนดค่าจำเป็นต้องได้รับการดูแล"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:446
+msgid "System Trust Established"
+msgstr "ก่อตั้งความน่าเชื่อถือของระบบแล้ว"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:454
+msgid "Driver Signature Trusted"
+msgstr "ลายเซ็นไดรเวอร์ได้รับการไว้วางใจ"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:470
+msgid "Configuration failed. Please try again."
+msgstr "การกำหนดค่าล้มเหลว กรุณาลองใหม่อีกครั้ง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:471
+msgid "Please check the advanced output."
+msgstr "โปรดตรวจสอบเอาต์พุตขั้นสูง"
+
+#: andiora-secureboot-toolkit/src/andiora_secureboot/ui.py:482
+msgid "Generating & Signing..."
+msgstr "กำลังสร้าง & ลงนาม..."
+
+#~ msgid "Unleash Your Graphics Hardware"
+#~ msgstr "ปลดปล่อยศักยภาพฮาร์ดแวร์กราฟิกของคุณ"
+
+#, python-brace-format
+#~ msgid "NVIDIA proprietary driver is already installed. (Version: {})"
+#~ msgstr "ไดรเวอร์แบบ proprietary ของ NVIDIA ถูกติดตั้งไว้แล้ว (เวอร์ชัน: {})"
+
+#~ msgid "✗ Installation encountered an issue."
+#~ msgstr "✗ การติดตั้งพบปัญหา"
+
+#~ msgid "An NVIDIA dedicated graphics card was detected in your system."
+#~ msgstr "ตรวจพบการ์ดจอ NVIDIA แบบแยกในระบบของคุณ"
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop"
+#~ msgstr "เพื่อความลื่นไหลสูงสุดในการเล่นเกม การเรนเดอร์ 3D และเดสก์ท็อปที่มีความถี่เฟรมสูง"
+
+#~ msgid "experiences, we recommend installing the proprietary driver."
+#~ msgstr "ประสบการณ์, เราขอแนะนำให้อัปเดตไดรเวอร์แบบปิด (proprietary)"
+
+#~ msgid "  Check for Driver Updates  "
+#~ msgstr "ตรวจสอบอัปเดตไดรเวอร์"
+
+#~ msgid "Repair & Reinstall"
+#~ msgstr "ซ่อมแซมและติดตั้งใหม่"
+
+#~ msgid "  One-Click NVIDIA Driver Install  "
+#~ msgstr "ติดตั้งไดรเวอร์ NVIDIA ด้วยคลิกเดียว"
+
+#~ msgid "Installing NVIDIA driver…"
+#~ msgstr "กำลังติดตั้งไดรเวอร์ NVIDIA…"
+
+#~ msgid "This may take several minutes."
+#~ msgstr "ขั้นนี้อาจใช้เวลาหลายนาที"
+
+#~ msgid "✓ Driver installed successfully!"
+#~ msgstr "✓ ติดตั้งไดรเวอร์สำเร็จแล้ว!"
+
+#~ msgid "You can install drivers later from Settings."
+#~ msgstr "คุณสามารถติดตั้งไดรเวอร์ได้ภายหลังจากหน้า Settings"
+
+#~ msgid "Xbox Controller Support"
+#~ msgstr "การรองรับคอนโทรลเลอร์ Xbox"
+
+#~ msgid "Xbox controller driver (xpadneo) is already installed."
+#~ msgstr "ไดรเวอร์คอนโทรลเลอร์ Xbox (xpadneo) ติดตั้งเรียบร้อยแล้ว"
+
+#~ msgid ""
+#~ "Enjoy seamless Xbox controller support with rumble and accurate inputs."
+#~ msgstr "รองรับคอนโทรลเลอร์ Xbox แบบไร้รอยต่อ พร้อมระบบสั่นและการป้อนข้อมูลที่แม่นยำ"
+
+#~ msgid "Andiora provides native support for Xbox controllers via Bluetooth."
+#~ msgstr "Andiora รองรับคอนโทรลเลอร์ Xbox แบบเนทีฟผ่านบลูทูธ"
+
+#~ msgid "The advanced xpadneo driver is already set up and ready for gaming."
+#~ msgstr "ไดรเวอร์ xpadneo ขั้นสูงถูกตั้งค่าไว้แล้วและพร้อมสำหรับการเล่นเกม"
+
+#~ msgid ""
+#~ "For advanced features like rumble and accurate mapping, we recommend "
+#~ "installing the xpadneo driver."
+#~ msgstr ""
+#~ "สำหรับฟีเจอร์ขั้นสูงเช่นแรงสั่นสะเทือนและการแมปที่แม่นยำ เราขอแนะนำให้ติดตั้งไดรเวอร์ "
+#~ "xpadneo"
+
+#~ msgid "Xbox Controller Driver Installed"
+#~ msgstr "ไดรเวอร์คอนโทรลเลอร์ Xbox ถูกติดตั้งแล้ว"
+
+#~ msgid "The xpadneo driver is currently installed"
+#~ msgstr "ไดรเวอร์ xpadneo กำลังติดตั้งอยู่"
+
+#~ msgid "The driver is not installed"
+#~ msgstr "ไม่ได้ติดตั้งไดรเวอร์"
+
+#~ msgid "Driver not installed, signature missing"
+#~ msgstr "ไม่มีการติดตั้งไดรเกอร์ ลายเซ็นหายไป"
+
+#~ msgid "Kernel module"
+#~ msgstr "โมดูลเคอร์เนล"
+
+#~ msgid "Not detected"
+#~ msgstr "ตรวจไม่พบ"
+
+#~ msgid "Driver is NOT signed"
+#~ msgstr "ไดรเวอร์ไม่ได้ลงนาม"
+
+#~ msgid "Signed with current trusted certificate"
+#~ msgstr "ลงนามด้วยใบรับรองที่ไว้วางใจในปัจจุบัน"
+
+#~ msgid "Signed with current certificate, but not enrolled"
+#~ msgstr "ลงนามด้วยใบรับรองปัจจุบัน แต่ยังไม่ได้ลงทะเบียน"
+
+#~ msgid "Signed with an unknown or outdated certificate"
+#~ msgstr "ลงนามด้วยใบรับรองที่ไม่รู้จักหรือล้าสมัย"
+
+#~ msgid "Controller Status"
+#~ msgstr "สถานะคอนโทรลเลอร์"
+
+#~ msgid "Driver loaded and active. Ready to play!"
+#~ msgstr "ไดรเวอร์ถูกโหลดและใช้งานอยู่ พร้อมใช้งานแล้ว!"
+
+#~ msgid "Driver standing by. Waiting for controller connection..."
+#~ msgstr "ไดรเวอร์กำลังรออยู่ กำลังรอการเชื่อมต่อคอนโทรลเลอร์..."
+
+#~ msgid "Driver cannot load due to missing signature trust"
+#~ msgstr "ไม่สามารถโหลดไดรเวอร์ได้เนื่องจากขาดความไว้วางใจในลายเซ็น"
+
+#~ msgid "Pair your controller"
+#~ msgstr "จับคู่คอนโทรลเลอร์ของคุณ"
+
+#~ msgid "Test your controller"
+#~ msgstr "ทดสอบคอนโทรลเลอร์ของคุณ"
+
+#~ msgid "  Install Xbox Driver  "
+#~ msgstr "ติดตั้งไดรเวอร์ Xbox"
+
+#~ msgid ""
+#~ "⚠️ The driver signature does not match your system certificate. Click Fix "
+#~ "& Reinstall to repair the driver."
+#~ msgstr ""
+#~ "⚠️ ลายเซ็นไดรเวอร์ไม่ตรงกับใบรับรองระบบของคุณ คลิก แก้ไข & ติดตั้งใหม่ เพื่อซ่อมแซมไดรเวอร์"
+
+#~ msgid "Installing Xbox controller driver…"
+#~ msgstr "กำลังติดตั้งไดรเวอร์คอนโทรลเลอร์ Xbox…"
+
+#~ msgid "This may take a minute."
+#~ msgstr "ขั้นตอนนี้ใช้เวลาหนึ่งนาที"
+
+#~ msgid "Repairing driver signature…"
+#~ msgstr "กำลังซ่อมแซมลายเซ็นไดรเวอร์…"
+
+#~ msgid "A reboot is recommended to apply changes."
+#~ msgstr "แนะนำให้รีสตาร์ทระบบเพื่อให้นำการเปลี่ยนแปลงไปใช้งาน"
+
+#~ msgid "  Fix & Reinstall Driver  "
+#~ msgstr "ติดตั้งไดรเวอร์ Xbox"
+
+#~ msgid "(Reboot recommended)"
+#~ msgstr "(แนะนำการรีสตาร์ท)"
+
+#~ msgid "Cannot sign drivers without a certificate"
+#~ msgstr "ไม่สามารถลงนามในไดรเวอร์ได้หากไม่มีใบรับรอง"
+
+#~ msgid ""
+#~ "Enable low-level network protection — silently blocks all unauthorized "
+#~ "inbound connections."
+#~ msgstr ""
+#~ "เปิดใช้งานการป้องกันเครือข่ายระดับล่าง — "
+#~ "บล็อกการเชื่อมต่อขาเข้าที่ไม่ได้รับอนุญาตทั้งหมดอย่างเงียบๆ"
+
+#~ msgid "Firewall"
+#~ msgstr "ไฟร์วอลล์"
+
+#~ msgid "Local MOK Certificate"
+#~ msgstr "ใบรับรอง MOK ในเครื่อง"
+
+#~ msgid ""
+#~ "Please configure Secure Boot in the previous step before installing this "
+#~ "driver."
+#~ msgstr "โปรดรีสตาร์ทเครื่องเพื่อลงทะเบียนใบรับรองก่อนติดตั้งไดรเวอร์นี้"
+
+#~ msgid ""
+#~ "Please reboot to enroll the certificate before installing this driver."
+#~ msgstr "โปรดรีสตาร์ทเครื่องเพื่อลงทะเบียนใบรับรองก่อนติดตั้งไดรเวอร์นี้"
+
+#~ msgid "Scanning for installed drivers..."
+#~ msgstr "กำลังสแกนหาไดรเวอร์ที่ติดตั้งไว้..."
+
+#~ msgid "Secure Boot Enabled"
+#~ msgstr "เปิดใช้งาน Secure Boot แล้ว"
+
+#~ msgid "The local trust certificate is missing or not yet enrolled."
+#~ msgstr "ใบรับรองความไว้วางใจในเครื่องขาดหายหรือไม่ได้รับการลงทะเบียน"
+
+#~ msgid "Third-party Drivers"
+#~ msgstr "ไดรเวอร์บุคคลที่สาม"
+
+#~ msgid "UEFI Firmware Trust"
+#~ msgstr "ความไว้วางใจเฟิร์มแวร์ UEFI"
+
+#~ msgid ""
+#~ "⚠️ Secure Boot is enabled but the custom certificate is not yet enrolled."
+#~ msgstr "⚠️ Secure Boot เปิดใช้งาน แต่ใบรับรองแบบกำหนดเองยังไม่ได้รับการลงทะเบียน"
+
+#~ msgid "✓ Xbox controller driver installed successfully!"
+#~ msgstr "✓ ติดตั้งไดรเวอร์คอนโทรลเลอร์ Xbox สำเร็จแล้ว!"
+
+#~ msgid "✗ Repair failed."
+#~ msgstr "✗ การติดตั้งล้มเหลว"
+
+#~ msgid "⚡ The following apps are provided by the Spark Store community."
+#~ msgstr "⚡ แอปพลิเคชันต่อไปนี้มีให้โดยชุมชน Spark Store"
+
+#~ msgid "Great for connecting to local services."
+#~ msgstr "เหมาะสำหรับการเชื่อมต่อกับบริการภายในเครือข่ายท้องถิ่น"
+
+#~ msgid "Spark Store"
+#~ msgstr "Spark Store"
+
+#~ msgid "Community app store for Chinese Linux users"
+#~ msgstr "ร้านแอปชุมชนสำหรับผู้ใช้ Linux ชาวจีน"
+
+#~ msgid "Note: These apps link to their official or community download pages."
+#~ msgstr "หมายเหตุ: แอปพลิเคชันเหล่านี้ลิงก์ไปยังหน้าดาวน์โหลดทางการหรือชุมชนของพวกเขา"
+
+#~ msgid " Andiora is not affiliated with these vendors."
+#~ msgstr "Andiora ไม่มีความเกี่ยวข้องกับผู้ขายเหล่านี้"
+
+#~ msgid ""
+#~ "Andiora is ready. Just a few steps to shape it\n"
+#~ "into the perfect system tailored to your habits."
+#~ msgstr ""
+#~ "Andiora พร้อมใช้งานแล้ว "
+#~ "เหลือเพียงขั้นตอนเล็กน้อยในการปรับแต่งให้กลายเป็นระบบที่สมบูรณ์แบบตามนิสัยของคุณ"
+
+#~ msgid "=== Testing mirror speeds ===\n"
+#~ msgstr "=== กำลังทดสอบความเร็วของตัวสะท้อนข้อมูล ==="
+
+#~ msgid ""
+#~ "\n"
+#~ "No mirrors reachable.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "ไม่พบตัวสะท้อนข้อมูลที่เชื่อมต่อได้.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Applying mirror switch ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== กำลังดำเนินการสลับ mirror ===\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "✓ Mirror switched and system updated.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "✓ สลับ mirror และอัปเดตระบบเรียบร้อยแล้ว。\n"
+
+#~ msgid ""
+#~ "For ultimate smoothness in gaming, 3D rendering, and high-framerate "
+#~ "desktop\n"
+#~ "experiences, we recommend installing the proprietary driver."
+#~ msgstr ""
+#~ "เพื่อประสบการณ์ที่ลื่นไหลที่สุดในการเล่นเกม, เรนเดอร์ 3D "
+#~ "และการใช้งานเดสก์ท็อปที่อัตราเฟรมสูง, เราแนะนำให้ติดตั้งไดรเวอร์แบบ proprietary"
+
+#~ msgid ""
+#~ "Installing NVIDIA driver…\n"
+#~ "This may take several minutes."
+#~ msgstr ""
+#~ "กำลังติดตั้งไดรเวอร์ NVIDIA…\n"
+#~ "อาจใช้เวลาหลายนาที"
+
+#~ msgid ""
+#~ "✗ Installation encountered an issue.\n"
+#~ "You can install drivers later from Settings."
+#~ msgstr ""
+#~ "✗ การติดตั้งเกิดปัญหาขึ้น\n"
+#~ "คุณสามารถติดตั้งไดรเวอร์ได้ในภายหลังจากเมนูตั้งค่า"
+
+#~ msgid ""
+#~ "Powered by Wine and Bottles technology, running classic Windows "
+#~ "applications\n"
+#~ "is now easier than ever."
+#~ msgstr ""
+#~ "ขับเคลื่อนด้วยเทคโนโลยี Wine และ Bottles ทำให้การรันแอปพลิเคชัน Windows "
+#~ "แบบคลาสสิกง่ายกว่าที่เคย"
+
+#~ msgid ""
+#~ "Deploying compatibility sandbox via Flatpak…\n"
+#~ "This may take a few minutes."
+#~ msgstr ""
+#~ "กำลังติดตั้ง Sandbox ความเข้ากันได้ผ่าน Flatpak…\n"
+#~ "กระบวนการนี้อาจใช้เวลาสักครู่"
+
+#~ msgid ""
+#~ "✓ Sandbox deployed successfully!\n"
+#~ "You can now double-click .exe files to run them."
+#~ msgstr ""
+#~ "✓ ติดตั้ง Sandbox สำเร็จแล้ว!\n"
+#~ "คุณสามารถดับเบิลคลิกไฟล์ .exe เพื่อรันได้ทันที"
+
+#~ msgid ""
+#~ "✗ Deployment failed.\n"
+#~ "You can install Bottles later from the App Store."
+#~ msgstr ""
+#~ "✗ การติดตั้งล้มเหลว.\n"
+#~ "คุณสามารถติดตั้ง Bottles ภายหลังได้จาก App Store"
+
+#~ msgid ""
+#~ "Essential productivity and entertainment tools, hand-picked for you.\n"
+#~ "Click any app to open its details in the App Store."
+#~ msgstr ""
+#~ "เครื่องมือผลิตภาพและความบันเทิงที่จำเป็น คัดสรรมาเพื่อคุณโดยเฉพาะ\n"
+#~ "คลิกแอปใด ๆ เพื่อดูรายละเอียดใน App Store"
+
+#~ msgid ""
+#~ "⚡ The following apps are provided by the Spark Store community.\n"
+#~ "Great for connecting to local services."
+#~ msgstr ""
+#~ "⚡ แอปต่อไปนี้มาจากชุมชน Spark Store\n"
+#~ "เหมาะสำหรับการเชื่อมต่อกับบริการท้องถิ่น"
+
+#~ msgid ""
+#~ "Pro tip: You can explore these apps in the App Store,\n"
+#~ "and continue with the system setup while they download."
+#~ msgstr ""
+#~ "เคล็ดลับ: คุณสามารถสำรวจแอปเหล่านี้ใน App Store,\n"
+#~ "และดำเนินการตั้งค่าระบบต่อได้ขณะรอดาวน์โหลด"
+
+#~ msgid ""
+#~ "Note: These apps link to their official or community download pages. "
+#~ "Andiora is not affiliated with these vendors."
+#~ msgstr ""
+#~ "หมายเหตุ: แอปเหล่านี้จะลิงก์ไปยังหน้าดาวน์โหลดทางการหรือของชุมชน Andiora "
+#~ "ไม่มีความเกี่ยวข้องกับผู้ผลิตซอฟต์แวร์เหล่านี้"
+
+#~ msgid ""
+#~ "Connect your Google, Microsoft,\n"
+#~ "or Nextcloud accounts to sync\n"
+#~ "files, contacts, and calendar."
+#~ msgstr ""
+#~ "เชื่อมต่อบัญชี Google, Microsoft,\n"
+#~ "หรือ Nextcloud ของคุณเพื่อซิงค์\n"
+#~ "ไฟล์ ติดต่อ และปฏิทิน"
+
+#~ msgid ""
+#~ "Use Deja Dup to protect your\n"
+#~ "important files with automated,\n"
+#~ "secure local or remote backups."
+#~ msgstr ""
+#~ "ใช้ Deja Dup เพื่อปกป้องไฟล์\n"
+#~ "สำคัญของคุณด้วยการสำรองข้อมูลอัตโนมัติ\n"
+#~ "แบบปลอดภัยในเครื่องหรือระยะไกล"
+
+#~ msgid ""
+#~ "Andiora disables all system-level telemetry by default.\n"
+#~ "We do not collect your usage habits.\n"
+#~ "We do not upload your search history.\n"
+#~ "There are no pervasive advertisements."
+#~ msgstr ""
+#~ "Andiora ปิดการใช้งานเทเลเมทรีระดับระบบโดยค่าเริ่มต้น\n"
+#~ "เราไม่เก็บรวบรวมพฤติกรรมการใช้งานของคุณ\n"
+#~ "เราไม่อัปโหลดประวัติการค้นหาของคุณ\n"
+#~ "ไม่มีโฆษณาที่แทรกซึมเข้าไป"
+
+#~ msgid ""
+#~ "In an era ruled by algorithms and surveillance,\n"
+#~ "this is our firmest commitment to you."
+#~ msgstr ""
+#~ "ในยุคที่ขับเคลื่อนด้วยอัลกอริทึมและการเฝ้าระวัง\n"
+#~ "นี่คือคำมั่นสัญญาอันมั่นคงที่สุดของเราต่อคุณ"
+
+#~ msgid ""
+#~ "Whether you're a Windows refugee seeking shelter,\n"
+#~ "or a hardcore geek developer — you'll find your tribe here.\n"
+#~ "Found a bug? Want a feature? Tell us anytime."
+#~ msgstr ""
+#~ "ไม่ว่าคุณจะเป็นผู้ลี้ภัยจาก Windows ที่กำลังมองหาที่พักพิง,\n"
+#~ "หรือนักพัฒนาที่คลั่งไคล้เทคโนโลยี — คุณจะได้พบกลุ่มคนที่คุณใช่ที่นี่.\n"
+#~ "เจอข้อผิดพลาด? ต้องการฟีเจอร์ใหม่? บอกเรา kapan saja ได้เลย"
+
+#~ msgid ""
+#~ "💡 Andiora is compatible with Ubuntu's entire ecosystem.\n"
+#~ "You can rely on Ubuntu's vast documentation and expertise."
+#~ msgstr ""
+#~ "💡 Andiora เข้ากันได้กับระบบนิเวศทั้งหมดของ Ubuntu.\n"
+#~ "คุณสามารถพึ่งพาเอกสารและความเชี่ยวชาญอันกว้างใหญ่ของ Ubuntu ได้"
+
+#~ msgid ""
+#~ "\n"
+#~ "=== Testing bandwidth of top 3 mirrors (3 s each) ===\n"
+#~ msgstr ""
+#~ "\n"
+#~ "=== กำลังทดสอบแบนด์วิดท์ของตัวสะท้อนข้อมูล 3 อันดับแรก (ลำดับละ 3 วินาที) ===\n"
+
+#~ msgid ""
+#~ "✓ Driver installed successfully!\n"
+#~ "A reboot is recommended to apply changes."
+#~ msgstr ""
+#~ "✓ ติดตั้งไดรเวอร์เรียบร้อยแล้ว!\n"
+#~ "แนะนำให้รีสตาร์ทเพื่อใช้การเปลี่ยนแปลง"

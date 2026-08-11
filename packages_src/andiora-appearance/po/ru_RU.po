@@ -1,0 +1,227 @@
+# Andiora Appearance — Russian translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "О внешнем виде Andiora"
+
+msgid "Advanced"
+msgstr "Дополнительно"
+
+msgid "Andiora Appearance"
+msgstr "Внешний вид Andiora"
+
+msgid "Andiora Team"
+msgstr "Команда Andiora"
+
+msgid "Appearance"
+msgstr "Внешний вид"
+
+msgid "Apply to Login Screen"
+msgstr "Применить к экрану входа"
+
+msgid "Bottom"
+msgstr "Внизу"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Выберите изображение для фона экрана входа GDM."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Выберите визуальный стиль вашей панели задач."
+
+msgid "Choose…"
+msgstr "Выбрать…"
+
+msgid "Classic"
+msgstr "Классический"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Объединение нескольких окон одного приложения в один значок"
+
+msgid "Danger Zone"
+msgstr "Опасная зона"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Отображать кнопку «Обзор» на панели задач"
+
+msgid "Enable grouping"
+msgstr "Включить группировку"
+
+msgid "Extension Settings"
+msgstr "Настройки расширений"
+
+msgid "GDM Wallpaper"
+msgstr "Фон GDM"
+
+msgid "Group apps"
+msgstr "Группировка приложений"
+
+msgid "Images"
+msgstr "Изображения"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Отделить ярлыки от запущенных приложений"
+
+msgid "Layout"
+msgstr "Макет"
+
+msgid "Left"
+msgstr "Слева"
+
+msgid "Login Screen Wallpaper"
+msgstr "Экран входа"
+
+msgid "Open"
+msgstr "Открыть"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Откройте окна настроек расширений панели."
+
+msgid "Panel Indicators"
+msgstr "Индикаторы панели"
+
+msgid "Panel Widgets"
+msgstr "Виджеты панели"
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Reset"
+msgstr "Сброс"
+
+msgid "Reset desktop settings"
+msgstr "Сбросить настройки рабочего стола"
+
+msgid "Reset desktop settings?"
+msgstr "Сбросить настройки рабочего стола?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Восстановить все настройки GNOME Shell до заводских значенийВосстановить все настройки GNOME Shell до заводских значений по умолчанию"
+
+msgid "Right"
+msgstr "Справа"
+
+msgid "Select image"
+msgstr "Выбрать изображение"
+
+msgid "Seperated"
+msgstr "Раздельный"
+
+msgid "Show Activities Button"
+msgstr "Показать кнопку «Обзор»"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Показать сеть"
+
+msgid "Show Weather"
+msgstr "Показать погоду"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Показать или скрыть встроенные элементы панели."
+
+msgid "Taskbar Elements"
+msgstr "Элементы панели задач"
+
+msgid "Taskbar Style"
+msgstr "Стиль панели задач"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Включите или отключите виджеты индикаторов панели."
+
+msgid "Top"
+msgstr "Вверху"
+
+msgid "Tweaks"
+msgstr "Настройки"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Поведение панели задач Vista"
+
+msgid "Wallpaper"
+msgstr "Обои"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Кнопка «Обзор» — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Применено — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Настройки рабочего стола сброшены. Перезапустите Shell для применения.✓ Настройки рабочего стола сброшены. Перезапустите Shell для применения."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ Фон GDM применён"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Не удалось применить положение"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Не удалось применить стиль"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Не удалось сбросить"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Не удалось установить фон GDM"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Не удалось переключить кнопку «Обзор»"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Не удалось {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Сначала выберите изображение"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Это сбросит все настройки GNOME Shell до заводских значений по умолчанию.\n"
+#~ "Ваши расширения, макет панели и настройки будут потеряны."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Положение панели задач"
+
+#~ msgid "Panel Position"
+#~ msgstr "Положение панели"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Выберите, где на экране будет расположена ваша панель задач."

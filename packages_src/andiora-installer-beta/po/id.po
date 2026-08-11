@@ -1,0 +1,1242 @@
+# Indonesian translations for andiora-installer-beta package.
+# Copyright (C) 2026 THE andiora-installer-beta'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the andiora-installer-beta package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-installer-beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-01 11:01+0000\n"
+"PO-Revision-Date: 2026-07-30 14:00+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Installing an input method requires an Internet connection."
+msgstr "Memasang metode masukan memerlukan koneksi Internet."
+
+msgid ""
+"No Internet connection. Input methods cannot be installed. You can install "
+"them later when connected."
+msgstr ""
+"Tidak ada koneksi Internet. Metode masukan tidak dapat dipasang. Anda dapat "
+"memasangnya nanti saat terhubung."
+
+msgid ""
+"\n"
+"\n"
+"A real installation will create a machine-local MOK. After reboot, choose "
+"Enroll MOK → Continue → Yes in MOKManager and enter password 123456."
+msgstr ""
+"\n"
+"\n"
+"Pemasangan asli akan membuat MOK lokal mesin. Setelah reboot, pilih Enroll "
+"MOK → Lanjutkan → Ya di MOKManager dan masukkan kata sandi 123456."
+
+msgid ""
+"\n"
+"On the blue MOKManager screen choose Enroll MOK → Continue → Yes, password: "
+"123456"
+msgstr ""
+"\n"
+"Pada layar biru MOKManager, pilih Enroll MOK → Lanjutkan → Ya, kata sandi: "
+"123456"
+
+msgid "4 GiB disk swap (priority 10) + 50% RAM LZ4 zram (priority 100)"
+msgstr "Swap disk 4 GiB (prioritas 10) + zram LZ4 RAM 50% (prioritas 100)"
+
+msgid "; sudo does not require a password"
+msgstr "; sudo tidak memerlukan kata sandi"
+
+msgid "; sudo requires the account password"
+msgstr "; sudo memerlukan kata sandi akun"
+
+msgid ""
+"A partition on this disk is mounted. Unmount it and rescan storage before "
+"continuing."
+msgstr ""
+"Sebuah partisi pada disk ini sedang dipasang (mounted). Lepaskan pemasangan "
+"dan pindai ulang penyimpanan sebelum melanjutkan."
+
+msgid "ALL DATA on {disk} will be permanently erased."
+msgstr "SEMUA DATA pada {disk} akan dihapus secara permanen."
+
+msgid "Account security"
+msgstr "Keamanan akun"
+
+msgid "Administrator access would be locked"
+msgstr "Akses administrator akan dikunci"
+
+msgid "Advanced Storage"
+msgstr "Penyimpanan Lanjutan"
+
+msgid ""
+"Advanced coexistence can affect EFI firmware state and may trigger BitLocker "
+"recovery. It never shrinks or repairs Windows volumes."
+msgstr ""
+"Koeksistensi lanjutan dapat mempengaruhi status firmware EFI dan mungkin "
+"memicu pemulihan BitLocker. Fitur ini tidak pernah mengecilkan atau "
+"memperbaiki volume Windows."
+
+msgid "Advanced — keep existing systems"
+msgstr "Lanjutan — pertahankan sistem yang ada"
+
+msgid "Advanced: Install Alongside"
+msgstr "Lanjutan: Instal Bersamaan"
+
+msgid ""
+"After changing partitions or unmounting a volume, rescan storage and select "
+"the target again."
+msgstr ""
+"Setelah mengubah partisi atau melepaskan pemasangan volume, pindai ulang "
+"penyimpanan dan pilih target lagi."
+
+msgid ""
+"After restart, MOKManager will open. Choose Enroll MOK → Continue → Yes, "
+"then enter password 123456."
+msgstr ""
+"Setelah restart, MOKManager akan terbuka. Pilih Enroll MOK → Lanjutkan → Ya, "
+"lalu masukkan kata sandi 123456."
+
+msgid ""
+"All partitions and data on {disk} will be destroyed.\n"
+"\n"
+msgstr ""
+"Semua partisi dan data pada {disk} akan hancur.\n"
+"\n"
+
+msgid ""
+"Alternatively, you may explicitly select one entire partition to erase. "
+"Everything in that selected partition will be destroyed; it is never "
+"selected automatically."
+msgstr ""
+"Sebagai alternatif, Anda dapat secara eksplisit memilih satu partisi utuh "
+"untuk dihapus. Semua isi pada partisi yang dipilih akan dihancurkan; partisi "
+"ini tidak pernah dipilih secara otomatis."
+
+msgid "Battery power is too low for a safe installation."
+msgstr "Daya baterai terlalu rendah untuk instalasi yang aman."
+
+msgid "Charge to at least 80% before starting the installation."
+msgstr "Isi daya hingga setidaknya 80% sebelum memulai instalasi."
+
+msgid "Continue Anyway"
+msgstr "Tetap Lanjutkan"
+
+msgid "Current battery level: {percent}%"
+msgstr "Tingkat baterai saat ini: {percent}%"
+
+msgid "External power is connected."
+msgstr "Daya eksternal tersambung."
+
+msgid "External power is not connected."
+msgstr "Daya eksternal tidak tersambung."
+
+msgid "I understand the risks and insist on installing with low battery."
+msgstr ""
+"Saya memahami risikonya dan tetap ingin menginstal dengan daya baterai "
+"rendah."
+
+msgid "Low battery"
+msgstr "Baterai lemah"
+
+msgid "Recheck"
+msgstr "Periksa ulang"
+
+msgid "Andiora Installer"
+msgstr "Penginstal Andiora"
+
+msgid "Andiora Installer (Beta)"
+msgstr "Penginstal Andiora (Beta)"
+
+msgid "Andiora Installer (Development)"
+msgstr "Penginstal Andiora (Pengembangan)"
+
+msgid ""
+"Andiora will use only the selected unallocated space on {disk}. Existing "
+"partitions will be preserved.\n"
+"\n"
+msgstr ""
+"Andiora hanya akan menggunakan ruang yang belum dialokasikan yang dipilih "
+"pada {disk}. Partisi yang ada akan dipertahankan.\n"
+"\n"
+
+msgid ""
+"Andiora will use only the selected unallocated space. The installer will "
+"not shrink or move an existing filesystem."
+msgstr ""
+"Andiora hanya akan menggunakan ruang yang belum dialokasikan yang dipilih. "
+"Pemasang tidak akan mengecilkan atau memindahkan sistem berkas yang ada."
+
+msgid ""
+"Any program running as your user can obtain full administrator privileges "
+"without authentication. Your login password still protects sign-in, but it "
+"will not protect sudo. Are you sure you want to continue?"
+msgstr ""
+"Program apa pun yang berjalan sebagai pengguna Anda dapat memperoleh hak "
+"administrator penuh tanpa autentikasi. Kata sandi login Anda masih "
+"melindungi masuk, tetapi tidak akan melindungi sudo. Apakah Anda yakin ingin "
+"melanjutkan?"
+
+msgid "Arabic"
+msgstr "Arab"
+
+msgid "Back"
+msgstr "Kembali"
+
+msgid ""
+"Before continuing: finish Windows updates, disable Fast Startup and "
+"hibernation, and back up the BitLocker recovery key. EFI, Secure Boot, TPM "
+"measurements and boot order can change."
+msgstr ""
+"Sebelum melanjutkan: selesaikan pembaruan Windows, nonaktifkan Startup Cepat "
+"dan hibernasi, serta cadangkan kunci pemulihan BitLocker. EFI, Secure Boot, "
+"pengukuran TPM, dan urutan boot dapat berubah."
+
+msgid "BitLocker detected"
+msgstr "BitLocker terdeteksi"
+
+msgid ""
+"BitLocker storage will be preserved. The installer will not unlock, resize, "
+"repair or otherwise modify it."
+msgstr ""
+"Penyimpanan BitLocker akan dipertahankan. Pemasang tidak akan membuka kunci, "
+"mengubah ukuran, memperbaiki, atau memodifikasinya dengan cara lain."
+
+msgid "Boot policy"
+msgstr "Kebijakan boot"
+
+msgid "Btrfs (recommended)"
+msgstr "Btrfs (direkomendasikan)"
+
+msgid "Btrfs — recommended"
+msgstr "Btrfs — direkomendasikan"
+
+msgid "Cannot create installation plan"
+msgstr "Tidak dapat membuat rencana instalasi"
+
+msgid "Choose Installation Method"
+msgstr "Pilih Metode Instalasi"
+
+msgid "Choose one target disk. Storage settings come next."
+msgstr "Pilih satu disk target. Pengaturan penyimpanan akan menyusul."
+
+msgid "Choose optional software to install"
+msgstr "Pilih perangkat lunak opsional untuk diinstal"
+
+msgid "Choose your language to begin installation"
+msgstr "Pilih bahasa Anda untuk memulai instalasi"
+
+msgid "Choose your location to set the system clock"
+msgstr "Pilih lokasi Anda untuk mengatur jam sistem"
+
+msgid "Complete"
+msgstr "Selesai"
+
+msgid "Computer Name"
+msgstr "Nama Komputer"
+
+msgid "Computer name contains invalid characters."
+msgstr "Nama komputer berisi karakter tidak valid."
+
+msgid "Configure account, region, timezone, and machine identity"
+msgstr "Konfigurasi akun, wilayah, zona waktu, dan identitas mesin"
+
+msgid "Configure storage and swap"
+msgstr "Konfigurasi penyimpanan dan swap"
+
+msgid "Confirm Password"
+msgstr "Konfirmasi Kata Sandi"
+
+msgid "Confirm your keyboard layout"
+msgstr "Konfirmasi tata letak keyboard Anda"
+
+msgid "Continue Installation"
+msgstr "Lanjutkan Instalasi"
+
+msgid "Copy Andiora system"
+msgstr "Salin sistem Andiora"
+
+msgid "Copy Log"
+msgstr "Salin Log"
+
+msgid "Create a new 1 GiB Andiora EFI System Partition"
+msgstr "Buat Partisi Sistem EFI Andiora 1 GiB baru"
+
+msgid ""
+"Create and format a dedicated Andiora EFI System Partition inside the "
+"selected space."
+msgstr ""
+"Buat dan format Partisi Sistem EFI Andiora khusus di dalam ruang yang "
+"dipilih."
+
+msgid "Create your user account"
+msgstr "Buat akun pengguna Anda"
+
+msgid "Current disk layout"
+msgstr "Tata letak disk saat ini"
+
+msgid ""
+"DEVELOPMENT MODE — the plan will be validated and simulated. No privileged "
+"executor or disk command can run."
+msgstr ""
+"MODE PENGEMBANGAN — rencana akan divalidasi dan disimulasikan. Tidak ada "
+"eksekutor hak istimewa atau perintah disk yang dapat dijalankan."
+
+msgid "Danish"
+msgstr "Denmark"
+
+msgid "Detect Internet connectivity"
+msgstr "Deteksi koneksi internet"
+
+msgid "Detect firmware and Secure Boot"
+msgstr "Deteksi firmware dan Secure Boot"
+
+msgid ""
+"Development mode will simulate installation to {disk}. No disk data will be "
+"changed.\n"
+"\n"
+msgstr ""
+"Mode pengembangan akan mensimulasikan instalasi ke {disk}. Tidak ada data "
+"disk yang akan diubah.\n"
+"\n"
+
+msgid "Development simulation completed"
+msgstr "Simulasi pengembangan selesai"
+
+msgid "Discover Andiora"
+msgstr "Jelajahi Andiora"
+
+msgid "Do not require a password for sudo commands"
+msgstr "Jangan memerlukan kata sandi untuk perintah sudo"
+
+msgid "Download and install system updates during installation"
+msgstr "Unduh dan instal pembaruan sistem selama instalasi"
+
+msgid "Dutch"
+msgstr "Belanda"
+
+msgid "EFI System Partition"
+msgstr "Partisi Sistem EFI"
+
+msgid "EFI policy"
+msgstr "Kebijakan EFI"
+
+msgid "Empty disk — no partitions"
+msgstr "Disk kosong — tidak ada partisi"
+
+msgid "Enables shared-space subvolumes, snapshots and Disk Snapshots Manager."
+msgstr ""
+"Mengaktifkan subvolume ruang bersama, snapshot, dan Disk Snapshots Manager."
+
+msgid "English (UK)"
+msgstr "Bahasa Inggris (UK)"
+
+msgid "English (US)"
+msgstr "Bahasa Inggris (AS)"
+
+msgid "Ensure Disk Snapshots Manager is available"
+msgstr "Pastikan Disk Snapshots Manager tersedia"
+
+msgid "Erase Disk and Install"
+msgstr "Hapus Disk dan Instal"
+
+msgid "Erase every partition and all data on the selected disk."
+msgstr "Hapus setiap partisi dan semua data pada disk yang dipilih."
+
+msgid "Erase the entire selected disk?"
+msgstr "Hapus seluruh disk yang dipilih?"
+
+msgid ""
+"Existing Windows, recovery and data partitions remain outside the write set "
+"and will be preserved."
+msgstr ""
+"Partisi Windows, pemulihan, dan data yang ada tetap berada di luar set "
+"penulisan dan akan dipertahankan."
+
+msgid ""
+"Existing partitions were detected. The first two choices delete them; "
+"Advanced is the preservation path."
+msgstr ""
+"Partisi yang ada terdeteksi. Dua pilihan pertama menghapusnya; Lanjutan "
+"adalah jalur pelestarian."
+
+msgid ""
+"Existing partitions will be preserved. New Andiora partitions will be "
+"created only in the selected unallocated extent; EFI vendor files and the "
+"Andiora firmware boot entry may be updated."
+msgstr ""
+"Partisi yang ada akan dipertahankan. Partisi Andiora baru hanya akan dibuat "
+"di area yang belum dialokasikan; file vendor EFI dan entri boot firmware "
+"Andiora mungkin diperbarui."
+
+msgid "Filesystem"
+msgstr "Sistem file"
+
+msgid "Finalize target environment"
+msgstr "Selesaikan lingkungan target"
+
+msgid "Finnish"
+msgstr "Finlandia"
+
+msgid "Formats"
+msgstr "Memformat"
+
+msgid "French"
+msgstr "Prancis"
+
+msgid "Full Name"
+msgstr "Nama Lengkap"
+
+msgid "German"
+msgstr "Jerman"
+
+msgid "Greek"
+msgstr "Yunani"
+
+msgid ""
+"Guided coexistence requires a system booted in UEFI mode and a GPT target "
+"disk. This disk cannot continue in guided mode."
+msgstr ""
+"Koeksistensi terpandu memerlukan sistem yang dimulai dalam mode UEFI dan "
+"disk target GPT. Disk ini tidak dapat melanjutkan dalam mode terpandu."
+
+msgid ""
+"Guided storage selection is missing. Rescan and select the target again."
+msgstr ""
+"Pemilihan penyimpanan terpandu hilang. Pindai ulang dan pilih target lagi."
+
+msgid "Hindi (India)"
+msgstr "India (Hindi)"
+
+msgid "How should Andiora use this disk?"
+msgstr "Bagaimana Andiora harus menggunakan disk ini?"
+
+msgid "I Understand the Risk, Continue"
+msgstr "Saya Memahami Risikonya, Lanjutkan"
+
+msgid "Indonesian"
+msgstr "Indonesia"
+
+msgid "Install"
+msgstr "Instal"
+
+msgid "Install input method"
+msgstr "Instal metode masukan"
+
+msgid "Install {language} input method: {name}"
+msgstr "Instal metode input {language}: {name}"
+
+msgid "Install Alongside"
+msgstr "Instal Bersama Sistem yang Ada"
+
+msgid "Install alongside"
+msgstr "Instal bersama sistem yang ada"
+
+msgid "Install alongside requires a password-protected account."
+msgstr "Instalasi bersama memerlukan akun yang dilindungi kata sandi."
+
+msgid "Install bootloader"
+msgstr "Instal bootloader"
+
+msgid "Check systems on other disks"
+msgstr "Periksa sistem di disk lain"
+
+msgid "Install hardware drivers"
+msgstr "Instal driver perangkat keras"
+
+msgid "Install in the selected free space?"
+msgstr "Instal di ruang kosong yang dipilih?"
+
+msgid "Ensure required language packs are installed"
+msgstr "Pastikan paket bahasa yang diperlukan telah terpasang"
+
+msgid "Install system updates"
+msgstr "Instal pembaruan sistem"
+
+msgid "Install third-party drivers for this device"
+msgstr "Instal driver pihak ketiga untuk perangkat ini"
+
+msgid "Installation Complete"
+msgstr "Instalasi Selesai"
+
+msgid "Installation Failed"
+msgstr "Instalasi Gagal"
+
+msgid "Installation Steps"
+msgstr "Langkah Instalasi"
+
+msgid ""
+"Installation cannot continue with this selection. There is no force-continue "
+"option around storage safety checks."
+msgstr ""
+"Pemasangan tidak dapat dilanjutkan dengan pilihan ini. Tidak ada opsi paksa-"
+"lanjutkan di sekitar pemeriksaan keamanan penyimpanan."
+
+msgid "Installation complete"
+msgstr "Instalasi selesai"
+
+msgid "Installation failed"
+msgstr "Instalasi gagal"
+
+msgid "Installation in progress"
+msgstr "Instalasi sedang berlangsung"
+
+msgid "Installing Andiora"
+msgstr "Menginstal Andiora"
+
+msgid "Italian"
+msgstr "Italia"
+
+msgid "Japanese (JIS keyboard)"
+msgstr "Jepang (papan ketik JIS)"
+
+msgid "Keyboard"
+msgstr "Papan ketik"
+
+msgid "Keyboard Layout"
+msgstr "Tata Letak Keyboard"
+
+msgid "Configure physical keyboard layout"
+msgstr "Konfigurasikan tata letak keyboard fisik"
+
+msgid "Korean"
+msgstr "Korea"
+
+msgid "Language"
+msgstr "Bahasa"
+
+msgid "Live USB — excluded"
+msgstr "USB Langsung — dikecualikan"
+
+msgid "Mount target filesystems"
+msgstr "Pasang sistem file target"
+
+msgid "Navigation error"
+msgstr "Kesalahan navigasi"
+
+msgid "New partitions"
+msgstr "Partisi baru"
+
+msgid "Next"
+msgstr "Selanjutnya"
+
+msgid "Next slide"
+msgstr "Slide berikutnya"
+
+msgid "No partition table"
+msgstr "Tidak ada tabel partisi"
+
+msgid "No suitable disks found."
+msgstr "Tidak ditemukan disk yang sesuai."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with Windows Disk Management, then boot the installer "
+"again and rescan the disk."
+msgstr ""
+"Tidak ditemukan ruang yang belum dialokasikan yang sesuai. Untuk melindungi "
+"data Anda, buat ruang yang belum dialokasikan dengan Manajemen Disk Windows, "
+"lalu boot installer lagi dan pindai ulang disk."
+
+msgid ""
+"No suitable unallocated space was found. To protect your data, create "
+"unallocated space with a partitioning tool, then boot the installer again "
+"and rescan the disk."
+msgstr ""
+"Tidak ditemukan ruang yang belum dialokasikan yang sesuai. Untuk melindungi "
+"data Anda, buat ruang yang belum dialokasikan dengan alat partisi, lalu boot "
+"installer lagi dan pindai ulang disk."
+
+msgid "Norwegian"
+msgstr "Norwegia"
+
+msgid "OK"
+msgstr "OKE"
+
+msgid "Output"
+msgstr "Hasil"
+
+msgid "Output • Error"
+msgstr "Output • Kesalahan"
+
+msgid "Output • {count} warning(s)"
+msgstr "Output • {count} peringatan"
+
+msgid "Partition details unavailable"
+msgstr "Rincian partisi tidak tersedia"
+
+msgid "Password"
+msgstr "Kata Sandi"
+
+msgid "Password must be at least 6 characters."
+msgstr "Kata sandi harus minimal 6 karakter."
+
+msgid "Passwordless sudo is unsafe"
+msgstr "Sudo tanpa kata sandi tidak aman"
+
+msgid "Platform"
+msgstr "Platform"
+
+msgid "Please do not turn off your computer"
+msgstr "Mohon jangan matikan komputer Anda"
+
+msgid "Please review your choices before proceeding"
+msgstr "Mohon tinjau pilihan Anda sebelum melanjutkan"
+
+msgid "Polish"
+msgstr "Polandia"
+
+msgid "Portuguese"
+msgstr "Portugis"
+
+msgid "Portuguese (Brazil)"
+msgstr "Portugis (Brasil)"
+
+msgid "Prepare Secure Boot"
+msgstr "Siapkan Secure Boot"
+
+msgid "Prepare installation disk"
+msgstr "Siapkan disk instalasi"
+
+msgid "Prepare target environment"
+msgstr "Siapkan lingkungan target"
+
+msgid "Preparing installation…"
+msgstr "Mempersiapkan instalasi…"
+
+msgid "Preserved partitions"
+msgstr "Partisi yang dipertahankan"
+
+msgid "Previous slide"
+msgstr "Slide sebelumnya"
+
+msgid "Ready to Install"
+msgstr "Siap untuk Diinstal"
+
+msgid "Reboot Now"
+msgstr "Restart Sekarang"
+
+msgid "Refresh package indexes"
+msgstr "Segarkan indeks paket"
+
+msgid "Remove live-session components"
+msgstr "Hapus komponen sesi langsung"
+
+msgid "Remove the installation media and restart your computer"
+msgstr "Lepaskan media instalasi dan restart komputer Anda"
+
+msgid ""
+"Requires an Internet connection. The base installation remains available "
+"when offline."
+msgstr ""
+"Memerlukan koneksi Internet. Instalasi dasar tetap tersedia saat offline."
+
+msgid "Rescan Storage"
+msgstr "Pindai Ulang Penyimpanan"
+
+msgid "Rescan and Reselect Disk"
+msgstr "Pindai dan Pilih Ulang Cakram"
+
+msgid "Restart and Enroll Secure Boot Key"
+msgstr "Restart dan Daftarkan Kunci Secure Boot"
+
+msgid "Restart is disabled in development protection mode"
+msgstr "Restart dinonaktifkan dalam mode perlindungan pengembangan"
+
+msgid "Return and Set a Password"
+msgstr "Kembali dan Atur Kata Sandi"
+
+msgid "Return to Make Changes"
+msgstr "Kembali untuk Melakukan Perubahan"
+
+msgid "Reuse {path} ({size})"
+msgstr "Gunakan kembali {path} ({size})"
+
+msgid ""
+"Reuse {path}; never format it; verify FAT health, identity and 64 MiB free "
+"before writing."
+msgstr ""
+"Gunakan kembali {path}; jangan pernah memformatnya; verifikasi kesehatan "
+"FAT, identitas, dan 64 MiB ruang kosong sebelum menulis."
+
+msgid "Romanian"
+msgstr "Rumania"
+
+msgid "Russian"
+msgstr "Rusia"
+
+msgid "Save Log"
+msgstr "Simpan Log"
+
+msgid "Schedule MOK enrollment"
+msgstr "Jadwalkan pendaftaran MOK"
+
+msgid "Search timezones…"
+msgstr "Cari zona waktu…"
+
+msgid "Secure Boot enrollment"
+msgstr "Pendaftaran Secure Boot"
+
+msgid "Select Installation Disk"
+msgstr "Pilih Disk Instalasi"
+
+msgid "Select Timezone"
+msgstr "Pilih Zona Waktu"
+
+msgid "Select fastest package mirror"
+msgstr "Pilih mirror paket tercepat"
+
+msgid "Selected timezone"
+msgstr "Zona waktu yang dipilih"
+
+msgid "Selected unallocated space"
+msgstr "Ruang yang tidak dialokasikan telah dipilih"
+
+msgid "Some drivers are proprietary or otherwise non-free software."
+msgstr ""
+"Beberapa driver bersifat proprietary atau perangkat lunak non-bebas lainnya."
+
+msgid "Spanish"
+msgstr "Spanyol"
+
+msgid "Stable disk identity"
+msgstr "Identitas disk stabil"
+
+msgid ""
+"Stable identity: {stable_id}\n"
+"\n"
+msgstr ""
+"Identitas stabil: {stable_id}\n"
+"\n"
+
+msgid "Storage Device"
+msgstr "Perangkat Penyimpanan"
+
+msgid "Storage mode"
+msgstr "Mode penyimpanan"
+
+msgid "Subvolumes"
+msgstr "Subvolume"
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Swedish"
+msgstr "Swedia"
+
+msgid "System updates"
+msgstr "Pembaruan sistem"
+
+msgid "Target Disk"
+msgstr "Disk Target"
+
+msgid "Target: {disk} ({size} — {model})"
+msgstr "Tujuan: {disk} ({size} — {model})"
+
+msgid "Test your keyboard here…"
+msgstr "Uji keyboard Anda di sini…"
+
+msgid "Thai"
+msgstr "Bahasa Thailand"
+
+msgid ""
+"The GPT disk or one of its partitions has no unique stable identifier. "
+"Guided coexistence cannot safely authorize preservation or writes on this "
+"disk."
+msgstr ""
+"Disk GPT atau salah satu partisi-nya tidak memiliki pengenal stabil yang "
+"unik. Koeksistensi terpandu tidak dapat secara aman mengotorisasi "
+"pelestarian atau penulisan pada disk ini."
+
+msgid ""
+"The complete partition map and free-space geometry could not be read "
+"consistently. No space on this disk is authorized for installation."
+msgstr ""
+"Peta partisi lengkap dan geometri ruang kosong tidak dapat dibaca secara "
+"konsisten. Tidak ada ruang pada disk ini yang diotorisasi untuk instalasi."
+
+msgid ""
+"The existing EFI System Partition is only a candidate. Health and free-space "
+"checks must pass before it can be reused, and it will never be formatted."
+msgstr ""
+"Partisi Sistem EFI yang ada hanyalah kandidat. Pemeriksaan kesehatan dan "
+"ruang kosong harus lulus sebelum dapat digunakan kembali, dan tidak akan "
+"pernah diformat."
+
+msgid ""
+"The installation plan is valid. No disk, filesystem, bootloader, Secure Boot "
+"state, or installed system was changed."
+msgstr ""
+"Rencana instalasi valid. Tidak ada disk, sistem file, bootloader, status "
+"Secure Boot, atau sistem yang terinstal yang diubah."
+
+msgid "The installer cannot be closed while it is modifying the target disk."
+msgstr "Penginstal tidak dapat ditutup saat memodifikasi disk target."
+
+msgid ""
+"The installer will not mount, repair or infer the safety of Windows volumes "
+"from hibernation or Fast Startup state. Any required Windows maintenance "
+"must be completed in Windows."
+msgstr ""
+"Penginstal tidak akan memasang, memperbaiki, atau menyimpulkan keamanan "
+"volume Windows dari status hibernasi atau Startup Cepat. Pemeliharaan "
+"Windows yang diperlukan harus diselesaikan di Windows."
+
+msgid "The privileged executor is disabled."
+msgstr "Eksekutor hak istimewa dinonaktifkan."
+
+msgid ""
+"The selected disk changed or disappeared. Return to the disk page and select "
+"it again. {error}"
+msgstr ""
+"Disk yang dipilih berubah atau hilang. Kembali ke halaman disk dan pilih "
+"lagi. {error}"
+
+msgid "The selected disk size changed. Return and select it again."
+msgstr "Ukuran disk yang dipilih berubah. Kembali dan pilih lagi."
+
+msgid ""
+"The selected disk topology changed. Review the disk and installation method "
+"again."
+msgstr ""
+"Topologi disk yang dipilih berubah. Tinjau kembali disk dan metode instalasi."
+
+msgid ""
+"The system will sign in to this account automatically and allow it to obtain "
+"full administrator privileges without a password. Anyone with physical "
+"access, and any program running as this user, can completely control the "
+"system. Use this only for a kiosk, temporary virtual machine, or another "
+"controlled environment."
+msgstr ""
+"Sistem akan masuk ke akun ini secara otomatis dan mengizinkannya untuk "
+"memperoleh hak administrator penuh tanpa kata sandi. Siapa pun dengan akses "
+"fisik, dan program apa pun yang berjalan sebagai pengguna ini, dapat "
+"sepenuhnya mengendalikan sistem. Gunakan ini hanya untuk kios, mesin virtual "
+"sementara, atau lingkungan terkendali lainnya."
+
+msgid "The two passwords do not match."
+msgstr "Kedua kata sandi tidak cocok."
+
+msgid "Third-party drivers"
+msgstr "Driver pihak ketiga"
+
+msgid ""
+"This account has no login password, but sudo would still require one. "
+"Because the root account is locked by default, you would be unable to "
+"perform administrator tasks. Set an account password or enable passwordless "
+"sudo."
+msgstr ""
+"Akun ini tidak memiliki kata sandi masuk, tetapi sudo masih memerlukan satu. "
+"Karena akun root dikunci secara default, Anda tidak akan dapat melakukan "
+"tugas-tugas administrator. Tetapkan kata sandi akun atau aktifkan sudo tanpa "
+"kata sandi."
+
+msgid ""
+"This advanced path preserves existing partitions but changes the selected "
+"disk's partition table and the machine's EFI boot state."
+msgstr ""
+"Jalur lanjutan ini mempertahankan partisi yang ada tetapi mengubah tabel "
+"partisi disk yang dipilih dan status boot EFI mesin."
+
+msgid "This configuration is very unsafe"
+msgstr "Konfigurasi ini sangat tidak aman"
+
+msgid ""
+"This disk contains an active mapper, array or other nested block-device "
+"topology that guided coexistence does not support."
+msgstr ""
+"Disk ini berisi mapper aktif, array, atau topologi perangkat blok bersarang "
+"lainnya yang tidak didukung oleh koeksistensi terpandu."
+
+msgid ""
+"This disk is too small for whole-disk installation. Advanced may continue "
+"only if suitable unallocated space exists."
+msgstr ""
+"Disk ini terlalu kecil untuk instalasi seluruh-disk. Lanjutan hanya dapat "
+"dilanjutkan jika ada ruang belum dialokasikan yang sesuai."
+
+msgid "This installer does not shrink or preserve other systems."
+msgstr "Penginstal ini tidak mengecilkan atau melestarikan sistem lain."
+
+msgid "Timezone"
+msgstr "Zona Waktu"
+
+msgid "Too small"
+msgstr "Terlalu kecil"
+
+msgid "Turkish"
+msgstr "Turki"
+
+msgid "Ukrainian"
+msgstr "Ukraina"
+
+msgid "Unallocated space"
+msgstr "Ruang belum dialokasikan"
+
+msgid "Unallocated · {size}"
+msgstr "Tidak dialokasikan · {size}"
+
+msgid "Unavailable: {error}"
+msgstr "Tidak tersedia: {error}"
+
+msgid "Unknown filesystem"
+msgstr "Sistem file tidak dikenal"
+
+msgid "Unmount installed system"
+msgstr "Lepas sistem yang terinstal"
+
+msgid "Updates and Drivers"
+msgstr "Pembaruan dan Driver"
+
+msgid ""
+"Use already-unallocated space and preserve existing partitions. This is the "
+"only Windows coexistence path."
+msgstr ""
+"Gunakan ruang yang belum dialokasikan dan lestarikan partisi yang ada. Ini "
+"adalah satu-satunya jalur koeksistensi Windows."
+
+msgid "Use only existing unallocated space on the selected disk."
+msgstr "Hanya gunakan ruang yang belum dialokasikan pada disk yang dipilih."
+
+msgid "User"
+msgstr "Pengguna"
+
+msgid "User Account"
+msgstr "Akun Pengguna"
+
+msgid "Username"
+msgstr "Nama Pengguna"
+
+msgid ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+msgstr ""
+"Username must start with a lowercase ASCII letter and contain only lowercase "
+"ASCII letters or digits (maximum 16 characters)."
+
+msgid "Uses a traditional single root filesystem."
+msgstr "Menggunakan sistem file root tunggal tradisional."
+
+msgid "Validate Plan (No Installation)"
+msgstr "Validasi Rencana (Tanpa Instalasi)"
+
+msgid "Validate this installation plan?"
+msgstr "Validasi rencana instalasi ini?"
+
+msgid "Verify kernel module signatures"
+msgstr "Verifikasi tanda tangan modul kernel"
+
+msgid "Verify target disk isolation"
+msgstr "Verifikasi isolasi disk target"
+
+msgid "Vietnamese"
+msgstr "Vietnam"
+
+msgid "Welcome to Andiora"
+msgstr "Selamat datang di Andiora"
+
+msgid "Windows detected"
+msgstr "Windows terdeteksi"
+
+msgid ""
+"Write only EFI/Andiora, do not overwrite EFI/BOOT, and require a verified "
+"Andiora NVRAM entry."
+msgstr ""
+"Tulis hanya EFI/Andiora, jangan timpa EFI/BOOT, dan memerlukan entri NVRAM "
+"Andiora yang terverifikasi."
+
+msgid "automatic login"
+msgstr "login otomatis"
+
+msgid "create a machine-local MOK; enroll after reboot with password 123456"
+msgstr ""
+"membuat MOK lokal mesin; daftarkan setelah reboot dengan kata sandi 123456"
+
+msgid "detect and install (may include non-free software)"
+msgstr "deteksi dan instal (mungkin termasuk perangkat lunak non-bebas)"
+
+msgid "do not install"
+msgstr "jangan instal"
+
+msgid "download and install"
+msgstr "unduh dan instal"
+
+msgid "ext4 (classic)"
+msgstr "ext4 (klasik)"
+
+msgid "ext4 — classic"
+msgstr "ext4 — klasik"
+
+msgid "not required"
+msgstr "tidak diperlukan"
+
+msgid "password required for login"
+msgstr "kata sandi diperlukan untuk login"
+
+msgid "single ext4 root filesystem"
+msgstr "sistem file root ext4 tunggal"
+
+msgid "{architecture} / {firmware} / Secure Boot: {secure_boot}"
+msgstr "{architecture} / {firmware} / Secure Boot: {secure_boot}"
+
+msgid "{count}: {paths}"
+msgstr "{count}: {paths}"
+
+msgid "{name}: {start}–{end} MiB"
+msgstr "{name}: {start}–{end} MiB"
+
+msgid "{path} as {filesystem}"
+msgstr "{path} sebagai {filesystem}"
+
+msgid "{size} at {offset}"
+msgstr "{size} pada {offset}"
+
+msgid "{size} unallocated at {offset}"
+msgstr "{size} tidak dialokasikan pada {offset}"
+
+msgid "{step} failed"
+msgstr "{step} gagal"
+
+msgid ""
+"⚠ Only the selected unallocated space will be partitioned and formatted. "
+"Existing partitions are preserved, but EFI/Andiora files and the Andiora "
+"firmware boot entry may change. This installer will not shrink Windows for "
+"you."
+msgstr ""
+"⚠ Hanya ruang tidak dialokasikan yang dipilih akan dipartisi dan diformat. "
+"Partisi yang ada tetap dipertahankan, tetapi file EFI/Andiora dan entri "
+"boot firmware Andiora mungkin berubah. Pemasang ini tidak akan mengecilkan "
+"Windows untuk Anda."
+
+msgid ""
+"⚠ This will erase ALL data on the selected disk. This action cannot be "
+"undone."
+msgstr ""
+"⚠ Ini akan menghapus SEMUA data pada disk yang dipilih. Tindakan ini tidak "
+"dapat dibatalkan."
+
+#: src/pages.py
+msgid "Connect to the Internet"
+msgstr "Hubungkan ke Internet"
+
+#: src/pages.py
+msgid "Internet connection is ready."
+msgstr "Koneksi Internet siap."
+
+#: src/pages.py
+msgid "Available Wi-Fi Networks"
+msgstr "Jaringan Wi-Fi yang Tersedia"
+
+msgid "Preserve connected Wi-Fi network"
+msgstr "Pertahankan jaringan Wi-Fi yang terhubung"
+
+msgid "Loading storage devices…"
+msgstr "Memuat perangkat penyimpanan…"
+
+msgid "Rechecking target disk…"
+msgstr "Memeriksa ulang disk target…"
+
+msgid "Storage devices could not be loaded: {error}"
+msgstr "Perangkat penyimpanan tidak dapat dimuat: {error}"
+
+#: src/pages.py
+msgid "Install extended multimedia format support"
+msgstr "Pasang dukungan format multimedia yang diperluas"
+
+#: src/pages.py
+msgid "Extended multimedia formats"
+msgstr "Format multimedia yang diperluas"
+
+#: src/pages.py
+msgid ""
+"Adds wider GStreamer compatibility and support for additional legacy and "
+"specialist media formats. Some components may be subject to patent or "
+"redistribution terms."
+msgstr ""
+"Menambahkan kompatibilitas GStreamer yang lebih luas serta dukungan untuk "
+"format media lawas dan khusus tambahan. Beberapa komponen mungkin tunduk "
+"pada ketentuan paten atau distribusi ulang."
+
+#: src/pages.py
+msgid "A saved profile exists. Entering a password updates it securely."
+msgstr "A saved profile exists. Entering a password updates it securely."
+
+#: src/pages.py
+msgid "Anonymous identity (optional)"
+msgstr "Anonymous identity (optional)"
+
+#: src/pages.py
+msgid "CA certificate path (optional)"
+msgstr "CA certificate path (optional)"
+
+#: src/pages.py
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/pages.py
+msgid "Cancelling Wi-Fi operation…"
+msgstr "Cancelling Wi-Fi operation…"
+
+#: src/pages.py
+msgid "Client certificate path"
+msgstr "Client certificate path"
+
+#: src/pages.py
+msgid "Connect"
+msgstr "Connect"
+
+#: src/pages.py
+msgid "Continue"
+msgstr "Continue"
+
+#: src/pages.py
+msgid "Connect to a hidden network"
+msgstr "Connect to a hidden network"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connect to {network}"
+msgstr "Connect to {network}"
+
+#: src/pages.py
+msgid "Connected"
+msgstr "Connected"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Connecting to {network}…"
+msgstr "Connecting to {network}…"
+
+#: src/pages.py
+msgid "Could not change the Wi-Fi connection"
+msgstr "Could not change the Wi-Fi connection"
+
+#: src/pages.py
+msgid "Disconnect"
+msgstr "Disconnect"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnect from {network}?"
+msgstr "Disconnect from {network}?"
+
+#: src/pages.py
+#, python-brace-format
+msgid "Disconnecting from {network}…"
+msgstr "Disconnecting from {network}…"
+
+#: src/pages.py
+msgid "Domain suffix match (optional)"
+msgstr "Domain suffix match (optional)"
+
+#: src/pages.py
+msgid "EAP method"
+msgstr "EAP method"
+
+#: src/pages.py
+msgid "Enhanced Open (OWE)"
+msgstr "Enhanced Open (OWE)"
+
+#: src/pages.py
+msgid ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+msgstr ""
+"Enter the credentials supplied by your organization. Certificate validation "
+"is strongly recommended."
+
+#: src/pages.py
+msgid "Enter the exact network name and choose its security type."
+msgstr "Enter the exact network name and choose its security type."
+
+#: src/pages.py
+msgid "Enterprise Wi-Fi"
+msgstr "Enterprise Wi-Fi"
+
+#: src/pages.py
+msgid "Identity"
+msgstr "Identity"
+
+#: src/pages.py
+msgid "Inner authentication"
+msgstr "Inner authentication"
+
+#: src/pages.py
+msgid "Network name (SSID)"
+msgstr "Network name (SSID)"
+
+#: src/pages.py
+msgid "No Wi-Fi networks found."
+msgstr "No Wi-Fi networks found."
+
+#: src/pages.py
+msgid "Open network"
+msgstr "Open network"
+
+#: src/pages.py
+msgid "Personal Wi-Fi"
+msgstr "Personal Wi-Fi"
+
+#: src/pages.py
+msgid "Private key password (optional)"
+msgstr "Private key password (optional)"
+
+#: src/pages.py
+msgid "Private key path"
+msgstr "Private key path"
+
+#: src/pages.py
+msgid "Refresh Wi-Fi networks"
+msgstr "Refresh Wi-Fi networks"
+
+#: src/pages.py
+msgid "Saved"
+msgstr "Saved"
+
+#: src/pages.py
+msgid "Security"
+msgstr "Security"
+
+#: src/pages.py
+msgid ""
+"The installer will keep the saved network profile so it can be used again."
+msgstr ""
+"The installer will keep the saved network profile so it can be used again."
+
+#: src/pages.py
+msgid "The local network is connected, but Internet access is unavailable."
+msgstr "The local network is connected, but Internet access is unavailable."
+
+#: src/pages.py
+msgid "Turning Wi-Fi off…"
+msgstr "Turning Wi-Fi off…"
+
+#: src/pages.py
+msgid "Turning Wi-Fi on…"
+msgstr "Turning Wi-Fi on…"
+
+#: src/pages.py
+msgid "Use WPS"
+msgstr "Use WPS"
+
+#: src/pages.py
+msgid "WEP (legacy)"
+msgstr "WEP (legacy)"
+
+#: src/pages.py
+msgid ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+msgstr ""
+"Wi-Fi is connected, but the network requires sign-in through a captive "
+"portal."
+
+#: src/pages.py
+#, python-brace-format
+msgid "Waiting for WPS on {network}. Press the WPS button on the router…"
+msgstr "Waiting for WPS on {network}. Press the WPS button on the router…"

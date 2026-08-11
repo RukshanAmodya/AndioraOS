@@ -1,0 +1,267 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>andiora-desktop-core</PackageName>
+    <PackageVersion>2.0.1-4+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>Andiora desktop core metapackage — pure upstream GNOME desktop environment with multimedia, printing, and input method support. No Andiora branding.</PackageDescription>
+    <Section>metapackages</Section>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>all</TargetArchitectures>
+    <Component>main</Component>
+    <SuiteShortNameMap>noble-addon=noble resolute-addon=resolute</SuiteShortNameMap>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ============================================================
+         Layer 0 — must have the system foundation first
+         ============================================================ -->
+    <Dependency Include="andiora-core-system" />
+
+    <!-- ============================================================
+         Display Manager & GNOME Shell Session
+         Removing any of these = no graphical login / no desktop.
+         ============================================================ -->
+    <Dependency Include="gdm3" />
+    <Dependency Include="gnome-shell" />
+    <Dependency Include="gnome-session" />
+    <Dependency Include="xwayland" />
+    <Dependency Include="wayland-protocols" />
+
+    <!-- ============================================================
+         XDG Desktop Portals
+         Flatpak sandboxing, Wayland screen sharing, file dialogs.
+         Without these, Flatpak apps can't open files or share the screen.
+         Both backends are shipped: gnome (primary) and gtk (fallback).
+         ============================================================ -->
+    <Dependency Include="xdg-desktop-portal" />
+    <Dependency Include="xdg-desktop-portal-gnome" />
+    <Dependency Include="xdg-desktop-portal-gtk" />
+
+    <!-- ============================================================
+         GNOME Core Components
+         These are the backbone of the GNOME desktop.
+         ============================================================ -->
+    <Dependency Include="gnome-control-center" />
+    <Dependency Include="nautilus" />
+    <Dependency Include="gnome-keyring" />
+    <Dependency Include="gnome-keyring-pkcs11" />
+    <Dependency Include="libpam-gnome-keyring" />
+    <Dependency Include="policykit-desktop-privileges" />
+    <Dependency Include="andiora-session | ubuntu-session | gnome-session" />
+
+    <!-- ============================================================
+         PipeWire Multimedia Stack
+         ============================================================ -->
+    <Dependency Include="pipewire" />
+    <Dependency Include="pipewire-pulse" />
+    <Dependency Include="wireplumber" />
+
+    <!-- ============================================================
+         GStreamer Core (required for system sound events & media keys)
+         ============================================================ -->
+    <Dependency Include="gstreamer1.0-plugins-base" />
+    <Dependency Include="gstreamer1.0-plugins-good" />
+    <Dependency Include="gstreamer1.0-pipewire" />
+
+    <!-- ============================================================
+         Graphics & GPU
+         ============================================================ -->
+    <Dependency Include="mesa-vulkan-drivers" />
+
+    <!-- ============================================================
+         Input Method (IBus core framework only; language-specific engines
+         are selected and installed by the native installer)
+         ============================================================ -->
+    <Dependency Include="ibus" />
+
+    <!-- ============================================================
+         Firmware sof and alsa-ucm-conf: for audio on Intel devices
+         ============================================================ -->
+    <Dependency Include="firmware-sof-andiora | firmware-sof-signed" />
+    <Dependency Include="alsa-ucm-conf-andiora | alsa-ucm-conf" />
+
+    <!-- ============================================================
+         Power Management
+         ============================================================ -->
+    <Dependency Include="upower" />
+
+    <!-- ============================================================
+         Python (required by GNOME extensions & system tools)
+         ============================================================ -->
+    <Dependency Include="python3" />
+    <Dependency Include="python3-minimal" />
+
+    <!-- ============================================================
+         System Essentials
+         ============================================================ -->
+    <Dependency Include="apt-transport-https" />
+    <Dependency Include="systemd-timesyncd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- ============================================================
+         Recommends: Brand session (preferred, removable)
+         ============================================================ -->
+    <Recommend Include="andiora-session" />
+
+    <!-- ============================================================
+         Recommends: Brand firmware & audio config
+         ============================================================ -->
+    <Recommend Include="firmware-sof-andiora" />
+    <Recommend Include="alsa-ucm-conf-andiora" />
+
+    <!-- ============================================================
+         Recommends: GNOME menus & terminal
+         ============================================================ -->
+    <Recommend Include="gnome-menus" />
+    <Recommend Include="gir1.2-gmenu-3.0" />
+    <Recommend Include="ptyxis" />
+    <Recommend Include="andiora-bash-guess-command" />
+
+    <!-- ============================================================
+         Recommends: Sound theme & event sounds
+         ============================================================ -->
+    <Recommend Include="yaru-theme-sound" />
+    <Recommend Include="libcanberra-pulse" />
+    <Recommend Include="libcanberra-gtk3-module" />
+    <Recommend Include="libcanberra0" />
+
+    <!-- ============================================================
+         Recommends: GStreamer desktop integration
+
+         Extended codec plugins deliberately live in the optional
+         andiora-multimedia-codecs metapackage. Celluloid, libmpv, FFmpeg,
+         and the GStreamer base/good sets continue to provide useful
+         out-of-box playback without that optional package.
+         ============================================================ -->
+    <Recommend Include="gstreamer1.0-alsa" />
+    <Recommend Include="gstreamer1.0-gl" />
+    <Recommend Include="gstreamer1.0-gtk3" />
+    <Recommend Include="gstreamer1.0-x" />
+
+    <!-- ============================================================
+         Recommends: ALSA legacy tools (PipeWire handles audio now)
+         ============================================================ -->
+    <Recommend Include="alsa-utils" />
+    <Recommend Include="alsa-base" />
+    <Recommend Include="alsa-topology-conf" />
+
+    <!-- ============================================================
+         Recommends: Power & firmware (non-essential)
+         ============================================================ -->
+    <Recommend Include="power-profiles-daemon" />
+    <Recommend Include="fwupd" />
+    <Recommend Include="fwupd-signed" />
+
+    <!-- ============================================================
+         Recommends: IBus input method addons
+         ============================================================ -->
+    <Recommend Include="ibus-gtk" />
+    <Recommend Include="ibus-gtk3" />
+    <Recommend Include="ibus-gtk4" />
+    <Recommend Include="im-config" />
+
+    <!-- ============================================================
+         Recommends: Python extras
+         ============================================================ -->
+    <Recommend Include="python-is-python3" />
+    <Recommend Include="python3-babel" />
+
+    <!-- ============================================================
+         Recommends: Desktop utilities
+         ============================================================ -->
+    <Recommend Include="xdg-utils" />
+    <Recommend Include="xdg-user-dirs" />
+    <Recommend Include="xdg-user-dirs-gtk" />
+    <Recommend Include="zenity" />
+    <Recommend Include="ubuntu-drivers-common" />
+    <Recommend Include="gvfs-fuse" />
+    <Recommend Include="gvfs-backends" />
+    <Recommend Include="appstream" />
+    <Recommend Include="gnupg" />
+    <Recommend Include="lsb-release" />
+
+    <!-- ============================================================
+         Recommends: Dev & admin CLI tools
+         ============================================================ -->
+    <Recommend Include="libsass1" />
+    <Recommend Include="whiptail" />
+    <Recommend Include="gdisk" />
+    <Recommend Include="eatmydata" />
+    <Recommend Include="patch" />
+    <Recommend Include="less" />
+    <Recommend Include="xxd" />
+    <Recommend Include="exfatprogs" />
+    <Recommend Include="iw" />
+    <Recommend Include="sysstat" />
+
+    <!-- ============================================================
+         Andiora why command placeholder
+         Prompts user to install andiora-why-ai for full AI assistant.
+         ============================================================ -->
+    <Recommend Include="andiora-why-placeholder" />
+
+    <!-- ============================================================
+         Recommends: Desktop extras (safe to remove)
+         ============================================================ -->
+    <Recommend Include="gnome-remote-desktop" />
+    <Recommend Include="spice-vdagent" />
+    <Recommend Include="unattended-upgrades" />
+    <Recommend Include="wsdd" />
+    <Recommend Include="squashfs-tools" />
+    <Recommend Include="libcanberra-gtk3-0" />
+
+    <!-- ============================================================
+         Recommends: Printing & Scanning
+         Users without printers should be able to remove these
+         without breaking the desktop metapackage.
+         ============================================================ -->
+    <Recommend Include="system-config-printer" />
+    <Recommend Include="printer-driver-all" />
+    <Recommend Include="cups" />
+    <Recommend Include="cups-bsd" />
+    <Recommend Include="cups-browsed" />
+    <Recommend Include="cups-pk-helper" />
+    <Recommend Include="ipp-usb" />
+    <Recommend Include="sane-airscan" />
+    <Recommend Include="sane-utils" />
+    <!-- simple-scan moved to andiora-desktop-apps -->
+
+    <!-- ============================================================
+         Accessibility
+         Users who don't need screen readers / TTS can remove.
+         ============================================================ -->
+    <Recommend Include="orca" />
+    <Recommend Include="speech-dispatcher" />
+    <Recommend Include="speech-dispatcher-espeak-ng" />
+    <Recommend Include="speech-dispatcher-audio-plugins" />
+    <Recommend Include="espeak-ng-data" />
+
+    <!-- ============================================================
+         VPN Plugins
+         ============================================================ -->
+    <Recommend Include="openvpn" />
+    <Recommend Include="network-manager-openvpn" />
+    <Recommend Include="network-manager-openvpn-gnome" />
+    <Recommend Include="network-manager-pptp" />
+    <Recommend Include="network-manager-pptp-gnome" />
+
+    <!-- ============================================================
+         Extra GStreamer Tools
+         ============================================================ -->
+    <Recommend Include="gstreamer1.0-tools" />
+    <Recommend Include="gstreamer1.0-packagekit" />
+    <Recommend Include="gstreamer1.0-plugins-base-apps" />
+
+    <!-- ============================================================
+         Biometric Authentication
+         ============================================================ -->
+    <Recommend Include="fprintd" />
+    <Recommend Include="bolt" />
+    <Recommend Include="iio-sensor-proxy" />
+  </ItemGroup>
+</Project>

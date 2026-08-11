@@ -1,0 +1,227 @@
+# Andiora Appearance — Swedish translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Om Andiora-utseende"
+
+msgid "Advanced"
+msgstr "Avancerat"
+
+msgid "Andiora Appearance"
+msgstr "Andiora-utseende"
+
+msgid "Andiora Team"
+msgstr "Andiora-teamet"
+
+msgid "Appearance"
+msgstr "Utseende"
+
+msgid "Apply to Login Screen"
+msgstr "Tillämpa på inloggningsskärm"
+
+msgid "Bottom"
+msgstr "Nederkant"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Välj en bild för GDM-inloggningsskärmens bakgrund."
+
+msgid "Choose the visual style of your taskbar."
+msgstr "Välj det visuella stilen för din aktivitetsfält."
+
+msgid "Choose…"
+msgstr "Välj…"
+
+msgid "Classic"
+msgstr "Klassisk"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Slå samman flera fönster från en app till en ikon"
+
+msgid "Danger Zone"
+msgstr "Farozon"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Visa aktivitetsknappen i aktivitetsfältet"
+
+msgid "Enable grouping"
+msgstr "Aktivera gruppering"
+
+msgid "Extension Settings"
+msgstr "Tilläggsinställningar"
+
+msgid "GDM Wallpaper"
+msgstr "GDM-bakgrund"
+
+msgid "Group apps"
+msgstr "Gruppera appar"
+
+msgid "Images"
+msgstr "Bilder"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Separera startikoner från körande appar"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Left"
+msgstr "Vänster"
+
+msgid "Login Screen Wallpaper"
+msgstr "Bakgrund för inloggningsskärm"
+
+msgid "Open"
+msgstr "Öppna"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "Öppna inställningsfönstren för paneltillägg."
+
+msgid "Panel Indicators"
+msgstr "Panelindikatorer"
+
+msgid "Panel Widgets"
+msgstr "Panelwidgetar"
+
+msgid "Preview"
+msgstr "Förhandsgranskning"
+
+msgid "Reset"
+msgstr "Återställ"
+
+msgid "Reset desktop settings"
+msgstr "Återställ skrivbordsinställningar"
+
+msgid "Reset desktop settings?"
+msgstr "Återställ skrivbordsinställningar?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "Återställ alla GNOME Shell-inställningar till fabriksstandard"
+
+msgid "Right"
+msgstr "Höger"
+
+msgid "Select image"
+msgstr "Välj bild"
+
+msgid "Seperated"
+msgstr "Separerad"
+
+msgid "Show Activities Button"
+msgstr "Visa aktivitetsknapp"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "Visa nätverk"
+
+msgid "Show Weather"
+msgstr "Visa väder"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Visa eller dölj inbyggda panelelement."
+
+msgid "Taskbar Elements"
+msgstr "Aktivitetsfältselement"
+
+msgid "Taskbar Style"
+msgstr "Aktivitetsfältets stil"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "Växla panelindikatorwidgetar på eller av."
+
+msgid "Top"
+msgstr "Överkant"
+
+msgid "Tweaks"
+msgstr "Justeringar"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Vista-aktivitetsfältsbeteende"
+
+msgid "Wallpaper"
+msgstr "Bakgrundsbild"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Aktivitetsknapp — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ Verkligen — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ Skrivbordsinställningar återställda. Starta om Shell för att tillämpa.✓ Skrivbordsinställningar återställda. Starta om Shell för att tillämpa."
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ GDM-bakgrund tillämpad"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}ad"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ Misslyckades med att tillämpa position"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ Misslyckades med att tillämpa stil"
+
+msgid "✗ Failed to reset"
+msgstr "✗ Misslyckades med att återställa"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Misslyckades med att ställa in GDM-bakgrund"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Kunde inte växla aktivitetsknapp"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ Misslyckades med att {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ Välj en bild först"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "Detta återställer alla GNOME Shell-inställningar till fabriksstandard.\n"
+#~ "Dina tillägg, panellayout och inställningar kommer att gå förlorade."
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "Aktivitetsfältets position"
+
+#~ msgid "Panel Position"
+#~ msgstr "Panelsposition"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "Välj var ditt aktivitetsfält placeras på skärmen."

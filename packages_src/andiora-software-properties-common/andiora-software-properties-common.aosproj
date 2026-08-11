@@ -1,0 +1,53 @@
+<Project Sdk="Aiursoft.Apkg.Sdk">
+  <PropertyGroup>
+    <PackageName>andiora-software-properties-common</PackageName>
+    <PackageVersion>2.0.0+$(UpstreamVersion)-2+$(SuiteShortName)</PackageVersion>
+    <Maintainer>Andiora Team &lt;anduin@aiursoft.com&gt;</Maintainer>
+    <PackageDescription>Andiora fork of software-properties-common — manage APT repositories and PPAs</PackageDescription>
+    <Section>admin</Section>
+    <PackageHomepage>https://www.andiora.com</PackageHomepage>
+    <RepositoryUrl>https://github.com/AiursoftWeb/Andiora-Packages</RepositoryUrl>
+    <LicenseType>GPL-3.0</LicenseType>
+    <TargetDistro>andiora</TargetDistro>
+    <TargetSuites>noble-addon resolute-addon</TargetSuites>
+    <TargetArchitectures>all</TargetArchitectures>
+    <Component>main</Component>
+
+    <!-- Derive from Ubuntu's software-properties-common, then patch -->
+    <UpstreamUrl>https://mirror.aiursoft.com/ubuntu</UpstreamUrl>
+    <UpstreamDistro>ubuntu</UpstreamDistro>
+    <UpstreamPackage>software-properties-common</UpstreamPackage>
+    <UpstreamSuite>$(Suite)</UpstreamSuite>
+    <UpstreamSuiteMapping>noble-addon=noble,, resolute-addon=resolute</UpstreamSuiteMapping>
+    <UpstreamComponent>$(Component)</UpstreamComponent>
+    <UpstreamArch>amd64</UpstreamArch>
+
+    <!-- Fork identity: replaces Ubuntu's package -->
+    <Provides>software-properties-common</Provides>
+    <Conflicts>software-properties-common</Conflicts>
+    <Replaces>software-properties-common</Replaces>
+    <SuppressUpstreamScripts>true</SuppressUpstreamScripts>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--
+      Patch add-apt-repository: PPA detection uses get_distro().id to look up
+      mirror templates.  Our distro id is "andiora" which python-apt doesn't
+      know about.  Inject self.distro.id = 'ubuntu' so PPA add/remove works
+      without having to maintain a fork of python-apt itself.
+    -->
+    <PrebuildCommand Run="for f in obj/*/usr/bin/add-apt-repository; do sed -i '/self.distro = get_distro()/a \        self.distro.id = '\''ubuntu'\'' # Patched by Andiora' &quot;$f&quot;; done" />
+
+    <!--
+      Symlink andiora.info → ubuntu.info (python-apt-common) and
+      andiora.csv → ubuntu.csv (distro-info-data).  dpkg packages
+      relative symlinks natively; they resolve at install time against
+      the system's Ubuntu data files — always up-to-date, zero maintenance.
+    -->
+    <PrebuildCommand Run="for d in obj/*; do mkdir -p &quot;$d/usr/share/python-apt/templates&quot; &quot;$d/usr/share/distro-info&quot; &amp;&amp; ln -sf ubuntu.info &quot;$d/usr/share/python-apt/templates/andiora.info&quot; &amp;&amp; ln -sf ubuntu.csv &quot;$d/usr/share/distro-info/andiora.csv&quot;; done" />
+
+    <!-- Guarantee symlink targets exist at runtime -->
+    <Dependency Include="python-apt-common" />
+    <Dependency Include="distro-info-data" />
+  </ItemGroup>
+</Project>

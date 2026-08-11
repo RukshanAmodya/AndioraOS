@@ -1,0 +1,402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ufwall-gtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 09:51+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "0 = append at end"
+msgstr "0 = dodaj na końcu"
+
+msgid "About"
+msgstr "O programie"
+
+msgid "Action"
+msgstr "Akcja"
+
+msgid "Active"
+msgstr "Aktywny"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "Add Rule"
+msgstr "Dodaj regułę"
+
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+msgid "All"
+msgstr "Wszystkie"
+
+msgid "Allow"
+msgstr "Zezwól"
+
+msgid "Allow applications with predefined rules."
+msgstr "Zezwalaj aplikacjom z predefiniowanymi regułami."
+
+msgid "Application Profiles"
+msgstr "Profile aplikacji"
+
+msgid "Audit"
+msgstr "Audyt"
+
+msgid "Auditor Error"
+msgstr "Błąd audytora"
+
+msgid "Block"
+msgstr "Zablokuj"
+
+msgid "Block Connection?"
+msgstr "Zablokować połączenie?"
+
+msgid "Block inbound traffic from"
+msgstr "Zablokuj ruch przychodzący z"
+
+msgid "Block outbound traffic to"
+msgstr "Zablokuj ruch wychodzący do"
+
+msgid "Blocked Events"
+msgstr "Zablokowane zdarzenia"
+
+msgid "Blocked Successfully"
+msgstr "Zablokowano pomyślnie"
+
+msgid "Both"
+msgstr "Oba"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+#, fuzzy
+msgid "Local Network Discovery"
+msgstr "Multicast DNS do wykrywania w sieci lokalnej"
+
+msgid "Control multicast DNS discovery and .local name resolution."
+msgstr ""
+
+msgid "Local Network Discovery (mDNS)"
+msgstr ""
+
+msgid "Checking service status…"
+msgstr ""
+
+msgid "Network Discovery Error"
+msgstr ""
+
+msgid "Avahi is not installed."
+msgstr ""
+
+msgid "Avahi is running; .local names and service discovery are available."
+msgstr ""
+
+msgid "Avahi is enabled but not currently running."
+msgstr ""
+
+msgid "Avahi is blocked; .local names and service discovery are unavailable."
+msgstr ""
+
+msgid "Comment"
+msgstr "Komentarz"
+
+msgid "Custom"
+msgstr "Własny"
+
+msgid "Dashboard"
+msgstr "Panel"
+
+msgid "Default Policies"
+msgstr "Domyślne zasady"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "Delete All"
+msgstr "Usuń wszystko"
+
+msgid "Delete All Rules?"
+msgstr "Usunąć wszystkie reguły?"
+
+msgid "Delete Rule"
+msgstr "Usuń regułę"
+
+msgid "Delete rule"
+msgstr "Usuń regułę"
+
+msgid "Deny"
+msgstr "Odrzuć"
+
+msgid "Destination IP"
+msgstr "IP docelowy"
+
+msgid "Direction"
+msgstr "Kierunek"
+
+msgid "Error"
+msgstr "Błąd"
+
+msgid "Failed to Block"
+msgstr "Nie udało się zablokować"
+
+msgid "Firewall"
+msgstr "Zapora sieciowa"
+
+msgid "Firewall Rules"
+msgstr "Zasady zapory sieciowej"
+
+msgid "Full"
+msgstr "Pełny"
+
+msgid "High"
+msgstr "Wysoki"
+
+msgid "In"
+msgstr "We"
+
+msgid "Inactive"
+msgstr "Nieaktywne"
+
+msgid "Inbound"
+msgstr "Przychodzący"
+
+msgid "Incoming"
+msgstr "Przychodzące"
+
+msgid "Insert Before Rule"
+msgstr "Wstaw przed regułę"
+
+msgid "Interface"
+msgstr "Interfejs"
+
+msgid "Limit"
+msgstr "Limit"
+
+msgid "Listening Ports"
+msgstr "Porty nasłuchujące"
+
+msgid "Log Level"
+msgstr "Poziom logowania"
+
+msgid "Logging"
+msgstr "Rejestracja"
+
+msgid "Low"
+msgstr "Niski"
+
+msgid "Medium"
+msgstr "Średni"
+
+msgid "Monitoring Network Activity"
+msgstr "Monitorowanie aktywności sieciowej"
+
+msgid "No Profiles"
+msgstr "Brak profili"
+
+msgid "No Rules"
+msgstr "Brak reguł"
+
+msgid "No application profiles found"
+msgstr "Nie znaleziono profili aplikacji"
+
+msgid "No blocked connections in recent events"
+msgstr "Brak zablokowanych połączeń w ostatnich zdarzeniach"
+
+msgid "No blocked ports in recent events"
+msgstr "Brak zablokowanych portów w ostatnich zdarzeniach"
+
+msgid "No listening ports detected"
+msgstr "Nie wykryto żadnych nasłuchujących portów"
+
+msgid "Off"
+msgstr "Wył."
+
+msgid "Out"
+msgstr "Out"
+
+msgid "Outbound"
+msgstr "Wychodzący"
+
+msgid "Outgoing"
+msgstr "Wychodzące"
+
+msgid "Pause list updates"
+msgstr "Wstrzymaj aktualizacje listy"
+
+msgid "Port / Protocol"
+msgstr "Port / Protokół"
+
+msgid "Port / Service Name"
+msgstr "Port / Nazwa usługi"
+
+msgid "Profiles"
+msgstr "Profile"
+
+msgid "Protocol"
+msgstr "Protokół"
+
+msgid "Quick Allow Port"
+msgstr "Szybkie zezwolenie na port"
+
+msgid "Recent Blocked Events"
+msgstr "Ostatnie zdarzenia zablokowane"
+
+msgid "Recent Events Parsed"
+msgstr "Ostatnie zdarzenia przeanalizowane"
+
+msgid "Refresh"
+msgstr "Odśwież"
+
+msgid "Reject"
+msgstr "Odrzuć"
+
+msgid "Resolve Domains"
+msgstr "Rozwiązywanie domen"
+
+msgid "Rule added to block"
+msgstr "Reguła dodana do blokad"
+
+msgid "Rules"
+msgstr "Zasady"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Search Process or IP..."
+msgstr "Szukaj procesu lub IP..."
+
+msgid "Search rules..."
+msgstr "Szukaj reguł..."
+
+msgid "Service"
+msgstr "Usługa"
+
+msgid "Show"
+msgstr "Pokaż"
+
+msgid "Source IP"
+msgstr "Źródłowy adres IP"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "There are no rules configured yet."
+msgstr "Nie skonfigurowano jeszcze żadnych reguł."
+
+msgid "This will delete all custom rules. This action cannot be undone."
+msgstr ""
+"Spowoduje to usunięcie wszystkich niestandardowych reguł. Tej operacji nie "
+"można cofnąć."
+
+msgid ""
+"This will prevent the remote host from sending any packets to your machine."
+msgstr ""
+"Zablokuje to zdalny host przed wysyłaniem pakietów do Twojego komputera."
+
+msgid ""
+"This will prevent your machine from sending any packets to the remote host."
+msgstr ""
+"Zapobiegnie to wysyłaniu przez Twój komputer pakietów do zdalnego hosta."
+
+msgid "Top Blocked Connections"
+msgstr "Najczęściej blokowane połączenia"
+
+msgid "Top Blocked Ports"
+msgstr "Najczęściej blokowane porty"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "e.g. 80,443/tcp or 8080"
+msgstr "np. 80,443/tcp lub 8080"
+
+msgid "BitTorrent client"
+msgstr "Klient BitTorrent"
+
+msgid "Common UNIX Printing System server"
+msgstr "Serwer Common UNIX Printing System"
+
+msgid "Continuous file synchronization"
+msgstr "Ciągła synchronizacja plików"
+
+msgid "Docker container runtime API"
+msgstr "API środowiska wykonawczego kontenerów Dockera"
+
+msgid "Domain Name System server"
+msgstr "Serwer systemu DNS"
+
+msgid "Extensible Messaging and Presence Protocol"
+msgstr "Protokół rozszerzonego przesyłania wiadomości i obecności (XMPP)"
+
+msgid "File Transfer Protocol"
+msgstr "Protokół transferu plików (FTP)"
+
+msgid "File synchronization service"
+msgstr "Serwis synchronizacji plików"
+
+msgid "Hypertext Transfer Protocol for web servers"
+msgstr "Protokół transferu hipertextu dla serwerów WWW"
+
+msgid "In-memory data structure store"
+msgstr "Zaplecze struktur danych w pamięci operacyjnej"
+
+msgid "Internet Message Access Protocol for email"
+msgstr ""
+"Protokół dostępu do wiadomości pocztowych Internet Message Access Protocol "
+"(IMAP)"
+
+msgid "Lightweight Directory Access Protocol"
+msgstr "Lekki protokół dostępu do katalogów (LDAP)"
+
+msgid "Media streaming server"
+msgstr "Serwer przesyłania mediów strumieniowo"
+
+msgid "Modern VPN tunnel"
+msgstr "Współczesny tunel VPN"
+
+msgid "Multicast DNS for local network discovery"
+msgstr "Multicast DNS do wykrywania w sieci lokalnej"
+
+msgid "MySQL database server"
+msgstr "Serwer bazy danych MySQL"
+
+msgid "Network File System"
+msgstr "System plików sieciowych (NFS)"
+
+msgid "Network Time Protocol"
+msgstr "Port / Protokół"
+
+msgid "NoSQL document database"
+msgstr "Baza dokumentów NoSQL"
+
+msgid "Phone and desktop integration"
+msgstr "Integracja telefonu i komputera stacjonarnego"
+
+msgid "Plex media streaming server"
+msgstr "Serwer przesyłania mediów strumieniowo Plex"
+
+msgid "Post Office Protocol for email retrieval"
+msgstr "Protokół poczty pocztowej (POP) do pobierania wiadomości"
+
+msgid "PostgreSQL database server"
+msgstr "Serwer bazy danych PostgreSQL"
+
+msgid "Remote Desktop Protocol"
+msgstr "Port / Protokół"
+
+msgid "Secure HTTP for web servers"
+msgstr "Zabezpieczony protokół transferu hipertextu dla serwerów WWW"
+
+msgid "Secure shell remote access"
+msgstr "Zdalny dostęp przez bezpieczną powłokę (SSH)"
+
+msgid "Simple Mail Transfer Protocol"
+msgstr "Lekki protokół transferu poczty (SMTP)"
+
+msgid "Virtual Network Computing remote desktop"
+msgstr "Zdalny pulpit VNC"
+
+msgid "Windows file and printer sharing"
+msgstr "Współdzielenie plików i drukarek w systemie Windows"

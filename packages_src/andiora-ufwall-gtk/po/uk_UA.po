@@ -1,0 +1,402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ufwall-gtk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-14 09:51+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "0 = append at end"
+msgstr "0 = додати в кінець"
+
+msgid "About"
+msgstr "Про програму"
+
+msgid "Action"
+msgstr "Дія"
+
+msgid "Active"
+msgstr "Активний"
+
+msgid "Add"
+msgstr "Додати"
+
+msgid "Add Rule"
+msgstr "Додати правило"
+
+msgid "Advanced"
+msgstr "Додатково"
+
+msgid "All"
+msgstr "Усі"
+
+msgid "Allow"
+msgstr "Дозволити"
+
+msgid "Allow applications with predefined rules."
+msgstr "Дозволити програмам з попередньо визначеними правилами."
+
+msgid "Application Profiles"
+msgstr "Профілі застосунків"
+
+msgid "Audit"
+msgstr "Аудит"
+
+msgid "Auditor Error"
+msgstr "Помилка аудитора"
+
+msgid "Block"
+msgstr "Блокувати"
+
+msgid "Block Connection?"
+msgstr "Блокувати з'єднання?"
+
+msgid "Block inbound traffic from"
+msgstr "Заблокувати вхідний трафік від"
+
+msgid "Block outbound traffic to"
+msgstr "Заблокувати вихідний трафік до"
+
+msgid "Blocked Events"
+msgstr "Заблоковані події"
+
+msgid "Blocked Successfully"
+msgstr "Успішно заблоковано"
+
+msgid "Both"
+msgstr "Обидва"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+#, fuzzy
+msgid "Local Network Discovery"
+msgstr "Multicast DNS для виявлення в локальній мережі"
+
+msgid "Control multicast DNS discovery and .local name resolution."
+msgstr ""
+
+msgid "Local Network Discovery (mDNS)"
+msgstr ""
+
+msgid "Checking service status…"
+msgstr ""
+
+msgid "Network Discovery Error"
+msgstr ""
+
+msgid "Avahi is not installed."
+msgstr ""
+
+msgid "Avahi is running; .local names and service discovery are available."
+msgstr ""
+
+msgid "Avahi is enabled but not currently running."
+msgstr ""
+
+msgid "Avahi is blocked; .local names and service discovery are unavailable."
+msgstr ""
+
+msgid "Comment"
+msgstr "Коментар"
+
+msgid "Custom"
+msgstr "Користувацький"
+
+msgid "Dashboard"
+msgstr "Головна"
+
+msgid "Default Policies"
+msgstr "Типові політики"
+
+msgid "Delete"
+msgstr "Видалити"
+
+msgid "Delete All"
+msgstr "Видалити все"
+
+msgid "Delete All Rules?"
+msgstr "Видалити всі правила?"
+
+msgid "Delete Rule"
+msgstr "Видалити правило"
+
+msgid "Delete rule"
+msgstr "Видалити правило"
+
+msgid "Deny"
+msgstr "Заборонити"
+
+msgid "Destination IP"
+msgstr "IP-адреса призначення"
+
+msgid "Direction"
+msgstr "Напрямок"
+
+msgid "Error"
+msgstr "Помилка"
+
+msgid "Failed to Block"
+msgstr "Не вдалося заблокувати"
+
+msgid "Firewall"
+msgstr "Файрвол"
+
+msgid "Firewall Rules"
+msgstr "Правила брандмауера"
+
+msgid "Full"
+msgstr "Повний"
+
+msgid "High"
+msgstr "Високий"
+
+msgid "In"
+msgstr "Вхід"
+
+msgid "Inactive"
+msgstr "Неактивний"
+
+msgid "Inbound"
+msgstr "Вхідний"
+
+msgid "Incoming"
+msgstr "Вхідні"
+
+msgid "Insert Before Rule"
+msgstr "Вставити перед правилом"
+
+msgid "Interface"
+msgstr "Інтерфейс"
+
+msgid "Limit"
+msgstr "Обмеження"
+
+msgid "Listening Ports"
+msgstr "Порти прослуховування"
+
+msgid "Log Level"
+msgstr "Рівень журналу"
+
+msgid "Logging"
+msgstr "Журналювання"
+
+msgid "Low"
+msgstr "Низький"
+
+msgid "Medium"
+msgstr "Середній"
+
+msgid "Monitoring Network Activity"
+msgstr "Моніторинг мережевої активності"
+
+msgid "No Profiles"
+msgstr "Немає профілів"
+
+msgid "No Rules"
+msgstr "Немає правил"
+
+msgid "No application profiles found"
+msgstr "Профілі застосунків не знайдено"
+
+msgid "No blocked connections in recent events"
+msgstr "Немає заблокованих з’єднань у недавніх подіях"
+
+msgid "No blocked ports in recent events"
+msgstr "Немає заблокованих портів у недавніх подіях"
+
+msgid "No listening ports detected"
+msgstr "Не виявлено жодного порту, що слухає"
+
+msgid "Off"
+msgstr "Вимкнено"
+
+msgid "Out"
+msgstr "Назовні"
+
+msgid "Outbound"
+msgstr "Вихідний"
+
+msgid "Outgoing"
+msgstr "Вихідні"
+
+msgid "Pause list updates"
+msgstr "Призупинити оновлення списків"
+
+msgid "Port / Protocol"
+msgstr "Порт / Протокол"
+
+msgid "Port / Service Name"
+msgstr "Порт / Назва служби"
+
+msgid "Profiles"
+msgstr "Профілі"
+
+msgid "Protocol"
+msgstr "Протокол"
+
+msgid "Quick Allow Port"
+msgstr "Швидко дозволити порт"
+
+msgid "Recent Blocked Events"
+msgstr "Нещодавні заблоковані події"
+
+msgid "Recent Events Parsed"
+msgstr "Нещодавні події розібрано"
+
+msgid "Refresh"
+msgstr "Оновити"
+
+msgid "Reject"
+msgstr "Відхилити"
+
+msgid "Resolve Domains"
+msgstr "Розв'язати домени"
+
+msgid "Rule added to block"
+msgstr "Правило додано до блокування"
+
+msgid "Rules"
+msgstr "Правила"
+
+msgid "Save"
+msgstr "Зберегти"
+
+msgid "Search Process or IP..."
+msgstr "Пошук процесу або IP..."
+
+msgid "Search rules..."
+msgstr "Пошук правил..."
+
+msgid "Service"
+msgstr "Служба"
+
+msgid "Show"
+msgstr "Показати"
+
+msgid "Source IP"
+msgstr "Вихідна IP-адреса"
+
+msgid "Status"
+msgstr "Стан"
+
+msgid "TCP"
+msgstr "TCP"
+
+msgid "There are no rules configured yet."
+msgstr "Правила ще не налаштовано."
+
+msgid "This will delete all custom rules. This action cannot be undone."
+msgstr ""
+"Це призведе до видалення всіх користувацьких правил. Цю дію не можна "
+"скасувати."
+
+msgid ""
+"This will prevent the remote host from sending any packets to your machine."
+msgstr ""
+"Це запобігатиме надсиланню пакетів від віддаленого хоста на ваш комп'ютер."
+
+msgid ""
+"This will prevent your machine from sending any packets to the remote host."
+msgstr ""
+"Це запобігатиме надсиланню пакетів з вашого комп'ютера на віддалений хост."
+
+msgid "Top Blocked Connections"
+msgstr "Найбільш блоковані з'єднання"
+
+msgid "Top Blocked Ports"
+msgstr "Найбільш заблоковані порти"
+
+msgid "UDP"
+msgstr "UDP"
+
+msgid "e.g. 80,443/tcp or 8080"
+msgstr "напр. 80,443/tcp або 8080"
+
+msgid "BitTorrent client"
+msgstr "Клієнт BitTorrent"
+
+msgid "Common UNIX Printing System server"
+msgstr "Сервер Common UNIX Printing System"
+
+msgid "Continuous file synchronization"
+msgstr "Безперервна синхронізація файлів"
+
+msgid "Docker container runtime API"
+msgstr "Runtime API контейнера Docker"
+
+msgid "Domain Name System server"
+msgstr "Сервер системи імен доменів (DNS)"
+
+msgid "Extensible Messaging and Presence Protocol"
+msgstr ""
+"Протокол розширюваного обміну повідомленнями та відстеження присутності "
+"(XMPP)"
+
+msgid "File Transfer Protocol"
+msgstr "Протокол передачі файлів (FTP)"
+
+msgid "File synchronization service"
+msgstr "Сервіс синхронізації файлів"
+
+msgid "Hypertext Transfer Protocol for web servers"
+msgstr "Протокол передачі гіпертексту (HTTP) для веб-серверів"
+
+msgid "In-memory data structure store"
+msgstr "Сховище структур даних в оперативній пам'яті"
+
+msgid "Internet Message Access Protocol for email"
+msgstr "Протокол доступу до поштових повідомлень (IMAP) для електронної пошти"
+
+msgid "Lightweight Directory Access Protocol"
+msgstr "Легковажний протокол доступу до каталогів (LDAP)"
+
+msgid "Media streaming server"
+msgstr "Сервер потокової передачі медіа"
+
+msgid "Modern VPN tunnel"
+msgstr "Сучасний тунель VPN"
+
+msgid "Multicast DNS for local network discovery"
+msgstr "Multicast DNS для виявлення в локальній мережі"
+
+msgid "MySQL database server"
+msgstr "Сервер бази даних MySQL"
+
+msgid "Network File System"
+msgstr "Мережева файловая система (NFS)"
+
+msgid "Network Time Protocol"
+msgstr "Порт / Протокол"
+
+msgid "NoSQL document database"
+msgstr "Документна база даних NoSQL"
+
+msgid "Phone and desktop integration"
+msgstr "Інтеграція телефону та комп'ютера"
+
+msgid "Plex media streaming server"
+msgstr "Сервер потокової передачі медіа Plex"
+
+msgid "Post Office Protocol for email retrieval"
+msgstr "Протокол поштового відділення (POP) для отримання електронної пошти"
+
+msgid "PostgreSQL database server"
+msgstr "Сервер бази даних PostgreSQL"
+
+msgid "Remote Desktop Protocol"
+msgstr "Порт / Протокол"
+
+msgid "Secure HTTP for web servers"
+msgstr "Безпечний HTTP (HTTPS) для веб-серверів"
+
+msgid "Secure shell remote access"
+msgstr "Безпечний доступ до оболонки (SSH)"
+
+msgid "Simple Mail Transfer Protocol"
+msgstr "Протокол передачі пошти (SMTP)"
+
+msgid "Virtual Network Computing remote desktop"
+msgstr "Віддалений робочий стіл VNC"
+
+msgid "Windows file and printer sharing"
+msgstr "Спільний доступ до файлів і принтерів Windows"

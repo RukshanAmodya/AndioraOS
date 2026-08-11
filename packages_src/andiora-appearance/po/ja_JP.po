@@ -1,0 +1,227 @@
+# Andiora Appearance — Japanese translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "Andiora の外観について"
+
+msgid "Advanced"
+msgstr "詳細設定"
+
+msgid "Andiora Appearance"
+msgstr "Andiora の外観"
+
+msgid "Andiora Team"
+msgstr "Andiora チーム"
+
+msgid "Appearance"
+msgstr "外観"
+
+msgid "Apply to Login Screen"
+msgstr "ログイン画面に適用"
+
+msgid "Bottom"
+msgstr "下"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "GDMログイン画面の背景画像を選択してください。"
+
+msgid "Choose the visual style of your taskbar."
+msgstr "タスクバーのビジュアルスタイルを選択します。"
+
+msgid "Choose…"
+msgstr "選択…"
+
+msgid "Classic"
+msgstr "クラシック"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "同じアプリの複数のウィンドウを1つのアイコンにまとめる"
+
+msgid "Danger Zone"
+msgstr "危険ゾーン"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "タスクバーにアクティビティボタンを表示します"
+
+msgid "Enable grouping"
+msgstr "グループ化を有効にする"
+
+msgid "Extension Settings"
+msgstr "拡張機能の設定"
+
+msgid "GDM Wallpaper"
+msgstr "GDM 壁紙"
+
+msgid "Group apps"
+msgstr "アプリをグループ化"
+
+msgid "Images"
+msgstr "画像"
+
+msgid "Keep launchers separate from running apps"
+msgstr "ランチャーを実行中アプリと分離"
+
+msgid "Layout"
+msgstr "レイアウト"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Login Screen Wallpaper"
+msgstr "ログイン画面の壁紙"
+
+msgid "Open"
+msgstr "開く"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "パネルの拡張機能の設定ウィンドウを開きます。"
+
+msgid "Panel Indicators"
+msgstr "パネルインジケーター"
+
+msgid "Panel Widgets"
+msgstr "パネルウィジェット"
+
+msgid "Preview"
+msgstr "プレビュー"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Reset desktop settings"
+msgstr "デスクトップ設定をリセット"
+
+msgid "Reset desktop settings?"
+msgstr "デスクトップ設定をリセットしますか？"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "すべての GNOME Shell の設定を初期値に戻す"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Select image"
+msgstr "画像を選択"
+
+msgid "Seperated"
+msgstr "分離"
+
+msgid "Show Activities Button"
+msgstr "アクティビティボタンを表示"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "ネットワークを表示"
+
+msgid "Show Weather"
+msgstr "天気を表示"
+
+msgid "Show or hide built-in panel elements."
+msgstr "組み込みのパネル要素を表示または非表示にします。"
+
+msgid "Taskbar Elements"
+msgstr "タスクバー要素"
+
+msgid "Taskbar Style"
+msgstr "タスクバーのスタイル"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "パネルインジケーターウィジェットの表示・非表示を切り替えます。"
+
+msgid "Top"
+msgstr "上"
+
+msgid "Tweaks"
+msgstr "微調整ツール"
+
+msgid "Use Vista taskbar behavior"
+msgstr "Vista タスクバー動作を使用"
+
+msgid "Wallpaper"
+msgstr "壁紙"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ アクティビティボタン — {action}"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ 適用済み — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ デスクトップ設定がリセットされました。Shellを再起動して適用してください。✓ デスクトップ設定をリセットしました。反映するには Shell を再起動してください。"
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ GDM 壁紙を適用しました"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}済み"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ 位置の適用に失敗しました"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ スタイルの適用に失敗しました"
+
+msgid "✗ Failed to reset"
+msgstr "✗ リセットに失敗しました"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ GDM 壁紙の設定に失敗しました"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ アクティビティボタンの切り替えに失敗しました"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ {label} の {action} に失敗しました"
+
+msgid "✗ Please select an image first"
+msgstr "✗ 先に画像を選択してください"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "これにより、すべてのGNOME Shell設定が工場出荷時のデフォルトにリセットされます。\n"
+#~ "拡張機能、パネルレイアウト、および設定は失われます。"
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "タスクバーの位置"
+
+#~ msgid "Panel Position"
+#~ msgstr "パネルの位置"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "画面内でタスクバーの位置を選択します。"

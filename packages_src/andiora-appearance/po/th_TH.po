@@ -1,0 +1,227 @@
+# Andiora Appearance — Thai translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: Thai\n"
+"Language: th_TH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr "เกี่ยวกับรูปลักษณ์ของ Andiora"
+
+msgid "Advanced"
+msgstr "ขั้นสูง"
+
+msgid "Andiora Appearance"
+msgstr "รูปลักษณ์ของ Andiora"
+
+msgid "Andiora Team"
+msgstr "ทีม Andiora"
+
+msgid "Appearance"
+msgstr "รูปลักษณ์"
+
+msgid "Apply to Login Screen"
+msgstr "นำไปใช้กับหน้าจอเข้าสู่ระบบ"
+
+msgid "Bottom"
+msgstr "ล่าง"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "เลือกภาพสำหรับพื้นหลังหน้าจอเข้าสู่ระบบ GDM"
+
+msgid "Choose the visual style of your taskbar."
+msgstr "เลือกสไตล์ภาพของแถบงานของคุณ"
+
+msgid "Choose…"
+msgstr "เลือก…"
+
+msgid "Classic"
+msgstr "คลาสสิก"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "รวมหลายหน้าต่างของแอปเดียวเป็นไอคอนเดียว"
+
+msgid "Danger Zone"
+msgstr "โซนอันตราย"
+
+msgid "Display the Activities button on the taskbar"
+msgstr "แสดงปุ่มกิจกรรมบนแถบงาน"
+
+msgid "Enable grouping"
+msgstr "เปิดใช้งานการจัดกลุ่ม"
+
+msgid "Extension Settings"
+msgstr "การตั้งค่าส่วนขยาย"
+
+msgid "GDM Wallpaper"
+msgstr "วอลเปเปอร์ GDM"
+
+msgid "Group apps"
+msgstr "จัดกลุ่มแอป"
+
+msgid "Images"
+msgstr "รูปภาพ"
+
+msgid "Keep launchers separate from running apps"
+msgstr "แยกตัวเรียกใช้งานออกจากแอปที่กำลังทำงาน"
+
+msgid "Layout"
+msgstr "เลย์เอาต์"
+
+msgid "Left"
+msgstr "ซ้าย"
+
+msgid "Login Screen Wallpaper"
+msgstr "วอลเปเปอร์หน้าจอเข้าสู่ระบบ"
+
+msgid "Open"
+msgstr "เปิด"
+
+msgid "Open the preference windows of the panel extensions."
+msgstr "เปิดหน้าต่างการตั้งค่าของส่วนขยายแผง"
+
+msgid "Panel Indicators"
+msgstr "ตัวบ่งชี้แผง"
+
+msgid "Panel Widgets"
+msgstr "วิดเจ็ตแผง"
+
+msgid "Preview"
+msgstr "ตัวอย่าง"
+
+msgid "Reset"
+msgstr "รีเซ็ต"
+
+msgid "Reset desktop settings"
+msgstr "รีเซ็ตการตั้งค่าเดสก์ท็อป"
+
+msgid "Reset desktop settings?"
+msgstr "รีเซ็ตการตั้งค่าเดสก์ท็อปหรือไม่?"
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr "คืนค่าการตั้งค่า GNOME Shell ทั้งหมดเป็นค่าเริ่มต้นจากโรงงาน"
+
+msgid "Right"
+msgstr "ขวา"
+
+msgid "Select image"
+msgstr "เลือกภาพ"
+
+msgid "Seperated"
+msgstr "แยก"
+
+msgid "Show Activities Button"
+msgstr "แสดงปุ่มกิจกรรม"
+
+msgid "Show Desktop Icons"
+msgstr "Show Desktop Icons"
+
+msgid "Show Network"
+msgstr "แสดงเครือข่าย"
+
+msgid "Show Weather"
+msgstr "แสดงสภาพอากาศ"
+
+msgid "Show or hide built-in panel elements."
+msgstr "แสดงหรือซ่อนองค์ประกอบแผงในตัว"
+
+msgid "Taskbar Elements"
+msgstr "องค์ประกอบแถบงาน"
+
+msgid "Taskbar Style"
+msgstr "สไตล์แถบงาน"
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr "เปิดหรือปิดวิดเจ็ตตัวบ่งชี้แผง"
+
+msgid "Top"
+msgstr "บน"
+
+msgid "Tweaks"
+msgstr "การปรับแต่ง"
+
+msgid "Use Vista taskbar behavior"
+msgstr "พฤติกรรมแถบงานแบบ Vista"
+
+msgid "Wallpaper"
+msgstr "วอลเปเปอร์"
+
+msgid "Windows 11"
+msgstr "Show Desktop Icons"
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ ปุ่มกิจกรรม — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr "✓ นำไปใช้แล้ว — {style} | {pos}"
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr "✓ รีเซ็ตการตั้งค่าเดสก์ท็อปแล้ว รีสตาร์ท Shell เพื่อใช้งาน"
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ ใช้วอลเปเปอร์ GDM แล้ว"
+
+msgid "✓ {label} — {action}d"
+msgstr "✓ {label} — {action}แล้ว"
+
+msgid "✗ Failed to apply position"
+msgstr "✗ ล้มเหลวในการนำตำแหน่งไปใช้"
+
+msgid "✗ Failed to apply style"
+msgstr "✗ ล้มเหลวในการนำสไตล์ไปใช้"
+
+msgid "✗ Failed to reset"
+msgstr "✗ ล้มเหลวในการรีเซ็ต"
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ ไม่สามารถตั้งค่าวอลเปเปอร์ GDM ได้"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ ไม่สามารถสลับปุ่มกิจกรรมได้"
+
+msgid "✗ Failed to {action} {label}"
+msgstr "✗ ล้มเหลวในการ {action} {label}"
+
+msgid "✗ Please select an image first"
+msgstr "✗ กรุณาเลือกภาพก่อน"
+
+#~ msgid ""
+#~ "This will reset all GNOME Shell settings to factory defaults.\n"
+#~ "Your extensions, panel layout, and preferences will be lost."
+#~ msgstr ""
+#~ "การดำเนินการนี้จะรีเซ็ตการตั้งค่า GNOME Shell ทั้งหมดเป็นค่าเริ่มต้นจากโรงงาน\n"
+#~ "ส่วนขยาย เค้าโครงแผง และการกำหนดค่าของคุณจะหายไป"
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
+
+#~ msgid "Taskbar Position"
+#~ msgstr "ตำแหน่งแถบงาน"
+
+#~ msgid "Panel Position"
+#~ msgstr "ตำแหน่งแผง"
+
+#~ msgid "Choose where your taskbar sits on screen."
+#~ msgstr "เลือกตำแหน่งที่แถบงานจะปรากฏบนหน้าจอ"

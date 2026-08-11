@@ -1,0 +1,590 @@
+stages:
+  - lint
+  - publish
+  - meta
+
+verify-ci-package-needs:
+  stage: lint
+  script:
+    - python3 lib/verify-ci-package-needs.py
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH
+
+lint-all:
+  stage: lint
+  before_script:
+    - dotnet tool update -g aiursoft.apkg.client --configfile ./nuget.config || dotnet tool install -g aiursoft.apkg.client --configfile ./nuget.config
+    - export PATH="$PATH:$HOME/.dotnet/tools"
+    - apkg --version
+  script:
+    - |
+      failed=0
+      for dir in */; do
+        if ls "$dir"*.aosproj >/dev/null 2>&1; then
+          echo "::group::Linting $dir"
+          (cd "$dir" && apkg lint) || failed=1
+          echo "::endgroup::"
+        fi
+      done
+      exit $failed
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH != "master"
+
+# GNOME puts X-GNOME-Settings-Panel entries in a hidden menu directory. ArcMenu
+# builds its All Apps view from that menu tree, so standalone applications using
+# either of these categories remain searchable but disappear from All Apps.
+desktop-entry-policy:
+  stage: lint
+  script:
+    - |
+      offenders="$(grep -RIlE \
+        --include='*.desktop' \
+        '^(X-GNOME-Settings-Panel=|Categories=.*X-GNOME-(Settings-Panel|SystemSettings)(;|$))' \
+        . || true)"
+      if [ -n "$offenders" ]; then
+        echo "Standalone applications must not use GNOME Control Center panel categories:" >&2
+        echo "$offenders" >&2
+        exit 1
+      fi
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH
+
+.publish:
+  stage: publish
+  before_script:
+    - dotnet tool update -g aiursoft.apkg.client --configfile ./nuget.config || dotnet tool install -g aiursoft.apkg.client --configfile ./nuget.config
+    - export PATH="$PATH:$HOME/.dotnet/tools"
+    - apkg --version
+  script:
+    - cd "$PACKAGE_DIR"
+    - |
+      if [ "$CI_COMMIT_BRANCH" = "prod" ]; then
+        APKG_SOURCE="https://apkg.aiursoft.com"
+        APKG_KEY="$APKG_PROD_API_KEY"
+      else
+        APKG_SOURCE="https://apkg-dev.aiursoft.com"
+        APKG_KEY="$APKG_DEV_API_KEY"
+      fi
+      apkg deploy \
+        --source "$APKG_SOURCE" \
+        --api-key "$APKG_KEY" \
+        --skip-existing
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: never
+    - if: $CI_COMMIT_BRANCH == "master"
+    - if: $CI_COMMIT_BRANCH == "prod"
+
+apkg:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: apkg
+
+base-files:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: base-files
+
+plymouth-andiora:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: plymouth-andiora
+
+andiora-apt-config:
+  extends: .publish
+  needs:
+    - andiora-archive-keyring
+  variables:
+    PACKAGE_DIR: andiora-apt-config
+
+andiora-gdm3-wallpaper:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-gdm3-wallpaper
+
+andiora-apt-config-dev:
+  extends: .publish
+  needs:
+    - andiora-archive-keyring
+  variables:
+    PACKAGE_DIR: andiora-apt-config-dev
+
+andiora-appearance:
+  extends: .publish
+  needs:
+    - andiora-gdm3-wallpaper
+  variables:
+    PACKAGE_DIR: andiora-appearance
+
+andiora-no-snapd:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-no-snapd
+
+andiora-fonts:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-fonts
+
+andiora-archive-keyring:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-archive-keyring
+
+andiora-bwrap-hack:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-bwrap-hack
+
+andiora-fluent-gtk-theme:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-fluent-gtk-theme
+
+andiora-fluent-icon-theme:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-fluent-icon-theme
+
+andiora-dconf-defaults:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: andiora-dconf-defaults
+
+andiora-dconf-runtime:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-dconf-runtime
+
+andiora-deskmon:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-deskmon
+
+andiora-theme-sync:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-theme-sync
+
+gnome-shell-extension-andiora-loc:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-andiora-loc
+
+gnome-shell-extension-no-power-icon:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-no-power-icon
+
+gnome-shell-extension-noti-bottom-right:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-noti-bottom-right
+
+gnome-shell-extension-accent-gtk-theme:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-accent-gtk-theme
+
+gnome-shell-extension-accent-user-theme:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-accent-user-theme
+
+gnome-shell-extension-accent-icons-theme:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-accent-icons-theme
+
+gnome-shell-extension-appindicator-andiora:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-appindicator-andiora
+
+gnome-shell-extension-arcmenu:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-arcmenu
+
+gnome-shell-extension-blur-my-shell:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-blur-my-shell
+
+gnome-shell-extension-clipboard-indicator:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-clipboard-indicator
+
+gnome-shell-extension-customize-ibus:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-customize-ibus
+
+gnome-shell-extension-dash-to-panel-andiora:
+  extends: .publish
+  needs:
+    - andiora-appearance
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-dash-to-panel-andiora
+
+gnome-shell-extension-desktop-icons-ng-andiora:
+  extends: .publish
+  needs:
+    - andiora-appearance
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-desktop-icons-ng-andiora
+
+gnome-shell-extension-lockkeys:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-lockkeys
+
+gnome-shell-extension-mediacontrols:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-mediacontrols
+
+gnome-shell-extension-network-stats:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-network-stats
+
+gnome-shell-extension-proxy-switcher:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-proxy-switcher
+
+gnome-shell-extension-simple-weather:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-simple-weather
+
+gnome-shell-extension-tiling-assistant:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: gnome-shell-extension-tiling-assistant
+
+andiora-wallpapers:
+  extends: .publish
+  needs:
+    - andiora-dconf-runtime
+  variables:
+    PACKAGE_DIR: andiora-wallpapers
+
+alsa-ucm-conf-andiora:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: alsa-ucm-conf-andiora
+
+firmware-sof-andiora:
+  extends: .publish
+  needs:
+    - alsa-ucm-conf-andiora
+  variables:
+    PACKAGE_DIR: firmware-sof-andiora
+
+andiora-theme:
+  extends: .publish
+  stage: meta
+  needs:
+    - andiora-fluent-icon-theme
+    - andiora-fluent-gtk-theme
+    - andiora-gnome-extensions
+    - andiora-dconf-defaults
+    - plymouth-andiora
+    - andiora-wallpapers
+    - andiora-gdm3-wallpaper
+    - andiora-gnome-shell-locale
+    - andiora-fonts
+    - andiora-appearance
+  variables:
+    PACKAGE_DIR: andiora-theme
+
+andiora-software-properties-common:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-software-properties-common
+
+andiora-software-properties-gtk:
+  extends: .publish
+  needs:
+    - andiora-software-properties-common
+  variables:
+    PACKAGE_DIR: andiora-software-properties-gtk
+
+andiora-system-tweaks:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-system-tweaks
+
+andiora-kernel-parameters:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-kernel-parameters
+
+andiora-system-tweaks-server:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-system-tweaks-server
+
+andiora-templates:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-templates
+
+andiora-ufwall-gtk:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-ufwall-gtk
+
+andiora-swapcontrol-gtk:
+  extends: .publish
+  needs:
+    - andiora-swap-config
+  variables:
+    PACKAGE_DIR: andiora-swapcontrol-gtk
+
+andiora-swap-config:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-swap-config
+
+andiora-btrfs-snapshots-manager:
+  extends: .publish
+  needs:
+    - andiora-secureboot-toolkit
+  variables:
+    PACKAGE_DIR: andiora-btrfs-snapshots-manager
+
+andiora-why-ai:
+  extends: .publish
+  timeout: 3h
+  variables:
+    PACKAGE_DIR: andiora-why-ai
+
+andiora-yubikey-manager:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-yubikey-manager
+
+andiora-why-placeholder:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-why-placeholder
+
+andiora-bash-guess-command:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-bash-guess-command
+
+andiora-xbox-controller-driver:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-xbox-controller-driver
+
+andiora-driver-center:
+  extends: .publish
+  needs:
+    - andiora-secureboot-toolkit
+  variables:
+    PACKAGE_DIR: andiora-driver-center
+
+andiora-secureboot-toolkit:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-secureboot-toolkit
+
+andiora-gnome-shell-locale:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-gnome-shell-locale
+
+andiora-rime:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-rime
+
+andiora-live-settings:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-live-settings
+
+andiora-multimedia-codecs:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-multimedia-codecs
+
+andiora-installer-beta:
+  extends: .publish
+  needs:
+    - andiora-live-settings
+    - andiora-multimedia-codecs
+  variables:
+    PACKAGE_DIR: andiora-installer-beta
+
+# ── Onion-layer metapackages ─────────────────────────────────────────────
+# andiora-core-system: depends on the container, GRUB fonts, and system tweaks
+# andiora-desktop-core: depends on core-system
+# andiora-appstore:       Flatpak + GNOME Software (optional for servers)
+
+andiora-container:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-container
+
+andiora-grub-style:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-grub-style
+
+andiora-core-system:
+  extends: .publish
+  needs:
+    - andiora-container
+    - andiora-grub-style
+    - andiora-system-tweaks
+  variables:
+    PACKAGE_DIR: andiora-core-system
+
+andiora-desktop-core:
+  extends: .publish
+  stage: meta
+  needs:
+    - andiora-core-system
+    - andiora-session
+    - firmware-sof-andiora
+    - alsa-ucm-conf-andiora
+    - andiora-why-placeholder
+    - andiora-bash-guess-command
+  variables:
+    PACKAGE_DIR: andiora-desktop-core
+
+andiora-appstore:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-appstore
+
+# ── Meta-packages: must wait for their dependencies ──────────────────────
+
+andiora-gnome-extensions:
+  extends: .publish
+  stage: meta
+  needs:
+    - gnome-shell-extension-andiora-loc
+    - gnome-shell-extension-no-power-icon
+    - gnome-shell-extension-noti-bottom-right
+    - gnome-shell-extension-accent-gtk-theme
+    - gnome-shell-extension-accent-user-theme
+    - gnome-shell-extension-accent-icons-theme
+    - gnome-shell-extension-appindicator-andiora
+    - gnome-shell-extension-arcmenu
+    - gnome-shell-extension-blur-my-shell
+    - gnome-shell-extension-clipboard-indicator
+    - gnome-shell-extension-customize-ibus
+    - gnome-shell-extension-dash-to-panel-andiora
+    - gnome-shell-extension-desktop-icons-ng-andiora
+    - gnome-shell-extension-lockkeys
+    - gnome-shell-extension-network-stats
+    - gnome-shell-extension-proxy-switcher
+    - gnome-shell-extension-simple-weather
+    - gnome-shell-extension-tiling-assistant
+  variables:
+    PACKAGE_DIR: andiora-gnome-extensions
+
+andiora-session:
+  extends: .publish
+  needs:
+    - andiora-mimeapps
+  variables:
+    PACKAGE_DIR: andiora-session
+
+andiora-mimeapps:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-mimeapps
+
+firefox-andiora:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: firefox-andiora
+
+andiora-exe-runner:
+  extends: .publish
+  variables:
+    PACKAGE_DIR: andiora-exe-runner
+
+andiora-oobe:
+  extends: .publish
+  needs:
+    - andiora-appearance
+    - andiora-secureboot-toolkit
+    - andiora-driver-center
+  variables:
+    PACKAGE_DIR: andiora-oobe
+
+andiora-desktop-apps:
+  extends: .publish
+  stage: meta
+  needs:
+    - andiora-driver-center
+    - andiora-mimeapps
+    - firefox-andiora
+    - andiora-ufwall-gtk
+    - andiora-swapcontrol-gtk
+    - andiora-yubikey-manager
+    - andiora-exe-runner
+    - andiora-oobe
+    - andiora-btrfs-snapshots-manager
+  variables:
+    PACKAGE_DIR: andiora-desktop-apps
+
+# ── Ultimate meta-package ──────────────────────────────────────────────────
+
+andiora-desktop:
+  extends: .publish
+  stage: meta
+  needs:
+    - andiora-desktop-core
+    - andiora-appstore
+    - andiora-apt-config
+    - andiora-apt-config-dev
+    - andiora-deskmon
+    - andiora-theme-sync
+    - base-files
+    - andiora-theme
+    - andiora-templates
+    - andiora-software-properties-common
+    - andiora-no-snapd
+    - andiora-kernel-parameters
+    - andiora-swap-config
+    - andiora-desktop-apps
+  variables:
+    PACKAGE_DIR: andiora-desktop

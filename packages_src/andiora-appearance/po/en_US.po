@@ -1,0 +1,211 @@
+# Andiora Appearance — English (United States) translation.
+# Copyright (C) 2026 Andiora Team
+msgid ""
+msgstr ""
+"Project-Id-Version: andiora-appearance 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-27 05:08+0000\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "About Andiora Appearance"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Andiora Appearance"
+msgstr ""
+
+msgid "Andiora Team"
+msgstr ""
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Apply to Login Screen"
+msgstr "Apply to Login Screen"
+
+msgid "Bottom"
+msgstr "Bottom"
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Choose an image for the GDM login screen background."
+msgstr "Choose an image for the GDM login screen background."
+
+msgid "Choose the visual style of your taskbar."
+msgstr ""
+
+msgid "Choose…"
+msgstr "Choose…"
+
+msgid "Classic"
+msgstr "Classic"
+
+msgid "Combine multiple windows of one app into a single icon"
+msgstr "Combine multiple windows of one app into a single icon"
+
+msgid "Danger Zone"
+msgstr ""
+
+msgid "Display the Activities button on the taskbar"
+msgstr "Display the Activities button on the taskbar"
+
+msgid "Enable grouping"
+msgstr "Enable grouping"
+
+msgid "Extension Settings"
+msgstr ""
+
+msgid "GDM Wallpaper"
+msgstr "GDM Wallpaper"
+
+msgid "Group apps"
+msgstr "Group apps"
+
+msgid "Images"
+msgstr "Images"
+
+msgid "Keep launchers separate from running apps"
+msgstr "Keep launchers separate from running apps"
+
+msgid "Layout"
+msgstr ""
+
+msgid "Left"
+msgstr "Left"
+
+msgid "Login Screen Wallpaper"
+msgstr "Login Screen Wallpaper"
+
+msgid "Open"
+msgstr ""
+
+msgid "Open the preference windows of the panel extensions."
+msgstr ""
+
+msgid "Panel Indicators"
+msgstr ""
+
+msgid "Panel Widgets"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reset desktop settings"
+msgstr ""
+
+msgid "Reset desktop settings?"
+msgstr ""
+
+msgid "Restore all GNOME Shell settings to factory defaults"
+msgstr ""
+
+msgid "Right"
+msgstr "Right"
+
+msgid "Select image"
+msgstr "Select image"
+
+msgid "Seperated"
+msgstr "Seperated"
+
+msgid "Show Activities Button"
+msgstr "Show Activities Button"
+
+msgid "Show Desktop Icons"
+msgstr ""
+
+msgid "Show Network"
+msgstr "Show Network"
+
+msgid "Show Weather"
+msgstr "Show Weather"
+
+msgid "Show or hide built-in panel elements."
+msgstr "Show or hide built-in panel elements."
+
+msgid "Taskbar Elements"
+msgstr "Taskbar Elements"
+
+msgid "Taskbar Style"
+msgstr ""
+
+msgid "Toggle panel indicator widgets on or off."
+msgstr ""
+
+msgid "Top"
+msgstr "Top"
+
+msgid "Tweaks"
+msgstr ""
+
+msgid "Use Vista taskbar behavior"
+msgstr "Use Vista taskbar behavior"
+
+msgid "Wallpaper"
+msgstr ""
+
+msgid "Windows 11"
+msgstr ""
+
+msgid "✓ Activities button — {action}n"
+msgstr "✓ Activities button — {action}n"
+
+msgid "✓ Applied — {style} | {pos}"
+msgstr ""
+
+msgid "✓ Desktop settings reset. Restart Shell to apply."
+msgstr ""
+
+msgid "✓ GDM wallpaper applied"
+msgstr "✓ GDM wallpaper applied"
+
+msgid "✓ {label} — {action}d"
+msgstr ""
+
+msgid "✗ Failed to apply position"
+msgstr ""
+
+msgid "✗ Failed to apply style"
+msgstr ""
+
+msgid "✗ Failed to reset"
+msgstr ""
+
+msgid "✗ Failed to set GDM wallpaper"
+msgstr "✗ Failed to set GDM wallpaper"
+
+msgid "✗ Failed to toggle activities button"
+msgstr "✗ Failed to toggle activities button"
+
+msgid "✗ Failed to {action} {label}"
+msgstr ""
+
+msgid "✗ Please select an image first"
+msgstr "✗ Please select an image first"
+
+#~ msgid "Effects"
+#~ msgstr "Effects"
+
+#~ msgid "Blur background"
+#~ msgstr "Blur background"
+
+#~ msgid "Apply a subtle blur to the wallpaper"
+#~ msgstr "Apply a subtle blur to the wallpaper"
+
+#~ msgid "Darken background"
+#~ msgstr "Darken background"
+
+#~ msgid "Add a dark overlay to the wallpaper"
+#~ msgstr "Add a dark overlay to the wallpaper"
