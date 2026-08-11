@@ -106,31 +106,68 @@ EOF
     # Ubuntu 24.04+ uses deb822 .sources files in sources.list.d/ instead.
     sudo rm -f new_building_os/etc/apt/sources.list
 
-    print_ok "Setting up AnduinOS APKG apt source in chroot..."
+    print_ok "Setting up Andiora local apt repository in chroot..."
 
-    local keyring_path="new_building_os/usr/share/keyrings/anduinos-archive-keyring.gpg"
-    local cert_url="$APKG_SERVER/artifacts/certs/$APKG_CERT_NAME"
+    # ── Local package repository (no internet required) ────────────────────────
+    # All Andiora-branded .deb packages must be placed in:
+    #   $SCRIPT_DIR/packages_src/local_debs/
+    # The build will scan them and create a local apt repo inside the chroot.
+    local local_debs_host="$SCRIPT_DIR/packages_src/local_debs"
+    local local_debs_chroot="new_building_os/andiora_local_repo"
 
-    print_ok "Downloading GPG keyring from $cert_url ..."
-    sudo mkdir -p new_building_os/usr/share/keyrings
-    curl --fail --show-error --location "$cert_url" | \
-        sed '1s/^\xEF\xBB\xBF//' | \
-        gpg --dearmor | \
-        sudo tee "$keyring_path" > /dev/null
-    judge "Download and dearmor keyring"
+    if [ -d "$local_debs_host" ] && [ -n "$(ls -A "$local_debs_host" 2>/dev/null)" ]; then
+        print_ok "Found local .deb packages in $local_debs_host — setting up local APT repo..."
 
-    local apkg_suite="${APKG_SUITE:-${TARGET_UBUNTU_VERSION}-addon}"
-    print_ok "Generating anduinos.sources for $APKG_SERVER (suite: $apkg_suite)..."
-    sudo mkdir -p new_building_os/etc/apt/sources.list.d
-    sudo tee new_building_os/etc/apt/sources.list.d/anduinos.sources > /dev/null <<EOF
+        # Copy .deb files into chroot
+        sudo mkdir -p "$local_debs_chroot"
+        sudo cp "$local_debs_host"/*.deb "$local_debs_chroot/" 2>/dev/null || true
+
+        # Generate Packages index inside chroot
+        sudo chroot new_building_os bash -c \
+            'apt-get install -y --no-install-recommends dpkg-dev 2>/dev/null || true ; \
+             cd /andiora_local_repo && dpkg-scanpackages . > Packages 2>/dev/null'
+
+        # Add local repo as highest-priority apt source
+        sudo mkdir -p new_building_os/etc/apt/sources.list.d
+        echo 'deb [trusted=yes] file:///andiora_local_repo ./' | \
+            sudo tee new_building_os/etc/apt/sources.list.d/andiora-local.list > /dev/null
+
+        # Pin local repo to highest priority so it wins over Ubuntu packages
+        sudo tee new_building_os/etc/apt/preferences.d/99-andiora-local > /dev/null <<'PINEOF'
+Package: *
+Pin: origin ""
+Pin-Priority: 1001
+PINEOF
+
+        print_ok "Local Andiora apt repo configured ($(ls "$local_debs_host"/*.deb 2>/dev/null | wc -l) packages)."
+    else
+        print_warn "No local .deb packages found in $local_debs_host — falling back to web APKG server."
+
+        local keyring_path="new_building_os/usr/share/keyrings/andiora-archive-keyring.gpg"
+        local cert_url="$APKG_SERVER/artifacts/certs/$APKG_CERT_NAME"
+
+        print_ok "Downloading GPG keyring from $cert_url ..."
+        sudo mkdir -p new_building_os/usr/share/keyrings
+        curl --fail --show-error --location "$cert_url" | \
+            sed '1s/^\xEF\xBB\xBF//' | \
+            gpg --dearmor | \
+            sudo tee "$keyring_path" > /dev/null
+        judge "Download and dearmor keyring"
+
+        local apkg_suite="${APKG_SUITE:-${TARGET_UBUNTU_VERSION}-addon}"
+        print_ok "Generating andiora.sources for $APKG_SERVER (suite: $apkg_suite)..."
+        sudo mkdir -p new_building_os/etc/apt/sources.list.d
+        sudo tee new_building_os/etc/apt/sources.list.d/andiora.sources > /dev/null <<EOF
 Types: deb
-URIs: $APKG_SERVER/artifacts/anduinos/
+URIs: $APKG_SERVER/artifacts/andiora/
 Suites: $apkg_suite
 Components: main
 Architectures: $TARGET_ARCH
-Signed-By: /usr/share/keyrings/anduinos-archive-keyring.gpg
+Signed-By: /usr/share/keyrings/andiora-archive-keyring.gpg
 EOF
-    judge "Generate sources"
+        judge "Generate sources"
+    fi
+
 
     print_ok "Enabling apt recommends in chroot..."
     echo 'APT::Install-Recommends "true";' | sudo tee new_building_os/etc/apt/apt.conf.d/99-enable-recommends > /dev/null
