@@ -54,6 +54,10 @@ apt install -y plymouth-andiora --no-install-recommends || \
 apt install -y plymouth-anduinos --no-install-recommends || \
 print_warn "plymouth-andiora package not found, using stock plymouth."
 
+print_ok "Installing local Andiora branding overrides (dconf-defaults & oobe)..."
+apt install -y andiora-dconf-defaults andiora-oobe --no-install-recommends || \
+print_warn "Local Andiora branding packages not found."
+
 print_ok "Installing AnduinOS native installer..."
 apt install -y anduinos-installer-beta --no-install-recommends || \
 apt install -y anduinos-installer-config --no-install-recommends || \
