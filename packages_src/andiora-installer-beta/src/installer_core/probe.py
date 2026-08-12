@@ -141,7 +141,10 @@ def probe_disks(
 
     disks: list[DiskIdentity] = []
     for item in devices:
-        if item.get("type") != "disk" or bool(item.get("rm")):
+        is_rm = bool(item.get("rm"))
+        model = str(item.get("model") or "").strip()
+        # VirtualBox virtual SATA/IDE hard disks may report rm=true; allow VBOX HARDDISK
+        if item.get("type") != "disk" or (is_rm and "VBOX" not in model.upper()):
             continue
         path = str(item.get("path", ""))
         if not SUPPORTED_WHOLE_DISK_RE.fullmatch(path):

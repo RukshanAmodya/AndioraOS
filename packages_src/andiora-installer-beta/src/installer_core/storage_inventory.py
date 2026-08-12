@@ -224,7 +224,10 @@ def probe_storage_inventory(
     for root in roots:
         if not isinstance(root, dict):
             continue
-        if str(root.get("type") or "") != "disk" or _as_bool(root.get("rm")):
+        is_rm = _as_bool(root.get("rm"))
+        model = str(root.get("model") or "").strip()
+        # VirtualBox virtual SATA/IDE hard disks may report rm=true; allow VBOX HARDDISK
+        if str(root.get("type") or "") != "disk" or (is_rm and "VBOX" not in model.upper()):
             continue
         path = str(root.get("path") or "")
         if not SUPPORTED_WHOLE_DISK_RE.fullmatch(path):
