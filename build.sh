@@ -401,7 +401,7 @@ EOF
     judge "Compress rootfs"
 
     print_ok "Verifying the integrity of filesystem.squashfs..."
-    if sudo unsquashfs -s image/casper/filesystem.squashfs; then
+    if unsquashfs -s image/casper/filesystem.squashfs; then
         print_ok "Verification successful. The file appears to be valid."
     else
         print_error "Verification FAILED! The squashfs file is likely corrupt."
