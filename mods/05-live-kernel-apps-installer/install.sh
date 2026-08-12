@@ -72,7 +72,7 @@ judge "Install Andiora installer"
 # metapackage dependency. The native installer retains this package for Btrfs
 # targets and purges it from ext4 targets through its explicit cleanup policy.
 print_ok "Installing conditional Disk Snapshots Manager payload..."
-apt install -y andiora-btrfs-snapshots-manager --no-install-recommends || \
-apt install -y anduinos-btrfs-snapshots-manager --no-install-recommends || \
-print_warn "btrfs-snapshots-manager package not found, skipping optional payload."
+(apt install -y andiora-btrfs-snapshots-manager --no-install-recommends || \
+ apt install -y anduinos-btrfs-snapshots-manager --no-install-recommends || true) 2>/dev/null || true
+print_warn "Optional btrfs-snapshots-manager payload process completed."
 
